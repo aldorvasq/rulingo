@@ -189,7 +189,7 @@ export const useStore = create<PersistedState & Actions>()(
       resetAll: () => set(initial()),
     }),
     {
-      name: 'tochka-ru',
+      name: 'rulingo',
       version: 1,
       partialize: ({ settings, progress, stats, streak, badges, lastBackup }) => ({ settings, progress, stats, streak, badges, lastBackup }),
       merge: (persisted, current) => {

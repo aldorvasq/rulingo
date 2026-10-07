@@ -1,7 +1,7 @@
 import { dayKey } from '../lib/date'
 import { snapshot, useStore, type PersistedState } from './store'
 
-const APP = 'tochka-ru'
+const APP = 'rulingo'
 
 /**
  * Export progress as a JSON file. On phones the share sheet lets the user drop it straight into
@@ -9,12 +9,12 @@ const APP = 'tochka-ru'
  */
 export async function exportProgress(): Promise<'shared' | 'downloaded' | 'cancelled'> {
   const data = JSON.stringify({ app: APP, version: 1, exportedAt: new Date().toISOString(), state: snapshot() })
-  const name = `tochka-ru-progreso-${dayKey()}.json`
+  const name = `rulingo-progreso-${dayKey()}.json`
   const file = new File([data], name, { type: 'application/json' })
 
   if (navigator.canShare?.({ files: [file] })) {
     try {
-      await navigator.share({ files: [file], title: 'Progreso Точка Ру' })
+      await navigator.share({ files: [file], title: 'Progreso РуЛинго' })
       useStore.getState().markBackup()
       return 'shared'
     } catch (e) {
@@ -35,7 +35,7 @@ export async function exportProgress(): Promise<'shared' | 'downloaded' | 'cance
 export async function readBackup(file: File): Promise<PersistedState> {
   const parsed = JSON.parse(await file.text())
   if (parsed?.app !== APP || !parsed.state?.settings || !parsed.state?.progress) {
-    throw new Error('Este archivo no es un respaldo de Точка Ру.')
+    throw new Error('Este archivo no es un respaldo de РуЛинго.')
   }
   return parsed.state as PersistedState
 }

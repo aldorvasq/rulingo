@@ -21,7 +21,7 @@ export function Onboarding() {
       {step === 0 && (
         <div className="flex flex-1 flex-col">
           <div className="animate-pop text-center text-7xl">🪆</div>
-          <h1 className="ru mt-4 text-center text-4xl font-extrabold">Точка Ру</h1>
+          <h1 className="ru mt-4 text-center text-4xl font-extrabold"><span className="text-brand">Ру</span>Линго</h1>
           <p className="mt-2 text-center font-semibold text-muted">Practica ruso con lo que estás viendo en clase: vocabulario, gramática y las historias del libro.</p>
           <label className="mt-8 block">
             <span className="mb-1 block font-bold">¿Cómo te llamas?</span>

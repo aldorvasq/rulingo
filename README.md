@@ -1,4 +1,4 @@
-# Точка Ру — Práctica
+# РуЛинго (RuLingo)
 
 A Duolingo-style practice app for the Russian A1 textbook **Точка Ру** (Dolmatova & Novacac), with the interface in Spanish. It's an installable web app (PWA) that runs entirely in the browser, so it can be hosted on GitHub Pages.
 

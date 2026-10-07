@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 // GitHub Pages serves the site from /<repo>/; override with BASE_PATH if the repo name changes.
-const base = process.env.BASE_PATH ?? (process.env.NODE_ENV === 'production' ? '/tochka-ru/' : '/')
+const base = process.env.BASE_PATH ?? (process.env.NODE_ENV === 'production' ? '/rulingo/' : '/')
 
 export default defineConfig({
   base,
@@ -17,8 +17,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icon.svg', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Точка Ру — Práctica',
-        short_name: 'Точка Ру',
+        name: 'РуЛинго',
+        short_name: 'РуЛинго',
         description: 'Practica ruso con el contenido de Точка Ру A1',
         lang: 'es',
         theme_color: '#14b8a6',
