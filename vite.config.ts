@@ -3,8 +3,9 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// GitHub Pages serves the site from /<repo>/; override with BASE_PATH if the repo name changes.
-const base = process.env.BASE_PATH ?? (process.env.NODE_ENV === 'production' ? '/rulingo/' : '/')
+// Served from the domain root by default (Cloudflare Pages / Netlify). The GitHub Pages workflow
+// sets BASE_PATH=/<repo>/ because Pages serves project sites from a subfolder.
+const base = process.env.BASE_PATH ?? '/'
 
 export default defineConfig({
   base,
