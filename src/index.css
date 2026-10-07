@@ -1,0 +1,108 @@
+@import "tailwindcss";
+/* Rubik positions combining stress marks (U+0301) correctly on every Cyrillic vowel — Nunito,
+   Comfortaa and Apple's system font misplace them on я/ю. */
+@import "@fontsource-variable/rubik";
+
+:root {
+  --bg: #f6fbfa;
+  --card: #ffffff;
+  --ink: #1f2a2e;
+  --muted: #6b7b80;
+  --line: #e3ecea;
+  --soft: #eef6f4;
+  --brand: #14b8a6;
+  --brand-dark: #0f8f81;
+  --coral: #ef4f45;
+  --coral-dark: #c73a31;
+  --ok: #58b51c;
+  --ok-dark: #449012;
+  --ok-soft: #e4f6d6;
+  --bad: #e5484d;
+  --bad-dark: #b8363a;
+  --bad-soft: #fde4e4;
+  --gold: #f5b70a;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11181b;
+    --card: #1a2327;
+    --ink: #e8f0f0;
+    --muted: #93a4a8;
+    --line: #2b383d;
+    --soft: #1f2b2f;
+    --ok-soft: #1f3317;
+    --bad-soft: #3a1d1f;
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --font-sans: "Rubik Variable", system-ui, sans-serif;
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-soft: var(--soft);
+  --color-brand: var(--brand);
+  --color-brand-dark: var(--brand-dark);
+  --color-coral: var(--coral);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-gold: var(--gold);
+}
+
+html, body, #root { height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+@layer components {
+  /* Duolingo-style chunky buttons: a darker bottom edge that compresses when pressed. */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 font-extrabold uppercase tracking-wide
+      text-sm select-none transition-[transform,box-shadow] duration-75 disabled:opacity-40 disabled:pointer-events-none;
+    box-shadow: 0 4px 0 var(--shadow, rgba(0, 0, 0, 0.15));
+  }
+  .btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--shadow, rgba(0, 0, 0, 0.15)); }
+  .btn-primary { background: var(--brand); color: white; --shadow: var(--brand-dark); }
+  .btn-ok { background: var(--ok); color: white; --shadow: var(--ok-dark); }
+  .btn-bad { background: var(--bad); color: white; --shadow: var(--bad-dark); }
+  .btn-coral { background: var(--coral); color: white; --shadow: var(--coral-dark); }
+  .btn-ghost { background: var(--card); color: var(--ink); border: 2px solid var(--line); --shadow: var(--line); }
+
+  .tile {
+    @apply rounded-2xl border-2 border-line bg-card px-4 py-3 text-left font-semibold transition-colors select-none;
+    box-shadow: 0 3px 0 var(--line);
+  }
+  .tile:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--line); }
+  .tile-selected { border-color: var(--brand); background: color-mix(in srgb, var(--brand) 12%, var(--card)); box-shadow: 0 3px 0 var(--brand); }
+  .tile-ok { border-color: var(--ok); background: var(--ok-soft); box-shadow: 0 3px 0 var(--ok); }
+  .tile-bad { border-color: var(--bad); background: var(--bad-soft); box-shadow: 0 3px 0 var(--bad); }
+
+  .card { @apply rounded-3xl border-2 border-line bg-card; }
+  .chip { @apply inline-flex items-center gap-1 rounded-full border-2 border-line bg-card px-3 py-1 text-sm font-bold; }
+}
+
+.ru { font-feature-settings: "kern"; }
+
+@keyframes pop { 0% { transform: scale(0.6); opacity: 0 } 70% { transform: scale(1.08) } 100% { transform: scale(1); opacity: 1 } }
+.animate-pop { animation: pop 0.35s ease-out both; }
+@keyframes slideup { from { transform: translateY(100%) } to { transform: translateY(0) } }
+.animate-slideup { animation: slideup 0.2s ease-out both; }
+@keyframes shake { 0%, 100% { transform: translateX(0) } 25% { transform: translateX(-6px) } 75% { transform: translateX(6px) } }
+.animate-shake { animation: shake 0.25s ease-in-out; }
+@keyframes flame { 0%, 100% { transform: scale(1) rotate(-3deg) } 50% { transform: scale(1.12) rotate(3deg) } }
+.animate-flame { animation: flame 1.2s ease-in-out infinite; }
+@keyframes confetti-fall { to { transform: translateY(110vh) rotate(720deg); } }
+
+.pb-safe { padding-bottom: max(env(safe-area-inset-bottom), 0.75rem); }
+.pt-safe { padding-top: max(env(safe-area-inset-top), 0.5rem); }

@@ -1,0 +1,222 @@
+{
+  "id": "3.4-clase",
+  "lessons": [
+    {
+      "id": "3.4",
+      "grammar": [
+        {
+          "id": "3.4x-g-adverbs-o",
+          "title": "Adverbios en -о: гро́мкий → гро́мко",
+          "explanationEs": "Muchos adverbios se forman del adjetivo: quitamos **-ый / -ий / -ой** y ponemos **-о**.\n\n- гро́мкий → гро́мко\n- ти́хий → ти́хо\n- плохо́й → пло́хо\n\nEl adverbio responde a **¿Как?** (¿cómo?) y describe un **verbo**: Он говори́т **гро́мко**. Nunca cambia de forma (no tiene género ni plural).\n\n**Ojo con el acento:** хоро́ший → хорошо́, дешёвый → дёшево, тёплый → тепло́, лёгкий → легко́.\n\nTambién funcionan con **о́чень** y **не о́чень**: Ба́бушка гото́вит **о́чень вку́сно**.",
+          "tables": [
+            {
+              "caption": "Adjetivo (¿Како́й?) → adverbio (¿Как?)",
+              "headers": ["Како́й?", "Как?", "Español"],
+              "rows": [
+                ["гро́мкий", "гро́мко", "fuerte, en voz alta"],
+                ["ти́хий", "ти́хо", "bajito, en silencio"],
+                ["бы́стрый", "бы́стро", "rápido"],
+                ["ме́дленный", "ме́дленно", "despacio"],
+                ["хоро́ший", "хорошо́", "bien"],
+                ["плохо́й", "пло́хо", "mal"],
+                ["весёлый", "ве́село", "alegremente, divertido"],
+                ["гру́стный", "гру́стно", "con tristeza"],
+                ["интере́сный", "интере́сно", "de forma interesante"],
+                ["ску́чный", "ску́чно", "aburrido"],
+                ["краси́вый", "краси́во", "bonito"],
+                ["вку́сный", "вку́сно", "rico, sabroso"],
+                ["ве́жливый", "ве́жливо", "con cortesía"],
+                ["гру́бый", "гру́бо", "groseramente"]
+              ]
+            },
+            {
+              "caption": "Parejas de adverbios opuestos",
+              "headers": ["", "↔", ""],
+              "rows": [
+                ["гро́мко", "↔", "ти́хо"],
+                ["бы́стро", "↔", "ме́дленно"],
+                ["хорошо́", "↔", "пло́хо"],
+                ["ра́но", "↔", "по́здно"],
+                ["ча́сто", "↔", "ре́дко"],
+                ["мно́го", "↔", "ма́ло"],
+                ["далеко́", "↔", "бли́зко"],
+                ["легко́", "↔", "тру́дно"],
+                ["до́рого", "↔", "дёшево"],
+                ["ве́село", "↔", "гру́стно"],
+                ["ве́жливо", "↔", "гру́бо"],
+                ["чи́сто", "↔", "гря́зно"]
+              ]
+            }
+          ],
+          "examples": [
+            { "ru": "Но́вые сосе́ди гро́мко слу́шают му́зыку.", "es": "Los vecinos nuevos escuchan música a todo volumen." },
+            { "ru": "Пенсионе́ры внизу́ говоря́т ти́хо и ме́дленно.", "es": "Los jubilados de abajo hablan bajito y despacio." },
+            { "ru": "Ты о́чень хорошо́ говори́шь по-ру́сски!", "es": "¡Hablas ruso muy bien!" }
+          ]
+        },
+        {
+          "id": "3.4x-g-kakoj-kak",
+          "title": "Preguntas: Како́й? Кака́я? Како́е? Каки́е? y Как?",
+          "explanationEs": "**Како́й** pregunta por una cualidad (¿cómo es…?, ¿qué tipo de…?) y concuerda con el sustantivo, igual que un adjetivo:\n\n- **Како́й** дом? — Большо́й. (он)\n- **Кака́я** кварти́ра? — Ма́ленькая. (она́)\n- **Како́е** окно́? — Большо́е. (оно́)\n- **Каки́е** сосе́ди? — Шу́мные. (они́)\n\n**Как?** pregunta cómo se hace una acción, y la respuesta es un adverbio:\n\n- **Как** они́ слу́шают му́зыку? — Гро́мко.\n\n**Truco:** mira la respuesta. Si es un adjetivo (шу́мный, ти́хая…) → како́й / кака́я / како́е / каки́е. Si es un adverbio (гро́мко, ти́хо…) → как.",
+          "tables": [
+            {
+              "caption": "La pregunta copia la terminación del adjetivo",
+              "headers": ["", "Pregunta", "Respuesta"],
+              "rows": [
+                ["он", "Како́й сосе́д?", "шу́мный, молодо́й"],
+                ["она́", "Кака́я соба́ка?", "больша́я, гро́мкая"],
+                ["оно́", "Како́е окно́?", "но́вое, чи́стое"],
+                ["они́", "Каки́е де́ти?", "весёлые, шу́мные"],
+                ["verbo", "Как он игра́ет?", "гро́мко, пло́хо"]
+              ]
+            }
+          ],
+          "examples": [
+            { "ru": "— Каки́е у вас сосе́ди? — Ти́хие и ве́жливые.", "es": "—¿Cómo son tus vecinos? —Tranquilos y amables." },
+            { "ru": "— Как ты понима́ешь по-ру́сски? — Уже́ хорошо́!", "es": "—¿Qué tal entiendes ruso? —¡Ya bien!" }
+          ]
+        }
+      ],
+      "vocab": [
+        { "id": "3.4x-v-kakoj", "ru": "како́й", "es": "¿qué?, ¿cómo es…? (cualidad)", "pos": "pron", "forms": { "m": "како́й", "f": "кака́я", "n": "како́е", "pl": "каки́е" }, "topic": "preguntas" },
+        { "id": "3.4x-v-kak", "ru": "как", "es": "¿cómo? (de qué manera)", "pos": "adv", "topic": "preguntas" },
+        { "id": "3.4x-v-gromko", "ru": "гро́мко", "es": "fuerte, en voz alta", "pos": "adv", "antonyms": ["ти́хо"], "topic": "adverbios" },
+        { "id": "3.4x-v-tikho", "ru": "ти́хо", "es": "bajito, en silencio", "pos": "adv", "antonyms": ["гро́мко", "шу́мно"], "topic": "adverbios" },
+        { "id": "3.4x-v-shumno", "ru": "шу́мно", "es": "con mucho ruido", "pos": "adv", "antonyms": ["ти́хо"], "topic": "adverbios" },
+        { "id": "3.4x-v-bystro", "ru": "бы́стро", "es": "rápido", "pos": "adv", "antonyms": ["ме́дленно"], "topic": "adverbios" },
+        { "id": "3.4x-v-medlenno", "ru": "ме́дленно", "es": "despacio", "pos": "adv", "antonyms": ["бы́стро"], "topic": "adverbios" },
+        { "id": "3.4x-v-veselo", "ru": "ве́село", "es": "alegremente, divertido", "pos": "adv", "antonyms": ["гру́стно", "ску́чно"], "topic": "adverbios" },
+        { "id": "3.4x-v-grustno", "ru": "гру́стно", "es": "con tristeza", "pos": "adv", "antonyms": ["ве́село"], "topic": "adverbios" },
+        { "id": "3.4x-v-interesno", "ru": "интере́сно", "es": "de forma interesante", "pos": "adv", "antonyms": ["ску́чно"], "topic": "adverbios" },
+        { "id": "3.4x-v-skuchno", "ru": "ску́чно", "es": "aburrido", "pos": "adv", "antonyms": ["интере́сно", "ве́село"], "topic": "adverbios" },
+        { "id": "3.4x-v-rano", "ru": "ра́но", "es": "temprano", "pos": "adv", "antonyms": ["по́здно"], "topic": "adverbios" },
+        { "id": "3.4x-v-pozdno", "ru": "по́здно", "es": "tarde", "pos": "adv", "antonyms": ["ра́но"], "topic": "adverbios" },
+        { "id": "3.4x-v-chasto", "ru": "ча́сто", "es": "seguido, a menudo", "pos": "adv", "antonyms": ["ре́дко"], "topic": "adverbios" },
+        { "id": "3.4x-v-redko", "ru": "ре́дко", "es": "rara vez", "pos": "adv", "antonyms": ["ча́сто"], "topic": "adverbios" },
+        { "id": "3.4x-v-mnogo", "ru": "мно́го", "es": "mucho", "pos": "adv", "antonyms": ["ма́ло"], "topic": "adverbios" },
+        { "id": "3.4x-v-malo", "ru": "ма́ло", "es": "poco", "pos": "adv", "antonyms": ["мно́го"], "topic": "adverbios" },
+        { "id": "3.4x-v-daleko", "ru": "далеко́", "es": "lejos", "pos": "adv", "antonyms": ["бли́зко"], "topic": "adverbios" },
+        { "id": "3.4x-v-blizko", "ru": "бли́зко", "es": "cerca", "pos": "adv", "antonyms": ["далеко́"], "topic": "adverbios" },
+        { "id": "3.4x-v-legko", "ru": "легко́", "es": "fácil, fácilmente", "pos": "adv", "antonyms": ["тру́дно"], "topic": "adverbios" },
+        { "id": "3.4x-v-trudno", "ru": "тру́дно", "es": "difícil", "pos": "adv", "antonyms": ["легко́"], "topic": "adverbios" },
+        { "id": "3.4x-v-dorogo", "ru": "до́рого", "es": "caro", "pos": "adv", "antonyms": ["дёшево"], "topic": "adverbios" },
+        { "id": "3.4x-v-deshevo", "ru": "дёшево", "es": "barato", "pos": "adv", "antonyms": ["до́рого"], "topic": "adverbios" },
+        { "id": "3.4x-v-vezhlivo", "ru": "ве́жливо", "es": "con cortesía, amablemente", "pos": "adv", "antonyms": ["гру́бо"], "topic": "adverbios" },
+        { "id": "3.4x-v-grubo", "ru": "гру́бо", "es": "groseramente", "pos": "adv", "antonyms": ["ве́жливо"], "topic": "adverbios" },
+        { "id": "3.4x-v-chisto", "ru": "чи́сто", "es": "limpio", "pos": "adv", "antonyms": ["гря́зно"], "topic": "adverbios" },
+        { "id": "3.4x-v-gryazno", "ru": "гря́зно", "es": "sucio", "pos": "adv", "antonyms": ["чи́сто"], "topic": "adverbios" },
+        { "id": "3.4x-v-vkusno", "ru": "вку́сно", "es": "rico, sabroso", "pos": "adv", "antonyms": ["невку́сно"], "topic": "adverbios" },
+        { "id": "3.4x-v-krasivo", "ru": "краси́во", "es": "bonito, de forma bonita", "pos": "adv", "antonyms": ["некраси́во"], "topic": "adverbios" },
+        { "id": "3.4x-v-pravilno", "ru": "пра́вильно", "es": "correctamente", "pos": "adv", "antonyms": ["непра́вильно"], "topic": "adverbios" },
+        { "id": "3.4x-v-spokojno", "ru": "споко́йно", "es": "con calma, tranquilo", "pos": "adv", "antonyms": ["шу́мно"], "topic": "adverbios" }
+      ],
+      "sentences": [
+        { "ru": "Сосе́ди наверху́ живу́т о́чень шу́мно.", "es": "Los vecinos de arriba viven con mucho ruido.", "tags": ["3.4x-g-adverbs-o", "3.4x-v-shumno"] },
+        { "ru": "Пенсионе́ры внизу́ говоря́т ти́хо.", "es": "Los jubilados de abajo hablan bajito.", "tags": ["3.4x-g-adverbs-o", "3.4x-v-tikho"] },
+        { "ru": "Како́й у вас дом?", "es": "¿Cómo es su casa?", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"] },
+        { "ru": "Кака́я у тебя́ кварти́ра?", "es": "¿Cómo es tu departamento?", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"] },
+        { "ru": "Каки́е у них де́ти?", "es": "¿Cómo son sus hijos?", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"] },
+        { "ru": "Как ты говори́шь по-ру́сски?", "es": "¿Qué tal hablas ruso?", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kak"] },
+        { "ru": "Я говорю́ по-ру́сски ме́дленно, но пра́вильно.", "es": "Hablo ruso despacio, pero correctamente.", "tags": ["3.4x-v-medlenno", "3.4x-v-pravilno"] },
+        { "ru": "Ма́ша ре́дко смо́трит телеви́зор.", "es": "Masha rara vez ve la tele.", "tags": ["3.4x-v-redko"] },
+        { "ru": "Ба́бушка о́чень вку́сно гото́вит.", "es": "La abuela cocina muy rico.", "tags": ["3.4x-v-vkusno"] },
+        { "ru": "Па́па наверху́ мно́го рабо́тает и ма́ло отдыха́ет.", "es": "El papá de arriba trabaja mucho y descansa poco.", "tags": ["3.4x-v-mnogo", "3.4x-v-malo"] },
+        { "ru": "Но́вые сосе́ди говоря́т гро́мко, но ве́жливо.", "es": "Los vecinos nuevos hablan fuerte, pero con cortesía.", "tags": ["3.4x-v-gromko", "3.4x-v-vezhlivo"] },
+        { "ru": "Здесь краси́во и ти́хо.", "es": "Aquí es bonito y tranquilo.", "tags": ["3.4x-v-krasivo", "3.4x-v-tikho"] }
+      ],
+      "readings": [
+        {
+          "id": "3.4x-r-subbota",
+          "title": "Шу́мная суббо́та",
+          "textRu": "Сего́дня суббо́та. Ма́ша до́ма и чита́ет кни́гу. Кни́га интере́сная, но чита́ть тру́дно: наверху́ о́чень шу́мно. Но́вые сосе́ди гро́мко слу́шают му́зыку, их сын пло́хо игра́ет на гита́ре, а их соба́ка то́же о́чень гро́мкая.\n\nВнизу́ живу́т пенсионе́ры, Ве́ра Ива́новна и Пётр Ива́нович. У них всегда́ ти́хо. Ве́ра Ива́новна вку́сно гото́вит, а Пётр Ива́нович ме́дленно и краси́во рису́ет.\n\nМа́ша ду́мает: «Каки́е ра́зные сосе́ди! Наверху́ — гро́мко и ве́село, внизу́ — ти́хо и споко́йно». Ве́чером сосе́ди наверху́ отдыха́ют, и наконе́ц ти́хо. Ма́ша чита́ет кни́гу. Как хорошо́!",
+          "textEs": "Hoy es sábado. Masha está en casa leyendo un libro. El libro es interesante, pero es difícil leer: arriba hay mucho ruido. Los vecinos nuevos escuchan música a todo volumen, su hijo toca mal la guitarra y su perro también es muy ruidoso.\n\nAbajo viven unos jubilados, Vera Ivánovna y Piotr Ivánovich. En su casa siempre hay silencio. Vera Ivánovna cocina rico y Piotr Ivánovich pinta despacio y bonito.\n\nMasha piensa: «¡Qué vecinos tan distintos! Arriba, ruido y fiesta; abajo, silencio y calma». En la noche los vecinos de arriba descansan y por fin hay silencio. Masha lee su libro. ¡Qué bien!",
+          "questions": [
+            { "q": "Кака́я кни́га у Ма́ши?", "qEs": "¿Cómo es el libro de Masha?", "choices": ["Интере́сная", "Ску́чная", "Ста́рая"], "answer": 0 },
+            { "q": "Как сын сосе́дей игра́ет на гита́ре?", "qEs": "¿Cómo toca la guitarra el hijo de los vecinos?", "choices": ["Пло́хо", "Хорошо́", "Ти́хо"], "answer": 0 },
+            { "q": "Как гото́вит Ве́ра Ива́новна?", "qEs": "¿Cómo cocina Vera Ivánovna?", "choices": ["Вку́сно", "Гро́мко", "Пло́хо"], "answer": 0 },
+            { "q": "Где всегда́ ти́хо?", "qEs": "¿Dónde siempre hay silencio?", "choices": ["Внизу́", "Наверху́", "На у́лице"], "answer": 0 },
+            { "q": "Каки́е сосе́ди живу́т наверху́?", "qEs": "¿Cómo son los vecinos de arriba?", "choices": ["Шу́мные", "Ти́хие", "Ста́рые"], "answer": 0 }
+          ]
+        }
+      ],
+      "exercises": [
+        { "id": "3.4x-x-01", "type": "fill_choice", "instructionEs": "Elige la pregunta correcta", "sentence": "— ___ у вас сосе́ди? — Ужа́сно шу́мные!", "choices": ["Каки́е", "Како́й", "Как", "Кака́я"], "answer": 0, "explanationEs": "сосе́ди → они́ → каки́е (la respuesta es un adjetivo en plural).", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"], "origin": "original" },
+        { "id": "3.4x-x-02", "type": "fill_choice", "instructionEs": "Elige la pregunta correcta", "sentence": "— ___ они́ слу́шают му́зыку? — О́чень гро́мко.", "choices": ["Как", "Каки́е", "Како́й", "Кака́я"], "answer": 0, "explanationEs": "La respuesta es un adverbio (гро́мко) → как.", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kak"], "origin": "original" },
+        { "id": "3.4x-x-03", "type": "fill_choice", "instructionEs": "Elige la pregunta correcta", "sentence": "— ___ у тебя́ кварти́ра? — Ма́ленькая, но краси́вая.", "choices": ["Кака́я", "Како́й", "Како́е", "Как"], "answer": 0, "explanationEs": "кварти́ра → она́ → кака́я.", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"], "origin": "original" },
+        { "id": "3.4x-x-04", "type": "fill_choice", "instructionEs": "Elige la pregunta correcta", "sentence": "— ___ э́то окно́? — Большо́е и чи́стое.", "choices": ["Како́е", "Како́й", "Кака́я", "Каки́е"], "answer": 0, "explanationEs": "окно́ → оно́ → како́е.", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"], "origin": "original" },
+        { "id": "3.4x-x-05", "type": "fill_choice", "instructionEs": "Elige la pregunta correcta", "sentence": "— ___ у вас дом? — Но́вый.", "choices": ["Како́й", "Кака́я", "Како́е", "Как"], "answer": 0, "explanationEs": "дом → он → како́й.", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"], "origin": "original" },
+        { "id": "3.4x-x-06", "type": "fill_choice", "instructionEs": "Elige la pregunta correcta", "sentence": "— ___ говори́т ба́бушка? — Ти́хо и ме́дленно.", "choices": ["Как", "Кака́я", "Како́й", "Каки́е"], "answer": 0, "explanationEs": "Pregunta por la acción (говори́т); la respuesta son adverbios → как.", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kak"], "origin": "original" },
+        { "id": "3.4x-x-07", "type": "fill_choice", "instructionEs": "Elige la pregunta correcta", "sentence": "— ___ сосе́д живёт наверху́? — Молодо́й и о́чень шу́мный.", "choices": ["Како́й", "Кака́я", "Каки́е", "Как"], "answer": 0, "explanationEs": "сосе́д → он → како́й.", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"], "origin": "original" },
+        { "id": "3.4x-x-08", "type": "fill_choice", "instructionEs": "¿Adjetivo o adverbio?", "sentence": "Но́вые сосе́ди ___ слу́шают му́зыку.", "choices": ["гро́мко", "гро́мкий", "гро́мкая"], "answer": 0, "explanationEs": "Describe el verbo слу́шают → adverbio гро́мко.", "tags": ["3.4x-g-adverbs-o", "3.4-g-adj-vs-adv", "3.4x-v-gromko"], "origin": "original" },
+        { "id": "3.4x-x-09", "type": "fill_choice", "instructionEs": "¿Adjetivo o adverbio?", "sentence": "У них о́чень ___ соба́ка.", "choices": ["гро́мкая", "гро́мко", "гро́мкий"], "answer": 0, "explanationEs": "Describe a соба́ка (она́) → adjetivo femenino гро́мкая.", "tags": ["3.4-g-adj-vs-adv"], "origin": "original" },
+        { "id": "3.4x-x-10", "type": "fill_choice", "instructionEs": "¿Adjetivo o adverbio?", "sentence": "Пенсионе́ры внизу́ — ___ лю́ди.", "choices": ["ти́хие", "ти́хо", "ти́хий"], "answer": 0, "explanationEs": "Describe a лю́ди (они́) → adjetivo plural ти́хие.", "tags": ["3.4-g-adj-vs-adv"], "origin": "original" },
+        { "id": "3.4x-x-11", "type": "fill_choice", "instructionEs": "¿Adjetivo o adverbio?", "sentence": "Ма́ша ___ говори́т по-англи́йски.", "choices": ["хорошо́", "хоро́ший", "хоро́шая"], "answer": 0, "explanationEs": "Describe cómo habla → adverbio хорошо́.", "tags": ["3.4x-g-adverbs-o", "3.4-g-adj-vs-adv"], "origin": "original" },
+        { "id": "3.4x-x-12", "type": "fill_choice", "instructionEs": "¿Adjetivo o adverbio?", "sentence": "Э́то о́чень ___ кни́га.", "choices": ["интере́сная", "интере́сно", "интере́сный"], "answer": 0, "explanationEs": "Describe a кни́га (она́) → adjetivo интере́сная.", "tags": ["3.4-g-adj-vs-adv"], "origin": "original" },
+        { "id": "3.4x-x-13", "type": "fill_choice", "instructionEs": "¿Adjetivo o adverbio?", "sentence": "Ба́бушка гото́вит о́чень ___.", "choices": ["вку́сно", "вку́сный", "вку́сная"], "answer": 0, "explanationEs": "Describe cómo cocina → adverbio вку́сно.", "tags": ["3.4x-g-adverbs-o", "3.4x-v-vkusno"], "origin": "original" },
+        { "id": "3.4x-x-14", "type": "fill_choice", "instructionEs": "¿Adjetivo o adverbio?", "sentence": "Сын сосе́дей ___ игра́ет на гита́ре.", "choices": ["пло́хо", "плохо́й", "плоха́я"], "answer": 0, "explanationEs": "Describe cómo toca → adverbio пло́хо.", "tags": ["3.4x-g-adverbs-o"], "origin": "original" },
+        { "id": "3.4x-x-15", "type": "fill_typed", "instructionEs": "Escribe el adverbio", "sentence": "Де́душка говори́т ___.", "answers": ["ти́хо"], "hint": "ти́хий → ¿Как?", "explanationEs": "ти́хий → ти́хо", "tags": ["3.4x-g-adverbs-o", "3.4x-v-tikho"], "origin": "original" },
+        { "id": "3.4x-x-16", "type": "fill_typed", "instructionEs": "Escribe el adverbio", "sentence": "Сосе́ди наверху́ ___ слу́шают му́зыку.", "answers": ["гро́мко"], "hint": "гро́мкий → ¿Как?", "explanationEs": "гро́мкий → гро́мко", "tags": ["3.4x-g-adverbs-o", "3.4x-v-gromko"], "origin": "original" },
+        { "id": "3.4x-x-17", "type": "fill_typed", "instructionEs": "Escribe el adverbio", "sentence": "Ма́ша ___ чита́ет, потому́ что текст тру́дный.", "answers": ["ме́дленно"], "hint": "ме́дленный → ¿Как?", "explanationEs": "ме́дленный → ме́дленно", "tags": ["3.4x-g-adverbs-o", "3.4x-v-medlenno"], "origin": "original" },
+        { "id": "3.4x-x-18", "type": "fill_typed", "instructionEs": "Escribe el adverbio", "sentence": "Ты о́чень ___ говори́шь по-ру́сски!", "answers": ["хорошо́"], "hint": "хоро́ший → ¿Как?", "explanationEs": "хоро́ший → хорошо́ (¡el acento pasa al final!)", "tags": ["3.4x-g-adverbs-o"], "origin": "original" },
+        { "id": "3.4x-x-19", "type": "fill_typed", "instructionEs": "Escribe el adverbio", "sentence": "Здесь о́чень ___, мне нра́вится.", "answers": ["краси́во"], "hint": "краси́вый → adverbio", "explanationEs": "краси́вый → краси́во", "tags": ["3.4x-g-adverbs-o", "3.4x-v-krasivo"], "origin": "original" },
+        { "id": "3.4x-x-20", "type": "fill_typed", "instructionEs": "Escribe el adverbio", "sentence": "Пенсионе́ры живу́т ___: у них всё хорошо́.", "answers": ["ве́село", "споко́йно"], "hint": "весёлый → ¿Как?", "explanationEs": "весёлый → ве́село (la ё se vuelve е sin acento)", "tags": ["3.4x-g-adverbs-o", "3.4x-v-veselo"], "origin": "original" },
+        { "id": "3.4x-x-21", "type": "fill_typed", "instructionEs": "Escribe el adverbio", "sentence": "Тури́сты ___ говоря́т по-ру́сски, но мы понима́ем.", "answers": ["пло́хо"], "hint": "плохо́й → ¿Как?", "explanationEs": "плохо́й → пло́хо", "tags": ["3.4x-g-adverbs-o"], "origin": "original" },
+        { "id": "3.4x-x-22", "type": "fill_typed", "instructionEs": "Escribe la pregunta", "sentence": "— ___ у вас сосе́ди? — Ти́хие.", "answers": ["Каки́е"], "hint": "сосе́ди = они́", "explanationEs": "они́ → каки́е", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"], "origin": "original" },
+        { "id": "3.4x-x-23", "type": "fill_typed", "instructionEs": "Escribe la pregunta", "sentence": "— ___ ты говори́шь по-испа́нски? — Отли́чно!", "answers": ["Как"], "hint": "pregunta por la acción", "explanationEs": "La respuesta es un adverbio → как.", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kak"], "origin": "original" },
+        { "id": "3.4x-x-24", "type": "fill_typed", "instructionEs": "Escribe la pregunta", "sentence": "— ___ у тебя́ ко́мната? — Ма́ленькая.", "answers": ["Кака́я"], "hint": "ко́мната = она́", "explanationEs": "она́ → кака́я", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"], "origin": "original" },
+        { "id": "3.4x-x-25", "type": "antonym", "instructionEs": "Elige el antónimo", "word": "гро́мко", "choices": ["ти́хо", "бы́стро", "пло́хо", "ча́сто"], "answers": ["ти́хо"], "tags": ["3.4x-v-gromko"], "origin": "original" },
+        { "id": "3.4x-x-26", "type": "antonym", "instructionEs": "Elige el antónimo", "word": "бы́стро", "choices": ["ме́дленно", "гро́мко", "ра́но", "мно́го"], "answers": ["ме́дленно"], "tags": ["3.4x-v-bystro"], "origin": "original" },
+        { "id": "3.4x-x-27", "type": "antonym", "instructionEs": "Elige el antónimo", "word": "ра́но", "choices": ["по́здно", "бли́зко", "пло́хо", "ти́хо"], "answers": ["по́здно"], "tags": ["3.4x-v-rano"], "origin": "original" },
+        { "id": "3.4x-x-28", "type": "antonym", "instructionEs": "Elige el antónimo", "word": "далеко́", "choices": ["бли́зко", "ма́ло", "ре́дко", "гру́бо"], "answers": ["бли́зко"], "tags": ["3.4x-v-daleko"], "origin": "original" },
+        { "id": "3.4x-x-29", "type": "antonym", "instructionEs": "Escribe el antónimo", "word": "ча́сто", "answers": ["ре́дко"], "tags": ["3.4x-v-chasto"], "origin": "original" },
+        { "id": "3.4x-x-30", "type": "antonym", "instructionEs": "Escribe el antónimo", "word": "мно́го", "answers": ["ма́ло"], "tags": ["3.4x-v-mnogo"], "origin": "original" },
+        { "id": "3.4x-x-31", "type": "antonym", "instructionEs": "Elige el antónimo", "word": "ве́жливо", "choices": ["гру́бо", "гря́зно", "ску́чно", "гру́стно"], "answers": ["гру́бо"], "tags": ["3.4x-v-vezhlivo"], "origin": "original" },
+        { "id": "3.4x-x-32", "type": "antonym", "instructionEs": "Escribe el antónimo", "word": "до́рого", "answers": ["дёшево"], "tags": ["3.4x-v-dorogo"], "origin": "original" },
+        { "id": "3.4x-x-33", "type": "antonym", "instructionEs": "Escribe el antónimo", "word": "ве́село", "answers": ["гру́стно", "ску́чно"], "tags": ["3.4x-v-veselo"], "origin": "original" },
+        { "id": "3.4x-x-34", "type": "antonym", "instructionEs": "Escribe el antónimo", "word": "легко́", "answers": ["тру́дно"], "tags": ["3.4x-v-legko"], "origin": "original" },
+        { "id": "3.4x-x-35", "type": "sort", "instructionEs": "¿Responde a Како́й? o a Как?", "categories": ["Како́й? (adjetivo)", "Как? (adverbio)"], "items": [
+          { "text": "гро́мкий", "category": "Како́й? (adjetivo)" },
+          { "text": "гро́мко", "category": "Как? (adverbio)" },
+          { "text": "ти́хая", "category": "Како́й? (adjetivo)" },
+          { "text": "бы́стро", "category": "Как? (adverbio)" },
+          { "text": "хоро́шее", "category": "Како́й? (adjetivo)" },
+          { "text": "хорошо́", "category": "Как? (adverbio)" },
+          { "text": "ме́дленные", "category": "Како́й? (adjetivo)" },
+          { "text": "пло́хо", "category": "Как? (adverbio)" }
+        ], "tags": ["3.4-g-adj-vs-adv", "3.4x-g-adverbs-o"], "origin": "original" },
+        { "id": "3.4x-x-36", "type": "sort", "instructionEs": "¿Qué pregunta va con cada palabra?", "categories": ["Како́й?", "Кака́я?", "Како́е?", "Каки́е?"], "items": [
+          { "text": "дом", "category": "Како́й?" },
+          { "text": "кварти́ра", "category": "Кака́я?" },
+          { "text": "окно́", "category": "Како́е?" },
+          { "text": "сосе́ди", "category": "Каки́е?" },
+          { "text": "ку́хня", "category": "Кака́я?" },
+          { "text": "кре́сло", "category": "Како́е?" },
+          { "text": "балко́н", "category": "Како́й?" },
+          { "text": "де́ти", "category": "Каки́е?" }
+        ], "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"], "origin": "original" },
+        { "id": "3.4x-x-37", "type": "error_spot", "instructionEs": "Toca la palabra incorrecta", "sentence": "Сосе́ди слу́шают му́зыку о́чень гро́мкий.", "wrongWord": 4, "correction": "гро́мко.", "explanationEs": "Describe el verbo → adverbio гро́мко.", "tags": ["3.4-g-adj-vs-adv", "3.4x-g-adverbs-o"], "origin": "original" },
+        { "id": "3.4x-x-38", "type": "error_spot", "instructionEs": "Toca la palabra incorrecta", "sentence": "Како́й у тебя́ кварти́ра?", "wrongWord": 0, "correction": "Кака́я", "explanationEs": "кварти́ра es femenino → кака́я.", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"], "origin": "original" },
+        { "id": "3.4x-x-39", "type": "error_spot", "instructionEs": "Toca la palabra incorrecta", "sentence": "Ма́ша хоро́ший говори́т по-англи́йски.", "wrongWord": 1, "correction": "хорошо́", "explanationEs": "Describe cómo habla → adverbio хорошо́.", "tags": ["3.4-g-adj-vs-adv", "3.4x-g-adverbs-o"], "origin": "original" },
+        { "id": "3.4x-x-40", "type": "error_spot", "instructionEs": "Toca la palabra incorrecta", "sentence": "Каки́е у вас окно́?", "wrongWord": 0, "correction": "Како́е", "explanationEs": "окно́ es neutro → како́е.", "tags": ["3.4x-g-kakoj-kak", "3.4x-v-kakoj"], "origin": "original" },
+        { "id": "3.4x-x-41", "type": "word_order", "instructionEs": "Ordena las palabras", "words": ["Но́вые", "сосе́ди", "о́чень", "гро́мко", "слу́шают", "му́зыку"], "answer": "Но́вые сосе́ди о́чень гро́мко слу́шают му́зыку.", "es": "Los vecinos nuevos escuchan música muy fuerte.", "tags": ["3.4x-g-adverbs-o"], "origin": "original" },
+        { "id": "3.4x-x-42", "type": "word_order", "instructionEs": "Ordena las palabras", "words": ["Како́й", "у", "вас", "сосе́д"], "answer": "Како́й у вас сосе́д?", "es": "¿Cómo es su vecino?", "tags": ["3.4x-g-kakoj-kak"], "origin": "original" },
+        { "id": "3.4x-x-43", "type": "word_order", "instructionEs": "Ordena las palabras", "words": ["Ба́бушка", "говори́т", "ти́хо", "и", "ме́дленно"], "answer": "Ба́бушка говори́т ти́хо и ме́дленно.", "es": "La abuela habla bajito y despacio.", "tags": ["3.4x-g-adverbs-o"], "origin": "original" },
+        { "id": "3.4x-x-44", "type": "translate", "direction": "es-ru", "prompt": "Hablas muy rápido.", "answers": ["Ты говори́шь о́чень бы́стро", "Ты о́чень бы́стро говори́шь", "Вы говори́те о́чень бы́стро", "Вы о́чень бы́стро говори́те"], "tags": ["3.4x-v-bystro", "3.4x-g-adverbs-o"], "origin": "original" },
+        { "id": "3.4x-x-45", "type": "translate", "direction": "es-ru", "prompt": "¿Cómo son tus vecinos?", "answers": ["Каки́е у тебя́ сосе́ди?", "Каки́е твои́ сосе́ди?", "Каки́е у вас сосе́ди?", "Каки́е ва́ши сосе́ди?"], "tags": ["3.4x-g-kakoj-kak"], "origin": "original" },
+        { "id": "3.4x-x-46", "type": "translate", "direction": "es-ru", "prompt": "Los vecinos de abajo son tranquilos.", "answers": ["Сосе́ди внизу́ ти́хие", "Сосе́ди внизу́ споко́йные", "Внизу́ ти́хие сосе́ди", "Внизу́ споко́йные сосе́ди"], "tags": ["3.4-g-adj-vs-adv"], "origin": "original" },
+        { "id": "3.4x-x-47", "type": "translate", "direction": "ru-es", "prompt": "Они́ живу́т ве́село.", "answers": ["Viven alegremente", "Ellos viven alegremente", "Viven felices", "Ellos viven felices", "Viven contentos", "Viven divertido"], "tags": ["3.4x-v-veselo"], "origin": "original" },
+        { "id": "3.4x-x-48", "type": "dialogue", "instructionEs": "Completa el diálogo", "lines": [
+          { "speaker": "Ма́ша", "ru": "Здра́вствуйте! Я ва́ша сосе́дка, я живу́ внизу́." },
+          { "speaker": "Сосе́д", "ru": "О, приве́т! ___ дела́?" },
+          { "speaker": "Ма́ша", "ru": "Пло́хо! Вы о́чень гро́мко слу́шаете му́зыку." },
+          { "speaker": "Сосе́д", "ru": "Ой, извини́те!" }
+        ], "choices": ["Как", "Како́й", "Каки́е"], "answer": 0, "explanationEs": "«Как дела́?» = ¿Cómo estás? La respuesta (пло́хо) es un adverbio.", "tags": ["3.4x-v-kak"], "origin": "original" },
+        { "id": "3.4x-x-49", "type": "dialogue", "instructionEs": "Completa el diálogo", "lines": [
+          { "speaker": "Ма́ша", "ru": "Ба́бушка, како́й у вас сосе́д наверху́?" },
+          { "speaker": "Ба́бушка", "ru": "О, он о́чень ___. И его́ де́ти то́же." }
+        ], "choices": ["шу́мный", "шу́мно", "шу́мная"], "answer": 0, "explanationEs": "Responde a како́й (сосе́д = он) → adjetivo шу́мный.", "tags": ["3.4-g-adj-vs-adv", "3.4x-g-kakoj-kak"], "origin": "original" },
+        { "id": "3.4x-x-50", "type": "match", "instructionEs": "Une el adjetivo con su adverbio", "pairs": [["гро́мкий", "гро́мко"], ["ти́хий", "ти́хо"], ["хоро́ший", "хорошо́"], ["плохо́й", "пло́хо"], ["бы́стрый", "бы́стро"]], "tags": ["3.4x-g-adverbs-o"], "origin": "original" }
+      ]
+    }
+  ]
+}
