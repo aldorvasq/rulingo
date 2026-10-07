@@ -4,3 +4,8 @@ dist/
 .DS_Store
 *.local
 .claude/
+
+# Class recordings & transcripts stay private (teacher's/classmates' voices)
+class-recordings/
+transcripts/
+.venv-transcribe/
