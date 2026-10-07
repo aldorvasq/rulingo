@@ -1,34 +1,14 @@
 import { Fragment, useMemo, type ReactNode } from 'react'
-import { speak } from '../lib/tts'
 import { splitGap } from '../lib/text'
 
 export function ProgressBar({ value, color = 'var(--ok)', className = '' }: { value: number; color?: string; className?: string }) {
   return (
-    <div className={`h-4 w-full overflow-hidden rounded-full bg-line ${className}`}>
+    <div className={`h-2.5 w-full overflow-hidden rounded-sm bg-line ${className}`}>
       <div
-        className="relative h-full rounded-full transition-[width] duration-500"
+        className="h-full rounded-sm transition-[width] duration-500"
         style={{ width: `${Math.max(0, Math.min(1, value)) * 100}%`, background: color }}
-      >
-        <div className="absolute inset-x-2 top-1 h-1 rounded-full bg-white/35" />
-      </div>
+      />
     </div>
-  )
-}
-
-export function SpeakButton({ text, size = 'md', slow = false }: { text: string; size?: 'md' | 'lg'; slow?: boolean }) {
-  const big = size === 'lg'
-  return (
-    <button
-      type="button"
-      aria-label={slow ? 'Escuchar despacio' : 'Escuchar'}
-      onClick={(e) => {
-        e.stopPropagation()
-        speak(text, slow ? 0.55 : 0.9)
-      }}
-      className={`btn btn-primary shrink-0 !px-0 ${big ? 'h-20 w-20 !rounded-3xl text-3xl' : 'h-10 w-10 !rounded-xl text-lg'}`}
-    >
-      {slow ? '🐢' : '🔊'}
-    </button>
   )
 }
 
@@ -41,7 +21,7 @@ export function GapSentence({ text, fill, fillClass = '' }: { text: string; fill
         <Fragment key={i}>
           {p}
           {i < parts.length - 1 && (
-            <span className={`mx-1 inline-block min-w-16 border-b-[3px] border-current px-1 text-center ${fill ? fillClass : 'text-transparent'}`}>
+            <span className={`mx-1 inline-block min-w-16 border-b-2 border-current px-1 text-center ${fill ? fillClass : 'text-transparent'}`}>
               {fill ?? '____'}
             </span>
           )}
@@ -51,15 +31,21 @@ export function GapSentence({ text, fill, fillClass = '' }: { text: string; fill
   )
 }
 
-/** Very small markdown: paragraphs, "- " lists, **bold**, *italic*. Content is our own JSON. */
+/**
+ * Very small markdown: paragraphs, "- " lists, **bold**, *italic*. Content is our own JSON.
+ * Bold runs that contain Cyrillic are set in the Russian serif so examples stand out.
+ */
 export function Markdown({ text }: { text: string }) {
   const blocks = useMemo(() => text.split(/\n{2,}/), [text])
   const inline = (s: string): ReactNode[] =>
-    s.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((part, i) =>
-      part.startsWith('**') ? <strong key={i}>{part.slice(2, -2)}</strong>
-        : part.startsWith('*') && part.length > 2 ? <em key={i}>{part.slice(1, -1)}</em>
-        : <Fragment key={i}>{part}</Fragment>,
-    )
+    s.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((part, i) => {
+      if (part.startsWith('**')) {
+        const inner = part.slice(2, -2)
+        return <strong key={i} className={/[а-яё]/i.test(inner) ? 'ru text-[1.08em]' : ''}>{inner}</strong>
+      }
+      if (part.startsWith('*') && part.length > 2) return <em key={i}><Mixed text={part.slice(1, -1)} /></em>
+      return <Mixed key={i} text={part} ruClass="text-[1.06em]" />
+    })
   return (
     <div className="space-y-2 leading-relaxed">
       {blocks.map((b, i) => {
@@ -79,12 +65,12 @@ export function Markdown({ text }: { text: string }) {
 
 export function Confetti() {
   const pieces = useMemo(
-    () => Array.from({ length: 40 }, (_, i) => ({
+    () => Array.from({ length: 30 }, (_, i) => ({
       left: Math.random() * 100,
       delay: Math.random() * 0.8,
-      dur: 2 + Math.random() * 1.5,
-      color: ['#14b8a6', '#ef4f45', '#f5b70a', '#7cbf3c', '#2b9fc9', '#9b5bb8'][i % 6],
-      size: 6 + Math.random() * 6,
+      dur: 2.2 + Math.random() * 1.5,
+      color: ['#2f4a6d', '#8f3b32', '#9a7a36', '#56704f'][i % 4],
+      size: 5 + Math.random() * 5,
     })),
     [],
   )
@@ -93,7 +79,7 @@ export function Confetti() {
       {pieces.map((p, i) => (
         <span
           key={i}
-          className="absolute -top-4 rounded-sm"
+          className="absolute -top-4"
           style={{
             left: `${p.left}%`, width: p.size, height: p.size * 1.6, background: p.color,
             animation: `confetti-fall ${p.dur}s ${p.delay}s ease-in forwards`,
@@ -104,16 +90,53 @@ export function Confetti() {
   )
 }
 
-export function Header({ title, back, right }: { title: string; back?: () => void; right?: ReactNode }) {
+export function Header({ title, back, right }: { title: ReactNode; back?: () => void; right?: ReactNode }) {
   return (
-    <header className="pt-safe sticky top-0 z-20 border-b-2 border-line bg-bg/90 backdrop-blur">
+    <header className="pt-safe sticky top-0 z-20 border-b border-line bg-bg/95 backdrop-blur">
       <div className="mx-auto flex max-w-xl items-center gap-3 px-4 py-3">
         {back && (
-          <button onClick={back} className="text-2xl text-muted" aria-label="Atrás">←</button>
+          <button onClick={back} className="-ml-1 p-1 text-muted" aria-label="Atrás"><Icon name="back" /></button>
         )}
-        <h1 className="flex-1 truncate text-lg font-extrabold">{title}</h1>
+        <h1 className="flex-1 truncate text-lg font-bold">{title}</h1>
         {right}
       </div>
     </header>
+  )
+}
+
+const ICONS: Record<string, string> = {
+  home: 'M3 10.5 12 3l9 7.5V21h-6v-6H9v6H3z',
+  map: 'M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2zm0 0v14m6-12v14',
+  profile: 'M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm-8 9a8 8 0 0 1 16 0',
+  settings: 'M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm8.5-3a8.5 8.5 0 0 0-.2-1.8l2-1.5-2-3.4-2.3.9a8.4 8.4 0 0 0-3.1-1.8L14.5 2h-5l-.4 2.4A8.4 8.4 0 0 0 6 6.2l-2.3-.9-2 3.4 2 1.5a8.6 8.6 0 0 0 0 3.6l-2 1.5 2 3.4 2.3-.9a8.4 8.4 0 0 0 3.1 1.8l.4 2.4h5l.4-2.4a8.4 8.4 0 0 0 3.1-1.8l2.3.9 2-3.4-2-1.5c.1-.6.2-1.2.2-1.8z',
+  back: 'M15 5l-7 7 7 7',
+  close: 'M6 6l12 12M18 6 6 18',
+  play: 'M7 4v16l13-8z',
+  book: 'M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zm0 0v16m4-14h7',
+  repeat: 'M4 12a8 8 0 0 1 14-5.3L20 9m0-5v5h-5M20 12a8 8 0 0 1-14 5.3L4 15m0 5v-5h5',
+  target: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm0-4a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z',
+  flame: 'M12 22c4 0 7-2.8 7-7 0-4.5-3.5-7-4.5-11-2 2-3 4-3 6-1-1-2-2-2.5-3.5C6.5 9 5 11.6 5 15c0 4.2 3 7 7 7z',
+  chevron: 'M9 5l7 7-7 7',
+  lock: 'M6 11h12v10H6zm2 0V8a4 4 0 0 1 8 0v3',
+  check: 'M5 12.5l4.5 4.5L19 7',
+  star: 'M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9z',
+}
+
+export function Icon({ name, size = 22, className = '' }: { name: keyof typeof ICONS | string; size?: number; className?: string }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}
+      strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden>
+      <path d={ICONS[name]} />
+    </svg>
+  )
+}
+
+/** Spanish text with embedded Russian: Cyrillic runs are set in the Russian serif. */
+export function Mixed({ text, ruClass = '' }: { text: string; ruClass?: string }) {
+  const parts = text.split(/([Ѐ-ӿ́]+(?:[\s\-–/][Ѐ-ӿ́]+)*)/)
+  return (
+    <>
+      {parts.map((p, i) => (i % 2 ? <span key={i} className={`ru ${ruClass}`}>{p}</span> : <Fragment key={i}>{p}</Fragment>))}
+    </>
   )
 }

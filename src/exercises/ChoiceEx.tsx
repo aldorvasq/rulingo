@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react'
-import { GapSentence, SpeakButton } from '../components/ui'
-import { ContextBlock, tileState, useAutoplay, type ExProps } from './common'
+import { GapSentence } from '../components/ui'
+import { ContextBlock, ruPromptSize, tileState, type ExProps } from './common'
 
 export function ChoiceEx({ ex, locked, ready }: ExProps<'choice'>) {
   const [sel, setSel] = useState<number | null>(null)
-  useAutoplay(ex.audio)
 
   const choose = (i: number) => {
     if (locked) return
@@ -27,33 +26,19 @@ export function ChoiceEx({ ex, locked, ready }: ExProps<'choice'>) {
   return (
     <div>
       <ContextBlock ex={ex} />
-      {ex.audioOnly ? (
-        <div className="my-6 flex justify-center gap-4">
-          <SpeakButton text={ex.audio!} size="lg" />
-          <SpeakButton text={ex.audio!} size="lg" slow />
-        </div>
-      ) : ex.prompt ? (
-        <div className="mb-6 flex items-center gap-3">
-          {ex.promptLang === 'ru' && <SpeakButton text={ex.prompt} />}
-          <p className={`text-2xl font-bold ${ex.promptLang === 'es' ? 'text-muted' : ''}`}>
-            {ex.prompt.includes('___')
-              ? <GapSentence text={ex.prompt} fill={filled} fillClass={locked ? 'text-ok' : 'text-brand'} />
-              : <span className={ex.promptLang === 'ru' ? 'ru' : ''}>{ex.prompt}</span>}
-          </p>
-        </div>
-      ) : null}
+      {ex.prompt && (
+        <p className={`mb-7 ${ex.promptLang === 'ru' ? `ru ${ruPromptSize(ex.prompt)} font-bold leading-snug` : 'text-2xl font-bold text-ink/85'}`}>
+          {ex.prompt.includes('___')
+            ? <GapSentence text={ex.prompt} fill={filled} fillClass={locked ? 'text-ok' : 'text-brand'} />
+            : ex.prompt}
+        </p>
+      )}
 
-      <div className={`grid gap-3 ${long ? 'grid-cols-1' : 'grid-cols-2'}`}>
+      <div className={`grid gap-2.5 ${long ? 'grid-cols-1' : 'grid-cols-2'}`}>
         {ex.choices.map((c, i) => (
-          <button
-            key={i}
-            onClick={() => choose(i)}
-            className={`tile flex items-center gap-3 ${tileState(locked, i === ex.answer, sel === i)}`}
-          >
-            <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-md border-2 border-line text-xs text-muted sm:flex">
-              {i + 1}
-            </span>
-            <span className={`text-lg ${ex.choiceLang === 'ru' ? 'ru' : ''}`}>{c}</span>
+          <button key={i} onClick={() => choose(i)} className={`tile flex items-center gap-3 ${tileState(locked, i === ex.answer, sel === i)}`}>
+            <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-sm border border-line text-xs text-muted sm:flex">{i + 1}</span>
+            <span className={ex.choiceLang === 'ru' ? 'ru text-xl' : 'text-lg'}>{c}</span>
           </button>
         ))}
       </div>

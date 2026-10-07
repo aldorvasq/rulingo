@@ -8,19 +8,15 @@ import { evaluateBadges } from './badges'
 export interface Settings {
   name: string
   onboarded: boolean
-  /** "Esta semana en clase" — drives the daily lesson. */
+  /** The lesson the learner is on in class — Home opens on it. */
   focusLessons: string[]
-  /** Optional grammar ids inside the focus lessons to emphasise. */
-  focusTopics: string[]
   /** Everything up to this lesson is unlocked and reviewed. */
   coveredUpTo: string
-  dailyGoal: number
   sessionLength: number
   translit: boolean
-  sound: boolean
-  listening: boolean
   /** On-screen ЙЦУКЕН keyboard (suppresses the phone keyboard). */
   cyrKeyboard: boolean
+  theme: 'light' | 'dark'
 }
 
 export interface Stats {
@@ -64,7 +60,6 @@ export interface SessionSummary {
   newBadges: string[]
   streakIncreased: boolean
   streak: number
-  goalReached: boolean
 }
 
 interface Actions {
@@ -81,13 +76,10 @@ export const defaultSettings: Settings = {
   name: '',
   onboarded: false,
   focusLessons: ['3.4'],
-  focusTopics: [],
   coveredUpTo: '3.4',
-  dailyGoal: 30,
   sessionLength: 15,
   translit: false,
-  sound: true,
-  listening: true,
+  theme: 'light',
   cyrKeyboard: typeof matchMedia !== 'undefined' && matchMedia('(pointer: coarse)').matches,
 }
 
@@ -158,10 +150,10 @@ export const useStore = create<PersistedState & Actions>()(
           earlyBird: st.stats.earlyBird + (hour < 8 ? 1 : 0),
           nightOwl: st.stats.nightOwl + (hour >= 23 ? 1 : 0),
         }
+        // Any finished review counts for the day's streak — there is no minimum time or XP.
         let streak = settle(st.streak, today)
-        const goalReached = xpToday >= st.settings.dailyGoal
         let streakIncreased = false
-        if (goalReached && streak.lastGoalDay !== today) {
+        if (streak.lastGoalDay !== today) {
           const current = streak.current + 1
           streak = {
             ...streak,
@@ -177,7 +169,7 @@ export const useStore = create<PersistedState & Actions>()(
         const badges = { ...st.badges }
         earned.forEach((id) => (badges[id] = today))
         set({ stats, streak, badges })
-        return { xp: gained, correct, total, perfect, newBadges: earned, streakIncreased, streak: streak.current, goalReached }
+        return { xp: gained, correct, total, perfect, newBadges: earned, streakIncreased, streak: streak.current }
       },
 
       settleStreak: () => set((st) => ({ streak: settle(st.streak, dayKey()) })),

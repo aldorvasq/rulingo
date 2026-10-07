@@ -38,7 +38,7 @@ export function KeyboardToggle() {
   return (
     <div className="flex flex-wrap gap-2 text-xs">
       <button type="button" onClick={() => update({ cyrKeyboard: !on })} className={`chip ${on ? 'tile-selected' : ''}`}>
-        ⌨️ Teclado ЙЦУКЕН
+        Teclado ЙЦУКЕН
       </button>
       <button type="button" title={TRANSLIT_HELP} onClick={() => update({ translit: !translit })} className={`chip ${translit ? 'tile-selected' : ''}`}>
         abc→абв
@@ -59,13 +59,13 @@ export function CyrillicKeyboard({ disabled = false }: { disabled?: boolean }) {
       // Keep focus (and caret) in the input while tapping keys.
       onPointerDown={(e) => e.preventDefault()}
       onClick={onPress}
-      className={`ru h-11 min-w-0 flex-1 rounded-lg bg-card text-lg font-semibold shadow-[0_2px_0_var(--line)] active:translate-y-px active:bg-soft disabled:opacity-40 ${extra}`}
+      className={`ru h-11 min-w-0 flex-1 rounded-sm border border-line bg-card text-lg active:translate-y-px active:bg-soft disabled:opacity-40 ${extra}`}
     >
       {label}
     </button>
   )
   return (
-    <div className="mt-3 select-none space-y-1.5 rounded-2xl bg-soft p-1.5">
+    <div className="mt-3 select-none space-y-1.5 rounded-md bg-soft p-1.5">
       {ROWS.map((row, i) => (
         <div key={i} className="flex gap-1">
           {i === 2 && key(upper ? '⇧' : '⇪', () => setUpper(!upper), 'max-w-12 text-base')}

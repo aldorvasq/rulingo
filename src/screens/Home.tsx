@@ -1,38 +1,21 @@
 import { useMemo } from 'react'
 import { useStore } from '../state/store'
-import { lessonById, colorFor, lessonsUpTo } from '../content'
-import { topicTitle } from './Settings'
-import { candidatesFor } from '../engine/generate'
-import type { Skill } from '../engine/types'
+import { lessonById, colorFor, lessonsUpTo, vocabById } from '../content'
+import { lessonTopics } from '../engine/topics'
+import { lessonMastery } from '../state/mastery'
 import { dayKey, daysBetween } from '../lib/date'
 import { navigate } from '../lib/router'
-import { ttsAvailable } from '../lib/tts'
-import { ProgressBar } from '../components/ui'
+import { Icon, Mixed, ProgressBar } from '../components/ui'
+import { TopicList } from '../components/TopicList'
 
-const DRILLS: { skill: Skill; icon: string; label: string }[] = [
-  { skill: 'vocab', icon: '🗂️', label: 'Vocabulario' },
-  { skill: 'antonym', icon: '↔️', label: 'Antónimos' },
-  { skill: 'conjugation', icon: '🔁', label: 'Conjugación' },
-  { skill: 'grammar', icon: '🧩', label: 'Gramática' },
-  { skill: 'writing', icon: '✍️', label: 'Escritura' },
-  { skill: 'listening', icon: '👂', label: 'Escucha' },
-  { skill: 'syntax', icon: '🧱', label: 'Ordenar frases' },
-  { skill: 'reading', icon: '📖', label: 'Lectura' },
-]
-
-export function StatusBar() {
+export function StreakBadge() {
   const streak = useStore((s) => s.streak)
-  const xpToday = useStore((s) => s.stats.xpByDay[dayKey()] ?? 0)
-  const goal = useStore((s) => s.settings.dailyGoal)
-  const done = streak.lastGoalDay === dayKey()
+  const today = streak.lastGoalDay === dayKey()
   return (
-    <div className="flex items-center gap-4 text-lg font-extrabold">
-      <span className={done ? 'text-coral' : 'text-muted'} title="Racha">
-        <span className={done ? '' : 'grayscale'}>🔥</span> {streak.current}
-      </span>
-      {streak.freezes > 0 && <span className="text-[#38bdf8]" title="Protectores de racha">🧊 {streak.freezes}</span>}
-      <span className="text-gold" title="XP de hoy">⭐ {xpToday}/{goal}</span>
-    </div>
+    <span className={`inline-flex items-center gap-1 text-sm font-bold ${today ? 'text-brick' : 'text-muted'}`} title="Días seguidos repasando">
+      <Icon name="flame" size={18} /> {streak.current}
+      {streak.freezes > 0 && <span className="ml-1 font-normal text-muted">· {streak.freezes} protector{streak.freezes > 1 ? 'es' : ''}</span>}
+    </span>
   )
 }
 
@@ -42,107 +25,119 @@ export function Home() {
   const progress = useStore((s) => s.progress)
   const lastBackup = useStore((s) => s.lastBackup)
   const today = dayKey()
-  const xpToday = stats.xpByDay[today] ?? 0
-  const dailyDone = stats.dailyDone.includes(today)
-  const focus = settings.focusLessons.map((id) => lessonById.get(id)).filter((l) => !!l)
-  const main = focus[0]
-  const color = colorFor(main?.chapter ?? 0)
+  const lesson = lessonById.get(settings.focusLessons[0] ?? settings.coveredUpTo)
+  const covered = lessonsUpTo(settings.coveredUpTo)
+  const topics = useMemo(() => (lesson ? lessonTopics(lesson.id) : []), [lesson])
 
-  const weakCount = useMemo(() => Object.values(progress).filter((p) => p.wrong > 0 && p.box <= 1).length, [progress])
   const dueCount = useMemo(() => Object.values(progress).filter((p) => p.due <= today).length, [progress, today])
-  const availableSkills = useMemo(() => {
-    const ids = lessonsUpTo(settings.coveredUpTo).map((l) => l.id)
-    const skills = new Set(ids.flatMap(candidatesFor).map((c) => c.skill))
-    return DRILLS.filter((d) => skills.has(d.skill) && (d.skill !== 'listening' || (ttsAvailable() && settings.listening)))
-  }, [settings.coveredUpTo, settings.listening])
-
+  const weakCount = useMemo(() => Object.values(progress).filter((p) => p.wrong > 0 && p.box <= 1).length, [progress])
+  const knownWords = useMemo(() => Object.entries(progress).filter(([id, p]) => vocabById.has(id) && p.box >= 2).length, [progress])
+  const dailyDone = stats.dailyDone.includes(today)
   const needsBackup = stats.sessions >= 3 && (!lastBackup || daysBetween(lastBackup, today) >= 7)
 
   return (
-    <div className="mx-auto max-w-xl space-y-5 px-4 pb-28 pt-4">
-      <div className="pt-safe flex items-center justify-between">
-        <h1 className="text-2xl font-extrabold">
-          <span className="ru">Приве́т</span>{settings.name ? `, ${settings.name}` : ''}! 👋
-        </h1>
+    <div className="mx-auto max-w-xl px-4 pb-28">
+      <div className="pt-safe flex items-center justify-between py-3">
+        <div className="text-lg font-bold tracking-tight"><span className="ru text-brand">Ру</span><span className="ru">Линго</span></div>
+        <StreakBadge />
       </div>
-      <StatusBar />
 
-      {/* Daily lesson */}
-      <section className="overflow-hidden rounded-3xl" style={{ background: color.bg, color: color.fg }}>
-        <div className="p-5">
-          <div className="text-xs font-extrabold uppercase tracking-widest opacity-80">Esta semana en clase</div>
-          {main ? (
-            <>
-              <div className="ru mt-1 text-2xl font-extrabold">{main.id} · {main.title}</div>
-              {main.titleEs && <div className="font-semibold opacity-90">{main.titleEs}</div>}
-              {focus.length > 1 && <div className="mt-1 text-sm opacity-90">+ {focus.slice(1).map((l) => l.id).join(', ')}</div>}
-            </>
-          ) : (
-            <div className="mt-1 text-xl font-extrabold">Elige tu lección actual en Ajustes</div>
-          )}
-          {settings.focusTopics.length > 0 && (
-            <div className="mt-3 flex flex-wrap gap-1.5">
-              {settings.focusTopics.filter((id) => topicTitle(id)).map((id) => (
-                <span key={id} className="rounded-full bg-white/20 px-2.5 py-0.5 text-xs font-bold">{topicTitle(id)}</span>
-              ))}
+      {lesson ? (
+        <>
+          {/* 1. Continue the lesson from class */}
+          <div className="label mt-2 mb-2">Continúa donde vas en clase</div>
+          <section className="card overflow-hidden">
+            <div className="h-1.5" style={{ background: colorFor(lesson.chapter).bg }} />
+            <div className="p-5">
+              <div className="text-sm font-bold text-muted">Lección {lesson.id}</div>
+              <h1 className="ru mt-0.5 text-[2rem] font-bold leading-tight">{lesson.title}</h1>
+              {lesson.titleEs && <div className="text-muted">{lesson.titleEs}</div>}
+
+              <div className="label mt-5 mb-2">Qué vas a repasar</div>
+              <ul className="space-y-1 text-[15px]">
+                {topics.filter((t) => t.kind === 'grammar').map((t) => (
+                  <li key={t.id} className="flex gap-2">
+                    <span className="mt-[9px] h-1 w-1 shrink-0 bg-muted" />
+                    <span><Mixed text={t.title} /></span>
+                  </li>
+                ))}
+              </ul>
+              {topics.some((t) => t.kind === 'skill') && (
+                <p className="mt-2 text-[15px] text-muted">
+                  Con ejercicios de {joinEs(topics.filter((t) => t.kind === 'skill').map((t) => t.title.toLowerCase()))}.
+                </p>
+              )}
+
+              <button className="btn btn-primary mt-5 w-full" onClick={() => navigate(`/play?mode=lesson&id=${lesson.id}`)}>
+                <Icon name="play" size={18} /> Repasar la lección {lesson.id}
+              </button>
+              <div className="mt-3 flex items-center gap-3 text-xs text-muted">
+                <span>Dominio</span>
+                <ProgressBar value={lessonMastery(lesson, progress)} color="var(--gold)" className="!h-1.5" />
+                <span className="tabular-nums">{Math.round(lessonMastery(lesson, progress) * 100)}%</span>
+              </div>
             </div>
-          )}
-          <div className="mt-4 flex items-center gap-3">
-            <button className="btn flex-1 bg-white !text-[#1f2a2e]" style={{ ['--shadow' as string]: 'rgba(0,0,0,.25)' }}
-              onClick={() => navigate('/play?mode=daily')}>
-              {dailyDone ? '↺ Otra ronda' : '▶ Lección diaria'}
-            </button>
-            {dailyDone && <span className="text-sm font-extrabold">✓ Hecha hoy</span>}
+          </section>
+
+          {/* 2. Or a single topic */}
+          <div className="label mt-7 mb-2">O repasa un solo tema</div>
+          <TopicList lessonId={lesson.id} />
+        </>
+      ) : (
+        <section className="card mt-4 p-5">
+          <p className="font-bold">Elige en qué lección vas para empezar.</p>
+          <button className="btn btn-primary mt-3" onClick={() => navigate('/settings')}>Elegir lección</button>
+        </section>
+      )}
+
+      {/* 3. Review everything so far */}
+      <div className="label mt-7 mb-2">Repaso general</div>
+      <section className="card divide-y divide-line overflow-hidden">
+        <Row icon="repeat" title={`Lecciones vistas (${covered[0]?.id ?? ''}–${settings.coveredUpTo})`}
+          desc={dueCount ? `${dueCount} elementos para repasar hoy` : 'Mezcla de todo lo visto, según lo que más necesitas'}
+          onClick={() => navigate('/play?mode=review')} />
+        <Row icon="target" title="Mis errores" desc={weakCount ? `${weakCount} elementos con errores recientes` : 'Aún no hay errores registrados'}
+          onClick={() => navigate('/play?mode=weak')} />
+        <Row icon="map" title="Otra lección" desc="Elige cualquier lección en la ruta" onClick={() => navigate('/path')} />
+      </section>
+
+      {/* 4. Extra: daily practice keeps the streak */}
+      <div className="label mt-7 mb-2">Extra</div>
+      <section className="card p-4">
+        <div className="flex items-start gap-3">
+          <Icon name="flame" size={24} className="mt-0.5 shrink-0 text-brick" />
+          <div className="flex-1">
+            <div className="font-bold">Práctica del día</div>
+            <p className="text-sm text-muted">Una mezcla corta de la lección actual, repaso y alguna palabra nueva. Cualquier repaso terminado cuenta para tu racha.</p>
           </div>
         </div>
-        <button className="block w-full bg-black/10 px-5 py-2 text-left text-sm font-bold" onClick={() => navigate('/settings')}>
-          Cambiar lección o temas de la semana →
+        <button className="btn btn-ghost mt-3 w-full" onClick={() => navigate('/play?mode=daily')}>
+          {dailyDone ? <><Icon name="check" size={18} className="text-ok" /> Hecha hoy · hacer otra</> : 'Hacer la práctica del día'}
         </button>
       </section>
 
-      {/* Daily goal */}
-      <section className="card p-4">
-        <div className="mb-2 flex justify-between text-sm font-extrabold">
-          <span>Meta diaria</span>
-          <span className="text-gold">{Math.min(xpToday, settings.dailyGoal)} / {settings.dailyGoal} XP</span>
-        </div>
-        <ProgressBar value={xpToday / settings.dailyGoal} color="var(--gold)" />
-      </section>
-
-      {/* Review */}
-      <section className="grid grid-cols-2 gap-3">
-        <button className="card p-4 text-left active:translate-y-px" onClick={() => navigate('/play?mode=weak')}>
-          <div className="text-3xl">🎯</div>
-          <div className="mt-1 font-extrabold">Puntos débiles</div>
-          <div className="text-sm font-semibold text-muted">{weakCount ? `${weakCount} por reforzar` : 'Nada pendiente'}</div>
-        </button>
-        <button className="card p-4 text-left active:translate-y-px" onClick={() => main && navigate(`/lesson/${main.id}`)}>
-          <div className="text-3xl">📘</div>
-          <div className="mt-1 font-extrabold">Gramática de la semana</div>
-          <div className="text-sm font-semibold text-muted">{dueCount ? `${dueCount} repasos hoy` : 'Reglas y vocabulario'}</div>
-        </button>
-      </section>
-
-      {/* Quick drills */}
-      <section>
-        <h2 className="mb-2 text-lg font-extrabold">Práctica rápida</h2>
-        <div className="grid grid-cols-4 gap-2">
-          {availableSkills.map((d) => (
-            <button key={d.skill} className="card flex flex-col items-center gap-1 px-1 py-3 active:translate-y-px"
-              onClick={() => navigate(`/play?mode=drill&skill=${d.skill}`)}>
-              <span className="text-2xl">{d.icon}</span>
-              <span className="text-center text-[11px] font-extrabold leading-tight">{d.label}</span>
-            </button>
-          ))}
-        </div>
-      </section>
+      <p className="mt-4 text-center text-xs text-muted">{knownWords} palabras conocidas · {stats.sessions} repasos terminados</p>
 
       {needsBackup && (
-        <button className="card flex w-full items-center gap-3 border-gold p-4 text-left" onClick={() => navigate('/settings')}>
-          <span className="text-3xl">☁️</span>
-          <span className="text-sm font-bold">Guarda un respaldo de tu progreso en iCloud o Google Drive →</span>
+        <button className="card mt-4 w-full p-4 text-left text-sm" onClick={() => navigate('/settings')}>
+          <span className="font-bold">Guarda un respaldo</span> de tu progreso en iCloud o Google Drive (Ajustes → Exportar).
         </button>
       )}
     </div>
+  )
+}
+
+const joinEs = (xs: string[]) => (xs.length <= 1 ? xs.join('') : `${xs.slice(0, -1).join(', ')} y ${xs.at(-1)}`)
+
+function Row({ icon, title, desc, onClick }: { icon: string; title: string; desc: string; onClick: () => void }) {
+  return (
+    <button onClick={onClick} className="flex w-full items-center gap-3 px-4 py-3 text-left hover:bg-soft">
+      <Icon name={icon} size={22} className="shrink-0 text-brand" />
+      <div className="min-w-0 flex-1">
+        <div className="font-bold">{title}</div>
+        <div className="text-sm text-muted">{desc}</div>
+      </div>
+      <Icon name="chevron" size={18} className="shrink-0 text-muted" />
+    </button>
   )
 }

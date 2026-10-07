@@ -3,12 +3,12 @@
 
 export type Lang = 'ru' | 'es'
 
-/** Stats bucket used for badges ("100 conjugations", "50 antonyms"…). */
-export type Skill = 'vocab' | 'grammar' | 'conjugation' | 'antonym' | 'listening' | 'writing' | 'reading' | 'syntax'
+/** Stats bucket used for topics and badges ("100 conjugations", "50 antonyms"…). */
+export type Skill = 'vocab' | 'grammar' | 'conjugation' | 'antonym' | 'writing' | 'reading' | 'syntax'
 
 interface RunBase {
   key: string
-  /** SRS item ids exercised: vocab ids, grammar ids, or the content exercise id. */
+  /** SRS ids: items[0] is the exercise's own subject (word / exercise id), the rest are grammar tags. */
   items: string[]
   lessonId: string
   instruction: string
@@ -21,30 +21,10 @@ interface RunBase {
 }
 
 export type RunExercise = RunBase & (
-  | {
-      kind: 'choice'
-      prompt?: string
-      promptLang: Lang
-      /** Speak the prompt automatically; if audioOnly, hide its text (listening). */
-      audio?: string
-      audioOnly?: boolean
-      choices: string[]
-      choiceLang: Lang
-      answer: number
-    }
-  | {
-      kind: 'typed'
-      prompt?: string
-      promptLang: Lang
-      audio?: string
-      audioOnly?: boolean
-      answers: string[]
-      answerLang: Lang
-      strict: boolean
-      hint?: string
-    }
+  | { kind: 'choice'; prompt?: string; promptLang: Lang; choices: string[]; choiceLang: Lang; answer: number }
+  | { kind: 'typed'; prompt?: string; promptLang: Lang; answers: string[]; answerLang: Lang; strict: boolean; hint?: string }
   | { kind: 'conjugate'; verb: string; pronouns: string[]; answers: string[] }
-  | { kind: 'word_order'; words: string[]; answer: string; translation?: string; audio?: boolean }
+  | { kind: 'word_order'; words: string[]; answer: string; translation?: string }
   | { kind: 'match'; pairs: [string, string][] }
   | { kind: 'sort'; categories: string[]; entries: { text: string; category: string }[] }
   | { kind: 'error_spot'; sentence: string; wrongWord: number; correction: string }
@@ -69,7 +49,7 @@ export interface Candidate {
   /** Hand-made exercises from the book/extras get preference over generated ones. */
   handmade?: boolean
   sneak?: boolean
-  skill: RunExercise['skill']
+  skill: Skill
   kind: RunExercise['kind']
   make: () => RunExercise
 }

@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react'
-import { SpeakButton } from '../components/ui'
 import { RuInput } from '../components/RuInput'
 import { CyrillicKeyboard, KeyboardToggle } from '../components/CyrillicKeyboard'
 import { gradeTyped } from '../lib/text'
@@ -30,20 +29,17 @@ export function ConjugateEx({ ex, locked, ready }: ExProps<'conjugate'>) {
 
   return (
     <div>
-      <div className="mb-5 flex items-center gap-3">
-        <SpeakButton text={ex.verb} />
-        <p className="ru text-3xl font-extrabold">{ex.verb}</p>
-      </div>
-      <div className="card divide-y-2 divide-line overflow-hidden">
+      <p className="ru mb-5 text-4xl font-bold">{ex.verb}</p>
+      <div className="card divide-y divide-line overflow-hidden">
         {ex.pronouns.map((p, i) => (
           <div key={i} className={`flex items-center gap-3 px-3 py-2 ${rows ? (rows[i] ? 'bg-ok-soft' : 'bg-bad-soft') : ''}`}>
-            <span className="ru w-14 shrink-0 text-right text-lg font-bold text-muted">{p}</span>
+            <span className="ru w-14 shrink-0 text-right text-xl text-muted">{p}</span>
             <div className="flex-1">
               <RuInput
                 ref={(el) => { refs.current[i] = el }}
                 value={values[i]}
                 disabled={locked}
-                className="!py-2"
+                className="ru !py-2 text-xl"
                 onChange={(e) => update(i, e.target.value)}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' && i < ex.pronouns.length - 1 && !values.every((x) => x.trim())) {
@@ -53,7 +49,7 @@ export function ConjugateEx({ ex, locked, ready }: ExProps<'conjugate'>) {
                   }
                 }}
               />
-              {rows && !rows[i] && <div className="ru mt-1 text-sm font-bold text-ok">{ex.answers[i]}</div>}
+              {rows && !rows[i] && <div className="ru mt-1 text-lg font-bold text-ok">{ex.answers[i]}</div>}
             </div>
           </div>
         ))}

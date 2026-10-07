@@ -22,8 +22,8 @@ export default defineConfig({
         short_name: 'РуЛинго',
         description: 'Practica ruso con el contenido de Точка Ру A1',
         lang: 'es',
-        theme_color: '#14b8a6',
-        background_color: '#f6fbfa',
+        theme_color: '#2f4a6d',
+        background_color: '#f3f0e9',
         display: 'standalone',
         start_url: '.',
         icons: [

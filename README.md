@@ -15,8 +15,10 @@ npm run build      # production build in dist/
 
 - **Content**: there is one JSON file per book chapter in `content/chapters/chN.json`. Supplementary packs (class notes, extra exercises) go in `content/extra/*.json` and are merged into book lessons by lesson id. The format is described in [content/SCHEMA.md](content/SCHEMA.md).
 - **Exercises**: the hand-made exercises in the content files are combined with exercises generated from the vocabulary and grammar: translations, listening, typed recall, antonyms, conjugation tables, adjective agreement, gender sorting, word order and reading questions (`src/engine/generate.ts`).
-- **Daily lesson**: about 60% comes from this week's lesson, 30% is spaced-repetition review of earlier lessons, and 1–2 are ✨ extra words. Wrong answers come back at the end of the lesson (`src/engine/session.ts`).
-- **Progress**: spaced repetition with Leitner boxes per word, grammar point and exercise, plus XP, streaks with freezes, and badges. It's stored in the browser (`localStorage`). Export/Import in Ajustes saves a backup file that can be kept in iCloud Drive or Google Drive.
+- **Review first**: Home opens on the lesson you're on in class and lists exactly what it covers. You can review the whole lesson (it takes turns across topics) or a single topic: a grammar point, antonyms, conjugation, and so on (`src/engine/topics.ts`). You can also review all lessons covered so far with spaced repetition, or just your mistakes. Wrong answers come back at the end.
+- **Daily practice** is an optional extra (a mix of the current lesson, review and ✨ extra words). Any finished review counts toward the streak, and there's no time or XP goal.
+- **Progress**: spaced repetition with Leitner boxes per word, grammar point and exercise, plus streaks with freezes and badges. It's stored in the browser (`localStorage`). Export/Import in Ajustes saves a backup file that can be kept in iCloud Drive or Google Drive.
+- **Design**: light theme by default (dark is optional), PT Sans for the interface and PT Serif for all Russian text, chosen because they place stress marks correctly. The Ruta screen shows one illustrated Russian place per chapter (`src/screens/scenes.tsx`). There is no audio.
 
 ## Adding a new chapter
 

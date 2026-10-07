@@ -1,23 +1,23 @@
 import { lessonsUpTo, lessonById } from '../content'
-import { ttsAvailable } from '../lib/tts'
 import { shuffle } from '../lib/text'
 import { candidatesFor } from './generate'
 import type { ItemState } from './srs'
-import type { Candidate, RunExercise, Skill } from './types'
+import { lessonTopics, topicMatches } from './topics'
+import type { Candidate, RunExercise } from './types'
 
 export type SessionMode =
-  | { mode: 'daily' }
   | { mode: 'lesson'; lessonId: string }
+  | { mode: 'topic'; lessonId: string; topic: string }
+  | { mode: 'review' }
   | { mode: 'weak' }
-  | { mode: 'drill'; skill: Skill }
+  | { mode: 'daily' }
 
 export interface SessionContext {
   progress: Record<string, ItemState>
+  /** The lesson the learner is on in class. */
   focusLessons: string[]
-  focusTopics: string[]
   coveredUpTo: string
   length: number
-  listening: boolean
   today: string
 }
 
@@ -37,11 +37,6 @@ function score(c: Candidate, ctx: SessionContext, weights: { due?: number; weak?
   if (states.some((st) => st && st.wrong > st.right)) s += weights.weak ?? 2
   if (c.items.length && states.every((st) => !st)) s += weights.fresh ?? 1.5
   if (c.handmade) s += 1
-  // Weekly topics only boost this week's lessons: grammar ids strongly, "skill:x" topics mildly.
-  if (ctx.focusLessons.includes(c.lessonId)) {
-    if (ctx.focusTopics.some((t) => c.items.includes(t))) s += 3
-    else if (ctx.focusTopics.includes(`skill:${c.skill}`)) s += 1.5
-  }
   return s
 }
 
@@ -49,7 +44,7 @@ function score(c: Candidate, ctx: SessionContext, weights: { due?: number; weak?
 function caps(n: number) {
   return {
     kind: { match: 2, sort: n >= 20 ? 2 : 1, error_spot: 2 } as Record<string, number>,
-    skill: { reading: 3, listening: 3 } as Record<string, number>,
+    skill: { reading: 3 } as Record<string, number>,
     other: Math.max(2, Math.ceil(n * 0.4)),
   }
 }
@@ -126,17 +121,45 @@ function order(list: RunExercise[], levels: Map<string, number>): RunExercise[] 
 
 export function buildSession(mode: SessionMode, ctx: SessionContext): RunExercise[] {
   const covered = lessonsUpTo(ctx.coveredUpTo).map((l) => l.id)
-  const usable = (c: Candidate) => (ctx.listening && ttsAvailable()) || c.skill !== 'listening'
-  const pool = (ids: string[]) => ids.flatMap(candidatesFor).filter(usable)
+  const pool = (ids: string[]) => ids.flatMap(candidatesFor)
   const n = ctx.length
   const p = new Picker(ctx, n)
   let chosen: Candidate[] = []
 
-  if (mode.mode === 'daily') {
+  if (mode.mode === 'lesson') {
+    // Take turns across the lesson's topics so the review covers everything Home says it will.
+    const all = pool([mode.lessonId])
+    const sneak = p.pick(all.filter((c) => c.sneak && c.level === 1), 1)
+    const main = all.filter((c) => !c.sneak)
+    const buckets = shuffle(lessonTopics(mode.lessonId)).map((t) => main.filter((c) => topicMatches(c, t.id)))
+    const target = n - sneak.length
+    const picked: Candidate[] = []
+    for (let round = 0; round < 4 && picked.length < target; round++) {
+      for (const b of buckets) {
+        if (picked.length >= target) break
+        picked.push(...p.pick(b, 1))
+      }
+    }
+    chosen = [...picked, ...p.mixed(main, target - picked.length), ...sneak]
+  } else if (mode.mode === 'topic') {
+    // A single topic may legitimately be all one exercise type, so per-type caps don't apply.
+    p.limits = { kind: {}, skill: {}, other: n }
+    const all = pool([mode.lessonId]).filter((c) => !c.sneak && topicMatches(c, mode.topic))
+    chosen = p.mixed(all, n)
+  } else if (mode.mode === 'review') {
+    // Spaced repetition across everything covered so far: due and shaky items first.
+    chosen = p.mixed(pool(covered).filter((c) => !c.sneak), n, { due: 6, weak: 4, fresh: -2 })
+  } else if (mode.mode === 'weak') {
+    const weak = pool(covered).filter((c) => !c.sneak && c.items.some((i) => {
+      const st = ctx.progress[i]
+      return st && (st.wrong > 0 || st.box <= 1)
+    }))
+    chosen = p.pick(weak, n, { weak: 6, due: 3, fresh: -5 })
+  } else {
+    // Daily mix (optional, keeps the streak): mostly the current lesson, some review, a sneak-in.
     const focus = ctx.focusLessons.filter((id) => lessonById.has(id))
     const focusIds = focus.length ? focus : covered.slice(-1)
     const reviewIds = covered.filter((id) => !focusIds.includes(id))
-    // Sneak-ins come from the chapter(s) being studied now.
     const chaptersNow = new Set(focusIds.map((id) => lessonById.get(id)!.chapter))
     const sneakIds = covered.filter((id) => chaptersNow.has(lessonById.get(id)!.chapter))
     const sneaks = pool(sneakIds).filter((c) => c.sneak && c.level === 1)
@@ -146,23 +169,6 @@ export function buildSession(mode: SessionMode, ctx: SessionContext): RunExercis
     const sneak = p.pick(sneaks, nSneak)
     const main = p.mixed(pool(focusIds).filter((c) => !c.sneak), n - review.length - sneak.length)
     chosen = [...main, ...review, ...sneak]
-  } else if (mode.mode === 'lesson') {
-    const all = pool([mode.lessonId])
-    const sneak = p.pick(all.filter((c) => c.sneak && c.level === 1), 1)
-    chosen = [...p.mixed(all.filter((c) => !c.sneak), n - sneak.length), ...sneak]
-  } else if (mode.mode === 'weak') {
-    const weak = pool(covered).filter((c) => !c.sneak && c.items.some((i) => {
-      const st = ctx.progress[i]
-      return st && (st.wrong > 0 || st.box <= 1)
-    }))
-    chosen = p.pick(weak, n, { weak: 6, due: 3, fresh: -5 })
-  } else {
-    const ofSkill = pool(covered).filter((c) => !c.sneak && c.skill === mode.skill)
-    // Drills ignore the per-type caps; weight the current lessons so they feel relevant.
-    p.limits = { kind: {}, skill: {}, other: n }
-    const focus = ofSkill.filter((c) => ctx.focusLessons.includes(c.lessonId))
-    const half = p.pick(focus, Math.ceil(n / 2))
-    chosen = [...half, ...p.pick(ofSkill, n - half.length)]
   }
 
   const levels = new Map<string, number>()

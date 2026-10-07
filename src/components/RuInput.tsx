@@ -31,7 +31,7 @@ export const RuInput = forwardRef<HTMLInputElement, Props>(function RuInput({ la
       autoComplete="off"
       spellCheck={false}
       inputMode={isRu && cyrKeyboard ? 'none' : 'text'}
-      className={`ru w-full rounded-2xl border-2 border-line bg-card px-4 py-3 text-lg font-semibold outline-none focus:border-brand ${className}`}
+      className={`w-full rounded-md border-[1.5px] border-line bg-card px-4 py-3 outline-none focus:border-brand ${className}`}
       onKeyDown={(e) => {
         if (isRu && translit && e.key.length === 1 && !e.metaKey && !e.ctrlKey && !e.altKey) {
           const el = e.currentTarget

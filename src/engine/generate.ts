@@ -133,10 +133,7 @@ function fromVocab(v: VocabItem, lesson: LoadedLesson, pool: VocabItem[]): Candi
     prompt: v.es, promptLang: 'es', ...choiceSet(v.ru, others.map((o) => o.ru)), choiceLang: 'ru', explanation: explain }))
 
   add('ru-es', 1, 'vocab', () => ({ ...base, key: k('ru-es'), skill: 'vocab', kind: 'choice', instruction: '¿Qué significa?',
-    prompt: v.ru, promptLang: 'ru', audio: v.ru, ...choiceSet(v.es, others.map((o) => o.es)), choiceLang: 'es', explanation: explain }))
-
-  add('listen', 2, 'listening', () => ({ ...base, key: k('listen'), skill: 'listening', kind: 'choice', instruction: 'Escucha y elige lo que oyes',
-    audio: v.ru, audioOnly: true, promptLang: 'ru', ...choiceSet(v.ru, others.map((o) => o.ru)), choiceLang: 'ru', explanation: explain }))
+    prompt: v.ru, promptLang: 'ru', ...choiceSet(v.es, others.map((o) => o.es)), choiceLang: 'es', explanation: explain }))
 
   add('write', 3, 'writing', () => ({ ...base, key: k('write'), skill: 'writing', kind: 'typed', instruction: 'Escribe en ruso',
     prompt: v.es, promptLang: 'es', answers: [v.ru], answerLang: 'ru', strict: false, hint: extra || undefined, explanation: explain }))
@@ -145,7 +142,7 @@ function fromVocab(v: VocabItem, lesson: LoadedLesson, pool: VocabItem[]): Candi
     const ant = v.antonyms
     const antPool = others.map((o) => o.ru).filter((r) => !ant.some((a) => normalizeRu(a) === normalizeRu(r)))
     add('ant', 1, 'antonym', () => ({ ...base, key: k('ant'), skill: 'antonym', kind: 'choice', instruction: 'Elige el antónimo',
-      prompt: v.ru, promptLang: 'ru', audio: v.ru, ...choiceSet(pick(ant), antPool), choiceLang: 'ru',
+      prompt: v.ru, promptLang: 'ru', ...choiceSet(pick(ant), antPool), choiceLang: 'ru',
       explanation: `${v.ru} (${v.es}) ↔ ${ant.join(', ')}` }))
     add('ant-typed', 3, 'antonym', () => ({ ...base, key: k('ant-typed'), skill: 'antonym', kind: 'typed', instruction: 'Escribe el antónimo',
       prompt: v.ru, promptLang: 'ru', answers: ant, answerLang: 'ru', strict: false, hint: v.es,
@@ -225,7 +222,7 @@ function lessonLevel(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
     out.push({ id: `${lesson.id}:gender`, lessonId: lesson.id, items: nouns.map((n) => n.id), level: 1, skill: 'grammar', kind: 'sort', make })
   }
 
-  // Sentences → word order (reading), and listen-and-build (listening).
+  // Sentences → build the Russian sentence from its Spanish translation.
   ;(lesson.sentences ?? []).forEach((s, i) => {
     const words = s.ru.replace(/[.!?…]+$/, '').split(/\s+/)
     if (words.length < 3 || words.length > 10) return
@@ -234,9 +231,6 @@ function lessonLevel(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
     out.push({ id: `${id}:order`, lessonId: lesson.id, items, level: 2, skill: 'syntax', kind: 'word_order',
       make: () => ({ key: `${id}:order-${rnd()}`, items, lessonId: lesson.id, skill: 'syntax', kind: 'word_order',
         instruction: 'Traduce ordenando las palabras', words: shuffle(words), answer: s.ru, translation: s.es }) })
-    out.push({ id: `${id}:listen`, lessonId: lesson.id, items, level: 3, skill: 'listening', kind: 'word_order',
-      make: () => ({ key: `${id}:listen-${rnd()}`, items, lessonId: lesson.id, skill: 'listening', kind: 'word_order',
-        instruction: 'Escucha y ordena lo que oyes', words: shuffle(words), answer: s.ru, translation: s.es, audio: true }) })
   })
 
   // Phrases → meaning.
@@ -245,7 +239,7 @@ function lessonLevel(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
     const id = `${lesson.id}:p${i}`
     out.push({ id, lessonId: lesson.id, items: [id], level: 1, skill: 'vocab', kind: 'choice',
       make: () => ({ key: `${id}-${rnd()}`, items: [id], lessonId: lesson.id, skill: 'vocab', kind: 'choice',
-        instruction: '¿Qué significa esta frase?', prompt: p.ru, promptLang: 'ru', audio: p.ru,
+        instruction: '¿Qué significa esta frase?', prompt: p.ru, promptLang: 'ru',
         ...choiceSet(p.es, phrases.filter((q) => q !== p).map((q) => q.es)), choiceLang: 'es', explanation: p.noteEs }) })
   })
 
@@ -269,7 +263,7 @@ function lessonLevel(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
       const entries = Object.entries(it.forms)
       if (entries.length < 2) return
       const id = `${g.id}:d${i}`
-      const items = [g.id]
+      const items = [id, g.id]
       if (entries.every(([key]) => isPronounKey(key))) {
         out.push({ id, lessonId: lesson.id, items, level: 2, skill: 'conjugation', kind: 'conjugate',
           make: () => {

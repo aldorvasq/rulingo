@@ -96,13 +96,13 @@ export function lessonsUpTo(lastId: string): LoadedLesson[] {
   return lessons.filter((l) => compareLessonIds(l.id, lastId) <= 0)
 }
 
-/** Book colour bands per chapter, used across the UI. */
+/** Muted chapter colours (each chapter's path scene is painted around its colour). */
 export const chapterColors: Record<number, { bg: string; fg: string; soft: string }> = {
-  1: { bg: '#ef4f45', fg: '#fff', soft: '#fde3e1' },
-  2: { bg: '#2b9fc9', fg: '#fff', soft: '#dbeff7' },
-  3: { bg: '#7cbf3c', fg: '#fff', soft: '#e7f4da' },
-  4: { bg: '#9b5bb8', fg: '#fff', soft: '#efe2f5' },
-  5: { bg: '#f39a1f', fg: '#fff', soft: '#fdecd4' },
-  6: { bg: '#9a6b4b', fg: '#fff', soft: '#efe4dc' },
+  1: { bg: '#8f3b32', fg: '#fff', soft: '#efe0dc' }, // Kremlin brick
+  2: { bg: '#3d5a73', fg: '#fff', soft: '#dfe6ec' }, // Neva slate
+  3: { bg: '#56704f', fg: '#fff', soft: '#e3e9df' }, // village moss
+  4: { bg: '#8a6d3b', fg: '#fff', soft: '#eee6d8' }, // Volga ochre
+  5: { bg: '#4b5866', fg: '#fff', soft: '#e1e4e8' }, // taiga dusk
+  6: { bg: '#6b4f3f', fg: '#fff', soft: '#ebe2dc' }, // Kamchatka umber
 }
-export const colorFor = (chapter: number) => chapterColors[chapter] ?? { bg: '#14b8a6', fg: '#fff', soft: '#d5f5f0' }
+export const colorFor = (chapter: number) => chapterColors[chapter] ?? { bg: '#2f4a6d', fg: '#fff', soft: '#e1e7ee' }

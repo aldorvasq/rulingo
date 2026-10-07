@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { SpeakButton } from '../components/ui'
 import type { ExProps } from './common'
 
 export function ErrorSpotEx({ ex, locked, ready }: ExProps<'error_spot'>) {
@@ -13,21 +12,15 @@ export function ErrorSpotEx({ ex, locked, ready }: ExProps<'error_spot'>) {
   }
 
   return (
-    <div>
-      <div className="mb-4 flex justify-end"><SpeakButton text={ex.sentence} /></div>
-      <div className="flex flex-wrap justify-center gap-2">
-        {words.map((w, i) => (
-          <button
-            key={i}
-            onClick={() => choose(i)}
-            className={`tile ru !px-3 !py-2 text-xl ${
-              locked ? (i === ex.wrongWord ? 'tile-ok' : sel === i ? 'tile-bad' : '') : sel === i ? 'tile-selected' : ''
-            }`}
-          >
-            {locked && i === ex.wrongWord ? <><s className="opacity-50">{w}</s> {ex.correction}</> : w}
-          </button>
-        ))}
-      </div>
+    <div className="flex flex-wrap justify-center gap-2 pt-4">
+      {words.map((w, i) => (
+        <button key={i} onClick={() => choose(i)}
+          className={`tile ru !px-3 !py-2 text-2xl ${
+            locked ? (i === ex.wrongWord ? 'tile-ok' : sel === i ? 'tile-bad' : '') : sel === i ? 'tile-selected' : ''
+          }`}>
+          {locked && i === ex.wrongWord ? <><s className="opacity-50">{w}</s> {ex.correction}</> : w}
+        </button>
+      ))}
     </div>
   )
 }
