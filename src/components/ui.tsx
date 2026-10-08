@@ -161,7 +161,7 @@ export function TopicTitle({ title, className = '' }: { title: string; className
   )
 }
 
-function readOpen(id: string, fallback: boolean): boolean {
+export function readOpen(id: string, fallback: boolean): boolean {
   try {
     const v = JSON.parse(localStorage.getItem('rulingo-ui-sections') ?? '{}')[id]
     return typeof v === 'boolean' ? v : fallback
@@ -170,7 +170,7 @@ function readOpen(id: string, fallback: boolean): boolean {
   }
 }
 
-function saveOpen(id: string, open: boolean) {
+export function saveOpen(id: string, open: boolean) {
   try {
     const all = JSON.parse(localStorage.getItem('rulingo-ui-sections') ?? '{}')
     localStorage.setItem('rulingo-ui-sections', JSON.stringify({ ...all, [id]: open }))

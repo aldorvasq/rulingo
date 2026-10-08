@@ -58,6 +58,11 @@ export function DailyHero() {
             : <>Сло́во дня · <span className="normal-case tracking-normal">Palabra del día</span></>}
         </div>
 
+        {daily.kind === 'word' && daily.season && (
+          <div className="mt-2 inline-flex items-center gap-1.5 rounded-sm bg-white/15 px-2 py-0.5 text-xs font-bold">
+            <span className="ru">{daily.season.ru}</span> · {daily.season.es}
+          </div>
+        )}
         {daily.kind === 'word' ? (
           <>
             <div className="ru shimmer-text mt-3 text-[3.2rem] font-bold leading-none [text-shadow:0_2px_12px_rgba(0,0,0,0.25)]">{daily.item.ru}</div>

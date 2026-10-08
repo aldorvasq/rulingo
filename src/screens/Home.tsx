@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { useStore } from '../state/store'
-import { lessonById, colorFor, lessonsUpTo, vocabById } from '../content'
+import { lessonById, lessonsUpTo, vocabById } from '../content'
 import { lessonTopics } from '../engine/topics'
 import { lessonMastery } from '../state/mastery'
 import { dayKey, daysBetween } from '../lib/date'
@@ -47,15 +47,17 @@ export function Home() {
       </div>
       <DailyHero />
       <ScheduleCard />
-      <InstallBanner />
 
       {lesson ? (
         <>
           {/* 1. Continue the lesson from class */}
-          <Section id="current" title="Continúa donde vas en clase" accent={colorFor(lesson.chapter).bg}>
-          <div className="card overflow-hidden">
-            <div className="h-1.5" style={{ background: colorFor(lesson.chapter).bg }} />
-            <div className="p-5">
+          {/* Its own, quieter look: slate-blue tint, not collapsible. */}
+          <section className="rise mt-6 overflow-hidden rounded-xl border border-brand/25 bg-brand-soft" style={{ animationDelay: '200ms' }}>
+            <div className="flex items-center gap-2 px-5 pt-4 text-brand">
+              <Icon name="book" size={20} />
+              <span className="text-lg font-bold">Continúa donde vas en clase</span>
+            </div>
+            <div className="p-5 pt-2">
               <div className="text-sm font-bold text-muted">Lección {lesson.id}</div>
               <h1 className="ru mt-0.5 text-[2rem] font-bold leading-tight">{lesson.title}</h1>
               {lesson.titleEs && <div className="text-muted">{lesson.titleEs}</div>}
@@ -84,8 +86,9 @@ export function Home() {
                 <span className="tabular-nums">{Math.round(lessonMastery(lesson, progress) * 100)}%</span>
               </div>
             </div>
-          </div>
-          </Section>
+          </section>
+
+          <InstallBanner />
 
           {/* 2. Or a single topic */}
           <TopicList lessonId={lesson.id} />

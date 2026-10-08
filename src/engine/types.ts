@@ -13,6 +13,8 @@ interface RunBase {
   lessonId: string
   instruction: string
   explanation?: string
+  /** Spanish translation of what's being practised, revealed after a correct answer. */
+  translation?: string
   skill: Skill
   sneak?: boolean
   /** Context shown above the prompt (reading passage or dialogue). */

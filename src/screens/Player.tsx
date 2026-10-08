@@ -79,6 +79,7 @@ export function Player({ params }: { params: URLSearchParams }) {
   const [summary, setSummary] = useState<SessionSummary | null>(null)
   const [praise, setPraise] = useState(PRAISE[0])
   const [confirmQuit, setConfirmQuit] = useState(false)
+  const [reveal, setReveal] = useState<'tr' | 'ex' | null>(null)
 
   const ex = queue[pos]
 
@@ -116,6 +117,7 @@ export function Player({ params }: { params: URLSearchParams }) {
     submitRef.current = null
     setCanSubmit(false)
     setResult(null)
+    setReveal(null)
     if (pos + 1 >= queue.length) {
       setSummary(finishSession({
         xp: stats.current.xp,
@@ -155,7 +157,8 @@ export function Player({ params }: { params: URLSearchParams }) {
   const progress = Math.min(stats.current.done, total.current) / total.current
   const lesson = lessonById.get(ex.lessonId)
   const isRetry = retried.current.has(ex.key) && pos >= total.current
-  const grammarTip = result && !result.correct ? ex.items.map((i) => grammarById.get(i)).find(Boolean) : undefined
+  const ruleOf = ex.items.map((i) => grammarById.get(i)).find(Boolean)
+  const grammarTip = result && !result.correct ? ruleOf : undefined
 
   return (
     <div className="mx-auto flex min-h-full max-w-xl flex-col">
@@ -198,7 +201,28 @@ export function Player({ params }: { params: URLSearchParams }) {
                   {result.correctAnswer}
                 </div>
               )}
-              {ex.explanation && <p className="mt-1 text-[15px] text-ink/80"><Mixed text={ex.explanation} /></p>}
+              {!result.correct && ex.explanation && <p className="mt-1 text-[15px] text-ink/80"><Mixed text={ex.explanation} /></p>}
+              {result.correct && (ex.translation || ex.explanation || ruleOf) && (
+                <div className="mt-2">
+                  <div className="flex gap-2">
+                    {ex.translation && (
+                      <button onClick={() => setReveal(reveal === 'tr' ? null : 'tr')}
+                        className={`chip !border-ok/40 text-ok ${reveal === 'tr' ? '!bg-ok !text-white' : '!bg-card'}`}>Traducción</button>
+                    )}
+                    {(ex.explanation || ruleOf) && (
+                      <button onClick={() => setReveal(reveal === 'ex' ? null : 'ex')}
+                        className={`chip !border-ok/40 text-ok ${reveal === 'ex' ? '!bg-ok !text-white' : '!bg-card'}`}>Explicación</button>
+                    )}
+                  </div>
+                  {reveal && (
+                    <div className="animate-pop mt-2 max-h-40 overflow-y-auto rounded-md bg-card px-3 py-2 text-[15px] whitespace-pre-line leading-relaxed text-ink/90">
+                      {reveal === 'tr' ? <Mixed text={ex.translation!} ruClass="text-[1.06em]" /> : ex.explanation ? <Mixed text={ex.explanation} /> : (
+                        <>Regla: <button className="font-bold text-brand underline" onClick={() => navigate(`/lesson/${ruleOf!.lessonId}`)}>{ruleOf!.title}</button></>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )}
               {grammarTip && (
                 <button className="mt-1 block text-left text-sm font-bold text-brand underline" onClick={() => navigate(`/lesson/${grammarTip.lessonId}`)}>
                   Repasar la regla: {grammarTip.title}

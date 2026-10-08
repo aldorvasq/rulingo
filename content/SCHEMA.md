@@ -102,7 +102,9 @@ All learner-facing explanations and translations are in **Spanish (Mexican)**.
 
 ## Exercise
 
-Common fields: `id`, `type`, `instructionEs`, `explanationEs` (shown after answering), `tags`
+Common fields: `id`, `type`, `instructionEs`, `explanationEs` (shown after answering), `es` (Spanish
+translation of the exercise's Russian text with the correct answer filled in — shown after a correct
+answer; for `match`/`sort` list the meanings, e.g. "шу́мный = ruidoso · ти́хий = tranquilo"), `tags`
 (vocab/grammar ids), `origin`: `"textbook p.62 ex.5"` | `"workbook p.60 ex.3"` | `"original"`.
 
 | type | specific fields |

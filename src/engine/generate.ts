@@ -2,6 +2,7 @@ import type { ContentExercise, VocabItem } from '../content/types'
 import { lessonById, lessons, type LoadedLesson } from '../content'
 import { normalizeRu, pick, sample, shuffle, stripStress } from '../lib/text'
 import { fakeVariants } from '../lib/fakes'
+import { autoTranslation } from './translate'
 import type { Candidate, RunExercise, Skill } from './types'
 
 const GENDER_LABEL: Record<string, string> = { m: 'masculino', f: 'femenino', n: 'neutro', pl: 'plural' }
@@ -68,7 +69,7 @@ const describe = (v: VocabItem) => {
 
 function fromContent(ex: ContentExercise, lesson: LoadedLesson): Candidate[] {
   const items = [ex.id, ...(ex.tags ?? [])]
-  const base = { lessonId: lesson.id, items, explanation: ex.explanationEs }
+  const base = { lessonId: lesson.id, items, explanation: ex.explanationEs, translation: ex.es }
   const c = (level: 1 | 2 | 3, skill: Skill, make: () => RunExercise, suffix = ''): Candidate => ({
     id: ex.id + suffix, lessonId: lesson.id, items, level, handmade: true, skill, kind: make().kind, make,
   })
@@ -323,6 +324,15 @@ export function candidatesFor(lessonId: string): Candidate[] {
     ...lesson.sneakIns.flatMap((v) => fromVocab(v, lesson, pool).filter((c) => c.level < 3)),
     ...lessonLevel(lesson, pool),
   ]
+  // Every exercise gets a translation: hand-written ones bring theirs, the rest are derived.
+  for (const c of result) {
+    const make = c.make
+    c.make = () => {
+      const ex = make()
+      ex.translation ??= autoTranslation(ex)
+      return ex
+    }
+  }
   cache.set(lessonId, result)
   return result
 }

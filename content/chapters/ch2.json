@@ -1544,7 +1544,9 @@
             ]
           ],
           "tags": [],
-          "origin": "textbook p.29 ex.2А"
+          "origin": "textbook p.29 ex.2А",
+          "es": "ру́чка = pluma · каранда́ш = lápiz · тетра́дь = cuaderno · слова́рь = diccionario · доска́ = pizarrón · су́мка = bolsa",
+          "explanationEs": "Objetos del salón de clases. Ojo: тетра́дь es femenino y слова́рь es masculino, aunque los dos terminan en -ь."
         },
         {
           "id": "2.1-x-02",
@@ -1577,7 +1579,9 @@
             ]
           ],
           "tags": [],
-          "origin": "textbook p.29 ex.2А"
+          "origin": "textbook p.29 ex.2А",
+          "es": "очки́ = lentes · часы́ = reloj · де́ньги = dinero · ключ = llave · зо́нтик = paraguas · кошелёк = monedero",
+          "explanationEs": "Очки́, часы́ y де́ньги solo existen en plural en ruso, aunque en español «reloj» sea singular."
         },
         {
           "id": "2.1-x-03",
@@ -1610,7 +1614,9 @@
             ]
           ],
           "tags": [],
-          "origin": "textbook p.29 ex.2А"
+          "origin": "textbook p.29 ex.2А",
+          "es": "биле́т = boleto · газе́та = periódico · журна́л = revista · маши́на = carro · письмо́ = carta · ма́ркер = plumón",
+          "explanationEs": "Fíjate en el género por la terminación: consonante → masculino (биле́т, журна́л), -а → femenino (газе́та, маши́на), -о → neutro (письмо́)."
         },
         {
           "id": "2.1-x-04",
@@ -1684,7 +1690,8 @@
           "tags": [
             "2.1-g-gender"
           ],
-          "origin": "textbook p.29 ex.2Б"
+          "origin": "textbook p.29 ex.2Б",
+          "es": "стол = mesa · ру́чка = pluma · фо́то = foto · часы́ = reloj · слова́рь = diccionario · тетра́дь = cuaderno · окно́ = ventana · очки́ = lentes · дверь = puerta · письмо́ = carta · де́ньги = dinero · каранда́ш = lápiz · маши́на = carro · ключи́ = llaves"
         },
         {
           "id": "2.1-x-05",
@@ -1702,7 +1709,8 @@
           "tags": [
             "2.1-g-gender"
           ],
-          "origin": "workbook p.25 ex.1Г"
+          "origin": "workbook p.25 ex.1Г",
+          "es": "¿Dónde están los lentes? — Aquí están."
         },
         {
           "id": "2.1-x-06",
@@ -1720,7 +1728,8 @@
           "tags": [
             "2.1-g-gender"
           ],
-          "origin": "workbook p.25 ex.1Г"
+          "origin": "workbook p.25 ex.1Г",
+          "es": "¿Dónde está la lámpara? — Aquí está."
         },
         {
           "id": "2.1-x-07",
@@ -1738,7 +1747,8 @@
           "tags": [
             "2.1-g-gender"
           ],
-          "origin": "workbook p.25 ex.1Г"
+          "origin": "workbook p.25 ex.1Г",
+          "es": "¿Dónde está la carta? — Aquí está."
         },
         {
           "id": "2.1-x-08",
@@ -1756,7 +1766,8 @@
           "tags": [
             "2.1-g-gender"
           ],
-          "origin": "workbook p.25 ex.1Г"
+          "origin": "workbook p.25 ex.1Г",
+          "es": "¿Dónde está el monedero? — Aquí está."
         },
         {
           "id": "2.1-x-09",
@@ -1774,7 +1785,8 @@
           "tags": [
             "2.1-g-gender"
           ],
-          "origin": "workbook p.25 ex.1Г"
+          "origin": "workbook p.25 ex.1Г",
+          "es": "¿Dónde está el cuaderno? — Aquí está."
         },
         {
           "id": "2.1-x-10",
@@ -1792,7 +1804,8 @@
           "tags": [
             "2.1-g-gender"
           ],
-          "origin": "workbook p.25 ex.1Г"
+          "origin": "workbook p.25 ex.1Г",
+          "es": "¿Dónde está el diccionario? — Aquí está."
         },
         {
           "id": "2.1-x-11",
@@ -1810,7 +1823,8 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.31 ex.4Б"
+          "origin": "textbook p.31 ex.4Б",
+          "es": "Él tiene reloj."
         },
         {
           "id": "2.1-x-12",
@@ -1824,7 +1838,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.31 ex.4Б"
+          "origin": "textbook p.31 ex.4Б",
+          "es": "Yo tengo revista.",
+          "explanationEs": "«Tener» se dice у + pronombre: я → у меня́."
         },
         {
           "id": "2.1-x-13",
@@ -1838,7 +1854,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.31 ex.4Б"
+          "origin": "textbook p.31 ex.4Б",
+          "es": "¿Tienes monedero?",
+          "explanationEs": "Ты → у тебя́ (tú tienes)."
         },
         {
           "id": "2.1-x-14",
@@ -1852,7 +1870,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.31 ex.4Б"
+          "origin": "textbook p.31 ex.4Б",
+          "es": "Tenemos carro.",
+          "explanationEs": "Мы → у нас (nosotros tenemos)."
         },
         {
           "id": "2.1-x-15",
@@ -1866,7 +1886,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.31 ex.4Б"
+          "origin": "textbook p.31 ex.4Б",
+          "es": "Ellos tienen llaves.",
+          "explanationEs": "Они́ → у них; después de у el pronombre lleva н- al inicio."
         },
         {
           "id": "2.1-x-16",
@@ -1880,7 +1902,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.31 ex.4Б"
+          "origin": "textbook p.31 ex.4Б",
+          "es": "Ella tiene pasaporte.",
+          "explanationEs": "Она́ → у неё; después de у el pronombre lleva н- al inicio."
         },
         {
           "id": "2.1-x-17",
@@ -1894,7 +1918,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.31 ex.4Б"
+          "origin": "textbook p.31 ex.4Б",
+          "es": "¿Tiene usted teléfono? / ¿Tienen teléfono?",
+          "explanationEs": "Вы → у вас (usted o ustedes tienen)."
         },
         {
           "id": "2.1-x-18",
@@ -1911,7 +1937,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.32 ex.5А"
+          "origin": "textbook p.32 ex.5А",
+          "es": "Él es fotógrafo. Tiene cámara.",
+          "explanationEs": "Un fotógrafo lógicamente tiene фотоаппара́т (cámara)."
         },
         {
           "id": "2.1-x-19",
@@ -1928,7 +1956,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.32 ex.5А"
+          "origin": "textbook p.32 ex.5А",
+          "es": "Él es bartender. Tiene ginebra y agua tónica.",
+          "explanationEs": "Джин и то́ник: lo que tiene un bartender para preparar un gin tonic."
         },
         {
           "id": "2.1-x-20",
@@ -1945,7 +1975,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.32 ex.5А"
+          "origin": "textbook p.32 ex.5А",
+          "es": "Él es millonario. Tiene una villa y un yate.",
+          "explanationEs": "Un millonario tiene ви́лла и я́хта (villa y yate)."
         },
         {
           "id": "2.1-x-21",
@@ -1962,7 +1994,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.32 ex.5А"
+          "origin": "textbook p.32 ex.5А",
+          "es": "Él es periodista. Tiene micrófono y entrevista.",
+          "explanationEs": "Un periodista trabaja con микрофо́н e интервью́."
         },
         {
           "id": "2.1-x-22",
@@ -1979,7 +2013,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.32 ex.5А"
+          "origin": "textbook p.32 ex.5А",
+          "es": "Ella es actriz. Tiene un papel y público.",
+          "explanationEs": "Una actriz tiene роль (papel) y пу́блика (público)."
         },
         {
           "id": "2.1-x-23",
@@ -1996,7 +2032,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.32 ex.5А"
+          "origin": "textbook p.32 ex.5А",
+          "es": "Él es doctor. Tiene pacientes y medicamentos.",
+          "explanationEs": "Un doctor tiene пацие́нты y медикаме́нты."
         },
         {
           "id": "2.1-x-24",
@@ -2013,7 +2051,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.32 ex.5А"
+          "origin": "textbook p.32 ex.5А",
+          "es": "Ella es estudiante. Tiene examen y diploma.",
+          "explanationEs": "Una estudiante tiene экза́мен y дипло́м."
         },
         {
           "id": "2.1-x-25",
@@ -2048,7 +2088,9 @@
           "tags": [
             "2.1-g-numbers"
           ],
-          "origin": "textbook p.33 ex.6Б"
+          "origin": "textbook p.33 ex.6Б",
+          "es": "20 = два́дцать (veinte) · 30 = три́дцать (treinta) · 40 = со́рок (cuarenta) · 50 = пятьдеся́т (cincuenta) · 90 = девяно́сто (noventa) · 100 = сто (cien)",
+          "explanationEs": "20 y 30 terminan en -дцать; 50–80 en -десят; 40 (со́рок) y 90 (девяно́сто) son irregulares."
         },
         {
           "id": "2.1-x-26",
@@ -2083,7 +2125,9 @@
           "tags": [
             "2.1-g-numbers"
           ],
-          "origin": "textbook p.33 ex.6А"
+          "origin": "textbook p.33 ex.6А",
+          "es": "60 = шестьдеся́т (sesenta) · 70 = се́мьдесят (setenta) · 80 = во́семьдесят (ochenta) · 23 = два́дцать три (veintitrés) · 47 = со́рок семь (cuarenta y siete) · 92 = девяно́сто два (noventa y dos)",
+          "explanationEs": "Los números compuestos se forman como en español pero sin «y»: decena + unidad (со́рок семь = 40 + 7)."
         },
         {
           "id": "2.1-x-27",
@@ -2096,7 +2140,9 @@
           "tags": [
             "2.1-g-numbers"
           ],
-          "origin": "workbook p.27 ex.5"
+          "origin": "workbook p.27 ex.5",
+          "es": "37 = три́дцать семь (treinta y siete)",
+          "explanationEs": "30 = три́дцать; se le suma la unidad sin «y»: три́дцать семь."
         },
         {
           "id": "2.1-x-28",
@@ -2110,7 +2156,8 @@
           "tags": [
             "2.1-g-numbers"
           ],
-          "origin": "workbook p.27 ex.5"
+          "origin": "workbook p.27 ex.5",
+          "es": "56 = пятьдеся́т шесть (cincuenta y seis)"
         },
         {
           "id": "2.1-x-29",
@@ -2123,7 +2170,9 @@
           "tags": [
             "2.1-g-numbers"
           ],
-          "origin": "workbook p.27 ex.5"
+          "origin": "workbook p.27 ex.5",
+          "es": "84 = во́семьдесят четы́ре (ochenta y cuatro)",
+          "explanationEs": "4 = четы́ре; va después de la decena во́семьдесят."
         },
         {
           "id": "2.1-x-30",
@@ -2137,7 +2186,9 @@
           "tags": [
             "2.1-g-numbers"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "девяно́сто оди́н = noventa y uno (91)",
+          "explanationEs": "90 = девяно́сто (irregular) + 1 = оди́н."
         },
         {
           "id": "2.1-x-31",
@@ -2154,7 +2205,8 @@
           "tags": [
             "2.1-g-numbers"
           ],
-          "origin": "textbook p.33 ex.6Д"
+          "origin": "textbook p.33 ex.6Д",
+          "es": "¿Cuántos años tienes? — Tengo veinticinco."
         },
         {
           "id": "2.1-x-32",
@@ -2167,7 +2219,8 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "workbook p.26 ex.4"
+          "origin": "workbook p.26 ex.4",
+          "es": "Esta es María. Ella tiene pasaporte."
         },
         {
           "id": "2.1-x-33",
@@ -2180,7 +2233,8 @@
           "tags": [
             "2.1-g-gender"
           ],
-          "origin": "workbook p.26 ex.4"
+          "origin": "workbook p.26 ex.4",
+          "es": "¿Dónde están los lentes? — Aquí están."
         },
         {
           "id": "2.1-x-34",
@@ -2191,7 +2245,8 @@
           "correction": "говори́т",
           "explanationEs": "Хосе́ = он → говори́т.",
           "tags": [],
-          "origin": "workbook p.26 ex.4"
+          "origin": "workbook p.26 ex.4",
+          "es": "José habla un poquito de inglés."
         },
         {
           "id": "2.1-x-35",
@@ -2204,7 +2259,8 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Ellos tienen una villa y un yate, y él tiene un carro."
         },
         {
           "id": "2.1-x-36",
@@ -2237,7 +2293,9 @@
           "tags": [
             "2.1-g-eto-ili"
           ],
-          "origin": "textbook p.30 ex.2В"
+          "origin": "textbook p.30 ex.2В",
+          "es": "A: ¿Qué es esto?\nB: Son unos lentes.\nA: ¿Es dinero?\nB: No, no es dinero, son lentes.",
+          "explanationEs": "Para negar se pone не antes de la palabra: э́то не де́ньги, y luego se corrige: э́то очки́."
         },
         {
           "id": "2.1-x-37",
@@ -2270,7 +2328,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "textbook p.33 ex.5Б"
+          "origin": "textbook p.33 ex.5Б",
+          "es": "A: ¿A qué te dedicas?\nB: Soy fotógrafo.\nA: ¿Qué tienes?\nB: Tengo una cámara y un estudio.",
+          "explanationEs": "La respuesta «у меня́ есть…» contesta a la pregunta «Что у тебя́ есть?» (¿Qué tienes?)."
         },
         {
           "id": "2.1-x-38",
@@ -2287,7 +2347,8 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "Para preguntar «¿tienes…?» se usa у тебя́ есть + cosa; la pregunta se marca solo con la entonación."
         },
         {
           "id": "2.1-x-39",
@@ -2306,7 +2367,8 @@
           "tags": [
             "2.1-g-eto-ili"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "Negación con не + corrección: э́то не газе́та, э́то журна́л."
         },
         {
           "id": "2.1-x-40",
@@ -2325,7 +2387,8 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "Ella tiene = у неё есть; «я ду́маю» (creo) va primero, separado por coma."
         },
         {
           "id": "2.1-x-41",
@@ -2338,7 +2401,9 @@
           "tags": [
             "2.1-g-eto-ili"
           ],
-          "origin": "workbook p.24 ex.1А"
+          "origin": "workbook p.24 ex.1А",
+          "es": "No, no es una pluma, es un lápiz.",
+          "explanationEs": "Para negar y corregir: Нет, э́то не + palabra, э́то + palabra correcta."
         },
         {
           "id": "2.1-x-42",
@@ -2351,7 +2416,9 @@
           "tags": [
             "2.1-g-eto-ili"
           ],
-          "origin": "workbook p.24 ex.1Б"
+          "origin": "workbook p.24 ex.1Б",
+          "es": "Es una mesa.",
+          "explanationEs": "Ante «¿Es X o Y?» (и́ли) se responde con la opción correcta: Э́то стол."
         },
         {
           "id": "2.1-x-43",
@@ -2365,7 +2432,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "workbook p.25 ex.2В"
+          "origin": "workbook p.25 ex.2В",
+          "es": "— ¿Tienes lámpara? — Sí, tengo lámpara.",
+          "explanationEs": "Si la respuesta es «у меня́» (yo tengo), la pregunta va con у тебя́ / у вас."
         },
         {
           "id": "2.1-x-44",
@@ -2378,7 +2447,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "workbook p.25 ex.2В"
+          "origin": "workbook p.25 ex.2В",
+          "es": "— ¿Ella tiene bolsa? — Sí, ella tiene bolsa.",
+          "explanationEs": "La pregunta usa el mismo pronombre que la respuesta: у неё есть…? La entonación marca la pregunta."
         },
         {
           "id": "2.1-x-45",
@@ -2392,7 +2463,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "workbook p.27 ex.7"
+          "origin": "workbook p.27 ex.7",
+          "es": "У тебя́ есть кот? = ¿Tienes gato?",
+          "explanationEs": "Tú (informal) → у тебя́ есть + cosa."
         },
         {
           "id": "2.1-x-46",
@@ -2406,7 +2479,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "workbook p.27 ex.7"
+          "origin": "workbook p.27 ex.7",
+          "es": "У нас есть дом. = Tenemos casa.",
+          "explanationEs": "Nosotros → у нас есть + cosa."
         },
         {
           "id": "2.1-x-47",
@@ -2422,7 +2497,9 @@
             "2.1-g-gender",
             "2.1-g-eto-ili"
           ],
-          "origin": "workbook p.27 ex.7"
+          "origin": "workbook p.27 ex.7",
+          "es": "Где дверь? — Она́ там. = ¿Dónde está la puerta? — Está allá.",
+          "explanationEs": "Дверь es femenino (aunque termine en -ь) → она́. En presente no se usa el verbo «estar»."
         },
         {
           "id": "2.1-x-48",
@@ -2438,7 +2515,9 @@
           "tags": [
             "2.1-g-u-menya-est"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Ellos tienen una villa y un yate.",
+          "explanationEs": "У них есть = ellos tienen."
         },
         {
           "id": "2.1-x-49",
@@ -2456,7 +2535,9 @@
           "tags": [
             "2.1-g-eto-ili"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "здесь = aquí ↔ там = allá",
+          "explanationEs": "Здесь (aquí) es lo contrario de там (allá)."
         },
         {
           "id": "2.1-x-50",
@@ -2474,7 +2555,9 @@
           "tags": [
             "2.1-g-eto-ili"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "пра́вильно = correcto ↔ непра́вильно = incorrecto",
+          "explanationEs": "El prefijo не- forma el antónimo: пра́вильно → непра́вильно."
         }
       ]
     },
@@ -3705,7 +3788,9 @@
             ]
           ],
           "tags": [],
-          "origin": "textbook p.35 ex.2А"
+          "origin": "textbook p.35 ex.2А",
+          "es": "па́па = papá · сын = hijo · дочь = hija · брат = hermano · сестра́ = hermana · внук = nieto",
+          "explanationEs": "Familia básica. Дочь es femenino aunque termine en -ь."
         },
         {
           "id": "2.2-x-02",
@@ -3738,7 +3823,9 @@
             ]
           ],
           "tags": [],
-          "origin": "textbook p.35 ex.2А"
+          "origin": "textbook p.35 ex.2А",
+          "es": "ба́бушка = abuela · де́душка = abuelo · муж = esposo · жена́ = esposa · дя́дя = tío · тётя = tía",
+          "explanationEs": "Де́душка y дя́дя terminan en -а/-я pero son hombres, así que son masculinos."
         },
         {
           "id": "2.2-x-03",
@@ -3771,7 +3858,9 @@
             ]
           ],
           "tags": [],
-          "origin": "original"
+          "origin": "original",
+          "es": "роди́тели = papás · де́ти = hijos · вну́ки = nietos · друзья́ = amigos · лю́ди = gente · семья́ = familia",
+          "explanationEs": "Casi todas son plurales; семья́ (familia) es singular femenino."
         },
         {
           "id": "2.2-x-04",
@@ -3782,7 +3871,9 @@
             "ма́ма"
           ],
           "tags": [],
-          "origin": "textbook p.35 ex.2Б"
+          "origin": "textbook p.35 ex.2Б",
+          "es": "па́па = papá ↔ ма́ма = mamá",
+          "explanationEs": "Па́па (papá) forma pareja con ма́ма (mamá)."
         },
         {
           "id": "2.2-x-05",
@@ -3798,7 +3889,9 @@
             "сестра́"
           ],
           "tags": [],
-          "origin": "textbook p.35 ex.2Б"
+          "origin": "textbook p.35 ex.2Б",
+          "es": "брат = hermano ↔ сестра́ = hermana",
+          "explanationEs": "La pareja femenina de брат es сестра́."
         },
         {
           "id": "2.2-x-06",
@@ -3814,7 +3907,9 @@
             "дочь"
           ],
           "tags": [],
-          "origin": "textbook p.35 ex.2Б"
+          "origin": "textbook p.35 ex.2Б",
+          "es": "сын = hijo ↔ дочь = hija",
+          "explanationEs": "La pareja femenina de сын es дочь."
         },
         {
           "id": "2.2-x-07",
@@ -3830,7 +3925,9 @@
             "тётя"
           ],
           "tags": [],
-          "origin": "textbook p.35 ex.2Б"
+          "origin": "textbook p.35 ex.2Б",
+          "es": "дя́дя = tío ↔ тётя = tía",
+          "explanationEs": "La pareja femenina de дя́дя es тётя."
         },
         {
           "id": "2.2-x-08",
@@ -3846,7 +3943,9 @@
             "де́вушка"
           ],
           "tags": [],
-          "origin": "textbook p.35 ex.2Б"
+          "origin": "textbook p.35 ex.2Б",
+          "es": "па́рень = muchacho ↔ де́вушка = muchacha",
+          "explanationEs": "Па́рень es un hombre joven; su pareja es де́вушка (no де́вочка, que es una niña)."
         },
         {
           "id": "2.2-x-09",
@@ -3862,7 +3961,9 @@
             "де́вочка"
           ],
           "tags": [],
-          "origin": "textbook p.35 ex.2Б"
+          "origin": "textbook p.35 ex.2Б",
+          "es": "ма́льчик = niño ↔ де́вочка = niña",
+          "explanationEs": "Ма́льчик es un niño; su pareja es де́вочка (niña). Де́вушка es una muchacha joven."
         },
         {
           "id": "2.2-x-10",
@@ -3877,7 +3978,9 @@
           ],
           "answer": 0,
           "tags": [],
-          "origin": "workbook p.28 ex.1Б"
+          "origin": "workbook p.28 ex.1Б",
+          "es": "papá + mamá = papás (padres)",
+          "explanationEs": "Роди́тели = los papás (padre y madre juntos)."
         },
         {
           "id": "2.2-x-11",
@@ -3892,7 +3995,9 @@
           ],
           "answer": 0,
           "tags": [],
-          "origin": "workbook p.28 ex.1Б"
+          "origin": "workbook p.28 ex.1Б",
+          "es": "hijo + hija = hijos",
+          "explanationEs": "Де́ти = los hijos (o niños) en plural."
         },
         {
           "id": "2.2-x-12",
@@ -3907,7 +4012,9 @@
           ],
           "answer": 0,
           "tags": [],
-          "origin": "workbook p.28 ex.1Б"
+          "origin": "workbook p.28 ex.1Б",
+          "es": "nieto + nieta = nietos",
+          "explanationEs": "Вну́ки es el plural de внук e incluye a nietos y nietas."
         },
         {
           "id": "2.2-x-13",
@@ -3922,7 +4029,9 @@
           ],
           "answer": 0,
           "tags": [],
-          "origin": "workbook p.28 ex.1Б"
+          "origin": "workbook p.28 ex.1Б",
+          "es": "amigo + amiga = amigos",
+          "explanationEs": "Друзья́ es el plural irregular de друг."
         },
         {
           "id": "2.2-x-14",
@@ -3996,7 +4105,8 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "workbook p.28 ex.2В"
+          "origin": "workbook p.28 ex.2В",
+          "es": "стол = mesa · су́мка = bolsa · де́ло = asunto · ключи́ = llaves · дом = casa · маши́на = carro · окно́ = ventana · де́ти = hijos · па́па = papá · дя́дя = tío · тётя = tía · пальто́ = abrigo · роди́тели = papás · ко́фе = café"
         },
         {
           "id": "2.2-x-15",
@@ -4013,7 +4123,9 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "textbook p.36 ex.3А"
+          "origin": "textbook p.36 ex.3А",
+          "es": "Somos nosotros. Es nuestra casa.",
+          "explanationEs": "Дом es masculino → наш."
         },
         {
           "id": "2.2-x-16",
@@ -4031,7 +4143,8 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "textbook p.36 ex.3А"
+          "origin": "textbook p.36 ex.3А",
+          "es": "Eres tú. Es tu cuaderno."
         },
         {
           "id": "2.2-x-17",
@@ -4049,7 +4162,8 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "textbook p.36 ex.3А"
+          "origin": "textbook p.36 ex.3А",
+          "es": "Es él. Es su pluma (de él)."
         },
         {
           "id": "2.2-x-18",
@@ -4066,7 +4180,9 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "textbook p.36 ex.3А"
+          "origin": "textbook p.36 ex.3А",
+          "es": "Es ella. Es su reloj (de ella).",
+          "explanationEs": "«De ella» = её, y no cambia con el género o el número del objeto. Неё solo va después de «у»."
         },
         {
           "id": "2.2-x-19",
@@ -4083,7 +4199,9 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "textbook p.36 ex.3А"
+          "origin": "textbook p.36 ex.3А",
+          "es": "Son ustedes. Son sus nietos (de ustedes).",
+          "explanationEs": "Вну́ки es plural → ва́ши."
         },
         {
           "id": "2.2-x-20",
@@ -4100,7 +4218,9 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "textbook p.36 ex.3А"
+          "origin": "textbook p.36 ex.3А",
+          "es": "Son ellos. Es su radio (de ellos).",
+          "explanationEs": "«De ellos» = их y no cambia. Них solo va después de «у»."
         },
         {
           "id": "2.2-x-21",
@@ -4118,7 +4238,8 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "textbook p.36 ex.3А"
+          "origin": "textbook p.36 ex.3А",
+          "es": "Soy yo. Es mi tío."
         },
         {
           "id": "2.2-x-22",
@@ -4131,7 +4252,9 @@
           "tags": [
             "2.2-g-u-menya-vs-moy"
           ],
-          "origin": "textbook p.36 ex.3В"
+          "origin": "textbook p.36 ex.3В",
+          "es": "Él tiene monedero. Es su monedero (de él).",
+          "explanationEs": "«De él» = его́; no cambia según el objeto."
         },
         {
           "id": "2.2-x-23",
@@ -4144,7 +4267,9 @@
           "tags": [
             "2.2-g-u-menya-vs-moy"
           ],
-          "origin": "textbook p.36 ex.3В"
+          "origin": "textbook p.36 ex.3В",
+          "es": "Tengo paraguas. Es mi paraguas.",
+          "explanationEs": "Зонт es masculino → мой."
         },
         {
           "id": "2.2-x-24",
@@ -4157,7 +4282,9 @@
           "tags": [
             "2.2-g-u-menya-vs-moy"
           ],
-          "origin": "textbook p.36 ex.3В"
+          "origin": "textbook p.36 ex.3В",
+          "es": "Tienes guitarra. Es tu guitarra.",
+          "explanationEs": "Гита́ра es femenino (-а) → твоя́."
         },
         {
           "id": "2.2-x-25",
@@ -4170,7 +4297,9 @@
           "tags": [
             "2.2-g-u-menya-vs-moy"
           ],
-          "origin": "textbook p.36 ex.3В"
+          "origin": "textbook p.36 ex.3В",
+          "es": "Ellos tienen reloj. Es su reloj (de ellos).",
+          "explanationEs": "«De ellos» = их; no cambia, aunque часы́ sea plural."
         },
         {
           "id": "2.2-x-26",
@@ -4183,7 +4312,9 @@
           "tags": [
             "2.2-g-u-menya-vs-moy"
           ],
-          "origin": "textbook p.36 ex.3В"
+          "origin": "textbook p.36 ex.3В",
+          "es": "Ella tiene boleto. Es su boleto (de ella).",
+          "explanationEs": "«De ella» = её; no cambia según el objeto."
         },
         {
           "id": "2.2-x-27",
@@ -4196,7 +4327,9 @@
           "tags": [
             "2.2-g-u-menya-vs-moy"
           ],
-          "origin": "textbook p.36 ex.3Г"
+          "origin": "textbook p.36 ex.3Г",
+          "es": "Ella tiene ventana.",
+          "explanationEs": "Её (de ella) → у неё есть (ella tiene)."
         },
         {
           "id": "2.2-x-28",
@@ -4209,7 +4342,9 @@
           "tags": [
             "2.2-g-u-menya-vs-moy"
           ],
-          "origin": "textbook p.36 ex.3Г"
+          "origin": "textbook p.36 ex.3Г",
+          "es": "Ustedes tienen pizarrón.",
+          "explanationEs": "Ва́ша (de ustedes) → у вас есть."
         },
         {
           "id": "2.2-x-29",
@@ -4222,7 +4357,9 @@
           "tags": [
             "2.2-g-u-menya-vs-moy"
           ],
-          "origin": "textbook p.36 ex.3Г"
+          "origin": "textbook p.36 ex.3Г",
+          "es": "Él tiene diccionario.",
+          "explanationEs": "Его́ (de él) → у него́ есть; después de у se agrega н-."
         },
         {
           "id": "2.2-x-30",
@@ -4235,7 +4372,9 @@
           "tags": [
             "2.2-g-u-menya-vs-moy"
           ],
-          "origin": "textbook p.36 ex.3Г"
+          "origin": "textbook p.36 ex.3Г",
+          "es": "Ellos tienen teléfono.",
+          "explanationEs": "Их (de ellos) → у них есть; después de у se agrega н-."
         },
         {
           "id": "2.2-x-31",
@@ -4252,7 +4391,9 @@
           "tags": [
             "2.2-g-chey"
           ],
-          "origin": "textbook p.38 ex.7А"
+          "origin": "textbook p.38 ex.7А",
+          "es": "¿De quién es el pizarrón?",
+          "explanationEs": "Доска́ es femenino → чья."
         },
         {
           "id": "2.2-x-32",
@@ -4269,7 +4410,9 @@
           "tags": [
             "2.2-g-chey"
           ],
-          "origin": "textbook p.38 ex.7А"
+          "origin": "textbook p.38 ex.7А",
+          "es": "¿De quién es el reloj?",
+          "explanationEs": "Часы́ es plural → чьи."
         },
         {
           "id": "2.2-x-33",
@@ -4286,7 +4429,9 @@
           "tags": [
             "2.2-g-chey"
           ],
-          "origin": "textbook p.38 ex.7А"
+          "origin": "textbook p.38 ex.7А",
+          "es": "¿De quién es el radio?",
+          "explanationEs": "Ра́дио es neutro → чьё."
         },
         {
           "id": "2.2-x-34",
@@ -4303,7 +4448,9 @@
           "tags": [
             "2.2-g-chey"
           ],
-          "origin": "textbook p.38 ex.7А"
+          "origin": "textbook p.38 ex.7А",
+          "es": "¿De quién es el boleto?",
+          "explanationEs": "Биле́т es masculino → чей."
         },
         {
           "id": "2.2-x-35",
@@ -4320,7 +4467,9 @@
           "tags": [
             "2.2-g-chey"
           ],
-          "origin": "textbook p.38 ex.7А"
+          "origin": "textbook p.38 ex.7А",
+          "es": "¿El papá de quién trabaja?",
+          "explanationEs": "Па́па es hombre → masculino → чей, aunque termine en -а."
         },
         {
           "id": "2.2-x-36",
@@ -4346,7 +4495,9 @@
             "2.2-g-chey",
             "2.2-g-possessive"
           ],
-          "origin": "textbook p.38 ex.7Б"
+          "origin": "textbook p.38 ex.7Б",
+          "es": "A: ¿De quién es la pluma?\nB: Es mi pluma.",
+          "explanationEs": "Ру́чка es femenino → моя́."
         },
         {
           "id": "2.2-x-37",
@@ -4371,7 +4522,9 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "textbook p.38 ex.7Б"
+          "origin": "textbook p.38 ex.7Б",
+          "es": "A: ¿Es tu lápiz?\nB: No, no es mío, es el lápiz de él.",
+          "explanationEs": "Каранда́ш es masculino → мой; «de él» es его́ (него́ solo después de у)."
         },
         {
           "id": "2.2-x-38",
@@ -4398,7 +4551,9 @@
           ],
           "answer": 0,
           "tags": [],
-          "origin": "textbook p.38 ex.6А"
+          "origin": "textbook p.38 ex.6А",
+          "es": "A: Masha, ¿tienes correo electrónico?\nB: Sí, claro. Aquí está mi correo: masha@mail.ru\nA: ¿¡Perro!?",
+          "explanationEs": "Име́йл es masculino → мой. El chiste: en ruso la arroba @ se llama соба́ка (perro)."
         },
         {
           "id": "2.2-x-39",
@@ -4427,7 +4582,9 @@
             ]
           ],
           "tags": [],
-          "origin": "workbook p.32 ex.6"
+          "origin": "workbook p.32 ex.6",
+          "es": "¿Su mamá habla inglés? — No, habla francés. · ¿Tienen internet? — Sí. · ¿Es su casa? — Claro, es nuestra. · ¿Quiénes son sus abuelos? — Son jubilados. · ¿Cómo se llama él? — Piotr.",
+          "explanationEs": "Cada respuesta corresponde a su pregunta: ваш дом → наш; кто → una descripción (пенсионе́ры); как его́ зову́т → un nombre."
         },
         {
           "id": "2.2-x-40",
@@ -4440,7 +4597,8 @@
           "tags": [
             "2.2-g-u-menya-vs-moy"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Él tiene hermana."
         },
         {
           "id": "2.2-x-41",
@@ -4453,7 +4611,8 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Es mi tío."
         },
         {
           "id": "2.2-x-42",
@@ -4466,7 +4625,8 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Es nuestra abuela."
         },
         {
           "id": "2.2-x-43",
@@ -4479,7 +4639,8 @@
           "tags": [
             "2.2-g-chey"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿De quién son los niños?"
         },
         {
           "id": "2.2-x-44",
@@ -4494,7 +4655,9 @@
           "tags": [
             "2.2-g-chey"
           ],
-          "origin": "workbook p.32 ex.8"
+          "origin": "workbook p.32 ex.8",
+          "es": "Чей э́то зонт? = ¿De quién es este paraguas?",
+          "explanationEs": "Зонт (зо́нтик) es masculino → чей."
         },
         {
           "id": "2.2-x-45",
@@ -4510,7 +4673,8 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "workbook p.32 ex.8"
+          "origin": "workbook p.32 ex.8",
+          "es": "Извини́, э́то мой ко́фе. = Perdón, es mi café."
         },
         {
           "id": "2.2-x-46",
@@ -4522,7 +4686,9 @@
             "Они́ муж и жена́."
           ],
           "tags": [],
-          "origin": "workbook p.32 ex.8"
+          "origin": "workbook p.32 ex.8",
+          "es": "Они́ муж и жена́. = Ellos son esposo y esposa.",
+          "explanationEs": "En presente no se usa el verbo «ser»: Они́ муж и жена́."
         },
         {
           "id": "2.2-x-47",
@@ -4536,7 +4702,9 @@
           "tags": [
             "2.2-g-chey"
           ],
-          "origin": "workbook p.32 ex.8"
+          "origin": "workbook p.32 ex.8",
+          "es": "Чьи э́то де́ти? = ¿De quién son estos niños?",
+          "explanationEs": "Де́ти es plural → чьи."
         },
         {
           "id": "2.2-x-48",
@@ -4551,7 +4719,9 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Sus abuelos (de ella) son jubilados.",
+          "explanationEs": "Её = de ella; no cambia aunque sean dos personas."
         },
         {
           "id": "2.2-x-49",
@@ -4570,7 +4740,8 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "Каранда́ш es masculino → мой; «de ella» = её, sin cambios."
         },
         {
           "id": "2.2-x-50",
@@ -4589,7 +4760,8 @@
           "tags": [
             "2.2-g-possessive"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "Ма́ма es femenino → моя́; la negación не va antes del verbo."
         }
       ]
     },
@@ -6493,7 +6665,9 @@
             }
           ],
           "tags": [],
-          "origin": "textbook p.41 ex.2А"
+          "origin": "textbook p.41 ex.2А",
+          "es": "спорт = deporte: гольф (golf), баскетбо́л (basquetbol), йо́га (yoga), хокке́й (hockey) · культу́ра = cultura: поэ́зия (poesía), бале́т (ballet), литерату́ра (literatura), кино́ (cine) · еда́ / напи́тки = comida / bebidas: су́ши (sushi), борщ (borsch), ко́фе (café), пи́цца (pizza) · му́зыка = música: джаз (jazz), рок (rock), блюз (blues), поп (pop)",
+          "explanationEs": "Son palabras internacionales, casi iguales que en español; solo hay que clasificarlas por tema."
         },
         {
           "id": "2.3-x-02",
@@ -6520,7 +6694,8 @@
           "tags": [
             "2.3-g-lyubit-nenavidet"
           ],
-          "origin": "workbook p.33 ex.2А"
+          "origin": "workbook p.33 ex.2А",
+          "es": "люби́ть = amar, gustar: yo amo (люблю́), tú amas (лю́бишь), él ama (лю́бит), nosotros amamos (лю́бим), ustedes aman (лю́бите), ellos aman (лю́бят)"
         },
         {
           "id": "2.3-x-03",
@@ -6547,7 +6722,8 @@
           "tags": [
             "2.3-g-lyubit-nenavidet"
           ],
-          "origin": "workbook p.33 ex.2Б"
+          "origin": "workbook p.33 ex.2Б",
+          "es": "ненави́деть = odiar: yo odio, tú odias, él odia, nosotros odiamos, ustedes odian, ellos odian"
         },
         {
           "id": "2.3-x-04",
@@ -6573,7 +6749,9 @@
           "tags": [
             "2.3-g-verbs-acc"
           ],
-          "origin": "textbook p.43"
+          "origin": "textbook p.43",
+          "es": "смотре́ть = ver: yo veo, tú ves, él ve, nosotros vemos, ustedes ven, ellos ven",
+          "explanationEs": "Verbo de la conjugación en -и: смотр- + -ю, -ишь, -ит, -им, -ите, -ят; el acento pasa a la raíz después de «я»."
         },
         {
           "id": "2.3-x-05",
@@ -6593,7 +6771,9 @@
           "tags": [
             "2.3-g-verbs-acc"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "де́лать = hacer: yo hago, tú haces, ellos hacen",
+          "explanationEs": "Verbo de la conjugación en -е: se quita -ть y se añade -ю, -ешь, -ют."
         },
         {
           "id": "2.3-x-06",
@@ -6611,7 +6791,8 @@
           "tags": [
             "2.3-g-accusative"
           ],
-          "origin": "textbook p.40 ex.1В"
+          "origin": "textbook p.40 ex.1В",
+          "es": "A Liza le gusta la salsa."
         },
         {
           "id": "2.3-x-07",
@@ -6625,7 +6806,9 @@
           "tags": [
             "2.3-g-accusative"
           ],
-          "origin": "textbook p.40 ex.1В"
+          "origin": "textbook p.40 ex.1В",
+          "es": "A Frank le gusta la música.",
+          "explanationEs": "Objeto directo de лю́бит → acusativo: femenino en -а cambia a -у (му́зыка → му́зыку)."
         },
         {
           "id": "2.3-x-08",
@@ -6640,7 +6823,8 @@
           "tags": [
             "2.3-g-accusative"
           ],
-          "origin": "textbook p.40 ex.1В"
+          "origin": "textbook p.40 ex.1В",
+          "es": "A Li le gusta la filosofía."
         },
         {
           "id": "2.3-x-09",
@@ -6655,7 +6839,8 @@
           "tags": [
             "2.3-g-accusative"
           ],
-          "origin": "textbook p.40 ex.1В"
+          "origin": "textbook p.40 ex.1В",
+          "es": "A Jean le gusta el ballet."
         },
         {
           "id": "2.3-x-10",
@@ -6669,7 +6854,9 @@
           "tags": [
             "2.3-g-accusative"
           ],
-          "origin": "textbook p.40 ex.1В"
+          "origin": "textbook p.40 ex.1В",
+          "es": "Leo un libro.",
+          "explanationEs": "Objeto directo en acusativo: кни́га → кни́гу (-а → -у)."
         },
         {
           "id": "2.3-x-11",
@@ -6683,7 +6870,9 @@
           "tags": [
             "2.3-g-accusative"
           ],
-          "origin": "textbook p.40 ex.1В"
+          "origin": "textbook p.40 ex.1В",
+          "es": "Vemos una comedia.",
+          "explanationEs": "Objeto directo en acusativo: коме́дия → коме́дию (-я → -ю)."
         },
         {
           "id": "2.3-x-12",
@@ -6697,7 +6886,9 @@
           "tags": [
             "2.3-g-accusative"
           ],
-          "origin": "textbook p.40 ex.1В"
+          "origin": "textbook p.40 ex.1В",
+          "es": "Ella escucha ópera.",
+          "explanationEs": "Objeto directo en acusativo: о́пера → о́перу (-а → -у)."
         },
         {
           "id": "2.3-x-13",
@@ -6711,7 +6902,9 @@
           "tags": [
             "2.3-g-accusative"
           ],
-          "origin": "textbook p.40 ex.1В"
+          "origin": "textbook p.40 ex.1В",
+          "es": "¿Estás haciendo pizza?",
+          "explanationEs": "Objeto directo en acusativo: пи́цца → пи́ццу (-а → -у)."
         },
         {
           "id": "2.3-x-14",
@@ -6726,7 +6919,8 @@
           "tags": [
             "2.3-g-accusative"
           ],
-          "origin": "textbook p.40 ex.1В"
+          "origin": "textbook p.40 ex.1В",
+          "es": "A mi hermano le gusta el ajedrez."
         },
         {
           "id": "2.3-x-15",
@@ -6740,7 +6934,9 @@
           "tags": [
             "2.3-g-accusative"
           ],
-          "origin": "textbook p.40 ex.1В"
+          "origin": "textbook p.40 ex.1В",
+          "es": "Masha adora la poesía.",
+          "explanationEs": "Objeto directo en acusativo: поэ́зия → поэ́зию (-я → -ю)."
         },
         {
           "id": "2.3-x-16",
@@ -6757,7 +6953,9 @@
           "tags": [
             "2.3-g-lyubit-nenavidet"
           ],
-          "origin": "textbook p.41 ex.2Б"
+          "origin": "textbook p.41 ex.2Б",
+          "es": "Me gusta el pop, pero odio el jazz.",
+          "explanationEs": "Con я el verbo люби́ть es люблю́ (aparece -л-)."
         },
         {
           "id": "2.3-x-17",
@@ -6774,7 +6972,9 @@
           "tags": [
             "2.3-g-lyubit-nenavidet"
           ],
-          "origin": "textbook p.41 ex.2Б"
+          "origin": "textbook p.41 ex.2Б",
+          "es": "A mis papás les gusta el golf, pero odian el snowboard.",
+          "explanationEs": "Роди́тели = они́ → лю́бят."
         },
         {
           "id": "2.3-x-18",
@@ -6791,7 +6991,9 @@
           "tags": [
             "2.3-g-lyubit-nenavidet"
           ],
-          "origin": "textbook p.41 ex.2Б"
+          "origin": "textbook p.41 ex.2Б",
+          "es": "A su hermana (de él) le gustan los aerobics, pero odia ir de compras.",
+          "explanationEs": "Сестра́ = она́ → ненави́дит."
         },
         {
           "id": "2.3-x-19",
@@ -6809,7 +7011,8 @@
           "tags": [
             "2.3-g-lyubit-nenavidet"
           ],
-          "origin": "textbook p.41 ex.2Б"
+          "origin": "textbook p.41 ex.2Б",
+          "es": "A mi amigo y a mí nos gusta el futbol."
         },
         {
           "id": "2.3-x-20",
@@ -6826,7 +7029,8 @@
             "2.3-g-lyubit-nenavidet",
             "2.3-g-accusative"
           ],
-          "origin": "workbook p.33 ex.2В"
+          "origin": "workbook p.33 ex.2В",
+          "explanationEs": "Мы → лю́бим; футбо́л es masculino (cosa), en acusativo no cambia."
         },
         {
           "id": "2.3-x-21",
@@ -6843,7 +7047,8 @@
             "2.3-g-lyubit-nenavidet",
             "2.3-g-accusative"
           ],
-          "origin": "workbook p.33 ex.2В"
+          "origin": "workbook p.33 ex.2В",
+          "explanationEs": "Они́ → лю́бят; му́зыка → му́зыку en acusativo."
         },
         {
           "id": "2.3-x-22",
@@ -6863,7 +7068,8 @@
             "2.3-g-lyubit-nenavidet",
             "2.3-g-accusative"
           ],
-          "origin": "workbook p.33 ex.2В"
+          "origin": "workbook p.33 ex.2В",
+          "explanationEs": "Она́ → лю́бит; бале́т no cambia y поэ́зия → поэ́зию en acusativo."
         },
         {
           "id": "2.3-x-23",
@@ -6877,7 +7083,8 @@
             "2.3-g-accusative",
             "2.3-g-verbs-acc"
           ],
-          "origin": "workbook p.36 ex.5"
+          "origin": "workbook p.36 ex.5",
+          "es": "Escuchamos música."
         },
         {
           "id": "2.3-x-24",
@@ -6891,7 +7098,8 @@
             "2.3-g-accusative",
             "2.3-g-verbs-acc"
           ],
-          "origin": "workbook p.36 ex.5"
+          "origin": "workbook p.36 ex.5",
+          "es": "Ella lee un libro."
         },
         {
           "id": "2.3-x-25",
@@ -6905,7 +7113,8 @@
             "2.3-g-accusative",
             "2.3-g-verbs-acc"
           ],
-          "origin": "workbook p.36 ex.5"
+          "origin": "workbook p.36 ex.5",
+          "es": "Ustedes ven ópera."
         },
         {
           "id": "2.3-x-26",
@@ -6919,7 +7128,8 @@
             "2.3-g-accusative",
             "2.3-g-verbs-acc"
           ],
-          "origin": "workbook p.36 ex.5"
+          "origin": "workbook p.36 ex.5",
+          "es": "Ellos adoran la poesía."
         },
         {
           "id": "2.3-x-27",
@@ -6933,7 +7143,8 @@
             "2.3-g-accusative",
             "2.3-g-verbs-acc"
           ],
-          "origin": "workbook p.36 ex.5"
+          "origin": "workbook p.36 ex.5",
+          "es": "¿Estás haciendo ensalada?"
         },
         {
           "id": "2.3-x-28",
@@ -6947,7 +7158,8 @@
             "2.3-g-accusative",
             "2.3-g-verbs-acc"
           ],
-          "origin": "workbook p.36 ex.5"
+          "origin": "workbook p.36 ex.5",
+          "es": "No me gusta la Coca (el refresco de cola)."
         },
         {
           "id": "2.3-x-29",
@@ -6978,7 +7190,9 @@
           "tags": [
             "2.3-g-verbs-acc"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "слу́шать му́зыку = escuchar música · смотре́ть телеви́зор = ver la tele · чита́ть газе́ту = leer el periódico · де́лать дома́шнее зада́ние = hacer la tarea · разга́дывать кроссво́рды = resolver crucigramas",
+          "explanationEs": "Combinaciones fijas verbo + objeto; los femeninos van en acusativo (му́зыку, газе́ту)."
         },
         {
           "id": "2.3-x-30",
@@ -7011,7 +7225,9 @@
             ]
           ],
           "tags": [],
-          "origin": "workbook p.35 ex.3Б"
+          "origin": "workbook p.35 ex.3Б",
+          "es": "болту́н = parlanchín · кошма́р = pesadilla · сладкое́жка = goloso · мелома́н = melómano · краса́вица = mujer guapísima · попуга́й = perico",
+          "explanationEs": "Vocabulario de la lección para describir personas y situaciones."
         },
         {
           "id": "2.3-x-31",
@@ -7044,7 +7260,9 @@
             ]
           ],
           "tags": [],
-          "origin": "original"
+          "origin": "original",
+          "es": "всегда́ = siempre · то́чно = seguro · скоре́е = más bien · о́ба = ambos · день = día · ночь = noche",
+          "explanationEs": "Palabras útiles de la lección; ночь es femenino aunque termine en -ь."
         },
         {
           "id": "2.3-x-32",
@@ -7062,7 +7280,9 @@
           "tags": [
             "2.3-g-scale"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "о́чень люблю́ = me gusta mucho = обожа́ю = adoro",
+          "explanationEs": "Обожа́ть significa amar mucho algo, igual que «о́чень люби́ть»."
         },
         {
           "id": "2.3-x-33",
@@ -7080,7 +7300,9 @@
           "tags": [
             "2.3-g-scale"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "о́чень не люблю́ = no me gusta nada = ненави́жу = odio",
+          "explanationEs": "Ненави́деть (odiar) es lo mismo que «о́чень не люби́ть»."
         },
         {
           "id": "2.3-x-34",
@@ -7098,7 +7320,9 @@
           "tags": [
             "2.3-g-lyubit-nenavidet"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "люби́ть = amar ↔ ненави́деть = odiar",
+          "explanationEs": "Lo contrario de amar es odiar: ненави́деть."
         },
         {
           "id": "2.3-x-35",
@@ -7114,7 +7338,9 @@
             "ночь"
           ],
           "tags": [],
-          "origin": "original"
+          "origin": "original",
+          "es": "день = día ↔ ночь = noche",
+          "explanationEs": "Lo contrario de день (día) es ночь (noche)."
         },
         {
           "id": "2.3-x-36",
@@ -7130,7 +7356,8 @@
           "tags": [
             "2.3-g-scale"
           ],
-          "origin": "textbook p.42 ex.3Б"
+          "origin": "textbook p.42 ex.3Б",
+          "es": "A Masha y a Liza, a las dos, les gusta la salsa."
         },
         {
           "id": "2.3-x-37",
@@ -7146,7 +7373,8 @@
           "tags": [
             "2.3-g-scale"
           ],
-          "origin": "textbook p.42 ex.3Б"
+          "origin": "textbook p.42 ex.3Б",
+          "es": "Jean y Klaus, los dos, odian el café."
         },
         {
           "id": "2.3-x-38",
@@ -7162,7 +7390,9 @@
           "tags": [
             "2.3-g-scale"
           ],
-          "origin": "textbook p.42 ex.3В"
+          "origin": "textbook p.42 ex.3В",
+          "es": "Creo que es John. A él seguro le gusta la pesca.",
+          "explanationEs": "То́чно = seguro, sin duda; las otras opciones (о́бе = ambas, ночь = noche) no tienen sentido aquí."
         },
         {
           "id": "2.3-x-39",
@@ -7187,7 +7417,9 @@
           "tags": [
             "2.3-g-verbs-acc"
           ],
-          "origin": "textbook p.43 ex.4"
+          "origin": "textbook p.43 ex.4",
+          "es": "Liza: Hola, Masha, ¿qué haces?\nMasha: Estoy haciendo ensalada y viendo la tele.",
+          "explanationEs": "Con я los dos verbos van en primera persona: де́лаю y смотрю́."
         },
         {
           "id": "2.3-x-40",
@@ -7217,7 +7449,9 @@
             "2.3-g-verbs-acc",
             "2.3-g-accusative"
           ],
-          "origin": "textbook p.43 ex.5Б"
+          "origin": "textbook p.43 ex.5Б",
+          "es": "A: ¿Qué escuchas? ¿Rock o jazz?\nB: Escucho rock. ¿Y tú?\nA: Escucho música clásica.",
+          "explanationEs": "Я → слу́шаю; кла́ссика es objeto directo y en acusativo cambia a кла́ссику."
         },
         {
           "id": "2.3-x-41",
@@ -7250,7 +7484,9 @@
           "tags": [
             "2.3-g-scale"
           ],
-          "origin": "textbook p.42 ex.3А"
+          "origin": "textbook p.42 ex.3А",
+          "es": "A: ¿A tu mamá le gusta el té?\nB: No, no le gusta mucho el té, pero le encanta el café.\nA: ¿Y a ti te gusta?\nB: Sí, adoro el té.",
+          "explanationEs": "Она́ → лю́бит (no люблю́ ni лю́бят); чай y ко́фе no cambian en acusativo."
         },
         {
           "id": "2.3-x-42",
@@ -7265,7 +7501,9 @@
             "2.3-g-accusative",
             "2.3-g-verbs-acc"
           ],
-          "origin": "textbook p.43 ex.5А"
+          "origin": "textbook p.43 ex.5А",
+          "es": "Hago pizza y borsch.",
+          "explanationEs": "Пи́цца → пи́ццу (femenino -а → -у); борщ es masculino y no cambia."
         },
         {
           "id": "2.3-x-43",
@@ -7280,7 +7518,9 @@
             "2.3-g-accusative",
             "2.3-g-verbs-acc"
           ],
-          "origin": "textbook p.43 ex.5А"
+          "origin": "textbook p.43 ex.5А",
+          "es": "Leo una revista, un periódico y un libro.",
+          "explanationEs": "Журна́л (masculino) no cambia; газе́та → газе́ту y кни́га → кни́гу en acusativo."
         },
         {
           "id": "2.3-x-44",
@@ -7295,7 +7535,9 @@
             "2.3-g-accusative",
             "2.3-g-verbs-acc"
           ],
-          "origin": "textbook p.43 ex.5А"
+          "origin": "textbook p.43 ex.5А",
+          "es": "Veo una película, una comedia y un programa.",
+          "explanationEs": "Фильм no cambia; коме́дия → коме́дию (-я → -ю), переда́ча → переда́чу (-а → -у)."
         },
         {
           "id": "2.3-x-45",
@@ -7310,7 +7552,9 @@
             "2.3-g-accusative",
             "2.3-g-verbs-acc"
           ],
-          "origin": "textbook p.43 ex.5А"
+          "origin": "textbook p.43 ex.5А",
+          "es": "Escucho música, la radio y ópera.",
+          "explanationEs": "Му́зыка → му́зыку, о́пера → о́перу; ра́дио es neutro y no cambia."
         },
         {
           "id": "2.3-x-46",
@@ -7324,7 +7568,9 @@
           "tags": [
             "2.3-g-lyubit-nenavidet"
           ],
-          "origin": "workbook p.36 ex.6"
+          "origin": "workbook p.36 ex.6",
+          "es": "Он ненави́дит смотре́ть сериа́лы. = Él odia ver series.",
+          "explanationEs": "Он → ненави́дит; después va el otro verbo en infinitivo (смотре́ть)."
         },
         {
           "id": "2.3-x-47",
@@ -7338,7 +7584,9 @@
           "tags": [
             "2.3-g-lyubit-nenavidet"
           ],
-          "origin": "workbook p.36 ex.6"
+          "origin": "workbook p.36 ex.6",
+          "es": "Я люблю́ чита́ть газе́ты. = Me gusta leer periódicos.",
+          "explanationEs": "«Me gusta» = я люблю́ + infinitivo (чита́ть)."
         },
         {
           "id": "2.3-x-48",
@@ -7353,7 +7601,9 @@
           "tags": [
             "2.3-g-scale"
           ],
-          "origin": "workbook p.36 ex.6"
+          "origin": "workbook p.36 ex.6",
+          "es": "Я сладкое́жка и обожа́ю десе́рты. = Soy goloso y adoro los postres.",
+          "explanationEs": "Я → обожа́ю; десе́рты es plural y no cambia en acusativo."
         },
         {
           "id": "2.3-x-49",
@@ -7369,7 +7619,9 @@
             "2.3-g-scale",
             "2.3-g-accusative"
           ],
-          "origin": "workbook p.36 ex.6"
+          "origin": "workbook p.36 ex.6",
+          "es": "Мы о́ба лю́бим рыба́лку. = A los dos nos gusta la pesca.",
+          "explanationEs": "Мы → лю́бим; рыба́лка → рыба́лку en acusativo. О́ба para hombres o grupo mixto, о́бе para dos mujeres."
         },
         {
           "id": "2.3-x-50",
@@ -7382,7 +7634,9 @@
             "A mi mamá le gusta escuchar radio y resolver crucigramas."
           ],
           "tags": [],
-          "origin": "workbook p.36 ex.6"
+          "origin": "workbook p.36 ex.6",
+          "es": "A mi mamá le gusta escuchar la radio y resolver crucigramas.",
+          "explanationEs": "Лю́бит + infinitivo = le gusta + verbo: «слу́шать» y «разга́дывать»."
         }
       ]
     },
@@ -8996,7 +9250,8 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "textbook p.46"
+          "origin": "textbook p.46",
+          "es": "фотографи́ровать = fotografiar: yo fotografío, tú fotografías, él fotografía, nosotros fotografiamos, ustedes fotografían, ellos fotografían"
         },
         {
           "id": "2.4-x-02",
@@ -9023,7 +9278,8 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "textbook p.46"
+          "origin": "textbook p.46",
+          "es": "танцева́ть = bailar: yo bailo, tú bailas, él baila, nosotros bailamos, ustedes bailan, ellos bailan"
         },
         {
           "id": "2.4-x-03",
@@ -9049,7 +9305,9 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "рисова́ть = dibujar: yo dibujo, tú dibujas, él dibuja, nosotros dibujamos, ustedes dibujan, ellos dibujan",
+          "explanationEs": "Los verbos en -ова́ть cambian -ова- por -у-: рису́ю, рису́ешь…"
         },
         {
           "id": "2.4-x-04",
@@ -9069,7 +9327,9 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "путеше́ствовать = viajar: yo viajo, tú viajas, nosotros viajamos",
+          "explanationEs": "-ова- → -у-: путеше́ствую, путеше́ствуешь, путеше́ствуем."
         },
         {
           "id": "2.4-x-05",
@@ -9096,7 +9356,8 @@
           "tags": [
             "2.4-g-l-insert"
           ],
-          "origin": "textbook p.46"
+          "origin": "textbook p.46",
+          "es": "гото́вить = cocinar: yo cocino, tú cocinas, él cocina, nosotros cocinamos, ustedes cocinan, ellos cocinan"
         },
         {
           "id": "2.4-x-06",
@@ -9122,7 +9383,9 @@
           "tags": [
             "2.4-g-l-insert"
           ],
-          "origin": "textbook p.46"
+          "origin": "textbook p.46",
+          "es": "спать = dormir: yo duermo, tú duermes, él duerme, nosotros dormimos, ustedes duermen, ellos duermen",
+          "explanationEs": "Спать es de la conjugación en -и, con -л- en «я»: сплю, спишь, спят."
         },
         {
           "id": "2.4-x-07",
@@ -9149,7 +9412,8 @@
           "tags": [
             "2.4-g-pisat-pet"
           ],
-          "origin": "textbook p.47"
+          "origin": "textbook p.47",
+          "es": "писа́ть = escribir: yo escribo, tú escribes, él escribe, nosotros escribimos, ustedes escriben, ellos escriben"
         },
         {
           "id": "2.4-x-08",
@@ -9175,7 +9439,9 @@
           "tags": [
             "2.4-g-pisat-pet"
           ],
-          "origin": "textbook p.47"
+          "origin": "textbook p.47",
+          "es": "петь = cantar: yo canto, tú cantas, él canta, nosotros cantamos, ustedes cantan, ellos cantan",
+          "explanationEs": "Петь es irregular: raíз по- + ю/ёшь: пою́, поёшь, пою́т."
         },
         {
           "id": "2.4-x-09",
@@ -9238,7 +9504,9 @@
           "tags": [
             "2.4-g-e-i-conj"
           ],
-          "origin": "textbook p.45"
+          "origin": "textbook p.45",
+          "es": "е-спряже́ние: гуля́ть = pasear · игра́ть = jugar · изуча́ть = estudiar · отдыха́ть = descansar · слу́шать = escuchar · чита́ть = leer · и-спряже́ние: говори́ть = hablar · ходи́ть = ir, andar · гото́вить = cocinar · смотре́ть = ver · люби́ть = amar · кури́ть = fumar",
+          "explanationEs": "Los verbos en -ать/-ять suelen ser de la conjugación en -е (-ешь, -ют); los en -ить y algunos en -еть, de la conjugación en -и (-ишь, -ят)."
         },
         {
           "id": "2.4-x-10",
@@ -9301,7 +9569,9 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "textbook p.45"
+          "origin": "textbook p.45",
+          "es": "игра́ть в = jugar: футбо́л (futbol), те́ннис (tenis), хокке́й (hockey), ша́хматы (ajedrez), ка́рты (cartas), гольф (golf) · игра́ть на = tocar: гита́ре (guitarra), саксофо́не (saxofón), скри́пке (violín), трубе́ (trompeta), пиани́но (piano), фле́йте (flauta)",
+          "explanationEs": "Juegos y deportes van con в + acusativo; instrumentos con на + prepositivo (terminación -е)."
         },
         {
           "id": "2.4-x-11",
@@ -9317,7 +9587,8 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "textbook p.45 ex.2Б"
+          "origin": "textbook p.45 ex.2Б",
+          "es": "Los futbolistas juegan futbol."
         },
         {
           "id": "2.4-x-12",
@@ -9333,7 +9604,8 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "textbook p.45 ex.2Б"
+          "origin": "textbook p.45 ex.2Б",
+          "es": "Mi vecino toca el saxofón."
         },
         {
           "id": "2.4-x-13",
@@ -9349,7 +9621,8 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "textbook p.45 ex.2Б"
+          "origin": "textbook p.45 ex.2Б",
+          "es": "Mi abuela es pianista. Toca el piano."
         },
         {
           "id": "2.4-x-14",
@@ -9365,7 +9638,8 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "textbook p.45 ex.2Б"
+          "origin": "textbook p.45 ex.2Б",
+          "es": "A mi hermano le gusta dibujar y jugar ajedrez."
         },
         {
           "id": "2.4-x-15",
@@ -9381,7 +9655,8 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "textbook p.45 ex.2Б"
+          "origin": "textbook p.45 ex.2Б",
+          "es": "¿Quién toca la trompeta?"
         },
         {
           "id": "2.4-x-16",
@@ -9406,7 +9681,9 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "textbook p.45"
+          "origin": "textbook p.45",
+          "es": "A: ¿A qué juegas?\nB: Juego tenis.",
+          "explanationEs": "«Во что?» pregunta por un juego o deporte → игра́ть в + acusativo: в те́ннис."
         },
         {
           "id": "2.4-x-17",
@@ -9431,7 +9708,9 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "textbook p.45"
+          "origin": "textbook p.45",
+          "es": "A: ¿Qué instrumento tocas?\nB: Toco la guitarra.",
+          "explanationEs": "«На чём?» pregunta por un instrumento → игра́ть на + prepositivo: на гита́ре."
         },
         {
           "id": "2.4-x-18",
@@ -9445,7 +9724,9 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "textbook p.46 ex.2В"
+          "origin": "textbook p.46 ex.2В",
+          "es": "Ellos toman fotos muy bien.",
+          "explanationEs": "Они́ → фотографи́руют (-ова- → -у-, terminación -ют)."
         },
         {
           "id": "2.4-x-19",
@@ -9459,7 +9740,9 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "textbook p.46 ex.2В"
+          "origin": "textbook p.46 ex.2В",
+          "es": "Su hija (de ella) baila excelente.",
+          "explanationEs": "Дочь = она́ → танцу́ет (-ева- → -у-)."
         },
         {
           "id": "2.4-x-20",
@@ -9473,7 +9756,9 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "textbook p.46 ex.2В"
+          "origin": "textbook p.46 ex.2В",
+          "es": "Yo dibujo mal, y mi hermana dibuja bien.",
+          "explanationEs": "Я → рису́ю (-ова- → -у-, terminación -ю)."
         },
         {
           "id": "2.4-x-21",
@@ -9487,7 +9772,9 @@
           "tags": [
             "2.4-g-l-insert"
           ],
-          "origin": "textbook p.46 ex.2Г"
+          "origin": "textbook p.46 ex.2Г",
+          "es": "Mi papá cocina muy rica la lasaña.",
+          "explanationEs": "Па́па = он → гото́вит; la -л- aparece solo con я (гото́влю)."
         },
         {
           "id": "2.4-x-22",
@@ -9501,7 +9788,9 @@
           "tags": [
             "2.4-g-l-insert"
           ],
-          "origin": "textbook p.46 ex.2Г"
+          "origin": "textbook p.46 ex.2Г",
+          "es": "No estoy durmiendo, porque estoy haciendo la tarea.",
+          "explanationEs": "Спать con я → сплю."
         },
         {
           "id": "2.4-x-23",
@@ -9515,7 +9804,9 @@
           "tags": [
             "2.4-g-pisat-pet"
           ],
-          "origin": "textbook p.47 ex.2Д"
+          "origin": "textbook p.47 ex.2Д",
+          "es": "La secretaria escribe una carta.",
+          "explanationEs": "Писа́ть cambia с → ш: он/она́ пи́шет."
         },
         {
           "id": "2.4-x-24",
@@ -9529,7 +9820,9 @@
           "tags": [
             "2.4-g-pisat-pet"
           ],
-          "origin": "textbook p.47 ex.2Д"
+          "origin": "textbook p.47 ex.2Д",
+          "es": "¿Escribes correos?",
+          "explanationEs": "Писа́ть, ты → пи́шешь (с → ш)."
         },
         {
           "id": "2.4-x-25",
@@ -9543,7 +9836,9 @@
           "tags": [
             "2.4-g-pisat-pet"
           ],
-          "origin": "textbook p.47 ex.2Д"
+          "origin": "textbook p.47 ex.2Д",
+          "es": "Canto horrible.",
+          "explanationEs": "Петь es irregular: я пою́."
         },
         {
           "id": "2.4-x-26",
@@ -9557,7 +9852,9 @@
           "tags": [
             "2.4-g-pisat-pet"
           ],
-          "origin": "workbook p.40 ex.4А"
+          "origin": "workbook p.40 ex.4А",
+          "es": "¿Ustedes cantan en el karaoke?",
+          "explanationEs": "Петь, вы → поёте."
         },
         {
           "id": "2.4-x-27",
@@ -9571,7 +9868,9 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "workbook p.40 ex.4А"
+          "origin": "workbook p.40 ex.4А",
+          "es": "Ellos viajan juntos.",
+          "explanationEs": "Они́ → путеше́ствуют (-ова- → -у-, terminación -ют)."
         },
         {
           "id": "2.4-x-28",
@@ -9585,7 +9884,9 @@
           "tags": [
             "2.4-g-e-i-conj"
           ],
-          "origin": "textbook p.44"
+          "origin": "textbook p.44",
+          "es": "Mi hermana y yo vamos juntas al cine.",
+          "explanationEs": "«Я и моя́ сестра́» = мы → хо́дим (ходи́ть, conjugación en -и)."
         },
         {
           "id": "2.4-x-29",
@@ -9599,7 +9900,9 @@
           "tags": [
             "2.4-g-e-i-conj"
           ],
-          "origin": "workbook p.37 ex.1Б"
+          "origin": "workbook p.37 ex.1Б",
+          "es": "Nuestro hijo estudia chino.",
+          "explanationEs": "Сын = он → изуча́ет (conjugación en -е)."
         },
         {
           "id": "2.4-x-30",
@@ -9632,7 +9935,9 @@
             ]
           ],
           "tags": [],
-          "origin": "workbook p.37 ex.1А"
+          "origin": "workbook p.37 ex.1А",
+          "es": "изуча́ть литерату́ру = estudiar literatura · смотре́ть телеви́зор = ver la tele · ходи́ть в кино́ = ir al cine · танцева́ть та́нго = bailar tango · писа́ть письмо́ = escribir una carta · игра́ть на гита́ре = tocar la guitarra",
+          "explanationEs": "Combinaciones lógicas verbo + complemento; los instrumentos van con на (на гита́ре)."
         },
         {
           "id": "2.4-x-31",
@@ -9665,7 +9970,9 @@
             ]
           ],
           "tags": [],
-          "origin": "workbook p.39 ex.2Б"
+          "origin": "workbook p.39 ex.2Б",
+          "es": "жена́т = casado (hombre) · за́мужем = casada (mujer) · трудого́лик = adicto al trabajo · вме́сте = juntos · кури́ть = fumar · пельме́ни = pelmeni",
+          "explanationEs": "Ojo: «casado» se dice distinto según el sexo: él жена́т, ella за́мужем."
         },
         {
           "id": "2.4-x-32",
@@ -9698,7 +10005,9 @@
             ]
           ],
           "tags": [],
-          "origin": "original"
+          "origin": "original",
+          "es": "скри́пка = violín · труба́ = trompeta · фле́йта = flauta · пиани́но = piano · саксофо́н = saxofón · виолонче́ль = violonchelo",
+          "explanationEs": "Instrumentos musicales; con ellos se usa игра́ть на + prepositivo (на скри́пке)."
         },
         {
           "id": "2.4-x-33",
@@ -9711,7 +10020,8 @@
           "tags": [
             "2.4-g-e-i-conj"
           ],
-          "origin": "workbook p.40 ex.5"
+          "origin": "workbook p.40 ex.5",
+          "es": "Mi hermana ya lee bien."
         },
         {
           "id": "2.4-x-34",
@@ -9724,7 +10034,8 @@
           "tags": [
             "2.4-g-e-i-conj"
           ],
-          "origin": "workbook p.40 ex.5"
+          "origin": "workbook p.40 ex.5",
+          "es": "Los estudiantes de Estados Unidos estudian ruso."
         },
         {
           "id": "2.4-x-35",
@@ -9737,7 +10048,8 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "workbook p.40 ex.5"
+          "origin": "workbook p.40 ex.5",
+          "es": "Viajamos muchísimo."
         },
         {
           "id": "2.4-x-36",
@@ -9750,7 +10062,8 @@
           "tags": [
             "2.4-g-pisat-pet"
           ],
-          "origin": "workbook p.40 ex.5"
+          "origin": "workbook p.40 ex.5",
+          "es": "¿Qué escriben ustedes?"
         },
         {
           "id": "2.4-x-37",
@@ -9763,7 +10076,8 @@
           "tags": [
             "2.4-g-l-insert"
           ],
-          "origin": "workbook p.40 ex.5"
+          "origin": "workbook p.40 ex.5",
+          "es": "Duermo muy poco."
         },
         {
           "id": "2.4-x-38",
@@ -9776,7 +10090,8 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "workbook p.40 ex.5"
+          "origin": "workbook p.40 ex.5",
+          "es": "Mi amigo toca la guitarra."
         },
         {
           "id": "2.4-x-39",
@@ -9790,7 +10105,9 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "workbook p.40 ex.6"
+          "origin": "workbook p.40 ex.6",
+          "es": "Мой дя́дя игра́ет в хокке́й. = Mi tío juega hockey.",
+          "explanationEs": "Deporte → игра́ть в + acusativo; дя́дя es hombre → мой."
         },
         {
           "id": "2.4-x-40",
@@ -9804,7 +10121,9 @@
           "tags": [
             "2.4-g-l-insert"
           ],
-          "origin": "workbook p.40 ex.6"
+          "origin": "workbook p.40 ex.6",
+          "es": "Что вы гото́вите? = ¿Qué cocinan ustedes?",
+          "explanationEs": "Вы → гото́вите (conjugación en -и)."
         },
         {
           "id": "2.4-x-41",
@@ -9819,7 +10138,9 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "workbook p.40 ex.6"
+          "origin": "workbook p.40 ex.6",
+          "es": "Наш сосе́д игра́ет на саксофо́не и на трубе́. = Nuestro vecino toca el saxofón y la trompeta.",
+          "explanationEs": "Instrumentos → игра́ть на + prepositivo: саксофо́н → на саксофо́не, труба́ → на трубе́."
         },
         {
           "id": "2.4-x-42",
@@ -9834,7 +10155,9 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "workbook p.40 ex.6"
+          "origin": "workbook p.40 ex.6",
+          "es": "Я и мой друг танцу́ем та́нго. = Mi amigo y yo bailamos tango.",
+          "explanationEs": "«Я и мой друг» = мы → танцу́ем (-ева- → -у-)."
         },
         {
           "id": "2.4-x-43",
@@ -9849,7 +10172,9 @@
           "tags": [
             "2.4-g-e-i-conj"
           ],
-          "origin": "workbook p.40 ex.6"
+          "origin": "workbook p.40 ex.6",
+          "es": "Мы вме́сте изуча́ем ру́сский язы́к. = Estudiamos ruso juntos.",
+          "explanationEs": "Мы → изуча́ем; «ruso» como idioma = ру́сский язы́к."
         },
         {
           "id": "2.4-x-44",
@@ -9865,7 +10190,9 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "textbook p.47"
+          "origin": "textbook p.47",
+          "es": "Cuando viajo, siempre tomo muchas fotos.",
+          "explanationEs": "Я путеше́ствую y я фотографи́рую: los dos verbos en -ова- cambian a -у-."
         },
         {
           "id": "2.4-x-45",
@@ -9881,7 +10208,8 @@
           "answer": "Она́ ненави́дит де́лать дома́шнее зада́ние.",
           "es": "Ella odia hacer la tarea.",
           "tags": [],
-          "origin": "textbook p.44"
+          "origin": "textbook p.44",
+          "explanationEs": "Она́ → ненави́дит + infinitivo (де́лать)."
         },
         {
           "id": "2.4-x-46",
@@ -9900,7 +10228,8 @@
           "tags": [
             "2.4-g-igrat-v-na"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "Па́па → мой, лю́бит + infinitivo; deporte → игра́ть в гольф."
         },
         {
           "id": "2.4-x-47",
@@ -9916,7 +10245,9 @@
             "ма́ло"
           ],
           "tags": [],
-          "origin": "original"
+          "origin": "original",
+          "es": "мно́го = mucho ↔ ма́ло = poco",
+          "explanationEs": "Lo contrario de мно́го (mucho) es ма́ло (poco)."
         },
         {
           "id": "2.4-x-48",
@@ -9932,7 +10263,9 @@
             "отдыха́ть"
           ],
           "tags": [],
-          "origin": "original"
+          "origin": "original",
+          "es": "рабо́тать = trabajar ↔ отдыха́ть = descansar",
+          "explanationEs": "Lo contrario de trabajar es descansar: отдыха́ть."
         },
         {
           "id": "2.4-x-49",
@@ -9945,7 +10278,9 @@
           "tags": [
             "2.4-g-ova-eva"
           ],
-          "origin": "workbook p.40 ex.4А"
+          "origin": "workbook p.40 ex.4А",
+          "es": "Yo fotografío la casa.",
+          "explanationEs": "Я → фотографи́рую (-ова- → -у-, terminación -ю)."
         },
         {
           "id": "2.4-x-50",
@@ -9959,7 +10294,9 @@
             "2.4-g-pisat-pet",
             "2.4-g-igrat-v-na"
           ],
-          "origin": "workbook p.40 ex.4А"
+          "origin": "workbook p.40 ex.4А",
+          "es": "Mi tío toca bien la guitarra y canta.",
+          "explanationEs": "Дя́дя = он → игра́ет y поёт (петь es irregular)."
         }
       ]
     }

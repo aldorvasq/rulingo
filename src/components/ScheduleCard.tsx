@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { activeReminders, CLASS_TZ, classesIcs, pendingHomework, upcomingClasses } from '../content/schedule'
-import { Icon } from './ui'
+import { Icon, Mixed, readOpen, saveOpen } from './ui'
+import { upcomingEvents } from '../content/seasons'
 
 const localTz = Intl.DateTimeFormat().resolvedOptions().timeZone
 const sameZone = (() => {
@@ -50,6 +51,9 @@ export function ScheduleCard() {
     return () => clearInterval(t)
   }, [])
 
+  const [open, setOpen] = useState(() => readOpen('calendar', true))
+  const toggle = () => { setOpen(!open); saveOpen('calendar', !open) }
+  const events = upcomingEvents(now, 35, 3)
   const classes = upcomingClasses(3, now)
   const next = classes[0]
   const homework = pendingHomework(now)
@@ -58,16 +62,27 @@ export function ScheduleCard() {
 
   return (
     <section className="rise mt-4 overflow-hidden rounded-xl border-2 border-brick/70 bg-card shadow-sm" style={{ animationDelay: '120ms' }}>
-      <div className="flex items-center justify-between bg-brick px-4 py-2.5 text-white">
+      <button onClick={toggle} aria-expanded={open} className="flex w-full items-center justify-between gap-2 bg-brick px-4 py-2.5 text-left text-white">
         <span className="flex items-center gap-2 text-lg font-bold">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} aria-hidden>
             <rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4" />
           </svg>
           Clases y tareas
         </span>
-        <span className="text-xs opacity-85">{sameZone ? 'Hora de Ciudad de México' : 'En tu hora local'}</span>
-      </div>
+        <span className="flex items-center gap-2 text-xs opacity-85">
+          {sameZone ? 'Hora de Ciudad de México' : 'En tu hora local'}
+          <Icon name="down" size={18} className={`transition-transform ${open ? 'rotate-180' : ''}`} />
+        </span>
+      </button>
 
+      {!open && next && (
+        <button onClick={toggle} className="flex w-full items-center justify-between gap-2 px-4 py-2.5 text-left text-sm">
+          <span><span className="text-muted">Próxima clase:</span> <b>{dayLabel(next.start, now)}, {fmtTime(next.start)}</b></span>
+          <span className="shrink-0 font-bold text-brick">{countdown(next.start, now)}{homework.length ? ` · ${homework.length} tarea${homework.length > 1 ? 's' : ''}` : ''}</span>
+        </button>
+      )}
+
+      {open && <>
       {next && (
         <div className="flex items-center gap-4 px-4 pt-4">
           {/* Tear-off calendar page */}
@@ -125,9 +140,36 @@ export function ScheduleCard() {
         )}
       </div>
 
+      {events.length > 0 && (
+        <div className="border-t border-line px-4 py-3">
+          <div className="mb-2 flex items-center gap-2 text-sm font-bold">
+            <Icon name="star" size={18} className="text-gold" /> Fechas especiales
+          </div>
+          <ul className="space-y-2.5">
+            {events.map((e) => {
+              const today = e.day.toDateString() === now.toDateString()
+              return (
+                <li key={e.id} className="flex gap-3">
+                  <div className={`w-12 shrink-0 rounded-md py-1 text-center leading-tight ${today ? 'bg-gold text-white' : 'bg-soft'}`}>
+                    <div className="text-lg font-bold">{e.day.getDate()}</div>
+                    <div className="text-[10px] font-bold uppercase">{e.day.toLocaleDateString('es-MX', { month: 'short' }).replace('.', '')}</div>
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <div className="leading-tight"><span className="ru text-[17px] font-bold">{e.ru}</span>{today && <span className="ml-1.5 rounded-sm bg-gold px-1.5 text-[11px] font-bold text-white">¡Hoy!</span>}</div>
+                    <div className="text-sm font-bold text-brand">{e.es}</div>
+                    <div className="text-sm text-muted"><Mixed text={e.desc} /></div>
+                  </div>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
+      )}
+
       <button onClick={addToCalendar} className="flex w-full items-center justify-center gap-2 border-t border-line py-2.5 text-sm font-bold text-brand hover:bg-soft">
         <Icon name="plus" size={16} /> Agregar las clases a mi calendario
       </button>
+      </>}
     </section>
   )
 }

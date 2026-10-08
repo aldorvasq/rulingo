@@ -1233,7 +1233,9 @@
             "1.1-v-poka",
             "1.1-v-spasibo"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Приве́т! = ¡Hola! · Пока́! = ¡Adiós! (informal) · Спаси́бо = Gracias · Пожа́луйста = Por favor · До встре́чи! = ¡Nos vemos! · О́чень прия́тно! = ¡Mucho gusto!",
+          "explanationEs": "Приве́т y Пока́ son informales; Спаси́бо sirve para agradecer y Пожа́луйста para pedir algo."
         },
         {
           "id": "1.1-x-02",
@@ -1259,7 +1261,8 @@
           "tags": [
             "1.1-g-zovut"
           ],
-          "origin": "workbook p.6 ex.3А"
+          "origin": "workbook p.6 ex.3А",
+          "es": "Li: ¿Cómo te llamas?\nKlaus: Me llamo Klaus."
         },
         {
           "id": "1.1-x-03",
@@ -1288,7 +1291,9 @@
           "tags": [
             "1.1-v-ochen-priyatno"
           ],
-          "origin": "textbook p.5 ex.3"
+          "origin": "textbook p.5 ex.3",
+          "es": "Lena: Me llamo Lena. ¿Y tú?\nMarta: Me llamo Marta.\nLena: ¡Mucho gusto!",
+          "explanationEs": "Después de presentarse se dice «О́чень прия́тно!» (¡Mucho gusto!)."
         },
         {
           "id": "1.1-x-04",
@@ -1305,7 +1310,8 @@
           "tags": [
             "1.1-g-zovut"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Cómo te llamas?"
         },
         {
           "id": "1.1-x-05",
@@ -1319,7 +1325,9 @@
           "tags": [
             "1.1-v-menya-zovut"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Me llamo Denís.",
+          "explanationEs": "«Меня́ зову́т…» significa literalmente «me llaman…»: es la forma normal de decir tu nombre."
         },
         {
           "id": "1.1-x-06",
@@ -1335,7 +1343,8 @@
           "tags": [
             "1.1-g-zovut"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "Fórmula fija: как (cómo) + тебя́ (a ti) + зову́т (llaman)."
         },
         {
           "id": "1.1-x-07",
@@ -1351,7 +1360,8 @@
           "tags": [
             "1.1-g-zovut"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "меня́ (a mí) + зову́т (llaman) + nombre: literalmente «me llaman Elena»."
         },
         {
           "id": "1.1-x-08",
@@ -1367,7 +1377,8 @@
           "tags": [
             "1.1-g-eto"
           ],
-          "origin": "textbook p.9 ex.8В"
+          "origin": "textbook p.9 ex.8В",
+          "es": "¿Qué es esto? — Es un jitomate."
         },
         {
           "id": "1.1-x-09",
@@ -1383,7 +1394,8 @@
           "tags": [
             "1.1-g-eto"
           ],
-          "origin": "textbook p.9 ex.8В"
+          "origin": "textbook p.9 ex.8В",
+          "es": "¿Quién es? — Es mamá."
         },
         {
           "id": "1.1-x-10",
@@ -1399,7 +1411,8 @@
           "tags": [
             "1.1-g-eto"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Quién es? — Es un gato."
         },
         {
           "id": "1.1-x-11",
@@ -1446,7 +1459,9 @@
           "tags": [
             "1.1-g-eto"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "ма́ма = mamá · актёр = actor · шеф = jefe · кот = gato · торт = pastel · гита́ра = guitarra · ра́дио = radio · суп = sopa",
+          "explanationEs": "Personas y animales van con «кто»; las cosas, con «что». Por eso кот va con «Кто э́то?»."
         },
         {
           "id": "1.1-x-12",
@@ -1471,7 +1486,9 @@
           "tags": [
             "1.1-v-kak-dela"
           ],
-          "origin": "workbook p.7 ex.4А"
+          "origin": "workbook p.7 ex.4А",
+          "es": "Jean: Frank, ¿cómo estás?\nFrank: Bien, gracias. ¿Y tú?",
+          "explanationEs": "A «Как дела́?» se responde cómo estás («Спаси́бо, хорошо́») y se devuelve la pregunta con «А у тебя́?»."
         },
         {
           "id": "1.1-x-13",
@@ -1496,7 +1513,9 @@
           "tags": [
             "1.1-v-tozhe"
           ],
-          "origin": "textbook p.6 ex.5"
+          "origin": "textbook p.6 ex.5",
+          "es": "Frank: Bien, gracias. ¿Y tú?\nJean: También bien, gracias.",
+          "explanationEs": "«То́же» significa «también»: «То́же хорошо́» = también bien."
         },
         {
           "id": "1.1-x-14",
@@ -1530,7 +1549,9 @@
             "1.1-v-normalno",
             "1.1-v-ploho"
           ],
-          "origin": "textbook p.7 ex.5Б"
+          "origin": "textbook p.7 ex.5Б",
+          "es": "отли́чно = excelente · о́чень хорошо́ = muy bien · хорошо́ = bien · норма́льно = más o menos · пло́хо = mal",
+          "explanationEs": "Escala de cómo estás, de mejor a peor: отли́чно > о́чень хорошо́ > хорошо́ > норма́льно > пло́хо."
         },
         {
           "id": "1.1-x-15",
@@ -1546,7 +1567,9 @@
           "tags": [
             "1.1-g-da-net"
           ],
-          "origin": "workbook p.5 ex.1Г"
+          "origin": "workbook p.5 ex.1Г",
+          "es": "¿Es un estadio? — Sí, es un estadio.",
+          "explanationEs": "Si la respuesta es «да» (sí), se repite la misma palabra, sin «не»."
         },
         {
           "id": "1.1-x-16",
@@ -1559,7 +1582,9 @@
           "tags": [
             "1.1-g-da-net"
           ],
-          "origin": "textbook p.8 ex.6В"
+          "origin": "textbook p.8 ex.6В",
+          "es": "No, no es un radio.",
+          "explanationEs": "Para negar se pone «не» antes de la palabra: э́то не ра́дио. En presente no se usa el verbo «ser»."
         },
         {
           "id": "1.1-x-17",
@@ -1573,7 +1598,9 @@
           "tags": [
             "1.1-g-da-net"
           ],
-          "origin": "workbook p.5 ex.1Г"
+          "origin": "workbook p.5 ex.1Г",
+          "es": "No, no es un teatro. Es un circo.",
+          "explanationEs": "Primero se niega con «не» (э́то не теа́тр) y luego se dice qué es en realidad."
         },
         {
           "id": "1.1-x-18",
@@ -1590,7 +1617,8 @@
           "tags": [
             "1.1-v-ili"
           ],
-          "origin": "textbook p.6 ex.4В"
+          "origin": "textbook p.6 ex.4В",
+          "es": "¿Es una nota o un mapa?"
         },
         {
           "id": "1.1-x-19",
@@ -1615,7 +1643,9 @@
           "tags": [
             "1.1-v-pozhaluysta"
           ],
-          "origin": "textbook p.8 ex.7"
+          "origin": "textbook p.8 ex.7",
+          "es": "Sobrecargo: ¿Café o té?\nAnna: Té, por favor.",
+          "explanationEs": "A una pregunta con «и́ли» se responde eligiendo una opción; «пожа́луйста» la hace cortés."
         },
         {
           "id": "1.1-x-20",
@@ -1640,7 +1670,9 @@
           "tags": [
             "1.1-v-spasibo"
           ],
-          "origin": "workbook p.7 ex.5"
+          "origin": "workbook p.7 ex.5",
+          "es": "Sobrecargo: Aquí tiene.\nMaxim: ¡Gracias!",
+          "explanationEs": "«Вот, пожа́луйста» = aquí tiene; lo natural es agradecer: «Спаси́бо!»."
         },
         {
           "id": "1.1-x-21",
@@ -1680,7 +1712,9 @@
             "1.1-v-vino",
             "1.1-v-pivo"
           ],
-          "origin": "textbook p.8 ex.7Б"
+          "origin": "textbook p.8 ex.7Б",
+          "es": "ко́фе = café · чай = té · сок = jugo · вода́ = agua · вино́ = vino · пи́во = cerveza",
+          "explanationEs": "Vocabulario de bebidas: algunas se parecen al español (ко́фе, вино́) y otras hay que memorizarlas (вода́, пи́во)."
         },
         {
           "id": "1.1-x-22",
@@ -1718,7 +1752,9 @@
             "1.1-v-roza",
             "1.1-v-tyulpan"
           ],
-          "origin": "workbook p.4 ex.1А"
+          "origin": "workbook p.4 ex.1А",
+          "es": "тома́т = jitomate · лимо́н = limón · ро́за = rosa · тюльпа́н = tulipán · гита́ра = guitarra · цирк = circo",
+          "explanationEs": "Son palabras internacionales que se leen casi igual que en español (тома́т ≈ tomate, гита́ра ≈ guitarra)."
         },
         {
           "id": "1.1-x-23",
@@ -1758,7 +1794,9 @@
             "1.1-v-yahta",
             "1.1-v-zhurnal"
           ],
-          "origin": "textbook p.6 ex.4Б"
+          "origin": "textbook p.6 ex.4Б",
+          "es": "раке́та = cohete · но́та = nota musical · ка́рта = mapa · торт = pastel · я́хта = yate · журна́л = revista",
+          "explanationEs": "Ojo con los falsos amigos: ка́рта es «mapa» (no carta) y торт es «pastel» (no torta)."
         },
         {
           "id": "1.1-x-24",
@@ -1773,7 +1811,9 @@
           "tags": [
             "1.1-g-zovut"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Приве́т! Меня́ зову́т Кла́ус.",
+          "explanationEs": "«Me llamo» se dice «Меня́ зову́т» (me llaman); con amigos el saludo es «Приве́т!»."
         },
         {
           "id": "1.1-x-25",
@@ -1790,7 +1830,9 @@
           "tags": [
             "1.1-v-ochen-priyatno"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Mucho gusto.",
+          "explanationEs": "«О́чень прия́тно» (literalmente «muy agradable») se dice al conocer a alguien."
         },
         {
           "id": "1.1-x-26",
@@ -1804,7 +1846,9 @@
           "tags": [
             "1.1-g-eto"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Что э́то?",
+          "explanationEs": "Para preguntar por cosas se usa «что»; «э́то» = esto, y no hace falta el verbo «ser»."
         },
         {
           "id": "1.1-x-27",
@@ -1820,7 +1864,9 @@
             "1.1-v-horosho",
             "1.1-v-spasibo"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Спаси́бо, хорошо́.",
+          "explanationEs": "хорошо́ = bien, спаси́бо = gracias; el orden de las dos palabras puede cambiar."
         },
         {
           "id": "1.1-x-28",
@@ -1836,7 +1882,9 @@
           "tags": [
             "1.1-v-ili"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Es sopa o pastel?",
+          "explanationEs": "«и́ли» = o; en presente el ruso omite el verbo «ser»: э́то суп = es sopa."
         },
         {
           "id": "1.1-x-29",
@@ -1849,7 +1897,9 @@
           "tags": [
             "1.1-v-do-vstrechi"
           ],
-          "origin": "workbook p.7 ex.6"
+          "origin": "workbook p.7 ex.6",
+          "es": "¡Nos vemos!",
+          "explanationEs": "«До встре́чи» significa literalmente «hasta el encuentro»: es una despedida amistosa."
         },
         {
           "id": "1.1-x-30",
@@ -1862,7 +1912,8 @@
           "tags": [
             "1.1-g-eto"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Qué es esto? Es un pastel."
         },
         {
           "id": "1.1-x-31",
@@ -1875,7 +1926,8 @@
           "tags": [
             "1.1-g-da-net"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Es sopa? No, no es sopa."
         },
         {
           "id": "1.1-x-32",
@@ -1910,7 +1962,9 @@
           "tags": [
             "1.1-g-alphabet"
           ],
-          "origin": "textbook p.5 ex.4"
+          "origin": "textbook p.5 ex.4",
+          "es": "Р р = r · С с = s · В в = v · Н н = n · Х х = j (como en «jamón») · У у = u",
+          "explanationEs": "Estas letras parecen latinas pero suenan distinto: Р = r, С = s, В = v, Н = n, Х = j, У = u."
         },
         {
           "id": "1.1-x-33",
@@ -1965,7 +2019,9 @@
           "tags": [
             "1.1-g-alphabet"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "А = a · О = o · К = k · М = m · Т = t (suenan como en español) · Р = r · С = s · Н = n · В = v · Х = j (falsos amigos)",
+          "explanationEs": "А, О, К, М y Т se leen como en español; Р, С, Н, В y Х parecen latinas pero suenan diferente."
         },
         {
           "id": "1.1-x-34",
@@ -1982,7 +2038,8 @@
           "tags": [
             "1.1-g-reading"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "En «кот» la о suena [o]. En «тома́т» la о suena [a]."
         },
         {
           "id": "1.1-x-35",
@@ -1998,7 +2055,8 @@
           "tags": [
             "1.1-v-ili"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "Pregunta de elección: opción + «и́ли» (o) + opción, con entonación de pregunta."
         },
         {
           "id": "1.1-x-36",
@@ -2023,7 +2081,9 @@
           "tags": [
             "1.1-v-poka"
           ],
-          "origin": "textbook p.9 ex.9"
+          "origin": "textbook p.9 ex.9",
+          "es": "Sobrecargo: ¡Nos vemos!\nLi: ¡Adiós!",
+          "explanationEs": "A una despedida se responde con otra despedida: «Пока́!»."
         },
         {
           "id": "1.1-x-37",
@@ -2037,7 +2097,9 @@
           "tags": [
             "1.1-v-banan"
           ],
-          "origin": "workbook p.4 ex.1А"
+          "origin": "workbook p.4 ex.1А",
+          "es": "бана́н",
+          "explanationEs": "«Plátano» en ruso es бана́н, una palabra internacional con el acento al final."
         }
       ]
     },
@@ -3661,7 +3723,9 @@
           "tags": [
             "1.2-g-formal"
           ],
-          "origin": "textbook p.11 ex.1Б"
+          "origin": "textbook p.11 ex.1Б",
+          "es": "Здра́вствуйте! ↔ Приве́т! = ¡Hola! · До свида́ния! ↔ Пока́! = ¡Adiós! · Как Вас зову́т? ↔ Как тебя́ зову́т? = ¿Cómo se llama usted? / ¿Cómo te llamas? · Отку́да Вы? ↔ Отку́да ты? = ¿De dónde es usted? / ¿De dónde eres?",
+          "explanationEs": "Cada fórmula formal (con «Вы») tiene su equivalente informal (con «ты»)."
         },
         {
           "id": "1.2-x-02",
@@ -3708,7 +3772,9 @@
           "tags": [
             "1.2-g-formal"
           ],
-          "origin": "workbook p.8 ex.3"
+          "origin": "workbook p.8 ex.3",
+          "es": "Здра́вствуйте! = ¡Hola! / ¡Buenos días! · До свида́ния! = ¡Hasta luego! · Как Вас зову́т? = ¿Cómo se llama usted? · Как у Вас дела́? = ¿Cómo está usted? · Приве́т! = ¡Hola! · Пока́! = ¡Adiós! · Как тебя́ зову́т? = ¿Cómo te llamas? · А у тебя́? = ¿Y tú?",
+          "explanationEs": "Lo formal usa «Вы» (usted) y fórmulas largas como Здра́вствуйте; lo informal usa «ты» y saludos cortos."
         },
         {
           "id": "1.2-x-03",
@@ -3737,7 +3803,9 @@
             "1.2-v-dobryy-den",
             "1.2-v-dobryy-vecher"
           ],
-          "origin": "textbook p.12"
+          "origin": "textbook p.12",
+          "es": "До́брое у́тро! = ¡Buenos días! (8:00) · До́брый день! = ¡Buenas tardes! (14:00) · До́брый ве́чер! = ¡Buenas noches! (20:00) · Здра́вствуйте! = ¡Hola! (formal, a cualquier hora)",
+          "explanationEs": "El saludo depende de la hora: у́тро = mañana, день = día, ве́чер = noche; Здра́вствуйте sirve a cualquier hora."
         },
         {
           "id": "1.2-x-04",
@@ -3763,7 +3831,8 @@
           "tags": [
             "1.2-v-pasport"
           ],
-          "origin": "textbook p.10 ex.1"
+          "origin": "textbook p.10 ex.1",
+          "es": "Oficial: Su pasaporte, por favor.\nMarta: Aquí tiene."
         },
         {
           "id": "1.2-x-05",
@@ -3788,7 +3857,9 @@
           "tags": [
             "1.2-g-formal"
           ],
-          "origin": "workbook p.8 ex.2"
+          "origin": "workbook p.8 ex.2",
+          "es": "Recepción: ¡Buenas tardes! ¿Cómo se llama usted?\nHuésped: Me llamo Marina Petrova.",
+          "explanationEs": "Es una situación formal (Вас), así que se responde con nombre y apellido, sin «Приве́т»."
         },
         {
           "id": "1.2-x-06",
@@ -3815,7 +3886,9 @@
             "1.2-g-govorit",
             "1.2-v-govorit"
           ],
-          "origin": "workbook p.11 ex.6А"
+          "origin": "workbook p.11 ex.6А",
+          "es": "говори́ть = hablar: yo hablo, tú hablas, él habla, nosotros hablamos, ustedes hablan, ellos hablan",
+          "explanationEs": "Grupo II (-и): se quita -ить y se añade -ю, -ишь, -ит, -им, -ите, -ят."
         },
         {
           "id": "1.2-x-07",
@@ -3831,7 +3904,9 @@
           "tags": [
             "1.2-g-govorit"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Ellos hablan español.",
+          "explanationEs": "Con «они́» la terminación es -ят: говоря́т."
         },
         {
           "id": "1.2-x-08",
@@ -3845,7 +3920,9 @@
           "tags": [
             "1.2-g-govorit"
           ],
-          "origin": "workbook p.11 ex.6А"
+          "origin": "workbook p.11 ex.6А",
+          "es": "¿Hablas bien ruso?",
+          "explanationEs": "Con «ты» el verbo termina en -ишь: говори́шь."
         },
         {
           "id": "1.2-x-09",
@@ -3859,7 +3936,9 @@
           "tags": [
             "1.2-g-govorit"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Hablamos un poco de chino.",
+          "explanationEs": "Con «мы» la terminación es -им: говори́м."
         },
         {
           "id": "1.2-x-10",
@@ -3873,7 +3952,9 @@
           "tags": [
             "1.2-g-govorit"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Hablo inglés.",
+          "explanationEs": "Con «я» la terminación es -ю: говорю́."
         },
         {
           "id": "1.2-x-11",
@@ -3887,7 +3968,9 @@
           "tags": [
             "1.2-g-govorit"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Habla usted francés?",
+          "explanationEs": "Con «вы» la terminación es -ите: говори́те."
         },
         {
           "id": "1.2-x-12",
@@ -3901,7 +3984,9 @@
           "tags": [
             "1.2-g-govorit"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "María habla un poquito de italiano.",
+          "explanationEs": "María = она́ (3.ª persona del singular), así que: говори́т."
         },
         {
           "id": "1.2-x-13",
@@ -3915,7 +4000,9 @@
             "1.2-g-how-well",
             "1.2-g-govorit"
           ],
-          "origin": "workbook p.11 ex.6Б"
+          "origin": "workbook p.11 ex.6Б",
+          "es": "No, no hablo italiano.",
+          "explanationEs": "A una pregunta con «ты» se responde con «я»; «не» va justo antes del verbo: не говорю́."
         },
         {
           "id": "1.2-x-14",
@@ -3929,7 +4016,9 @@
             "1.2-g-how-well",
             "1.2-g-govorit"
           ],
-          "origin": "workbook p.11 ex.6Б"
+          "origin": "workbook p.11 ex.6Б",
+          "es": "No, ellos no hablan alemán.",
+          "explanationEs": "«не» va antes del verbo; con «они́» se mantiene говоря́т."
         },
         {
           "id": "1.2-x-15",
@@ -3943,7 +4032,9 @@
             "1.2-g-how-well",
             "1.2-g-govorit"
           ],
-          "origin": "workbook p.11 ex.6Б"
+          "origin": "workbook p.11 ex.6Б",
+          "es": "No, nosotros no hablamos chino.",
+          "explanationEs": "Si te preguntan con «вы» (ustedes), respondes con «мы»: мы не говори́м."
         },
         {
           "id": "1.2-x-16",
@@ -3959,7 +4050,9 @@
           "tags": [
             "1.2-g-nationalities"
           ],
-          "origin": "workbook p.10 ex.5Б"
+          "origin": "workbook p.10 ex.5Б",
+          "es": "Él es de México. Es mexicano.",
+          "explanationEs": "Hombre: мексика́нец; mujer: мексика́нка; plural: мексика́нцы."
         },
         {
           "id": "1.2-x-17",
@@ -3975,7 +4068,9 @@
           "tags": [
             "1.2-g-nationalities"
           ],
-          "origin": "workbook p.10 ex.5Б"
+          "origin": "workbook p.10 ex.5Б",
+          "es": "Ella es de Francia. Es francesa.",
+          "explanationEs": "Mujer francesa = францу́женка; францу́з es hombre y францу́зы es plural."
         },
         {
           "id": "1.2-x-18",
@@ -3988,7 +4083,9 @@
           "tags": [
             "1.2-g-nationalities"
           ],
-          "origin": "workbook p.10 ex.5Б"
+          "origin": "workbook p.10 ex.5Б",
+          "es": "Somos de Argentina. Somos argentinos.",
+          "explanationEs": "«Мы» pide plural: аргенти́нец → аргенти́нцы."
         },
         {
           "id": "1.2-x-19",
@@ -4001,7 +4098,9 @@
           "tags": [
             "1.2-g-nationalities"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Ella es de España. Es española.",
+          "explanationEs": "El femenino de испа́нец es испа́нка (con -ка)."
         },
         {
           "id": "1.2-x-20",
@@ -4014,7 +4113,9 @@
           "tags": [
             "1.2-g-nationalities"
           ],
-          "origin": "workbook p.10 ex.5Б"
+          "origin": "workbook p.10 ex.5Б",
+          "es": "Ellos son de Inglaterra. Son ingleses.",
+          "explanationEs": "англича́нин tiene un plural irregular: англича́не."
         },
         {
           "id": "1.2-x-21",
@@ -4027,7 +4128,9 @@
           "tags": [
             "1.2-g-nationalities"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Ella es de China. Es china.",
+          "explanationEs": "El femenino de кита́ец es китая́нка."
         },
         {
           "id": "1.2-x-22",
@@ -4044,7 +4147,8 @@
           "tags": [
             "1.2-g-otkuda"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Soy de Rusia. Soy ruso."
         },
         {
           "id": "1.2-x-23",
@@ -4075,7 +4179,9 @@
           "tags": [
             "1.2-g-otkuda"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Кита́й → из Кита́я = China → de China · Кана́да → из Кана́ды = Canadá → de Canadá · Герма́ния → из Герма́нии = Alemania → de Alemania · Ме́ксика → из Ме́ксики = México → de México · Аргенти́на → из Аргенти́ны = Argentina → de Argentina",
+          "explanationEs": "Después de «из» cambia la terminación: consonante → -а, -а → -ы (-и después de к), -ия → -ии."
         },
         {
           "id": "1.2-x-24",
@@ -4110,7 +4216,9 @@
           "tags": [
             "1.2-g-languages"
           ],
-          "origin": "textbook p.13 ex.4"
+          "origin": "textbook p.13 ex.4",
+          "es": "Герма́ния = Alemania → по-неме́цки = en alemán · Кита́й = China → по-кита́йски = en chino · Ме́ксика = México → по-испа́нски = en español · Фра́нция = Francia → по-францу́зски = en francés · Росси́я = Rusia → по-ру́сски = en ruso · Аме́рика = Estados Unidos → по-англи́йски = en inglés",
+          "explanationEs": "Cada país va con el idioma que se habla ahí; en México se habla español: по-испа́нски."
         },
         {
           "id": "1.2-x-25",
@@ -4162,7 +4270,9 @@
           "tags": [
             "1.2-g-nationalities"
           ],
-          "origin": "workbook p.9 ex.5А"
+          "origin": "workbook p.9 ex.5А",
+          "es": "не́мец = alemán · кана́дец = canadiense · францу́з = francés · не́мка = alemana · америка́нка = estadounidense · италья́нка = italiana · кита́йцы = chinos · ру́сские = rusos · англича́не = ingleses",
+          "explanationEs": "Los masculinos terminan en -ец o consonante, los femeninos en -ка y los plurales en -цы, -ие o -е."
         },
         {
           "id": "1.2-x-26",
@@ -4175,7 +4285,8 @@
           "tags": [
             "1.2-g-nationalities"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Marta es italiana y habla italiano."
         },
         {
           "id": "1.2-x-27",
@@ -4187,7 +4298,9 @@
           "tags": [
             "1.2-g-govorit"
           ],
-          "origin": "workbook p.20 ex.5"
+          "origin": "workbook p.20 ex.5",
+          "es": "Hablamos ruso.",
+          "explanationEs": "Con «мы» el verbo termina en -им: говори́м (говори́т es para он/она́)."
         },
         {
           "id": "1.2-x-28",
@@ -4200,7 +4313,8 @@
           "tags": [
             "1.2-g-otkuda"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Soy de China y hablo chino."
         },
         {
           "id": "1.2-x-29",
@@ -4216,7 +4330,8 @@
           "tags": [
             "1.2-g-otkuda"
           ],
-          "origin": "workbook p.12 ex.6Д"
+          "origin": "workbook p.12 ex.6Д",
+          "explanationEs": "«Я из» + país con terminación de genitivo: Ме́ксика → из Ме́ксики. No se usa el verbo «ser»."
         },
         {
           "id": "1.2-x-30",
@@ -4233,7 +4348,8 @@
           "tags": [
             "1.2-g-how-well"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "«не» va justo antes del verbo que se niega: не говори́т."
         },
         {
           "id": "1.2-x-31",
@@ -4249,7 +4365,8 @@
           "tags": [
             "1.2-g-govorit"
           ],
-          "origin": "workbook p.12 ex.6Д"
+          "origin": "workbook p.12 ex.6Д",
+          "explanationEs": "En ruso la pregunta se marca solo con la entonación; el orden es igual al de una afirmación."
         },
         {
           "id": "1.2-x-32",
@@ -4264,7 +4381,9 @@
             "1.2-g-otkuda",
             "1.2-g-nationalities"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Я из Ме́ксики. Я мексика́нец.",
+          "explanationEs": "из + genitivo (Ме́ксики) y nacionalidad masculina мексика́нец; en presente no hay verbo «ser»."
         },
         {
           "id": "1.2-x-33",
@@ -4278,7 +4397,9 @@
           "tags": [
             "1.2-v-otkuda"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Отку́да ты?",
+          "explanationEs": "«Отку́да» = de dónde; con amigos se usa «ты»."
         },
         {
           "id": "1.2-x-34",
@@ -4295,7 +4416,9 @@
           "tags": [
             "1.2-g-how-well"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Hablo un poquito de ruso.",
+          "explanationEs": "«чуть-чуть» = un poquito; «по-ру́сски» = en ruso."
         },
         {
           "id": "1.2-x-35",
@@ -4310,7 +4433,9 @@
             "1.2-g-govorit",
             "1.2-g-languages"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Они́ говоря́т по-испа́нски.",
+          "explanationEs": "они́ + -ят: говоря́т; el idioma que se habla se dice con «по-…»: по-испа́нски."
         },
         {
           "id": "1.2-x-36",
@@ -4327,7 +4452,9 @@
             "1.2-g-pronouns",
             "1.2-g-govorit"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Hablamos español.",
+          "explanationEs": "La terminación -им corresponde solo a «мы»."
         },
         {
           "id": "1.2-x-37",
@@ -4344,7 +4471,9 @@
             "1.2-g-pronouns",
             "1.2-g-govorit"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Hablas inglés?",
+          "explanationEs": "La terminación -ишь corresponde solo a «ты»."
         },
         {
           "id": "1.2-x-38",
@@ -4369,7 +4498,9 @@
           "tags": [
             "1.2-g-otkuda"
           ],
-          "origin": "textbook p.12 ex.3"
+          "origin": "textbook p.12 ex.3",
+          "es": "Taxista: ¿De dónde es usted?\nFrank: Soy de Estados Unidos.",
+          "explanationEs": "A «Отку́да…?» se responde con «из» + país: Я из Аме́рики."
         },
         {
           "id": "1.2-x-39",
@@ -4401,7 +4532,9 @@
             "1.2-g-otkuda",
             "1.2-g-govorit"
           ],
-          "origin": "workbook p.12 ex.7"
+          "origin": "workbook p.12 ex.7",
+          "es": "¿Cómo se llama usted? — Me llamo Anna Smith · ¿Cómo está? — ¡Excelente! · ¿De dónde es? — Soy de Inglaterra · ¿Habla ruso? — Sí, hablo un poquito de ruso · ¿Es usted de Italia? — No, soy de Rusia",
+          "explanationEs": "Cada pregunta tiene su respuesta lógica: nombre, estado de ánimo, origen o idioma."
         },
         {
           "id": "1.2-x-40",
@@ -4415,7 +4548,9 @@
             "1.2-g-otkuda",
             "1.2-g-nationalities"
           ],
-          "origin": "workbook p.10 ex.5В"
+          "origin": "workbook p.10 ex.5В",
+          "es": "No, ella no es de Italia. Es de España. Es española.",
+          "explanationEs": "Se niega con «не из Ита́лии», luego se da el país correcto (из Испа́нии) y la nacionalidad femenina испа́нка."
         }
       ]
     },
@@ -5813,7 +5948,9 @@
           "tags": [
             "1.3-g-gender"
           ],
-          "origin": "textbook p.16 ex.2 / workbook p.13 ex.2"
+          "origin": "textbook p.16 ex.2 / workbook p.13 ex.2",
+          "es": "банк = banco · музе́й = museo · вокза́л = estación de tren · оте́ль = hotel · апте́ка = farmacia · шко́ла = escuela · галере́я = galería · библиоте́ка = biblioteca · кафе́ = café · метро́ = metro · кино́ = cine",
+          "explanationEs": "Consonante o -й → он (y оте́ль, aunque termina en -ь); -а/-я → она́; -о/-е → оно́."
         },
         {
           "id": "1.3-x-02",
@@ -5839,7 +5976,8 @@
           "tags": [
             "1.3-g-vot-on-ona-ono"
           ],
-          "origin": "textbook p.16 ex.1"
+          "origin": "textbook p.16 ex.1",
+          "es": "Klaus: Disculpe, ¿dónde está el metro?\nLiza: Ahí está, a la izquierda."
         },
         {
           "id": "1.3-x-03",
@@ -5855,7 +5993,9 @@
           "tags": [
             "1.3-g-vot-on-ona-ono"
           ],
-          "origin": "textbook p.18 ex.4А"
+          "origin": "textbook p.18 ex.4А",
+          "es": "¿Dónde está la farmacia? — Ahí está, a la derecha.",
+          "explanationEs": "апте́ка termina en -а → femenino → она́."
         },
         {
           "id": "1.3-x-04",
@@ -5871,7 +6011,9 @@
           "tags": [
             "1.3-g-vot-on-ona-ono"
           ],
-          "origin": "workbook p.14 ex.3"
+          "origin": "workbook p.14 ex.3",
+          "es": "¿Dónde está el banco? — Ahí está, a la izquierda.",
+          "explanationEs": "банк termina en consonante → masculino → он."
         },
         {
           "id": "1.3-x-05",
@@ -5887,7 +6029,9 @@
           "tags": [
             "1.3-g-vot-on-ona-ono"
           ],
-          "origin": "textbook p.18 ex.4А"
+          "origin": "textbook p.18 ex.4А",
+          "es": "¿Dónde está el café? — Ahí está, en el centro.",
+          "explanationEs": "кафе́ termina en -е → neutro → оно́."
         },
         {
           "id": "1.3-x-06",
@@ -5900,7 +6044,9 @@
           "tags": [
             "1.3-g-vot-on-ona-ono"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Dónde está el museo? — Ahí está, a la derecha.",
+          "explanationEs": "музе́й termina en -й → masculino → он."
         },
         {
           "id": "1.3-x-07",
@@ -5913,7 +6059,9 @@
           "tags": [
             "1.3-g-vot-on-ona-ono"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Dónde está la galería? — Ahí está, a la izquierda.",
+          "explanationEs": "галере́я termina en -я → femenino → она́."
         },
         {
           "id": "1.3-x-08",
@@ -5928,7 +6076,8 @@
             "1.3-g-vot-on-ona-ono",
             "1.3-g-gender"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Dónde está el hotel? — Ahí está, en el centro."
         },
         {
           "id": "1.3-x-09",
@@ -5945,7 +6094,8 @@
           "tags": [
             "1.3-g-gender"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "El café es masculino («он»)."
         },
         {
           "id": "1.3-x-10",
@@ -5997,7 +6147,9 @@
           "tags": [
             "1.3-g-gender"
           ],
-          "origin": "textbook p.17"
+          "origin": "textbook p.17",
+          "es": "ко́фе = café · па́па = papá · де́душка = abuelo · це́рковь = iglesia · ма́ма = mamá · и́мя = nombre · вре́мя = tiempo · такси́ = taxi · рагу́ = guisado",
+          "explanationEs": "Hombres en -а (па́па, де́душка) y ко́фе son masculinos; це́рковь es femenino; las palabras en -мя y las extranjeras en -и/-у son neutras."
         },
         {
           "id": "1.3-x-11",
@@ -6022,7 +6174,9 @@
           "tags": [
             "1.3-g-pochemu"
           ],
-          "origin": "textbook p.17 ex.3А"
+          "origin": "textbook p.17 ex.3А",
+          "es": "A: ¿Por qué «escuela» es femenino?\nB: Porque termina en «-а».",
+          "explanationEs": "Los sustantivos que terminan en -а/-я normalmente son femeninos."
         },
         {
           "id": "1.3-x-12",
@@ -6038,7 +6192,9 @@
           "tags": [
             "1.3-g-acc-pronouns"
           ],
-          "origin": "textbook p.19 ex.5Б"
+          "origin": "textbook p.19 ex.5Б",
+          "es": "Este es Klaus. Se llama Klaus.",
+          "explanationEs": "Para un hombre (он) se usa «его́ зову́т»."
         },
         {
           "id": "1.3-x-13",
@@ -6052,7 +6208,9 @@
           "tags": [
             "1.3-g-acc-pronouns"
           ],
-          "origin": "textbook p.19 ex.5Б"
+          "origin": "textbook p.19 ex.5Б",
+          "es": "Esta es Liza. Se llama Liza.",
+          "explanationEs": "она́ → её: «её зову́т»."
         },
         {
           "id": "1.3-x-14",
@@ -6066,7 +6224,9 @@
           "tags": [
             "1.3-g-acc-pronouns"
           ],
-          "origin": "textbook p.19 ex.5Б"
+          "origin": "textbook p.19 ex.5Б",
+          "es": "Ellos son Jean y Li. Se llaman Jean y Li.",
+          "explanationEs": "они́ → их: «их зову́т»."
         },
         {
           "id": "1.3-x-15",
@@ -6080,7 +6240,9 @@
           "tags": [
             "1.3-g-acc-pronouns"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Cómo te llamas? — Me llamo Masha.",
+          "explanationEs": "я → меня́: «меня́ зову́т»."
         },
         {
           "id": "1.3-x-16",
@@ -6094,7 +6256,9 @@
           "tags": [
             "1.3-g-acc-pronouns"
           ],
-          "origin": "workbook p.15 ex.4Б"
+          "origin": "workbook p.15 ex.4Б",
+          "es": "¿Cómo se llaman ustedes? — Nos llamamos Frank y Giovanni.",
+          "explanationEs": "мы → нас: «нас зову́т»."
         },
         {
           "id": "1.3-x-17",
@@ -6129,7 +6293,9 @@
           "tags": [
             "1.3-g-acc-pronouns"
           ],
-          "origin": "workbook p.14 ex.4А"
+          "origin": "workbook p.14 ex.4А",
+          "es": "я → меня́ (a mí) · ты → тебя́ (a ti) · он → его́ (a él) · она́ → её (a ella) · мы → нас (a nosotros) · они́ → их (a ellos)",
+          "explanationEs": "Con «зову́т» el pronombre cambia de forma: меня́, тебя́, его́, её, нас, их."
         },
         {
           "id": "1.3-x-18",
@@ -6154,7 +6320,9 @@
           "tags": [
             "1.3-g-acc-pronouns"
           ],
-          "origin": "textbook p.21 ex.6"
+          "origin": "textbook p.21 ex.6",
+          "es": "A: ¿Cómo se llama ella?\nB: Se llama Shakira.",
+          "explanationEs": "La pregunta es sobre ella (её), así que se responde «Её зову́т…»."
         },
         {
           "id": "1.3-x-19",
@@ -6181,7 +6349,8 @@
             "1.3-g-acc-pronouns",
             "1.2-g-nationalities"
           ],
-          "origin": "textbook p.21 ex.6"
+          "origin": "textbook p.21 ex.6",
+          "es": "A: Se llama Shakira. ¿Es española?\nB: No, no es española. Es colombiana."
         },
         {
           "id": "1.3-x-20",
@@ -6194,7 +6363,8 @@
           "tags": [
             "1.3-g-acc-pronouns"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Esta es Masha. Se llama Masha."
         },
         {
           "id": "1.3-x-21",
@@ -6207,7 +6377,8 @@
           "tags": [
             "1.3-g-vot-on-ona-ono"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Dónde está el metro? Ahí está, a la izquierda."
         },
         {
           "id": "1.3-x-22",
@@ -6242,7 +6413,9 @@
           "tags": [
             "1.3-g-numbers"
           ],
-          "origin": "textbook p.21 ex.7Б"
+          "origin": "textbook p.21 ex.7Б",
+          "es": "3 = три · 7 = семь · 11 = оди́ннадцать · 12 = двена́дцать · 15 = пятна́дцать · 20 = два́дцать",
+          "explanationEs": "Del 11 al 19 se forman con -на́дцать (оди́ннадцать, пятна́дцать); 20 es два́дцать."
         },
         {
           "id": "1.3-x-23",
@@ -6255,7 +6428,9 @@
           "tags": [
             "1.3-g-numbers"
           ],
-          "origin": "textbook p.21 ex.7В"
+          "origin": "textbook p.21 ex.7В",
+          "es": "Dos más dos es igual a cuatro.",
+          "explanationEs": "2 + 2 = 4: четы́ре."
         },
         {
           "id": "1.3-x-24",
@@ -6268,7 +6443,9 @@
           "tags": [
             "1.3-g-numbers"
           ],
-          "origin": "textbook p.21 ex.7В"
+          "origin": "textbook p.21 ex.7В",
+          "es": "Seis más cuatro es igual a diez.",
+          "explanationEs": "6 + 4 = 10: де́сять."
         },
         {
           "id": "1.3-x-25",
@@ -6281,7 +6458,9 @@
           "tags": [
             "1.3-g-numbers"
           ],
-          "origin": "textbook p.21 ex.7В"
+          "origin": "textbook p.21 ex.7В",
+          "es": "Dieciocho más dos es igual a veinte.",
+          "explanationEs": "18 + 2 = 20: два́дцать."
         },
         {
           "id": "1.3-x-26",
@@ -6294,7 +6473,9 @@
           "tags": [
             "1.3-g-numbers"
           ],
-          "origin": "textbook p.21 ex.7В"
+          "origin": "textbook p.21 ex.7В",
+          "es": "Diecisiete menos nueve es igual a ocho.",
+          "explanationEs": "17 − 9 = 8: во́семь."
         },
         {
           "id": "1.3-x-27",
@@ -6310,7 +6491,9 @@
           "tags": [
             "1.3-g-numbers"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Trece más seis es igual a diecinueve.",
+          "explanationEs": "13 + 6 = 19: девятна́дцать (де́вять + -на́дцать)."
         },
         {
           "id": "1.3-x-28",
@@ -6326,7 +6509,9 @@
           "tags": [
             "1.3-g-numbers"
           ],
-          "origin": "textbook p.21 ex.7В"
+          "origin": "textbook p.21 ex.7В",
+          "es": "Catorce menos cinco es igual a nueve.",
+          "explanationEs": "14 − 5 = 9: де́вять."
         },
         {
           "id": "1.3-x-29",
@@ -6339,7 +6524,9 @@
           "tags": [
             "1.3-g-numbers"
           ],
-          "origin": "workbook p.20 ex.6"
+          "origin": "workbook p.20 ex.6",
+          "es": "Uno, tres, cinco, siete, nueve.",
+          "explanationEs": "Son números impares: después de пять (5) viene семь (7)."
         },
         {
           "id": "1.3-x-30",
@@ -6352,7 +6539,9 @@
           "tags": [
             "1.3-g-numbers"
           ],
-          "origin": "workbook p.20 ex.6"
+          "origin": "workbook p.20 ex.6",
+          "es": "Veinte, quince, diez, cinco, cero.",
+          "explanationEs": "La serie baja de cinco en cinco: después de де́сять (10) viene пять (5)."
         },
         {
           "id": "1.3-x-31",
@@ -6377,7 +6566,9 @@
           "tags": [
             "1.3-g-numbers"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "A: ¿Cuánto es cinco más cinco?\nB: Diez.",
+          "explanationEs": "5 + 5 = 10: де́сять."
         },
         {
           "id": "1.3-x-32",
@@ -6394,7 +6585,8 @@
           "tags": [
             "1.3-g-gde"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "«Извини́те» va primero; luego la pregunta: где (dónde) + здесь (aquí) + lo que buscas."
         },
         {
           "id": "1.3-x-33",
@@ -6410,7 +6602,8 @@
           "tags": [
             "1.3-g-acc-pronouns"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "«Как» + pronombre (их = a ellos) + «зову́т»."
         },
         {
           "id": "1.3-x-34",
@@ -6425,7 +6618,9 @@
             "1.3-v-apteka",
             "1.3-v-gde"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Где апте́ка?",
+          "explanationEs": "No se usa el verbo «estar»: где (dónde) + апте́ка."
         },
         {
           "id": "1.3-x-35",
@@ -6440,7 +6635,9 @@
             "1.3-v-biblioteka",
             "1.3-v-sleva"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Библиоте́ка сле́ва.",
+          "explanationEs": "сле́ва = a la izquierda; en presente no se dice «está»."
         },
         {
           "id": "1.3-x-36",
@@ -6456,7 +6653,9 @@
           "tags": [
             "1.3-g-acc-pronouns"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Cómo se llaman?",
+          "explanationEs": "их = a ellos/ellas: «Как их зову́т?» = ¿cómo se llaman?"
         },
         {
           "id": "1.3-x-37",
@@ -6470,7 +6669,9 @@
           "tags": [
             "1.3-g-acc-pronouns"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Его́ зову́т Макси́м.",
+          "explanationEs": "«Él se llama» = «его́ зову́т» (literalmente «a él lo llaman»)."
         },
         {
           "id": "1.3-x-38",
@@ -6510,7 +6711,9 @@
             "1.3-v-magazin",
             "1.3-v-zoopark"
           ],
-          "origin": "textbook p.16 ex.2"
+          "origin": "textbook p.16 ex.2",
+          "es": "апте́ка = farmacia · вокза́л = estación de tren · по́чта = correo · бу́лочная = panadería · магази́н = tienda · зоопа́рк = zoológico",
+          "explanationEs": "Lugares de la ciudad; ojo: вокза́л es la estación de trenes y бу́лочная la panadería."
         },
         {
           "id": "1.3-x-39",
@@ -6529,7 +6732,9 @@
             "1.3-v-sleva",
             "1.3-v-sprava"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "сле́ва = a la izquierda ↔ спра́ва = a la derecha",
+          "explanationEs": "Lo contrario de «a la izquierda» es «a la derecha»: спра́ва."
         },
         {
           "id": "1.3-x-40",
@@ -6543,7 +6748,9 @@
             "1.3-v-plyus",
             "1.3-v-minus"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "плюс = más ↔ ми́нус = menos",
+          "explanationEs": "Son operaciones opuestas: suma (плюс) y resta (ми́нус)."
         }
       ]
     },
@@ -7703,7 +7910,9 @@
             "1.4-g-e-i-conjugation",
             "1.4-v-rabotat"
           ],
-          "origin": "textbook p.23 ex.2А"
+          "origin": "textbook p.23 ex.2А",
+          "es": "рабо́тать = trabajar: yo trabajo, tú trabajas, él trabaja, nosotros trabajamos, ustedes trabajan, ellos trabajan",
+          "explanationEs": "Grupo I (-е): se quita -ть y se añade -ю, -ешь, -ет, -ем, -ете, -ют."
         },
         {
           "id": "1.4-x-02",
@@ -7738,7 +7947,9 @@
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
-          "origin": "textbook p.23 ex.2А"
+          "origin": "textbook p.23 ex.2А",
+          "es": "я рабо́таю = yo trabajo · ты рабо́таешь = tú trabajas · она́ рабо́тает = ella trabaja · мы рабо́таем = nosotros trabajamos · вы рабо́таете = ustedes trabajan · они́ рабо́тают = ellos trabajan",
+          "explanationEs": "Cada pronombre tiene su terminación del grupo I: -ю, -ешь, -ет, -ем, -ете, -ют."
         },
         {
           "id": "1.4-x-03",
@@ -7773,7 +7984,9 @@
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
-          "origin": "workbook p.18 ex.3Б"
+          "origin": "workbook p.18 ex.3Б",
+          "es": "они́ говоря́т = ellos hablan · я говорю́ = yo hablo · он говори́т = él habla · вы говори́те = ustedes hablan · ты говори́шь = tú hablas · мы говори́м = nosotros hablamos",
+          "explanationEs": "Terminaciones del grupo II: -ю, -ишь, -ит, -им, -ите, -ят."
         },
         {
           "id": "1.4-x-04",
@@ -7787,7 +8000,9 @@
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Trabajas? — Sí, claro, trabajo.",
+          "explanationEs": "ты + -ешь: рабо́таешь."
         },
         {
           "id": "1.4-x-05",
@@ -7802,7 +8017,9 @@
             "1.4-g-e-i-conjugation",
             "1.4-g-negation-tozhe"
           ],
-          "origin": "textbook p.23 ex.2Г"
+          "origin": "textbook p.23 ex.2Г",
+          "es": "Él no trabaja. Es jubilado.",
+          "explanationEs": "он + -ет: рабо́тает."
         },
         {
           "id": "1.4-x-06",
@@ -7816,7 +8033,9 @@
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Trabajamos y hablamos ruso.",
+          "explanationEs": "мы + -ем: рабо́таем."
         },
         {
           "id": "1.4-x-07",
@@ -7830,7 +8049,9 @@
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
-          "origin": "textbook p.23 ex.2Г"
+          "origin": "textbook p.23 ex.2Г",
+          "es": "¿Usted trabaja? — No, soy estudiante.",
+          "explanationEs": "вы + -ете: рабо́таете (aquí «вы» es el «usted» formal)."
         },
         {
           "id": "1.4-x-08",
@@ -7844,7 +8065,9 @@
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Ellos trabajan y hablan bien inglés.",
+          "explanationEs": "они́ + -ют: рабо́тают."
         },
         {
           "id": "1.4-x-09",
@@ -7858,7 +8081,9 @@
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
-          "origin": "textbook p.23 ex.2Г"
+          "origin": "textbook p.23 ex.2Г",
+          "es": "¿Ellos hablan mal francés?",
+          "explanationEs": "говори́ть es del grupo -и: они́ говоря́т."
         },
         {
           "id": "1.4-x-10",
@@ -7874,7 +8099,9 @@
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
-          "origin": "textbook p.23 ex.2Г"
+          "origin": "textbook p.23 ex.2Г",
+          "es": "¿Habla usted bien ruso?",
+          "explanationEs": "вы + -ите: говори́те; рабо́таете no tiene sentido con «по-ру́сски»."
         },
         {
           "id": "1.4-x-11",
@@ -7921,7 +8148,9 @@
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "рабо́таю = trabajo · рабо́тают = trabajan · рабо́таем = trabajamos · рабо́таешь = trabajas · говорю́ = hablo · говоря́т = hablan · говори́м = hablamos · говори́шь = hablas",
+          "explanationEs": "рабо́тать lleva -е (-ешь, -ем) y -ют; говори́ть lleva -и (-ишь, -им) y -ят."
         },
         {
           "id": "1.4-x-12",
@@ -7945,7 +8174,8 @@
             "1.4-g-e-i-conjugation",
             "1.4-v-znat"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "знать = saber: yo sé, tú sabes, nosotros sabemos, ellos saben"
         },
         {
           "id": "1.4-x-13",
@@ -7968,7 +8198,9 @@
             "1.4-g-e-i-conjugation",
             "1.4-v-ponimat"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "понима́ть = entender: yo entiendo, él entiende, ustedes entienden, ellos entienden",
+          "explanationEs": "Se conjuga como рабо́тать (grupo I): понима́ю, понима́ет, понима́ете, понима́ют."
         },
         {
           "id": "1.4-x-14",
@@ -8008,7 +8240,9 @@
             "1.4-v-domohozyayka",
             "1.4-v-policeyskiy"
           ],
-          "origin": "textbook p.24 ex.3Б"
+          "origin": "textbook p.24 ex.3Б",
+          "es": "врач = médico · официа́нт = mesero · такси́ст = taxista · преподава́тель = profesor · домохозя́йка = ama de casa · полице́йский = policía",
+          "explanationEs": "Profesiones comunes; en México официа́нт es «mesero»."
         },
         {
           "id": "1.4-x-15",
@@ -8048,7 +8282,9 @@
             "1.4-v-yurist",
             "1.4-v-styuardessa"
           ],
-          "origin": "textbook p.24 ex.3Б"
+          "origin": "textbook p.24 ex.3Б",
+          "es": "журнали́ст = periodista · барме́н = bartender · гид = guía · пенсионе́р = jubilado · юри́ст = abogado · стюарде́сса = sobrecargo",
+          "explanationEs": "Muchas profesiones son palabras internacionales (журнали́ст, гид); пенсионе́р = jubilado."
         },
         {
           "id": "1.4-x-16",
@@ -8064,7 +8300,9 @@
           "tags": [
             "1.4-g-professions-gender"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Él es estudiante y ella es estudiante (mujer).",
+          "explanationEs": "El femenino se forma con -ка: студе́нт → студе́нтка."
         },
         {
           "id": "1.4-x-17",
@@ -8077,7 +8315,9 @@
           "tags": [
             "1.4-g-professions-gender"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Él es mesero y ella es mesera.",
+          "explanationEs": "официа́нт + -ка = официа́нтка."
         },
         {
           "id": "1.4-x-18",
@@ -8090,7 +8330,9 @@
           "tags": [
             "1.4-g-professions-gender"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Él es actor y ella es actriz.",
+          "explanationEs": "Forma irregular: актёр → актри́са."
         },
         {
           "id": "1.4-x-19",
@@ -8103,7 +8345,9 @@
           "tags": [
             "1.4-g-professions-gender"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Él es deportista y ella es deportista (mujer).",
+          "explanationEs": "спортсме́н + -ка = спортсме́нка."
         },
         {
           "id": "1.4-x-20",
@@ -8116,7 +8360,9 @@
           "tags": [
             "1.4-g-professions-gender"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Él es jubilado y ella es jubilada.",
+          "explanationEs": "пенсионе́р + -ка = пенсионе́рка."
         },
         {
           "id": "1.4-x-21",
@@ -8141,7 +8387,9 @@
           "tags": [
             "1.4-g-negation-tozhe"
           ],
-          "origin": "textbook p.25 ex.4"
+          "origin": "textbook p.25 ex.4",
+          "es": "Natasha: ¿Trabajas?\nRoberto: ¡Sí, claro! Soy guía.",
+          "explanationEs": "A «Ты рабо́таешь?» se responde sí o no y se dice la profesión."
         },
         {
           "id": "1.4-x-22",
@@ -8170,7 +8418,9 @@
           "tags": [
             "1.4-v-kak-interesno"
           ],
-          "origin": "textbook p.25 ex.4"
+          "origin": "textbook p.25 ex.4",
+          "es": "Roberto: ¿Y a qué te dedicas?\nNatasha: Soy DJ.\nRoberto: ¡Oh, qué interesante!",
+          "explanationEs": "«О, как интере́сно!» es la reacción natural al oír algo nuevo."
         },
         {
           "id": "1.4-x-23",
@@ -8195,7 +8445,9 @@
           "tags": [
             "1.4-v-net-chto-vy"
           ],
-          "origin": "textbook p.22 ex.1"
+          "origin": "textbook p.22 ex.1",
+          "es": "Masha: Frank, ¿tú también eres futbolista?\nFrank: ¡No, para nada! Soy estudiante.",
+          "explanationEs": "«Нет, что ты!» = ¡no, para nada!; después se dice la profesión real."
         },
         {
           "id": "1.4-x-24",
@@ -8211,7 +8463,9 @@
           "tags": [
             "1.4-g-negation-tozhe"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "— Trabajo. — ¡Yo también trabajo!",
+          "explanationEs": "то́же = también; se usa al repetir lo que dijo la otra persona."
         },
         {
           "id": "1.4-x-25",
@@ -8224,7 +8478,9 @@
           "tags": [
             "1.4-g-negation-tozhe"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Ella no trabaja.",
+          "explanationEs": "«не» va antes del verbo: не рабо́тает."
         },
         {
           "id": "1.4-x-26",
@@ -8238,7 +8494,9 @@
           "tags": [
             "1.4-g-negation-tozhe"
           ],
-          "origin": "workbook p.17 ex.1В"
+          "origin": "workbook p.17 ex.1В",
+          "es": "No, él no es biólogo, es gerente.",
+          "explanationEs": "Se niega con «не» y luego se da la profesión correcta (ме́неджер)."
         },
         {
           "id": "1.4-x-27",
@@ -8253,7 +8511,9 @@
             "1.4-g-negation-tozhe",
             "1.4-g-professions-gender"
           ],
-          "origin": "workbook p.18 ex.1В"
+          "origin": "workbook p.18 ex.1В",
+          "es": "No, ella no es secretaria, es mesera.",
+          "explanationEs": "Se niega con «не» y luego se da la profesión correcta; секрета́рь sirve para hombre y mujer."
         },
         {
           "id": "1.4-x-28",
@@ -8288,7 +8548,9 @@
           "tags": [
             "1.4-g-classroom"
           ],
-          "origin": "workbook p.19 ex.4А"
+          "origin": "workbook p.19 ex.4А",
+          "es": "Я не понима́ю. = No entiendo. · Я не по́мню. = No me acuerdo. · Я забы́л(а). = Se me olvidó. · Я не зна́ю. = No sé. · Я ду́маю, что… = Creo que… · Я зна́ю. = Lo sé.",
+          "explanationEs": "Frases útiles en clase; en «Я забы́л(а)» se añade -а si quien habla es mujer."
         },
         {
           "id": "1.4-x-29",
@@ -8313,7 +8575,9 @@
           "tags": [
             "1.4-g-classroom"
           ],
-          "origin": "workbook p.19 ex.4Б"
+          "origin": "workbook p.19 ex.4Б",
+          "es": "Estudiante: ¿Cómo se dice «gracias» en ruso?\nProfesor: Спаси́бо.",
+          "explanationEs": "«Как по-ру́сски…?» pide la traducción al ruso: gracias = спаси́бо."
         },
         {
           "id": "1.4-x-30",
@@ -8338,7 +8602,9 @@
           "tags": [
             "1.4-g-classroom"
           ],
-          "origin": "workbook p.19 ex.4Б"
+          "origin": "workbook p.19 ex.4Б",
+          "es": "Estudiante: ¿Qué significa «пожа́луйста»?\nProfesor: «Por favor».",
+          "explanationEs": "«Что зна́чит…?» pregunta el significado, así que se responde con la traducción."
         },
         {
           "id": "1.4-x-31",
@@ -8371,7 +8637,9 @@
           "tags": [
             "1.4-g-classroom"
           ],
-          "origin": "workbook p.19 ex.4Б"
+          "origin": "workbook p.19 ex.4Б",
+          "es": "Estudiante: ¿Cómo se dice «bien» en ruso?\nProfesor: Хорошо́.\nEstudiante: ¿Cómo se escribe?\nProfesor: Х-О-Р-О-Ш-О.",
+          "explanationEs": "«Как э́то пи́шется?» = ¿cómo se escribe?, así que se deletrea la palabra."
         },
         {
           "id": "1.4-x-32",
@@ -8383,7 +8651,9 @@
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Trabajamos y hablamos inglés.",
+          "explanationEs": "мы + -ем: рабо́таем (рабо́тают es para они́)."
         },
         {
           "id": "1.4-x-33",
@@ -8396,7 +8666,8 @@
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "¿Hablas español?"
         },
         {
           "id": "1.4-x-34",
@@ -8408,7 +8679,9 @@
           "tags": [
             "1.4-g-professions-gender"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Marta es estudiante y trabaja.",
+          "explanationEs": "Marta es mujer: студе́нт → студе́нтка."
         },
         {
           "id": "1.4-x-35",
@@ -8425,7 +8698,8 @@
           "tags": [
             "1.4-v-kto-po-professii"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "Pregunta fija: кто + pronombre + по профе́ссии?"
         },
         {
           "id": "1.4-x-36",
@@ -8443,7 +8717,8 @@
           "tags": [
             "1.4-g-negation-tozhe"
           ],
-          "origin": "original"
+          "origin": "original",
+          "explanationEs": "«не» va antes del verbo; después de la coma se dice lo que sí eres."
         },
         {
           "id": "1.4-x-37",
@@ -8457,7 +8732,9 @@
           "tags": [
             "1.4-v-student"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Я студе́нтка.",
+          "explanationEs": "Mujer: студе́нт + -ка = студе́нтка; en presente no se usa «ser»."
         },
         {
           "id": "1.4-x-38",
@@ -8471,7 +8748,9 @@
           "tags": [
             "1.4-v-rabotat"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Ты рабо́таешь?",
+          "explanationEs": "ты + -ешь: рабо́таешь; la pregunta se marca solo con la entonación."
         },
         {
           "id": "1.4-x-39",
@@ -8488,7 +8767,9 @@
             "1.4-g-negation-tozhe",
             "1.4-v-pensioner"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "No trabajo, soy jubilado.",
+          "explanationEs": "«не» + verbo = no trabajo; пенсионе́р = jubilado."
         },
         {
           "id": "1.4-x-40",
@@ -8502,7 +8783,9 @@
           "tags": [
             "1.4-g-classroom"
           ],
-          "origin": "original"
+          "origin": "original",
+          "es": "Я не понима́ю.",
+          "explanationEs": "понима́ть (grupo I): я понима́ю; «не» va antes del verbo."
         },
         {
           "id": "1.4-x-41",
@@ -8535,7 +8818,9 @@
             "1.3-g-vot-on-ona-ono",
             "1.2-g-otkuda"
           ],
-          "origin": "workbook p.20 ex.7"
+          "origin": "workbook p.20 ex.7",
+          "es": "¿De dónde es Claudio? — Es de Italia · ¿Eres francés? — No, soy italiano · ¿Dónde está la biblioteca? — Ahí está, en el centro · ¿Trabajas? — Sí, claro · ¿Los canadienses hablan inglés? — Sí, inglés y francés",
+          "explanationEs": "Cada pregunta tiene su respuesta lógica; ojo: библиоте́ка es femenina → «Вот она́»."
         },
         {
           "id": "1.4-x-42",
@@ -8550,7 +8835,9 @@
           "tags": [
             "1.2-g-nationalities"
           ],
-          "origin": "workbook p.20 ex.5"
+          "origin": "workbook p.20 ex.5",
+          "es": "María es mexicana.",
+          "explanationEs": "María es mujer: мексика́нка (мексика́нец es hombre)."
         },
         {
           "id": "1.4-x-43",
@@ -8576,7 +8863,9 @@
             "1.4-v-vizitka",
             "1.4-v-ekonomist"
           ],
-          "origin": "textbook p.25 ex.5Б"
+          "origin": "textbook p.25 ex.5Б",
+          "es": "Serguéi: Soy abogado, ¿y usted a qué se dedica?\nDmitri: Soy economista. Aquí está mi tarjeta.",
+          "explanationEs": "A «Кто Вы по профе́ссии?» se responde «Я» + profesión."
         }
       ]
     }

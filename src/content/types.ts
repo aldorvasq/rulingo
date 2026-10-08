@@ -45,6 +45,8 @@ interface ExBase {
   id: string
   instructionEs?: string
   explanationEs?: string
+  /** Spanish translation of the exercise with the answer filled in (shown after a correct answer). */
+  es?: string
   tags?: string[]
   origin?: string
 }

@@ -1,3 +1,5 @@
+import { activeSeasons, type SeasonEvent } from './seasons'
+
 // Culture snippets: fun facts shown after a finished review, and the word / tongue twister of the day.
 // Spanish text; Russian words carry stress marks (rendered with the Russian serif by <Mixed>).
 
@@ -96,10 +98,25 @@ export function dayNumber(d = new Date()) {
   return Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())) / 86_400_000)
 }
 
-/** Every third day is a tongue twister; the rest are words. Each list cycles through in order. */
-export function dailyItem(d = new Date()): { kind: 'word'; item: DailyWord } | { kind: 'twister'; item: TongueTwister } {
+export type Daily =
+  | { kind: 'word'; item: DailyWord; season?: SeasonEvent }
+  | { kind: 'twister'; item: TongueTwister }
+
+/**
+ * Every third day is a tongue twister; the rest are words. During a holiday season words lean
+ * seasonal: about 2 of 3 word days for big holidays (New Year, Maslenitsa, Easter…), every other
+ * word day for smaller ones. Everyone sees the same item on a given day.
+ */
+export function dailyItem(d = new Date()): Daily {
   const n = dayNumber(d)
   if (n % 3 === 2) return { kind: 'twister', item: TWISTERS[Math.floor(n / 3) % TWISTERS.length] }
+  const seasons = activeSeasons(d)
+  const big = seasons.some((s) => s.big)
+  if (seasons.length && (big ? n % 3 !== 1 : n % 2 === 0)) {
+    const pool = seasons.flatMap((s) => s.words.map((w) => ({ w, s })))
+    const pick = pool[n % pool.length]
+    return { kind: 'word', item: pick.w, season: pick.s }
+  }
   return { kind: 'word', item: WORDS[(n - Math.floor(n / 3)) % WORDS.length] }
 }
 
