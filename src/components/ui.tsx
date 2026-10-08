@@ -195,9 +195,7 @@ export function Section({ id, title, hint, accent = 'var(--brand)', defaultOpen 
         </span>
         <Icon name="down" size={20} className={`shrink-0 text-muted transition-transform ${open ? 'rotate-180' : ''}`} />
       </button>
-      <div className="collapse" data-open={open} inert={!open}>
-        <div><div className="pt-2">{children}</div></div>
-      </div>
+      {open && <div className="mt-2">{children}</div>}
     </section>
   )
 }

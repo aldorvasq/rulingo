@@ -151,11 +151,6 @@ body {
 @keyframes correct-pop { 0% { transform: scale(1) } 40% { transform: scale(1.05) } 100% { transform: scale(1) } }
 .correct-pop { animation: correct-pop 0.35s ease-out; }
 
-/* Collapsible sections: animate height via grid rows. */
-.collapse { display: grid; grid-template-rows: 1fr; transition: grid-template-rows 0.28s ease, opacity 0.28s ease; }
-.collapse[data-open="false"] { grid-template-rows: 0fr; opacity: 0; }
-.collapse > * { overflow: hidden; min-height: 0; }
-
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .shimmer-text { color: #fff; background: none; }
