@@ -48,7 +48,7 @@ export function Path() {
                   <button key={l.id} onClick={() => navigate(`/lesson/${l.id}`)}
                     className="absolute flex -translate-x-1/2 -translate-y-1/2 flex-col items-center"
                     style={{ left: `${(x / W) * 100}%`, top: `${(y / height) * 100}%` }}>
-                    <div className="relative grid h-14 w-14 place-items-center rounded-md border-[3px] border-[#fffdf8] text-lg font-bold shadow-[0_3px_8px_rgba(0,0,0,0.25)]"
+                    <div className={`relative grid h-14 w-14 place-items-center rounded-md border-[3px] border-[#fffdf8] text-lg font-bold shadow-[0_3px_8px_rgba(0,0,0,0.25)] ${current ? 'ring-pulse' : ''}`}
                       style={{ background: locked ? '#b9b6ae' : color.bg, color: '#fff' }}>
                       {locked ? <Icon name="lock" size={20} /> : m >= MASTERED ? <Icon name="star" size={24} /> : l.id}
                       {current && <span className="absolute -top-2.5 -right-2.5 rounded-sm bg-brand px-1.5 py-0.5 text-[10px] font-bold uppercase text-white shadow">Aquí</span>}

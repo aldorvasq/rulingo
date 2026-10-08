@@ -14,7 +14,7 @@ export async function exportProgress(): Promise<'shared' | 'downloaded' | 'cance
 
   if (navigator.canShare?.({ files: [file] })) {
     try {
-      await navigator.share({ files: [file], title: 'Progreso РуЛинго' })
+      await navigator.share({ files: [file], title: 'Progreso ру' })
       useStore.getState().markBackup()
       return 'shared'
     } catch (e) {
@@ -35,7 +35,7 @@ export async function exportProgress(): Promise<'shared' | 'downloaded' | 'cance
 export async function readBackup(file: File): Promise<PersistedState> {
   const parsed = JSON.parse(await file.text())
   if (parsed?.app !== APP || !parsed.state?.settings || !parsed.state?.progress) {
-    throw new Error('Este archivo no es un respaldo de РуЛинго.')
+    throw new Error('Este archivo no es un respaldo de «ру».')
   }
   return parsed.state as PersistedState
 }

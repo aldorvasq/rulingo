@@ -5,9 +5,10 @@ import { lessonTopics } from '../engine/topics'
 import { lessonMastery } from '../state/mastery'
 import { dayKey, daysBetween } from '../lib/date'
 import { navigate } from '../lib/router'
-import { Icon, ProgressBar, Section, TopicTitle } from '../components/ui'
+import { Icon, Logo, ProgressBar, Section, TopicTitle } from '../components/ui'
 import { InstallBanner } from '../components/InstallPrompt'
-import { DailyCard } from '../components/Culture'
+import { DailyHero } from '../components/Culture'
+import { ScheduleCard } from '../components/ScheduleCard'
 import { exportProgress } from '../state/backup'
 import { TopicList } from '../components/TopicList'
 
@@ -16,7 +17,7 @@ export function StreakBadge() {
   const today = streak.lastGoalDay === dayKey()
   return (
     <span className={`inline-flex items-center gap-1 text-sm font-bold ${today ? 'text-brick' : 'text-muted'}`} title="Días seguidos repasando">
-      <Icon name="flame" size={18} /> {streak.current}
+      <Icon name="flame" size={18} className={today ? 'flicker' : ''} /> {streak.current}
       {streak.freezes > 0 && <span className="ml-1 font-normal text-muted">· {streak.freezes} protector{streak.freezes > 1 ? 'es' : ''}</span>}
     </span>
   )
@@ -41,9 +42,11 @@ export function Home() {
   return (
     <div className="mx-auto max-w-xl px-4 pb-28">
       <div className="pt-safe flex items-center justify-between py-3">
-        <div className="text-lg font-bold tracking-tight"><span className="ru text-brand">Ру</span><span className="ru">Линго</span></div>
+        <Logo className="text-[1.7rem] leading-none" />
         <StreakBadge />
       </div>
+      <DailyHero />
+      <ScheduleCard />
       <InstallBanner />
 
       {lesson ? (
@@ -83,8 +86,6 @@ export function Home() {
             </div>
           </div>
           </Section>
-
-          <DailyCard />
 
           {/* 2. Or a single topic */}
           <TopicList lessonId={lesson.id} />

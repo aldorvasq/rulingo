@@ -452,7 +452,7 @@ export function Scene({ chapter, nodes, height }: { chapter: number; nodes: [num
         </linearGradient>
       </defs>
       <rect x={0} y={0} width={W} height={HORIZON} fill={`url(#sky${chapter})`} />
-      <g fill="#ffffff" opacity={0.55}>
+      <g fill="#ffffff" opacity={0.55} className="drift">
         <ellipse cx={70} cy={50} rx={34} ry={8} />
         <ellipse cx={300} cy={34} rx={42} ry={9} />
         <ellipse cx={210} cy={80} rx={26} ry={6} />

@@ -52,4 +52,4 @@ export function ContextBlock({ ex }: { ex: RunExercise }) {
 }
 
 export const tileState = (locked: boolean, isAnswer: boolean, isChosen: boolean) =>
-  locked ? (isAnswer ? 'tile-ok' : isChosen ? 'tile-bad' : 'opacity-50') : isChosen ? 'tile-selected' : ''
+  locked ? (isAnswer ? 'tile-ok correct-pop' : isChosen ? 'tile-bad animate-shake' : 'opacity-50') : isChosen ? 'tile-selected' : ''

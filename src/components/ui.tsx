@@ -185,7 +185,7 @@ export function Section({ id, title, hint, accent = 'var(--brand)', defaultOpen 
 }) {
   const [open, setOpen] = useState(() => readOpen(id, defaultOpen))
   return (
-    <section className="mt-6">
+    <section className="rise mt-6">
       <button onClick={() => { setOpen(!open); saveOpen(id, !open) }} aria-expanded={open}
         className="flex w-full items-center gap-3 rounded-md py-1.5 text-left">
         <span className="h-7 w-1.5 shrink-0 rounded-sm" style={{ background: accent }} />
@@ -195,7 +195,18 @@ export function Section({ id, title, hint, accent = 'var(--brand)', defaultOpen 
         </span>
         <Icon name="down" size={20} className={`shrink-0 text-muted transition-transform ${open ? 'rotate-180' : ''}`} />
       </button>
-      {open && <div className="mt-2">{children}</div>}
+      <div className="collapse" data-open={open} inert={!open}>
+        <div><div className="pt-2">{children}</div></div>
+      </div>
     </section>
+  )
+}
+
+/** The app's wordmark: lowercase «ру» in the Russian serif with the book's dot. */
+export function Logo({ className = '' }: { className?: string }) {
+  return (
+    <span className={`ru font-bold tracking-tight ${className}`} aria-label="ру">
+      <span className="text-brand">ру</span><span className="text-brick">.</span>
+    </span>
   )
 }

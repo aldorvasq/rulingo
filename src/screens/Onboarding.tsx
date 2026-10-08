@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useStore } from '../state/store'
 import { lessons } from '../content'
 import { LessonSelect } from './Settings'
+import { Logo } from '../components/ui'
 
 export function Onboarding() {
   const update = useStore((s) => s.updateSettings)
@@ -15,7 +16,7 @@ export function Onboarding() {
     <div className="pt-safe pb-safe mx-auto flex min-h-full max-w-md flex-col px-6 py-10">
       {step === 0 && (
         <div className="flex flex-1 flex-col">
-          <h1 className="ru text-5xl font-bold"><span className="text-brand">Ру</span>Линго</h1>
+          <h1 className="rise"><Logo className="text-7xl" /></h1>
           <p className="mt-3 text-lg leading-relaxed text-ink/80">
             Repasa y refuerza lo que ves en clase con <span className="ru">«Точка Ру»</span>: vocabulario, gramática y las historias de cada lección.
           </p>

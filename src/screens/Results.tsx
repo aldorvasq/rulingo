@@ -1,3 +1,4 @@
+import { useEffect, useState, type ReactNode } from 'react'
 import { badgeById } from '../state/badges'
 import type { SessionSummary } from '../state/store'
 import type { SessionMode } from '../engine/session'
@@ -15,21 +16,21 @@ export function Results({ summary, mode, bestCombo }: { summary: SessionSummary;
   return (
     <div className="mx-auto flex min-h-full max-w-xl flex-col px-6 py-10">
       {(summary.perfect || summary.newBadges.length > 0) && <Confetti />}
-      <div className="label">Resultado</div>
-      <h1 className="mt-1 mb-6 text-3xl font-bold">{title}</h1>
+      <div className="label rise">Resultado</div>
+      <h1 className="rise mt-1 mb-6 text-3xl font-bold" style={{ animationDelay: '60ms' }}>{title}</h1>
 
-      <div className="mb-6 grid grid-cols-3 gap-2.5">
+      <div className="rise mb-6 grid grid-cols-3 gap-2.5" style={{ animationDelay: '140ms' }}>
         <Stat label="Aciertos" value={`${summary.correct}/${summary.total}`} />
         <Stat label="Precisión" value={`${accuracy}%`} />
-        <Stat label="XP" value={`+${summary.xp}`} />
+        <Stat label="XP" value={<>+<CountUp to={summary.xp} /></>} />
       </div>
       {bestCombo >= 5 && <p className="mb-4 text-sm text-muted">Mejor serie: {bestCombo} respuestas correctas seguidas.</p>}
 
       <FunFactCard />
 
       {summary.streakIncreased && (
-        <div className="card mb-3 flex items-center gap-3 p-4">
-          <Icon name="flame" size={28} className="text-brick" />
+        <div className="card rise mb-3 flex items-center gap-3 p-4" style={{ animationDelay: '350ms' }}>
+          <Icon name="flame" size={28} className="flicker text-brick" />
           <div>
             <div className="text-lg font-bold">Racha: {summary.streak} {summary.streak === 1 ? 'día' : 'días'}</div>
             <div className="text-sm text-muted">Hoy ya cuenta para tu racha.</div>
@@ -63,7 +64,25 @@ export function Results({ summary, mode, bestCombo }: { summary: SessionSummary;
   )
 }
 
-function Stat({ label, value }: { label: string; value: string }) {
+/** Number that counts up from 0 — a small reward beat on the results screen. */
+function CountUp({ to }: { to: number }) {
+  const [n, setN] = useState(0)
+  useEffect(() => {
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) { setN(to); return }
+    const t0 = performance.now()
+    let raf = 0
+    const step = (t: number) => {
+      const p = Math.min(1, (t - t0) / 900)
+      setN(Math.round(to * (1 - (1 - p) ** 3)))
+      if (p < 1) raf = requestAnimationFrame(step)
+    }
+    raf = requestAnimationFrame(step)
+    return () => cancelAnimationFrame(raf)
+  }, [to])
+  return <>{n}</>
+}
+
+function Stat({ label, value }: { label: string; value: ReactNode }) {
   return (
     <div className="card px-3 py-3">
       <div className="label">{label}</div>

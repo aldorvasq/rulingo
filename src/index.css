@@ -121,3 +121,42 @@ body {
 
 /* Path scenes are painted for the light theme; dim them at night. */
 :root[data-theme="dark"] .scene { filter: brightness(0.62) saturate(0.85); }
+
+/* ---------------------------------------------------------------- motion */
+@keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+.rise { animation: rise 0.45s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes slide-in { from { opacity: 0; transform: translateX(24px) } to { opacity: 1; transform: none } }
+.slide-in { animation: slide-in 0.3s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes spin { to { transform: rotate(360deg) } }
+.spin-slow { animation: spin 90s linear infinite; }
+.spin-slow-rev { animation: spin 120s linear infinite reverse; }
+@keyframes hero-in { from { opacity: 0; transform: translateY(14px) scale(0.97) } to { opacity: 1; transform: none } }
+.daily-hero { animation: hero-in 0.6s cubic-bezier(.2,.8,.2,1) both; }
+/* A gold glint sweeping once across the word of the day. */
+@keyframes shimmer { 0% { background-position: 100% 0 } 100% { background-position: 0 0 } }
+.shimmer-text {
+  /* Wide white gradient with one gold band; it ends fully white, so the word is always visible. */
+  background: linear-gradient(100deg, #fff 0%, #fff 42%, #f6d77f 50%, #fff 58%, #fff 100%) 100% 0 / 300% 100%;
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  animation: shimmer 2.4s 0.5s ease-out 1 both;
+}
+@keyframes pulse-dot { 0%, 100% { opacity: 1 } 50% { opacity: 0.25 } }
+.pulse-dot { animation: pulse-dot 1.2s ease-in-out infinite; }
+@keyframes ring { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--brand) 55%, transparent) } 100% { box-shadow: 0 0 0 14px transparent } }
+.ring-pulse { animation: ring 1.8s ease-out infinite; }
+@keyframes flicker { 0%, 100% { transform: scale(1) rotate(0) } 30% { transform: scale(1.12) rotate(-4deg) } 60% { transform: scale(0.96) rotate(3deg) } }
+.flicker { animation: flicker 1.6s ease-in-out infinite; transform-origin: 50% 90%; }
+@keyframes drift { from { transform: translateX(-12px) } to { transform: translateX(12px) } }
+.drift { animation: drift 9s ease-in-out infinite alternate; }
+@keyframes correct-pop { 0% { transform: scale(1) } 40% { transform: scale(1.05) } 100% { transform: scale(1) } }
+.correct-pop { animation: correct-pop 0.35s ease-out; }
+
+/* Collapsible sections: animate height via grid rows. */
+.collapse { display: grid; grid-template-rows: 1fr; transition: grid-template-rows 0.28s ease, opacity 0.28s ease; }
+.collapse[data-open="false"] { grid-template-rows: 0fr; opacity: 0; }
+.collapse > * { overflow: hidden; min-height: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .shimmer-text { color: #fff; background: none; }
+}

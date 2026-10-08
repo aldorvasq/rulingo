@@ -18,8 +18,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icon.svg', 'apple-touch-icon.png'],
       manifest: {
-        name: 'РуЛинго',
-        short_name: 'РуЛинго',
+        name: 'ру · práctica de ruso',
+        short_name: 'ру',
         description: 'Practica ruso con el contenido de Точка Ру A1',
         lang: 'es',
         theme_color: '#2f4a6d',

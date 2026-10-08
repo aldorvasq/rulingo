@@ -169,7 +169,7 @@ export function Player({ params }: { params: URLSearchParams }) {
       </div>
 
       <main className="flex-1 px-4 pb-44 pt-3">
-        <div className="mb-1 flex flex-wrap items-center gap-x-2 gap-y-1">
+        <div key={`h${pos}`} className="slide-in mb-1 flex flex-wrap items-center gap-x-2 gap-y-1">
           <span className="text-[15px]">
             <span className="text-muted">Repasando · </span>
             <TopicTitle title={mode.mode === 'topic' ? topicTitle(mode.topic) ?? exerciseTopic(ex) : exerciseTopic(ex)} />
@@ -181,14 +181,16 @@ export function Player({ params }: { params: URLSearchParams }) {
           <div className="mb-1 text-xs text-muted">Lección {lesson.id} · <span className="ru">{lesson.title}</span></div>
         )}
         <h2 className="mb-6 text-lg font-bold text-ink/80">{ex.instruction}</h2>
-        <Exercise key={ex.key + pos} ex={ex} locked={!!result} ready={ready} autoSubmit={apply} />
+        <div key={ex.key + pos} className="slide-in">
+          <Exercise ex={ex} locked={!!result} ready={ready} autoSubmit={apply} />
+        </div>
       </main>
 
       <div className={`pb-safe fixed inset-x-0 bottom-0 z-30 border-t ${result ? (result.correct ? 'border-ok/30 bg-ok-soft' : 'border-bad/30 bg-bad-soft') : 'border-line bg-bg'}`}>
         <div className="mx-auto max-w-xl px-4 pt-4">
           {result && (
             <div className="animate-slideup mb-3">
-              <div className={`text-lg font-bold ${result.correct ? 'text-ok' : 'text-bad'}`}>
+              <div className={`animate-pop text-lg font-bold ${result.correct ? 'text-ok' : 'text-bad'}`}>
                 {result.correct ? <span className={hasCyrillic(praise) ? 'ru' : ''}>{praise}</span> : 'Respuesta correcta:'}
               </div>
               {result.correctAnswer && (!result.correct || result.almost) && (
