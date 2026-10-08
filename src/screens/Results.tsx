@@ -3,6 +3,7 @@ import type { SessionSummary } from '../state/store'
 import type { SessionMode } from '../engine/session'
 import { navigate } from '../lib/router'
 import { Confetti, Icon } from '../components/ui'
+import { FunFactCard } from '../components/Culture'
 
 export function Results({ summary, mode, bestCombo }: { summary: SessionSummary; mode: SessionMode; bestCombo: number }) {
   const accuracy = summary.total ? Math.round((summary.correct / summary.total) * 100) : 0
@@ -23,6 +24,8 @@ export function Results({ summary, mode, bestCombo }: { summary: SessionSummary;
         <Stat label="XP" value={`+${summary.xp}`} />
       </div>
       {bestCombo >= 5 && <p className="mb-4 text-sm text-muted">Mejor serie: {bestCombo} respuestas correctas seguidas.</p>}
+
+      <FunFactCard />
 
       {summary.streakIncreased && (
         <div className="card mb-3 flex items-center gap-3 p-4">

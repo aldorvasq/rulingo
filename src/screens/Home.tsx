@@ -7,6 +7,7 @@ import { dayKey, daysBetween } from '../lib/date'
 import { navigate } from '../lib/router'
 import { Icon, ProgressBar, Section, TopicTitle } from '../components/ui'
 import { InstallBanner } from '../components/InstallPrompt'
+import { DailyCard } from '../components/Culture'
 import { exportProgress } from '../state/backup'
 import { TopicList } from '../components/TopicList'
 
@@ -82,6 +83,8 @@ export function Home() {
             </div>
           </div>
           </Section>
+
+          <DailyCard />
 
           {/* 2. Or a single topic */}
           <TopicList lessonId={lesson.id} />

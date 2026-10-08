@@ -3,11 +3,20 @@ const PUNCT = /[.,!?¿¡:;…—–\-"«»“”„'()]/g
 
 export const stripStress = (s: string) => s.replace(STRESS, '')
 
-/** Lowercase, drop stress marks and punctuation, ё→е, collapse spaces. */
+// Keys people use to "type" a stress mark: гро'мко, гро`мко, гро´мко.
+const TYPED_STRESS = /['`´ʹʼ’]/g
+// Latin letters that look identical to Cyrillic ones (phone keyboards switch mid-word).
+const LOOKALIKE: Record<string, string> = { a: 'а', e: 'е', o: 'о', p: 'р', c: 'с', x: 'х', y: 'у', k: 'к', m: 'м', t: 'т', b: 'в', h: 'н' }
+
+/** Lowercase, drop stress marks (real or typed) and punctuation, ё→е, fix look-alike Latin letters. */
 export function normalizeRu(s: string): string {
-  return stripStress(s.normalize('NFD').replace(/ё/g, 'ё').normalize('NFC'))
+  let out = stripStress(s.normalize('NFD').replace(/е\u0308/g, 'ё').normalize('NFC'))
     .toLowerCase()
     .replace(/ё/g, 'е')
+    .replace(TYPED_STRESS, '')
+  // Only inside words that are otherwise Cyrillic, so real Latin text is left alone.
+  out = out.replace(/[\p{L}]+/gu, (w) => (/[а-я]/.test(w) ? w.replace(/[aeopcxykmtbh]/g, (ch) => LOOKALIKE[ch]) : w))
+  return out
     .replace(PUNCT, ' ')
     .replace(/\s+/g, ' ')
     .trim()
