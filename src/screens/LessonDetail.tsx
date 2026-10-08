@@ -4,7 +4,7 @@ import { useStore } from '../state/store'
 import { lessonMastery } from '../state/mastery'
 import { mastery } from '../engine/srs'
 import { navigate } from '../lib/router'
-import { Header, Icon, Markdown, Mixed, ProgressBar } from '../components/ui'
+import { Header, Icon, Markdown, Mixed, ProgressBar, TopicTitle } from '../components/ui'
 import { TopicList } from '../components/TopicList'
 
 type Tab = 'grammar' | 'vocab' | 'phrases' | 'readings'
@@ -68,7 +68,6 @@ export function LessonDetail({ id }: { id: string }) {
 
         {!locked && (
           <>
-            <div className="label mt-7 mb-2">Repasar un tema</div>
             <TopicList lessonId={lesson.id} />
           </>
         )}
@@ -104,7 +103,7 @@ export function LessonDetail({ id }: { id: string }) {
           <div className="space-y-3">
             {lesson.grammar?.map((g) => (
               <section key={g.id} className="card space-y-3 p-4">
-                <h3 className="text-xl font-bold leading-snug"><Mixed text={g.title} /></h3>
+                <h3 className="text-xl leading-snug"><TopicTitle title={g.title} /></h3>
                 {g.explanationEs && <div className="text-[15px]"><Markdown text={g.explanationEs} /></div>}
                 {g.tables?.map((t, i) => (
                   <div key={i} className="overflow-x-auto">

@@ -1,11 +1,13 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { useStore } from '../state/store'
 import { lessonById, colorFor, lessonsUpTo, vocabById } from '../content'
 import { lessonTopics } from '../engine/topics'
 import { lessonMastery } from '../state/mastery'
 import { dayKey, daysBetween } from '../lib/date'
 import { navigate } from '../lib/router'
-import { Icon, Mixed, ProgressBar } from '../components/ui'
+import { Icon, ProgressBar, Section, TopicTitle } from '../components/ui'
+import { InstallBanner } from '../components/InstallPrompt'
+import { exportProgress } from '../state/backup'
 import { TopicList } from '../components/TopicList'
 
 export function StreakBadge() {
@@ -41,12 +43,13 @@ export function Home() {
         <div className="text-lg font-bold tracking-tight"><span className="ru text-brand">Ру</span><span className="ru">Линго</span></div>
         <StreakBadge />
       </div>
+      <InstallBanner />
 
       {lesson ? (
         <>
           {/* 1. Continue the lesson from class */}
-          <div className="label mt-2 mb-2">Continúa donde vas en clase</div>
-          <section className="card overflow-hidden">
+          <Section id="current" title="Continúa donde vas en clase" accent={colorFor(lesson.chapter).bg}>
+          <div className="card overflow-hidden">
             <div className="h-1.5" style={{ background: colorFor(lesson.chapter).bg }} />
             <div className="p-5">
               <div className="text-sm font-bold text-muted">Lección {lesson.id}</div>
@@ -58,7 +61,7 @@ export function Home() {
                 {topics.filter((t) => t.kind === 'grammar').map((t) => (
                   <li key={t.id} className="flex gap-2">
                     <span className="mt-[9px] h-1 w-1 shrink-0 bg-muted" />
-                    <span><Mixed text={t.title} /></span>
+                    <TopicTitle title={t.title} />
                   </li>
                 ))}
               </ul>
@@ -77,10 +80,10 @@ export function Home() {
                 <span className="tabular-nums">{Math.round(lessonMastery(lesson, progress) * 100)}%</span>
               </div>
             </div>
-          </section>
+          </div>
+          </Section>
 
           {/* 2. Or a single topic */}
-          <div className="label mt-7 mb-2">O repasa un solo tema</div>
           <TopicList lessonId={lesson.id} />
         </>
       ) : (
@@ -91,19 +94,20 @@ export function Home() {
       )}
 
       {/* 3. Review everything so far */}
-      <div className="label mt-7 mb-2">Repaso general</div>
-      <section className="card divide-y divide-line overflow-hidden">
+      <Section id="general" title="Repaso general" hint="Todo lo visto hasta ahora" accent="var(--brick)">
+      <div className="card divide-y divide-line overflow-hidden">
         <Row icon="repeat" title={`Lecciones vistas (${covered[0]?.id ?? ''}–${settings.coveredUpTo})`}
           desc={dueCount ? `${dueCount} elementos para repasar hoy` : 'Mezcla de todo lo visto, según lo que más necesitas'}
           onClick={() => navigate('/play?mode=review')} />
         <Row icon="target" title="Mis errores" desc={weakCount ? `${weakCount} elementos con errores recientes` : 'Aún no hay errores registrados'}
           onClick={() => navigate('/play?mode=weak')} />
         <Row icon="map" title="Otra lección" desc="Elige cualquier lección en la ruta" onClick={() => navigate('/path')} />
-      </section>
+      </div>
+      </Section>
 
       {/* 4. Extra: daily practice keeps the streak */}
-      <div className="label mt-7 mb-2">Extra</div>
-      <section className="card p-4">
+      <Section id="extra" title="Extra" hint="Práctica del día y racha" accent="var(--gold)">
+      <div className="card p-4">
         <div className="flex items-start gap-3">
           <Icon name="flame" size={24} className="mt-0.5 shrink-0 text-brick" />
           <div className="flex-1">
@@ -114,14 +118,30 @@ export function Home() {
         <button className="btn btn-ghost mt-3 w-full" onClick={() => navigate('/play?mode=daily')}>
           {dailyDone ? <><Icon name="check" size={18} className="text-ok" /> Hecha hoy · hacer otra</> : 'Hacer la práctica del día'}
         </button>
-      </section>
+      </div>
+      </Section>
 
       <p className="mt-4 text-center text-xs text-muted">{knownWords} palabras conocidas · {stats.sessions} repasos terminados</p>
 
-      {needsBackup && (
-        <button className="card mt-4 w-full p-4 text-left text-sm" onClick={() => navigate('/settings')}>
-          <span className="font-bold">Guarda un respaldo</span> de tu progreso en iCloud o Google Drive (Ajustes → Exportar).
-        </button>
+      <BackupNote highlight={needsBackup} />
+    </div>
+  )
+}
+
+/** Quiet, always-there note: progress lives on this phone; one tap exports it (Drive, iCloud…). */
+function BackupNote({ highlight }: { highlight: boolean }) {
+  const [msg, setMsg] = useState<string | null>(null)
+  return (
+    <div className={`mt-3 flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm text-muted ${highlight ? 'border-l-[3px] border-gold bg-card' : ''}`}>
+      <Icon name="cloud" size={20} className="shrink-0" />
+      <span className="flex-1">
+        {msg ?? <>Tu progreso se guarda en este teléfono. Puedes copiarlo a <b className="font-bold">Google Drive</b> o iCloud.</>}
+      </span>
+      {!msg && (
+        <button className="shrink-0 font-bold text-brand underline" onClick={async () => {
+          const r = await exportProgress()
+          if (r !== 'cancelled') setMsg('Respaldo guardado. Elige Google Drive o Archivos al compartir.')
+        }}>Exportar</button>
       )}
     </div>
   )

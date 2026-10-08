@@ -4,7 +4,7 @@ import { lessonTopics, topicMatches, type Topic } from '../engine/topics'
 import type { ItemState } from '../engine/srs'
 import { useStore } from '../state/store'
 import { navigate } from '../lib/router'
-import { Icon, Mixed, ProgressBar } from './ui'
+import { Icon, ProgressBar, Section, TopicTitle } from './ui'
 
 /** 0–1: how well the items behind a topic are known (unseen = 0). */
 export function topicMastery(lessonId: string, topicId: string, progress: Record<string, ItemState>): number {
@@ -26,7 +26,7 @@ export function TopicList({ lessonId, disabled = false }: { lessonId: string; di
         onClick={() => navigate(`/play?mode=topic&id=${lessonId}&topic=${encodeURIComponent(t.id)}`)}
         className="flex w-full items-center gap-3 px-4 py-3 text-left hover:bg-soft disabled:opacity-50">
         <div className="min-w-0 flex-1">
-          <div className="font-bold leading-snug"><Mixed text={t.title} ruClass="text-[1.06em]" /></div>
+          <div className="leading-snug"><TopicTitle title={t.title} /></div>
           {t.kind === 'skill' && <div className="text-sm text-muted">{t.desc}</div>}
           <div className="mt-1.5 flex items-center gap-2">
             <ProgressBar value={m} color="var(--gold)" className="!h-1.5 max-w-24" />
@@ -39,19 +39,17 @@ export function TopicList({ lessonId, disabled = false }: { lessonId: string; di
   }
 
   return (
-    <div className="space-y-3">
+    <>
       {grammar.length > 0 && (
-        <div className="card divide-y divide-line overflow-hidden">
-          <div className="label px-4 pt-3 pb-2">Gramática</div>
-          {grammar.map(row)}
-        </div>
+        <Section id="topics-grammar" title="Gramática" hint={`Repasa una regla de la lección ${lessonId}`} accent="var(--brand)">
+          <div className="card divide-y divide-line overflow-hidden">{grammar.map(row)}</div>
+        </Section>
       )}
       {skills.length > 0 && (
-        <div className="card divide-y divide-line overflow-hidden">
-          <div className="label px-4 pt-3 pb-2">Por tipo de ejercicio</div>
-          {skills.map(row)}
-        </div>
+        <Section id="topics-skills" title="Por tipo de ejercicio" hint="Antónimos, vocabulario, conjugación…" accent="#56704f">
+          <div className="card divide-y divide-line overflow-hidden">{skills.map(row)}</div>
+        </Section>
       )}
-    </div>
+    </>
   )
 }

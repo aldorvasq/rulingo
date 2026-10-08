@@ -3,7 +3,9 @@ import { useStore } from '../state/store'
 import { lessons, compareLessonIds } from '../content'
 import { exportProgress, readBackup } from '../state/backup'
 import { TRANSLIT_HELP } from '../lib/translit'
-import { Header } from '../components/ui'
+import { Header, Icon } from '../components/ui'
+import { useInstallAction } from '../components/InstallPrompt'
+import { isStandalone } from '../lib/install'
 
 function Toggle({ label, desc, value, onChange }: { label: string; desc?: string; value: boolean; onChange: (v: boolean) => void }) {
   return (
@@ -37,6 +39,7 @@ export function Settings() {
   const lastBackup = useStore((s) => s.lastBackup)
   const fileInput = useRef<HTMLInputElement>(null)
   const [msg, setMsg] = useState<string | null>(null)
+  const install = useInstallAction()
 
   const current = settings.focusLessons[0] ?? settings.coveredUpTo
   const setCurrent = (id: string) => update({
@@ -90,6 +93,18 @@ export function Settings() {
             <Toggle label="Transliteración (abc→абв)" desc={TRANSLIT_HELP} value={settings.translit} onChange={(v) => update({ translit: v })} />
           </div>
         </section>
+
+        {!isStandalone() && (
+          <section>
+            <div className="label mb-2">App</div>
+            <div className="card flex items-center gap-3 p-4">
+              <Icon name="install" size={24} className="shrink-0 text-brand" />
+              <div className="flex-1 text-sm"><div className="font-bold">Instalar en la pantalla de inicio</div><div className="text-muted">Abre como app y protege tu progreso.</div></div>
+              <button className="btn btn-primary shrink-0 !px-3 !py-2 text-sm" onClick={install.open}>Instalar</button>
+            </div>
+            {install.guide}
+          </section>
+        )}
 
         <section>
           <div className="label mb-2">Respaldo</div>

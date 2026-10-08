@@ -6,7 +6,7 @@ import { useStore, type SessionSummary } from '../state/store'
 import { dayKey } from '../lib/date'
 import { navigate } from '../lib/router'
 import { lessonById, grammarById } from '../content'
-import { Icon, Mixed, ProgressBar } from '../components/ui'
+import { Icon, Mixed, ProgressBar, TopicTitle } from '../components/ui'
 import { ChoiceEx } from '../exercises/ChoiceEx'
 import { TypedEx } from '../exercises/TypedEx'
 import { ConjugateEx } from '../exercises/ConjugateEx'
@@ -170,8 +170,9 @@ export function Player({ params }: { params: URLSearchParams }) {
 
       <main className="flex-1 px-4 pb-44 pt-3">
         <div className="mb-1 flex flex-wrap items-center gap-x-2 gap-y-1">
-          <span className="text-sm font-bold text-brand">
-            Repasando: <Mixed text={mode.mode === 'topic' ? topicTitle(mode.topic) ?? exerciseTopic(ex) : exerciseTopic(ex)} />
+          <span className="text-[15px]">
+            <span className="text-muted">Repasando · </span>
+            <TopicTitle title={mode.mode === 'topic' ? topicTitle(mode.topic) ?? exerciseTopic(ex) : exerciseTopic(ex)} />
           </span>
           {ex.sneak && <span className="rounded-sm bg-gold/15 px-1.5 py-0.5 text-xs font-bold text-gold">Palabra extra</span>}
           {isRetry && <span className="rounded-sm bg-brick/10 px-1.5 py-0.5 text-xs font-bold text-brick">Repaso de error</span>}

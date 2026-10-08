@@ -1,4 +1,4 @@
-import { Fragment, useMemo, type ReactNode } from 'react'
+import { Fragment, useMemo, useState, type ReactNode } from 'react'
 import { splitGap } from '../lib/text'
 
 export function ProgressBar({ value, color = 'var(--ok)', className = '' }: { value: number; color?: string; className?: string }) {
@@ -120,6 +120,11 @@ const ICONS: Record<string, string> = {
   lock: 'M6 11h12v10H6zm2 0V8a4 4 0 0 1 8 0v3',
   check: 'M5 12.5l4.5 4.5L19 7',
   star: 'M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9z',
+  cloud: 'M7 18a4 4 0 0 1-.6-7.96A6 6 0 0 1 18 9.5a4.25 4.25 0 0 1-.5 8.5z',
+  share: 'M12 3v12m0-12-4 4m4-4 4 4M5 11v9h14v-9',
+  plus: 'M4 4h16v16H4zM12 8v8M8 12h8',
+  install: 'M12 3v12m0 0-4-4m4 4 4-4M5 21h14',
+  down: 'M5 9l7 7 7-7',
 }
 
 export function Icon({ name, size = 22, className = '' }: { name: keyof typeof ICONS | string; size?: number; className?: string }) {
@@ -138,5 +143,59 @@ export function Mixed({ text, ruClass = '' }: { text: string; ruClass?: string }
     <>
       {parts.map((p, i) => (i % 2 ? <span key={i} className={`ru ${ruClass}`}>{p}</span> : <Fragment key={i}>{p}</Fragment>))}
     </>
+  )
+}
+
+/**
+ * Topic titles like "Adjetivos: terminaciones (¿Какой?…)": the part before the colon is what gets
+ * practised, so it's set bold in the brand colour; the detail after it stays quieter.
+ */
+export function TopicTitle({ title, className = '' }: { title: string; className?: string }) {
+  const m = title.match(/^([^:]{2,60}):\s+(.+)$/)
+  const head = m ? m[1] : title
+  return (
+    <span className={className}>
+      <span className="font-bold text-brand"><Mixed text={head} ruClass="text-[1.06em]" /></span>
+      {m && <span className="font-normal text-ink/75">: <Mixed text={m[2]} ruClass="text-[1.04em]" /></span>}
+    </span>
+  )
+}
+
+function readOpen(id: string, fallback: boolean): boolean {
+  try {
+    const v = JSON.parse(localStorage.getItem('rulingo-ui-sections') ?? '{}')[id]
+    return typeof v === 'boolean' ? v : fallback
+  } catch {
+    return fallback
+  }
+}
+
+function saveOpen(id: string, open: boolean) {
+  try {
+    const all = JSON.parse(localStorage.getItem('rulingo-ui-sections') ?? '{}')
+    localStorage.setItem('rulingo-ui-sections', JSON.stringify({ ...all, [id]: open }))
+  } catch {
+    /* UI preference only */
+  }
+}
+
+/** Collapsible section with a coloured accent; open/closed is remembered per device. */
+export function Section({ id, title, hint, accent = 'var(--brand)', defaultOpen = true, children }: {
+  id: string; title: ReactNode; hint?: ReactNode; accent?: string; defaultOpen?: boolean; children: ReactNode
+}) {
+  const [open, setOpen] = useState(() => readOpen(id, defaultOpen))
+  return (
+    <section className="mt-6">
+      <button onClick={() => { setOpen(!open); saveOpen(id, !open) }} aria-expanded={open}
+        className="flex w-full items-center gap-3 rounded-md py-1.5 text-left">
+        <span className="h-7 w-1.5 shrink-0 rounded-sm" style={{ background: accent }} />
+        <span className="min-w-0 flex-1">
+          <span className="block text-xl font-bold leading-tight">{title}</span>
+          {hint && <span className="block text-sm text-muted">{hint}</span>}
+        </span>
+        <Icon name="down" size={20} className={`shrink-0 text-muted transition-transform ${open ? 'rotate-180' : ''}`} />
+      </button>
+      {open && <div className="mt-2">{children}</div>}
+    </section>
   )
 }
