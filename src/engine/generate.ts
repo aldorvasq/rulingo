@@ -286,7 +286,7 @@ function lessonLevel(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
         make: () => {
           const order = shuffle(q.choices.map((_, j) => j))
           return { key: `${id}-${rnd()}`, items, lessonId: lesson.id, skill: 'listening', kind: 'choice',
-            instruction: q.q, listen: { id: li.id, title: li.title, lines: li.lines, es: li.es },
+            instruction: q.q, listen: { id: li.id, title: li.title, lines: li.lines, es: li.es, cast: li.cast },
             promptLang: 'ru', choices: order.map((j) => q.choices[j]), choiceLang: q.choices.some((c) => /[а-яё]/i.test(c)) ? 'ru' : 'es',
             answer: order.indexOf(q.answer), translation: li.es }
         } })

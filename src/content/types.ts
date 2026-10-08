@@ -67,10 +67,23 @@ export type ContentExercise = ExBase & (
 
 export interface ListeningLine { speaker?: string; gender?: 'f' | 'm'; ru: string }
 
+export interface CastMember {
+  name: string
+  gender: 'f' | 'm'
+  age?: 'child' | 'young' | 'adult' | 'old'
+  skin?: 'light' | 'medium' | 'dark'
+  hair?: 'black' | 'brown' | 'blond' | 'red' | 'gray' | 'none'
+  hairStyle?: 'short' | 'long' | 'bun' | 'curly' | 'ponytail' | 'bald'
+  glasses?: boolean
+  beard?: boolean
+  top?: 'blue' | 'red' | 'green' | 'ochre' | 'gray' | 'teal'
+}
+
 export interface Listening {
   id: string
   title: string
   kind: 'dialogue' | 'story'
+  cast?: CastMember[]
   lines: ListeningLine[]
   es?: string
   questions: { q: string; choices: string[]; answer: number }[]

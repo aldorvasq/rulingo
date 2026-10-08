@@ -138,6 +138,13 @@ Original audio pieces for the listening section, merged into lessons like any ex
         { "speaker": "Ма́ша", "gender": "f", "ru": "Здра́вствуйте! Я ва́ша сосе́дка." },
         { "speaker": "Сосе́д", "gender": "m", "ru": "Приве́т! Как дела́?" }
       ],                                      // stories: one narrator, same speaker/gender on every line
+      "cast": [                               // who appears; drives the character drawings
+        { "name": "Ма́ша", "gender": "f", "age": "young", "skin": "light", "hair": "brown",
+          "hairStyle": "ponytail", "glasses": false, "beard": false, "top": "blue" }
+      ],                                      // name must match `speaker` in lines (stories: the narrator)
+      // age: child | young | adult | old · skin: light | medium | dark
+      // hair: black | brown | blond | red | gray | none · hairStyle: short | long | bun | curly | ponytail | bald
+      // top (clothing colour): blue | red | green | ochre | gray | teal
       "es": "Full Spanish translation, one line per Russian line.",
       "questions": [                          // 3–4 comprehension questions, answerable only by listening
         { "q": "¿Qué le molesta a Masha?", "choices": ["La música fuerte", "El perro", "El coche"], "answer": 0 }

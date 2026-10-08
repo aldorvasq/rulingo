@@ -60,6 +60,41 @@
               "ru": "То́же хорошо́, спаси́бо."
             }
           ],
+          "cast": [
+            {
+              "name": "Стюарде́сса",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "bun",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Жан",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": true,
+              "top": "red"
+            },
+            {
+              "name": "Джова́нни",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "green"
+            }
+          ],
           "es": "¡Hola! ¿Café o té?\nVino, por favor.\nAquí tiene. ¿Y para usted?\nCafé, por favor. Y un jugo.\nAquí está el café y el jugo.\n¡Gracias! Me llamo Giovanni. ¿Y tú?\nMe llamo Jean. ¡Mucho gusto!\n¡Mucho gusto! ¿Qué tal?\n¡Excelente! ¿Y tú?\nTambién bien, gracias.",
           "questions": [
             {
@@ -132,6 +167,19 @@
               "ru": "Пока́! До встре́чи!"
             }
           ],
+          "cast": [
+            {
+              "name": "Кла́ус",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "gray"
+            }
+          ],
           "es": "¡Hola! Me llamo Klaus.\nAquí está el mapa. Es Moscú, no París.\n¿Qué es esto? Es el metro. Y esto es un estadio y un circo.\n¿Quién es? ¿Es una mamá? No, no es una mamá. Es un chef.\nAquí está el restaurante. Sopa, pastel y té, por favor.\n¡Gracias! ¡Está muy bien!\n¡Adiós! ¡Nos vemos!",
           "questions": [
             {
@@ -158,6 +206,497 @@
                 "Sopa, pastel y té",
                 "Sopa y cerveza",
                 "Pastel y vino"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "1.1-l-3",
+          "title": "En el restaurante",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Приве́т! Суп?"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Да, суп, пожа́луйста."
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Ко́фе и́ли чай?"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Чай, пожа́луйста. И торт."
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Вот, пожа́луйста. А вам?"
+            },
+            {
+              "speaker": "Ма́рко",
+              "gender": "m",
+              "ru": "Вино́, пожа́луйста. И суп."
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Вот вино́ и суп."
+            },
+            {
+              "speaker": "Ма́рко",
+              "gender": "m",
+              "ru": "Что э́то? Э́то суп?"
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Да, э́то суп. Тома́т и лимо́н."
+            },
+            {
+              "speaker": "Ма́рко",
+              "gender": "m",
+              "ru": "О́чень хорошо́! Спаси́бо, Ли́за!"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Спаси́бо! Пока́!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Официа́нт",
+              "gender": "m",
+              "age": "young",
+              "skin": "dark",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "gray"
+            },
+            {
+              "name": "Ли́за",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "green"
+            },
+            {
+              "name": "Ма́рко",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "brown",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": true,
+              "top": "blue"
+            }
+          ],
+          "es": "¡Hola! ¿Sopa?\nSí, sopa, por favor.\n¿Café o té?\nTé, por favor. Y un pastel.\nAquí tiene. ¿Y para usted?\nVino, por favor. Y sopa.\nAquí está el vino y la sopa.\n¿Qué es esto? ¿Es sopa?\nSí, es sopa. Tomate y limón.\n¡Muy bien! ¡Gracias, Liza!\n¡Gracias! ¡Adiós!",
+          "questions": [
+            {
+              "q": "¿Qué toma Liza?",
+              "choices": [
+                "Té",
+                "Café",
+                "Jugo"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué pide Marco para beber?",
+              "choices": [
+                "Cerveza",
+                "Agua",
+                "Vino"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿De qué es la sopa?",
+              "choices": [
+                "Plátano y limón",
+                "Tomate y limón",
+                "Tomate y rosa"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "1.1-l-4",
+          "title": "Mensaje de voz de Nina",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Приве́т, ма́ма! Э́то Ни́на."
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Как дела́? У меня́ отли́чно!"
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Экза́мен? Да, э́то хорошо́."
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Вот Москва́: метро́, парк, стадио́н и цирк."
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Вот рестора́н. Суп, торт и ко́фе — о́чень хорошо́!"
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Шампа́нское и́ли вино́? Нет, спаси́бо. Чай и сок."
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "А кто э́то? Э́то не шеф, э́то кот!"
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Пока́, ма́ма! До встре́чи!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ни́на",
+              "gender": "f",
+              "age": "young",
+              "skin": "dark",
+              "hair": "black",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": false,
+              "top": "ochre"
+            }
+          ],
+          "es": "¡Hola, mamá! Soy Nina.\n¿Cómo estás? ¡Yo, excelente!\n¿El examen? Sí, salió bien.\nAquí está Moscú: el metro, un parque, un estadio y un circo.\nAquí hay un restaurante. Sopa, pastel y café: ¡muy bien!\n¿Champán o vino? No, gracias. Té y jugo.\n¿Y quién es este? ¡No es el chef, es un gato!\n¡Adiós, mamá! ¡Nos vemos!",
+          "questions": [
+            {
+              "q": "¿A quién le deja el mensaje Nina?",
+              "choices": [
+                "A un chef",
+                "A su mamá",
+                "A Liza"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Cómo está Nina?",
+              "choices": [
+                "Excelente",
+                "Mal",
+                "Más o menos"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué toma Nina?",
+              "choices": [
+                "Champán",
+                "Vino",
+                "Té y jugo"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Quién aparece al final?",
+              "choices": [
+                "Un gato",
+                "Un chef",
+                "Una mamá"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "1.1-l-5",
+          "title": "Concurso en la radio",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Приве́т! Э́то ра́дио «Раке́та». Меня́ зову́т Макс."
+            },
+            {
+              "speaker": "О́ля",
+              "gender": "f",
+              "ru": "Приве́т! Меня́ зову́т О́ля."
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "О́чень прия́тно, О́ля! Как дела́?"
+            },
+            {
+              "speaker": "О́ля",
+              "gender": "f",
+              "ru": "Спаси́бо, норма́льно. А у тебя́?"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "То́же хорошо́. Вот экза́мен! Что э́то? Гита́ра и́ли ра́дио?"
+            },
+            {
+              "speaker": "О́ля",
+              "gender": "f",
+              "ru": "Э́то гита́ра!"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Да! Отли́чно! А кто э́то? Шеф и́ли актёр?"
+            },
+            {
+              "speaker": "О́ля",
+              "gender": "f",
+              "ru": "Э́то актёр!"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Нет, э́то не актёр. Э́то шеф!"
+            },
+            {
+              "speaker": "О́ля",
+              "gender": "f",
+              "ru": "Пло́хо!"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Норма́льно, О́ля! Вот торт и шампа́нское!"
+            },
+            {
+              "speaker": "О́ля",
+              "gender": "f",
+              "ru": "Спаси́бо! Пока́!"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "До встре́чи!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Макс",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "none",
+              "hairStyle": "bald",
+              "glasses": false,
+              "beard": true,
+              "top": "teal"
+            },
+            {
+              "name": "О́ля",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "ponytail",
+              "glasses": true,
+              "beard": false,
+              "top": "red"
+            }
+          ],
+          "es": "¡Hola! Esta es la radio «Raketa». Me llamo Max.\n¡Hola! Me llamo Olia.\n¡Mucho gusto, Olia! ¿Qué tal?\nGracias, normal. ¿Y tú?\nTambién bien. ¡Aquí va el examen! ¿Qué es esto? ¿Una guitarra o un radio?\n¡Es una guitarra!\n¡Sí! ¡Excelente! ¿Y quién es? ¿Un chef o un actor?\n¡Es un actor!\nNo, no es un actor. ¡Es un chef!\n¡Qué mal!\n¡No pasa nada, Olia! ¡Aquí tienes un pastel y champán!\n¡Gracias! ¡Adiós!\n¡Nos vemos!",
+          "questions": [
+            {
+              "q": "¿Cómo se llama la radio?",
+              "choices": [
+                "«Rosa»",
+                "«Raketa»",
+                "«Yate»"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué es el primer sonido?",
+              "choices": [
+                "Una guitarra",
+                "Un radio",
+                "Un gato"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Quién es la segunda persona, en realidad?",
+              "choices": [
+                "Un actor",
+                "Una mamá",
+                "Un chef"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué recibe Olia al final?",
+              "choices": [
+                "Vino y jugo",
+                "Pastel y champán",
+                "Café y té"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "1.1-l-6",
+          "title": "En el parque",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Приве́т! Как тебя́ зову́т?"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Приве́т! Меня́ зову́т Ка́тя. А тебя́?"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Меня́ зову́т Ива́н. О́чень прия́тно!"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "О́чень прия́тно! Что э́то? Э́то гита́ра?"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Нет, э́то не гита́ра. Э́то ра́дио."
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "А кто э́то? Э́то ма́ма?"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Да, э́то ма́ма. А вот кот!"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "О, кот! Э́то о́чень хорошо́!"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Бана́н и́ли торт?"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Бана́н, пожа́луйста. Спаси́бо!"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Пока́, Ка́тя!"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Пока́! До встре́чи!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ива́н",
+              "gender": "m",
+              "age": "child",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "ochre"
+            },
+            {
+              "name": "Ка́тя",
+              "gender": "f",
+              "age": "child",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "¡Hola! ¿Cómo te llamas?\n¡Hola! Me llamo Katia. ¿Y tú?\nMe llamo Iván. ¡Mucho gusto!\n¡Mucho gusto! ¿Qué es esto? ¿Es una guitarra?\nNo, no es una guitarra. Es un radio.\n¿Y quién es ella? ¿Es tu mamá?\nSí, es mamá. ¡Y aquí está el gato!\n¡Oh, un gato! ¡Qué bien!\n¿Plátano o pastel?\nPlátano, por favor. ¡Gracias!\n¡Adiós, Katia!\n¡Adiós! ¡Nos vemos!",
+          "questions": [
+            {
+              "q": "¿Qué tiene Iván?",
+              "choices": [
+                "Una guitarra",
+                "Un radio",
+                "Una revista"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Quién está con ellos?",
+              "choices": [
+                "La mamá",
+                "Un chef",
+                "Un actor"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué animal aparece?",
+              "choices": [
+                "Un perro",
+                "Un pájaro",
+                "Un gato"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué elige Katia?",
+              "choices": [
+                "Plátano",
+                "Pastel",
+                "Café"
               ],
               "answer": 0
             }
@@ -222,6 +761,41 @@
               "speaker": "Ван Ли",
               "gender": "m",
               "ru": "До свида́ния!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Офице́р",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "bun",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Кла́ус",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "gray"
+            },
+            {
+              "name": "Ван Ли",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "ochre"
             }
           ],
           "es": "¡Buenas tardes! Pasaporte, por favor.\n¡Buenas tardes! Aquí tiene.\n¿Cómo se llama? ¿De dónde es usted?\nMe llamo Klaus Fischer. Soy de Alemania. Soy alemán.\n¿Habla usted ruso?\nSí, un poco.\nBien. ¿Y usted? ¿De dónde es?\nSoy Van Li. Soy de China. Hablo ruso un poquito.\nGracias. ¡Hasta luego!\n¡Hasta luego!",
@@ -296,6 +870,19 @@
               "ru": "Мы тури́сты. Приве́т, Росси́я! До́брое у́тро, Москва́!"
             }
           ],
+          "cast": [
+            {
+              "name": "А́на",
+              "gender": "f",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            }
+          ],
           "es": "¡Hola! Me llamo Ana.\nSoy de México. Soy mexicana.\nHablo bien español e inglés.\nRuso hablo un poco.\nAquí está Marco. Es de Argentina. Es argentino.\nÉl también habla español, pero inglés no habla.\nSomos turistas. ¡Hola, Rusia! ¡Buenos días, Moscú!",
           "questions": [
             {
@@ -333,6 +920,480 @@
                 "Italiano"
               ],
               "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "1.2-l-3",
+          "title": "Entrevista en la calle",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "До́брый день! Как Вас зову́т?"
+            },
+            {
+              "speaker": "Джон",
+              "gender": "m",
+              "ru": "Здра́вствуйте! Меня́ зову́т Джон."
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "О́чень прия́тно! Отку́да Вы, Джон? Вы америка́нец?"
+            },
+            {
+              "speaker": "Джон",
+              "gender": "m",
+              "ru": "Нет, я не америка́нец. Я кана́дец. Я из Кана́ды."
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Вы говори́те по-францу́зски?"
+            },
+            {
+              "speaker": "Джон",
+              "gender": "m",
+              "ru": "Да, я говорю́ по-францу́зски и по-англи́йски."
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "А по-ру́сски?"
+            },
+            {
+              "speaker": "Джон",
+              "gender": "m",
+              "ru": "По-ру́сски я говорю́ пло́хо. Чуть-чуть."
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Нет, Вы о́чень хорошо́ говори́те по-ру́сски! А кто э́то?"
+            },
+            {
+              "speaker": "Джон",
+              "gender": "m",
+              "ru": "Э́то Мари́. Она́ то́же из Кана́ды. Она́ кана́дка. Мы тури́сты."
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Спаси́бо! До свида́ния!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ната́ша",
+              "gender": "f",
+              "age": "adult",
+              "skin": "medium",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Джон",
+              "gender": "m",
+              "age": "adult",
+              "skin": "dark",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "red"
+            }
+          ],
+          "es": "¡Buenas tardes! ¿Cómo se llama?\n¡Buenas tardes! Me llamo John.\n¡Mucho gusto! ¿De dónde es usted, John? ¿Es estadounidense?\nNo, no soy estadounidense. Soy canadiense. Soy de Canadá.\n¿Habla usted francés?\nSí, hablo francés e inglés.\n¿Y ruso?\nRuso lo hablo mal. Un poquito.\n¡No, usted habla ruso muy bien! ¿Y quién es ella?\nEs Marie. Ella también es de Canadá. Es canadiense. Somos turistas.\n¡Gracias! ¡Hasta luego!",
+          "questions": [
+            {
+              "q": "¿De dónde es John?",
+              "choices": [
+                "Estados Unidos",
+                "Canadá",
+                "Inglaterra"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué idiomas habla John?",
+              "choices": [
+                "Francés e inglés",
+                "Inglés y español",
+                "Solo inglés"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué opina Natasha de su ruso?",
+              "choices": [
+                "Que lo habla mal",
+                "Que no habla nada",
+                "Que lo habla muy bien"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Quién es Marie?",
+              "choices": [
+                "Su mamá",
+                "Una turista canadiense",
+                "Una periodista rusa"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "1.2-l-4",
+          "title": "Llamada de Ana",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ма́рко",
+              "gender": "m",
+              "ru": "Да?"
+            },
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "До́брое у́тро, Ма́рко! Э́то А́на. Как дела́?"
+            },
+            {
+              "speaker": "Ма́рко",
+              "gender": "m",
+              "ru": "Приве́т, А́на! Всё отли́чно. А у тебя́?"
+            },
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "То́же хорошо́. Ма́рко, вот Карме́н. Она́ испа́нка. Она́ из Испа́нии."
+            },
+            {
+              "speaker": "Ма́рко",
+              "gender": "m",
+              "ru": "О, Карме́н! Она́ говори́т по-англи́йски?"
+            },
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "Нет. Она́ говори́т по-испа́нски и по-италья́нски."
+            },
+            {
+              "speaker": "Ма́рко",
+              "gender": "m",
+              "ru": "Хорошо́! А по-ру́сски?"
+            },
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "По-ру́сски она́ говори́т о́чень хорошо́!"
+            },
+            {
+              "speaker": "Ма́рко",
+              "gender": "m",
+              "ru": "А мы говори́м по-ру́сски чуть-чуть."
+            },
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "Да, немно́го. Ну, пока́, Ма́рко! До встре́чи!"
+            },
+            {
+              "speaker": "Ма́рко",
+              "gender": "m",
+              "ru": "До встре́чи, А́на!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ма́рко",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "brown",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": true,
+              "top": "blue"
+            },
+            {
+              "name": "А́на",
+              "gender": "f",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            }
+          ],
+          "es": "¿Bueno?\n¡Buenos días, Marco! Soy Ana. ¿Cómo estás?\n¡Hola, Ana! Todo excelente. ¿Y tú?\nTambién bien. Marco, aquí está Carmen. Es española. Es de España.\n¡Oh, Carmen! ¿Habla inglés?\nNo. Habla español e italiano.\n¡Bien! ¿Y ruso?\n¡Ruso lo habla muy bien!\nY nosotros hablamos ruso un poquito.\nSí, un poco. Bueno, ¡adiós, Marco! ¡Nos vemos!\n¡Nos vemos, Ana!",
+          "questions": [
+            {
+              "q": "¿Cómo está Marco?",
+              "choices": [
+                "Mal",
+                "Excelente",
+                "Más o menos"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿De dónde es Carmen?",
+              "choices": [
+                "Italia",
+                "México",
+                "España"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué idiomas habla Carmen además del ruso?",
+              "choices": [
+                "Español e italiano",
+                "Español e inglés",
+                "Inglés e italiano"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué tan bien habla ruso Carmen?",
+              "choices": [
+                "Un poquito",
+                "Muy bien",
+                "Mal"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "1.2-l-5",
+          "title": "El diario de Van Li",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Ван Ли",
+              "gender": "m",
+              "ru": "До́брый ве́чер! Я Ван Ли. Я кита́ец, я из Кита́я."
+            },
+            {
+              "speaker": "Ван Ли",
+              "gender": "m",
+              "ru": "Я тури́ст. Э́то Росси́я!"
+            },
+            {
+              "speaker": "Ван Ли",
+              "gender": "m",
+              "ru": "Вот Джова́нни. Он италья́нец. Он говори́т по-италья́нски и по-англи́йски."
+            },
+            {
+              "speaker": "Ван Ли",
+              "gender": "m",
+              "ru": "А э́то Жан. Он францу́з. Он говори́т по-францу́зски."
+            },
+            {
+              "speaker": "Ван Ли",
+              "gender": "m",
+              "ru": "Я не говорю́ по-италья́нски и не говорю́ по-францу́зски."
+            },
+            {
+              "speaker": "Ван Ли",
+              "gender": "m",
+              "ru": "Я говорю́ по-кита́йски и немно́го по-ру́сски."
+            },
+            {
+              "speaker": "Ван Ли",
+              "gender": "m",
+              "ru": "Мы говори́м по-ру́сски чуть-чуть, а э́то хорошо́!"
+            },
+            {
+              "speaker": "Ван Ли",
+              "gender": "m",
+              "ru": "Всё отли́чно! Пока́!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ван Ли",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "ochre"
+            }
+          ],
+          "es": "¡Buenas noches! Soy Van Li. Soy chino, soy de China.\nSoy turista. ¡Esto es Rusia!\nAquí está Giovanni. Es italiano. Habla italiano e inglés.\nY este es Jean. Es francés. Habla francés.\nYo no hablo italiano y no hablo francés.\nHablo chino y un poco de ruso.\nHablamos ruso un poquito, ¡y eso está bien!\n¡Todo excelente! ¡Adiós!",
+          "questions": [
+            {
+              "q": "¿De dónde es Van Li?",
+              "choices": [
+                "Japón",
+                "China",
+                "Corea"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿De dónde es Giovanni?",
+              "choices": [
+                "Italia",
+                "Francia",
+                "Alemania"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué idioma habla Jean?",
+              "choices": [
+                "Inglés",
+                "Italiano",
+                "Francés"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué idiomas habla Van Li?",
+              "choices": [
+                "Inglés y francés",
+                "Chino y un poco de ruso",
+                "Italiano y ruso"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "1.2-l-6",
+          "title": "En el mercado",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "До́брый день!"
+            },
+            {
+              "speaker": "Джова́нни",
+              "gender": "m",
+              "ru": "Здра́вствуйте! Абрико́с, пожа́луйста. Килогра́мм."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "Вот, пожа́луйста. Анана́с?"
+            },
+            {
+              "speaker": "Джова́нни",
+              "gender": "m",
+              "ru": "Нет, спаси́бо. Бана́н и лимо́н, пожа́луйста."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "Вот бана́н и лимо́н. Вы тури́ст? Отку́да Вы?"
+            },
+            {
+              "speaker": "Джова́нни",
+              "gender": "m",
+              "ru": "Я из Ита́лии. Я италья́нец. Меня́ зову́т Джова́нни."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "О́чень прия́тно! Вы о́чень хорошо́ говори́те по-ру́сски!"
+            },
+            {
+              "speaker": "Джова́нни",
+              "gender": "m",
+              "ru": "Спаси́бо! Я говорю́ немно́го."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "А я говорю́ по-италья́нски чуть-чуть: «Ча́о!»"
+            },
+            {
+              "speaker": "Джова́нни",
+              "gender": "m",
+              "ru": "Отли́чно! До свида́ния!"
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "До свида́ния! Всё хорошо́!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ве́ра",
+              "gender": "f",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "ochre"
+            },
+            {
+              "name": "Джова́нни",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "¡Buenas tardes!\n¡Buenas tardes! Chabacano, por favor. Un kilo.\nAquí tiene. ¿Piña?\nNo, gracias. Plátano y limón, por favor.\nAquí tiene el plátano y el limón. ¿Es usted turista? ¿De dónde es?\nSoy de Italia. Soy italiano. Me llamo Giovanni.\n¡Mucho gusto! ¡Usted habla ruso muy bien!\n¡Gracias! Hablo un poco.\nY yo hablo italiano un poquito: «¡Chao!»\n¡Excelente! ¡Hasta luego!\n¡Hasta luego! ¡Todo bien!",
+          "questions": [
+            {
+              "q": "¿Cuánto chabacano pide Giovanni?",
+              "choices": [
+                "Un kilo",
+                "Dos kilos",
+                "Medio kilo"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué NO compra Giovanni?",
+              "choices": [
+                "Plátano",
+                "Piña",
+                "Limón"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué dice Vera del ruso de Giovanni?",
+              "choices": [
+                "Que habla mal",
+                "Que no entiende",
+                "Que lo habla muy bien"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué idioma habla Vera un poquito?",
+              "choices": [
+                "Italiano",
+                "Inglés",
+                "Español"
+              ],
+              "answer": 0
             }
           ]
         }
@@ -395,6 +1456,41 @@
               "speaker": "Кла́ус",
               "gender": "m",
               "ru": "Да, спаси́бо!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Кла́ус",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "gray"
+            },
+            {
+              "name": "Ли́за",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "green"
+            },
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
             }
           ],
           "es": "Disculpe, por favor, ¿dónde está el metro?\n¿El metro? Ahí está, a la derecha.\n¡Gracias! ¿Y dónde hay una farmacia por aquí?\n¿La farmacia? Ahí está, a la izquierda. Y el banco está en el centro.\n¡Gracias! ¿Cómo te llamas?\nMe llamo Liza. Y ella es Masha.\n¡Hola! ¿Y tú cómo te llamas?\nMe llamo Klaus. Soy turista. Soy de Alemania.\n¡Mucho gusto! Aquí hay un café. ¿Un café?\n¡Sí, gracias!",
@@ -478,6 +1574,19 @@
               "ru": "Па́па, ма́ма и я: оди́н, два, три!"
             }
           ],
+          "cast": [
+            {
+              "name": "Ива́н",
+              "gender": "m",
+              "age": "child",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "ochre"
+            }
+          ],
           "es": "¡Hola! Me llamo Iván. Aquí está la ciudad de Moscú.\nAquí en el centro hay un teatro y un museo.\nA la izquierda está correos, y a la derecha, la panadería.\n¿Dónde está el zoológico? Ahí está, a la izquierda.\n¿Y quién es él? Es papá. Se llama Serguéi.\n¿Por qué está aquí? Porque aquí hay un café.\nPapá, mamá y yo: ¡uno, dos, tres!",
           "questions": [
             {
@@ -515,6 +1624,445 @@
                 "Porque ahí hay un café"
               ],
               "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "1.3-l-3",
+          "title": "Anuncio en la estación",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Дикто́р",
+              "gender": "f",
+              "ru": "До́брый день! Э́то вокза́л."
+            },
+            {
+              "speaker": "Дикто́р",
+              "gender": "f",
+              "ru": "Извини́те, пожа́луйста! Па́па и ма́ма, где вы?"
+            },
+            {
+              "speaker": "Дикто́р",
+              "gender": "f",
+              "ru": "Здесь Ива́н. Его́ па́па — Серге́й."
+            },
+            {
+              "speaker": "Дикто́р",
+              "gender": "f",
+              "ru": "Ива́н здесь, в це́нтре. Вот кафе́ «Ро́за»."
+            },
+            {
+              "speaker": "Дикто́р",
+              "gender": "f",
+              "ru": "Кафе́ сле́ва, а апте́ка спра́ва."
+            },
+            {
+              "speaker": "Дикто́р",
+              "gender": "f",
+              "ru": "Ива́н говори́т: «Ма́ма, па́па, я здесь! Всё хорошо́!»"
+            },
+            {
+              "speaker": "Дикто́р",
+              "gender": "f",
+              "ru": "Где метро́? Метро́ спра́ва. Банк и по́чта в це́нтре."
+            },
+            {
+              "speaker": "Дикто́р",
+              "gender": "f",
+              "ru": "Спаси́бо! До свида́ния!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Дикто́р",
+              "gender": "f",
+              "age": "adult",
+              "skin": "dark",
+              "hair": "black",
+              "hairStyle": "bun",
+              "glasses": false,
+              "beard": false,
+              "top": "gray"
+            }
+          ],
+          "es": "¡Buenas tardes! Esta es la estación de tren.\n¡Disculpen, por favor! Papá y mamá, ¿dónde están?\nAquí está Iván. Su papá es Serguéi.\nIván está aquí, en el centro. Aquí está el café «Rosa».\nEl café está a la izquierda, y la farmacia, a la derecha.\nIván dice: «¡Mamá, papá, estoy aquí! ¡Todo bien!»\n¿Dónde está el metro? El metro está a la derecha. El banco y correos están en el centro.\n¡Gracias! ¡Hasta luego!",
+          "questions": [
+            {
+              "q": "¿Dónde se oye el anuncio?",
+              "choices": [
+                "En el aeropuerto",
+                "En la estación de tren",
+                "En la escuela"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Cómo se llama el papá del niño?",
+              "choices": [
+                "Iván",
+                "Klaus",
+                "Serguéi"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Dónde está la farmacia?",
+              "choices": [
+                "A la derecha",
+                "A la izquierda",
+                "En el centro"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Dónde está el metro?",
+              "choices": [
+                "A la izquierda",
+                "En el centro",
+                "A la derecha"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "1.3-l-4",
+          "title": "¿Dónde está el hotel?",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Кла́ус",
+              "gender": "m",
+              "ru": "Приве́т, Ма́ша! Э́то Кла́ус."
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Приве́т, Кла́ус! Как дела́?"
+            },
+            {
+              "speaker": "Кла́ус",
+              "gender": "m",
+              "ru": "Пло́хо. Ма́ша, где оте́ль «Москва́»?"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Оте́ль «Москва́»? Он в це́нтре. А где ты?"
+            },
+            {
+              "speaker": "Кла́ус",
+              "gender": "m",
+              "ru": "Здесь банк и бу́лочная. Сле́ва шко́ла, а спра́ва музе́й."
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Шко́ла сле́ва? Отли́чно! Спра́ва не музе́й. Э́то оте́ль!"
+            },
+            {
+              "speaker": "Кла́ус",
+              "gender": "m",
+              "ru": "Оте́ль? А, вот он! Спаси́бо, Ма́ша!"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Пожа́луйста! Пока́!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Кла́ус",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "gray"
+            },
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            }
+          ],
+          "es": "¡Hola, Masha! Soy Klaus.\n¡Hola, Klaus! ¿Qué tal?\nMal. Masha, ¿dónde está el hotel «Moscú»?\n¿El hotel «Moscú»? Está en el centro. ¿Y dónde estás tú?\nAquí hay un banco y una panadería. A la izquierda hay una escuela, y a la derecha, un museo.\n¿La escuela a la izquierda? ¡Excelente! A la derecha no hay un museo. ¡Es el hotel!\n¿El hotel? ¡Ah, ahí está! ¡Gracias, Masha!\n¡De nada! ¡Adiós!",
+          "questions": [
+            {
+              "q": "¿Qué busca Klaus?",
+              "choices": [
+                "Un hotel",
+                "Un museo",
+                "Una escuela"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué hay a la izquierda de Klaus?",
+              "choices": [
+                "Un banco",
+                "Una escuela",
+                "Un museo"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué es en realidad el «museo»?",
+              "choices": [
+                "La escuela",
+                "Una panadería",
+                "El hotel"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Cómo está Klaus al principio?",
+              "choices": [
+                "Bien",
+                "Mal",
+                "Excelente"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "1.3-l-5",
+          "title": "Clase de matemáticas",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ната́лья Ива́новна",
+              "gender": "f",
+              "ru": "До́брое у́тро! Ско́лько бу́дет три плюс четы́ре? Ива́н?"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Семь!"
+            },
+            {
+              "speaker": "Ната́лья Ива́новна",
+              "gender": "f",
+              "ru": "Хорошо́! А ско́лько бу́дет де́сять ми́нус два? Ка́тя?"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Во́семь."
+            },
+            {
+              "speaker": "Ната́лья Ива́новна",
+              "gender": "f",
+              "ru": "Отли́чно! Ско́лько бу́дет оди́ннадцать плюс де́вять?"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Девятна́дцать!"
+            },
+            {
+              "speaker": "Ната́лья Ива́новна",
+              "gender": "f",
+              "ru": "Нет, Ива́н, э́то не девятна́дцать."
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Два́дцать!"
+            },
+            {
+              "speaker": "Ната́лья Ива́новна",
+              "gender": "f",
+              "ru": "Да, два́дцать. Ка́тя, о́чень хорошо́! А ско́лько бу́дет пять плюс пять?"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Де́сять!"
+            },
+            {
+              "speaker": "Ната́лья Ива́новна",
+              "gender": "f",
+              "ru": "Отли́чно, Ива́н! Спаси́бо. До свида́ния!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ната́лья Ива́новна",
+              "gender": "f",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Ива́н",
+              "gender": "m",
+              "age": "child",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "ochre"
+            },
+            {
+              "name": "Ка́тя",
+              "gender": "f",
+              "age": "child",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "¡Buenos días! ¿Cuánto es tres más cuatro? ¿Iván?\n¡Siete!\n¡Bien! ¿Y cuánto es diez menos dos? ¿Katia?\nOcho.\n¡Excelente! ¿Cuánto es once más nueve?\n¡Diecinueve!\nNo, Iván, no es diecinueve.\n¡Veinte!\nSí, veinte. ¡Katia, muy bien! ¿Y cuánto es cinco más cinco?\n¡Diez!\n¡Excelente, Iván! Gracias. ¡Hasta luego!",
+          "questions": [
+            {
+              "q": "¿Cuánto es la primera operación?",
+              "choices": [
+                "Seis",
+                "Siete",
+                "Ocho"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué responde Katia a «diez menos dos»?",
+              "choices": [
+                "Ocho",
+                "Doce",
+                "Nueve"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué responde Iván a «once más nueve»?",
+              "choices": [
+                "Veinte",
+                "Dieciocho",
+                "Diecinueve"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Quién responde bien «once más nueve»?",
+              "choices": [
+                "Iván",
+                "Katia",
+                "La maestra"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "1.3-l-6",
+          "title": "El diario de Ana",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "До́брый ве́чер! Э́то я, А́на."
+            },
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "Вот го́род. Здесь сле́ва вокза́л, а спра́ва оте́ль."
+            },
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "Оте́ль «Ме́ксика»! Почему́ «Ме́ксика»? Потому́ что шеф здесь мексика́нец!"
+            },
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "Его́ зову́т Хосе́. Он говори́т по-испа́нски и по-ру́сски."
+            },
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "В це́нтре теа́тр, галере́я и консервато́рия."
+            },
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "А где Ма́рко? Вот он, сле́ва: кафе́, ко́фе и торт!"
+            },
+            {
+              "speaker": "А́на",
+              "gender": "f",
+              "ru": "Го́род — э́то отли́чно!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "А́на",
+              "gender": "f",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            }
+          ],
+          "es": "¡Buenas noches! Soy yo, Ana.\nAquí está la ciudad. Aquí, a la izquierda, está la estación, y a la derecha, el hotel.\n¡El hotel «México»! ¿Por qué «México»? ¡Porque el chef de aquí es mexicano!\nSe llama José. Habla español y ruso.\nEn el centro hay un teatro, una galería y el conservatorio.\n¿Y dónde está Marco? Ahí está, a la izquierda: ¡café, un café y un pastel!\n¡La ciudad es excelente!",
+          "questions": [
+            {
+              "q": "¿Cómo se llama el hotel?",
+              "choices": [
+                "«Moscú»",
+                "«México»",
+                "«Rosa»"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Por qué se llama así?",
+              "choices": [
+                "Porque el chef es mexicano",
+                "Porque Ana es mexicana",
+                "Porque José es turista"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué hay en el centro?",
+              "choices": [
+                "Un banco y correos",
+                "Un zoológico y un parque",
+                "Un teatro, una galería y el conservatorio"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Dónde está Marco?",
+              "choices": [
+                "A la derecha, en el hotel",
+                "A la izquierda, en un café",
+                "En el centro, en el teatro"
+              ],
+              "answer": 1
             }
           ]
         }
@@ -567,6 +2115,41 @@
               "speaker": "Ли",
               "gender": "m",
               "ru": "А я понима́ю по-ру́сски чуть-чуть."
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Жан",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": true,
+              "top": "red"
+            },
+            {
+              "name": "Ли",
+              "gender": "m",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "teal"
             }
           ],
           "es": "Jean, ¿trabajas?\nSí, claro. Soy actor.\n¡Oh, qué interesante! ¿Y tú, Li? ¿También eres actor?\n¡No, qué va! No trabajo. Soy jubilado.\n¿Y tú, Masha? ¿A qué te dedicas?\nSoy guía. Hablo inglés y francés.\n¡Genial! Y yo soy francés.\nY yo entiendo ruso un poquito.",
@@ -650,6 +2233,19 @@
               "ru": "Я ду́маю, конфере́нция — э́то кла́ссно!"
             }
           ],
+          "cast": [
+            {
+              "name": "Серге́й",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "gray"
+            }
+          ],
           "es": "¡Buenas tardes! Me llamo Serguéi Ivanov.\nSoy abogado. Trabajo aquí. Aquí está la conferencia de negocios.\nY aquí está Dmitri Petrov. Es economista.\nHabla inglés y alemán.\nAquí está su tarjeta: «Dmitri Petrov, economista».\nYo entiendo inglés, pero alemán no entiendo.\nCreo que la conferencia es genial.",
           "questions": [
             {
@@ -685,6 +2281,450 @@
                 "Inglés",
                 "Alemán",
                 "Francés"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "1.4-l-3",
+          "title": "Entrevista de trabajo",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "О́льга",
+              "gender": "f",
+              "ru": "Здра́вствуйте! Как Вас зову́т?"
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Меня́ зову́т Па́бло. Моя́ фами́лия — Гарси́я."
+            },
+            {
+              "speaker": "О́льга",
+              "gender": "f",
+              "ru": "О́чень прия́тно. Я О́льга, я ме́неджер. Отку́да Вы, Па́бло?"
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Я из Ме́ксики. Я мексика́нец."
+            },
+            {
+              "speaker": "О́льга",
+              "gender": "f",
+              "ru": "Кто Вы по профе́ссии?"
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Я студе́нт. И я рабо́таю. Я официа́нт."
+            },
+            {
+              "speaker": "О́льга",
+              "gender": "f",
+              "ru": "О, как интере́сно! Вы говори́те по-англи́йски?"
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Да, коне́чно. По-англи́йски, по-испа́нски и немно́го по-ру́сски."
+            },
+            {
+              "speaker": "О́льга",
+              "gender": "f",
+              "ru": "Кла́ссно! Я ду́маю, Вы рабо́таете хорошо́. Спаси́бо! До свида́ния!"
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Спаси́бо! До свида́ния!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "О́льга",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "gray"
+            },
+            {
+              "name": "Па́бло",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "¡Buenas tardes! ¿Cómo se llama?\nMe llamo Pablo. Mi apellido es García.\nMucho gusto. Soy Olga, soy gerente. ¿De dónde es usted, Pablo?\nSoy de México. Soy mexicano.\n¿A qué se dedica?\nSoy estudiante. Y trabajo. Soy mesero.\n¡Oh, qué interesante! ¿Habla inglés?\nSí, claro. Inglés, español y un poco de ruso.\n¡Genial! Creo que usted trabaja bien. ¡Gracias! ¡Hasta luego!\n¡Gracias! ¡Hasta luego!",
+          "questions": [
+            {
+              "q": "¿Cuál es el apellido de Pablo?",
+              "choices": [
+                "Fischer",
+                "García",
+                "Ivanov"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿A qué se dedica Pablo?",
+              "choices": [
+                "Es estudiante y mesero",
+                "Solo es estudiante",
+                "Es bartender"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué idiomas habla Pablo?",
+              "choices": [
+                "Inglés y francés",
+                "Solo español",
+                "Inglés, español y un poco de ruso"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué es Olga?",
+              "choices": [
+                "Doctora",
+                "Gerente",
+                "Maestra"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "1.4-l-4",
+          "title": "Mensaje de voz de Masha",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Приве́т, Жан! Э́то Ма́ша, гид."
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Как дела́? Я рабо́таю. Здесь тури́сты из Испа́нии и Кана́ды."
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Они́ не понима́ют по-ру́сски. Я говорю́ по-англи́йски."
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Жан, ты зна́ешь Ли? Он пенсионе́р. Он то́же здесь."
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Он ду́мает, что фильм «Пари́ж» — э́то кла́ссно!"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "А где моя́ ру́чка? Я не по́мню. Я забы́ла!"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Пока́! До встре́чи!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            }
+          ],
+          "es": "¡Hola, Jean! Soy Masha, la guía.\n¿Cómo estás? Estoy trabajando. Aquí hay turistas de España y de Canadá.\nNo entienden ruso. Yo hablo inglés.\nJean, ¿conoces a Li? Es jubilado. Él también está aquí.\n¡Cree que la película «París» es genial!\n¿Y dónde está mi pluma? No me acuerdo. ¡Se me olvidó!\n¡Adiós! ¡Nos vemos!",
+          "questions": [
+            {
+              "q": "¿Qué hace Masha ahora?",
+              "choices": [
+                "Trabaja con turistas",
+                "Está en casa",
+                "Está en el cine"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿De dónde son los turistas?",
+              "choices": [
+                "Italia y Francia",
+                "España y Canadá",
+                "China y Alemania"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué opina Li?",
+              "choices": [
+                "Que el café es malo",
+                "Que Jean es abogado",
+                "Que la película «París» es genial"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué no encuentra Masha?",
+              "choices": [
+                "Su tarjeta",
+                "Su pluma",
+                "Su pasaporte"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "1.4-l-5",
+          "title": "En clase de ruso",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ната́лья Ива́новна",
+              "gender": "f",
+              "ru": "До́брое у́тро! Я Ната́лья Ива́новна, преподава́тель. Джон, кто Вы по профе́ссии?"
+            },
+            {
+              "speaker": "Джон",
+              "gender": "m",
+              "ru": "Я инжене́р. Я из Кана́ды."
+            },
+            {
+              "speaker": "Ната́лья Ива́новна",
+              "gender": "f",
+              "ru": "Как интере́сно! А Вы, Па́бло?"
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Я студе́нт и официа́нт."
+            },
+            {
+              "speaker": "Ната́лья Ива́новна",
+              "gender": "f",
+              "ru": "Хорошо́. Джон, что зна́чит «ру́чка»?"
+            },
+            {
+              "speaker": "Джон",
+              "gender": "m",
+              "ru": "Извини́те, я не понима́ю. Я не зна́ю."
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Вот ру́чка!"
+            },
+            {
+              "speaker": "Джон",
+              "gender": "m",
+              "ru": "А, ру́чка! Спаси́бо, Па́бло!"
+            },
+            {
+              "speaker": "Ната́лья Ива́новна",
+              "gender": "f",
+              "ru": "Па́бло, как э́то пи́шется: «журнали́ст»?"
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Я не по́мню. Я забы́л!"
+            },
+            {
+              "speaker": "Ната́лья Ива́новна",
+              "gender": "f",
+              "ru": "Норма́льно. Вот, пожа́луйста: «журнали́ст»."
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ната́лья Ива́новна",
+              "gender": "f",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Джон",
+              "gender": "m",
+              "age": "adult",
+              "skin": "dark",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "red"
+            },
+            {
+              "name": "Па́бло",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "¡Buenos días! Soy Natalia Ivánovna, la maestra. John, ¿a qué se dedica?\nSoy ingeniero. Soy de Canadá.\n¡Qué interesante! ¿Y usted, Pablo?\nSoy estudiante y mesero.\nBien. John, ¿qué significa «ruchka»?\nDisculpe, no entiendo. No sé.\n¡Aquí hay una pluma!\n¡Ah, una pluma! ¡Gracias, Pablo!\nPablo, ¿cómo se escribe «periodista»?\nNo me acuerdo. ¡Se me olvidó!\nNo pasa nada. Aquí está, mire: «periodista».",
+          "questions": [
+            {
+              "q": "¿A qué se dedica John?",
+              "choices": [
+                "Ingeniero",
+                "Taxista",
+                "Economista"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué palabra no entiende John?",
+              "choices": [
+                "Revista",
+                "Pluma",
+                "Tarjeta"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué olvidó Pablo?",
+              "choices": [
+                "Su pluma",
+                "Cómo se dice «gato»",
+                "Cómo se escribe «periodista»"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Quién es Natalia Ivánovna?",
+              "choices": [
+                "Doctora",
+                "Maestra",
+                "Guía"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "1.4-l-6",
+          "title": "Timur, el taxista",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Тиму́р",
+              "gender": "m",
+              "ru": "Приве́т! Меня́ зову́т Тиму́р. Я такси́ст."
+            },
+            {
+              "speaker": "Тиму́р",
+              "gender": "m",
+              "ru": "Я рабо́таю здесь, в це́нтре: вокза́л, аэропо́рт, оте́ль."
+            },
+            {
+              "speaker": "Тиму́р",
+              "gender": "m",
+              "ru": "Вот Серге́й Ивано́в. Он юри́ст. Вот его́ визи́тка."
+            },
+            {
+              "speaker": "Тиму́р",
+              "gender": "m",
+              "ru": "А вот тури́сты. Они́ не понима́ют по-ру́сски. Они́ говоря́т по-англи́йски."
+            },
+            {
+              "speaker": "Тиму́р",
+              "gender": "m",
+              "ru": "Я понима́ю по-англи́йски чуть-чуть. Я говорю́: «Аэропо́рт? Коне́чно!»"
+            },
+            {
+              "speaker": "Тиму́р",
+              "gender": "m",
+              "ru": "Ма́ма ду́мает, что я пило́т. Нет, что ты, ма́ма! Я не пило́т, я такси́ст!"
+            },
+            {
+              "speaker": "Тиму́р",
+              "gender": "m",
+              "ru": "Но я ду́маю, что э́то кла́ссно!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Тиму́р",
+              "gender": "m",
+              "age": "adult",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "ochre"
+            }
+          ],
+          "es": "¡Hola! Me llamo Timur. Soy taxista.\nTrabajo aquí, en el centro: la estación, el aeropuerto, el hotel.\nAquí está Serguéi Ivanov. Es abogado. Aquí está su tarjeta.\nY aquí hay unos turistas. No entienden ruso. Hablan inglés.\nYo entiendo inglés un poquito. Digo: «¿Al aeropuerto? ¡Claro!»\nMamá cree que soy piloto. ¡No, qué va, mamá! ¡No soy piloto, soy taxista!\nPero creo que es genial.",
+          "questions": [
+            {
+              "q": "¿A qué se dedica Timur?",
+              "choices": [
+                "Piloto",
+                "Taxista",
+                "Abogado"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Quién es Serguéi Ivanov?",
+              "choices": [
+                "Un abogado",
+                "Un turista",
+                "Un piloto"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué idioma hablan los turistas?",
+              "choices": [
+                "Ruso",
+                "Español",
+                "Inglés"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué cree la mamá de Timur?",
+              "choices": [
+                "Que es piloto",
+                "Que es taxista",
+                "Que es doctor"
               ],
               "answer": 0
             }

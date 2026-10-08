@@ -121,14 +121,21 @@ console.log(`Generando ${missing.length} clips nuevos…`)
 await pool(missing, 6, (t) => synth(t, ALL[hashNum(t) % ALL.length], join(OUT, 'c', `${audioKey(t)}.mp3`)))
 
 // Listening: one voice per speaker (by gender), lines joined with short pauses.
-const listeningFiles: Record<string, string> = {}
+const listeningFiles: Record<string, { file: string; starts: number[]; speakers: string[] }> = {}
+const duration = (f: string) => Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]).toString().trim())
+const GAP = 0.6
 const tmp = join(tmpdir(), 'ru-listening')
 mkdirSync(tmp, { recursive: true })
 for (const li of listening) {
   const key = audioKey(li.lines.map((l) => `${l.speaker}|${l.gender}|${l.ru}`).join('\n'))
   const name = `${li.id}-${key}.mp3`
-  listeningFiles[li.id] = `l/${name}`
-  if (existsSync(join(OUT, 'l', name))) continue
+  // Sidecar with each line's start time (for speaker highlighting and tap-to-seek in the transcript).
+  const sidecar = join(OUT, 'l', `${name}.json`)
+  const speakersOf = li.lines.map((l) => l.speaker ?? 'narrador')
+  if (existsSync(join(OUT, 'l', name)) && existsSync(sidecar)) {
+    listeningFiles[li.id] = { file: `l/${name}`, starts: JSON.parse(readFileSync(sidecar, 'utf8')), speakers: speakersOf }
+    continue
+  }
   const speakers = [...new Set(li.lines.map((l) => l.speaker ?? 'narrador'))]
   const voiceOf = new Map<string, string>()
   let f = hashNum(li.id)
@@ -144,10 +151,15 @@ for (const li of listening) {
     parts.push(p)
   }
   const silence = join(tmp, 'silence.mp3')
-  if (!existsSync(silence)) execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'lavfi', '-i', 'anullsrc=r=24000:cl=mono', '-t', '0.6', '-q:a', '9', silence])
+  if (!existsSync(silence)) execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'lavfi', '-i', 'anullsrc=r=24000:cl=mono', '-t', String(GAP), '-q:a', '9', silence])
+  const starts: number[] = []
+  let t = 0
+  for (const p of parts) { starts.push(Math.round(t * 100) / 100); t += duration(p) + duration(silence) }
   const list = join(tmp, `${li.id}.txt`)
   writeFileSync(list, parts.flatMap((p, i) => (i ? [silence, p] : [p])).map((p) => `file '${p}'`).join('\n'))
   execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', list, '-ac', '1', '-ar', '24000', '-b:a', '48k', join(OUT, 'l', name)])
+  writeFileSync(sidecar, JSON.stringify(starts))
+  listeningFiles[li.id] = { file: `l/${name}`, starts, speakers: speakersOf }
   process.stdout.write('♪')
 }
 

@@ -55,6 +55,30 @@
               "ru": "Я гото́влю и слу́шаю ра́дио."
             }
           ],
+          "cast": [
+            {
+              "name": "Ната́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Джова́нни",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": true,
+              "top": "ochre"
+            }
+          ],
           "es": "—Giovanni, ¡bienvenido! Este es mi departamento.\n—¡Gracias! ¿Y dónde está tu tortuga? ¿Está en el sofá?\n—No, hoy no está en el sofá.\n—¿Tal vez está en la recámara, en la cama?\n—No, incorrecto. Mira: la recámara está a la derecha y la cocina a la izquierda.\n—¿Tal vez está en la cocina?\n—¡Sí, correcto! Está en la cocina, en el piso, en el rincón. La cocina es mi cuarto favorito.\n—¿Y qué haces en la cocina?\n—Cocino y escucho el radio.",
           "questions": [
             {
@@ -136,6 +160,19 @@
               "ru": "Мой дом — моя́ кре́пость."
             }
           ],
+          "cast": [
+            {
+              "name": "А́нна",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "green"
+            }
+          ],
           "es": "Me llamo Anna. Tengo una casa y un jardín.\nEn la casa hay sala, recámara, cocina y estudio.\nEn la sala hay una chimenea, un sofá y un piano.\nEn la noche descanso en la sala y veo la televisión.\nMis libros están en el estudio, en la repisa.\nQuiero mucho mi jardín. ¡A veces duermo en el jardín!\nMi casa es mi fortaleza.",
           "questions": [
             {
@@ -171,6 +208,419 @@
                 "Cocina y canta",
                 "Descansa en la sala y ve la tele",
                 "Lee en el jardín"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "3.1-l-3",
+          "title": "Un mensaje de voz de la abuela",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Ба́бушка",
+              "gender": "f",
+              "ru": "Приве́т, Са́ша! Э́то ба́бушка."
+            },
+            {
+              "speaker": "Ба́бушка",
+              "gender": "f",
+              "ru": "За́втра ве́чером я в Москве́, в аэропорту́."
+            },
+            {
+              "speaker": "Ба́бушка",
+              "gender": "f",
+              "ru": "Где я сплю? В гости́ной на дива́не и́ли в спа́льне?"
+            },
+            {
+              "speaker": "Ба́бушка",
+              "gender": "f",
+              "ru": "Я о́чень люблю́ принима́ть душ ве́чером. В ва́нной есть душ и́ли то́лько ва́нна?"
+            },
+            {
+              "speaker": "Ба́бушка",
+              "gender": "f",
+              "ru": "А где твой кот? Я ду́маю, он спит в спа́льне на крова́ти. Э́то непра́вильно!"
+            },
+            {
+              "speaker": "Ба́бушка",
+              "gender": "f",
+              "ru": "Ну, мне пора́. Целу́ю! Пока́!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ба́бушка",
+              "gender": "f",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "¡Hola, Sasha! Soy la abuela.\nMañana en la noche estoy en Moscú, en el aeropuerto.\n¿Dónde duermo? ¿En la sala, en el sofá, o en la recámara?\nMe encanta bañarme en la noche. ¿En el baño hay regadera o solo tina?\n¿Y dónde está tu gato? Creo que duerme en la recámara, en la cama. ¡Eso no está bien!\nBueno, ya me voy. ¡Besos! ¡Adiós!",
+          "questions": [
+            {
+              "q": "¿Cuándo llega la abuela a Moscú?",
+              "choices": [
+                "Hoy en la mañana",
+                "Mañana en la noche",
+                "Hoy en la noche"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Dónde puede dormir la abuela?",
+              "choices": [
+                "En la sala, en el sofá, o en la recámara",
+                "En el estudio o en la cocina",
+                "En el jardín o en el balcón"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué le encanta hacer a la abuela en la noche?",
+              "choices": [
+                "Ver la tele",
+                "Escuchar el radio",
+                "Bañarse"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Dónde cree la abuela que duerme el gato?",
+              "choices": [
+                "En la cama de la recámara",
+                "En el sofá de la sala",
+                "En el rincón de la cocina"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "3.1-l-4",
+          "title": "Una agente muestra un departamento",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Здра́вствуйте! Добро́ пожа́ловать! Вот кварти́ра."
+            },
+            {
+              "speaker": "Макси́м",
+              "gender": "m",
+              "ru": "Здра́вствуйте! Где здесь гости́ная?"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Гости́ная спра́ва. Смотри́те: здесь есть ками́н, дива́н и кре́сло."
+            },
+            {
+              "speaker": "Макси́м",
+              "gender": "m",
+              "ru": "А что э́то на стене́?"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Э́то зе́ркало. А сле́ва ку́хня. На ку́хне есть плита́ и холоди́льник."
+            },
+            {
+              "speaker": "Макси́м",
+              "gender": "m",
+              "ru": "А балко́н есть?"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Да, балко́н в спа́льне. И здесь есть гара́ж!"
+            },
+            {
+              "speaker": "Макси́м",
+              "gender": "m",
+              "ru": "Отли́чно! А кака́я ва́ша люби́мая ко́мната?"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Моя́ люби́мая ко́мната — спа́льня. Там балко́н и окно́. Кла́ссно!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ле́на",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "bun",
+              "glasses": false,
+              "beard": false,
+              "top": "gray"
+            },
+            {
+              "name": "Макси́м",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "blue"
+            }
+          ],
+          "es": "¡Buenos días! ¡Bienvenido! Aquí está el departamento.\n¡Buenos días! ¿Dónde está la sala?\nLa sala está a la derecha. Mire: aquí hay una chimenea, un sofá y un sillón.\n¿Y qué es eso en la pared?\nEs un espejo. Y a la izquierda está la cocina. En la cocina hay estufa y refrigerador.\n¿Y hay balcón?\nSí, el balcón está en la recámara. ¡Y aquí hay garaje!\n¡Excelente! ¿Y cuál es su cuarto favorito?\nMi cuarto favorito es la recámara. Ahí están el balcón y la ventana. ¡Padrísimo!",
+          "questions": [
+            {
+              "q": "¿Qué hay en la sala?",
+              "choices": [
+                "Un piano y una mesa",
+                "Una chimenea, un sofá y un sillón",
+                "Una tele y una alfombra"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué hay en la pared?",
+              "choices": [
+                "Un cuadro",
+                "Un calendario",
+                "Un espejo"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Dónde está el balcón?",
+              "choices": [
+                "En la recámara",
+                "En la sala",
+                "En la cocina"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cuál es el cuarto favorito de Lena?",
+              "choices": [
+                "La cocina",
+                "La recámara",
+                "La sala"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "3.1-l-5",
+          "title": "Una llamada: ¿dónde está mi pasaporte?",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "Дени́с, приве́т! Ты до́ма?"
+            },
+            {
+              "speaker": "Дени́с",
+              "gender": "m",
+              "ru": "Да, я до́ма. А ты где?"
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "Я в аэропорту́. Где мой па́спорт? Он в спа́льне?"
+            },
+            {
+              "speaker": "Дени́с",
+              "gender": "m",
+              "ru": "Нет, в спа́льне то́лько твоя́ су́мка."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "Мо́жет быть, он в кабине́те, на по́лке?"
+            },
+            {
+              "speaker": "Дени́с",
+              "gender": "m",
+              "ru": "Нет, на по́лке то́лько кни́ги."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "А на ку́хне? На холоди́льнике?"
+            },
+            {
+              "speaker": "Дени́с",
+              "gender": "m",
+              "ru": "Да! Вот он, на холоди́льнике! И твои́ ключи́ то́же здесь."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "Ой, кошма́р! Спаси́бо, Дени́с!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ве́ра",
+              "gender": "f",
+              "age": "young",
+              "skin": "dark",
+              "hair": "black",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            },
+            {
+              "name": "Дени́с",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "¡Denís, hola! ¿Estás en casa?\nSí, estoy en casa. ¿Y tú dónde estás?\nEstoy en el aeropuerto. ¿Dónde está mi pasaporte? ¿Está en la recámara?\nNo, en la recámara solo está tu bolsa.\n¿Tal vez está en el estudio, en la repisa?\nNo, en la repisa solo hay libros.\n¿Y en la cocina? ¿Encima del refrigerador?\n¡Sí! ¡Aquí está, encima del refrigerador! Y tus llaves también están aquí.\n¡Ay, qué pesadilla! ¡Gracias, Denís!",
+          "questions": [
+            {
+              "q": "¿Dónde está Vera?",
+              "choices": [
+                "En la oficina",
+                "En el metro",
+                "En el aeropuerto"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué hay en la repisa del estudio?",
+              "choices": [
+                "Solo libros",
+                "La bolsa de Vera",
+                "El pasaporte"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Dónde está el pasaporte?",
+              "choices": [
+                "в спа́льне",
+                "на холоди́льнике",
+                "на по́лке"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué más encuentra Denís?",
+              "choices": [
+                "El teléfono de Vera",
+                "La cartera de Vera",
+                "Las llaves de Vera"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "3.1-l-6",
+          "title": "El cuarto favorito de Kostia",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Меня́ зову́т Ко́стя. Я шко́льник."
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Моя́ люби́мая ко́мната — де́тская."
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "В де́тской есть крова́ть, стол, стул и шкаф."
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "На стене́ карти́на: там раке́та и кот."
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "На полу́ ковёр. Иногда́ я сплю на ковре́, а не на крова́ти!"
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Мой кот то́же спит в де́тской, в углу́."
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Ве́чером я де́лаю дома́шнее зада́ние и́ли игра́ю на гита́ре."
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ко́стя",
+              "gender": "m",
+              "age": "child",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "teal"
+            }
+          ],
+          "es": "Me llamo Kostia. Soy escolar.\nMi cuarto favorito es el cuarto de los niños.\nEn el cuarto de los niños hay una cama, una mesa, una silla y un clóset.\nEn la pared hay un cuadro: ahí hay un cohete y un gato.\nEn el piso hay una alfombra. ¡A veces duermo en la alfombra y no en la cama!\nMi gato también duerme en el cuarto de los niños, en el rincón.\nEn la noche hago la tarea o toco la guitarra.",
+          "questions": [
+            {
+              "q": "¿Qué es Kostia?",
+              "choices": [
+                "Escolar",
+                "Estudiante universitario",
+                "Músico"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué hay en el cuadro?",
+              "choices": [
+                "Una casa y un jardín",
+                "Un cohete y un gato",
+                "Una tortuga y un piano"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Dónde duerme Kostia a veces?",
+              "choices": [
+                "En el sofá",
+                "En el jardín",
+                "En la alfombra"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué hace Kostia en la noche?",
+              "choices": [
+                "Ve la tele o lee",
+                "Hace la tarea o toca la guitarra",
+                "Cocina y escucha el radio"
               ],
               "answer": 1
             }
@@ -225,6 +675,41 @@
               "speaker": "Ли",
               "gender": "m",
               "ru": "Я сижу́ на ковре́ и медити́рую. Э́то моё люби́мое ме́сто."
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ири́на",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "red"
+            },
+            {
+              "name": "Жан",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "blue"
+            },
+            {
+              "name": "Ли",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "gray"
             }
           ],
           "es": "—Jean, ¿dónde vive usted?\n—Vivo en Francia, en París. Tengo un departamento en el centro.\n—¿Y qué hay en su departamento?\n—En la sala hay un piano y en la pared cuelga un cuadro.\n—Li, ¿y usted? ¿Dónde vive?\n—Vivo en China. Tengo un bungalow. Ahí solo hay una alfombra, una mesa y una silla.\n—¿Y dónde medita?\n—Me siento en la alfombra y medito. Es mi lugar favorito.",
@@ -308,6 +793,19 @@
               "ru": "А на стене́ виси́т календа́рь. Ой, сего́дня экза́мен!"
             }
           ],
+          "cast": [
+            {
+              "name": "Фрэнк",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            }
+          ],
           "es": "Me llamo Frank. Soy estudiante y vivo en el campus, en Estados Unidos.\n¡En mi cuarto hay desorden!\nLos jeans están en el piso y la playera cuelga de la lámpara.\nLa mochila está en la cama y el balón de futbol, en el clóset.\nLa taza y la tetera están en el buró.\n¿Dónde están mis llaves? ¡No sé!\nY en la pared cuelga un calendario. ¡Ay, hoy hay examen!",
           "questions": [
             {
@@ -343,6 +841,430 @@
                 "Que hoy hay fiesta",
                 "Que hoy hay examen",
                 "Que mañana viaja en avión"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "3.2-l-3",
+          "title": "Entrevista: una casa poco común",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Ка́рлос, где вы живёте?"
+            },
+            {
+              "speaker": "Ка́рлос",
+              "gender": "m",
+              "ru": "Я живу́ в Испа́нии. У меня́ необы́чный дом."
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Необы́чный? Почему́?"
+            },
+            {
+              "speaker": "Ка́рлос",
+              "gender": "m",
+              "ru": "В гости́ной стои́т не дива́н, а гама́к. Я сижу́ в гамаке́ и чита́ю."
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "А что виси́т на стене́?"
+            },
+            {
+              "speaker": "Ка́рлос",
+              "gender": "m",
+              "ru": "На стене́ виси́т скеле́т. Его́ зову́т Бо́ря!"
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Ой, кошма́р! А где вы прово́дите вре́мя?"
+            },
+            {
+              "speaker": "Ка́рлос",
+              "gender": "m",
+              "ru": "На вера́нде. Там стои́т шезло́нг, и я отдыха́ю."
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ири́на",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "red"
+            },
+            {
+              "name": "Ка́рлос",
+              "gender": "m",
+              "age": "old",
+              "skin": "medium",
+              "hair": "none",
+              "hairStyle": "bald",
+              "glasses": false,
+              "beard": true,
+              "top": "ochre"
+            }
+          ],
+          "es": "Carlos, ¿dónde vive usted?\nVivo en España. Tengo una casa poco común.\n¿Poco común? ¿Por qué?\nEn la sala no hay un sofá, sino una hamaca. Me siento en la hamaca y leo.\n¿Y qué cuelga en la pared?\nEn la pared cuelga un esqueleto. ¡Se llama Boria!\n¡Ay, qué horror! ¿Y dónde pasa usted el tiempo?\nEn la terraza. Ahí hay un camastro y descanso.",
+          "questions": [
+            {
+              "q": "¿Dónde vive Carlos?",
+              "choices": [
+                "En Italia",
+                "En España",
+                "En Grecia"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué hay en la sala en lugar de un sofá?",
+              "choices": [
+                "Una hamaca",
+                "Un camastro",
+                "Una alfombra"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué cuelga en la pared?",
+              "choices": [
+                "Un cuadro",
+                "Un calendario",
+                "Un esqueleto"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Dónde pasa Carlos el tiempo?",
+              "choices": [
+                "En la cocina",
+                "En la terraza",
+                "En el jardín"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "3.2-l-4",
+          "title": "¿Dónde están mis audífonos?",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Фрэнк",
+              "gender": "m",
+              "ru": "Ник, ты не зна́ешь, где мои́ нау́шники?"
+            },
+            {
+              "speaker": "Ник",
+              "gender": "m",
+              "ru": "Мо́жет быть, на ту́мбочке?"
+            },
+            {
+              "speaker": "Фрэнк",
+              "gender": "m",
+              "ru": "Нет, на ту́мбочке стои́т то́лько ча́шка."
+            },
+            {
+              "speaker": "Ник",
+              "gender": "m",
+              "ru": "А в рюкзаке́? Рюкза́к лежи́т на сту́ле."
+            },
+            {
+              "speaker": "Фрэнк",
+              "gender": "m",
+              "ru": "Нет, в рюкзаке́ то́лько слова́рь."
+            },
+            {
+              "speaker": "Ник",
+              "gender": "m",
+              "ru": "Смотри́! Нау́шники вися́т на ка́ктусе!"
+            },
+            {
+              "speaker": "Фрэнк",
+              "gender": "m",
+              "ru": "Пра́вильно! Спаси́бо! А где мой мяч?"
+            },
+            {
+              "speaker": "Ник",
+              "gender": "m",
+              "ru": "Он в шкафу́. Он всегда́ в шкафу́!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Фрэнк",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            },
+            {
+              "name": "Ник",
+              "gender": "m",
+              "age": "young",
+              "skin": "dark",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "Nick, ¿no sabes dónde están mis audífonos?\n¿Tal vez en el buró?\nNo, en el buró solo hay una taza.\n¿Y en la mochila? La mochila está en la silla.\nNo, en la mochila solo hay un diccionario.\n¡Mira! ¡Los audífonos están colgados del cactus!\n¡Así es! ¡Gracias! ¿Y dónde está mi balón?\nEstá en el clóset. ¡Siempre está en el clóset!",
+          "questions": [
+            {
+              "q": "¿Qué hay en el buró?",
+              "choices": [
+                "Solo una taza",
+                "Una tetera y una lámpara",
+                "Las llaves de Frank"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué hay en la mochila?",
+              "choices": [
+                "Los audífonos",
+                "Solo un diccionario",
+                "El balón"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Dónde están los audífonos?",
+              "choices": [
+                "En la cama",
+                "En el piso",
+                "Colgados del cactus"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Dónde está el balón?",
+              "choices": [
+                "в шкафу́",
+                "на сту́ле",
+                "на полу́"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "3.2-l-5",
+          "title": "Un hotel en un árbol",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "О́льга",
+              "gender": "f",
+              "ru": "Меня́ зову́т О́льга. Я фото́граф. Сего́дня я в Норве́гии."
+            },
+            {
+              "speaker": "О́льга",
+              "gender": "f",
+              "ru": "Мой оте́ль о́чень необы́чный: он нахо́дится на де́реве!"
+            },
+            {
+              "speaker": "О́льга",
+              "gender": "f",
+              "ru": "В ко́мнате стои́т крова́ть, а на крова́ти лежи́т поду́шка."
+            },
+            {
+              "speaker": "О́льга",
+              "gender": "f",
+              "ru": "На окне́ стои́т ка́ктус."
+            },
+            {
+              "speaker": "О́льга",
+              "gender": "f",
+              "ru": "На вера́нде виси́т гама́к. Ве́чером я сижу́ в гамаке́ и фотографи́рую."
+            },
+            {
+              "speaker": "О́льга",
+              "gender": "f",
+              "ru": "Э́тот оте́ль — моё люби́мое ме́сто!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "О́льга",
+              "gender": "f",
+              "age": "adult",
+              "skin": "medium",
+              "hair": "brown",
+              "hairStyle": "long",
+              "glasses": true,
+              "beard": false,
+              "top": "teal"
+            }
+          ],
+          "es": "Me llamo Olga. Soy fotógrafa. Hoy estoy en Noruega.\nMi hotel es muy poco común: ¡está en un árbol!\nEn el cuarto hay una cama, y en la cama hay una almohada.\nEn la ventana hay un cactus.\nEn la terraza cuelga una hamaca. En la noche me siento en la hamaca y tomo fotos.\n¡Este hotel es mi lugar favorito!",
+          "questions": [
+            {
+              "q": "¿En qué país está Olga?",
+              "choices": [
+                "En Dinamarca",
+                "En Grecia",
+                "En Noruega"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Por qué es poco común el hotel?",
+              "choices": [
+                "Está en un árbol",
+                "Está en el agua",
+                "No tiene ventanas"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué hay en la ventana?",
+              "choices": [
+                "Una lámpara",
+                "Un cactus",
+                "Una almohada"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué hace Olga en la noche?",
+              "choices": [
+                "Duerme en la terraza",
+                "Lee en la cama",
+                "Se sienta en la hamaca y toma fotos"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "3.2-l-6",
+          "title": "Una llamada desde Italia",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "Ми́ша, приве́т! Ты где?"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Приве́т, ма́ма! Я в Ита́лии."
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "А где ты живёшь? В оте́ле?"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Нет, я живу́ в кварти́ре. Она́ нахо́дится в це́нтре."
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "А что у тебя́ в кварти́ре?"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Там стои́т дива́н, а на стене́ виси́т карти́на. А на балко́не всегда́ сиди́т кот. Он не мой!"
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "А что ты де́лаешь ве́чером?"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Ве́чером я гуля́ю и разгова́риваю по-италья́нски."
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "Отли́чно! Целу́ю!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ма́ма",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            },
+            {
+              "name": "Ми́ша",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": false,
+              "top": "gray"
+            }
+          ],
+          "es": "¡Misha, hola! ¿Dónde estás?\n¡Hola, mamá! Estoy en Italia.\n¿Y dónde vives? ¿En un hotel?\nNo, vivo en un departamento. Está en el centro.\n¿Y qué hay en tu departamento?\nHay un sofá y en la pared cuelga un cuadro. Y en el balcón siempre está sentado un gato. ¡No es mío!\n¿Y qué haces en la noche?\nEn la noche paseo y platico en italiano.\n¡Excelente! ¡Besos!",
+          "questions": [
+            {
+              "q": "¿Dónde vive Misha?",
+              "choices": [
+                "En un hotel",
+                "En un departamento en el centro",
+                "En una villa"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué cuelga en la pared?",
+              "choices": [
+                "Un cuadro",
+                "Un espejo",
+                "Un calendario"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Quién está siempre en el balcón?",
+              "choices": [
+                "La mamá de Misha",
+                "Un perro",
+                "Un gato que no es de Misha"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué hace Misha en la noche?",
+              "choices": [
+                "Ve la tele",
+                "Pasea y platica en italiano",
+                "Cocina y lee"
               ],
               "answer": 1
             }
@@ -397,6 +1319,30 @@
               "speaker": "Кла́удия",
               "gender": "f",
               "ru": "А за́втра ра́но у вас клие́нт и контра́кт."
+            }
+          ],
+          "cast": [
+            {
+              "name": "Кла́ус",
+              "gender": "m",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "gray"
+            },
+            {
+              "name": "Кла́удия",
+              "gender": "f",
+              "age": "adult",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
             }
           ],
           "es": "—Claudia, ¿no sabe dónde están mis carpetas?\n—Sus carpetas están en el escritorio, señor Fischer. Y las plumas y los lápices, en el clóset.\n—¡Gracias! ¡Hoy aquí hay tanto ruido!\n—Sí, los colegas hablan fuerte por teléfono.\n—¡Terrible! Quiero trabajar en silencio y con calma.\n—¿Quiere un café? Lo preparo rápido.\n—¡Sí, gracias! Usted prepara el café de maravilla.\n—Y mañana temprano tiene un cliente y un contrato.",
@@ -485,6 +1431,19 @@
               "ru": "Рабо́тать здесь прия́тно и интере́сно!"
             }
           ],
+          "cast": [
+            {
+              "name": "Ми́ла",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": true,
+              "beard": false,
+              "top": "ochre"
+            }
+          ],
           "es": "Me llamo Mila, soy ingeniera.\nTrabajo en una oficina que se encuentra en el centro.\nAquí hay silencio y se está a gusto. En la oficina hay una hamaca y una cafetera.\nDesayuno en la oficina y contesto rápido los correos.\nDespués mis colegas y yo nos sentamos en el piso y discutimos los proyectos.\nMi colega Antón es un adicto al trabajo: trabaja mucho y por mucho tiempo.\nY yo soy golosa. En mi escritorio siempre hay dulces.\n¡Trabajar aquí es agradable e interesante!",
           "questions": [
             {
@@ -522,6 +1481,419 @@
                 "Dulces"
               ],
               "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "3.3-l-3",
+          "title": "Un recorrido por la oficina",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Мари́на",
+              "gender": "f",
+              "ru": "Арту́р, добро́ пожа́ловать! Э́то наш о́фис."
+            },
+            {
+              "speaker": "Арту́р",
+              "gender": "m",
+              "ru": "Здра́вствуйте! Здесь так ти́хо и споко́йно!"
+            },
+            {
+              "speaker": "Мари́на",
+              "gender": "f",
+              "ru": "Да, сотру́дники рабо́тают ти́хо. А там гама́ки и кофема́шина."
+            },
+            {
+              "speaker": "Арту́р",
+              "gender": "m",
+              "ru": "А где при́нтер?"
+            },
+            {
+              "speaker": "Мари́на",
+              "gender": "f",
+              "ru": "При́нтер спра́ва. А ру́чки, ма́ркеры и па́пки — в шкафу́."
+            },
+            {
+              "speaker": "Арту́р",
+              "gender": "m",
+              "ru": "А кто э́то?"
+            },
+            {
+              "speaker": "Мари́на",
+              "gender": "f",
+              "ru": "Э́то И́горь, наш инжене́р. Он трудого́лик: он рабо́тает мно́го и до́лго."
+            },
+            {
+              "speaker": "Арту́р",
+              "gender": "m",
+              "ru": "А мо́жно за́втракать в о́фисе?"
+            },
+            {
+              "speaker": "Мари́на",
+              "gender": "f",
+              "ru": "Коне́чно! Мы за́втракаем вме́сте и обсужда́ем прое́кты."
+            }
+          ],
+          "cast": [
+            {
+              "name": "Мари́на",
+              "gender": "f",
+              "age": "adult",
+              "skin": "dark",
+              "hair": "black",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "green"
+            },
+            {
+              "name": "Арту́р",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "blue"
+            }
+          ],
+          "es": "¡Artur, bienvenido! Esta es nuestra oficina.\n¡Buenos días! ¡Aquí está tan silencioso y tranquilo!\nSí, los empleados trabajan en silencio. Y allá están las hamacas y la cafetera.\n¿Y dónde está la impresora?\nLa impresora está a la derecha. Y las plumas, los marcadores y las carpetas, en el clóset.\n¿Y quién es él?\nEs Ígor, nuestro ingeniero. Es adicto al trabajo: trabaja mucho y por mucho tiempo.\n¿Y se puede desayunar en la oficina?\n¡Claro! Desayunamos juntos y discutimos los proyectos.",
+          "questions": [
+            {
+              "q": "¿Cómo es el ambiente en la oficina?",
+              "choices": [
+                "Ruidoso",
+                "Aburrido",
+                "Silencioso y tranquilo"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Dónde están las plumas y las carpetas?",
+              "choices": [
+                "в шкафу́",
+                "на столе́",
+                "на полу́"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Quién es Ígor?",
+              "choices": [
+                "El jefe",
+                "Un ingeniero adicto al trabajo",
+                "Un cliente"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué hacen los empleados en la mañana?",
+              "choices": [
+                "Desayunan juntos y discuten proyectos",
+                "Hablan por teléfono",
+                "Se sientan en internet"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "3.3-l-4",
+          "title": "Un mensaje de voz del jefe",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Кла́ус",
+              "gender": "m",
+              "ru": "Кла́удия, до́брый ве́чер! Э́то Кла́ус Фи́шер."
+            },
+            {
+              "speaker": "Кла́ус",
+              "gender": "m",
+              "ru": "За́втра ра́но у нас клие́нт. Он не́мец."
+            },
+            {
+              "speaker": "Кла́ус",
+              "gender": "m",
+              "ru": "Где контра́кт и докуме́нты? Они́ на столе́?"
+            },
+            {
+              "speaker": "Кла́ус",
+              "gender": "m",
+              "ru": "Клие́нт говори́т по-англи́йски ме́дленно, а по-неме́цки бы́стро."
+            },
+            {
+              "speaker": "Кла́ус",
+              "gender": "m",
+              "ru": "Я ду́маю, он лю́бит ко́фе. Кофема́шина рабо́тает?"
+            },
+            {
+              "speaker": "Кла́ус",
+              "gender": "m",
+              "ru": "И, пожа́луйста, колле́ги не говоря́т гро́мко по телефо́ну, хорошо́?"
+            },
+            {
+              "speaker": "Кла́ус",
+              "gender": "m",
+              "ru": "Спаси́бо! До за́втра!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Кла́ус",
+              "gender": "m",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "gray"
+            }
+          ],
+          "es": "¡Claudia, buenas noches! Habla Klaus Fischer.\nMañana temprano tenemos un cliente. Es alemán.\n¿Dónde están el contrato y los documentos? ¿Están en el escritorio?\nEl cliente habla inglés despacio, y alemán rápido.\nCreo que le encanta el café. ¿La cafetera funciona?\nY, por favor, que los colegas no hablen fuerte por teléfono, ¿de acuerdo?\n¡Gracias! ¡Hasta mañana!",
+          "questions": [
+            {
+              "q": "¿Cuándo viene el cliente?",
+              "choices": [
+                "Hoy en la noche",
+                "Mañana temprano",
+                "Mañana tarde"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿De qué nacionalidad es el cliente?",
+              "choices": [
+                "Francés",
+                "Inglés",
+                "Alemán"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Cómo habla inglés el cliente?",
+              "choices": [
+                "Despacio",
+                "Rápido",
+                "Muy bien"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué les pide Klaus a los colegas?",
+              "choices": [
+                "Que trabajen hasta tarde",
+                "Que no hablen fuerte por teléfono",
+                "Que preparen el café"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "3.3-l-5",
+          "title": "Una entrevista de trabajo",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "До́брый день! Как вас зову́т?"
+            },
+            {
+              "speaker": "Рома́н",
+              "gender": "m",
+              "ru": "Меня́ зову́т Рома́н. Я секрета́рь."
+            },
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "О́чень прия́тно. Вы бы́стро отвеча́ете на пи́сьма?"
+            },
+            {
+              "speaker": "Рома́н",
+              "gender": "m",
+              "ru": "Да, бы́стро и пра́вильно. И я хорошо́ говорю́ по-англи́йски."
+            },
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "А как вы рабо́таете?"
+            },
+            {
+              "speaker": "Рома́н",
+              "gender": "m",
+              "ru": "Я рабо́таю мно́го, но я не трудого́лик. Я люблю́ рабо́тать споко́йно."
+            },
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "У нас в о́фисе иногда́ шу́мно."
+            },
+            {
+              "speaker": "Рома́н",
+              "gender": "m",
+              "ru": "Хорошо́. У меня́ есть нау́шники!"
+            },
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "Кла́ссно! По-мо́ему, вы на́ша мечта́!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Све́та",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "red"
+            },
+            {
+              "name": "Рома́н",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "brown",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": false,
+              "top": "gray"
+            }
+          ],
+          "es": "¡Buenas tardes! ¿Cómo se llama?\nMe llamo Román. Soy secretario.\nMucho gusto. ¿Usted contesta los correos rápido?\nSí, rápido y correctamente. Y hablo bien inglés.\n¿Y cómo trabaja usted?\nTrabajo mucho, pero no soy adicto al trabajo. Me gusta trabajar con calma.\nEn nuestra oficina a veces hay ruido.\nEstá bien. ¡Tengo audífonos!\n¡Padrísimo! ¡Para mí, usted es nuestro sueño!",
+          "questions": [
+            {
+              "q": "¿Cuál es la profesión de Román?",
+              "choices": [
+                "Ingeniero",
+                "Secretario",
+                "Abogado"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Cómo contesta Román los correos?",
+              "choices": [
+                "Despacio",
+                "Rápido y correctamente",
+                "Mal"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Cómo le gusta trabajar a Román?",
+              "choices": [
+                "Mucho y hasta tarde",
+                "En casa",
+                "Con calma"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué tiene Román para el ruido?",
+              "choices": [
+                "Audífonos",
+                "Una oficina en casa",
+                "Una hamaca"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "3.3-l-6",
+          "title": "Una oficina aburrida",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Ю́ра",
+              "gender": "m",
+              "ru": "Меня́ зову́т Ю́ра. Я юри́ст и рабо́таю в о́фисе, кото́рый нахо́дится далеко́."
+            },
+            {
+              "speaker": "Ю́ра",
+              "gender": "m",
+              "ru": "Мой о́фис типи́чный: столы́, компью́теры и при́нтеры."
+            },
+            {
+              "speaker": "Ю́ра",
+              "gender": "m",
+              "ru": "Здесь ти́хо, но ску́чно."
+            },
+            {
+              "speaker": "Ю́ра",
+              "gender": "m",
+              "ru": "Колле́ги ма́ло говоря́т и ме́дленно отвеча́ют на пи́сьма."
+            },
+            {
+              "speaker": "Ю́ра",
+              "gender": "m",
+              "ru": "Я сижу́ в интерне́те и ду́маю: где атмосфе́ра? Где креати́вные прое́кты?"
+            },
+            {
+              "speaker": "Ю́ра",
+              "gender": "m",
+              "ru": "Моя́ мечта́ — неформа́льный о́фис, где есть гама́к и аттракцио́ны!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ю́ра",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": true,
+              "top": "blue"
+            }
+          ],
+          "es": "Me llamo Yura. Soy abogado y trabajo en una oficina que está lejos.\nMi oficina es típica: escritorios, computadoras e impresoras.\nAquí hay silencio, pero es aburrido.\nLos colegas hablan poco y contestan los correos despacio.\nNavego en internet y pienso: ¿dónde está el ambiente? ¿Dónde están los proyectos creativos?\n¡Mi sueño es una oficina informal donde haya una hamaca y juegos!",
+          "questions": [
+            {
+              "q": "¿Cuál es la profesión de Yura?",
+              "choices": [
+                "Abogado",
+                "Ingeniero",
+                "Secretario"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Dónde está su oficina?",
+              "choices": [
+                "En el centro",
+                "Cerca",
+                "Lejos"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Cómo contestan los colegas los correos?",
+              "choices": [
+                "Despacio",
+                "Rápido",
+                "Muy bien"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cuál es el sueño de Yura?",
+              "choices": [
+                "Trabajar en casa",
+                "Una oficina informal con hamaca y juegos",
+                "Una oficina en el centro"
+              ],
+              "answer": 1
             }
           ]
         }
@@ -579,6 +1951,30 @@
               "speaker": "Па́вел",
               "gender": "m",
               "ru": "Тогда́ всё не так пло́хо."
+            }
+          ],
+          "cast": [
+            {
+              "name": "Па́вел",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "green"
+            },
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
             }
           ],
           "es": "—¡Hola, Masha! ¿Cómo estás?\n—¡Mal! Tengo vecinos nuevos arriba.\n—¿Cómo son?\n—Jóvenes, alegres y muy ruidosos.\n—¿Y cómo escuchan música?\n—¡Fuerte! El papá es músico. Toca el saxofón temprano y tarde.\n—¡Qué horror! ¿Y los vecinos de abajo?\n—Abajo viven unos jubilados. Son tranquilos y buenos. ¡Me caen muy bien!\n—Entonces no está tan mal.",
@@ -655,6 +2051,19 @@
               "speaker": "Ма́ша",
               "gender": "f",
               "ru": "А моя́ маши́на ма́ленькая и зелёная. Я парку́ю её хорошо́!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
             }
           ],
           "es": "Nuestra vecina de arriba es actriz. Es elegante e impulsiva.\nTiene un coche rojo. El coche es bonito y muy caro.\n¡Pero estaciona el coche fatal!\nEl vecino de abajo siempre está reparando su coche en el patio.\nSu coche es viejo, blanco y lento.\nY mi coche es pequeño y verde. ¡Yo lo estaciono bien!",
@@ -753,6 +2162,41 @@
               "ru": "Спаси́бо! Вы идеа́льные сосе́ди!"
             }
           ],
+          "cast": [
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Оле́г",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": true,
+              "top": "ochre"
+            },
+            {
+              "name": "Ка́тя",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "bun",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            }
+          ],
           "es": "—¡Buenas noches! Soy su vecina, vivo abajo.\n—¡Buenas noches! Soy Oleg, y esta es mi esposa Katia.\n—¡Mucho gusto! ¿Todo bien?\n—No, no todo. Ustedes tocan el saxofón muy fuerte.\n—¿De verdad? Soy músico, trabajo mucho en casa.\n—Entiendo. Pero ya es tarde, y yo trabajo temprano.\n—Y nuestros niños juegan ping-pong con mucho ruido, ¿verdad?\n—Sí, pero sus niños son alegres y buenos.\n—¡Disculpe! En la noche voy a tocar solo bajito.\n—¡Gracias! ¡Son los vecinos perfectos!",
           "questions": [
             {
@@ -788,6 +2232,565 @@
                 "Rápido",
                 "Solo bajito",
                 "Solo en el patio"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "3.4-l-4",
+          "title": "La vecina de abajo se queja",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ни́на Петро́вна",
+              "gender": "f",
+              "ru": "Ма́ша, до́брый ве́чер! Извини́те, но у вас о́чень шу́мно."
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "До́брый ве́чер, Ни́на Петро́вна! Э́то не я. Я сижу́ до́ма ти́хо."
+            },
+            {
+              "speaker": "Ни́на Петро́вна",
+              "gender": "f",
+              "ru": "А кто так гро́мко игра́ет?"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Э́то Оле́г, наш сосе́д наверху́. Он музыка́нт."
+            },
+            {
+              "speaker": "Ни́на Петро́вна",
+              "gender": "f",
+              "ru": "А как он игра́ет? Хорошо́?"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Пра́вильно, но о́чень гро́мко. И ра́но, и по́здно!"
+            },
+            {
+              "speaker": "Ни́на Петро́вна",
+              "gender": "f",
+              "ru": "У́жасно! А мой муж Бори́с спит ра́но."
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Я понима́ю. Но Оле́г до́брый. Я ду́маю, ве́чером он игра́ет ти́хо."
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ни́на Петро́вна",
+              "gender": "f",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            }
+          ],
+          "es": "¡Masha, buenas noches! Disculpe, pero en su casa hay mucho ruido.\n¡Buenas noches, Nina Petrovna! No soy yo. Estoy en casa en silencio.\n¿Y quién toca tan fuerte?\nEs Oleg, nuestro vecino de arriba. Es músico.\n¿Y cómo toca? ¿Bien?\nCorrectamente, pero muy fuerte. ¡Y temprano, y tarde!\n¡Qué horror! Y mi esposo Borís se duerme temprano.\nLo entiendo. Pero Oleg es buena persona. Creo que en la noche va a tocar bajito.",
+          "questions": [
+            {
+              "q": "¿Por qué viene Nina Petrovna a ver a Masha?",
+              "choices": [
+                "Por el ruido",
+                "Por el coche",
+                "Por el perro"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Quién toca tan fuerte?",
+              "choices": [
+                "Masha",
+                "Borís, el esposo de Nina",
+                "Oleg, el vecino de arriba"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Cómo toca Oleg, según Masha?",
+              "choices": [
+                "Mal y despacio",
+                "Correctamente, pero muy fuerte",
+                "Bajito y solo en la mañana"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Quién se duerme temprano?",
+              "choices": [
+                "Borís, el esposo de Nina",
+                "Los niños de Oleg",
+                "Masha"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "3.4-l-5",
+          "title": "Un departamento nuevo",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Вот кварти́ра. Она́ но́вая и о́чень краси́вая."
+            },
+            {
+              "speaker": "А́лла",
+              "gender": "f",
+              "ru": "Да, краси́во! А кака́я ку́хня?"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Ку́хня ма́ленькая, но удо́бная. А гости́ная больша́я и тёплая."
+            },
+            {
+              "speaker": "А́лла",
+              "gender": "f",
+              "ru": "А како́го цве́та спа́льня?"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Спа́льня голуба́я, а де́тская жёлтая."
+            },
+            {
+              "speaker": "А́лла",
+              "gender": "f",
+              "ru": "Мне нра́вится! А сосе́ди? Каки́е они́?"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Сосе́ди наверху́ — пенсионе́ры. Они́ ти́хие и споко́йные."
+            },
+            {
+              "speaker": "А́лла",
+              "gender": "f",
+              "ru": "Отли́чно! А кварти́ра дорога́я?"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Нет, дово́льно дешёвая."
+            },
+            {
+              "speaker": "А́лла",
+              "gender": "f",
+              "ru": "Прекра́сно!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ле́на",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "bun",
+              "glasses": false,
+              "beard": false,
+              "top": "gray"
+            },
+            {
+              "name": "А́лла",
+              "gender": "f",
+              "age": "young",
+              "skin": "medium",
+              "hair": "red",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "Aquí está el departamento. Es nuevo y muy bonito.\n¡Sí, qué bonito! ¿Y cómo es la cocina?\nLa cocina es pequeña, pero cómoda. Y la sala es grande y cálida.\n¿Y de qué color es la recámara?\nLa recámara es azul celeste, y el cuarto de los niños es amarillo.\n¡Me gusta! ¿Y los vecinos? ¿Cómo son?\nLos vecinos de arriba son jubilados. Son silenciosos y tranquilos.\n¡Excelente! ¿Y el departamento es caro?\nNo, es bastante barato.\n¡Maravilloso!",
+          "questions": [
+            {
+              "q": "¿Cómo es la cocina?",
+              "choices": [
+                "Grande y fría",
+                "Pequeña, pero cómoda",
+                "Nueva y cara"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿De qué color es la recámara?",
+              "choices": [
+                "жёлтая",
+                "бе́лая",
+                "голуба́я"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Cómo son los vecinos de arriba?",
+              "choices": [
+                "Jubilados silenciosos y tranquilos",
+                "Jóvenes y ruidosos",
+                "Músicos alegres"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cuánto cuesta el departamento?",
+              "choices": [
+                "Es muy caro",
+                "Es bastante barato",
+                "No se sabe"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "3.4-l-6",
+          "title": "¿Cómo es tu nuevo jefe?",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Па́вел, у тебя́ но́вый шеф? Како́й он?"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Он высо́кий, у́мный и о́чень серьёзный."
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Он молодо́й?"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Нет, не молодо́й, но акти́вный. Он рабо́тает бы́стро и мно́го."
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "А как он говори́т?"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Ти́хо и ве́жливо. Он интеллиге́нтный челове́к."
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "А како́го цве́та у него́ маши́на?"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Чёрная. Маши́на дорога́я, но он парку́ет её у́жасно!"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Ха! Как на́ша сосе́дка Ка́тя!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Па́вел",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "Pável, ¿tienes un jefe nuevo? ¿Cómo es?\nEs alto, inteligente y muy serio.\n¿Es joven?\nNo, no es joven, pero es activo. Trabaja rápido y mucho.\n¿Y cómo habla?\nBajito y con cortesía. Es una persona culta.\n¿Y de qué color es su coche?\nNegro. El coche es caro, ¡pero lo estaciona fatal!\n¡Ja! ¡Como nuestra vecina Katia!",
+          "questions": [
+            {
+              "q": "¿Cómo es el jefe de Pável?",
+              "choices": [
+                "Bajo, alegre y joven",
+                "Alto, inteligente y muy serio",
+                "Viejo, simpático y lento"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Cómo habla el jefe?",
+              "choices": [
+                "Fuerte y rápido",
+                "Poco y mal",
+                "Bajito y con cortesía"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿De qué color es su coche?",
+              "choices": [
+                "чёрная",
+                "кра́сная",
+                "бе́лая"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cómo estaciona el jefe su coche?",
+              "choices": [
+                "Muy bien",
+                "Despacio",
+                "Fatal"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "3.4-l-7",
+          "title": "Los vecinos de Borís Ivánovich",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Бори́с Ива́нович",
+              "gender": "m",
+              "ru": "Меня́ зову́т Бори́с Ива́нович. Я пенсионе́р."
+            },
+            {
+              "speaker": "Бори́с Ива́нович",
+              "gender": "m",
+              "ru": "Я и моя́ жена́ Ни́на живём внизу́, а наверху́ живёт Ма́ша."
+            },
+            {
+              "speaker": "Бори́с Ива́нович",
+              "gender": "m",
+              "ru": "Ма́ша молода́я, весёлая и до́брая. Она́ мне о́чень нра́вится."
+            },
+            {
+              "speaker": "Бори́с Ива́нович",
+              "gender": "m",
+              "ru": "А наверху́, где живу́т музыка́нт и актри́са, всегда́ шу́мно, но интере́сно."
+            },
+            {
+              "speaker": "Бори́с Ива́нович",
+              "gender": "m",
+              "ru": "Я ча́сто ремонти́рую маши́ну во дворе́. Она́ ста́рая и ме́дленная, но я её люблю́."
+            },
+            {
+              "speaker": "Бори́с Ива́нович",
+              "gender": "m",
+              "ru": "Ве́чером Ни́на и я смо́трим сериа́л. Мы смо́трим ти́хо, а сосе́ди наверху́ слу́шают му́зыку гро́мко."
+            },
+            {
+              "speaker": "Бори́с Ива́нович",
+              "gender": "m",
+              "ru": "Но мы оптими́сты!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Бори́с Ива́нович",
+              "gender": "m",
+              "age": "old",
+              "skin": "light",
+              "hair": "none",
+              "hairStyle": "bald",
+              "glasses": false,
+              "beard": true,
+              "top": "ochre"
+            }
+          ],
+          "es": "Me llamo Borís Ivánovich. Soy jubilado.\nMi esposa Nina y yo vivimos abajo, y arriba vive Masha.\nMasha es joven, alegre y buena. Me cae muy bien.\nY más arriba, donde viven un músico y una actriz, siempre hay ruido, pero es interesante.\nSeguido reparo mi coche en el patio. Es viejo y lento, pero lo quiero.\nEn la noche Nina y yo vemos una serie. Nosotros la vemos bajito, y los vecinos de arriba escuchan música fuerte.\n¡Pero somos optimistas!",
+          "questions": [
+            {
+              "q": "¿Quién es Borís Ivánovich?",
+              "choices": [
+                "Un músico",
+                "Un jubilado",
+                "Un mecánico"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Cómo es Masha, según Borís?",
+              "choices": [
+                "Joven, alegre y buena",
+                "Seria y callada",
+                "Ruidosa e impulsiva"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué hace Borís seguido en el patio?",
+              "choices": [
+                "Toca el saxofón",
+                "Juega ping-pong",
+                "Repara su coche"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué hacen Borís y Nina en la noche?",
+              "choices": [
+                "Escuchan música fuerte",
+                "Ven una serie",
+                "Pasean en el patio"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "3.4-l-8",
+          "title": "Entrevista con una actriz",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Ка́тя, вы актри́са. Кака́я у вас роль в сериа́ле?"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Моя́ роль — серьёзная же́нщина, юри́ст."
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "А вы? Кака́я вы?"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Я импульси́вная и эмоциона́льная. И я о́чень люблю́ краси́вые маши́ны!"
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Како́го цве́та ва́ша маши́на?"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Кра́сная! Но я парку́ю пло́хо. Сосе́ди говоря́т: «У́жасно!»"
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "А как вы отдыха́ете?"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "До́ма. Мой муж Оле́г игра́ет на саксофо́не, а де́ти игра́ют в пинг-по́нг. У нас ве́село и шу́мно!"
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "А сосе́ди?"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Сосе́дка Ма́ша ти́хая и ве́жливая. Она́ ре́дко говори́т: «Ти́хо, пожа́луйста!»"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ири́на",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "red"
+            },
+            {
+              "name": "Ка́тя",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "bun",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            }
+          ],
+          "es": "Katia, usted es actriz. ¿Qué papel tiene en la serie?\nMi papel es una mujer seria, abogada.\n¿Y usted? ¿Cómo es usted?\nSoy impulsiva y emocional. ¡Y me encantan los coches bonitos!\n¿De qué color es su coche?\n¡Rojo! Pero me estaciono mal. Los vecinos dicen: «¡Fatal!»\n¿Y cómo descansa usted?\nEn casa. Mi esposo Oleg toca el saxofón y los niños juegan ping-pong. ¡En casa hay alegría y ruido!\n¿Y los vecinos?\nLa vecina Masha es tranquila y educada. Rara vez dice: «¡Silencio, por favor!»",
+          "questions": [
+            {
+              "q": "¿Qué papel tiene Katia en la serie?",
+              "choices": [
+                "Una actriz famosa",
+                "Una mujer seria, abogada",
+                "Una secretaria alegre"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Cómo es Katia?",
+              "choices": [
+                "Impulsiva y emocional",
+                "Tranquila y seria",
+                "Tímida y práctica"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué dicen los vecinos de cómo se estaciona Katia?",
+              "choices": [
+                "«Muy bien»",
+                "«Despacio»",
+                "«Fatal»"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Cómo es Masha, según Katia?",
+              "choices": [
+                "Ruidosa y alegre",
+                "Tranquila y educada",
+                "Seria y aburrida"
               ],
               "answer": 1
             }

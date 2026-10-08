@@ -1,6 +1,8 @@
 // Runtime exercises: every content exercise and every generated one is normalized into these shapes,
 // so the player only needs one component per `kind`.
 
+import type { CastMember } from '../content/types'
+
 export type Lang = 'ru' | 'es'
 
 /** Stats bucket used for topics and badges ("100 conjugations", "50 antonyms"…). */
@@ -21,7 +23,7 @@ interface RunBase {
   passage?: { title?: string; text: string; textEs?: string }
   dialogue?: { speaker: string; ru: string }[]
   /** Listening piece played (not shown) above the question; its text is revealed after answering. */
-  listen?: { id: string; title: string; lines: { speaker?: string; ru: string }[]; es?: string }
+  listen?: { id: string; title: string; lines: { speaker?: string; ru: string }[]; es?: string; cast?: CastMember[] }
 }
 
 export type RunExercise = RunBase & (

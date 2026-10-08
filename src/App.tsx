@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useRoute, navigate } from './lib/router'
 import { useStore } from './state/store'
 import { Icon } from './components/ui'
-import { useAudioReady } from './lib/audio'
+import { stopAudio, useAudioReady } from './lib/audio'
 import { Home } from './screens/Home'
 import { Path } from './screens/Path'
 import { Player } from './screens/Player'
@@ -47,6 +47,16 @@ export default function App() {
   useEffect(() => {
     settleStreak()
   }, [settleStreak])
+
+  // Leaving a screen (or the app) stops any recording that's playing.
+  useEffect(() => {
+    stopAudio()
+  }, [raw])
+  useEffect(() => {
+    const onHide = () => document.visibilityState === 'hidden' && stopAudio()
+    document.addEventListener('visibilitychange', onHide)
+    return () => document.removeEventListener('visibilitychange', onHide)
+  }, [])
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme

@@ -28,7 +28,7 @@ export function ChoiceEx({ ex, locked, ready }: ExProps<'choice'>) {
   return (
     <div>
       <ContextBlock ex={ex} />
-      <ListenBlock ex={ex} locked={locked} />
+      <ListenBlock ex={ex} locked={locked} correct={locked && sel === ex.answer} />
       {ex.prompt && (
         <p className={`mb-7 ${ex.promptLang === 'ru' ? `ru ${ruPromptSize(ex.prompt)} font-bold leading-snug` : 'text-2xl font-bold text-ink/85'}`}>
           {ex.prompt.includes('___')

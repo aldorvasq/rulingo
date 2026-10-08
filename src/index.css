@@ -155,3 +155,10 @@ body {
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .shimmer-text { color: #fff; background: none; }
 }
+
+/* Audio seek slider: thin track filled up to the playhead. */
+.audio-slider { -webkit-appearance: none; appearance: none; height: 6px; border-radius: 3px; cursor: pointer;
+  background: linear-gradient(to right, var(--brand) var(--pct, 0%), var(--line) var(--pct, 0%)); }
+.audio-slider::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%;
+  background: var(--card); border: 3px solid var(--brand); box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+.audio-slider::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: var(--card); border: 3px solid var(--brand); }

@@ -88,6 +88,30 @@
               ],
               "answer": 1
             }
+          ],
+          "cast": [
+            {
+              "name": "Хосе́",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "red"
+            },
+            {
+              "name": "Ли́за",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            }
           ]
         },
         {
@@ -163,6 +187,488 @@
                 "No, no es millonario"
               ],
               "answer": 2
+            }
+          ],
+          "cast": [
+            {
+              "name": "Хосе́",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "red"
+            }
+          ]
+        },
+        {
+          "id": "2.1-l-3",
+          "title": "Llamada: ¿dónde está el pasaporte?",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Ми́ша, приве́т! Э́то Ната́ша."
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Приве́т, Ната́ша! Как дела́?"
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Пло́хо. Я не зна́ю, где па́спорт. Здесь су́мка, ключи́, кошелёк, телефо́н… А где па́спорт?"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Здесь, спра́ва, стол. Вот газе́та, ла́мпа, компью́тер… И вот па́спорт!"
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Отли́чно! А биле́т? Биле́т то́же там?"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Да, вот биле́т. И зо́нтик то́же здесь."
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Спаси́бо, Ми́ша! У тебя́ есть маши́на?"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Коне́чно, есть. Па́спорт, биле́т, зо́нтик — всё здесь. До встре́чи!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ната́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "green"
+            },
+            {
+              "name": "Ми́ша",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "blue"
+            }
+          ],
+          "es": "¡Misha, hola! Soy Natasha.\n¡Hola, Natasha! ¿Cómo estás?\nMal. No sé dónde está el pasaporte. Aquí están la bolsa, las llaves, el monedero, el teléfono… ¿Pero dónde está el pasaporte?\nAquí, a la derecha, está la mesa. Aquí están el periódico, la lámpara, la computadora… ¡Y aquí está el pasaporte!\n¡Excelente! ¿Y el boleto? ¿El boleto también está ahí?\nSí, aquí está el boleto. Y el paraguas también está aquí.\n¡Gracias, Misha! ¿Tienes carro?\nClaro que tengo. Pasaporte, boleto, paraguas: todo está aquí. ¡Nos vemos!",
+          "questions": [
+            {
+              "q": "¿Qué no encuentra Natasha?",
+              "choices": [
+                "Las llaves",
+                "El pasaporte",
+                "El teléfono"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Dónde está la mesa?",
+              "choices": [
+                "A la izquierda",
+                "En el centro",
+                "A la derecha"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Además del pasaporte y el boleto, ¿qué más encuentra Misha?",
+              "choices": [
+                "El paraguas",
+                "Los lentes",
+                "El diccionario"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué tiene Misha?",
+              "choices": [
+                "Una moto",
+                "Un carro",
+                "Una bicicleta"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "2.1-l-4",
+          "title": "Mensaje de la maestra",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Здра́вствуйте! Меня́ зову́т Ири́на, я преподава́тель."
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Экза́мен здесь, в це́нтре. Шко́ла спра́ва, банк сле́ва."
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Класс — три́дцать два."
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Па́спорт, пожа́луйста! И ру́чка, каранда́ш, тетра́дь."
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "У Вас есть фо́то? Фо́то то́же, пожа́луйста!"
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Слова́рь и телефо́н? Нет, нет и нет!"
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Телефо́н: девяно́сто, со́рок, пятьдеся́т шесть."
+            },
+            {
+              "speaker": "Ири́на",
+              "gender": "f",
+              "ru": "Спаси́бо! До свида́ния!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ири́на",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "gray"
+            }
+          ],
+          "es": "¡Buenos días! Me llamo Irina, soy maestra.\nEl examen es aquí, en el centro. La escuela está a la derecha, el banco a la izquierda.\nEl salón es el treinta y dos.\n¡El pasaporte, por favor! Y pluma, lápiz y cuaderno.\n¿Tienen foto? ¡La foto también, por favor!\n¿Diccionario y teléfono? ¡No, no y no!\nTeléfono: noventa, cuarenta, cincuenta y seis.\n¡Gracias! ¡Hasta luego!",
+          "questions": [
+            {
+              "q": "¿Quién deja el mensaje?",
+              "choices": [
+                "Una estudiante",
+                "Una maestra",
+                "Una secretaria"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué número es el salón?",
+              "choices": [
+                "32",
+                "23",
+                "42"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué NO se puede llevar al examen?",
+              "choices": [
+                "Pluma",
+                "Lápiz",
+                "Diccionario"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Dónde está el banco?",
+              "choices": [
+                "A la derecha",
+                "A la izquierda",
+                "Junto al metro"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "2.1-l-5",
+          "title": "Entrevista con un entrenador",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "До́брый день! Я журнали́ст. Как Вас зову́т?"
+            },
+            {
+              "speaker": "Бори́с",
+              "gender": "m",
+              "ru": "Здра́вствуйте! Меня́ зову́т Бори́с. Я тре́нер."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "Бори́с, у Вас есть клие́нты?"
+            },
+            {
+              "speaker": "Бори́с",
+              "gender": "m",
+              "ru": "Да, коне́чно, есть."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "Ско́лько?"
+            },
+            {
+              "speaker": "Бори́с",
+              "gender": "m",
+              "ru": "Три́дцать во́семь. Мы рабо́таем здесь, в це́нтре. Вот парк."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "А э́то что? Э́то стадио́н?"
+            },
+            {
+              "speaker": "Бори́с",
+              "gender": "m",
+              "ru": "Нет, э́то не стадио́н. Э́то зоопа́рк!"
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "У Вас есть фо́рма?"
+            },
+            {
+              "speaker": "Бори́с",
+              "gender": "m",
+              "ru": "Есть. Вот фо́рма, вот часы́, а вот телефо́н."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "А я́хта и ви́лла? Вы миллионе́р?"
+            },
+            {
+              "speaker": "Бори́с",
+              "gender": "m",
+              "ru": "Нет, что Вы! Я тре́нер, а не миллионе́р."
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ве́ра",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Бори́с",
+              "gender": "m",
+              "age": "adult",
+              "skin": "dark",
+              "hair": "none",
+              "hairStyle": "bald",
+              "glasses": false,
+              "beard": true,
+              "top": "green"
+            }
+          ],
+          "es": "¡Buenas tardes! Soy periodista. ¿Cómo se llama usted?\n¡Buenas tardes! Me llamo Borís. Soy entrenador.\nBorís, ¿tiene clientes?\nSí, claro que tengo.\n¿Cuántos?\nTreinta y ocho. Trabajamos aquí, en el centro. Este es el parque.\n¿Y eso qué es? ¿Es un estadio?\nNo, no es un estadio. ¡Es el zoológico!\n¿Tiene uniforme?\nSí. Aquí está el uniforme, aquí el reloj y aquí el teléfono.\n¿Y yate y villa? ¿Es usted millonario?\n¡No, qué va! Soy entrenador, no millonario.",
+          "questions": [
+            {
+              "q": "¿Cuál es la profesión de Borís?",
+              "choices": [
+                "Periodista",
+                "Fotógrafo",
+                "Entrenador"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Cuántos clientes tiene?",
+              "choices": [
+                "28",
+                "38",
+                "48"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Vera cree que ve un estadio. ¿Qué es en realidad?",
+              "choices": [
+                "El zoológico",
+                "La escuela",
+                "El banco"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Es Borís millonario?",
+              "choices": [
+                "Sí, tiene yate",
+                "No, es entrenador",
+                "Sí, tiene villa"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "2.1-l-6",
+          "title": "En el tianguis",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ка́рла",
+              "gender": "f",
+              "ru": "Здра́вствуйте! Что э́то? Э́то часы́?"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Да, э́то часы́. Они́ из Швейца́рии."
+            },
+            {
+              "speaker": "Ка́рла",
+              "gender": "f",
+              "ru": "Ско́лько?"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Девяно́сто."
+            },
+            {
+              "speaker": "Ка́рла",
+              "gender": "f",
+              "ru": "Девяно́сто? Ой! А э́то что? Фотоаппара́т и́ли пле́ер?"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Э́то фотоаппара́т. Он из Герма́нии."
+            },
+            {
+              "speaker": "Ка́рла",
+              "gender": "f",
+              "ru": "Ско́лько?"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Пятьдеся́т."
+            },
+            {
+              "speaker": "Ка́рла",
+              "gender": "f",
+              "ru": "А ла́мпа? Ско́лько?"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Ла́мпа — два́дцать. И зо́нтик то́же два́дцать."
+            },
+            {
+              "speaker": "Ка́рла",
+              "gender": "f",
+              "ru": "Хорошо́! Ла́мпа и зо́нтик, пожа́луйста. Вот со́рок."
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Спаси́бо! До свида́ния!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ка́рла",
+              "gender": "f",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": false,
+              "top": "ochre"
+            },
+            {
+              "name": "Ди́ма",
+              "gender": "m",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": true,
+              "top": "gray"
+            }
+          ],
+          "es": "¡Buenos días! ¿Qué es esto? ¿Es un reloj?\nSí, es un reloj. Es de Suiza.\n¿Cuánto cuesta?\nNoventa.\n¿Noventa? ¡Ay! ¿Y esto qué es? ¿Una cámara o un reproductor de música?\nEs una cámara. Es de Alemania.\n¿Cuánto cuesta?\nCincuenta.\n¿Y la lámpara? ¿Cuánto?\nLa lámpara, veinte. Y el paraguas también, veinte.\n¡Muy bien! La lámpara y el paraguas, por favor. Aquí tiene cuarenta.\n¡Gracias! ¡Hasta luego!",
+          "questions": [
+            {
+              "q": "¿De dónde es el reloj?",
+              "choices": [
+                "De Alemania",
+                "De Suiza",
+                "De Italia"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Cuánto cuesta la cámara?",
+              "choices": [
+                "50",
+                "90",
+                "20"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué compra Karla?",
+              "choices": [
+                "El reloj y la cámara",
+                "La cámara y la lámpara",
+                "La lámpara y el paraguas"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Cuánto paga Karla en total?",
+              "choices": [
+                "20",
+                "40",
+                "90"
+              ],
+              "answer": 1
             }
           ]
         }
@@ -255,6 +761,30 @@
               ],
               "answer": 1
             }
+          ],
+          "cast": [
+            {
+              "name": "Жан",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "curly",
+              "glasses": true,
+              "beard": false,
+              "top": "gray"
+            },
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            }
           ]
         },
         {
@@ -330,6 +860,427 @@
                 "Max y Katia"
               ],
               "answer": 1
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ли́за",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            }
+          ]
+        },
+        {
+          "id": "2.2-l-3",
+          "title": "La abuela Galina",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Гали́на",
+              "gender": "f",
+              "ru": "Здра́вствуйте! Меня́ зову́т Гали́на. Я ба́бушка."
+            },
+            {
+              "speaker": "Гали́на",
+              "gender": "f",
+              "ru": "Вот мой муж Ива́н. Мы пенсионе́ры."
+            },
+            {
+              "speaker": "Гали́на",
+              "gender": "f",
+              "ru": "Наш сын Оле́г — врач. Его́ жена́ Ве́ра — журнали́ст."
+            },
+            {
+              "speaker": "Гали́на",
+              "gender": "f",
+              "ru": "У них есть де́ти: сын Ко́стя и дочь Да́ша. Ко́стя — студе́нт, а Да́ша — ребёнок."
+            },
+            {
+              "speaker": "Гали́на",
+              "gender": "f",
+              "ru": "Ко́стя и Да́ша — мои́ вну́ки. Вот мой внук, а вот моя́ вну́чка!"
+            },
+            {
+              "speaker": "Гали́на",
+              "gender": "f",
+              "ru": "На́ша дочь О́льга — стюарде́сса. У неё есть па́рень, его́ зову́т Марк."
+            },
+            {
+              "speaker": "Гали́на",
+              "gender": "f",
+              "ru": "А э́то чья соба́ка? Э́то на́ша соба́ка Бо́бик!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Гали́на",
+              "gender": "f",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "red"
+            }
+          ],
+          "es": "¡Buenos días! Me llamo Galina. Soy abuela.\nEste es mi esposo, Iván. Somos pensionados.\nNuestro hijo Oleg es médico. Su esposa Vera es periodista.\nTienen hijos: un hijo, Kostia, y una hija, Dasha. Kostia es estudiante y Dasha es una niña.\nKostia y Dasha son mis nietos. ¡Este es mi nieto y esta es mi nieta!\nNuestra hija Olga es sobrecargo. Tiene novio, se llama Mark.\n¿Y de quién es este perro? ¡Es nuestro perro, Bóbik!",
+          "questions": [
+            {
+              "q": "¿Qué profesión tiene Oleg?",
+              "choices": [
+                "Médico",
+                "Periodista",
+                "Ingeniero"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cómo se llama la nieta de Galina?",
+              "choices": [
+                "Olga",
+                "Vera",
+                "Dasha"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Quién es sobrecargo?",
+              "choices": [
+                "Vera",
+                "Olga",
+                "Galina"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Cómo se llama el perro?",
+              "choices": [
+                "Barsik",
+                "Pushok",
+                "Bóbik"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "2.2-l-4",
+          "title": "Llamada: ¿de quién es el abrigo?",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "Анто́н, приве́т! Э́то Све́та."
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Приве́т, Све́та! Как дела́?"
+            },
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "Хорошо́. Анто́н, у меня́ здесь пальто́ и зонт. Чьё э́то пальто́? Твоё?"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Нет, не моё. А что там?"
+            },
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "Здесь ключи́, кошелёк и па́спорт. Фами́лия — Гонса́лес."
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Гонса́лес? Э́то Хуа́н, мой друг. Он мексика́нец. Э́то его́ пальто́."
+            },
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "А зонт? Чей э́то зонт? Твой?"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Да, э́то мой зонт! Спаси́бо, Све́та!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Све́та",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "long",
+              "glasses": true,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Анто́н",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "ochre"
+            }
+          ],
+          "es": "¡Antón, hola! Soy Sveta.\n¡Hola, Sveta! ¿Cómo estás?\nBien. Antón, aquí tengo un abrigo y un paraguas. ¿De quién es el abrigo? ¿Tuyo?\nNo, no es mío. ¿Y qué hay ahí?\nAquí hay unas llaves, un monedero y un pasaporte. El apellido es González.\n¿González? Es Juan, mi amigo. Es mexicano. Es su abrigo.\n¿Y el paraguas? ¿De quién es el paraguas? ¿Tuyo?\n¡Sí, es mi paraguas! ¡Gracias, Sveta!",
+          "questions": [
+            {
+              "q": "¿Qué cosas tiene Sveta?",
+              "choices": [
+                "Un abrigo y un paraguas",
+                "Una bolsa y un teléfono",
+                "Un abrigo y una cámara"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué apellido aparece en el pasaporte?",
+              "choices": [
+                "Gómez",
+                "González",
+                "García"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿De dónde es Juan?",
+              "choices": [
+                "De España",
+                "De Argentina",
+                "De México"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué cosa es de Antón?",
+              "choices": [
+                "El abrigo",
+                "El paraguas",
+                "El pasaporte"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "2.2-l-5",
+          "title": "La familia de Mila",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Ми́ла",
+              "gender": "f",
+              "ru": "Приве́т! Я Ми́ла. Э́то моя́ семья́."
+            },
+            {
+              "speaker": "Ми́ла",
+              "gender": "f",
+              "ru": "Вот мой па́па. Его́ зову́т Серге́й, он такси́ст."
+            },
+            {
+              "speaker": "Ми́ла",
+              "gender": "f",
+              "ru": "Вот моя́ ма́ма. Её зову́т Ле́на, она́ до́ктор."
+            },
+            {
+              "speaker": "Ми́ла",
+              "gender": "f",
+              "ru": "У меня́ есть брат. Его́ зову́т Ти́ма. Он ребёнок."
+            },
+            {
+              "speaker": "Ми́ла",
+              "gender": "f",
+              "ru": "Вот мой дя́дя Ко́ля и моя́ тётя И́ра. Их дочь Со́ня — моя́ подру́га."
+            },
+            {
+              "speaker": "Ми́ла",
+              "gender": "f",
+              "ru": "А э́то наш кот Баро́н. Он то́же на́ша семья́!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ми́ла",
+              "gender": "f",
+              "age": "child",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            }
+          ],
+          "es": "¡Hola! Soy Mila. Esta es mi familia.\nEste es mi papá. Se llama Serguéi, es taxista.\nEsta es mi mamá. Se llama Lena, es doctora.\nTengo un hermano. Se llama Tima. Es un niño.\nEstos son mi tío Kolia y mi tía Ira. Su hija Sonia es mi amiga.\n¡Y este es nuestro gato Barón. También es de la familia!",
+          "questions": [
+            {
+              "q": "¿Qué profesión tiene el papá de Mila?",
+              "choices": [
+                "Doctor",
+                "Taxista",
+                "Músico"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Cómo se llama la mamá?",
+              "choices": [
+                "Lena",
+                "Ira",
+                "Sonia"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Quién es Sonia?",
+              "choices": [
+                "La hermana de Mila",
+                "La tía de Mila",
+                "La hija del tío Kolia y la tía Ira"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué mascota tiene la familia?",
+              "choices": [
+                "Un perro",
+                "Un gato",
+                "Un perico"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "2.2-l-6",
+          "title": "Correo, teléfono y una foto",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Ди́ана, у тебя́ есть име́йл?"
+            },
+            {
+              "speaker": "Ди́ана",
+              "gender": "f",
+              "ru": "Да, есть: ди́ана сто, соба́ка, ма́йл, то́чка, ком."
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Спаси́бо! А телефо́н?"
+            },
+            {
+              "speaker": "Ди́ана",
+              "gender": "f",
+              "ru": "Телефо́н: восемна́дцать, со́рок, девяно́сто три. А твой име́йл?"
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Мой име́йл: па́бло, соба́ка, ма́йл, то́чка, ру."
+            },
+            {
+              "speaker": "Ди́ана",
+              "gender": "f",
+              "ru": "Па́бло, а чья э́то фотогра́фия? Э́то твоя́ де́вушка?"
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Нет, что ты! Э́то моя́ сестра́ Ло́ла. А э́то её муж и их сын."
+            },
+            {
+              "speaker": "Ди́ана",
+              "gender": "f",
+              "ru": "А э́то кто? Твой па́па?"
+            },
+            {
+              "speaker": "Па́бло",
+              "gender": "m",
+              "ru": "Нет, э́то мой де́душка. Он пенсионе́р. А э́то его́ соба́ка!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Па́бло",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "brown",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Ди́ана",
+              "gender": "f",
+              "age": "young",
+              "skin": "dark",
+              "hair": "black",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "Diana, ¿tienes correo electrónico?\nSí, tengo: diana cien, arroba, mail, punto, com.\n¡Gracias! ¿Y el teléfono?\nTeléfono: dieciocho, cuarenta, noventa y tres. ¿Y tu correo?\nMi correo es: pablo, arroba, mail, punto, ru.\nPablo, ¿y de quién es esta fotografía? ¿Es tu novia?\n¡No, qué va! Es mi hermana Lola. Y este es su esposo y su hijo.\n¿Y este quién es? ¿Tu papá?\nNo, es mi abuelo. Es pensionado. ¡Y este es su perro!",
+          "questions": [
+            {
+              "q": "¿Qué número aparece en el correo de Diana?",
+              "choices": [
+                "18",
+                "100",
+                "40"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Cuál es el teléfono de Diana?",
+              "choices": [
+                "18-40-93",
+                "18-14-93",
+                "80-40-39"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Quién es Lola?",
+              "choices": [
+                "La novia de Pablo",
+                "La hermana de Pablo",
+                "La abuela de Pablo"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿De quién es el perro de la foto?",
+              "choices": [
+                "De Lola",
+                "De Diana",
+                "Del abuelo"
+              ],
+              "answer": 2
             }
           ]
         }
@@ -427,6 +1378,41 @@
               ],
               "answer": 2
             }
+          ],
+          "cast": [
+            {
+              "name": "Ли́за",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Ли",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "green"
+            }
           ]
         },
         {
@@ -500,6 +1486,433 @@
                 "Lee novelas",
                 "Ve futbol y escucha la radio",
                 "Juega ajedrez"
+              ],
+              "answer": 1
+            }
+          ],
+          "cast": [
+            {
+              "name": "Джова́нни",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": false,
+              "top": "ochre"
+            }
+          ]
+        },
+        {
+          "id": "2.3-l-3",
+          "title": "Entrevista en la radio",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "До́брый ве́чер! Вы слу́шаете ра́дио, переда́ча «Мелома́н». Я Ве́ра."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "Здесь балери́на Али́са. Али́са, что Вы слу́шаете?"
+            },
+            {
+              "speaker": "Али́са",
+              "gender": "f",
+              "ru": "Я обожа́ю кла́ссику. И о́перу то́же люблю́."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "А рок? Поп?"
+            },
+            {
+              "speaker": "Али́са",
+              "gender": "f",
+              "ru": "Рок я ненави́жу. Поп — не о́чень. А джаз и блюз о́чень люблю́."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "А что Вы смо́трите? Сериа́лы?"
+            },
+            {
+              "speaker": "Али́са",
+              "gender": "f",
+              "ru": "Нет, сериа́лы — скоре́е нет. Я смотрю́ но́вости и детекти́вы."
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "А что Вы чита́ете?"
+            },
+            {
+              "speaker": "Али́са",
+              "gender": "f",
+              "ru": "Поэ́зию и рома́ны. И я всегда́ разга́дываю кроссво́рды!"
+            },
+            {
+              "speaker": "Ве́ра",
+              "gender": "f",
+              "ru": "Спаси́бо, Али́са!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ве́ра",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Али́са",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "bun",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            }
+          ],
+          "es": "¡Buenas noches! Están escuchando la radio, el programa «Melómano». Soy Vera.\nAquí está la bailarina Alisa. Alisa, ¿qué escucha usted?\nMe encanta la música clásica. Y la ópera también me gusta.\n¿Y el rock? ¿El pop?\nEl rock lo odio. El pop, no mucho. Y el jazz y el blues me gustan mucho.\n¿Y qué ve usted? ¿Series?\nNo, las series más bien no. Veo las noticias y películas policiacas.\n¿Y qué lee?\nPoesía y novelas. ¡Y siempre resuelvo crucigramas!\n¡Gracias, Alisa!",
+          "questions": [
+            {
+              "q": "¿Cuál es la profesión de Alisa?",
+              "choices": [
+                "Cantante de ópera",
+                "Bailarina",
+                "Periodista"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué música odia Alisa?",
+              "choices": [
+                "El rock",
+                "El jazz",
+                "La ópera"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué ve Alisa?",
+              "choices": [
+                "Series y comedias",
+                "Futbol y noticias",
+                "Noticias y películas policiacas"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué hace siempre?",
+              "choices": [
+                "Ve series",
+                "Resuelve crucigramas",
+                "Escucha blues"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "2.3-l-4",
+          "title": "Mensaje de voz de mamá",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "Джова́нни, приве́т! Э́то ма́ма."
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "Где ты? Что ты де́лаешь? Ты смо́тришь футбо́л?"
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "А дома́шнее зада́ние? Ты де́лаешь дома́шнее зада́ние?"
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "Здесь па́па, он смо́трит телеви́зор."
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "У нас лаза́нья и сала́т. И торт!"
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "Ты лю́бишь лаза́нью? Коне́чно, лю́бишь!"
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "Джова́нни, где ты? Кошма́р! Пока́!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ма́ма",
+              "gender": "f",
+              "age": "old",
+              "skin": "medium",
+              "hair": "gray",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "red"
+            }
+          ],
+          "es": "¡Giovanni, hola! Soy mamá.\n¿Dónde estás? ¿Qué estás haciendo? ¿Estás viendo futbol?\n¿Y la tarea? ¿Estás haciendo la tarea?\nAquí está papá, está viendo la tele.\nTenemos lasaña y ensalada. ¡Y pastel!\n¿Te gusta la lasaña? ¡Claro que te gusta!\nGiovanni, ¿dónde estás? ¡Qué horror! ¡Adiós!",
+          "questions": [
+            {
+              "q": "¿Quién deja el mensaje?",
+              "choices": [
+                "La hermana de Giovanni",
+                "La mamá de Giovanni",
+                "La novia de Giovanni"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué está haciendo el papá?",
+              "choices": [
+                "Ve la tele",
+                "Escucha la radio",
+                "Lee el periódico"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué hay de comer?",
+              "choices": [
+                "Pizza y pasta",
+                "Sushi y sopa",
+                "Lasaña, ensalada y pastel"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "2.3-l-5",
+          "title": "¿Qué vemos hoy?",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Макс, что ты де́лаешь?"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Я смотрю́ телеви́зор. Здесь хокке́й. Ты лю́бишь хокке́й?"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Хокке́й? Нет, не о́чень. Я люблю́ кино́. Ты лю́бишь коме́дию?"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Коме́дию — скоре́е да. А дра́му я ненави́жу."
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "А детекти́вы?"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Детекти́вы я обожа́ю!"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Я то́же! Мы о́ба лю́бим детекти́вы."
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "То́чно! А попко́рн и ко́ла?"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Коне́чно! Попко́рн, ко́ла и десе́рт — я сладкое́жка!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ка́тя",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "curly",
+              "glasses": true,
+              "beard": false,
+              "top": "ochre"
+            },
+            {
+              "name": "Макс",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "gray"
+            }
+          ],
+          "es": "Max, ¿qué estás haciendo?\nEstoy viendo la tele. Hay hockey. ¿Te gusta el hockey?\n¿El hockey? No, no mucho. A mí me gusta el cine. ¿Te gusta la comedia?\nLa comedia, más bien sí. Pero el drama lo odio.\n¿Y las películas policiacas?\n¡Las películas policiacas me encantan!\n¡A mí también! A los dos nos gustan las películas policiacas.\n¡Exacto! ¿Y palomitas y refresco de cola?\n¡Claro! Palomitas, refresco y postre: ¡soy golosa!",
+          "questions": [
+            {
+              "q": "¿Qué ve Max en la tele?",
+              "choices": [
+                "Futbol",
+                "Hockey",
+                "Básquetbol"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué odia Max?",
+              "choices": [
+                "El drama",
+                "La comedia",
+                "Las películas policiacas"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué les gusta a los dos?",
+              "choices": [
+                "La comedia",
+                "El drama",
+                "Las películas policiacas"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Cómo es Katia?",
+              "choices": [
+                "Habladora",
+                "Golosa",
+                "Melómana"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "2.3-l-6",
+          "title": "Los gustos de Li",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Ли",
+              "gender": "m",
+              "ru": "Приве́т! Меня́ зову́т Ли. Я из Кита́я."
+            },
+            {
+              "speaker": "Ли",
+              "gender": "m",
+              "ru": "Я студе́нт. Я чита́ю филосо́фию и психоло́гию."
+            },
+            {
+              "speaker": "Ли",
+              "gender": "m",
+              "ru": "Я люблю́ ша́хматы. И я обожа́ю ка́рты и билья́рд."
+            },
+            {
+              "speaker": "Ли",
+              "gender": "m",
+              "ru": "Коме́дию я ненави́жу. Кино́ — скоре́е нет."
+            },
+            {
+              "speaker": "Ли",
+              "gender": "m",
+              "ru": "Я слу́шаю джаз и кла́ссику. Рок — не о́чень."
+            },
+            {
+              "speaker": "Ли",
+              "gender": "m",
+              "ru": "Я люблю́ су́ши и борщ. А пи́ццу ненави́жу!"
+            },
+            {
+              "speaker": "Ли",
+              "gender": "m",
+              "ru": "Мой друг Джова́нни говори́т: «Ли, ты то́чно не италья́нец!»"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ли",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "¡Hola! Me llamo Li. Soy de China.\nSoy estudiante. Leo filosofía y psicología.\nMe gusta el ajedrez. Y me encantan las cartas y el billar.\nLa comedia la odio. El cine, más bien no.\nEscucho jazz y música clásica. El rock, no mucho.\nMe gustan el sushi y el borsch. ¡Pero la pizza la odio!\nMi amigo Giovanni dice: «¡Li, definitivamente no eres italiano!»",
+          "questions": [
+            {
+              "q": "¿De dónde es Li?",
+              "choices": [
+                "De Japón",
+                "De China",
+                "De Corea"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué le encanta a Li?",
+              "choices": [
+                "Las cartas y el billar",
+                "El futbol y el hockey",
+                "El karaoke y la salsa"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué comida odia Li?",
+              "choices": [
+                "El sushi",
+                "El borsch",
+                "La pizza"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué música escucha?",
+              "choices": [
+                "Rock y pop",
+                "Jazz y música clásica",
+                "Blues y ópera"
               ],
               "answer": 1
             }
@@ -604,6 +2017,30 @@
               ],
               "answer": 0
             }
+          ],
+          "cast": [
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Фрэнк",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "blue"
+            }
           ]
         },
         {
@@ -682,6 +2119,447 @@
                 "Trabaja mucho y fuma",
                 "Le gusta pasear y cocinar pelmeni",
                 "Le gustan el futbol y la cerveza"
+              ],
+              "answer": 1
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ни́на",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "red"
+            }
+          ]
+        },
+        {
+          "id": "2.4-l-3",
+          "title": "Entrevista con Marina",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Кири́лл",
+              "gender": "m",
+              "ru": "Мари́на, Вы изуча́ете архитекту́ру?"
+            },
+            {
+              "speaker": "Мари́на",
+              "gender": "f",
+              "ru": "Да, я студе́нтка. Я изуча́ю архитекту́ру и мно́го рабо́таю."
+            },
+            {
+              "speaker": "Кири́лл",
+              "gender": "m",
+              "ru": "А что Вы де́лаете, когда́ отдыха́ете?"
+            },
+            {
+              "speaker": "Мари́на",
+              "gender": "f",
+              "ru": "Я игра́ю на скри́пке и на пиани́но. И я пою́."
+            },
+            {
+              "speaker": "Кири́лл",
+              "gender": "m",
+              "ru": "Вы игра́ете в те́ннис?"
+            },
+            {
+              "speaker": "Мари́на",
+              "gender": "f",
+              "ru": "Нет, в те́ннис я игра́ю пло́хо. Я игра́ю в волейбо́л."
+            },
+            {
+              "speaker": "Кири́лл",
+              "gender": "m",
+              "ru": "А Вы гото́вите?"
+            },
+            {
+              "speaker": "Мари́на",
+              "gender": "f",
+              "ru": "Гото́вить я ненави́жу! Но я люблю́ рисова́ть и путеше́ствовать."
+            },
+            {
+              "speaker": "Кири́лл",
+              "gender": "m",
+              "ru": "Мари́на, Вы ге́ний!"
+            },
+            {
+              "speaker": "Мари́на",
+              "gender": "f",
+              "ru": "Нет, что Вы! Я ма́ло сплю, вот и всё."
+            }
+          ],
+          "cast": [
+            {
+              "name": "Кири́лл",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Мари́на",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "long",
+              "glasses": true,
+              "beard": false,
+              "top": "green"
+            }
+          ],
+          "es": "Marina, ¿usted estudia arquitectura?\nSí, soy estudiante. Estudio arquitectura y trabajo mucho.\n¿Y qué hace cuando descansa?\nToco el violín y el piano. Y canto.\n¿Juega tenis?\nNo, al tenis juego mal. Juego voleibol.\n¿Y usted cocina?\n¡Odio cocinar! Pero me encanta dibujar y viajar.\n¡Marina, es usted un genio!\n¡No, qué va! Duermo poco, eso es todo.",
+          "questions": [
+            {
+              "q": "¿Qué estudia Marina?",
+              "choices": [
+                "Medicina",
+                "Arquitectura",
+                "Psicología"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué instrumentos toca?",
+              "choices": [
+                "Violín y piano",
+                "Flauta y trompeta",
+                "Guitarra y violonchelo"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué deporte juega?",
+              "choices": [
+                "Tenis",
+                "Golf",
+                "Voleibol"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué odia hacer?",
+              "choices": [
+                "Dibujar",
+                "Cocinar",
+                "Viajar"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "2.4-l-4",
+          "title": "Mensaje de voz de Nina",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Ли́за, приве́т! Э́то Ни́на."
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "У меня́ есть партнёр! Его́ зову́т Ро́берт."
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Он америка́нец, он автомеха́ник."
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Он не ку́рит и не трудого́лик. Он лю́бит гуля́ть и танцева́ть та́нго."
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "И он прекра́сно гото́вит пельме́ни!"
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Мы вме́сте поём и игра́ем: я на пиани́но, а он на саксофо́не."
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Кла́ссно! Пока́!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ни́на",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "red"
+            }
+          ],
+          "es": "¡Liza, hola! Soy Nina.\n¡Tengo pareja! Se llama Robert.\nEs estadounidense, es mecánico automotriz.\nNo fuma y no es adicto al trabajo. Le gusta pasear y bailar tango.\n¡Y cocina pelmeni de maravilla!\nJuntos cantamos y tocamos: yo el piano y él el saxofón.\n¡Genial! ¡Adiós!",
+          "questions": [
+            {
+              "q": "¿Cómo se llama la pareja de Nina?",
+              "choices": [
+                "Max",
+                "Robert",
+                "Frank"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué profesión tiene él?",
+              "choices": [
+                "Mecánico automotriz",
+                "Contador",
+                "Profesor"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué instrumento toca él?",
+              "choices": [
+                "El piano",
+                "La trompeta",
+                "El saxofón"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué cocina muy bien?",
+              "choices": [
+                "Paella",
+                "Pelmeni",
+                "Pizza"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "2.4-l-5",
+          "title": "El abuelo y Kostia",
+          "kind": "dialogue",
+          "lines": [
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Де́душка, что ты де́лаешь?"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Я пишу́ письмо́. А ты?"
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Я игра́ю в ша́хматы. Ты игра́ешь в ша́хматы?"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Коне́чно! Я игра́ю отли́чно. А ба́бушка игра́ет в ка́рты?"
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Ба́бушка? Нет, она́ поёт и танцу́ет. Она́ обожа́ет са́льсу!"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Да, она́ у нас тала́нт!"
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "А па́па? Что де́лает па́па, когда́ отдыха́ет?"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Твой па́па? Он спит! Он врач, он мно́го рабо́тает."
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "А ма́ма?"
+            },
+            {
+              "speaker": "Ива́н",
+              "gender": "m",
+              "ru": "Ма́ма фотографи́рует и путеше́ствует. А ты, Ко́стя, ма́ло гуля́ешь!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Ко́стя",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Ива́н",
+              "gender": "m",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "bald",
+              "glasses": true,
+              "beard": true,
+              "top": "ochre"
+            }
+          ],
+          "es": "Abuelo, ¿qué estás haciendo?\nEstoy escribiendo una carta. ¿Y tú?\nEstoy jugando ajedrez. ¿Tú juegas ajedrez?\n¡Claro! Juego excelente. ¿Y la abuela juega cartas?\n¿La abuela? No, ella canta y baila. ¡Le encanta la salsa!\n¡Sí, es todo un talento!\n¿Y papá? ¿Qué hace papá cuando descansa?\n¿Tu papá? ¡Duerme! Es médico, trabaja mucho.\n¿Y mamá?\nMamá toma fotos y viaja. ¡Y tú, Kostia, paseas poco!",
+          "questions": [
+            {
+              "q": "¿Qué está haciendo el abuelo?",
+              "choices": [
+                "Escribe una carta",
+                "Juega ajedrez",
+                "Lee el periódico"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué le encanta a la abuela?",
+              "choices": [
+                "El tango",
+                "El ajedrez",
+                "La salsa"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué hace el papá cuando descansa?",
+              "choices": [
+                "Viaja",
+                "Duerme",
+                "Toma fotos"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué le dice el abuelo a Kostia al final?",
+              "choices": [
+                "Que pasea poco",
+                "Que juega mal",
+                "Que duerme mucho"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "2.4-l-6",
+          "title": "Los pasatiempos de Teresa",
+          "kind": "story",
+          "lines": [
+            {
+              "speaker": "Тере́са",
+              "gender": "f",
+              "ru": "Приве́т! Меня́ зову́т Тере́са. Я мексика́нка."
+            },
+            {
+              "speaker": "Тере́са",
+              "gender": "f",
+              "ru": "Я шко́льница. Я изуча́ю ру́сский."
+            },
+            {
+              "speaker": "Тере́са",
+              "gender": "f",
+              "ru": "Моё хо́бби — му́зыка. Я игра́ю на фле́йте и на гита́ре."
+            },
+            {
+              "speaker": "Тере́са",
+              "gender": "f",
+              "ru": "Я пою́, но пою́ ужа́сно!"
+            },
+            {
+              "speaker": "Тере́са",
+              "gender": "f",
+              "ru": "Я игра́ю в баскетбо́л. А те́ннис? Нет, не о́чень."
+            },
+            {
+              "speaker": "Тере́са",
+              "gender": "f",
+              "ru": "Я люблю́ гото́вить, осо́бенно па́сту."
+            },
+            {
+              "speaker": "Тере́са",
+              "gender": "f",
+              "ru": "Я мно́го рису́ю и пишу́ смс. А сплю я ма́ло!"
+            }
+          ],
+          "cast": [
+            {
+              "name": "Тере́са",
+              "gender": "f",
+              "age": "child",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "ponytail",
+              "glasses": true,
+              "beard": false,
+              "top": "teal"
+            }
+          ],
+          "es": "¡Hola! Me llamo Teresa. Soy mexicana.\nEstoy en la escuela. Estudio ruso.\nMi pasatiempo es la música. Toco la flauta y la guitarra.\nCanto, ¡pero canto horrible!\nJuego básquetbol. ¿Y el tenis? No, no mucho.\nMe gusta cocinar, sobre todo pasta.\nDibujo mucho y escribo mensajes. ¡Y duermo poco!",
+          "questions": [
+            {
+              "q": "¿Qué estudia Teresa?",
+              "choices": [
+                "Inglés",
+                "Ruso",
+                "Italiano"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué instrumentos toca?",
+              "choices": [
+                "Flauta y guitarra",
+                "Piano y violín",
+                "Trompeta y saxofón"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cómo canta?",
+              "choices": [
+                "Muy bien",
+                "Más o menos",
+                "Horrible"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Qué deporte juega?",
+              "choices": [
+                "Tenis",
+                "Básquetbol",
+                "Voleibol"
               ],
               "answer": 1
             }
