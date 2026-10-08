@@ -101,6 +101,8 @@ body {
   .tile-bad, .tile-bad:hover { border-color: var(--bad); background: var(--bad-soft); }
 
   .card { @apply rounded-lg border border-line bg-card; }
+  /* Long words or phrases wrap inside their card instead of spilling out of it. */
+  .tile, .card { min-width: 0; overflow-wrap: anywhere; }
   .chip { @apply inline-flex items-center gap-1 rounded border border-line bg-card px-2.5 py-1 text-sm font-bold; }
   /* Small uppercase section label. */
   .label { @apply text-xs font-bold uppercase tracking-[0.12em] text-muted; }

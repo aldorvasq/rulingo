@@ -1,6 +1,7 @@
 import type { ContentExercise, VocabItem } from '../content/types'
 import { lessonById, lessons, type LoadedLesson } from '../content'
 import { normalizeRu, pick, sample, shuffle, stripStress } from '../lib/text'
+import { fakeVariants } from '../lib/fakes'
 import type { Candidate, RunExercise, Skill } from './types'
 
 const GENDER_LABEL: Record<string, string> = { m: 'masculino', f: 'femenino', n: 'neutro', pl: 'plural' }
@@ -25,6 +26,22 @@ function distractors(correct: string, pool: string[], n = 3): string[] {
 function choiceSet(correct: string, pool: string[], n = 3) {
   const choices = shuffle([correct, ...distractors(correct, pool, n)])
   return { choices, answer: choices.indexOf(correct) }
+}
+
+/** How often an exercise mixes made-up look-alikes in with the real options. */
+const FAKE_RATE = 0.7
+
+/**
+ * Mix made-up variants of the correct Russian word (wrong endings, typical misspellings) into the
+ * options, so the answer can't be picked just from its ending. Real distractors are dropped from the
+ * end to stay within `maxTotal`; `avoid` lists other accepted answers that must never appear as fakes.
+ */
+function withFakes(choices: string[], correct: string, nFake: number, maxTotal: number, avoid: string[] = []) {
+  const fakes = Math.random() < FAKE_RATE ? fakeVariants(correct, nFake, [...choices, ...avoid]) : []
+  const others = choices.filter((c) => c !== correct)
+  const keep = others.slice(0, Math.max(0, maxTotal - 1 - fakes.length))
+  const out = shuffle([correct, ...keep, ...fakes])
+  return { choices: out, answer: out.indexOf(correct) }
 }
 
 /** Vocab visible to a lesson for distractors: its own first, then the rest of the book up to it. */
@@ -60,9 +77,9 @@ function fromContent(ex: ContentExercise, lesson: LoadedLesson): Candidate[] {
   switch (ex.type) {
     case 'fill_choice':
       return [c(1, 'grammar', () => {
-        const order = shuffle(ex.choices.map((_, i) => i))
+        const correct = ex.choices[ex.answer]
         return { ...base, key: k(), skill: 'grammar', kind: 'choice', instruction: ex.instructionEs ?? 'Elige la opción correcta',
-          prompt: ex.sentence, promptLang: 'ru', choices: order.map((i) => ex.choices[i]), choiceLang: 'ru', answer: order.indexOf(ex.answer) }
+          prompt: ex.sentence, promptLang: 'ru', ...withFakes(ex.choices, correct, 1, ex.choices.length + 1), choiceLang: 'ru' }
       })]
     case 'fill_typed':
       return [c(3, 'grammar', () => ({ ...base, key: k(), skill: 'grammar', kind: 'typed', instruction: ex.instructionEs ?? 'Completa la frase',
@@ -74,10 +91,9 @@ function fromContent(ex: ContentExercise, lesson: LoadedLesson): Candidate[] {
         instruction: `Escribe el ${label}`, prompt: ex.word, promptLang: 'ru', answers: ex.answers, answerLang: 'ru', strict: false }), '-typed')]
       if (ex.choices?.length) {
         out.push(c(1, 'antonym', () => {
-          const choices = shuffle(ex.choices!)
+          const correct = ex.choices!.find((x) => ex.answers.some((a) => normalizeRu(a) === normalizeRu(x)))!
           return { ...base, key: k(), skill: 'antonym', kind: 'choice', instruction: ex.instructionEs ?? `Elige el ${label}`,
-            prompt: ex.word, promptLang: 'ru', choices, choiceLang: 'ru',
-            answer: choices.findIndex((x) => ex.answers.some((a) => normalizeRu(a) === normalizeRu(x))) }
+            prompt: ex.word, promptLang: 'ru', ...withFakes(ex.choices!, correct, 2, 4, [...ex.answers, ex.word]), choiceLang: 'ru' }
         }))
       }
       return out
@@ -130,7 +146,7 @@ function fromVocab(v: VocabItem, lesson: LoadedLesson, pool: VocabItem[]): Candi
   const explain = `${v.ru} = ${v.es}${extra ? ` (${extra})` : ''}`
 
   add('es-ru', 1, 'vocab', () => ({ ...base, key: k('es-ru'), skill: 'vocab', kind: 'choice', instruction: '¿Cómo se dice en ruso?',
-    prompt: v.es, promptLang: 'es', ...choiceSet(v.ru, others.map((o) => o.ru)), choiceLang: 'ru', explanation: explain }))
+    prompt: v.es, promptLang: 'es', ...withFakes(choiceSet(v.ru, others.map((o) => o.ru)).choices, v.ru, 1, 4), choiceLang: 'ru', explanation: explain }))
 
   add('ru-es', 1, 'vocab', () => ({ ...base, key: k('ru-es'), skill: 'vocab', kind: 'choice', instruction: '¿Qué significa?',
     prompt: v.ru, promptLang: 'ru', ...choiceSet(v.es, others.map((o) => o.es)), choiceLang: 'es', explanation: explain }))
@@ -142,7 +158,10 @@ function fromVocab(v: VocabItem, lesson: LoadedLesson, pool: VocabItem[]): Candi
     const ant = v.antonyms
     const antPool = others.map((o) => o.ru).filter((r) => !ant.some((a) => normalizeRu(a) === normalizeRu(r)))
     add('ant', 1, 'antonym', () => ({ ...base, key: k('ant'), skill: 'antonym', kind: 'choice', instruction: 'Elige el antónimo',
-      prompt: v.ru, promptLang: 'ru', ...choiceSet(pick(ant), antPool), choiceLang: 'ru',
+      prompt: v.ru, promptLang: 'ru', ...(() => {
+        const a = pick(ant)
+        return withFakes(choiceSet(a, antPool).choices, a, 2, 4, [...ant, v.ru])
+      })(), choiceLang: 'ru',
       explanation: `${v.ru} (${v.es}) ↔ ${ant.join(', ')}` }))
     add('ant-typed', 3, 'antonym', () => ({ ...base, key: k('ant-typed'), skill: 'antonym', kind: 'typed', instruction: 'Escribe el antónimo',
       prompt: v.ru, promptLang: 'ru', answers: ant, answerLang: 'ru', strict: false, hint: v.es,
@@ -172,10 +191,10 @@ function fromVocab(v: VocabItem, lesson: LoadedLesson, pool: VocabItem[]): Candi
       add('agree', 2, 'grammar', () => {
         const n = pick(nouns)
         const correct = forms[n.gender!]!
-        const choices = shuffle([...new Set(formList)])
+        const real = [...new Set(formList)]
         return { ...base, items: [v.id, n.id], key: k('agree'), skill: 'grammar', kind: 'choice',
-          instruction: 'Elige la forma correcta', prompt: `___ ${n.ru}`, promptLang: 'ru', choices, choiceLang: 'ru',
-          answer: choices.indexOf(correct),
+          instruction: 'Elige la forma correcta', prompt: `___ ${n.ru}`, promptLang: 'ru',
+          ...withFakes(real, correct, 1, real.length + 1), choiceLang: 'ru',
           explanation: `${n.ru} es ${GENDER_LABEL[n.gender!]} (${GENDER_PRONOUN[n.gender!]}) → ${correct} ${n.ru} (${v.es} ${n.es})` }
       })
       add('agree-typed', 3, 'grammar', () => {
@@ -279,10 +298,9 @@ function lessonLevel(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
       out.push({ id, lessonId: lesson.id, items, level: 2, skill: 'grammar', kind: 'choice',
         make: () => {
           const [label, correct] = pick(entries)
-          const choices = shuffle(values)
           return { key: `${id}-${rnd()}`, items, lessonId: lesson.id, skill: 'grammar', kind: 'choice',
             instruction: `Forma «${GENDER_LABEL[label] ?? label}» de «${it.base}»`, prompt: it.base, promptLang: 'ru',
-            choices, choiceLang: 'ru', answer: choices.indexOf(correct), explanation: g.title }
+            ...withFakes(values, correct, 1, values.length + 1), choiceLang: 'ru', explanation: g.title }
         } })
     })
   }

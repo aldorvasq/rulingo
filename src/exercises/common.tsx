@@ -13,6 +13,10 @@ export interface ExProps<K extends RunExercise['kind']> {
 /** Size Russian prompts by length: single words big, sentences a step smaller. */
 export const ruPromptSize = (text: string) => (text.length <= 18 ? 'text-4xl' : text.length <= 48 ? 'text-3xl' : 'text-2xl')
 
+/** Option text size by length, for cards in narrow columns. */
+export const optionSize = (text: string, ru: boolean) =>
+  ru ? (text.length <= 9 ? 'text-xl' : text.length <= 16 ? 'text-lg' : 'text-base') : text.length <= 16 ? 'text-[15px]' : 'text-sm'
+
 /** Reading passage / dialogue shown above a question. */
 export function ContextBlock({ ex }: { ex: RunExercise }) {
   const [showEs, setShowEs] = useState(false)

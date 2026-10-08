@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { shuffle } from '../lib/text'
 import { Icon } from '../components/ui'
-import type { ExProps } from './common'
+import { optionSize, type ExProps } from './common'
 
 const hasCyrillic = (s: string) => /[а-яё]/i.test(s)
 
@@ -58,7 +58,7 @@ export function MatchEx({ ex, autoSubmit }: ExProps<'match'>) {
       <button key={i} disabled={st === 'done'}
         onClick={() => (isL ? (setSelL(i), attempt(i, selR)) : (setSelR(i), attempt(selL, i)))}
         className={`relative flex min-h-14 w-full items-center gap-2 rounded-md border-[1.5px] border-line px-3 py-2.5 transition-colors ${base} ${look} ${isL ? 'text-left' : 'flex-row-reverse text-right'}`}>
-        <span className={`flex-1 ${hasCyrillic(text) ? 'ru text-xl' : 'text-[15px]'}`}>{text}</span>
+        <span className={`min-w-0 flex-1 ${hasCyrillic(text) ? 'ru' : ''} ${optionSize(text, hasCyrillic(text))}`}>{text}</span>
         {st === 'done'
           ? <span className="grid h-5 w-5 shrink-0 place-items-center rounded-sm bg-ok text-[11px] font-bold text-white">{n}</span>
           : <span className={`h-2.5 w-2.5 shrink-0 rounded-full border-2 ${isL ? 'border-brand' : 'border-gold'} ${st === 'sel' ? (isL ? 'bg-brand' : 'bg-gold') : 'bg-card'}`} />}

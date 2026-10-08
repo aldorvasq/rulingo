@@ -20,7 +20,8 @@ export function ChoiceEx({ ex, locked, ready }: ExProps<'choice'>) {
     return () => window.removeEventListener('keydown', onKey)
   })
 
-  const long = ex.choices.some((c) => c.length > 18)
+  // Two columns only when every option fits comfortably in half the width.
+  const long = ex.choices.some((c) => c.length > (ex.choiceLang === 'ru' ? 11 : 16))
   const filled = locked ? ex.choices[ex.answer] : sel !== null ? ex.choices[sel] : undefined
 
   return (
@@ -38,7 +39,7 @@ export function ChoiceEx({ ex, locked, ready }: ExProps<'choice'>) {
         {ex.choices.map((c, i) => (
           <button key={i} onClick={() => choose(i)} className={`tile flex items-center gap-3 ${tileState(locked, i === ex.answer, sel === i)}`}>
             <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-sm border border-line text-xs text-muted sm:flex">{i + 1}</span>
-            <span className={ex.choiceLang === 'ru' ? 'ru text-xl' : 'text-lg'}>{c}</span>
+            <span className={`min-w-0 flex-1 ${ex.choiceLang === 'ru' ? 'ru text-xl' : 'text-lg'}`}>{c}</span>
           </button>
         ))}
       </div>

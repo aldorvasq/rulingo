@@ -33,7 +33,7 @@ export function SortEx({ ex, autoSubmit }: ExProps<'sort'>) {
       </div>
       <div className="my-8 flex justify-center">
         {item && (
-          <div key={idx} className={`card ru animate-pop px-8 py-6 text-4xl font-bold ${flash ? (flash.ok ? 'tile-ok' : 'tile-bad animate-shake') : ''}`}>
+          <div key={idx} className={`card ru animate-pop max-w-full px-6 py-5 text-center font-bold ${item.text.length > 12 ? 'text-2xl' : 'text-4xl'} ${flash ? (flash.ok ? 'tile-ok' : 'tile-bad animate-shake') : ''}`}>
             {item.text}
           </div>
         )}
@@ -43,7 +43,7 @@ export function SortEx({ ex, autoSubmit }: ExProps<'sort'>) {
           const isAnswer = flash && !flash.ok && same(c, item.category)
           return (
             <button key={c} onClick={() => choose(c)}
-              className={`tile ru py-5 text-center text-xl ${flash?.cat === c ? (flash.ok ? 'tile-ok' : 'tile-bad') : ''} ${isAnswer ? 'tile-ok' : ''}`}>
+              className={`tile ru py-4 text-center ${c.length > 10 ? 'text-base' : 'text-xl'} ${flash?.cat === c ? (flash.ok ? 'tile-ok' : 'tile-bad') : ''} ${isAnswer ? 'tile-ok' : ''}`}>
               {c}
             </button>
           )
