@@ -24,7 +24,7 @@ export interface LoadedChapter extends Omit<Chapter, 'lessons'> {
 }
 
 function mergeLesson(target: LoadedLesson, extra: Partial<Lesson>) {
-  const arrays = ['grammar', 'vocab', 'phrases', 'sentences', 'readings', 'exercises'] as const
+  const arrays = ['grammar', 'vocab', 'phrases', 'sentences', 'readings', 'listening', 'exercises'] as const
   for (const key of arrays) {
     const add = extra[key]
     if (!add?.length) continue

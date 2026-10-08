@@ -125,6 +125,7 @@ const ICONS: Record<string, string> = {
   plus: 'M4 4h16v16H4zM12 8v8M8 12h8',
   install: 'M12 3v12m0 0-4-4m4 4 4-4M5 21h14',
   down: 'M5 9l7 7 7-7',
+  listen: 'M4 14v-2a8 8 0 0 1 16 0v2M4 14h3v6H5a1 1 0 0 1-1-1zm16 0h-3v6h2a1 1 0 0 0 1-1z',
 }
 
 export function Icon({ name, size = 22, className = '' }: { name: keyof typeof ICONS | string; size?: number; className?: string }) {

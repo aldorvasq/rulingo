@@ -13,9 +13,10 @@ export const SKILL_TOPICS: Record<Skill, { title: string; desc: string }> = {
   syntax: { title: 'Orden de palabras', desc: 'Construye frases con las palabras dadas' },
   reading: { title: 'Lectura y diálogos', desc: 'Lee el texto y responde' },
   grammar: { title: 'Formas y concordancia', desc: 'Género, terminaciones y formas correctas' },
+  listening: { title: 'Comprensión auditiva', desc: 'Escucha diálogos e historias y responde' },
 }
 
-const SKILL_ORDER: Skill[] = ['antonym', 'vocab', 'conjugation', 'writing', 'syntax', 'reading', 'grammar']
+const SKILL_ORDER: Skill[] = ['listening', 'antonym', 'vocab', 'conjugation', 'writing', 'syntax', 'reading', 'grammar']
 
 export interface Topic {
   id: string
@@ -57,7 +58,7 @@ export function topicTitle(id: string): string | undefined {
 /** What the current exercise is practising — shown above it in the player. */
 export function exerciseTopic(ex: RunExercise): string {
   // These exercise types say more about what's practised than the grammar tag they carry.
-  if (ex.skill === 'antonym' || ex.skill === 'conjugation' || ex.skill === 'reading') return SKILL_TOPICS[ex.skill].title
+  if (ex.skill === 'antonym' || ex.skill === 'conjugation' || ex.skill === 'reading' || ex.skill === 'listening') return SKILL_TOPICS[ex.skill].title
   for (const id of ex.items) {
     const g = grammarById.get(id)
     if (g) return g.title

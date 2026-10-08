@@ -3,6 +3,7 @@ import { shuffle } from '../lib/text'
 import { candidatesFor } from './generate'
 import type { ItemState } from './srs'
 import { lessonTopics, topicMatches } from './topics'
+import { hasListening } from '../lib/audio'
 import type { Candidate, RunExercise } from './types'
 
 export type SessionMode =
@@ -11,6 +12,7 @@ export type SessionMode =
   | { mode: 'review' }
   | { mode: 'weak' }
   | { mode: 'daily' }
+  | { mode: 'listening' }
 
 export interface SessionContext {
   progress: Record<string, ItemState>
@@ -121,7 +123,8 @@ function order(list: RunExercise[], levels: Map<string, number>): RunExercise[] 
 
 export function buildSession(mode: SessionMode, ctx: SessionContext): RunExercise[] {
   const covered = lessonsUpTo(ctx.coveredUpTo).map((l) => l.id)
-  const pool = (ids: string[]) => ids.flatMap(candidatesFor)
+  // Listening questions only when their recording exists.
+  const pool = (ids: string[]) => ids.flatMap(candidatesFor).filter((c) => c.skill !== 'listening' || hasListening(c.items[1]))
   const n = ctx.length
   const p = new Picker(ctx, n)
   let chosen: Candidate[] = []
@@ -149,6 +152,12 @@ export function buildSession(mode: SessionMode, ctx: SessionContext): RunExercis
   } else if (mode.mode === 'review') {
     // Spaced repetition across everything covered so far: due and shaky items first.
     chosen = p.mixed(pool(covered).filter((c) => !c.sneak), n, { due: 6, weak: 4, fresh: -2 })
+  } else if (mode.mode === 'listening') {
+    p.limits = { kind: {}, skill: {}, other: n }
+    const all = pool(covered).filter((c) => c.skill === 'listening')
+    const focus = all.filter((c) => ctx.focusLessons.includes(c.lessonId))
+    const half = p.pick(focus, Math.ceil(n / 2))
+    chosen = [...half, ...p.pick(all, n - half.length)]
   } else if (mode.mode === 'weak') {
     const weak = pool(covered).filter((c) => !c.sneak && c.items.some((i) => {
       const st = ctx.progress[i]

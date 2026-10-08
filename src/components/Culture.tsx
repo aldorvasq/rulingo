@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { dailyItem, nextFunFact } from '../content/culture'
 import { Mixed } from './ui'
+import { Speak } from './Speak'
 
 /** Stylised folk flower (Gzhel-style petals and curls), drawn in currentColor. */
 function Ornament({ className = '' }: { className?: string }) {
@@ -65,13 +66,17 @@ export function DailyHero() {
         )}
         {daily.kind === 'word' ? (
           <>
-            <div className="ru shimmer-text mt-3 text-[3.2rem] font-bold leading-none [text-shadow:0_2px_12px_rgba(0,0,0,0.25)]">{daily.item.ru}</div>
+            <div className="mt-3 flex items-center gap-3">
+              <div className="ru shimmer-text text-[3.2rem] font-bold leading-none [text-shadow:0_2px_12px_rgba(0,0,0,0.25)]">{daily.item.ru}</div>
+              <Speak text={daily.item.ru} light size="md" />
+            </div>
             <div className="mt-2 text-xl font-bold text-[#f3cf73]">{daily.item.es}</div>
             <p className="mt-3 text-[15px] leading-relaxed text-white/90"><Mixed text={daily.item.note} ruClass="text-[1.06em] font-bold" /></p>
           </>
         ) : (
           <>
             <p className="ru mt-3 text-[1.75rem] font-bold leading-snug [text-shadow:0_2px_12px_rgba(0,0,0,0.3)]">{daily.item.ru}</p>
+            <div className="mt-2 flex items-center gap-2 text-sm text-white/85"><Speak text={daily.item.ru} light /> Escúchalo primero, luego repítelo.</div>
             <p className="mt-3 text-[15px] text-white/85">{daily.item.es}</p>
             <p className="mt-3 inline-block rounded-md bg-black/25 px-3 py-1.5 text-sm">
               <span className="font-bold text-[#f3cf73]">Reto:</span> léelo en voz alta tres veces, cada vez más rápido. <Mixed text={daily.item.tip} />

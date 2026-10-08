@@ -15,6 +15,9 @@ import { MatchEx } from '../exercises/MatchEx'
 import { SortEx } from '../exercises/SortEx'
 import { ErrorSpotEx } from '../exercises/ErrorSpotEx'
 import { Results } from './Results'
+import { Speak } from '../components/Speak'
+import { fillGap } from '../lib/audioKey'
+import { hasAudio, stopAudio } from '../lib/audio'
 
 const PRAISE = ['¡Correcto!', '¡Muy bien!', '¡Excelente!', 'Отли́чно!', 'Молоде́ц!', 'Хорошо́!']
 
@@ -25,6 +28,7 @@ export function parseMode(params: URLSearchParams): SessionMode {
   if (m === 'topic' && id && params.get('topic')) return { mode: 'topic', lessonId: id, topic: params.get('topic')! }
   if (m === 'review') return { mode: 'review' }
   if (m === 'weak') return { mode: 'weak' }
+  if (m === 'listening') return { mode: 'listening' }
   return { mode: 'daily' }
 }
 
@@ -35,6 +39,7 @@ export function sessionTitle(mode: SessionMode): string {
     case 'review': return 'Repaso de lecciones vistas'
     case 'weak': return 'Puntos débiles'
     case 'daily': return 'Práctica del día'
+    case 'listening': return 'Comprensión auditiva'
   }
 }
 
@@ -49,6 +54,33 @@ function Exercise(props: { ex: RunExercise; locked: boolean; ready: (f: (() => A
     case 'sort': return <SortEx ex={ex} {...rest} />
     case 'error_spot': return <ErrorSpotEx ex={ex} {...rest} />
   }
+}
+
+/** The Russian text worth hearing once an exercise is answered (completed sentence, answer word…). */
+function audioTextOf(ex: RunExercise): string | undefined {
+  const candidates: (string | undefined)[] = []
+  switch (ex.kind) {
+    case 'choice': {
+      const a = ex.choices[ex.answer]
+      if (ex.dialogue) candidates.push(...ex.dialogue.filter((l) => l.ru.includes('___')).map((l) => fillGap(l.ru, a)))
+      if (ex.prompt?.includes('___')) candidates.push(fillGap(ex.prompt, a))
+      candidates.push(ex.choiceLang === 'ru' ? a : undefined, ex.promptLang === 'ru' ? ex.prompt : undefined)
+      break
+    }
+    case 'typed':
+      if (ex.prompt?.includes('___')) candidates.push(fillGap(ex.prompt, ex.answers[0]))
+      candidates.push(ex.answerLang === 'ru' ? ex.answers[0] : ex.prompt)
+      break
+    case 'word_order': candidates.push(ex.answer); break
+    case 'conjugate': candidates.push(ex.verb); break
+    case 'error_spot': {
+      const w = ex.sentence.split(/\s+/)
+      w[ex.wrongWord] = ex.correction
+      candidates.push(w.join(' '))
+      break
+    }
+  }
+  return candidates.find((c) => c && hasAudio(c))
 }
 
 const XP = (r: AnswerResult) => (r.correct ? (r.almost ? 8 : r.typed ? 15 : 10) : 0)
@@ -118,6 +150,7 @@ export function Player({ params }: { params: URLSearchParams }) {
     setCanSubmit(false)
     setResult(null)
     setReveal(null)
+    stopAudio()
     if (pos + 1 >= queue.length) {
       setSummary(finishSession({
         xp: stats.current.xp,
@@ -158,6 +191,7 @@ export function Player({ params }: { params: URLSearchParams }) {
   const lesson = lessonById.get(ex.lessonId)
   const isRetry = retried.current.has(ex.key) && pos >= total.current
   const ruleOf = ex.items.map((i) => grammarById.get(i)).find(Boolean)
+  const answerAudio = result && !ex.listen ? audioTextOf(ex) : undefined
   const grammarTip = result && !result.correct ? ruleOf : undefined
 
   return (
@@ -199,6 +233,12 @@ export function Player({ params }: { params: URLSearchParams }) {
               {result.correctAnswer && (!result.correct || result.almost) && (
                 <div className={`mt-0.5 text-xl font-bold ${hasCyrillic(result.correctAnswer) ? 'ru' : ''} ${result.correct ? 'text-ok' : 'text-bad'}`}>
                   {result.correctAnswer}
+                </div>
+              )}
+              {answerAudio && (
+                <div className="mt-2 flex items-center gap-2">
+                  <Speak text={answerAudio} size="sm" />
+                  <span className="ru min-w-0 truncate text-[15px] text-ink/80">{answerAudio}</span>
                 </div>
               )}
               {!result.correct && ex.explanation && <p className="mt-1 text-[15px] text-ink/80"><Mixed text={ex.explanation} /></p>}

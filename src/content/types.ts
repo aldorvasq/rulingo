@@ -65,6 +65,17 @@ export type ContentExercise = ExBase & (
   | { type: 'dialogue'; lines: { speaker: string; ru: string }[]; choices: string[]; answer: number }
 )
 
+export interface ListeningLine { speaker?: string; gender?: 'f' | 'm'; ru: string }
+
+export interface Listening {
+  id: string
+  title: string
+  kind: 'dialogue' | 'story'
+  lines: ListeningLine[]
+  es?: string
+  questions: { q: string; choices: string[]; answer: number }[]
+}
+
 export interface Lesson {
   id: string
   title: string
@@ -76,6 +87,7 @@ export interface Lesson {
   phrases?: { ru: string; es: string; noteEs?: string }[]
   sentences?: { ru: string; es: string; tags?: string[] }[]
   readings?: Reading[]
+  listening?: Listening[]
   exercises?: ContentExercise[]
 }
 

@@ -35,7 +35,12 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
         // Only the Latin + Cyrillic font subsets are ever needed offline.
-        globIgnores: ['**/*-arabic-*', '**/*-hebrew-*'],
+        globIgnores: ['**/*-arabic-*', '**/*-hebrew-*', 'audio/**'],
+        // Recordings are fetched when first played, then kept for offline use.
+        runtimeCaching: [
+          { urlPattern: /\/audio\/manifest\.json$/, handler: 'NetworkFirst', options: { cacheName: 'audio-manifest' } },
+          { urlPattern: /\/audio\/.*\.mp3$/, handler: 'CacheFirst', options: { cacheName: 'audio', expiration: { maxEntries: 4000 }, rangeRequests: true } },
+        ],
       },
     }),
   ],

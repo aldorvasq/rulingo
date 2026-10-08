@@ -4,6 +4,7 @@ import { RuInput } from '../components/RuInput'
 import { CyrillicKeyboard, KeyboardToggle } from '../components/CyrillicKeyboard'
 import { gradeTyped } from '../lib/text'
 import { ContextBlock, ruPromptSize, type ExProps } from './common'
+import { Speak } from '../components/Speak'
 
 export function TypedEx({ ex, locked, ready }: ExProps<'typed'>) {
   const [value, setValue] = useState('')
@@ -32,6 +33,7 @@ export function TypedEx({ ex, locked, ready }: ExProps<'typed'>) {
           {ex.prompt.includes('___')
             ? <GapSentence text={ex.prompt} fill={value || undefined} fillClass={locked ? (verdict === 'wrong' ? 'text-bad' : 'text-ok') : 'text-brand'} />
             : ex.prompt}
+          {ex.promptLang === 'ru' && !ex.prompt.includes('___') && <Speak text={ex.prompt} className="ml-3 align-middle" />}
         </p>
       )}
       {ex.hint && <p className="mb-2 text-sm text-muted">Pista: <span className={/[а-яё]/i.test(ex.hint) ? 'ru' : ''}>{ex.hint}</span></p>}

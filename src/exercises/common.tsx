@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import type { AnswerResult, RunExercise } from '../engine/types'
+import { playListening, usePlaying } from '../lib/audio'
+import { SpeakerIcon } from '../components/Speak'
 
 export interface ExProps<K extends RunExercise['kind']> {
   ex: Extract<RunExercise, { kind: K }>
@@ -53,3 +55,37 @@ export function ContextBlock({ ex }: { ex: RunExercise }) {
 
 export const tileState = (locked: boolean, isAnswer: boolean, isChosen: boolean) =>
   locked ? (isAnswer ? 'tile-ok correct-pop' : isChosen ? 'tile-bad animate-shake' : 'opacity-50') : isChosen ? 'tile-selected' : ''
+
+/** Listening: big play and slow buttons; the text and translation are revealed only after answering. */
+export function ListenBlock({ ex, locked }: { ex: RunExercise; locked: boolean }) {
+  const [show, setShow] = useState(false)
+  const playing = usePlaying(undefined, ex.listen?.id)
+  if (!ex.listen) return null
+  const li = ex.listen
+  return (
+    <div className="card mb-5 p-4">
+      <div className="mb-3 text-sm font-bold text-muted">{li.title}</div>
+      <div className="flex items-center gap-3">
+        <button onClick={() => playListening(li.id)} aria-label="Escuchar"
+          className={`grid h-16 w-16 place-items-center rounded-xl text-white shadow transition-colors ${playing ? 'bg-brand-dark' : 'bg-brand'}`}>
+          <SpeakerIcon size={32} active={playing} />
+        </button>
+        <button onClick={() => playListening(li.id, 0.75)} className="btn btn-ghost !px-3 !py-2 text-sm">Más lento</button>
+        <span className="text-sm text-muted">Puedes escucharlo las veces que quieras.</span>
+      </div>
+      {locked && (
+        <button className="mt-3 text-sm font-bold text-brand" onClick={() => setShow(!show)}>
+          {show ? 'Ocultar el texto' : 'Ver el texto'}
+        </button>
+      )}
+      {locked && show && (
+        <div className="mt-2 space-y-1.5">
+          {li.lines.map((l, i) => (
+            <p key={i} className="ru text-lg leading-snug">{l.speaker && <span className="font-bold text-brand">{l.speaker}: </span>}{l.ru}</p>
+          ))}
+          {li.es && <p className="whitespace-pre-line pt-2 text-sm text-muted">{li.es}</p>}
+        </div>
+      )}
+    </div>
+  )
+}

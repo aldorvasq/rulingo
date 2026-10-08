@@ -6,6 +6,7 @@ import { mastery } from '../engine/srs'
 import { navigate } from '../lib/router'
 import { Header, Icon, Markdown, Mixed, ProgressBar, TopicTitle } from '../components/ui'
 import { TopicList } from '../components/TopicList'
+import { Speak } from '../components/Speak'
 
 type Tab = 'grammar' | 'vocab' | 'phrases' | 'readings'
 const DOT: Record<string, string> = { nuevo: 'bg-line', aprendiendo: 'bg-brick', conocido: 'bg-gold', dominado: 'bg-ok' }
@@ -128,7 +129,7 @@ export function LessonDetail({ id }: { id: string }) {
                   <ul className="space-y-2.5 border-t border-line pt-3">
                     {g.examples.map((e, i) => (
                       <li key={i}>
-                        <div className="ru text-xl leading-snug">{e.ru}</div>
+                        <div className="ru flex items-start gap-2 text-xl leading-snug"><span className="flex-1">{e.ru}</span><Speak text={e.ru} size="sm" /></div>
                         <div className="text-sm text-muted">{e.es}</div>
                       </li>
                     ))}
@@ -145,7 +146,7 @@ export function LessonDetail({ id }: { id: string }) {
               <div key={v.id} className="flex items-baseline gap-3 px-4 py-2.5">
                 <span className={`h-2 w-2 shrink-0 self-center rounded-sm ${DOT[mastery(progress[v.id])]}`} title={mastery(progress[v.id])} />
                 <div className="min-w-0">
-                  <span className="ru text-xl">{v.ru}</span>
+                  <span className="ru text-xl">{v.ru}</span> <Speak text={v.ru} size="sm" className="ml-1 align-middle" />
                   {v.gender && <span className="ml-1.5 text-xs text-muted">{v.gender}</span>}
                   {v.sneak && <span className="ml-1.5 text-xs font-bold text-gold">extra</span>}
                   {v.antonyms?.length ? <div className="ru text-sm text-muted">↔ {v.antonyms.join(', ')}</div> : null}
@@ -160,7 +161,7 @@ export function LessonDetail({ id }: { id: string }) {
           <section className="card divide-y divide-line">
             {lesson.phrases?.map((p, i) => (
               <div key={i} className="px-4 py-2.5">
-                <div className="ru text-xl leading-snug">{p.ru}</div>
+                <div className="ru flex items-start gap-2 text-xl leading-snug"><span className="flex-1">{p.ru}</span><Speak text={p.ru} size="sm" /></div>
                 <div className="text-sm text-muted">{p.es}</div>
                 {p.noteEs && <div className="text-xs text-muted/80">{p.noteEs}</div>}
               </div>
@@ -172,7 +173,7 @@ export function LessonDetail({ id }: { id: string }) {
           <div className="space-y-3">
             {lesson.readings?.map((r) => (
               <section key={r.id} className="card space-y-2 p-4">
-                <h3 className="ru text-xl font-bold">{r.title ?? 'Lectura'}</h3>
+                <h3 className="ru flex items-center gap-2 text-xl font-bold"><span className="flex-1">{r.title ?? 'Lectura'}</span><Speak text={r.textRu} /></h3>
                 <p className="ru whitespace-pre-line text-lg leading-relaxed">{r.textRu}</p>
                 {r.textEs && (
                   <>

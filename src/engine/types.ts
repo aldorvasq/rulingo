@@ -4,7 +4,7 @@
 export type Lang = 'ru' | 'es'
 
 /** Stats bucket used for topics and badges ("100 conjugations", "50 antonyms"…). */
-export type Skill = 'vocab' | 'grammar' | 'conjugation' | 'antonym' | 'writing' | 'reading' | 'syntax'
+export type Skill = 'vocab' | 'grammar' | 'conjugation' | 'antonym' | 'writing' | 'reading' | 'syntax' | 'listening'
 
 interface RunBase {
   key: string
@@ -20,6 +20,8 @@ interface RunBase {
   /** Context shown above the prompt (reading passage or dialogue). */
   passage?: { title?: string; text: string; textEs?: string }
   dialogue?: { speaker: string; ru: string }[]
+  /** Listening piece played (not shown) above the question; its text is revealed after answering. */
+  listen?: { id: string; title: string; lines: { speaker?: string; ru: string }[]; es?: string }
 }
 
 export type RunExercise = RunBase & (

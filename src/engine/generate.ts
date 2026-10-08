@@ -277,6 +277,22 @@ function lessonLevel(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
     })
   }
 
+  // Listening pieces → one question per exercise; the audio plays above it, the text is revealed after.
+  for (const li of lesson.listening ?? []) {
+    li.questions.forEach((q, i) => {
+      const id = `${li.id}:q${i}`
+      const items = [id, li.id]
+      out.push({ id, lessonId: lesson.id, items, level: 2, handmade: true, skill: 'listening', kind: 'choice',
+        make: () => {
+          const order = shuffle(q.choices.map((_, j) => j))
+          return { key: `${id}-${rnd()}`, items, lessonId: lesson.id, skill: 'listening', kind: 'choice',
+            instruction: q.q, listen: { id: li.id, title: li.title, lines: li.lines, es: li.es },
+            promptLang: 'ru', choices: order.map((j) => q.choices[j]), choiceLang: q.choices.some((c) => /[а-яё]/i.test(c)) ? 'ru' : 'es',
+            answer: order.indexOf(q.answer), translation: li.es }
+        } })
+    })
+  }
+
   // Grammar drill tables → form choice / conjugation.
   for (const g of lesson.grammar ?? []) {
     g.drill?.items.forEach((it, i) => {

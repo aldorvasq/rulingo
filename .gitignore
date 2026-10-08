@@ -9,3 +9,6 @@ dist/
 class-recordings/
 transcripts/
 .venv-transcribe/
+
+# TTS pilot output (not published)
+scripts/tts/out/

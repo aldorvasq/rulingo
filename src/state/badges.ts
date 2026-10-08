@@ -36,6 +36,7 @@ export const BADGES: Badge[] = [
   counter('conjugador', '🔁', 'Мастер спряжения', 'Maestro de la conjugación', '100 conjugaciones correctas', 100, (s) => s.stats.bySkill.conjugation ?? 0),
   counter('antonimos', '↔️', 'Наоборот!', '¡Al revés!', '50 antónimos correctos', 50, (s) => s.stats.bySkill.antonym ?? 0),
   counter('escritor', '✍️', 'Писатель', 'Escritor', '100 respuestas escritas correctas', 100, (s) => s.stats.typedCorrect),
+  counter('oido', '👂', 'Хоро́ший слух', 'Buen oído', '50 preguntas de comprensión auditiva', 50, (s) => s.stats.bySkill.listening ?? 0),
   counter('lector', '📖', 'Читатель', 'Lector', '30 preguntas de lectura', 30, (s) => s.stats.bySkill.reading ?? 0),
   counter('palabras-50', '📚', 'Пятьдесят слов', '50 palabras', 'Conoce 50 palabras', 50, knownWords),
   counter('palabras-150', '🧠', 'Сто пятьдесят слов', '150 palabras', 'Conoce 150 palabras', 150, knownWords),

@@ -6,6 +6,7 @@ import { mastery, masteryLabel, type Mastery } from '../engine/srs'
 import { addDays, dayKey } from '../lib/date'
 import { normalizeEs, normalizeRu } from '../lib/text'
 import { Header, ProgressBar } from '../components/ui'
+import { Speak } from '../components/Speak'
 
 export function Profile() {
   const [tab, setTab] = useState<'badges' | 'words'>('words')
@@ -119,7 +120,7 @@ function WordBank({ coveredUpTo }: { coveredUpTo: string }) {
       <div className="card divide-y divide-line">
         {shown.slice(0, 300).map((w) => (
           <div key={w.id} className="flex items-baseline gap-3 px-4 py-2">
-            <span className="ru text-lg">{w.ru}</span>
+            <span className="ru text-lg">{w.ru}</span><Speak text={w.ru} size="sm" />
             <span className="ml-auto text-right text-sm text-muted">{w.es}</span>
             <span className="w-8 shrink-0 text-right text-[11px] text-muted">{w.lessonId}</span>
           </div>

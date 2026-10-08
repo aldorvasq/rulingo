@@ -3,6 +3,7 @@ import { RuInput } from '../components/RuInput'
 import { CyrillicKeyboard, KeyboardToggle } from '../components/CyrillicKeyboard'
 import { gradeTyped } from '../lib/text'
 import type { ExProps } from './common'
+import { Speak } from '../components/Speak'
 
 export function ConjugateEx({ ex, locked, ready }: ExProps<'conjugate'>) {
   const [values, setValues] = useState(() => ex.pronouns.map(() => ''))
@@ -29,7 +30,7 @@ export function ConjugateEx({ ex, locked, ready }: ExProps<'conjugate'>) {
 
   return (
     <div>
-      <p className="ru mb-5 text-4xl font-bold">{ex.verb}</p>
+      <p className="ru mb-5 flex items-center gap-3 text-4xl font-bold">{ex.verb} <Speak text={ex.verb} /></p>
       <div className="card divide-y divide-line overflow-hidden">
         {ex.pronouns.map((p, i) => (
           <div key={i} className={`flex items-center gap-3 px-3 py-2 ${rows ? (rows[i] ? 'bg-ok-soft' : 'bg-bad-soft') : ''}`}>

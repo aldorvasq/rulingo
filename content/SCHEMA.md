@@ -120,3 +120,29 @@ answer; for `match`/`sort` list the meanings, e.g. "шу́мный = ruidoso · 
 | `error_spot` | `sentence`, `wrongWord` (index in split-by-space), `correction` |
 | `transform` | `prompt` (e.g. singular sentence), `instructionEs` (e.g. "Pon en plural"), `answers` |
 | `dialogue` | `lines` [{ `speaker`, `ru` }] with one line containing `___`, `choices`, `answer` |
+
+## Listening (`content/extra/listening-chN.json`)
+
+Original audio pieces for the listening section, merged into lessons like any extra pack:
+
+```jsonc
+{
+  "id": "listening-ch3",
+  "lessons": [{
+    "id": "3.4",
+    "listening": [{
+      "id": "3.4-l-1",                       // stable, never renamed
+      "title": "Una queja al vecino",         // Spanish
+      "kind": "dialogue" | "story",
+      "lines": [                              // each line is voiced separately; gender picks the voice
+        { "speaker": "Ма́ша", "gender": "f", "ru": "Здра́вствуйте! Я ва́ша сосе́дка." },
+        { "speaker": "Сосе́д", "gender": "m", "ru": "Приве́т! Как дела́?" }
+      ],                                      // stories: one narrator, same speaker/gender on every line
+      "es": "Full Spanish translation, one line per Russian line.",
+      "questions": [                          // 3–4 comprehension questions, answerable only by listening
+        { "q": "¿Qué le molesta a Masha?", "choices": ["La música fuerte", "El perro", "El coche"], "answer": 0 }
+      ]
+    }]
+  }]
+}
+```

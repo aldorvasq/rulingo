@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { useRoute, navigate } from './lib/router'
 import { useStore } from './state/store'
 import { Icon } from './components/ui'
+import { useAudioReady } from './lib/audio'
 import { Home } from './screens/Home'
 import { Path } from './screens/Path'
 import { Player } from './screens/Player'
@@ -41,6 +42,7 @@ export default function App() {
   const onboarded = useStore((s) => s.settings.onboarded)
   const theme = useStore((s) => s.settings.theme)
   const settleStreak = useStore((s) => s.settleStreak)
+  const audioReady = useAudioReady()
 
   useEffect(() => {
     settleStreak()
@@ -53,7 +55,8 @@ export default function App() {
 
   if (!onboarded) return <Onboarding />
 
-  if (path === '/play') return <Player key={raw} params={params} />
+  // Sessions filter listening questions by the audio manifest, so build them only once it's loaded.
+  if (path === '/play') return audioReady ? <Player key={raw} params={params} /> : <div className="p-6 text-center text-muted">Cargando…</div>
 
   let screen
   if (path === '/path') screen = <Path />

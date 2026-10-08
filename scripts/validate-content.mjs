@@ -95,6 +95,13 @@ function checkLesson(l, where) {
     r.questions?.forEach((q, i) => { if (!(q.answer >= 0 && q.answer < q.choices?.length)) errors.push(`${at} ${r.id} q${i}: answer out of range`) })
   }
   for (const ex of l.exercises ?? []) checkExercise(ex, at)
+  for (const li of l.listening ?? []) {
+    claim(li.id, at)
+    if (!li.lines?.length || li.lines.some((x) => !x.ru)) errors.push(`${at} ${li.id}: listening needs lines with ru`)
+    li.lines?.forEach((x, i) => { if (x.gender && !['f', 'm'].includes(x.gender)) errors.push(`${at} ${li.id} line ${i}: gender must be f|m`); checkStress(x.ru, `${at} ${li.id}`) })
+    if (!(li.questions?.length >= 2)) errors.push(`${at} ${li.id}: needs ≥2 questions`)
+    li.questions?.forEach((q, i) => { if (!(q.answer >= 0 && q.answer < q.choices?.length)) errors.push(`${at} ${li.id} q${i}: answer out of range`) })
+  }
 }
 
 const summary = []
