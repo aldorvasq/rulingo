@@ -18,6 +18,8 @@ export interface VocabItem {
   antonyms?: string[]
   synonyms?: string[]
   topic?: string
+  /** Short A1 example sentence using the word (has its own recording). */
+  example?: { ru: string; es: string }
   fromSlovar?: boolean
   sneak?: boolean
 }
@@ -65,7 +67,7 @@ export type ContentExercise = ExBase & (
   | { type: 'dialogue'; lines: { speaker: string; ru: string }[]; choices: string[]; answer: number }
 )
 
-export interface ListeningLine { speaker?: string; gender?: 'f' | 'm'; ru: string }
+export interface ListeningLine { speaker?: string; gender?: 'f' | 'm'; ru: string; /** Voice direction, 2–5 English words. */ tone?: string }
 
 export interface CastMember {
   name: string
@@ -84,6 +86,8 @@ export interface Listening {
   title: string
   kind: 'dialogue' | 'story'
   cast?: CastMember[]
+  /** Voice direction for the whole piece (English, ≤ 8 words). */
+  scene?: string
   lines: ListeningLine[]
   es?: string
   questions: { q: string; choices: string[]; answer: number }[]

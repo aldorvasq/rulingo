@@ -26,3 +26,17 @@ export function SpeakerIcon({ size = 20, active = false }: { size?: number; acti
     </svg>
   )
 }
+
+/** A vocabulary word's example sentence with its own recording. */
+export function ExampleLine({ example, className = '' }: { example?: { ru: string; es: string }; className?: string }) {
+  if (!example) return null
+  return (
+    <div className={`flex items-start gap-2 ${className}`}>
+      <Speak text={example.ru} size="sm" />
+      <div className="min-w-0">
+        <div className="ru text-[15px] leading-snug text-ink/85">{example.ru}</div>
+        <div className="text-xs text-muted">{example.es}</div>
+      </div>
+    </div>
+  )
+}

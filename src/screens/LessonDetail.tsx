@@ -6,7 +6,7 @@ import { mastery } from '../engine/srs'
 import { navigate } from '../lib/router'
 import { Header, Icon, Markdown, Mixed, ProgressBar, TopicTitle } from '../components/ui'
 import { TopicList } from '../components/TopicList'
-import { Speak } from '../components/Speak'
+import { ExampleLine, Speak } from '../components/Speak'
 
 type Tab = 'grammar' | 'vocab' | 'phrases' | 'readings'
 const DOT: Record<string, string> = { nuevo: 'bg-line', aprendiendo: 'bg-brick', conocido: 'bg-gold', dominado: 'bg-ok' }
@@ -150,6 +150,7 @@ export function LessonDetail({ id }: { id: string }) {
                   {v.gender && <span className="ml-1.5 text-xs text-muted">{v.gender}</span>}
                   {v.sneak && <span className="ml-1.5 text-xs font-bold text-gold">extra</span>}
                   {v.antonyms?.length ? <div className="ru text-sm text-muted">↔ {v.antonyms.join(', ')}</div> : null}
+                  <ExampleLine example={v.example} className="mt-1.5" />
                 </div>
                 <span className="ml-auto text-right text-sm text-muted">{v.es}</span>
               </div>

@@ -240,14 +240,22 @@
             "n": "како́е",
             "pl": "каки́е"
           },
-          "topic": "preguntas"
+          "topic": "preguntas",
+          "example": {
+            "ru": "Каки́е у тебя́ сосе́ди, Ма́ша?",
+            "es": "¿Cómo son tus vecinos, Masha?"
+          }
         },
         {
           "id": "3.4x-v-kak",
           "ru": "как",
           "es": "¿cómo? (de qué manera)",
           "pos": "adv",
-          "topic": "preguntas"
+          "topic": "preguntas",
+          "example": {
+            "ru": "Как ты живёшь, Ма́ша?",
+            "es": "¿Cómo te va, Masha?"
+          }
         },
         {
           "id": "3.4x-v-gromko",
@@ -257,7 +265,11 @@
           "antonyms": [
             "ти́хо"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Сосе́ди наверху́ гро́мко пою́т.",
+            "es": "Los vecinos de arriba cantan fuerte."
+          }
         },
         {
           "id": "3.4x-v-tikho",
@@ -268,7 +280,11 @@
             "гро́мко",
             "шу́мно"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Пенсионе́ры внизу́ говоря́т ти́хо.",
+            "es": "Los jubilados de abajo hablan bajito."
+          }
         },
         {
           "id": "3.4x-v-shumno",
@@ -278,7 +294,11 @@
           "antonyms": [
             "ти́хо"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Наверху́ о́чень шу́мно.",
+            "es": "Arriba hay muchísimo ruido."
+          }
         },
         {
           "id": "3.4x-v-bystro",
@@ -288,7 +308,11 @@
           "antonyms": [
             "ме́дленно"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Ма́ша бы́стро идёт домо́й.",
+            "es": "Masha se va rápido a su casa."
+          }
         },
         {
           "id": "3.4x-v-medlenno",
@@ -298,7 +322,11 @@
           "antonyms": [
             "бы́стро"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Пенсионе́р ме́дленно чита́ет газе́ту.",
+            "es": "El jubilado lee el periódico despacio."
+          }
         },
         {
           "id": "3.4x-v-veselo",
@@ -309,7 +337,11 @@
             "гру́стно",
             "ску́чно"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Сосе́ди наверху́ живу́т ве́село.",
+            "es": "Los vecinos de arriba se la pasan muy divertido."
+          }
         },
         {
           "id": "3.4x-v-grustno",
@@ -319,7 +351,11 @@
           "antonyms": [
             "ве́село"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Ма́ша гру́стно отвеча́ет: «Я не сплю».",
+            "es": "Masha contesta triste: «No duermo»."
+          }
         },
         {
           "id": "3.4x-v-interesno",
@@ -329,7 +365,11 @@
           "antonyms": [
             "ску́чно"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Сосе́д внизу́ интере́сно расска́зывает.",
+            "es": "El vecino de abajo cuenta las cosas de forma interesante."
+          }
         },
         {
           "id": "3.4x-v-skuchno",
@@ -340,7 +380,11 @@
             "интере́сно",
             "ве́село"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Внизу́ ти́хо и ску́чно.",
+            "es": "Abajo todo es silencioso y aburrido."
+          }
         },
         {
           "id": "3.4x-v-rano",
@@ -350,7 +394,11 @@
           "antonyms": [
             "по́здно"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Пенсионе́ры встаю́т ра́но.",
+            "es": "Los jubilados se levantan temprano."
+          }
         },
         {
           "id": "3.4x-v-pozdno",
@@ -360,7 +408,11 @@
           "antonyms": [
             "ра́но"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "По́здно но́чью сосе́ди танцу́ют.",
+            "es": "Ya muy noche, los vecinos bailan."
+          }
         },
         {
           "id": "3.4x-v-chasto",
@@ -370,7 +422,11 @@
           "antonyms": [
             "ре́дко"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Наверху́ ча́сто игра́ет му́зыка.",
+            "es": "Arriba seguido suena música."
+          }
         },
         {
           "id": "3.4x-v-redko",
@@ -380,7 +436,11 @@
           "antonyms": [
             "ча́сто"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Пенсионе́ры ре́дко смо́трят телеви́зор.",
+            "es": "Los jubilados rara vez ven la tele."
+          }
         },
         {
           "id": "3.4x-v-mnogo",
@@ -390,7 +450,11 @@
           "antonyms": [
             "ма́ло"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Сосе́ди мно́го танцу́ют и пою́т.",
+            "es": "Los vecinos bailan y cantan mucho."
+          }
         },
         {
           "id": "3.4x-v-malo",
@@ -400,7 +464,11 @@
           "antonyms": [
             "мно́го"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Ма́ша ма́ло спит.",
+            "es": "Masha duerme poco."
+          }
         },
         {
           "id": "3.4x-v-daleko",
@@ -410,7 +478,11 @@
           "antonyms": [
             "бли́зко"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Ма́ша рабо́тает далеко́.",
+            "es": "Masha trabaja lejos."
+          }
         },
         {
           "id": "3.4x-v-blizko",
@@ -420,7 +492,11 @@
           "antonyms": [
             "далеко́"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Сосе́ди живу́т о́чень бли́зко.",
+            "es": "Los vecinos viven muy cerca."
+          }
         },
         {
           "id": "3.4x-v-legko",
@@ -430,7 +506,11 @@
           "antonyms": [
             "тру́дно"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Пенсионе́р легко́ реша́ет кроссво́рд.",
+            "es": "El jubilado resuelve el crucigrama fácilmente."
+          }
         },
         {
           "id": "3.4x-v-trudno",
@@ -440,7 +520,11 @@
           "antonyms": [
             "легко́"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Но́чью здесь тру́дно спать.",
+            "es": "En la noche aquí cuesta trabajo dormir."
+          }
         },
         {
           "id": "3.4x-v-dorogo",
@@ -450,7 +534,11 @@
           "antonyms": [
             "дёшево"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Кварти́ра наверху́ сто́ит до́рого.",
+            "es": "El departamento de arriba cuesta caro."
+          }
         },
         {
           "id": "3.4x-v-deshevo",
@@ -460,7 +548,11 @@
           "antonyms": [
             "до́рого"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Кварти́ра внизу́ сто́ит дёшево.",
+            "es": "El departamento de abajo sale barato."
+          }
         },
         {
           "id": "3.4x-v-vezhlivo",
@@ -470,7 +562,11 @@
           "antonyms": [
             "гру́бо"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Ма́ша ве́жливо стучи́т в дверь.",
+            "es": "Masha toca la puerta con cortesía."
+          }
         },
         {
           "id": "3.4x-v-grubo",
@@ -480,7 +576,11 @@
           "antonyms": [
             "ве́жливо"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Сосе́д наверху́ отвеча́ет гру́бо.",
+            "es": "El vecino de arriba contesta de forma grosera."
+          }
         },
         {
           "id": "3.4x-v-chisto",
@@ -490,7 +590,11 @@
           "antonyms": [
             "гря́зно"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Внизу́ в кварти́ре всегда́ чи́сто.",
+            "es": "En el departamento de abajo siempre está todo limpio."
+          }
         },
         {
           "id": "3.4x-v-gryazno",
@@ -500,7 +604,11 @@
           "antonyms": [
             "чи́сто"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Наверху́ в кварти́ре гря́зно.",
+            "es": "En el departamento de arriba está todo sucio."
+          }
         },
         {
           "id": "3.4x-v-vkusno",
@@ -510,7 +618,11 @@
           "antonyms": [
             "невку́сно"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Пенсионе́рка о́чень вку́сно гото́вит.",
+            "es": "La jubilada cocina muy rico."
+          }
         },
         {
           "id": "3.4x-v-krasivo",
@@ -520,7 +632,11 @@
           "antonyms": [
             "некраси́во"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Сосе́дка наверху́ краси́во поёт.",
+            "es": "La vecina de arriba canta bonito."
+          }
         },
         {
           "id": "3.4x-v-pravilno",
@@ -530,7 +646,11 @@
           "antonyms": [
             "непра́вильно"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Ма́ша всё де́лает пра́вильно.",
+            "es": "Masha hace todo bien."
+          }
         },
         {
           "id": "3.4x-v-spokojno",
@@ -540,7 +660,11 @@
           "antonyms": [
             "шу́мно"
           ],
-          "topic": "adverbios"
+          "topic": "adverbios",
+          "example": {
+            "ru": "Пенсионе́ры живу́т споко́йно.",
+            "es": "Los jubilados viven tranquilos."
+          }
         }
       ],
       "sentences": [

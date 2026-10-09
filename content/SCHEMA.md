@@ -83,6 +83,7 @@ All learner-facing explanations and translations are in **Spanish (Mexican)**.
   "antonyms": ["ти́хий"],
   "synonyms": [],
   "topic": "colores|familia|casa|…",   // short Spanish tag
+  "example": { "ru": "У нас о́чень шу́мные сосе́ди.", "es": "Tenemos vecinos muy ruidosos." },  // one short A1 sentence using the word (recorded)
   "fromSlovar": true,           // appears in the workbook's Словарь
   "sneak": false
 }
@@ -145,6 +146,8 @@ Original audio pieces for the listening section, merged into lessons like any ex
       // age: child | young | adult | old · skin: light | medium | dark
       // hair: black | brown | blond | red | gray | none · hairStyle: short | long | bun | curly | ponytail | bald
       // top (clothing colour): blue | red | green | ochre | gray | teal
+      "scene": "Neighbour at the door, evening",   // voice direction for the piece: English, ≤ 8 words, no quotes
+      // and each line may carry "tone": 2–5 English words, e.g. "annoyed but polite" (no sentences, no quotes)
       "es": "Full Spanish translation, one line per Russian line.",
       "questions": [                          // 3–4 comprehension questions, answerable only by listening
         { "q": "¿Qué le molesta a Masha?", "choices": ["La música fuerte", "El perro", "El coche"], "answer": 0 }

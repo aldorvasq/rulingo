@@ -280,6 +280,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Ива́н — актёр.",
+            "es": "Iván es actor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -290,6 +294,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Вот бана́н и лимо́н.",
+            "es": "Aquí está un plátano y un limón."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -300,6 +308,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "bebidas",
+          "example": {
+            "ru": "Э́то вино́ и́ли сок?",
+            "es": "¿Esto es vino o jugo?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -310,6 +322,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "bebidas",
+          "example": {
+            "ru": "Вода́, пожа́луйста.",
+            "es": "Agua, por favor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -320,6 +336,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Э́то гита́ра? — Да, гита́ра.",
+            "es": "¿Es una guitarra? —Sí, una guitarra."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -332,6 +352,10 @@
             "нет"
           ],
           "topic": "expresiones",
+          "example": {
+            "ru": "Э́то кот? — Да, кот.",
+            "es": "¿Es un gato? —Sí, un gato."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -341,6 +365,10 @@
           "es": "¡Hasta luego! / ¡Nos vemos!",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "Пока́, А́нна! До встре́чи!",
+            "es": "¡Adiós, Ana! ¡Nos vemos!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -351,6 +379,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Вот журна́л, а вот ка́рта.",
+            "es": "Aquí está la revista, y aquí el mapa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -360,6 +392,10 @@
           "es": "y",
           "pos": "conj",
           "topic": "expresiones",
+          "example": {
+            "ru": "Ко́фе и торт, пожа́луйста.",
+            "es": "Café y pastel, por favor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -369,6 +405,10 @@
           "es": "o (en preguntas: ¿esto o aquello?)",
           "pos": "conj",
           "topic": "expresiones",
+          "example": {
+            "ru": "Чай и́ли ко́фе?",
+            "es": "¿Té o café?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -379,6 +419,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Инъе́кция? Нет, спаси́бо!",
+            "es": "¿Una inyección? ¡No, gracias!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -388,6 +432,10 @@
           "es": "¿Cómo estás? / ¿Qué tal?",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "Приве́т, Ма́ша! Как дела́?",
+            "es": "¡Hola, Masha! ¿Cómo estás?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -397,6 +445,10 @@
           "es": "¿Cómo te llamas?",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "Приве́т! Как тебя́ зову́т?",
+            "es": "¡Hola! ¿Cómo te llamas?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -407,6 +459,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Вот ка́рта, пожа́луйста.",
+            "es": "Aquí tiene el mapa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -417,6 +473,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "animales",
+          "example": {
+            "ru": "Кто э́то? Э́то кот.",
+            "es": "¿Quién es? Es un gato."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -427,6 +487,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "bebidas",
+          "example": {
+            "ru": "Ко́фе, пожа́луйста.",
+            "es": "Un café, por favor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -436,6 +500,10 @@
           "es": "¿Quién es?",
           "pos": "phrase",
           "topic": "expresiones",
+          "example": {
+            "ru": "Кто э́то? — Э́то ма́ма.",
+            "es": "¿Quién es? —Es mamá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -446,6 +514,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "bebidas",
+          "example": {
+            "ru": "Э́то ликёр и́ли вино́?",
+            "es": "¿Esto es licor o vino?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -456,6 +528,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Лимо́н? Нет, э́то не лимо́н.",
+            "es": "¿Un limón? No, no es un limón."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -466,6 +542,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "familia",
+          "example": {
+            "ru": "Ма́ма, э́то Ива́н.",
+            "es": "Mamá, él es Iván."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -475,6 +555,10 @@
           "es": "Me llamo…",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "Приве́т! Меня́ зову́т Анто́н.",
+            "es": "¡Hola! Me llamo Antón."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -485,6 +569,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "ciudad",
+          "example": {
+            "ru": "Вот метро́ и парк.",
+            "es": "Aquí están el metro y el parque."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -495,6 +583,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "ciudades",
+          "example": {
+            "ru": "Э́то Москва́, а э́то Пари́ж.",
+            "es": "Esto es Moscú, y esto es París."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -507,6 +599,10 @@
             "да"
           ],
           "topic": "expresiones",
+          "example": {
+            "ru": "Нет, э́то не кот.",
+            "es": "No, no es un gato."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -516,6 +612,10 @@
           "es": "normal, más o menos",
           "pos": "adv",
           "topic": "estado",
+          "example": {
+            "ru": "Как дела́? — Норма́льно.",
+            "es": "¿Qué tal? —Más o menos."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -526,6 +626,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Вот но́та, а вот гита́ра.",
+            "es": "Aquí está la nota, y aquí la guitarra."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -536,6 +640,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudades",
+          "example": {
+            "ru": "Э́то Нью-Йорк и́ли Пари́ж?",
+            "es": "¿Esto es Nueva York o París?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -548,6 +656,10 @@
             "пло́хо"
           ],
           "topic": "estado",
+          "example": {
+            "ru": "Как дела́? — Отли́чно, спаси́бо!",
+            "es": "¿Cómo estás? —¡Excelente, gracias!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -557,6 +669,10 @@
           "es": "muy",
           "pos": "adv",
           "topic": "expresiones",
+          "example": {
+            "ru": "О́чень хорошо́!",
+            "es": "¡Muy bien!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -566,6 +682,10 @@
           "es": "Mucho gusto.",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "Меня́ зову́т Ма́ша. — О́чень прия́тно.",
+            "es": "Me llamo Masha. —Mucho gusto."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -576,6 +696,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudades",
+          "example": {
+            "ru": "Пари́ж и́ли Москва́?",
+            "es": "¿París o Moscú?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -586,6 +710,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "bebidas",
+          "example": {
+            "ru": "Пи́во, пожа́луйста.",
+            "es": "Una cerveza, por favor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -598,6 +726,10 @@
             "хорошо́"
           ],
           "topic": "estado",
+          "example": {
+            "ru": "Как дела́? — Пло́хо.",
+            "es": "¿Cómo estás? —Mal."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -607,6 +739,10 @@
           "es": "por favor / de nada / aquí tiene",
           "pos": "particle",
           "topic": "cortesía",
+          "example": {
+            "ru": "Спаси́бо! — Пожа́луйста.",
+            "es": "¡Gracias! —De nada."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -619,6 +755,10 @@
             "Приве́т!"
           ],
           "topic": "saludos",
+          "example": {
+            "ru": "Пока́, ма́ма!",
+            "es": "¡Bye, mamá!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -631,6 +771,10 @@
             "Пока́!"
           ],
           "topic": "saludos",
+          "example": {
+            "ru": "Приве́т! Как дела́?",
+            "es": "¡Hola! ¿Qué tal?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -641,6 +785,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "objetos",
+          "example": {
+            "ru": "Ра́дио и́ли журна́л?",
+            "es": "¿El radio o la revista?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -651,6 +799,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "О, э́то раке́та!",
+            "es": "¡Oh, es un cohete!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -661,6 +813,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Вот рестора́н «Москва́».",
+            "es": "Aquí está el restaurante «Moscú»."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -671,6 +827,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "plantas",
+          "example": {
+            "ru": "Э́то ро́за и́ли тюльпа́н?",
+            "es": "¿Es una rosa o un tulipán?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -681,6 +841,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "bebidas",
+          "example": {
+            "ru": "Сок и́ли вода́?",
+            "es": "¿Jugo o agua?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -690,6 +854,10 @@
           "es": "gracias",
           "pos": "particle",
           "topic": "cortesía",
+          "example": {
+            "ru": "Вот ко́фе. — Спаси́бо!",
+            "es": "Aquí está el café. —¡Gracias!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -700,6 +868,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Вот стадио́н и парк.",
+            "es": "Aquí están el estadio y el parque."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -710,6 +882,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Вот суп и сок.",
+            "es": "Aquí están la sopa y el jugo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -719,6 +895,10 @@
           "es": "también",
           "pos": "adv",
           "topic": "expresiones",
+          "example": {
+            "ru": "Меня́ то́же зову́т А́нна.",
+            "es": "Yo también me llamo Ana."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -729,6 +909,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Э́то тома́т, а э́то лимо́н.",
+            "es": "Esto es un jitomate, y esto un limón."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -739,6 +923,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Чай и торт, пожа́луйста.",
+            "es": "Té y pastel, por favor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -749,6 +937,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "plantas",
+          "example": {
+            "ru": "Вот тюльпа́н, ма́ма.",
+            "es": "Aquí tienes un tulipán, mamá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -759,6 +951,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "cultura",
+          "example": {
+            "ru": "Э́то фильм? — Да, э́то фильм.",
+            "es": "¿Es una película? —Sí, es una película."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -771,6 +967,10 @@
             "пло́хо"
           ],
           "topic": "estado",
+          "example": {
+            "ru": "Хорошо́, спаси́бо.",
+            "es": "Bien, gracias."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -781,6 +981,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Вот цирк, а вот стадио́н.",
+            "es": "Aquí está el circo, y aquí el estadio."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -791,6 +995,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "bebidas",
+          "example": {
+            "ru": "Вот чай и торт.",
+            "es": "Aquí están el té y el pastel."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -801,6 +1009,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Чек, пожа́луйста.",
+            "es": "La cuenta, por favor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -810,6 +1022,10 @@
           "es": "¿Qué es esto?",
           "pos": "phrase",
           "topic": "expresiones",
+          "example": {
+            "ru": "Что э́то? — Э́то ликёр.",
+            "es": "¿Qué es esto? —Es licor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -820,6 +1036,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "bebidas",
+          "example": {
+            "ru": "Э́то шампа́нское? — Нет, вино́.",
+            "es": "¿Es champaña? —No, es vino."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -830,6 +1050,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "А э́то шеф.",
+            "es": "Y él es el jefe."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -839,6 +1063,10 @@
           "es": "esto, eso; es (Э́то кот = Es un gato)",
           "pos": "pron",
           "topic": "expresiones",
+          "example": {
+            "ru": "Э́то ма́ма.",
+            "es": "Ella es mamá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -849,6 +1077,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "escuela",
+          "example": {
+            "ru": "Экза́мен? О́чень пло́хо!",
+            "es": "¿Un examen? ¡Muy mal!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -859,6 +1091,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Э́то я́хта и́ли раке́та?",
+            "es": "¿Es un yate o un cohete?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -869,6 +1105,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Э́то парк и́ли стадио́н?",
+            "es": "¿Es un parque o un estadio?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -878,6 +1118,10 @@
           "es": "y / ¿y…? (para contrastar o devolver la pregunta)",
           "pos": "conj",
           "topic": "expresiones",
+          "example": {
+            "ru": "Меня́ зову́т А́нна. А тебя́?",
+            "es": "Me llamo Ana. ¿Y tú?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -887,6 +1131,10 @@
           "es": "aquí está / he aquí",
           "pos": "particle",
           "topic": "expresiones",
+          "example": {
+            "ru": "Вот ко́фе и торт.",
+            "es": "Aquí están el café y el pastel."
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -2710,6 +2958,10 @@
           "es": "yo",
           "pos": "pron",
           "topic": "pronombres",
+          "example": {
+            "ru": "Я говорю́ по-испа́нски.",
+            "es": "Yo hablo español."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2719,6 +2971,10 @@
           "es": "tú",
           "pos": "pron",
           "topic": "pronombres",
+          "example": {
+            "ru": "Ты из Москвы́?",
+            "es": "¿Eres de Moscú?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2728,6 +2984,10 @@
           "es": "él",
           "pos": "pron",
           "topic": "pronombres",
+          "example": {
+            "ru": "Он говори́т по-англи́йски.",
+            "es": "Él habla inglés."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2737,6 +2997,10 @@
           "es": "ella",
           "pos": "pron",
           "topic": "pronombres",
+          "example": {
+            "ru": "Она́ из Испа́нии.",
+            "es": "Ella es de España."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2746,6 +3010,10 @@
           "es": "ello (neutro: para cosas de género neutro)",
           "pos": "pron",
           "topic": "pronombres",
+          "example": {
+            "ru": "Вино́? Оно́ из Ита́лии.",
+            "es": "¿El vino? Es de Italia."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2755,6 +3023,10 @@
           "es": "nosotros, nosotras",
           "pos": "pron",
           "topic": "pronombres",
+          "example": {
+            "ru": "Мы говори́м по-ру́сски.",
+            "es": "Nosotros hablamos ruso."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2764,6 +3036,10 @@
           "es": "ustedes / usted (formal)",
           "pos": "pron",
           "topic": "pronombres",
+          "example": {
+            "ru": "Вы говори́те по-ру́сски?",
+            "es": "¿Usted habla ruso?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2773,6 +3049,10 @@
           "es": "ellos, ellas",
           "pos": "pron",
           "topic": "pronombres",
+          "example": {
+            "ru": "Они́ америка́нцы.",
+            "es": "Ellos son estadounidenses."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2782,6 +3062,10 @@
           "es": "todo",
           "pos": "pron",
           "topic": "expresiones",
+          "example": {
+            "ru": "Всё хорошо́, спаси́бо.",
+            "es": "Todo bien, gracias."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2802,6 +3086,10 @@
             }
           },
           "topic": "idiomas",
+          "example": {
+            "ru": "Ты говори́шь по-англи́йски?",
+            "es": "¿Hablas inglés?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2817,6 +3105,10 @@
             "Пока́!"
           ],
           "topic": "saludos",
+          "example": {
+            "ru": "Спаси́бо! До свида́ния!",
+            "es": "¡Gracias! ¡Hasta luego!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2826,6 +3118,10 @@
           "es": "¡Buenos días! (por la mañana)",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "До́брое у́тро, ма́ма!",
+            "es": "¡Buenos días, mamá!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2835,6 +3131,10 @@
           "es": "¡Buenas noches! (al saludar, por la tarde-noche)",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "До́брый ве́чер! Как дела́?",
+            "es": "¡Buenas noches! ¿Cómo está?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2844,6 +3144,10 @@
           "es": "¡Buenas tardes! / ¡Buen día!",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "До́брый день! Меня́ зову́т А́нна.",
+            "es": "¡Buenas tardes! Me llamo Ana."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2859,6 +3163,10 @@
             "До свида́ния!"
           ],
           "topic": "saludos",
+          "example": {
+            "ru": "Здра́вствуйте! Вы из Росси́и?",
+            "es": "¡Buenos días! ¿Usted es de Rusia?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2868,6 +3176,10 @@
           "es": "¿Cómo se llama usted?",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "Извини́те, как Вас зову́т?",
+            "es": "Disculpe, ¿cómo se llama usted?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2880,6 +3192,10 @@
             "чуть-чуть"
           ],
           "topic": "idiomas",
+          "example": {
+            "ru": "Я немно́го говорю́ по-ру́сски.",
+            "es": "Hablo un poco de ruso."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2889,6 +3205,10 @@
           "es": "¿De dónde eres / es usted?",
           "pos": "phrase",
           "topic": "países",
+          "example": {
+            "ru": "Приве́т! Отку́да ты?",
+            "es": "¡Hola! ¿De dónde eres?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2901,6 +3221,10 @@
             "немно́го"
           ],
           "topic": "idiomas",
+          "example": {
+            "ru": "Я говорю́ по-ру́сски чуть-чуть.",
+            "es": "Hablo ruso un poquito."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2911,6 +3235,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Москва́ — э́то Росси́я.",
+            "es": "Moscú está en Rusia."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2921,6 +3249,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Она́ из Швейца́рии.",
+            "es": "Ella es de Suiza."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2931,6 +3263,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Э́то вино́ из Ита́лии.",
+            "es": "Este vino es de Italia."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2941,6 +3277,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Пари́ж — э́то Фра́нция.",
+            "es": "París está en Francia."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2951,6 +3291,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Мы из Герма́нии.",
+            "es": "Somos de Alemania."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2961,6 +3305,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Они́ из А́нглии?",
+            "es": "¿Ellos son de Inglaterra?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2971,6 +3319,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Ты из Испа́нии?",
+            "es": "¿Eres de España?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2981,6 +3333,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Джон из Аме́рики.",
+            "es": "John es de Estados Unidos."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2991,6 +3347,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Мы из Ме́ксики.",
+            "es": "Somos de México."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3001,6 +3361,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Ма́рта из Аргенти́ны.",
+            "es": "Marta es de Argentina."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3011,6 +3375,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Он из Кана́ды.",
+            "es": "Él es de Canadá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3021,6 +3389,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "países",
+          "example": {
+            "ru": "Они́ из Кита́я.",
+            "es": "Ellos son de China."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3036,6 +3408,10 @@
             "pl": "ру́сские"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Ива́н — ру́сский.",
+            "es": "Iván es ruso."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3051,6 +3427,10 @@
             "pl": "швейца́рцы"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Марк не не́мец, он швейца́рец.",
+            "es": "Mark no es alemán, es suizo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3066,6 +3446,10 @@
             "pl": "италья́нцы"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Ма́рко — италья́нец.",
+            "es": "Marco es italiano."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3081,6 +3465,10 @@
             "pl": "францу́зы"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Он францу́з, а она́ италья́нка.",
+            "es": "Él es francés, y ella es italiana."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3096,6 +3484,10 @@
             "pl": "не́мцы"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Ганс — не́мец.",
+            "es": "Hans es alemán."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3111,6 +3503,10 @@
             "pl": "англича́не"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Джон не америка́нец, он англича́нин.",
+            "es": "John no es estadounidense, es inglés."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3126,6 +3522,10 @@
             "pl": "испа́нцы"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Ты испа́нец? — Нет, я мексика́нец.",
+            "es": "¿Eres español? —No, soy mexicano."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3141,6 +3541,10 @@
             "pl": "америка́нцы"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Том — америка́нец.",
+            "es": "Tom es estadounidense."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3156,6 +3560,10 @@
             "pl": "мексика́нцы"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Я мексика́нец, а ты?",
+            "es": "Yo soy mexicano, ¿y tú?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3171,6 +3579,10 @@
             "pl": "аргенти́нцы"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Он аргенти́нец? — Да.",
+            "es": "¿Él es argentino? —Sí."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3186,6 +3598,10 @@
             "pl": "кана́дцы"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Пол — кана́дец.",
+            "es": "Paul es canadiense."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3201,6 +3617,10 @@
             "pl": "кита́йцы"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Ли — кита́ец.",
+            "es": "Li es chino."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3210,6 +3630,10 @@
           "es": "en ruso",
           "pos": "adv",
           "topic": "idiomas",
+          "example": {
+            "ru": "Я говорю́ по-ру́сски.",
+            "es": "Hablo ruso."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3219,6 +3643,10 @@
           "es": "en alemán",
           "pos": "adv",
           "topic": "idiomas",
+          "example": {
+            "ru": "Ганс говори́т по-неме́цки.",
+            "es": "Hans habla alemán."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3228,6 +3656,10 @@
           "es": "en italiano",
           "pos": "adv",
           "topic": "idiomas",
+          "example": {
+            "ru": "Она́ говори́т по-италья́нски.",
+            "es": "Ella habla italiano."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3237,6 +3669,10 @@
           "es": "en francés",
           "pos": "adv",
           "topic": "idiomas",
+          "example": {
+            "ru": "Мы немно́го говори́м по-францу́зски.",
+            "es": "Hablamos un poco de francés."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3246,6 +3682,10 @@
           "es": "en inglés",
           "pos": "adv",
           "topic": "idiomas",
+          "example": {
+            "ru": "Вы говори́те по-англи́йски?",
+            "es": "¿Usted habla inglés?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3255,6 +3695,10 @@
           "es": "en español",
           "pos": "adv",
           "topic": "idiomas",
+          "example": {
+            "ru": "Ты говори́шь по-испа́нски?",
+            "es": "¿Hablas español?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3264,6 +3708,10 @@
           "es": "en chino",
           "pos": "adv",
           "topic": "idiomas",
+          "example": {
+            "ru": "Ли говори́т по-кита́йски.",
+            "es": "Li habla chino."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3274,6 +3722,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "viaje",
+          "example": {
+            "ru": "Вот па́спорт, пожа́луйста.",
+            "es": "Aquí tiene el pasaporte."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3284,6 +3736,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "viaje",
+          "example": {
+            "ru": "Я тури́ст, я из Ме́ксики.",
+            "es": "Soy turista, soy de México."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3294,6 +3750,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Э́то не о́фис, э́то рестора́н.",
+            "es": "Esto no es una oficina, es un restaurante."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3304,6 +3764,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "comida",
+          "example": {
+            "ru": "Меню́, пожа́луйста.",
+            "es": "El menú, por favor."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3315,6 +3779,10 @@
           "gender": "m",
           "plural": "анана́сы",
           "topic": "comida",
+          "example": {
+            "ru": "Анана́с и́ли бана́н?",
+            "es": "¿Piña o plátano?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3326,6 +3794,10 @@
           "gender": "m",
           "plural": "абрико́сы",
           "topic": "comida",
+          "example": {
+            "ru": "Э́то абрико́с из Испа́нии.",
+            "es": "Este chabacano es de España."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3336,6 +3808,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "compras",
+          "example": {
+            "ru": "Оди́н килогра́мм, пожа́луйста.",
+            "es": "Un kilo, por favor."
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -5041,6 +5517,10 @@
           "es": "en el centro",
           "pos": "phrase",
           "topic": "orientación",
+          "example": {
+            "ru": "Музе́й в це́нтре.",
+            "es": "El museo está en el centro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5050,6 +5530,10 @@
           "es": "aquí está, he aquí",
           "pos": "particle",
           "topic": "orientación",
+          "example": {
+            "ru": "Где апте́ка? — Вот она́.",
+            "es": "¿Dónde está la farmacia? —Aquí está."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5059,6 +5543,10 @@
           "es": "dónde",
           "pos": "adv",
           "topic": "orientación",
+          "example": {
+            "ru": "Где метро́?",
+            "es": "¿Dónde está el metro?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5068,6 +5556,10 @@
           "es": "aquí",
           "pos": "adv",
           "topic": "orientación",
+          "example": {
+            "ru": "Здесь кафе́ и бар.",
+            "es": "Aquí hay un café y un bar."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5077,6 +5569,10 @@
           "es": "disculpe, perdone",
           "pos": "phrase",
           "topic": "cortesía",
+          "example": {
+            "ru": "Извини́те, где по́чта?",
+            "es": "Disculpe, ¿dónde está el correo?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5086,6 +5582,10 @@
           "es": "porque",
           "pos": "conj",
           "topic": "expresiones",
+          "example": {
+            "ru": "Я здесь, потому́ что я тури́ст.",
+            "es": "Estoy aquí porque soy turista."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5095,6 +5595,10 @@
           "es": "¿por qué?",
           "pos": "adv",
           "topic": "expresiones",
+          "example": {
+            "ru": "Почему́ ты здесь?",
+            "es": "¿Por qué estás aquí?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5107,6 +5611,10 @@
             "спра́ва"
           ],
           "topic": "orientación",
+          "example": {
+            "ru": "Банк сле́ва.",
+            "es": "El banco está a la izquierda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5119,6 +5627,10 @@
             "сле́ва"
           ],
           "topic": "orientación",
+          "example": {
+            "ru": "Апте́ка спра́ва, а банк сле́ва.",
+            "es": "La farmacia está a la derecha, y el banco a la izquierda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5129,6 +5641,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "ciudad",
+          "example": {
+            "ru": "Извини́те, где апте́ка?",
+            "es": "Disculpe, ¿dónde hay una farmacia?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5139,6 +5655,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Где аэропо́рт? — Вот он.",
+            "es": "¿Dónde está el aeropuerto? —Ahí está."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5149,6 +5669,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Банк здесь, в це́нтре.",
+            "es": "El banco está aquí, en el centro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5159,6 +5683,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Здесь бар? — Нет, кафе́.",
+            "es": "¿Aquí hay un bar? —No, un café."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5169,6 +5697,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "ciudad",
+          "example": {
+            "ru": "Библиоте́ка сле́ва.",
+            "es": "La biblioteca está a la izquierda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5179,6 +5711,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "ciudad",
+          "example": {
+            "ru": "Бу́лочная спра́ва.",
+            "es": "La panadería está a la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5189,6 +5725,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Извини́те, где вокза́л?",
+            "es": "Disculpe, ¿dónde está la estación de tren?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5199,6 +5739,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "ciudad",
+          "example": {
+            "ru": "Галере́я в це́нтре.",
+            "es": "La galería está en el centro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5209,6 +5753,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Где зоопа́рк? — Вот он, спра́ва.",
+            "es": "¿Dónde está el zoológico? —Ahí está, a la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5219,6 +5767,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "ciudad",
+          "example": {
+            "ru": "Кафе́ здесь, сле́ва.",
+            "es": "El café está aquí, a la izquierda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5229,6 +5781,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "ciudad",
+          "example": {
+            "ru": "Где кино́? — Вот оно́.",
+            "es": "¿Dónde está el cine? —Ahí está."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5239,6 +5795,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "ciudad",
+          "example": {
+            "ru": "Кли́ника спра́ва.",
+            "es": "La clínica está a la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5249,6 +5809,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "ciudad",
+          "example": {
+            "ru": "Консервато́рия в це́нтре.",
+            "es": "El conservatorio está en el centro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5259,6 +5823,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Магази́н здесь, спра́ва.",
+            "es": "La tienda está aquí, a la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5269,6 +5837,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Где музе́й? — В це́нтре.",
+            "es": "¿Dónde está el museo? —En el centro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5279,6 +5851,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Оте́ль в це́нтре? — Да.",
+            "es": "¿El hotel está en el centro? —Sí."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5289,6 +5865,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "ciudad",
+          "example": {
+            "ru": "По́чта здесь, сле́ва.",
+            "es": "El correo está aquí, a la izquierda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5299,6 +5879,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Суперма́ркет спра́ва.",
+            "es": "El supermercado está a la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5309,6 +5893,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Вот теа́тр, а вот музе́й.",
+            "es": "Aquí está el teatro, y aquí el museo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5319,6 +5907,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "ciudad",
+          "example": {
+            "ru": "Шко́ла здесь.",
+            "es": "La escuela está aquí."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -5329,6 +5921,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "ciudad",
+          "example": {
+            "ru": "Где це́рковь? — Вот она́.",
+            "es": "¿Dónde está la iglesia? —Ahí está."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -5339,6 +5935,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Э́то го́род Пари́ж.",
+            "es": "Esta es la ciudad de París."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -5348,6 +5948,10 @@
           "es": "cero (0)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Ноль, оди́н, два, три…",
+            "es": "Cero, uno, dos, tres…"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5357,6 +5961,10 @@
           "es": "uno (1)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Оди́н ко́фе, пожа́луйста.",
+            "es": "Un café, por favor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5366,6 +5974,10 @@
           "es": "dos (2)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Два ко́фе, пожа́луйста.",
+            "es": "Dos cafés, por favor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5375,6 +5987,10 @@
           "es": "tres (3)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Три ко́фе и оди́н чай.",
+            "es": "Tres cafés y un té."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5384,6 +6000,10 @@
           "es": "cuatro (4)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Два плюс два — четы́ре.",
+            "es": "Dos más dos son cuatro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5393,6 +6013,10 @@
           "es": "cinco (5)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Оди́н, два, три, четы́ре, пять!",
+            "es": "¡Uno, dos, tres, cuatro, cinco!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5402,6 +6026,10 @@
           "es": "seis (6)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Три плюс три — шесть.",
+            "es": "Tres más tres son seis."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5411,6 +6039,10 @@
           "es": "siete (7)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Семь ми́нус оди́н — шесть.",
+            "es": "Siete menos uno son seis."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5420,6 +6052,10 @@
           "es": "ocho (8)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Во́семь ми́нус три — пять.",
+            "es": "Ocho menos tres son cinco."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5429,6 +6065,10 @@
           "es": "nueve (9)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Де́вять плюс оди́н — де́сять.",
+            "es": "Nueve más uno son diez."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5438,6 +6078,10 @@
           "es": "diez (10)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Пять плюс пять — де́сять.",
+            "es": "Cinco más cinco son diez."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5447,6 +6091,10 @@
           "es": "once (11)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Оди́ннадцать плюс оди́н — двена́дцать.",
+            "es": "Once más uno son doce."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5456,6 +6104,10 @@
           "es": "doce (12)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Двена́дцать ми́нус два — де́сять.",
+            "es": "Doce menos dos son diez."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5465,6 +6117,10 @@
           "es": "trece (13)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Де́сять плюс три — трина́дцать.",
+            "es": "Diez más tres son trece."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5474,6 +6130,10 @@
           "es": "catorce (14)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Семь плюс семь — четы́рнадцать.",
+            "es": "Siete más siete son catorce."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5483,6 +6143,10 @@
           "es": "quince (15)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Пятна́дцать ми́нус пять — де́сять.",
+            "es": "Quince menos cinco son diez."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5492,6 +6156,10 @@
           "es": "dieciséis (16)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Во́семь плюс во́семь — шестна́дцать.",
+            "es": "Ocho más ocho son dieciséis."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5501,6 +6169,10 @@
           "es": "diecisiete (17)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Де́сять плюс семь — семна́дцать.",
+            "es": "Diez más siete son diecisiete."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5510,6 +6182,10 @@
           "es": "dieciocho (18)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Де́вять плюс де́вять — восемна́дцать.",
+            "es": "Nueve más nueve son dieciocho."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5519,6 +6195,10 @@
           "es": "diecinueve (19)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Два́дцать ми́нус оди́н — девятна́дцать.",
+            "es": "Veinte menos uno son diecinueve."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5528,6 +6208,10 @@
           "es": "veinte (20)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Де́сять плюс де́сять — два́дцать.",
+            "es": "Diez más diez son veinte."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5537,6 +6221,10 @@
           "es": "¿Cuánto es 2 + 2?",
           "pos": "phrase",
           "topic": "números",
+          "example": {
+            "ru": "Ско́лько бу́дет три плюс два?",
+            "es": "¿Cuánto es tres más dos?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5549,6 +6237,10 @@
             "ми́нус"
           ],
           "topic": "números",
+          "example": {
+            "ru": "Оди́н плюс оди́н — два.",
+            "es": "Uno más uno son dos."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5561,6 +6253,10 @@
             "плюс"
           ],
           "topic": "números",
+          "example": {
+            "ru": "Пять ми́нус два — три.",
+            "es": "Cinco menos dos son tres."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5570,6 +6266,10 @@
           "es": "es igual a (=)",
           "pos": "adv",
           "topic": "números",
+          "example": {
+            "ru": "Два плюс два равно́ четы́ре.",
+            "es": "Dos más dos es igual a cuatro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5580,6 +6280,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "familia",
+          "example": {
+            "ru": "Где па́па? — Вот он.",
+            "es": "¿Dónde está papá? —Ahí está."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -5590,6 +6294,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "personas",
+          "example": {
+            "ru": "А́нна — э́то и́мя.",
+            "es": "Ana es un nombre."
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -7098,6 +7806,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "trabajo",
+          "example": {
+            "ru": "Где би́знес-конфере́нция?",
+            "es": "¿Dónde es la conferencia de negocios?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7108,6 +7820,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "trabajo",
+          "example": {
+            "ru": "Вот визи́тка, пожа́луйста.",
+            "es": "Aquí tiene mi tarjeta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7117,6 +7833,10 @@
           "es": "¡Genial! / ¡Padrísimo!",
           "pos": "interj",
           "topic": "expresiones",
+          "example": {
+            "ru": "Ты ди-джей? Кла́ссно!",
+            "es": "¿Eres DJ? ¡Qué padre!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7126,6 +7846,10 @@
           "es": "claro, por supuesto",
           "pos": "adv",
           "topic": "expresiones",
+          "example": {
+            "ru": "Ты понима́ешь? — Коне́чно!",
+            "es": "¿Entiendes? —¡Claro!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7135,6 +7859,10 @@
           "es": "¿A qué te dedicas / se dedica? (¿Cuál es tu profesión?)",
           "pos": "phrase",
           "topic": "profesiones",
+          "example": {
+            "ru": "Кто Вы по профе́ссии? — Я врач.",
+            "es": "¿A qué se dedica? —Soy médico."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7144,6 +7872,10 @@
           "es": "¡No, qué va! / ¡Para nada!",
           "pos": "phrase",
           "topic": "expresiones",
+          "example": {
+            "ru": "Вы актри́са? — Нет, что вы!",
+            "es": "¿Usted es actriz? —¡No, para nada!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7153,6 +7885,10 @@
           "es": "¡Oh, qué interesante!",
           "pos": "phrase",
           "topic": "expresiones",
+          "example": {
+            "ru": "Я пило́т. — О, как интере́сно!",
+            "es": "Soy piloto. —¡Oh, qué interesante!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7173,6 +7909,10 @@
             }
           },
           "topic": "trabajo",
+          "example": {
+            "ru": "Где ты рабо́таешь?",
+            "es": "¿Dónde trabajas?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7187,6 +7927,10 @@
             "m": "актёр",
             "f": "актри́са"
           },
+          "example": {
+            "ru": "Она́ актри́са, а он актёр.",
+            "es": "Ella es actriz, y él es actor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7197,6 +7941,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Анто́н — банки́р.",
+            "es": "Antón es banquero."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7207,6 +7955,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Ты барме́н? — Да, я барме́н.",
+            "es": "¿Eres bartender? —Sí, soy bartender."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7217,6 +7969,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Гид говори́т по-англи́йски.",
+            "es": "El guía habla inglés."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7227,6 +7983,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Он ди-джей, а она́ музыка́нт.",
+            "es": "Él es DJ, y ella es música."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7240,6 +8000,10 @@
           "synonyms": [
             "врач"
           ],
+          "example": {
+            "ru": "Спаси́бо, до́ктор!",
+            "es": "¡Gracias, doctor!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7250,6 +8014,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "profesiones",
+          "example": {
+            "ru": "Ты домохозя́йка? — Нет, я рабо́таю.",
+            "es": "¿Eres ama de casa? —No, trabajo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7264,6 +8032,10 @@
             "m": "журнали́ст",
             "f": "журнали́стка"
           },
+          "example": {
+            "ru": "Я журнали́ст, а Вы?",
+            "es": "Soy periodista, ¿y usted?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7274,6 +8046,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "А́нна — ме́неджер.",
+            "es": "Ana es gerente."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7284,6 +8060,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Мы музыка́нты.",
+            "es": "Somos músicos."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7297,6 +8077,10 @@
           "forms": {
             "m": "официа́нт",
             "f": "официа́нтка"
+          },
+          "example": {
+            "ru": "Официа́нт, меню́, пожа́луйста!",
+            "es": "¡Mesero, el menú, por favor!"
           },
           "fromSlovar": true,
           "sneak": false
@@ -7312,6 +8096,10 @@
             "m": "пенсионе́р",
             "f": "пенсионе́рка"
           },
+          "example": {
+            "ru": "Он не рабо́тает, он пенсионе́р.",
+            "es": "Él no trabaja, es jubilado."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7322,6 +8110,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Пило́т говори́т по-ру́сски и по-англи́йски.",
+            "es": "El piloto habla ruso e inglés."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7332,6 +8124,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Ива́н — полице́йский.",
+            "es": "Iván es policía."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7342,6 +8138,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Она́ преподава́тель, она́ рабо́тает здесь.",
+            "es": "Ella es profesora, trabaja aquí."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7352,6 +8152,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Психо́лог понима́ет всё.",
+            "es": "El psicólogo lo entiende todo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7362,6 +8166,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Секрета́рь зна́ет всё.",
+            "es": "La secretaria lo sabe todo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7375,6 +8183,10 @@
           "forms": {
             "m": "спортсме́н",
             "f": "спортсме́нка"
+          },
+          "example": {
+            "ru": "Он спортсме́н? — Коне́чно!",
+            "es": "¿Él es deportista? —¡Claro!"
           },
           "fromSlovar": true,
           "sneak": false
@@ -7390,6 +8202,10 @@
             "m": "студе́нт",
             "f": "студе́нтка"
           },
+          "example": {
+            "ru": "Я студе́нт, а ты?",
+            "es": "Soy estudiante, ¿y tú?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7400,6 +8216,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "profesiones",
+          "example": {
+            "ru": "Стюарде́сса говори́т по-испа́нски.",
+            "es": "La sobrecargo habla español."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7410,6 +8230,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Такси́ст не говори́т по-англи́йски.",
+            "es": "El taxista no habla inglés."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7420,6 +8244,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Он футболи́ст? Кла́ссно!",
+            "es": "¿Es futbolista? ¡Qué padre!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7430,6 +8258,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Она́ экономи́ст.",
+            "es": "Ella es economista."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -7440,6 +8272,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Па́па — инжене́р.",
+            "es": "Papá es ingeniero."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -7450,6 +8286,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Ты юри́ст? — Нет, я экономи́ст.",
+            "es": "¿Eres abogado? —No, soy economista."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -7460,6 +8300,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Ма́ма — врач.",
+            "es": "Mamá es médica."
+          },
           "fromSlovar": false,
           "synonyms": [
             "до́ктор"
@@ -7473,6 +8317,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "personas",
+          "example": {
+            "ru": "Как Ва́ша фами́лия?",
+            "es": "¿Cuál es su apellido?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -7483,6 +8331,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "profesiones",
+          "example": {
+            "ru": "Профе́ссия? Я журнали́ст.",
+            "es": "¿Profesión? Soy periodista."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -7493,6 +8345,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "clase",
+          "example": {
+            "ru": "Где ру́чка? — Вот она́.",
+            "es": "¿Dónde está la pluma? —Aquí está."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -7513,6 +8369,10 @@
             }
           },
           "topic": "clase",
+          "example": {
+            "ru": "Я не зна́ю, где метро́.",
+            "es": "No sé dónde está el metro."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -7533,6 +8393,10 @@
             }
           },
           "topic": "clase",
+          "example": {
+            "ru": "Вы понима́ете по-ру́сски?",
+            "es": "¿Usted entiende ruso?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -7553,6 +8417,10 @@
             }
           },
           "topic": "clase",
+          "example": {
+            "ru": "Я ду́маю, он врач.",
+            "es": "Creo que es médico."
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -8877,6 +9745,10 @@
       "es": "¡Buenas noches! (al despedirse / antes de dormir)",
       "pos": "phrase",
       "topic": "saludos",
+      "example": {
+        "ru": "Спаси́бо, ма́ма! Споко́йной но́чи!",
+        "es": "¡Gracias, mamá! ¡Buenas noches!"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -8886,6 +9758,10 @@
       "es": "¡Perdón! / Disculpa (informal, a ты)",
       "pos": "phrase",
       "topic": "cortesía",
+      "example": {
+        "ru": "Извини́, ты говори́шь по-англи́йски?",
+        "es": "Perdón, ¿hablas inglés?"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -8895,6 +9771,10 @@
       "es": "¿De verdad?",
       "pos": "phrase",
       "topic": "expresiones",
+      "example": {
+        "ru": "Я из Ме́ксики. — Пра́вда?",
+        "es": "Soy de México. —¿De verdad?"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -8904,6 +9784,10 @@
       "es": "¿Cómo va la vida? (informal)",
       "pos": "phrase",
       "topic": "saludos",
+      "example": {
+        "ru": "Приве́т! Как жизнь?",
+        "es": "¡Hola! ¿Cómo va la vida?"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -8914,6 +9798,10 @@
       "pos": "noun",
       "gender": "f",
       "topic": "países",
+      "example": {
+        "ru": "Она́ из Колу́мбии.",
+        "es": "Ella es de Colombia."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -8929,6 +9817,10 @@
         "pl": "колумби́йцы"
       },
       "topic": "nacionalidades",
+      "example": {
+        "ru": "Хуа́н — колумби́ец.",
+        "es": "Juan es colombiano."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -8938,6 +9830,10 @@
       "es": "en portugués",
       "pos": "adv",
       "topic": "idiomas",
+      "example": {
+        "ru": "Вы говори́те по-португа́льски?",
+        "es": "¿Usted habla portugués?"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -8951,6 +9847,10 @@
         "оте́ль"
       ],
       "topic": "ciudad",
+      "example": {
+        "ru": "Где гости́ница «Москва́»?",
+        "es": "¿Dónde está el hotel «Moscú»?"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -8961,6 +9861,10 @@
       "pos": "noun",
       "gender": "f",
       "topic": "ciudad",
+      "example": {
+        "ru": "Больни́ца сле́ва.",
+        "es": "El hospital está a la izquierda."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -8971,6 +9875,10 @@
       "pos": "noun",
       "gender": "f",
       "topic": "ciudad",
+      "example": {
+        "ru": "Э́то у́лица Арба́т.",
+        "es": "Esta es la calle Arbat."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -8981,6 +9889,10 @@
       "pos": "noun",
       "gender": "f",
       "topic": "ciudad",
+      "example": {
+        "ru": "Кра́сная пло́щадь в це́нтре.",
+        "es": "La Plaza Roja está en el centro."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -8991,6 +9903,10 @@
       "pos": "noun",
       "gender": "m",
       "topic": "profesiones",
+      "example": {
+        "ru": "Я программи́ст, я рабо́таю здесь.",
+        "es": "Soy programador, trabajo aquí."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -9001,6 +9917,10 @@
       "pos": "noun",
       "gender": "f",
       "topic": "profesiones",
+      "example": {
+        "ru": "Она́ медсестра́.",
+        "es": "Ella es enfermera."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -9015,6 +9935,10 @@
         "f": "учи́тельница"
       },
       "topic": "profesiones",
+      "example": {
+        "ru": "Учи́тель говори́т по-ру́сски.",
+        "es": "El maestro habla ruso."
+      },
       "fromSlovar": false,
       "sneak": true
     }

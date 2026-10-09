@@ -472,6 +472,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Там ви́лла, а здесь оте́ль.",
+            "es": "Allá hay una villa y aquí un hotel."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -482,6 +486,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "bebidas",
+          "example": {
+            "ru": "Джин и то́ник, пожа́луйста.",
+            "es": "Ginebra con agua tónica, por favor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -492,6 +500,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "У меня́ есть дипло́м.",
+            "es": "Tengo título."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -502,6 +514,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "profesiones",
+          "example": {
+            "ru": "Интервью́ здесь и́ли там?",
+            "es": "¿La entrevista es aquí o allá?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -512,6 +528,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "escuela",
+          "example": {
+            "ru": "Класс здесь, спра́ва.",
+            "es": "El salón está aquí, a la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -522,6 +542,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "profesiones",
+          "example": {
+            "ru": "Где клие́нты? — Там.",
+            "es": "¿Dónde están los clientes? —Allá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -532,6 +556,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "profesiones",
+          "example": {
+            "ru": "У тебя́ есть медикаме́нты?",
+            "es": "¿Tienes medicinas?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -542,6 +570,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Где микрофо́н? — Вот он.",
+            "es": "¿Dónde está el micrófono? —Aquí está."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -552,6 +584,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Он миллионе́р? — Да, коне́чно!",
+            "es": "¿Es millonario? —¡Claro que sí!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -564,6 +600,10 @@
             "пра́вильно"
           ],
           "topic": "clase",
+          "example": {
+            "ru": "Нет, э́то непра́вильно.",
+            "es": "No, eso está mal."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -574,6 +614,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "profesiones",
+          "example": {
+            "ru": "Пацие́нты здесь, а до́ктор там.",
+            "es": "Los pacientes están aquí y el doctor allá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -584,6 +628,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "У тебя́ есть план?",
+            "es": "¿Tienes un plan?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -596,6 +644,10 @@
             "непра́вильно"
           ],
           "topic": "clase",
+          "example": {
+            "ru": "Да, всё пра́вильно!",
+            "es": "¡Sí, todo está bien!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -606,6 +658,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "profesiones",
+          "example": {
+            "ru": "Пу́блика здесь, сле́ва.",
+            "es": "El público está aquí, a la izquierda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -616,6 +672,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "profesiones",
+          "example": {
+            "ru": "У тебя́ есть роль? — Да!",
+            "es": "¿Tienes un papel? —¡Sí!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -628,6 +688,10 @@
             "здесь"
           ],
           "topic": "lugar",
+          "example": {
+            "ru": "Где банк? — Там, спра́ва.",
+            "es": "¿Dónde está el banco? —Allá, a la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -638,6 +702,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "bebidas",
+          "example": {
+            "ru": "Э́то вода́ и́ли то́ник?",
+            "es": "¿Es agua o agua tónica?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -648,6 +716,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Ты тре́нер и́ли спортсме́н?",
+            "es": "¿Eres entrenador o deportista?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -658,6 +730,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "profesiones",
+          "example": {
+            "ru": "У тебя́ есть фо́рма?",
+            "es": "¿Tienes uniforme?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -668,6 +744,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "У меня́ есть фотоаппара́т.",
+            "es": "Tengo una cámara."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -678,6 +758,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Она́ фото́граф, а он актёр.",
+            "es": "Ella es fotógrafa y él es actor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -688,6 +772,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Биле́т здесь? — Да, вот он.",
+            "es": "¿El boleto está aquí? —Sí, aquí está."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -698,6 +786,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Э́то газе́та и́ли журна́л?",
+            "es": "¿Es un periódico o una revista?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -708,6 +800,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Дверь там, спра́ва.",
+            "es": "La puerta está allá, a la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -718,6 +814,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "objetos",
+          "example": {
+            "ru": "У тебя́ есть де́ньги?",
+            "es": "¿Tienes dinero?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -728,6 +828,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Доска́ там, сле́ва.",
+            "es": "El pizarrón está allá, a la izquierda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -738,6 +842,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Журна́л здесь, а газе́та там.",
+            "es": "La revista está aquí y el periódico allá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -748,6 +856,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "У тебя́ есть зо́нтик?",
+            "es": "¿Tienes paraguas?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -758,6 +870,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Э́то ру́чка и́ли каранда́ш?",
+            "es": "¿Es una pluma o un lápiz?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -769,6 +885,10 @@
           "gender": "m",
           "topic": "objetos",
           "plural": "ключи́",
+          "example": {
+            "ru": "Извини́те, где ключ?",
+            "es": "Disculpe, ¿dónde está la llave?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -779,6 +899,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "objetos",
+          "example": {
+            "ru": "Ключи́ там, сле́ва.",
+            "es": "Las llaves están allá, a la izquierda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -789,6 +913,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Вот кни́га, а вот журна́л.",
+            "es": "Aquí está el libro y aquí la revista."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -799,6 +927,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Компью́тер там, спра́ва.",
+            "es": "La computadora está allá, a la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -809,6 +941,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Где косме́тика? — Там.",
+            "es": "¿Dónde está el maquillaje? —Allá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -819,6 +955,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Ой, где кошелёк?",
+            "es": "¡Ay! ¿Dónde está la cartera?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -829,6 +969,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Здесь ла́мпа, а там окно́.",
+            "es": "Aquí hay una lámpara y allá una ventana."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -839,6 +983,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "У тебя́ есть ма́ркер?",
+            "es": "¿Tienes un plumón?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -849,6 +997,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "У тебя́ есть маши́на?",
+            "es": "¿Tienes carro?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -859,6 +1011,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "objetos",
+          "example": {
+            "ru": "Очки́ здесь, а телефо́н там.",
+            "es": "Los lentes están aquí y el celular allá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -869,6 +1025,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "У меня́ есть па́спорт.",
+            "es": "Tengo pasaporte."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -879,6 +1039,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "objetos",
+          "example": {
+            "ru": "Вот письмо́, пожа́луйста.",
+            "es": "Aquí está la carta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -889,6 +1053,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "У меня́ есть пле́ер.",
+            "es": "Tengo un reproductor de música."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -899,6 +1067,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Извини́те, у Вас есть ру́чка?",
+            "es": "Disculpe, ¿tiene una pluma?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -909,6 +1081,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Слова́рь здесь, а кни́га там.",
+            "es": "El diccionario está aquí y el libro allá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -919,6 +1095,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Стол здесь, а стул там.",
+            "es": "La mesa está aquí y la silla allá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -929,6 +1109,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Вот стул, пожа́луйста.",
+            "es": "Aquí hay una silla."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -939,6 +1123,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Э́то су́мка и́ли рюкза́к?",
+            "es": "¿Es una bolsa o una mochila?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -949,6 +1137,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "У тебя́ есть телефо́н?",
+            "es": "¿Tienes celular?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -959,6 +1151,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "Тетра́дь и ру́чка здесь.",
+            "es": "El cuaderno y la pluma están aquí."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -972,6 +1168,10 @@
           "synonyms": [
             "фо́то"
           ],
+          "example": {
+            "ru": "У тебя́ есть фотогра́фия?",
+            "es": "¿Tienes una fotografía?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -982,6 +1182,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "objetos",
+          "example": {
+            "ru": "У тебя́ есть часы́?",
+            "es": "¿Tienes reloj?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -991,6 +1195,10 @@
           "es": "veinte (20)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Де́сять плюс де́сять — два́дцать.",
+            "es": "Diez más diez son veinte."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1000,6 +1208,10 @@
           "es": "treinta (30)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Три́дцать ми́нус де́сять — два́дцать.",
+            "es": "Treinta menos diez son veinte."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1009,6 +1221,10 @@
           "es": "cuarenta (40)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Два́дцать плюс два́дцать — со́рок.",
+            "es": "Veinte más veinte son cuarenta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1018,6 +1234,10 @@
           "es": "cincuenta (50)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Ско́лько бу́дет со́рок плюс де́сять? — Пятьдеся́т.",
+            "es": "¿Cuánto es cuarenta más diez? —Cincuenta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1027,6 +1247,10 @@
           "es": "sesenta (60)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Шестьдеся́т ми́нус два́дцать — со́рок.",
+            "es": "Sesenta menos veinte son cuarenta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1036,6 +1260,10 @@
           "es": "setenta (70)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Се́мьдесят ми́нус де́сять — шестьдеся́т.",
+            "es": "Setenta menos diez son sesenta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1045,6 +1273,10 @@
           "es": "ochenta (80)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Во́семьдесят плюс де́сять — девяно́сто.",
+            "es": "Ochenta más diez son noventa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1054,6 +1286,10 @@
           "es": "noventa (90)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Девяно́сто ми́нус пятьдеся́т — со́рок.",
+            "es": "Noventa menos cincuenta son cuarenta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1063,6 +1299,10 @@
           "es": "cien (100)",
           "pos": "num",
           "topic": "números",
+          "example": {
+            "ru": "Сто ми́нус оди́н — девяно́сто де́вять.",
+            "es": "Cien menos uno son noventa y nueve."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1073,6 +1313,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "objetos",
+          "example": {
+            "ru": "Вот фо́то: э́то Пари́ж.",
+            "es": "Mira la foto: es París."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1083,6 +1327,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "objetos",
+          "example": {
+            "ru": "Окно́ сле́ва, а дверь спра́ва.",
+            "es": "La ventana está a la izquierda y la puerta a la derecha."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1093,6 +1341,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "objetos",
+          "example": {
+            "ru": "Где рюкза́к? — Он там.",
+            "es": "¿Dónde está la mochila? —Está allá."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1103,6 +1355,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "objetos",
+          "example": {
+            "ru": "У тебя́ есть я́хта? — Нет!",
+            "es": "¿Tienes yate? —¡No!"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1113,6 +1369,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "escuela",
+          "example": {
+            "ru": "Экза́мен здесь? — Да, здесь.",
+            "es": "¿El examen es aquí? —Sí, aquí."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1123,6 +1383,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "música",
+          "example": {
+            "ru": "У меня́ есть гита́ра.",
+            "es": "Tengo guitarra."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1133,6 +1397,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Шеф здесь? — Нет, он там.",
+            "es": "¿Está el jefe? —No, está allá."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1143,6 +1411,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "profesiones",
+          "example": {
+            "ru": "Сту́дия здесь, спра́ва.",
+            "es": "El estudio está aquí, a la derecha."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1155,6 +1427,10 @@
             "там"
           ],
           "topic": "lugar",
+          "example": {
+            "ru": "Я здесь, а ты где?",
+            "es": "Yo estoy aquí, ¿y tú dónde estás?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1164,6 +1440,10 @@
           "es": "yo tengo (lit. «junto a mí hay»)",
           "pos": "phrase",
           "topic": "posesión",
+          "example": {
+            "ru": "У меня́ есть кот.",
+            "es": "Tengo un gato."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1173,6 +1453,10 @@
           "es": "cuánto(s)",
           "pos": "adv",
           "topic": "números",
+          "example": {
+            "ru": "Ско́лько бу́дет два плюс два?",
+            "es": "¿Cuánto es dos más dos?"
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -2866,6 +3150,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "general",
+          "example": {
+            "ru": "Э́то не твоё де́ло!",
+            "es": "¡No es asunto tuyo!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2875,6 +3163,10 @@
           "es": "¡perdón!, disculpa (informal)",
           "pos": "interj",
           "topic": "cortesía",
+          "example": {
+            "ru": "Извини́, ты Ма́ша?",
+            "es": "Perdón, ¿tú eres Masha?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2885,6 +3177,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comunicación",
+          "example": {
+            "ru": "У тебя́ есть име́йл?",
+            "es": "¿Tienes correo electrónico?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2895,6 +3191,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "animales",
+          "example": {
+            "ru": "У нас есть соба́ка.",
+            "es": "Tenemos perro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2905,6 +3205,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "ropa",
+          "example": {
+            "ru": "Чьё э́то пальто́?",
+            "es": "¿De quién es este abrigo?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2920,6 +3224,10 @@
             "pl": "чьи"
           },
           "topic": "posesión",
+          "example": {
+            "ru": "Чей э́то телефо́н?",
+            "es": "¿De quién es este celular?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2933,6 +3241,10 @@
           "antonyms": [
             "де́душка"
           ],
+          "example": {
+            "ru": "Моя́ ба́бушка здесь, а де́душка там.",
+            "es": "Mi abuela está aquí y mi abuelo allá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2946,6 +3258,10 @@
           "antonyms": [
             "сестра́"
           ],
+          "example": {
+            "ru": "У тебя́ есть брат?",
+            "es": "¿Tienes hermano?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2959,6 +3275,10 @@
           "antonyms": [
             "вну́чка"
           ],
+          "example": {
+            "ru": "Э́то мой внук.",
+            "es": "Este es mi nieto."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2969,6 +3289,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "familia",
+          "example": {
+            "ru": "Её вну́ки здесь.",
+            "es": "Sus nietos están aquí."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2982,6 +3306,10 @@
           "antonyms": [
             "внук"
           ],
+          "example": {
+            "ru": "А э́то моя́ вну́чка.",
+            "es": "Y esta es mi nieta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -2995,6 +3323,10 @@
           "antonyms": [
             "па́рень"
           ],
+          "example": {
+            "ru": "У него́ есть де́вушка?",
+            "es": "¿Él tiene novia?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3008,6 +3340,10 @@
           "antonyms": [
             "ба́бушка"
           ],
+          "example": {
+            "ru": "Мой де́душка — врач.",
+            "es": "Mi abuelo es médico."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3018,6 +3354,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "familia",
+          "example": {
+            "ru": "У Вас есть де́ти?",
+            "es": "¿Tiene hijos?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3031,6 +3371,10 @@
           "antonyms": [
             "сын"
           ],
+          "example": {
+            "ru": "Его́ дочь — юри́ст.",
+            "es": "Su hija es abogada."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3044,6 +3388,10 @@
           "antonyms": [
             "тётя"
           ],
+          "example": {
+            "ru": "Мой дя́дя — пило́т.",
+            "es": "Mi tío es piloto."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3057,6 +3405,10 @@
           "antonyms": [
             "муж"
           ],
+          "example": {
+            "ru": "Его́ жена́ — до́ктор.",
+            "es": "Su esposa es doctora."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3070,6 +3422,10 @@
           "antonyms": [
             "жена́"
           ],
+          "example": {
+            "ru": "Её муж — инжене́р.",
+            "es": "Su esposo es ingeniero."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3083,6 +3439,10 @@
           "antonyms": [
             "ма́ма"
           ],
+          "example": {
+            "ru": "Па́па, где ключи́?",
+            "es": "Papá, ¿dónde están las llaves?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3096,6 +3456,10 @@
           "antonyms": [
             "де́вушка"
           ],
+          "example": {
+            "ru": "У неё есть па́рень.",
+            "es": "Ella tiene novio."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3107,6 +3471,10 @@
           "gender": "m",
           "topic": "familia",
           "plural": "де́ти",
+          "example": {
+            "ru": "У них есть ребёнок.",
+            "es": "Ellos tienen un bebé."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3117,6 +3485,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "familia",
+          "example": {
+            "ru": "Мои́ роди́тели — пенсионе́ры.",
+            "es": "Mis papás son jubilados."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3130,6 +3502,10 @@
           "antonyms": [
             "брат"
           ],
+          "example": {
+            "ru": "Твоя́ сестра́ здесь?",
+            "es": "¿Tu hermana está aquí?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3143,6 +3519,10 @@
           "antonyms": [
             "дочь"
           ],
+          "example": {
+            "ru": "Наш сын — футболи́ст.",
+            "es": "Nuestro hijo es futbolista."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3156,6 +3536,10 @@
           "antonyms": [
             "дя́дя"
           ],
+          "example": {
+            "ru": "Моя́ тётя — врач.",
+            "es": "Mi tía es doctora."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3169,6 +3553,10 @@
           "antonyms": [
             "па́па"
           ],
+          "example": {
+            "ru": "Ма́ма, э́то мой друг.",
+            "es": "Mamá, este es mi amigo."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3179,6 +3567,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "familia",
+          "example": {
+            "ru": "Э́то моя́ семья́.",
+            "es": "Esta es mi familia."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3192,6 +3584,10 @@
           "antonyms": [
             "де́вочка"
           ],
+          "example": {
+            "ru": "Чей э́то ма́льчик?",
+            "es": "¿De quién es ese niño?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3205,6 +3601,10 @@
           "antonyms": [
             "ма́льчик"
           ],
+          "example": {
+            "ru": "Где де́вочка? — Вот она́.",
+            "es": "¿Dónde está la niña? —Aquí está."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3218,6 +3618,10 @@
           "antonyms": [
             "же́нщина"
           ],
+          "example": {
+            "ru": "Мужчи́на сле́ва — мой па́па.",
+            "es": "El hombre de la izquierda es mi papá."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3231,6 +3635,10 @@
           "antonyms": [
             "мужчи́на"
           ],
+          "example": {
+            "ru": "Кто там? Мужчи́на и́ли же́нщина?",
+            "es": "¿Quién está ahí? ¿Un hombre o una mujer?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3245,6 +3653,10 @@
             "подру́га"
           ],
           "plural": "друзья́",
+          "example": {
+            "ru": "Ива́н — мой друг.",
+            "es": "Iván es mi amigo."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3258,6 +3670,10 @@
           "antonyms": [
             "друг"
           ],
+          "example": {
+            "ru": "Где твоя́ подру́га?",
+            "es": "¿Dónde está tu amiga?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3268,6 +3684,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "familia",
+          "example": {
+            "ru": "Мои́ друзья́ здесь.",
+            "es": "Mis amigos están aquí."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3279,6 +3699,10 @@
           "gender": "m",
           "topic": "familia",
           "plural": "лю́ди",
+          "example": {
+            "ru": "Челове́к сле́ва — наш шеф.",
+            "es": "La persona de la izquierda es nuestro jefe."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3289,6 +3713,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "familia",
+          "example": {
+            "ru": "Лю́ди там, спра́ва.",
+            "es": "La gente está allá, a la derecha."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3299,6 +3727,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "profesiones",
+          "example": {
+            "ru": "Моя́ ма́ма — домохозя́йка.",
+            "es": "Mi mamá es ama de casa."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3309,6 +3741,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "comunicación",
+          "example": {
+            "ru": "А́нна, соба́ка, майл, то́чка, ру.",
+            "es": "ana@mail.ru"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3322,6 +3758,10 @@
           "synonyms": [
             "зо́нтик"
           ],
+          "example": {
+            "ru": "Чей э́то зонт?",
+            "es": "¿De quién es este paraguas?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3331,6 +3771,10 @@
           "es": "claro, por supuesto",
           "pos": "adv",
           "topic": "conversación",
+          "example": {
+            "ru": "У тебя́ есть ру́чка? — Коне́чно!",
+            "es": "¿Tienes pluma? —¡Claro!"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3346,6 +3790,10 @@
             "pl": "мои́"
           },
           "topic": "posesión",
+          "example": {
+            "ru": "Мой телефо́н там.",
+            "es": "Mi celular está allá."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3361,6 +3809,10 @@
             "pl": "твои́"
           },
           "topic": "posesión",
+          "example": {
+            "ru": "Э́то твой рюкза́к?",
+            "es": "¿Esta es tu mochila?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3376,6 +3828,10 @@
             "pl": "его́"
           },
           "topic": "posesión",
+          "example": {
+            "ru": "Его́ маши́на там.",
+            "es": "Su carro está allá."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3391,6 +3847,10 @@
             "pl": "её"
           },
           "topic": "posesión",
+          "example": {
+            "ru": "Её сын — музыка́нт.",
+            "es": "Su hijo es músico."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3406,6 +3866,10 @@
             "pl": "на́ши"
           },
           "topic": "posesión",
+          "example": {
+            "ru": "Наш класс здесь.",
+            "es": "Nuestro salón está aquí."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3421,6 +3885,10 @@
             "pl": "ва́ши"
           },
           "topic": "posesión",
+          "example": {
+            "ru": "Э́то Ваш биле́т?",
+            "es": "¿Este es su boleto?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3436,6 +3904,10 @@
             "pl": "их"
           },
           "topic": "posesión",
+          "example": {
+            "ru": "Их соба́ка здесь.",
+            "es": "El perro de ellos está aquí."
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -5249,6 +5721,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cultura",
+          "example": {
+            "ru": "Моя́ сестра́ — балери́на.",
+            "es": "Mi hermana es bailarina de ballet."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5259,6 +5735,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "carácter",
+          "example": {
+            "ru": "Мой брат — болту́н!",
+            "es": "¡Mi hermano es bien hablador!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5268,6 +5748,10 @@
           "es": "siempre",
           "pos": "adv",
           "topic": "frecuencia",
+          "example": {
+            "ru": "Я всегда́ слу́шаю джаз.",
+            "es": "Siempre escucho jazz."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5278,6 +5762,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "general",
+          "example": {
+            "ru": "Я люблю́ гармо́нию.",
+            "es": "Me encanta la armonía."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5298,6 +5786,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Что ты де́лаешь?",
+            "es": "¿Qué haces?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5311,6 +5803,10 @@
           "antonyms": [
             "ночь"
           ],
+          "example": {
+            "ru": "До́брый день, Ива́н!",
+            "es": "¡Buenas tardes, Iván!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5321,6 +5817,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "escuela",
+          "example": {
+            "ru": "Я де́лаю дома́шнее зада́ние.",
+            "es": "Estoy haciendo la tarea."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5331,6 +5831,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "medios",
+          "example": {
+            "ru": "Па́па смо́трит кана́л «Спорт».",
+            "es": "Papá ve el canal «Sport»."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5341,6 +5845,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Мы обожа́ем карао́ке!",
+            "es": "¡Nos encanta el karaoke!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5351,6 +5859,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Де́душка лю́бит ка́рты.",
+            "es": "Al abuelo le encantan las cartas."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5371,6 +5883,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Он лю́бит всё контроли́ровать.",
+            "es": "Le gusta controlarlo todo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5381,6 +5897,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "general",
+          "example": {
+            "ru": "Контро́ль — э́то не любо́вь.",
+            "es": "El control no es amor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5391,6 +5911,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "general",
+          "example": {
+            "ru": "Кошма́р! Где мой па́спорт?",
+            "es": "¡Qué horror! ¿Dónde está mi pasaporte?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5401,6 +5925,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "carácter",
+          "example": {
+            "ru": "Твоя́ сестра́ — краса́вица!",
+            "es": "¡Tu hermana está guapísima!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5411,6 +5939,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Я обожа́ю кроссво́рды.",
+            "es": "Me encantan los crucigramas."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5434,6 +5966,10 @@
           "antonyms": [
             "ненави́деть"
           ],
+          "example": {
+            "ru": "Я о́чень люблю́ пи́ццу.",
+            "es": "Me encanta la pizza."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5444,6 +5980,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "general",
+          "example": {
+            "ru": "Любо́вь — э́то всё!",
+            "es": "¡El amor lo es todo!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5454,6 +5994,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Я обожа́ю масса́ж.",
+            "es": "Me encantan los masajes."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5464,6 +6008,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "música",
+          "example": {
+            "ru": "Мой дя́дя — мелома́н.",
+            "es": "Mi tío es melómano."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5474,6 +6022,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cultura",
+          "example": {
+            "ru": "Она́ лю́бит мо́ду.",
+            "es": "Le encanta la moda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5497,6 +6049,10 @@
           "antonyms": [
             "люби́ть"
           ],
+          "example": {
+            "ru": "Мой брат ненави́дит о́перу.",
+            "es": "Mi hermano odia la ópera."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5510,6 +6066,10 @@
           "antonyms": [
             "день"
           ],
+          "example": {
+            "ru": "День и ночь он смо́трит сериа́лы.",
+            "es": "Ve series día y noche."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5523,6 +6083,10 @@
             "f": "о́бе"
           },
           "topic": "gustos",
+          "example": {
+            "ru": "Мы о́ба лю́бим джаз.",
+            "es": "A los dos nos encanta el jazz."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5546,6 +6110,10 @@
           "synonyms": [
             "о́чень люби́ть"
           ],
+          "example": {
+            "ru": "Я обожа́ю ко́фе.",
+            "es": "Me encanta el café."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5556,6 +6124,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "animales",
+          "example": {
+            "ru": "У нас есть попуга́й.",
+            "es": "Tenemos un perico."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5566,6 +6138,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cultura",
+          "example": {
+            "ru": "Ты лю́бишь психоло́гию?",
+            "es": "¿Te gusta la psicología?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5586,6 +6162,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Ба́бушка лю́бит разга́дывать кроссво́рды.",
+            "es": "A la abuela le encanta resolver crucigramas."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5595,6 +6175,10 @@
           "es": "más bien, más probablemente",
           "pos": "adv",
           "topic": "opinión",
+          "example": {
+            "ru": "Ты лю́бишь о́перу? — Скоре́е нет.",
+            "es": "¿Te gusta la ópera? —Más bien no."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5605,6 +6189,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "carácter",
+          "example": {
+            "ru": "Моя́ дочь — сладкое́жка.",
+            "es": "Mi hija es muy golosa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5625,6 +6213,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Я слу́шаю му́зыку.",
+            "es": "Estoy escuchando música."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5645,6 +6237,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Что ты смо́тришь?",
+            "es": "¿Qué estás viendo?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5654,6 +6250,10 @@
           "es": "mensaje de texto, SMS (no cambia de forma)",
           "pos": "noun",
           "topic": "comunicación",
+          "example": {
+            "ru": "Он чита́ет смс.",
+            "es": "Está leyendo un mensaje."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5663,6 +6263,10 @@
           "es": "seguro, exactamente",
           "pos": "adv",
           "topic": "opinión",
+          "example": {
+            "ru": "Ты то́чно лю́бишь джаз?",
+            "es": "¿Seguro que te gusta el jazz?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5683,6 +6287,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Па́па чита́ет газе́ту.",
+            "es": "Papá está leyendo el periódico."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5693,6 +6301,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "cultura",
+          "example": {
+            "ru": "Ба́бушка обожа́ет бале́т.",
+            "es": "A la abuela le encanta el ballet."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5703,6 +6315,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "cultura",
+          "example": {
+            "ru": "Я чита́ю детекти́в.",
+            "es": "Estoy leyendo una novela policiaca."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5713,6 +6329,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cultura",
+          "example": {
+            "ru": "Она́ смо́трит дра́му.",
+            "es": "Está viendo un drama."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5723,6 +6343,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "cultura",
+          "example": {
+            "ru": "Я о́чень люблю́ кино́.",
+            "es": "Me gusta mucho el cine."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5733,6 +6357,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cultura",
+          "example": {
+            "ru": "Мы смо́трим коме́дию.",
+            "es": "Estamos viendo una comedia."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5743,6 +6371,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cultura",
+          "example": {
+            "ru": "Ты лю́бишь литерату́ру?",
+            "es": "¿Te gusta la literatura?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5753,6 +6385,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "cultura",
+          "example": {
+            "ru": "Па́па всегда́ смо́трит но́вости.",
+            "es": "Papá siempre ve las noticias."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5763,6 +6399,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cultura",
+          "example": {
+            "ru": "Ма́ма смо́трит переда́чу.",
+            "es": "Mamá está viendo un programa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5773,6 +6413,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cultura",
+          "example": {
+            "ru": "Я обожа́ю поэ́зию.",
+            "es": "Me encanta la poesía."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5783,6 +6427,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "cultura",
+          "example": {
+            "ru": "Она́ чита́ет рома́н.",
+            "es": "Está leyendo una novela."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5793,6 +6441,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cultura",
+          "example": {
+            "ru": "Я люблю́ са́льсу!",
+            "es": "¡Me encanta la salsa!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5803,6 +6455,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "cultura",
+          "example": {
+            "ru": "Ты смо́тришь сериа́л?",
+            "es": "¿Estás viendo una serie?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5813,6 +6469,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "cultura",
+          "example": {
+            "ru": "Де́душка смо́трит телеви́зор.",
+            "es": "El abuelo está viendo la tele."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5823,6 +6483,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cultura",
+          "example": {
+            "ru": "Мой брат обожа́ет филосо́фию.",
+            "es": "A mi hermano le encanta la filosofía."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5833,6 +6497,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "música",
+          "example": {
+            "ru": "Па́па слу́шает блюз.",
+            "es": "Papá está escuchando blues."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5843,6 +6511,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "música",
+          "example": {
+            "ru": "Я не люблю́ джаз.",
+            "es": "No me gusta el jazz."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5853,6 +6525,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "música",
+          "example": {
+            "ru": "Где мой диск?",
+            "es": "¿Dónde está mi disco?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5863,6 +6539,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "música",
+          "example": {
+            "ru": "Ма́ма слу́шает кла́ссику.",
+            "es": "Mamá está escuchando música clásica."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5873,6 +6553,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "música",
+          "example": {
+            "ru": "Ты лю́бишь о́перу?",
+            "es": "¿Te gusta la ópera?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5883,6 +6567,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "música",
+          "example": {
+            "ru": "Я слу́шаю поп и рок.",
+            "es": "Escucho pop y rock."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5893,6 +6581,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "música",
+          "example": {
+            "ru": "Мой па́рень обожа́ет рок.",
+            "es": "A mi novio le encanta el rock."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5903,6 +6595,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Я обожа́ю борщ!",
+            "es": "¡Me encanta el borsch!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5913,6 +6609,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "У тебя́ есть бутербро́д?",
+            "es": "¿Tienes un sándwich?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5923,6 +6623,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Де́ти лю́бят десе́рт.",
+            "es": "A los niños les encanta el postre."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5933,6 +6637,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "comida",
+          "example": {
+            "ru": "Ты лю́бишь лаза́нью?",
+            "es": "¿Te gusta la lasaña?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5943,6 +6651,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Я не люблю́ сала́т.",
+            "es": "No me gusta la ensalada."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5953,6 +6665,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "comida",
+          "example": {
+            "ru": "Моя́ дочь обожа́ет спаге́тти.",
+            "es": "A mi hija le encanta el espagueti."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5963,6 +6679,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "comida",
+          "example": {
+            "ru": "Мы о́чень лю́бим су́ши.",
+            "es": "Nos gusta mucho el sushi."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5973,6 +6693,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "comida",
+          "example": {
+            "ru": "Де́ти обожа́ют пи́ццу.",
+            "es": "A los niños les encanta la pizza."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5983,6 +6707,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Я люблю́ кино́ и попко́рн.",
+            "es": "Me encantan el cine y las palomitas."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5993,6 +6721,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "bebidas",
+          "example": {
+            "ru": "Одну́ ко́ка-ко́лу, пожа́луйста.",
+            "es": "Una Coca-Cola, por favor."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6003,6 +6735,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "deportes",
+          "example": {
+            "ru": "Ма́ма лю́бит аэро́бику.",
+            "es": "A mamá le encantan los aerobics."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6013,6 +6749,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "deportes",
+          "example": {
+            "ru": "Мой сын обожа́ет баскетбо́л.",
+            "es": "A mi hijo le encanta el basquetbol."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6023,6 +6763,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "deportes",
+          "example": {
+            "ru": "Па́па и дя́дя лю́бят билья́рд.",
+            "es": "A mi papá y a mi tío les encanta el billar."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6033,6 +6777,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "deportes",
+          "example": {
+            "ru": "Ты лю́бишь бо́улинг?",
+            "es": "¿Te gusta el boliche?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6043,6 +6791,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "deportes",
+          "example": {
+            "ru": "Шеф лю́бит гольф.",
+            "es": "Al jefe le encanta el golf."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6053,6 +6805,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "deportes",
+          "example": {
+            "ru": "Я обожа́ю да́йвинг!",
+            "es": "¡Me encanta el buceo!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6063,6 +6819,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "deportes",
+          "example": {
+            "ru": "Моя́ подру́га лю́бит йо́гу.",
+            "es": "A mi amiga le encanta el yoga."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6073,6 +6833,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "deportes",
+          "example": {
+            "ru": "Мой де́душка обожа́ет рыба́лку.",
+            "es": "A mi abuelo le encanta la pesca."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6083,6 +6847,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "deportes",
+          "example": {
+            "ru": "Мой брат лю́бит сноубо́рд.",
+            "es": "A mi hermano le encanta el snowboard."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6093,6 +6861,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "deportes",
+          "example": {
+            "ru": "Я ненави́жу фи́тнес!",
+            "es": "¡Odio el gimnasio!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6103,6 +6875,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "deportes",
+          "example": {
+            "ru": "Я люблю́ футбо́л.",
+            "es": "Me encanta el futbol."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6113,6 +6889,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "deportes",
+          "example": {
+            "ru": "Кана́дцы лю́бят хокке́й.",
+            "es": "A los canadienses les encanta el hockey."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6123,6 +6903,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "deportes",
+          "example": {
+            "ru": "Ты лю́бишь ша́хматы?",
+            "es": "¿Te gusta el ajedrez?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6133,6 +6917,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Моя́ сестра́ обожа́ет шо́пинг.",
+            "es": "A mi hermana le encanta ir de compras."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6143,6 +6931,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "bebidas",
+          "example": {
+            "ru": "Па́па лю́бит пи́во.",
+            "es": "A papá le gusta la cerveza."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6153,6 +6945,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "bebidas",
+          "example": {
+            "ru": "Я не люблю́ ко́лу.",
+            "es": "No me gusta el refresco de cola."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6163,6 +6959,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Францу́зы лю́бят баге́т.",
+            "es": "A los franceses les encanta la baguette."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6173,6 +6973,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Де́ти не лю́бят суп.",
+            "es": "A los niños no les gusta la sopa."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6183,6 +6987,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "comida",
+          "example": {
+            "ru": "Италья́нцы обожа́ют па́сту.",
+            "es": "A los italianos les encanta la pasta."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6193,6 +7001,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "comida",
+          "example": {
+            "ru": "Где со́ус? — Вот он.",
+            "es": "¿Dónde está la salsa? —Aquí está."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6203,6 +7015,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "cultura",
+          "example": {
+            "ru": "Мы смо́трим фильм.",
+            "es": "Estamos viendo una película."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6213,6 +7029,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "música",
+          "example": {
+            "ru": "Ба́бушка всегда́ слу́шает ра́дио.",
+            "es": "La abuela siempre escucha el radio."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6223,6 +7043,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "música",
+          "example": {
+            "ru": "Ты лю́бишь му́зыку?",
+            "es": "¿Te gusta la música?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6232,6 +7056,10 @@
           "es": "cuando",
           "pos": "conj",
           "topic": "conectores",
+          "example": {
+            "ru": "Когда́ я чита́ю, я не слу́шаю ра́дио.",
+            "es": "Cuando leo, no escucho el radio."
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -8144,6 +8972,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Мой брат — автомеха́ник.",
+            "es": "Mi hermano es mecánico."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8154,6 +8986,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "estudios",
+          "example": {
+            "ru": "Я изуча́ю архитекту́ру.",
+            "es": "Estudio arquitectura."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8164,6 +9000,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Его́ жена́ — бухга́лтер.",
+            "es": "Su esposa es contadora."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8173,6 +9013,10 @@
           "es": "juntos",
           "pos": "adv",
           "topic": "general",
+          "example": {
+            "ru": "Мы рабо́таем вме́сте.",
+            "es": "Trabajamos juntos."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8182,6 +9026,10 @@
           "es": "todo",
           "pos": "pron",
           "topic": "general",
+          "example": {
+            "ru": "Он всё зна́ет.",
+            "es": "Él lo sabe todo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8192,6 +9040,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "carácter",
+          "example": {
+            "ru": "Ива́н, ты ге́ний!",
+            "es": "¡Iván, eres un genio!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8212,6 +9064,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Ба́бушка гото́вит борщ.",
+            "es": "La abuela está haciendo borsch."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8232,6 +9088,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Я люблю́ гуля́ть.",
+            "es": "Me encanta pasear."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8241,6 +9101,10 @@
           "es": "casado (dicho de un hombre)",
           "pos": "adj",
           "topic": "familia",
+          "example": {
+            "ru": "Ты жена́т? — Нет.",
+            "es": "¿Estás casado? —No."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8250,6 +9114,10 @@
           "es": "casada (dicho de una mujer)",
           "pos": "adv",
           "topic": "familia",
+          "example": {
+            "ru": "Моя́ сестра́ за́мужем.",
+            "es": "Mi hermana está casada."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8270,6 +9138,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Де́ти игра́ют в футбо́л.",
+            "es": "Los niños están jugando futbol."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8285,6 +9157,10 @@
             "pl": "идеа́льные"
           },
           "topic": "general",
+          "example": {
+            "ru": "Он идеа́льный муж!",
+            "es": "¡Es el esposo ideal!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8305,6 +9181,10 @@
             }
           },
           "topic": "estudios",
+          "example": {
+            "ru": "Я изуча́ю ру́сский.",
+            "es": "Estudio ruso."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8325,6 +9205,10 @@
             }
           },
           "topic": "hábitos",
+          "example": {
+            "ru": "Мой па́па не ку́рит.",
+            "es": "Mi papá no fuma."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8335,6 +9219,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "estudios",
+          "example": {
+            "ru": "Мой сын изуча́ет медици́ну.",
+            "es": "Mi hijo estudia medicina."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8344,6 +9232,10 @@
           "es": "especialmente, sobre todo",
           "pos": "adv",
           "topic": "general",
+          "example": {
+            "ru": "Я люблю́ спорт, осо́бенно футбо́л.",
+            "es": "Me encanta el deporte, sobre todo el futbol."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8367,6 +9259,10 @@
           "antonyms": [
             "рабо́тать"
           ],
+          "example": {
+            "ru": "Мы отдыха́ем, а па́па рабо́тает.",
+            "es": "Nosotros descansamos y papá trabaja."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8377,6 +9273,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "familia",
+          "example": {
+            "ru": "Где твой партнёр?",
+            "es": "¿Dónde está tu pareja?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8387,6 +9287,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "comida",
+          "example": {
+            "ru": "Испа́нцы гото́вят паэ́лью.",
+            "es": "Los españoles preparan paella."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8397,6 +9301,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "comida",
+          "example": {
+            "ru": "Ты лю́бишь пельме́ни?",
+            "es": "¿Te gustan los pelmeni?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8417,6 +9325,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Она́ поёт о́чень хорошо́.",
+            "es": "Ella canta muy bien."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8437,6 +9349,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Я пишу́ письмо́.",
+            "es": "Estoy escribiendo una carta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8457,6 +9373,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Мы обожа́ем путеше́ствовать.",
+            "es": "Nos encanta viajar."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8477,6 +9397,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Моя́ дочь рису́ет.",
+            "es": "Mi hija está dibujando."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8487,6 +9411,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "hábitos",
+          "example": {
+            "ru": "Сигаре́ты? Нет, я не курю́.",
+            "es": "¿Cigarros? No, no fumo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8497,6 +9425,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "general",
+          "example": {
+            "ru": "Наш сосе́д — музыка́нт.",
+            "es": "Nuestro vecino es músico."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8517,6 +9449,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Ребёнок уже́ спит.",
+            "es": "El bebé ya está dormido."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8527,6 +9463,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "carácter",
+          "example": {
+            "ru": "У тебя́ тала́нт!",
+            "es": "¡Tienes talento!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8537,6 +9477,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Мы танцу́ем та́нго.",
+            "es": "Bailamos tango."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8557,6 +9501,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Ты танцу́ешь са́льсу?",
+            "es": "¿Bailas salsa?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8567,6 +9515,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "medios",
+          "example": {
+            "ru": "Ма́ма обожа́ет телешо́у.",
+            "es": "A mamá le encantan los programas de televisión."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8577,6 +9529,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "deportes",
+          "example": {
+            "ru": "Ты игра́ешь в те́ннис?",
+            "es": "¿Juegas tenis?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8587,6 +9543,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "carácter",
+          "example": {
+            "ru": "Мой па́па — трудого́лик.",
+            "es": "Mi papá es adicto al trabajo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8607,6 +9567,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Я фотографи́рую го́род.",
+            "es": "Tomo fotos de la ciudad."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8617,6 +9581,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "pasatiempos",
+          "example": {
+            "ru": "У тебя́ есть хо́бби?",
+            "es": "¿Tienes algún pasatiempo?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8637,6 +9605,10 @@
             }
           },
           "topic": "pasatiempos",
+          "example": {
+            "ru": "Я хожу́ в теа́тр.",
+            "es": "Voy al teatro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8647,6 +9619,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "general",
+          "example": {
+            "ru": "Вот э́то шик!",
+            "es": "¡Eso sí es lujo!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8657,6 +9633,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "estudios",
+          "example": {
+            "ru": "Мой сын — шко́льник.",
+            "es": "Mi hijo va a la escuela."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8667,6 +9647,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "estudios",
+          "example": {
+            "ru": "Моя́ вну́чка — шко́льница.",
+            "es": "Mi nieta va a la escuela."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8677,6 +9661,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "instrumentos",
+          "example": {
+            "ru": "Она́ игра́ет на пиани́но.",
+            "es": "Ella toca el piano."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8687,6 +9675,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "instrumentos",
+          "example": {
+            "ru": "Па́па игра́ет на саксофо́не.",
+            "es": "Papá toca el saxofón."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8697,6 +9689,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "instrumentos",
+          "example": {
+            "ru": "Моя́ сестра́ игра́ет на скри́пке.",
+            "es": "Mi hermana toca el violín."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8707,6 +9703,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "instrumentos",
+          "example": {
+            "ru": "Ты игра́ешь на трубе́?",
+            "es": "¿Tocas la trompeta?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8717,6 +9717,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "instrumentos",
+          "example": {
+            "ru": "Моя́ подру́га игра́ет на фле́йте.",
+            "es": "Mi amiga toca la flauta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8727,6 +9731,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "instrumentos",
+          "example": {
+            "ru": "Мой брат игра́ет на виолонче́ли.",
+            "es": "Mi hermano toca el violonchelo."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -8737,6 +9745,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "deportes",
+          "example": {
+            "ru": "Мы игра́ем в волейбо́л.",
+            "es": "Jugamos voleibol."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -8747,6 +9759,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Моя́ ма́ма — юри́ст.",
+            "es": "Mi mamá es abogada."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -8757,6 +9773,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "profesiones",
+          "example": {
+            "ru": "Он профе́ссор и мно́го рабо́тает.",
+            "es": "Es profesor y trabaja mucho."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -8777,6 +9797,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Ты говори́шь по-ру́сски?",
+            "es": "¿Hablas ruso?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -8789,6 +9813,10 @@
             "ма́ло"
           ],
           "topic": "cantidad",
+          "example": {
+            "ru": "Он мно́го говори́т.",
+            "es": "Él habla mucho."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -8801,6 +9829,10 @@
             "мно́го"
           ],
           "topic": "cantidad",
+          "example": {
+            "ru": "Я ма́ло сплю.",
+            "es": "Duermo poco."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -8810,6 +9842,10 @@
           "es": "excelente, de maravilla",
           "pos": "adv",
           "topic": "valoración",
+          "example": {
+            "ru": "Ты отли́чно поёшь!",
+            "es": "¡Cantas de maravilla!"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -8822,6 +9858,10 @@
             "хорошо́"
           ],
           "topic": "valoración",
+          "example": {
+            "ru": "Я пло́хо танцу́ю.",
+            "es": "Bailo mal."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -8834,6 +9874,10 @@
             "прекра́сно"
           ],
           "topic": "valoración",
+          "example": {
+            "ru": "Он ужа́сно поёт.",
+            "es": "Canta horrible."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -8846,6 +9890,10 @@
             "ужа́сно"
           ],
           "topic": "valoración",
+          "example": {
+            "ru": "Она́ прекра́сно рису́ет.",
+            "es": "Ella dibuja precioso."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -8855,6 +9903,10 @@
           "es": "ya",
           "pos": "adv",
           "topic": "tiempo",
+          "example": {
+            "ru": "Ты уже́ спишь?",
+            "es": "¿Ya te dormiste?"
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -10309,6 +11361,10 @@
       "pos": "noun",
       "gender": "m",
       "topic": "objetos",
+      "example": {
+        "ru": "У тебя́ есть ноутбу́к?",
+        "es": "¿Tienes laptop?"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -10319,6 +11375,10 @@
       "pos": "noun",
       "gender": "pl",
       "topic": "objetos",
+      "example": {
+        "ru": "Где мои́ нау́шники?",
+        "es": "¿Dónde están mis audífonos?"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -10329,6 +11389,10 @@
       "pos": "noun",
       "gender": "f",
       "topic": "objetos",
+      "example": {
+        "ru": "Извини́, у тебя́ есть заря́дка?",
+        "es": "Perdón, ¿tienes cargador?"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -10342,6 +11406,10 @@
       "antonyms": [
         "племя́нница"
       ],
+      "example": {
+        "ru": "Мой племя́нник обожа́ет футбо́л.",
+        "es": "A mi sobrino le encanta el futbol."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -10355,6 +11423,10 @@
       "antonyms": [
         "племя́нник"
       ],
+      "example": {
+        "ru": "Моя́ племя́нница — балери́на.",
+        "es": "Mi sobrina es bailarina de ballet."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -10365,6 +11437,10 @@
       "pos": "noun",
       "gender": "pl",
       "topic": "familia",
+      "example": {
+        "ru": "Мои́ бра́тья — близнецы́.",
+        "es": "Mis hermanos son gemelos."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -10375,6 +11451,10 @@
       "pos": "noun",
       "gender": "pl",
       "topic": "pasatiempos",
+      "example": {
+        "ru": "Мой сын обожа́ет видеои́гры.",
+        "es": "A mi hijo le encantan los videojuegos."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -10385,6 +11465,10 @@
       "pos": "noun",
       "gender": "n",
       "topic": "deportes",
+      "example": {
+        "ru": "Я люблю́ пла́вание.",
+        "es": "Me encanta la natación."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -10395,6 +11479,10 @@
       "pos": "noun",
       "gender": "pl",
       "topic": "comida",
+      "example": {
+        "ru": "Мексика́нцы обожа́ют та́ко.",
+        "es": "A los mexicanos les encantan los tacos."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -10405,6 +11493,10 @@
       "pos": "noun",
       "gender": "m",
       "topic": "pasatiempos",
+      "example": {
+        "ru": "У тебя́ есть велосипе́д?",
+        "es": "¿Tienes bicicleta?"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -10415,6 +11507,10 @@
       "pos": "noun",
       "gender": "m",
       "topic": "instrumentos",
+      "example": {
+        "ru": "Мой сосе́д игра́ет на бараба́не.",
+        "es": "Mi vecino toca la batería."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -10434,6 +11530,10 @@
           "вы": "вя́жете",
           "они́": "вя́жут"
         }
+      },
+      "example": {
+        "ru": "Ба́бушка лю́бит вяза́ть.",
+        "es": "A la abuela le encanta tejer."
       },
       "fromSlovar": false,
       "sneak": true

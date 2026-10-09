@@ -506,6 +506,10 @@
           "gender": "m",
           "plural": "дома́",
           "topic": "casa",
+          "example": {
+            "ru": "Наш дом в це́нтре.",
+            "es": "Nuestra casa está en el centro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -517,6 +521,10 @@
           "gender": "f",
           "plural": "кварти́ры",
           "topic": "casa",
+          "example": {
+            "ru": "Моя́ кварти́ра здесь, спра́ва.",
+            "es": "Mi departamento está aquí, a la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -528,6 +536,10 @@
           "gender": "f",
           "plural": "ко́мнаты",
           "topic": "casa",
+          "example": {
+            "ru": "В ко́мнате есть дива́н.",
+            "es": "En el cuarto hay un sofá."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -539,6 +551,10 @@
           "gender": "m",
           "plural": "бассе́йны",
           "topic": "casa",
+          "example": {
+            "ru": "У вас есть бассе́йн?",
+            "es": "¿Tienen alberca?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -550,6 +566,10 @@
           "gender": "m",
           "plural": "гаражи́",
           "topic": "casa",
+          "example": {
+            "ru": "Па́па сейча́с в гараже́.",
+            "es": "Papá está ahorita en la cochera."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -561,6 +581,10 @@
           "gender": "m",
           "plural": "города́",
           "topic": "ciudad",
+          "example": {
+            "ru": "Я рабо́таю в го́роде.",
+            "es": "Trabajo en la ciudad."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -572,6 +596,10 @@
           "gender": "m",
           "plural": "сады́",
           "topic": "casa",
+          "example": {
+            "ru": "Ба́бушка отдыха́ет в саду́.",
+            "es": "La abuela descansa en el jardín."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -583,6 +611,10 @@
           "gender": "n",
           "plural": "расте́ния",
           "topic": "casa",
+          "example": {
+            "ru": "На балко́не есть расте́ние.",
+            "es": "En el balcón hay una planta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -594,6 +626,10 @@
           "gender": "m",
           "plural": "углы́",
           "topic": "casa",
+          "example": {
+            "ru": "В углу́ есть ла́мпа.",
+            "es": "En el rincón hay una lámpara."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -605,6 +641,10 @@
           "gender": "f",
           "plural": "черепа́хи",
           "topic": "animales",
+          "example": {
+            "ru": "Черепа́ха спит в саду́.",
+            "es": "La tortuga duerme en el jardín."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -616,6 +656,10 @@
           "gender": "m",
           "plural": "языки́",
           "topic": "idiomas",
+          "example": {
+            "ru": "Ру́сский язы́к — мой люби́мый.",
+            "es": "El ruso es mi idioma favorito."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -627,6 +671,10 @@
           "gender": "m",
           "plural": "балко́ны",
           "topic": "cuartos",
+          "example": {
+            "ru": "Ве́чером я отдыха́ю на балко́не.",
+            "es": "En la noche descanso en el balcón."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -637,6 +685,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cuartos",
+          "example": {
+            "ru": "Где ва́нная? — Спра́ва.",
+            "es": "¿Dónde está el baño? —A la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -647,6 +699,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cuartos",
+          "example": {
+            "ru": "Мы отдыха́ем в гости́ной.",
+            "es": "Descansamos en la sala."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -657,6 +713,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cuartos",
+          "example": {
+            "ru": "В де́тской есть крова́ть и шкаф.",
+            "es": "En el cuarto de los niños hay una cama y un clóset."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -668,6 +728,10 @@
           "gender": "m",
           "plural": "кабине́ты",
           "topic": "cuartos",
+          "example": {
+            "ru": "Па́па рабо́тает в кабине́те.",
+            "es": "Papá trabaja en el estudio."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -679,6 +743,10 @@
           "gender": "m",
           "plural": "коридо́ры",
           "topic": "cuartos",
+          "example": {
+            "ru": "В коридо́ре есть зе́ркало.",
+            "es": "En el pasillo hay un espejo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -690,6 +758,10 @@
           "gender": "f",
           "plural": "ку́хни",
           "topic": "cuartos",
+          "example": {
+            "ru": "Ма́ма сейча́с на ку́хне.",
+            "es": "Mamá está ahorita en la cocina."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -701,6 +773,10 @@
           "gender": "f",
           "plural": "спа́льни",
           "topic": "cuartos",
+          "example": {
+            "ru": "Я сплю в спа́льне.",
+            "es": "Duermo en la recámara."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -711,6 +787,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "cuartos",
+          "example": {
+            "ru": "Где столо́вая? — Сле́ва.",
+            "es": "¿Dónde está el comedor? —A la izquierda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -722,6 +802,10 @@
           "gender": "m",
           "plural": "туале́ты",
           "topic": "cuartos",
+          "example": {
+            "ru": "Извини́те, где туале́т?",
+            "es": "Disculpe, ¿dónde está el baño?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -732,6 +816,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "muebles",
+          "example": {
+            "ru": "Ме́бель пока́ в гараже́.",
+            "es": "Los muebles todavía están en la cochera."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -743,6 +831,10 @@
           "gender": "f",
           "plural": "батаре́и",
           "topic": "muebles",
+          "example": {
+            "ru": "В ко́мнате есть батаре́я.",
+            "es": "En el cuarto hay un radiador."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -754,6 +846,10 @@
           "gender": "f",
           "plural": "ва́нны",
           "topic": "muebles",
+          "example": {
+            "ru": "Ко́шка спит в ва́нне.",
+            "es": "La gata duerme en la tina."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -765,6 +861,10 @@
           "gender": "m",
           "plural": "дива́ны",
           "topic": "muebles",
+          "example": {
+            "ru": "Па́па спит на дива́не.",
+            "es": "Papá duerme en el sofá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -775,6 +875,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "muebles",
+          "example": {
+            "ru": "В ва́нной есть душ.",
+            "es": "En el baño hay regadera."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -786,6 +890,10 @@
           "gender": "n",
           "plural": "зеркала́",
           "topic": "muebles",
+          "example": {
+            "ru": "У меня́ в ко́мнате есть зе́ркало.",
+            "es": "En mi cuarto hay un espejo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -797,6 +905,10 @@
           "gender": "m",
           "plural": "ками́ны",
           "topic": "muebles",
+          "example": {
+            "ru": "В гости́ной есть ками́н.",
+            "es": "En la sala hay una chimenea."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -808,6 +920,10 @@
           "gender": "f",
           "plural": "карти́ны",
           "topic": "muebles",
+          "example": {
+            "ru": "На стене́ карти́на.",
+            "es": "En la pared hay un cuadro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -819,6 +935,10 @@
           "gender": "m",
           "plural": "ковры́",
           "topic": "muebles",
+          "example": {
+            "ru": "Кот спит на ковре́.",
+            "es": "El gato duerme en el tapete."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -830,6 +950,10 @@
           "gender": "m",
           "plural": "комо́ды",
           "topic": "muebles",
+          "example": {
+            "ru": "Ва́за на комо́де.",
+            "es": "El florero está en la cómoda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -841,6 +965,10 @@
           "gender": "n",
           "plural": "кре́сла",
           "topic": "muebles",
+          "example": {
+            "ru": "Де́душка отдыха́ет в кре́сле.",
+            "es": "El abuelo descansa en el sillón."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -852,6 +980,10 @@
           "gender": "f",
           "plural": "крова́ти",
           "topic": "muebles",
+          "example": {
+            "ru": "Кни́га на крова́ти.",
+            "es": "El libro está en la cama."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -863,6 +995,10 @@
           "gender": "f",
           "plural": "лю́стры",
           "topic": "muebles",
+          "example": {
+            "ru": "В столо́вой есть лю́стра.",
+            "es": "En el comedor hay un candil."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -874,6 +1010,10 @@
           "gender": "f",
           "plural": "пли́ты",
           "topic": "muebles",
+          "example": {
+            "ru": "На ку́хне есть плита́.",
+            "es": "En la cocina hay una estufa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -885,6 +1025,10 @@
           "gender": "m",
           "plural": "полы́",
           "topic": "casa",
+          "example": {
+            "ru": "Ко́шка на полу́.",
+            "es": "La gata está en el piso."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -896,6 +1040,10 @@
           "gender": "f",
           "plural": "по́лки",
           "topic": "muebles",
+          "example": {
+            "ru": "Кни́ги на по́лке.",
+            "es": "Los libros están en la repisa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -907,6 +1055,10 @@
           "gender": "f",
           "plural": "сте́ны",
           "topic": "casa",
+          "example": {
+            "ru": "Телеви́зор на стене́.",
+            "es": "La tele está en la pared."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -918,6 +1070,10 @@
           "gender": "m",
           "plural": "сту́лья",
           "topic": "muebles",
+          "example": {
+            "ru": "Ко́шка спит на сту́ле.",
+            "es": "La gata duerme en la silla."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -929,6 +1085,10 @@
           "gender": "m",
           "plural": "холоди́льники",
           "topic": "muebles",
+          "example": {
+            "ru": "Молоко́ в холоди́льнике.",
+            "es": "La leche está en el refrigerador."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -940,6 +1100,10 @@
           "gender": "m",
           "plural": "шкафы́",
           "topic": "muebles",
+          "example": {
+            "ru": "Оде́жда в шкафу́.",
+            "es": "La ropa está en el clóset."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -950,6 +1114,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "muebles",
+          "example": {
+            "ru": "У нас есть пиани́но.",
+            "es": "Tenemos un piano."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -961,6 +1129,10 @@
           "gender": "f",
           "plural": "ле́стницы",
           "topic": "casa",
+          "example": {
+            "ru": "Ле́стница здесь, сле́ва.",
+            "es": "La escalera está aquí, a la izquierda."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -972,6 +1144,10 @@
           "gender": "n",
           "plural": "о́кна",
           "topic": "casa",
+          "example": {
+            "ru": "В ко́мнате одно́ окно́.",
+            "es": "El cuarto tiene una ventana."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -983,6 +1159,10 @@
           "gender": "f",
           "plural": "ва́зы",
           "topic": "casa",
+          "example": {
+            "ru": "Ва́за на столе́.",
+            "es": "El florero está en la mesa."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -994,6 +1174,10 @@
           "gender": "m",
           "plural": "телеви́зоры",
           "topic": "casa",
+          "example": {
+            "ru": "Телеви́зор в гости́ной.",
+            "es": "La tele está en la sala."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1005,6 +1189,10 @@
           "gender": "m",
           "plural": "аэропо́рты",
           "topic": "ciudad",
+          "example": {
+            "ru": "Мы сейча́с в аэропорту́.",
+            "es": "Ahorita estamos en el aeropuerto."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1015,6 +1203,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "casa",
+          "example": {
+            "ru": "Мой дом — моя́ кре́пость!",
+            "es": "¡Mi casa es mi fortaleza!"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1024,6 +1216,10 @@
           "es": "en, dentro de (+ prepositivo)",
           "pos": "prep",
           "topic": "lugar",
+          "example": {
+            "ru": "Ма́ма в спа́льне.",
+            "es": "Mamá está en la recámara."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1033,6 +1229,10 @@
           "es": "en, sobre (+ prepositivo)",
           "pos": "prep",
           "topic": "lugar",
+          "example": {
+            "ru": "Па́па на балко́не.",
+            "es": "Papá está en el balcón."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1042,6 +1242,10 @@
           "es": "en la tarde, en la noche",
           "pos": "adv",
           "topic": "tiempo",
+          "example": {
+            "ru": "Ве́чером я гото́влю у́жин.",
+            "es": "En la noche preparo la cena."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1051,6 +1255,10 @@
           "es": "mañana (el día siguiente)",
           "pos": "adv",
           "topic": "tiempo",
+          "example": {
+            "ru": "За́втра я отдыха́ю.",
+            "es": "Mañana descanso."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1061,6 +1269,10 @@
           "pos": "adv",
           "synonyms": [],
           "topic": "tiempo",
+          "example": {
+            "ru": "Иногда́ я сплю на дива́не.",
+            "es": "A veces duermo en el sofá."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1070,6 +1282,10 @@
           "es": "hoy",
           "pos": "adv",
           "topic": "tiempo",
+          "example": {
+            "ru": "Сего́дня я до́ма.",
+            "es": "Hoy estoy en casa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1079,6 +1295,10 @@
           "es": "así; tan",
           "pos": "adv",
           "topic": "otros",
+          "example": {
+            "ru": "Ой, здесь так хорошо́!",
+            "es": "¡Ay, aquí se está tan bien!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1091,6 +1311,10 @@
             "сле́ва"
           ],
           "topic": "lugar",
+          "example": {
+            "ru": "Моя́ ко́мната спра́ва.",
+            "es": "Mi cuarto está a la derecha."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1103,6 +1327,10 @@
             "спра́ва"
           ],
           "topic": "lugar",
+          "example": {
+            "ru": "Туале́т там, сле́ва.",
+            "es": "El baño está ahí, a la izquierda."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1112,6 +1340,10 @@
           "es": "¡Bienvenido(s)!",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "Добро́ пожа́ловать в наш дом!",
+            "es": "¡Bienvenidos a nuestra casa!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1121,6 +1353,10 @@
           "es": "Bueno, ya me tengo que ir.",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "Уже́ по́здно. Ну, мне пора́.",
+            "es": "Ya es tarde. Bueno, ya me tengo que ir."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1130,6 +1366,10 @@
           "es": "besos (despedida de carta; lit. «te beso»)",
           "pos": "phrase",
           "topic": "saludos",
+          "example": {
+            "ru": "Пока́! Целу́ю, А́нна.",
+            "es": "¡Bye! Besos, Anna."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1145,6 +1385,10 @@
             "pl": "каки́е"
           },
           "topic": "preguntas",
+          "example": {
+            "ru": "Како́й у тебя́ дом?",
+            "es": "¿Cómo es tu casa?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1163,6 +1407,10 @@
             "нелюби́мый"
           ],
           "topic": "gustos",
+          "example": {
+            "ru": "Э́то моя́ люби́мая ко́мната.",
+            "es": "Este es mi cuarto favorito."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -1183,6 +1431,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "В суббо́ту я отдыха́ю.",
+            "es": "El sábado descanso."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1203,6 +1455,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Ба́бушка гото́вит у́жин.",
+            "es": "La abuela prepara la cena."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1223,6 +1479,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Ребёнок спит в де́тской.",
+            "es": "El niño duerme en su cuarto."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -1243,6 +1503,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "У́тром я принима́ю душ.",
+            "es": "En la mañana me baño."
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -3115,6 +3379,10 @@
             "поря́док"
           ],
           "topic": "casa",
+          "example": {
+            "ru": "В ко́мнате беспоря́док!",
+            "es": "¡El cuarto está hecho un desorden!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3125,6 +3393,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "casa",
+          "example": {
+            "ru": "Мы живём в бунга́ло.",
+            "es": "Vivimos en un bungalow."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3136,6 +3408,10 @@
           "gender": "f",
           "plural": "вера́нды",
           "topic": "casa",
+          "example": {
+            "ru": "Ве́чером мы сиди́м на вера́нде.",
+            "es": "En la tarde nos quedamos en la terraza."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3156,6 +3432,10 @@
             }
           },
           "topic": "posición",
+          "example": {
+            "ru": "Зе́ркало виси́т в коридо́ре.",
+            "es": "El espejo está colgado en el pasillo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3165,6 +3445,10 @@
           "es": "¿Dónde se encuentra…? (pl.: Где нахо́дятся…?)",
           "pos": "phrase",
           "topic": "lugar",
+          "example": {
+            "ru": "Где нахо́дится аэропо́рт?",
+            "es": "¿Dónde se encuentra el aeropuerto?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3177,6 +3461,10 @@
             "недалеко́"
           ],
           "topic": "lugar",
+          "example": {
+            "ru": "Аэропо́рт о́чень далеко́.",
+            "es": "El aeropuerto está muy lejos."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3197,6 +3485,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Я живу́ в Москве́.",
+            "es": "Vivo en Moscú."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3208,6 +3500,10 @@
           "gender": "m",
           "plural": "ка́мпусы",
           "topic": "estudios",
+          "example": {
+            "ru": "Студе́нты живу́т в ка́мпусе.",
+            "es": "Los estudiantes viven en el campus."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3219,6 +3515,10 @@
           "gender": "m",
           "plural": "кокте́йли",
           "topic": "comida",
+          "example": {
+            "ru": "Вот ваш кокте́йль!",
+            "es": "¡Aquí está su coctel!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3239,6 +3539,10 @@
             }
           },
           "topic": "posición",
+          "example": {
+            "ru": "Кни́га лежи́т на столе́.",
+            "es": "El libro está en la mesa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3250,6 +3554,10 @@
           "gender": "n",
           "plural": "места́",
           "topic": "lugar",
+          "example": {
+            "ru": "Э́то моё люби́мое ме́сто.",
+            "es": "Este es mi lugar favorito."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3265,6 +3573,10 @@
             "pl": "многофункциона́льные"
           },
           "topic": "descripción",
+          "example": {
+            "ru": "У нас многофункциона́льный дива́н.",
+            "es": "Tenemos un sofá multifuncional."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3274,6 +3586,10 @@
           "es": "se puede, está permitido",
           "pos": "adv",
           "topic": "otros",
+          "example": {
+            "ru": "Здесь мо́жно сиде́ть?",
+            "es": "¿Aquí me puedo sentar?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3286,6 +3602,10 @@
             "далеко́"
           ],
           "topic": "lugar",
+          "example": {
+            "ru": "Метро́ здесь недалеко́.",
+            "es": "El metro está aquí cerca."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3304,6 +3624,10 @@
             "обы́чный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "У меня́ необы́чная кварти́ра.",
+            "es": "Tengo un departamento poco común."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3322,6 +3646,10 @@
             "необы́чный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Мой дом — обы́чный дом.",
+            "es": "Mi casa es una casa normal."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3335,6 +3663,10 @@
             "беспоря́док"
           ],
           "topic": "casa",
+          "example": {
+            "ru": "В шкафу́ поря́док.",
+            "es": "En el clóset todo está en orden."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3355,6 +3687,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Я провожу́ вре́мя в саду́.",
+            "es": "Paso el tiempo en el jardín."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3366,6 +3702,10 @@
           "gender": "f",
           "plural": "ры́бы",
           "topic": "animales",
+          "example": {
+            "ru": "Ры́ба в холоди́льнике.",
+            "es": "El pescado está en el refrigerador."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3377,6 +3717,10 @@
           "gender": "m",
           "plural": "самолёты",
           "topic": "transporte",
+          "example": {
+            "ru": "Самолёт в аэропорту́.",
+            "es": "El avión está en el aeropuerto."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3397,6 +3741,10 @@
             }
           },
           "topic": "posición",
+          "example": {
+            "ru": "Ба́бушка сиди́т в кре́сле.",
+            "es": "La abuela está sentada en el sillón."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3408,6 +3756,10 @@
           "gender": "m",
           "plural": "скеле́ты",
           "topic": "otros",
+          "example": {
+            "ru": "У вас есть скеле́т в шкафу́?",
+            "es": "¿Tienen un esqueleto en el clóset?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3428,6 +3780,10 @@
             }
           },
           "topic": "posición",
+          "example": {
+            "ru": "Шкаф стои́т в углу́.",
+            "es": "El clóset está en el rincón."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3439,6 +3795,10 @@
           "gender": "m",
           "plural": "шезло́нги",
           "topic": "casa",
+          "example": {
+            "ru": "Па́па лежи́т на шезло́нге.",
+            "es": "Papá está acostado en el camastro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -3450,6 +3810,10 @@
           "gender": "f",
           "plural": "ви́ллы",
           "topic": "casa",
+          "example": {
+            "ru": "У них ви́лла в Ита́лии.",
+            "es": "Tienen una villa en Italia."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3461,6 +3825,10 @@
           "gender": "m",
           "plural": "словари́",
           "topic": "estudios",
+          "example": {
+            "ru": "Слова́рь лежи́т на по́лке.",
+            "es": "El diccionario está en la repisa."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3472,6 +3840,10 @@
           "gender": "m",
           "plural": "рюкзаки́",
           "topic": "objetos",
+          "example": {
+            "ru": "Рюкза́к виси́т на сту́ле.",
+            "es": "La mochila está colgada en la silla."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3483,6 +3855,10 @@
           "gender": "m",
           "plural": "гамаки́",
           "topic": "casa",
+          "example": {
+            "ru": "Гама́к виси́т в саду́.",
+            "es": "La hamaca está colgada en el jardín."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3494,6 +3870,10 @@
           "gender": "f",
           "plural": "ла́мпы",
           "topic": "casa",
+          "example": {
+            "ru": "Ла́мпа стои́т на ту́мбочке.",
+            "es": "La lámpara está en el buró."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3504,6 +3884,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "ropa",
+          "example": {
+            "ru": "Джи́нсы лежа́т на крова́ти.",
+            "es": "Los jeans están en la cama."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3515,6 +3899,10 @@
           "gender": "f",
           "plural": "футбо́лки",
           "topic": "ropa",
+          "example": {
+            "ru": "Футбо́лка виси́т в шкафу́.",
+            "es": "La playera está colgada en el clóset."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3526,6 +3914,10 @@
           "gender": "f",
           "plural": "поду́шки",
           "topic": "casa",
+          "example": {
+            "ru": "Поду́шка лежи́т на дива́не.",
+            "es": "El cojín está en el sofá."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3536,6 +3928,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "objetos",
+          "example": {
+            "ru": "Где мои́ нау́шники?",
+            "es": "¿Dónde están mis audífonos?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3547,6 +3943,10 @@
           "gender": "m",
           "plural": "мячи́",
           "topic": "objetos",
+          "example": {
+            "ru": "Мяч лежи́т в саду́.",
+            "es": "La pelota está en el jardín."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3558,6 +3958,10 @@
           "gender": "f",
           "plural": "ту́мбочки",
           "topic": "muebles",
+          "example": {
+            "ru": "Телефо́н на ту́мбочке.",
+            "es": "El teléfono está en el buró."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3569,6 +3973,10 @@
           "gender": "f",
           "plural": "ча́шки",
           "topic": "cocina",
+          "example": {
+            "ru": "Ча́шка стои́т на столе́.",
+            "es": "La taza está en la mesa."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3580,6 +3988,10 @@
           "gender": "m",
           "plural": "ча́йники",
           "topic": "cocina",
+          "example": {
+            "ru": "Ча́йник стои́т на плите́.",
+            "es": "La tetera está en la estufa."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3591,6 +4003,10 @@
           "gender": "m",
           "plural": "календари́",
           "topic": "objetos",
+          "example": {
+            "ru": "Календа́рь виси́т на стене́.",
+            "es": "El calendario está colgado en la pared."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3602,6 +4018,10 @@
           "gender": "m",
           "plural": "ка́ктусы",
           "topic": "casa",
+          "example": {
+            "ru": "Ка́ктус стои́т на окне́.",
+            "es": "El cactus está en la ventana."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3612,6 +4032,10 @@
           "pos": "noun",
           "gender": "pl",
           "topic": "objetos",
+          "example": {
+            "ru": "Ключи́ лежа́т на столе́.",
+            "es": "Las llaves están en la mesa."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3622,6 +4046,10 @@
           "pos": "noun",
           "gender": "n",
           "topic": "naturaleza",
+          "example": {
+            "ru": "В саду́ есть де́рево.",
+            "es": "En el jardín hay un árbol."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3633,6 +4061,10 @@
           "gender": "m",
           "plural": "оте́ли",
           "topic": "ciudad",
+          "example": {
+            "ru": "Наш оте́ль недалеко́.",
+            "es": "Nuestro hotel está cerca."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3643,6 +4075,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "ciudad",
+          "example": {
+            "ru": "Мы живём в це́нтре.",
+            "es": "Vivimos en el centro."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3663,6 +4099,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "У́тром я медити́рую в саду́.",
+            "es": "En la mañana medito en el jardín."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3683,6 +4123,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Мы разгова́риваем на ку́хне.",
+            "es": "Platicamos en la cocina."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3693,6 +4137,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Москва́ нахо́дится в Росси́и.",
+            "es": "Moscú está en Rusia."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3703,6 +4151,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Мой друг живёт в Герма́нии.",
+            "es": "Mi amigo vive en Alemania."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3713,6 +4165,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Ло́ндон нахо́дится в А́нглии.",
+            "es": "Londres está en Inglaterra."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3723,6 +4179,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Сейча́с я в Фра́нции.",
+            "es": "Ahorita estoy en Francia."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3733,6 +4193,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Его́ ви́лла в Швейца́рии.",
+            "es": "Su villa está en Suiza."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3743,6 +4207,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Лиссабо́н нахо́дится в Португа́лии.",
+            "es": "Lisboa está en Portugal."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3753,6 +4221,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Ле́том мы отдыха́ем в Ита́лии.",
+            "es": "En verano vacacionamos en Italia."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3763,6 +4235,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Моя́ подру́га живёт в Испа́нии.",
+            "es": "Mi amiga vive en España."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3773,6 +4249,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Копенга́ген нахо́дится в Да́нии.",
+            "es": "Copenhague está en Dinamarca."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3783,6 +4263,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "В Норве́гии о́чень хо́лодно.",
+            "es": "En Noruega hace mucho frío."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3793,6 +4277,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Сейча́с мы отдыха́ем в Гре́ции.",
+            "es": "Ahorita estamos de vacaciones en Grecia."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3803,6 +4291,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "países",
+          "example": {
+            "ru": "Мой брат живёт в Аме́рике.",
+            "es": "Mi hermano vive en Estados Unidos."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3813,6 +4305,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "países",
+          "example": {
+            "ru": "Мой колле́га сейча́с в Кита́е.",
+            "es": "Mi colega está ahorita en China."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -3828,6 +4324,10 @@
             "pl": "э́ти"
           },
           "topic": "pronombres",
+          "example": {
+            "ru": "Э́тот дом о́чень ста́рый.",
+            "es": "Esta casa es muy vieja."
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -5818,6 +6318,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "oficina",
+          "example": {
+            "ru": "В о́фисе прия́тная атмосфе́ра.",
+            "es": "En la oficina hay un ambiente agradable."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5829,6 +6333,10 @@
           "gender": "m",
           "plural": "аттракцио́ны",
           "topic": "ocio",
+          "example": {
+            "ru": "В па́рке есть аттракцио́ны.",
+            "es": "En el parque hay juegos mecánicos."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5838,6 +6346,10 @@
           "es": "en orden; bien",
           "pos": "phrase",
           "topic": "oficina",
+          "example": {
+            "ru": "Всё в поря́дке, спаси́бо.",
+            "es": "Todo bien, gracias."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5849,6 +6361,10 @@
           "gender": "m",
           "plural": "гамаки́",
           "topic": "oficina",
+          "example": {
+            "ru": "В на́шем о́фисе есть гама́к!",
+            "es": "¡En nuestra oficina hay una hamaca!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5858,6 +6374,10 @@
           "es": "hablar por teléfono",
           "pos": "phrase",
           "topic": "oficina",
+          "example": {
+            "ru": "Шеф до́лго говори́т по телефо́ну.",
+            "es": "El jefe habla mucho rato por teléfono."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5878,6 +6398,10 @@
             }
           },
           "topic": "rutina",
+          "example": {
+            "ru": "Я за́втракаю на ку́хне.",
+            "es": "Desayuno en la cocina."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5889,6 +6413,10 @@
           "gender": "m",
           "plural": "колле́ги",
           "topic": "oficina",
+          "example": {
+            "ru": "Моя́ колле́га сиди́т спра́ва.",
+            "es": "Mi compañera de trabajo se sienta a la derecha."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5900,6 +6428,10 @@
           "gender": "f",
           "plural": "конфе́ты",
           "topic": "comida",
+          "example": {
+            "ru": "На столе́ лежи́т конфе́та.",
+            "es": "En la mesa hay un dulce."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5915,6 +6447,10 @@
             "pl": "креати́вные"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "У нас креати́вный о́фис.",
+            "es": "Tenemos una oficina creativa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5926,6 +6462,10 @@
           "gender": "f",
           "plural": "мечты́",
           "topic": "otros",
+          "example": {
+            "ru": "Э́то не о́фис, а мечта́!",
+            "es": "¡Esto no es una oficina, es un sueño!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5944,6 +6484,10 @@
             "форма́льный"
           ],
           "topic": "oficina",
+          "example": {
+            "ru": "Здесь неформа́льная атмосфе́ра.",
+            "es": "Aquí hay un ambiente informal."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5964,6 +6508,10 @@
             }
           },
           "topic": "oficina",
+          "example": {
+            "ru": "Колле́ги обсужда́ют план.",
+            "es": "Los colegas discuten el plan."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5982,6 +6530,10 @@
             "типи́чный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "У неё оригина́льная ла́мпа.",
+            "es": "Ella tiene una lámpara original."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -5991,6 +6543,10 @@
           "es": "contestar cartas / correos",
           "pos": "phrase",
           "topic": "oficina",
+          "example": {
+            "ru": "Секрета́рь отвеча́ет на пи́сьма.",
+            "es": "La secretaria contesta los correos."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6000,6 +6556,10 @@
           "es": "en mi opinión, creo que",
           "pos": "phrase",
           "topic": "opinión",
+          "example": {
+            "ru": "По-мо́ему, э́то хорошо́.",
+            "es": "Creo que eso está bien."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6009,6 +6569,10 @@
           "es": "¡Qué locura! ¡No lo puedo creer!",
           "pos": "interj",
           "topic": "emociones",
+          "example": {
+            "ru": "Гама́к в о́фисе? С ума́ сойти́!",
+            "es": "¿Una hamaca en la oficina? ¡Qué locura!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6018,6 +6582,10 @@
           "es": "estar (navegando) en internet",
           "pos": "phrase",
           "topic": "oficina",
+          "example": {
+            "ru": "Брат весь день сиди́т в интерне́те.",
+            "es": "Mi hermano está todo el día en internet."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6029,6 +6597,10 @@
           "gender": "m",
           "plural": "сотру́дники",
           "topic": "oficina",
+          "example": {
+            "ru": "Сотру́дники за́втракают в о́фисе.",
+            "es": "Los empleados desayunan en la oficina."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6048,6 +6620,10 @@
             "необы́чный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Ива́н — типи́чный трудого́лик.",
+            "es": "Iván es un típico adicto al trabajo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6060,6 +6636,10 @@
             "ме́дленно"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Он говори́т о́чень бы́стро.",
+            "es": "Él habla muy rápido."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6075,6 +6655,10 @@
             "шу́мно"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Колле́га говори́т гро́мко.",
+            "es": "Mi colega habla muy fuerte."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6084,6 +6668,10 @@
           "es": "mucho tiempo, largo rato",
           "pos": "adv",
           "topic": "adverbios",
+          "example": {
+            "ru": "В суббо́ту я до́лго сплю.",
+            "es": "Los sábados duermo mucho rato."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6093,6 +6681,10 @@
           "es": "cómodamente, a gusto",
           "pos": "adv",
           "topic": "adverbios",
+          "example": {
+            "ru": "В гамаке́ о́чень комфо́ртно.",
+            "es": "En la hamaca se está muy a gusto."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6105,6 +6697,10 @@
             "мно́го"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Я ма́ло сплю.",
+            "es": "Duermo poco."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6117,6 +6713,10 @@
             "бы́стро"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Я чита́ю по-ру́сски ме́дленно.",
+            "es": "Leo en ruso despacio."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6129,6 +6729,10 @@
             "ма́ло"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Он мно́го рабо́тает.",
+            "es": "Él trabaja mucho."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6141,6 +6745,10 @@
             "ра́но"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Мы рабо́таем по́здно.",
+            "es": "Trabajamos hasta tarde."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6156,6 +6764,10 @@
             "отли́чно"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Ты прекра́сно гото́вишь!",
+            "es": "¡Cocinas de maravilla!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6165,6 +6777,10 @@
           "es": "prestigioso, de prestigio",
           "pos": "adv",
           "topic": "adverbios",
+          "example": {
+            "ru": "Рабо́тать здесь прести́жно.",
+            "es": "Trabajar aquí da prestigio."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6177,6 +6793,10 @@
             "неприя́тно"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Здесь о́чень прия́тно.",
+            "es": "Aquí se está muy agradable."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6189,6 +6809,10 @@
             "по́здно"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Я за́втракаю ра́но.",
+            "es": "Desayuno temprano."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6201,6 +6825,10 @@
             "интере́сно"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "На ле́кции ску́чно.",
+            "es": "La clase está aburrida."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6210,6 +6838,10 @@
           "es": "tranquilamente, con calma",
           "pos": "adv",
           "topic": "adverbios",
+          "example": {
+            "ru": "Он споко́йно отвеча́ет.",
+            "es": "Él contesta con calma."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6223,6 +6855,10 @@
             "шу́мно"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "В библиоте́ке ти́хо.",
+            "es": "En la biblioteca hay silencio."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6236,6 +6872,10 @@
             "хорошо́"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Он у́жасно гото́вит.",
+            "es": "Él cocina fatal."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6248,6 +6888,10 @@
             "ти́хо"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "В о́фисе шу́мно.",
+            "es": "En la oficina hay mucho ruido."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -6260,6 +6904,10 @@
             "непра́вильно"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Да, всё пра́вильно!",
+            "es": "¡Sí, todo está correcto!"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6272,6 +6920,10 @@
             "пра́вильно"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Ты отвеча́ешь непра́вильно.",
+            "es": "Estás contestando mal."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6284,6 +6936,10 @@
             "ску́чно"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "На ле́кции о́чень интере́сно.",
+            "es": "La clase está muy interesante."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6296,6 +6952,10 @@
             "пло́хо"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Ты хорошо́ говори́шь по-ру́сски.",
+            "es": "Hablas bien ruso."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6308,6 +6968,10 @@
             "хорошо́"
           ],
           "topic": "adverbios",
+          "example": {
+            "ru": "Я пло́хо сплю.",
+            "es": "Duermo mal."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6319,6 +6983,10 @@
           "gender": "m",
           "plural": "пла́ны",
           "topic": "oficina",
+          "example": {
+            "ru": "Како́й у нас план на за́втра?",
+            "es": "¿Cuál es el plan para mañana?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6330,6 +6998,10 @@
           "gender": "m",
           "plural": "прое́кты",
           "topic": "oficina",
+          "example": {
+            "ru": "Ве́ра изуча́ет но́вый прое́кт.",
+            "es": "Vera está analizando el nuevo proyecto."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6341,6 +7013,10 @@
           "gender": "m",
           "plural": "контра́кты",
           "topic": "oficina",
+          "example": {
+            "ru": "Вот ваш контра́кт.",
+            "es": "Aquí está su contrato."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6352,6 +7028,10 @@
           "gender": "m",
           "plural": "карандаши́",
           "topic": "oficina",
+          "example": {
+            "ru": "У тебя́ есть каранда́ш?",
+            "es": "¿Tienes un lápiz?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6363,6 +7043,10 @@
           "gender": "f",
           "plural": "па́пки",
           "topic": "oficina",
+          "example": {
+            "ru": "Па́пка на столе́.",
+            "es": "La carpeta está en el escritorio."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6374,6 +7058,10 @@
           "gender": "f",
           "plural": "ру́чки",
           "topic": "oficina",
+          "example": {
+            "ru": "Где моя́ ру́чка?",
+            "es": "¿Dónde está mi pluma?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6385,6 +7073,10 @@
           "gender": "m",
           "plural": "ма́ркеры",
           "topic": "oficina",
+          "example": {
+            "ru": "Ма́ркер не пи́шет.",
+            "es": "El marcador no pinta."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6396,6 +7088,10 @@
           "gender": "m",
           "plural": "при́нтеры",
           "topic": "oficina",
+          "example": {
+            "ru": "При́нтер стои́т в коридо́ре.",
+            "es": "La impresora está en el pasillo."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6407,6 +7103,10 @@
           "gender": "f",
           "plural": "кофема́шины",
           "topic": "oficina",
+          "example": {
+            "ru": "Кофема́шина на ку́хне.",
+            "es": "La cafetera está en la cocina."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6418,6 +7118,10 @@
           "gender": "m",
           "plural": "клие́нты",
           "topic": "oficina",
+          "example": {
+            "ru": "Клие́нт ждёт в о́фисе.",
+            "es": "El cliente espera en la oficina."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6429,6 +7133,10 @@
           "gender": "m",
           "plural": "цветы́",
           "topic": "oficina",
+          "example": {
+            "ru": "На окне́ стои́т цвето́к.",
+            "es": "En la ventana hay una flor."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6440,6 +7148,10 @@
           "gender": "m",
           "plural": "инжене́ры",
           "topic": "oficina",
+          "example": {
+            "ru": "Мой па́па — инжене́р.",
+            "es": "Mi papá es ingeniero."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6451,6 +7163,10 @@
           "gender": "m",
           "plural": "секретари́",
           "topic": "oficina",
+          "example": {
+            "ru": "Секрета́рь сиди́т в о́фисе.",
+            "es": "La secretaria está en la oficina."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6462,6 +7178,10 @@
           "gender": "f",
           "plural": "ве́щи",
           "topic": "oficina",
+          "example": {
+            "ru": "Где мои́ ве́щи?",
+            "es": "¿Dónde están mis cosas?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6473,6 +7193,10 @@
           "gender": "m",
           "plural": "докуме́нты",
           "topic": "oficina",
+          "example": {
+            "ru": "Докуме́нты лежа́т в па́пке.",
+            "es": "Los documentos están en la carpeta."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6484,6 +7208,10 @@
           "gender": "m",
           "plural": "о́фисы",
           "topic": "oficina",
+          "example": {
+            "ru": "Наш о́фис в це́нтре.",
+            "es": "Nuestra oficina está en el centro."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6495,6 +7223,10 @@
           "gender": "f",
           "plural": "ле́кции",
           "topic": "oficina",
+          "example": {
+            "ru": "Ле́кция сего́дня ве́чером.",
+            "es": "La clase es hoy en la noche."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6506,6 +7238,10 @@
           "gender": "m",
           "plural": "напи́тки",
           "topic": "oficina",
+          "example": {
+            "ru": "Како́й ваш люби́мый напи́ток?",
+            "es": "¿Cuál es su bebida favorita?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6517,6 +7253,10 @@
           "gender": "m",
           "plural": "трудого́лики",
           "topic": "oficina",
+          "example": {
+            "ru": "Па́па — настоя́щий трудого́лик.",
+            "es": "Papá es un verdadero adicto al trabajo."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6528,6 +7268,10 @@
           "gender": "f",
           "plural": "сладкое́жки",
           "topic": "oficina",
+          "example": {
+            "ru": "Я сладкое́жка: я люблю́ конфе́ты.",
+            "es": "Soy muy goloso: me encantan los dulces."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6539,6 +7283,10 @@
           "gender": "m",
           "plural": "лю́ди",
           "topic": "general",
+          "example": {
+            "ru": "Ива́н — интере́сный челове́к.",
+            "es": "Iván es una persona interesante."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6550,6 +7298,10 @@
           "gender": "m",
           "plural": "де́ти",
           "topic": "general",
+          "example": {
+            "ru": "Ребёнок игра́ет в саду́.",
+            "es": "El niño juega en el jardín."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6561,6 +7313,10 @@
           "gender": "m",
           "plural": "учителя́",
           "topic": "general",
+          "example": {
+            "ru": "Мой учи́тель говори́т ме́дленно.",
+            "es": "Mi maestro habla despacio."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6572,6 +7328,10 @@
           "gender": "n",
           "plural": "я́блоки",
           "topic": "general",
+          "example": {
+            "ru": "Я ем я́блоко.",
+            "es": "Me estoy comiendo una manzana."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6583,6 +7343,10 @@
           "gender": "n",
           "plural": "моря́",
           "topic": "general",
+          "example": {
+            "ru": "Ле́том мы отдыха́ем на мо́ре.",
+            "es": "En verano vacacionamos en el mar."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6594,6 +7358,10 @@
           "gender": "n",
           "plural": "пи́сьма",
           "topic": "oficina",
+          "example": {
+            "ru": "Я пишу́ письмо́.",
+            "es": "Estoy escribiendo una carta."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6609,6 +7377,10 @@
             "pl": "кото́рые"
           },
           "topic": "pronombres",
+          "example": {
+            "ru": "У меня́ друг, кото́рый живёт в Ита́лии.",
+            "es": "Tengo un amigo que vive en Italia."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6629,6 +7401,10 @@
             }
           },
           "topic": "oficina",
+          "example": {
+            "ru": "Я всегда́ бы́стро отвеча́ю.",
+            "es": "Siempre contesto rápido."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6649,6 +7425,10 @@
             }
           },
           "topic": "oficina",
+          "example": {
+            "ru": "Мы изуча́ем ру́сский язы́к.",
+            "es": "Estudiamos ruso."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -6669,6 +7449,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Я ду́маю, что э́то пра́вильно.",
+            "es": "Creo que eso es correcto."
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -8967,6 +9751,10 @@
           "es": "noches blancas (verano en San Petersburgo, cuando casi no oscurece)",
           "pos": "phrase",
           "topic": "ciudad",
+          "example": {
+            "ru": "В Петербу́рге сейча́с бе́лые но́чи.",
+            "es": "En San Petersburgo ahorita hay noches blancas."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8978,6 +9766,10 @@
           "gender": "m",
           "plural": "владе́льцы",
           "topic": "personas",
+          "example": {
+            "ru": "Владе́лец до́ма — пенсионе́р.",
+            "es": "El dueño de la casa es un jubilado."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -8990,6 +9782,10 @@
             "наверху́"
           ],
           "topic": "lugar",
+          "example": {
+            "ru": "Гара́ж нахо́дится внизу́.",
+            "es": "La cochera está abajo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9002,6 +9798,10 @@
             "внизу́"
           ],
           "topic": "lugar",
+          "example": {
+            "ru": "Спа́льня и кабине́т наверху́.",
+            "es": "La recámara y el estudio están arriba."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9022,6 +9822,10 @@
             }
           },
           "topic": "acciones",
+          "example": {
+            "ru": "Я выбира́ю но́вый дива́н.",
+            "es": "Estoy escogiendo un sofá nuevo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9033,6 +9837,10 @@
           "gender": "f",
           "plural": "го́ры",
           "topic": "naturaleza",
+          "example": {
+            "ru": "Наш дом на горе́.",
+            "es": "Nuestra casa está en la montaña."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9044,6 +9852,10 @@
           "gender": "m",
           "plural": "дворы́",
           "topic": "casa",
+          "example": {
+            "ru": "Де́ти игра́ют во дворе́.",
+            "es": "Los niños juegan en el patio."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9053,6 +9865,10 @@
           "es": "bastante, más o menos",
           "pos": "adv",
           "topic": "otros",
+          "example": {
+            "ru": "Кварти́ра дово́льно больша́я.",
+            "es": "El departamento es bastante grande."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9063,6 +9879,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "carácter",
+          "example": {
+            "ru": "У неё хоро́шая интуи́ция.",
+            "es": "Ella tiene buena intuición."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9072,6 +9892,10 @@
           "es": "¿De qué color es…?",
           "pos": "phrase",
           "topic": "colores",
+          "example": {
+            "ru": "Како́го цве́та твоя́ маши́на?",
+            "es": "¿De qué color es tu carro?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9083,6 +9907,10 @@
           "gender": "m",
           "plural": "крокоди́лы",
           "topic": "animales",
+          "example": {
+            "ru": "Крокоди́л о́чень злой.",
+            "es": "El cocodrilo es muy bravo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9103,6 +9931,10 @@
             }
           },
           "topic": "gustos",
+          "example": {
+            "ru": "Мне нра́вится наш но́вый дом.",
+            "es": "Me gusta nuestra casa nueva."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9112,6 +9944,10 @@
           "es": "Juegos Olímpicos",
           "pos": "phrase",
           "topic": "deportes",
+          "example": {
+            "ru": "Я смотрю́ Олимпи́йские и́гры.",
+            "es": "Estoy viendo los Juegos Olímpicos."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9123,6 +9959,10 @@
           "gender": "m",
           "plural": "оптими́сты",
           "topic": "carácter",
+          "example": {
+            "ru": "Мой брат — большо́й оптими́ст.",
+            "es": "Mi hermano es muy optimista."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9143,6 +9983,10 @@
             }
           },
           "topic": "coche",
+          "example": {
+            "ru": "Где мо́жно паркова́ть маши́ну?",
+            "es": "¿Dónde se puede estacionar el carro?"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9163,6 +10007,10 @@
             }
           },
           "topic": "gustos",
+          "example": {
+            "ru": "Я предпочита́ю чай.",
+            "es": "Prefiero el té."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9173,6 +10021,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "naturaleza",
+          "example": {
+            "ru": "Мы лю́бим приро́ду.",
+            "es": "Nos encanta la naturaleza."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9193,6 +10045,10 @@
             }
           },
           "topic": "coche",
+          "example": {
+            "ru": "Па́па ремонти́рует маши́ну.",
+            "es": "Papá está arreglando el carro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9203,6 +10059,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "geografía",
+          "example": {
+            "ru": "Я живу́ на се́вере.",
+            "es": "Vivo en el norte."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9221,6 +10081,10 @@
             "ю́жный"
           ],
           "topic": "geografía",
+          "example": {
+            "ru": "Петербу́рг — се́верный го́род.",
+            "es": "San Petersburgo es una ciudad del norte."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9232,6 +10096,10 @@
           "gender": "m",
           "plural": "си́мволы",
           "topic": "otros",
+          "example": {
+            "ru": "Матрёшка — ру́сский си́мвол.",
+            "es": "La matrioska es un símbolo ruso."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9243,6 +10111,10 @@
           "gender": "m",
           "plural": "сосе́ди",
           "topic": "vecinos",
+          "example": {
+            "ru": "Мой сосе́д живёт наверху́.",
+            "es": "Mi vecino vive arriba."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9254,6 +10126,10 @@
           "gender": "f",
           "plural": "сосе́дки",
           "topic": "vecinos",
+          "example": {
+            "ru": "Моя́ сосе́дка о́чень ти́хая.",
+            "es": "Mi vecina es muy callada."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9264,6 +10140,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "carácter",
+          "example": {
+            "ru": "Я люблю́ стаби́льность.",
+            "es": "Me gusta la estabilidad."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9273,6 +10153,10 @@
           "es": "entonces",
           "pos": "adv",
           "topic": "otros",
+          "example": {
+            "ru": "Тогда́ до за́втра!",
+            "es": "¡Entonces hasta mañana!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9284,6 +10168,10 @@
           "gender": "f",
           "plural": "тради́ции",
           "topic": "cultura",
+          "example": {
+            "ru": "У нас есть семе́йная тради́ция.",
+            "es": "Tenemos una tradición familiar."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9294,6 +10182,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "carácter",
+          "example": {
+            "ru": "У него́ тру́дный хара́ктер.",
+            "es": "Tiene un carácter difícil."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9304,6 +10196,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "carácter",
+          "example": {
+            "ru": "У неё прекра́сная энерге́тика.",
+            "es": "Ella tiene muy buena vibra."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9322,6 +10218,10 @@
             "некраси́вый"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Кака́я краси́вая карти́на!",
+            "es": "¡Qué cuadro tan bonito!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9340,6 +10240,10 @@
             "краси́вый"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Э́тот дива́н некраси́вый.",
+            "es": "Ese sofá está feo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9358,6 +10262,10 @@
             "неудо́бный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Э́то о́чень удо́бное кре́сло.",
+            "es": "Este sillón es muy cómodo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9376,6 +10284,10 @@
             "удо́бный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Мой стул неудо́бный.",
+            "es": "Mi silla es incómoda."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9394,6 +10306,10 @@
             "споко́йный"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "У сосе́да агресси́вная соба́ка.",
+            "es": "El vecino tiene un perro agresivo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9409,6 +10325,10 @@
             "pl": "акти́вные"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "Моя́ ба́бушка о́чень акти́вная.",
+            "es": "Mi abuela es muy activa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9427,6 +10347,10 @@
             "ма́ленький"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "У нас большо́й двор.",
+            "es": "Tenemos un patio grande."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9446,6 +10370,10 @@
             "серьёзный"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "Мой сосе́д — весёлый челове́к.",
+            "es": "Mi vecino es una persona alegre."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9464,6 +10392,10 @@
             "ни́зкий"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Мой брат о́чень высо́кий.",
+            "es": "Mi hermano es muy alto."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9482,6 +10414,10 @@
             "холо́дный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Чай о́чень горя́чий.",
+            "es": "El té está muy caliente."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9500,6 +10436,10 @@
             "дорого́й"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Тут дешёвый ко́фе.",
+            "es": "Aquí el café es barato."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9518,6 +10458,10 @@
             "коро́ткий"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "У неё дли́нные во́лосы.",
+            "es": "Ella tiene el pelo largo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9536,6 +10480,10 @@
             "дешёвый"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Како́й дорого́й оте́ль!",
+            "es": "¡Qué hotel tan caro!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9554,6 +10502,10 @@
             "споко́йный"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "Он о́чень импульси́вный челове́к.",
+            "es": "Es una persona muy impulsiva."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9569,6 +10521,10 @@
             "pl": "интеллиге́нтные"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "Наш учи́тель — интеллиге́нтный челове́к.",
+            "es": "Nuestro maestro es una persona culta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9584,6 +10540,10 @@
             "pl": "коммуника́бельные"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "Моя́ колле́га о́чень коммуника́бельная.",
+            "es": "Mi compañera de trabajo es muy sociable."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9599,6 +10559,10 @@
             "pl": "консервати́вные"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "Мой де́душка — консервати́вный челове́к.",
+            "es": "Mi abuelo es una persona conservadora."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9617,6 +10581,10 @@
             "дли́нный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Э́то коро́ткое письмо́.",
+            "es": "Es una carta corta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9636,6 +10604,10 @@
             "тру́дный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Сего́дня у нас лёгкий текст.",
+            "es": "Hoy tenemos un texto fácil."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9654,6 +10626,10 @@
             "большо́й"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "У нас ма́ленькая ку́хня.",
+            "es": "Tenemos una cocina chiquita."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9672,6 +10648,10 @@
             "ста́рый"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Наш учи́тель о́чень молодо́й.",
+            "es": "Nuestro maestro es muy joven."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9690,6 +10670,10 @@
             "высо́кий"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Э́тот стол о́чень ни́зкий.",
+            "es": "Esta mesa es muy baja."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9708,6 +10692,10 @@
             "ста́рый"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Э́то мой но́вый телефо́н.",
+            "es": "Este es mi teléfono nuevo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9723,6 +10711,10 @@
             "pl": "оптимисти́чные"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "Она́ оптимисти́чная де́вушка.",
+            "es": "Es una chava optimista."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9738,6 +10730,10 @@
             "pl": "педанти́чные"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "Мой шеф о́чень педанти́чный.",
+            "es": "Mi jefe es muy perfeccionista."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9756,6 +10752,10 @@
             "романти́чный"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "У нас практи́чная ме́бель.",
+            "es": "Tenemos muebles prácticos."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9774,6 +10774,10 @@
             "эмоциона́льный"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "Он рациона́льный челове́к.",
+            "es": "Es una persona racional."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9792,6 +10796,10 @@
             "практи́чный"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "Како́й романти́чный ве́чер!",
+            "es": "¡Qué noche tan romántica!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9807,6 +10815,10 @@
             "pl": "семе́йные"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "Мой брат — семе́йный челове́к.",
+            "es": "Mi hermano es un hombre de familia."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9825,6 +10837,10 @@
             "рациона́льный"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "Ба́бушка о́чень сентимента́льная.",
+            "es": "La abuela es muy sentimental."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9843,6 +10859,10 @@
             "весёлый"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "Сего́дня он о́чень серьёзный.",
+            "es": "Hoy está muy serio."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9858,6 +10878,10 @@
             "pl": "скро́мные"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "Она́ о́чень скро́мная.",
+            "es": "Ella es muy modesta."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9877,6 +10901,10 @@
             "весёлый"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Како́й ску́чный сериа́л!",
+            "es": "¡Qué serie tan aburrida!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9896,6 +10924,10 @@
             "молодо́й"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "У де́душки ста́рая маши́на.",
+            "es": "El abuelo tiene un carro viejo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9911,6 +10943,10 @@
             "pl": "тво́рческие"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "У неё тво́рческая рабо́та.",
+            "es": "Ella tiene un trabajo creativo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9929,6 +10965,10 @@
             "холо́дный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Сего́дня тёплый ве́чер.",
+            "es": "Hoy la noche está cálida."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9947,6 +10987,10 @@
             "лёгкий"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Сего́дня тру́дный день.",
+            "es": "Hoy es un día difícil."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9965,6 +11009,10 @@
             "лёгкий"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Мой рюкза́к о́чень тяжёлый.",
+            "es": "Mi mochila está muy pesada."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9983,6 +11031,10 @@
             "глу́пый"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "Моя́ сестра́ о́чень у́мная.",
+            "es": "Mi hermana es muy inteligente."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -9998,6 +11050,10 @@
             "pl": "харизмати́чные"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "Наш шеф — харизмати́чный челове́к.",
+            "es": "Nuestro jefe es una persona carismática."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10017,6 +11073,10 @@
             "горя́чий"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Ко́фе уже́ холо́дный.",
+            "es": "El café ya está frío."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10035,6 +11095,10 @@
             "рациона́льный"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "Италья́нцы — эмоциона́льные лю́ди.",
+            "es": "Los italianos son gente emotiva."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10053,6 +11117,10 @@
             "злой"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "На́ша сосе́дка о́чень до́брая.",
+            "es": "Nuestra vecina es muy buena gente."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10071,6 +11139,10 @@
             "до́брый"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "Во дворе́ живёт зла́я соба́ка.",
+            "es": "En el patio vive un perro bravo."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10089,6 +11161,10 @@
             "ску́чный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Како́й интере́сный фильм!",
+            "es": "¡Qué película tan interesante!"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10107,6 +11183,10 @@
             "ме́дленный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "У него́ бы́страя маши́на.",
+            "es": "Él tiene un carro rápido."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10125,6 +11205,10 @@
             "бы́стрый"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Мой компью́тер о́чень ме́дленный.",
+            "es": "Mi computadora es muy lenta."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10143,6 +11227,10 @@
             "ти́хий"
           ],
           "topic": "vecinos",
+          "example": {
+            "ru": "У сосе́да гро́мкая му́зыка.",
+            "es": "El vecino tiene la música muy fuerte."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10162,6 +11250,10 @@
             "шу́мный"
           ],
           "topic": "vecinos",
+          "example": {
+            "ru": "Наш двор о́чень ти́хий.",
+            "es": "Nuestro patio es muy tranquilo."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10180,6 +11272,10 @@
             "ти́хий"
           ],
           "topic": "vecinos",
+          "example": {
+            "ru": "Москва́ — шу́мный го́род.",
+            "es": "Moscú es una ciudad ruidosa."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10198,6 +11294,10 @@
             "плохо́й"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "У нас хоро́шие сосе́ди.",
+            "es": "Tenemos buenos vecinos."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10216,6 +11316,10 @@
             "хоро́ший"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Сего́дня плоха́я пого́да.",
+            "es": "Hoy hace mal tiempo."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10234,6 +11338,10 @@
             "ужа́сный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Како́й прекра́сный вид!",
+            "es": "¡Qué vista tan maravillosa!"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10252,6 +11360,10 @@
             "прекра́сный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "У меня́ сего́дня ужа́сный день.",
+            "es": "Hoy tengo un día horrible."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10270,6 +11382,10 @@
             "неприя́тный"
           ],
           "topic": "descripción",
+          "example": {
+            "ru": "Она́ о́чень прия́тная же́нщина.",
+            "es": "Es una señora muy agradable."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10288,6 +11404,10 @@
             "ужа́сный"
           ],
           "topic": "vecinos",
+          "example": {
+            "ru": "Кварти́ра про́сто идеа́льная!",
+            "es": "¡El departamento está perfecto!"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10303,6 +11423,10 @@
             "pl": "элега́нтные"
           },
           "topic": "descripción",
+          "example": {
+            "ru": "Кака́я элега́нтная актри́са!",
+            "es": "¡Qué actriz tan elegante!"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10318,6 +11442,10 @@
             "pl": "ру́сские"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Мне нра́вится ру́сская му́зыка.",
+            "es": "Me gusta la música rusa."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10337,6 +11465,10 @@
             "импульси́вный"
           ],
           "topic": "carácter",
+          "example": {
+            "ru": "У нас споко́йная у́лица.",
+            "es": "Nuestra calle es tranquila."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10352,6 +11484,10 @@
             "pl": "стра́стные"
           },
           "topic": "carácter",
+          "example": {
+            "ru": "Он стра́стный музыка́нт.",
+            "es": "Es un músico apasionado."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10367,6 +11503,10 @@
             "pl": "кра́сные"
           },
           "topic": "colores",
+          "example": {
+            "ru": "У меня́ кра́сная маши́на.",
+            "es": "Tengo un carro rojo."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10382,6 +11522,10 @@
             "pl": "жёлтые"
           },
           "topic": "colores",
+          "example": {
+            "ru": "Жёлтое такси́ стои́т во дворе́.",
+            "es": "El taxi amarillo está en el patio."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10397,6 +11541,10 @@
             "pl": "ора́нжевые"
           },
           "topic": "colores",
+          "example": {
+            "ru": "Я люблю́ ора́нжевый цвет.",
+            "es": "Me encanta el color naranja."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10412,6 +11560,10 @@
             "pl": "си́ние"
           },
           "topic": "colores",
+          "example": {
+            "ru": "Мо́ре сего́дня си́нее.",
+            "es": "Hoy el mar está azul."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10427,6 +11579,10 @@
             "pl": "голубы́е"
           },
           "topic": "colores",
+          "example": {
+            "ru": "У неё голубы́е глаза́.",
+            "es": "Ella tiene los ojos azul claro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10442,6 +11598,10 @@
             "pl": "зелёные"
           },
           "topic": "colores",
+          "example": {
+            "ru": "У нас зелёный дива́н.",
+            "es": "Tenemos un sofá verde."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10460,6 +11620,10 @@
             "чёрный"
           ],
           "topic": "colores",
+          "example": {
+            "ru": "На ку́хне бе́лая ме́бель.",
+            "es": "En la cocina los muebles son blancos."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10478,6 +11642,10 @@
             "бе́лый"
           ],
           "topic": "colores",
+          "example": {
+            "ru": "У меня́ чёрный кот.",
+            "es": "Tengo un gato negro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10493,6 +11661,10 @@
             "pl": "се́рые"
           },
           "topic": "colores",
+          "example": {
+            "ru": "Сего́дня не́бо се́рое.",
+            "es": "Hoy el cielo está gris."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10508,6 +11680,10 @@
             "pl": "фиоле́товые"
           },
           "topic": "colores",
+          "example": {
+            "ru": "Моя́ люби́мая ру́чка — фиоле́товая.",
+            "es": "Mi pluma favorita es la morada."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10523,6 +11699,10 @@
             "pl": "ро́зовые"
           },
           "topic": "colores",
+          "example": {
+            "ru": "У неё ро́зовая футбо́лка.",
+            "es": "Ella trae una playera rosa."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10538,6 +11718,10 @@
             "pl": "кори́чневые"
           },
           "topic": "colores",
+          "example": {
+            "ru": "Мне нра́вится кори́чневое кре́сло.",
+            "es": "Me gusta el sillón café."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10553,6 +11737,10 @@
             "pl": "бе́жевые"
           },
           "topic": "colores",
+          "example": {
+            "ru": "В спа́льне бе́жевые сте́ны.",
+            "es": "En la recámara las paredes son beige."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10564,6 +11752,10 @@
           "gender": "m",
           "plural": "цвета́",
           "topic": "colores",
+          "example": {
+            "ru": "Како́й твой люби́мый цвет?",
+            "es": "¿Cuál es tu color favorito?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10573,6 +11765,10 @@
           "es": "sangre azul (aristocracia)",
           "pos": "phrase",
           "topic": "modismos",
+          "example": {
+            "ru": "Он ду́мает, что у него́ голуба́я кровь.",
+            "es": "Él cree que tiene sangre azul."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10582,6 +11778,10 @@
           "es": "prensa amarillista",
           "pos": "phrase",
           "topic": "modismos",
+          "example": {
+            "ru": "Я не чита́ю жёлтую пре́ссу.",
+            "es": "No leo prensa amarillista."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10591,6 +11791,10 @@
           "es": "lentes color de rosa (ver todo color de rosa)",
           "pos": "phrase",
           "topic": "modismos",
+          "example": {
+            "ru": "Сними́ ро́зовые очки́!",
+            "es": "¡Quítate los lentes color de rosa!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10600,6 +11804,10 @@
           "es": "persona gris, que no llama la atención",
           "pos": "phrase",
           "topic": "modismos",
+          "example": {
+            "ru": "В о́фисе она́ — се́рая мышь.",
+            "es": "En la oficina ella pasa desapercibida."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10609,6 +11817,10 @@
           "es": "magia negra",
           "pos": "phrase",
           "topic": "modismos",
+          "example": {
+            "ru": "Э́то не чёрная ма́гия, а нау́ка!",
+            "es": "¡No es magia negra, es ciencia!"
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10618,6 +11830,10 @@
           "es": "día negro, tiempos difíciles (ahorrar para un «día negro»)",
           "pos": "phrase",
           "topic": "modismos",
+          "example": {
+            "ru": "Э́ти де́ньги на чёрный день.",
+            "es": "Este dinero es para un día negro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10627,6 +11843,10 @@
           "es": "humor negro",
           "pos": "phrase",
           "topic": "modismos",
+          "example": {
+            "ru": "Мне нра́вится чёрный ю́мор.",
+            "es": "Me gusta el humor negro."
+          },
           "fromSlovar": true,
           "sneak": false
         },
@@ -10637,6 +11857,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "vecinos",
+          "example": {
+            "ru": "Беспоря́док на ку́хне — катастро́фа!",
+            "es": "¡El desorden en la cocina es una catástrofe!"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10648,6 +11872,10 @@
           "gender": "m",
           "plural": "музыка́нты",
           "topic": "vecinos",
+          "example": {
+            "ru": "Наш сосе́д — музыка́нт.",
+            "es": "Nuestro vecino es músico."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10658,6 +11886,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "vecinos",
+          "example": {
+            "ru": "Сосе́д игра́ет на саксофо́не.",
+            "es": "El vecino toca el saxofón."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10669,6 +11901,10 @@
           "gender": "f",
           "plural": "актри́сы",
           "topic": "vecinos",
+          "example": {
+            "ru": "Она́ изве́стная актри́са.",
+            "es": "Ella es una actriz famosa."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10680,6 +11916,10 @@
           "gender": "m",
           "plural": "пенсионе́ры",
           "topic": "vecinos",
+          "example": {
+            "ru": "Мой де́душка — пенсионе́р.",
+            "es": "Mi abuelo es jubilado."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10691,6 +11931,10 @@
           "gender": "f",
           "plural": "у́лицы",
           "topic": "vecinos",
+          "example": {
+            "ru": "Де́ти сейча́с на у́лице.",
+            "es": "Los niños están ahorita afuera."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10701,6 +11945,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "vecinos",
+          "example": {
+            "ru": "Они́ — краси́вая па́ра.",
+            "es": "Hacen una bonita pareja."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10712,6 +11960,10 @@
           "gender": "m",
           "plural": "сериа́лы",
           "topic": "vecinos",
+          "example": {
+            "ru": "Ве́чером мы смо́трим сериа́л.",
+            "es": "En la noche vemos una serie."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10722,6 +11974,10 @@
           "pos": "noun",
           "gender": "f",
           "topic": "vecinos",
+          "example": {
+            "ru": "Я люблю́ класси́ческую му́зыку.",
+            "es": "Me encanta la música clásica."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10733,6 +11989,10 @@
           "gender": "f",
           "plural": "маши́ны",
           "topic": "vecinos",
+          "example": {
+            "ru": "Где твоя́ маши́на?",
+            "es": "¿Dónde está tu carro?"
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10742,6 +12002,10 @@
           "es": "ping-pong",
           "pos": "noun",
           "topic": "vecinos",
+          "example": {
+            "ru": "Мы игра́ем в пинг-по́нг во дворе́.",
+            "es": "Jugamos ping-pong en el patio."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10757,6 +12021,10 @@
             "pl": "францу́зские"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Я люблю́ францу́зский сыр.",
+            "es": "Me encanta el queso francés."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10772,6 +12040,10 @@
             "pl": "англи́йские"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Я пью англи́йский чай.",
+            "es": "Tomo té inglés."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10787,6 +12059,10 @@
             "pl": "неме́цкие"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "У па́пы неме́цкая маши́на.",
+            "es": "Papá tiene un carro alemán."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10802,6 +12078,10 @@
             "pl": "кита́йские"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Кита́йский язы́к о́чень тру́дный.",
+            "es": "El chino es muy difícil."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10817,6 +12097,10 @@
             "pl": "испа́нские"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Испа́нский язы́к — мой родно́й.",
+            "es": "El español es mi lengua materna."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10832,6 +12116,10 @@
             "pl": "швейца́рские"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Швейца́рский шокола́д о́чень вку́сный.",
+            "es": "El chocolate suizo es muy rico."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10847,6 +12135,10 @@
             "pl": "япо́нские"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Мы лю́бим япо́нскую ку́хню.",
+            "es": "Nos encanta la comida japonesa."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10862,6 +12154,10 @@
             "pl": "америка́нские"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Сего́дня мы смо́трим америка́нский фильм.",
+            "es": "Hoy vemos una película estadounidense."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10877,6 +12173,10 @@
             "pl": "италья́нские"
           },
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Италья́нская пи́цца о́чень вку́сная.",
+            "es": "La pizza italiana es muy rica."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10887,6 +12187,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Мой сосе́д — францу́з.",
+            "es": "Mi vecino es francés."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10897,6 +12201,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Мой колле́га — не́мец.",
+            "es": "Mi colega es alemán."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10907,6 +12215,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Ма́рко — италья́нец из Ри́ма.",
+            "es": "Marco es italiano, de Roma."
+          },
           "fromSlovar": false,
           "sneak": false
         },
@@ -10917,6 +12229,10 @@
           "pos": "noun",
           "gender": "m",
           "topic": "nacionalidades",
+          "example": {
+            "ru": "Наш клие́нт — япо́нец.",
+            "es": "Nuestro cliente es japonés."
+          },
           "fromSlovar": false,
           "sneak": false
         }
@@ -12542,6 +13858,10 @@
       "gender": "m",
       "plural": "этажи́",
       "topic": "vecinos",
+      "example": {
+        "ru": "Я живу́ на тре́тьем этаже́.",
+        "es": "Vivo en el tercer piso."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -12553,6 +13873,10 @@
       "gender": "m",
       "plural": "ли́фты",
       "topic": "vecinos",
+      "example": {
+        "ru": "Лифт опя́ть не рабо́тает.",
+        "es": "El elevador otra vez no sirve."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -12564,6 +13888,10 @@
       "gender": "m",
       "plural": "подъе́зды",
       "topic": "vecinos",
+      "example": {
+        "ru": "Я жду тебя́ у подъе́зда.",
+        "es": "Te espero en la entrada del edificio."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -12577,6 +13905,10 @@
         "тишина́"
       ],
       "topic": "vecinos",
+      "example": {
+        "ru": "Что э́то за шум?",
+        "es": "¿Qué es ese ruido?"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -12590,6 +13922,10 @@
         "шум"
       ],
       "topic": "vecinos",
+      "example": {
+        "ru": "Но́чью в до́ме тишина́.",
+        "es": "En la noche hay silencio en la casa."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -12608,6 +13944,10 @@
         "у́мный"
       ],
       "topic": "carácter",
+      "example": {
+        "ru": "Како́й глу́пый фильм!",
+        "es": "¡Qué película tan tonta!"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -12626,6 +13966,10 @@
         "весёлый"
       ],
       "topic": "carácter",
+      "example": {
+        "ru": "Почему́ ты тако́й гру́стный?",
+        "es": "¿Por qué estás tan triste?"
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -12644,6 +13988,10 @@
         "гря́зный"
       ],
       "topic": "casa",
+      "example": {
+        "ru": "У нас чи́стая ку́хня.",
+        "es": "Tenemos la cocina limpia."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -12662,6 +14010,10 @@
         "чи́стый"
       ],
       "topic": "casa",
+      "example": {
+        "ru": "Твоя́ футбо́лка гря́зная.",
+        "es": "Tu playera está sucia."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -12680,6 +14032,10 @@
         "се́верный"
       ],
       "topic": "geografía",
+      "example": {
+        "ru": "Со́чи — ю́жный го́род.",
+        "es": "Sochi es una ciudad del sur."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -12690,6 +14046,10 @@
       "pos": "noun",
       "gender": "m",
       "topic": "casa",
+      "example": {
+        "ru": "У нас в кварти́ре ремо́нт.",
+        "es": "Estamos remodelando el departamento."
+      },
       "fromSlovar": false,
       "sneak": true
     },
@@ -12701,6 +14061,10 @@
       "gender": "f",
       "plural": "кры́ши",
       "topic": "casa",
+      "example": {
+        "ru": "Кот сиди́т на кры́ше.",
+        "es": "El gato está en el techo."
+      },
       "fromSlovar": false,
       "sneak": true
     }

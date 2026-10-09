@@ -4,23 +4,27 @@ import { useSyncExternalStore } from 'react'
 import { audioKey } from './audioKey'
 
 export interface ListeningAudio { file: string; starts: number[]; speakers: string[] }
-interface Manifest { v: number; clips: string[]; listening: Record<string, ListeningAudio | string> }
+interface Manifest { v: number; clips?: string[]; sets?: Record<string, string[]>; listening: Record<string, ListeningAudio | string> }
 
 const BASE = import.meta.env.BASE_URL
-let clips: Set<string> | null = null
+/** Clip key → folder. Newer recording sets (c2 = Gemini 3.8) win over older ones (c = Wavenet). */
+let clips: Map<string, string> | null = null
 let listening: Record<string, ListeningAudio> = {}
 const readyListeners = new Set<() => void>()
 
 export const manifestReady = fetch(`${BASE}audio/manifest.json`)
   .then((r) => (r.ok ? r.json() : null))
   .then((m: Manifest | null) => {
-    clips = new Set(m?.clips ?? [])
+    clips = new Map()
+    const sets = m?.sets ?? { c: m?.clips ?? [] }
+    // Older sets first so newer ones overwrite them ('c' < 'c2').
+    for (const dir of Object.keys(sets).sort()) for (const k of sets[dir]) clips.set(k, dir)
     listening = Object.fromEntries(
       Object.entries(m?.listening ?? {}).map(([id, v]) => [id, typeof v === 'string' ? { file: v, starts: [], speakers: [] } : v]),
     )
   })
   .catch(() => {
-    clips = new Set()
+    clips = new Map()
   })
   .finally(() => readyListeners.forEach((l) => l()))
 
@@ -71,7 +75,7 @@ function playSrc(src: string, restartToggle = true) {
 export function play(text: string) {
   if (hasAudio(text)) {
     setState({ rate: 1 })
-    playSrc(`${BASE}audio/c/${audioKey(text)}.mp3`)
+    playSrc(`${BASE}audio/${clips!.get(audioKey(text))}/${audioKey(text)}.mp3`)
   }
 }
 

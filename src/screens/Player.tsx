@@ -5,7 +5,7 @@ import type { AnswerResult, RunExercise } from '../engine/types'
 import { useStore, type SessionSummary } from '../state/store'
 import { dayKey } from '../lib/date'
 import { navigate } from '../lib/router'
-import { lessonById, grammarById } from '../content'
+import { lessonById, grammarById, vocabById } from '../content'
 import { Icon, Mixed, ProgressBar, TopicTitle } from '../components/ui'
 import { ChoiceEx } from '../exercises/ChoiceEx'
 import { TypedEx } from '../exercises/TypedEx'
@@ -15,7 +15,7 @@ import { MatchEx } from '../exercises/MatchEx'
 import { SortEx } from '../exercises/SortEx'
 import { ErrorSpotEx } from '../exercises/ErrorSpotEx'
 import { Results } from './Results'
-import { Speak } from '../components/Speak'
+import { ExampleLine, Speak } from '../components/Speak'
 import { fillGap } from '../lib/audioKey'
 import { hasAudio, stopAudio } from '../lib/audio'
 
@@ -192,6 +192,8 @@ export function Player({ params }: { params: URLSearchParams }) {
   const isRetry = retried.current.has(ex.key) && pos >= total.current
   const ruleOf = ex.items.map((i) => grammarById.get(i)).find(Boolean)
   const answerAudio = result && !ex.listen ? audioTextOf(ex) : undefined
+  // Vocabulary exercises also show the word's example sentence (with its own recording).
+  const vocabExample = result ? vocabById.get(ex.items[0])?.example : undefined
   const grammarTip = result && !result.correct ? ruleOf : undefined
 
   return (
@@ -241,6 +243,7 @@ export function Player({ params }: { params: URLSearchParams }) {
                   <span className="ru min-w-0 truncate text-[15px] text-ink/80">{answerAudio}</span>
                 </div>
               )}
+              {vocabExample && <ExampleLine example={vocabExample} className="mt-2" />}
               {!result.correct && ex.explanation && <p className="mt-1 text-[15px] text-ink/80"><Mixed text={ex.explanation} /></p>}
               {result.correct && (ex.translation || ex.explanation || ruleOf) && (
                 <div className="mt-2">

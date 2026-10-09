@@ -8,46 +8,55 @@
           "id": "2.1-l-1",
           "title": "¿Dónde está el teléfono?",
           "kind": "dialogue",
+          "scene": "Friends chatting, playful search through a bag",
           "lines": [
             {
               "speaker": "Хосе́",
               "gender": "m",
-              "ru": "Ли́за, приве́т! Что э́то?"
+              "ru": "Ли́за, приве́т! Что э́то?",
+              "tone": "cheerful and curious"
             },
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "Приве́т, Хосе́! Э́то су́мка. Здесь всё: кни́га, ру́чка, ключи́, косме́тика."
+              "ru": "Приве́т, Хосе́! Э́то су́мка. Здесь всё: кни́га, ру́чка, ключи́, косме́тика.",
+              "tone": "friendly, a bit proud"
             },
             {
               "speaker": "Хосе́",
               "gender": "m",
-              "ru": "А телефо́н? У тебя́ есть телефо́н?"
+              "ru": "А телефо́н? У тебя́ есть телефо́н?",
+              "tone": "curious, gently teasing"
             },
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "Да, есть. Но где он? Вот кошелёк, вот очки́, вот зо́нтик…"
+              "ru": "Да, есть. Но где он? Вот кошелёк, вот очки́, вот зо́нтик…",
+              "tone": "puzzled, rummaging around"
             },
             {
               "speaker": "Хосе́",
               "gender": "m",
-              "ru": "А э́то что? Телефо́н?"
+              "ru": "А э́то что? Телефо́н?",
+              "tone": "hopeful, pointing"
             },
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "Нет, э́то не телефо́н, э́то пле́ер."
+              "ru": "Нет, э́то не телефо́н, э́то пле́ер.",
+              "tone": "amused, shaking her head"
             },
             {
               "speaker": "Хосе́",
               "gender": "m",
-              "ru": "А там, сле́ва?"
+              "ru": "А там, сле́ва?",
+              "tone": "helpful, suggesting"
             },
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "Да! Вот он! Спаси́бо, Хосе́!"
+              "ru": "Да! Вот он! Спаси́бо, Хосе́!",
+              "tone": "relieved and grateful"
             }
           ],
           "es": "¡Liza, hola! ¿Qué es eso?\n¡Hola, José! Es una bolsa. Aquí está todo: un libro, una pluma, las llaves, el maquillaje.\n¿Y el teléfono? ¿Tienes teléfono?\nSí, tengo. Pero ¿dónde está? Aquí está el monedero, aquí los lentes, aquí el paraguas…\n¿Y esto qué es? ¿El teléfono?\nNo, no es el teléfono, es el reproductor de música.\n¿Y ahí, a la izquierda?\n¡Sí! ¡Aquí está! ¡Gracias, José!",
@@ -118,36 +127,43 @@
           "id": "2.1-l-2",
           "title": "Las cosas de José",
           "kind": "story",
+          "scene": "Young man introducing himself, friendly and relaxed",
           "lines": [
             {
               "speaker": "Хосе́",
               "gender": "m",
-              "ru": "Приве́т! Меня́ зову́т Хосе́. Я из Испа́нии."
+              "ru": "Приве́т! Меня́ зову́т Хосе́. Я из Испа́нии.",
+              "tone": "warm and friendly"
             },
             {
               "speaker": "Хосе́",
               "gender": "m",
-              "ru": "Я барме́н. Я рабо́таю здесь, в це́нтре."
+              "ru": "Я барме́н. Я рабо́таю здесь, в це́нтре.",
+              "tone": "casual, a bit proud"
             },
             {
               "speaker": "Хосе́",
               "gender": "m",
-              "ru": "У меня́ есть дом и маши́на."
+              "ru": "У меня́ есть дом и маши́на.",
+              "tone": "content and relaxed"
             },
             {
               "speaker": "Хосе́",
               "gender": "m",
-              "ru": "У меня́ есть гита́ра и кот Ба́рсик."
+              "ru": "У меня́ есть гита́ра и кот Ба́рсик.",
+              "tone": "fond and cheerful"
             },
             {
               "speaker": "Хосе́",
               "gender": "m",
-              "ru": "Ви́лла и я́хта? Нет, что вы! Я не миллионе́р."
+              "ru": "Ви́лла и я́хта? Нет, что вы! Я не миллионе́р.",
+              "tone": "laughing, modest"
             },
             {
               "speaker": "Хосе́",
               "gender": "m",
-              "ru": "Но у меня́ есть фотоаппара́т и сто фо́то!"
+              "ru": "Но у меня́ есть фотоаппара́т и сто фо́то!",
+              "tone": "proud and enthusiastic"
             }
           ],
           "es": "¡Hola! Me llamo José. Soy de España.\nSoy bartender. Trabajo aquí, en el centro.\nTengo casa y carro.\nTengo una guitarra y un gato, Barsik.\n¿Villa y yate? ¡No, qué va! No soy millonario.\n¡Pero tengo una cámara y cien fotos!",
@@ -207,46 +223,55 @@
           "id": "2.1-l-3",
           "title": "Llamada: ¿dónde está el pasaporte?",
           "kind": "dialogue",
+          "scene": "Phone call between friends, mild panic",
           "lines": [
             {
               "speaker": "Ната́ша",
               "gender": "f",
-              "ru": "Ми́ша, приве́т! Э́то Ната́ша."
+              "ru": "Ми́ша, приве́т! Э́то Ната́ша.",
+              "tone": "hurried, slightly anxious"
             },
             {
               "speaker": "Ми́ша",
               "gender": "m",
-              "ru": "Приве́т, Ната́ша! Как дела́?"
+              "ru": "Приве́т, Ната́ша! Как дела́?",
+              "tone": "warm and friendly"
             },
             {
               "speaker": "Ната́ша",
               "gender": "f",
-              "ru": "Пло́хо. Я не зна́ю, где па́спорт. Здесь су́мка, ключи́, кошелёк, телефо́н… А где па́спорт?"
+              "ru": "Пло́хо. Я не зна́ю, где па́спорт. Здесь су́мка, ключи́, кошелёк, телефо́н… А где па́спорт?",
+              "tone": "worried and stressed"
             },
             {
               "speaker": "Ми́ша",
               "gender": "m",
-              "ru": "Здесь, спра́ва, стол. Вот газе́та, ла́мпа, компью́тер… И вот па́спорт!"
+              "ru": "Здесь, спра́ва, стол. Вот газе́та, ла́мпа, компью́тер… И вот па́спорт!",
+              "tone": "calm, searching, then pleased"
             },
             {
               "speaker": "Ната́ша",
               "gender": "f",
-              "ru": "Отли́чно! А биле́т? Биле́т то́же там?"
+              "ru": "Отли́чно! А биле́т? Биле́т то́же там?",
+              "tone": "relieved, then hopeful"
             },
             {
               "speaker": "Ми́ша",
               "gender": "m",
-              "ru": "Да, вот биле́т. И зо́нтик то́же здесь."
+              "ru": "Да, вот биле́т. И зо́нтик то́же здесь.",
+              "tone": "reassuring and calm"
             },
             {
               "speaker": "Ната́ша",
               "gender": "f",
-              "ru": "Спаси́бо, Ми́ша! У тебя́ есть маши́на?"
+              "ru": "Спаси́бо, Ми́ша! У тебя́ есть маши́на?",
+              "tone": "grateful, then hopeful"
             },
             {
               "speaker": "Ми́ша",
               "gender": "m",
-              "ru": "Коне́чно, есть. Па́спорт, биле́т, зо́нтик — всё здесь. До встре́чи!"
+              "ru": "Коне́чно, есть. Па́спорт, биле́т, зо́нтик — всё здесь. До встре́чи!",
+              "tone": "cheerful and reassuring"
             }
           ],
           "cast": [
@@ -317,46 +342,55 @@
           "id": "2.1-l-4",
           "title": "Mensaje de la maestra",
           "kind": "story",
+          "scene": "Teacher's voice message, clear and organized",
           "lines": [
             {
               "speaker": "Ири́на",
               "gender": "f",
-              "ru": "Здра́вствуйте! Меня́ зову́т Ири́на, я преподава́тель."
+              "ru": "Здра́вствуйте! Меня́ зову́т Ири́на, я преподава́тель.",
+              "tone": "polite and professional"
             },
             {
               "speaker": "Ири́на",
               "gender": "f",
-              "ru": "Экза́мен здесь, в це́нтре. Шко́ла спра́ва, банк сле́ва."
+              "ru": "Экза́мен здесь, в це́нтре. Шко́ла спра́ва, банк сле́ва.",
+              "tone": "clear and instructive"
             },
             {
               "speaker": "Ири́на",
               "gender": "f",
-              "ru": "Класс — три́дцать два."
+              "ru": "Класс — три́дцать два.",
+              "tone": "clear, matter-of-fact"
             },
             {
               "speaker": "Ири́на",
               "gender": "f",
-              "ru": "Па́спорт, пожа́луйста! И ру́чка, каранда́ш, тетра́дь."
+              "ru": "Па́спорт, пожа́луйста! И ру́чка, каранда́ш, тетра́дь.",
+              "tone": "firm but polite"
             },
             {
               "speaker": "Ири́на",
               "gender": "f",
-              "ru": "У Вас есть фо́то? Фо́то то́же, пожа́луйста!"
+              "ru": "У Вас есть фо́то? Фо́то то́же, пожа́луйста!",
+              "tone": "friendly reminder"
             },
             {
               "speaker": "Ири́на",
               "gender": "f",
-              "ru": "Слова́рь и телефо́н? Нет, нет и нет!"
+              "ru": "Слова́рь и телефо́н? Нет, нет и нет!",
+              "tone": "firm, playfully strict"
             },
             {
               "speaker": "Ири́на",
               "gender": "f",
-              "ru": "Телефо́н: девяно́сто, со́рок, пятьдеся́т шесть."
+              "ru": "Телефо́н: девяно́сто, со́рок, пятьдеся́т шесть.",
+              "tone": "slow and clear"
             },
             {
               "speaker": "Ири́на",
               "gender": "f",
-              "ru": "Спаси́бо! До свида́ния!"
+              "ru": "Спаси́бо! До свида́ния!",
+              "tone": "warm and polite"
             }
           ],
           "cast": [
@@ -416,66 +450,79 @@
           "id": "2.1-l-5",
           "title": "Entrevista con un entrenador",
           "kind": "dialogue",
+          "scene": "Light-hearted interview with a sports coach",
           "lines": [
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "До́брый день! Я журнали́ст. Как Вас зову́т?"
+              "ru": "До́брый день! Я журнали́ст. Как Вас зову́т?",
+              "tone": "polite and professional"
             },
             {
               "speaker": "Бори́с",
               "gender": "m",
-              "ru": "Здра́вствуйте! Меня́ зову́т Бори́с. Я тре́нер."
+              "ru": "Здра́вствуйте! Меня́ зову́т Бори́с. Я тре́нер.",
+              "tone": "friendly and confident"
             },
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "Бори́с, у Вас есть клие́нты?"
+              "ru": "Бори́с, у Вас есть клие́нты?",
+              "tone": "curious, professional"
             },
             {
               "speaker": "Бори́с",
               "gender": "m",
-              "ru": "Да, коне́чно, есть."
+              "ru": "Да, коне́чно, есть.",
+              "tone": "confident, matter-of-fact"
             },
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "Ско́лько?"
+              "ru": "Ско́лько?",
+              "tone": "curious and brisk"
             },
             {
               "speaker": "Бори́с",
               "gender": "m",
-              "ru": "Три́дцать во́семь. Мы рабо́таем здесь, в це́нтре. Вот парк."
+              "ru": "Три́дцать во́семь. Мы рабо́таем здесь, в це́нтре. Вот парк.",
+              "tone": "proud, pointing around"
             },
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "А э́то что? Э́то стадио́н?"
+              "ru": "А э́то что? Э́то стадио́н?",
+              "tone": "curious, slightly unsure"
             },
             {
               "speaker": "Бори́с",
               "gender": "m",
-              "ru": "Нет, э́то не стадио́н. Э́то зоопа́рк!"
+              "ru": "Нет, э́то не стадио́н. Э́то зоопа́рк!",
+              "tone": "amused, correcting her"
             },
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "У Вас есть фо́рма?"
+              "ru": "У Вас есть фо́рма?",
+              "tone": "curious and interested"
             },
             {
               "speaker": "Бори́с",
               "gender": "m",
-              "ru": "Есть. Вот фо́рма, вот часы́, а вот телефо́н."
+              "ru": "Есть. Вот фо́рма, вот часы́, а вот телефо́н.",
+              "tone": "confident, showing things"
             },
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "А я́хта и ви́лла? Вы миллионе́р?"
+              "ru": "А я́хта и ви́лла? Вы миллионе́р?",
+              "tone": "teasing, half joking"
             },
             {
               "speaker": "Бори́с",
               "gender": "m",
-              "ru": "Нет, что Вы! Я тре́нер, а не миллионе́р."
+              "ru": "Нет, что Вы! Я тре́нер, а не миллионе́р.",
+              "tone": "laughing, modest"
             }
           ],
           "cast": [
@@ -546,66 +593,79 @@
           "id": "2.1-l-6",
           "title": "En el tianguis",
           "kind": "dialogue",
+          "scene": "Bargaining at a flea market stall",
           "lines": [
             {
               "speaker": "Ка́рла",
               "gender": "f",
-              "ru": "Здра́вствуйте! Что э́то? Э́то часы́?"
+              "ru": "Здра́вствуйте! Что э́то? Э́то часы́?",
+              "tone": "polite and curious"
             },
             {
               "speaker": "Ди́ма",
               "gender": "m",
-              "ru": "Да, э́то часы́. Они́ из Швейца́рии."
+              "ru": "Да, э́то часы́. Они́ из Швейца́рии.",
+              "tone": "friendly, proud seller"
             },
             {
               "speaker": "Ка́рла",
               "gender": "f",
-              "ru": "Ско́лько?"
+              "ru": "Ско́лько?",
+              "tone": "curious, cautious"
             },
             {
               "speaker": "Ди́ма",
               "gender": "m",
-              "ru": "Девяно́сто."
+              "ru": "Девяно́сто.",
+              "tone": "matter-of-fact"
             },
             {
               "speaker": "Ка́рла",
               "gender": "f",
-              "ru": "Девяно́сто? Ой! А э́то что? Фотоаппара́т и́ли пле́ер?"
+              "ru": "Девяно́сто? Ой! А э́то что? Фотоаппара́т и́ли пле́ер?",
+              "tone": "shocked, then curious"
             },
             {
               "speaker": "Ди́ма",
               "gender": "m",
-              "ru": "Э́то фотоаппара́т. Он из Герма́нии."
+              "ru": "Э́то фотоаппара́т. Он из Герма́нии.",
+              "tone": "patient and helpful"
             },
             {
               "speaker": "Ка́рла",
               "gender": "f",
-              "ru": "Ско́лько?"
+              "ru": "Ско́лько?",
+              "tone": "cautious, curious"
             },
             {
               "speaker": "Ди́ма",
               "gender": "m",
-              "ru": "Пятьдеся́т."
+              "ru": "Пятьдеся́т.",
+              "tone": "casual, matter-of-fact"
             },
             {
               "speaker": "Ка́рла",
               "gender": "f",
-              "ru": "А ла́мпа? Ско́лько?"
+              "ru": "А ла́мпа? Ско́лько?",
+              "tone": "hopeful and curious"
             },
             {
               "speaker": "Ди́ма",
               "gender": "m",
-              "ru": "Ла́мпа — два́дцать. И зо́нтик то́же два́дцать."
+              "ru": "Ла́мпа — два́дцать. И зо́нтик то́же два́дцать.",
+              "tone": "friendly, helpful"
             },
             {
               "speaker": "Ка́рла",
               "gender": "f",
-              "ru": "Хорошо́! Ла́мпа и зо́нтик, пожа́луйста. Вот со́рок."
+              "ru": "Хорошо́! Ла́мпа и зо́нтик, пожа́луйста. Вот со́рок.",
+              "tone": "pleased and decisive"
             },
             {
               "speaker": "Ди́ма",
               "gender": "m",
-              "ru": "Спаси́бо! До свида́ния!"
+              "ru": "Спаси́бо! До свида́ния!",
+              "tone": "warm and grateful"
             }
           ],
           "cast": [
@@ -681,46 +741,55 @@
           "id": "2.2-l-1",
           "title": "Un perro en el correo",
           "kind": "dialogue",
+          "scene": "Friends chatting over photos, relaxed",
           "lines": [
             {
               "speaker": "Жан",
               "gender": "m",
-              "ru": "Ма́ша, у тебя́ есть име́йл?"
+              "ru": "Ма́ша, у тебя́ есть име́йл?",
+              "tone": "casual and curious"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "Коне́чно, есть: ма́ша, соба́ка, ма́йл, то́чка, ру."
+              "ru": "Коне́чно, есть: ма́ша, соба́ка, ма́йл, то́чка, ру.",
+              "tone": "cheerful, spelling clearly"
             },
             {
               "speaker": "Жан",
               "gender": "m",
-              "ru": "Соба́ка? Почему́ соба́ка? У тебя́ есть соба́ка?"
+              "ru": "Соба́ка? Почему́ соба́ка? У тебя́ есть соба́ка?",
+              "tone": "confused and surprised"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "Нет, соба́ка — э́то @. Но соба́ка у нас то́же есть. Её зову́т Ло́ра."
+              "ru": "Нет, соба́ка — э́то @. Но соба́ка у нас то́же есть. Её зову́т Ло́ра.",
+              "tone": "amused, explaining patiently"
             },
             {
               "speaker": "Жан",
               "gender": "m",
-              "ru": "А чья э́то фотогра́фия?"
+              "ru": "А чья э́то фотогра́фия?",
+              "tone": "curious and interested"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "Э́то моя́ семья́. Вот моя́ ма́ма, она́ фото́граф. Её зову́т Анастаси́я."
+              "ru": "Э́то моя́ семья́. Вот моя́ ма́ма, она́ фото́граф. Её зову́т Анастаси́я.",
+              "tone": "proud and warm"
             },
             {
               "speaker": "Жан",
               "gender": "m",
-              "ru": "А э́то твой па́па?"
+              "ru": "А э́то твой па́па?",
+              "tone": "curious, guessing"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "Да, э́то мой па́па Пётр, он музыка́нт. А вот мой брат Ви́ктор и моя́ сестра́ А́нна."
+              "ru": "Да, э́то мой па́па Пётр, он музыка́нт. А вот мой брат Ви́ктор и моя́ сестра́ А́нна.",
+              "tone": "proud and affectionate"
             }
           ],
           "es": "Masha, ¿tienes correo electrónico?\nClaro que sí: masha, arroba, mail, punto, ru.\n¿Perro? ¿Por qué perro? ¿Tienes perro?\nNo, «perro» es la @. Pero también tenemos una perra. Se llama Lora.\n¿Y de quién es esta fotografía?\nEs mi familia. Esta es mi mamá, es fotógrafa. Se llama Anastasia.\n¿Y este es tu papá?\nSí, es mi papá Piotr, es músico. Y aquí están mi hermano Víktor y mi hermana Anna.",
@@ -791,36 +860,43 @@
           "id": "2.2-l-2",
           "title": "La familia de Liza",
           "kind": "story",
+          "scene": "Young woman presenting her family, warm",
           "lines": [
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "Меня́ зову́т Ли́за. Э́то моя́ семья́."
+              "ru": "Меня́ зову́т Ли́за. Э́то моя́ семья́.",
+              "tone": "warm and friendly"
             },
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "Вот моя́ ма́ма. Её зову́т Мари́я, она́ домохозя́йка."
+              "ru": "Вот моя́ ма́ма. Её зову́т Мари́я, она́ домохозя́йка.",
+              "tone": "affectionate and gentle"
             },
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "Вот мой па́па. Его́ зову́т Па́вел, он инжене́р."
+              "ru": "Вот мой па́па. Его́ зову́т Па́вел, он инжене́р.",
+              "tone": "proud and warm"
             },
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "А э́то мой брат Макс. Он студе́нт. У него́ есть де́вушка, её зову́т Ка́тя."
+              "ru": "А э́то мой брат Макс. Он студе́нт. У него́ есть де́вушка, её зову́т Ка́тя.",
+              "tone": "playful, a bit teasing"
             },
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "Ба́бушка и де́душка — пенсионе́ры."
+              "ru": "Ба́бушка и де́душка — пенсионе́ры.",
+              "tone": "fond and gentle"
             },
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "А э́то кот Пушо́к. Чей он? Наш!"
+              "ru": "А э́то кот Пушо́к. Чей он? Наш!",
+              "tone": "playful, proud"
             }
           ],
           "es": "Me llamo Liza. Esta es mi familia.\nEsta es mi mamá. Se llama María, es ama de casa.\nEste es mi papá. Se llama Pável, es ingeniero.\nY este es mi hermano Max. Es estudiante. Tiene novia, se llama Katia.\nLa abuela y el abuelo son pensionados.\nY este es el gato Pushok. ¿De quién es? ¡Nuestro!",
@@ -880,41 +956,49 @@
           "id": "2.2-l-3",
           "title": "La abuela Galina",
           "kind": "story",
+          "scene": "Grandmother proudly showing family photos",
           "lines": [
             {
               "speaker": "Гали́на",
               "gender": "f",
-              "ru": "Здра́вствуйте! Меня́ зову́т Гали́на. Я ба́бушка."
+              "ru": "Здра́вствуйте! Меня́ зову́т Гали́на. Я ба́бушка.",
+              "tone": "warm and welcoming"
             },
             {
               "speaker": "Гали́на",
               "gender": "f",
-              "ru": "Вот мой муж Ива́н. Мы пенсионе́ры."
+              "ru": "Вот мой муж Ива́н. Мы пенсионе́ры.",
+              "tone": "fond and tender"
             },
             {
               "speaker": "Гали́на",
               "gender": "f",
-              "ru": "Наш сын Оле́г — врач. Его́ жена́ Ве́ра — журнали́ст."
+              "ru": "Наш сын Оле́г — врач. Его́ жена́ Ве́ра — журнали́ст.",
+              "tone": "proud and pleased"
             },
             {
               "speaker": "Гали́на",
               "gender": "f",
-              "ru": "У них есть де́ти: сын Ко́стя и дочь Да́ша. Ко́стя — студе́нт, а Да́ша — ребёнок."
+              "ru": "У них есть де́ти: сын Ко́стя и дочь Да́ша. Ко́стя — студе́нт, а Да́ша — ребёнок.",
+              "tone": "warm, gently explaining"
             },
             {
               "speaker": "Гали́на",
               "gender": "f",
-              "ru": "Ко́стя и Да́ша — мои́ вну́ки. Вот мой внук, а вот моя́ вну́чка!"
+              "ru": "Ко́стя и Да́ша — мои́ вну́ки. Вот мой внук, а вот моя́ вну́чка!",
+              "tone": "proud and delighted"
             },
             {
               "speaker": "Гали́на",
               "gender": "f",
-              "ru": "На́ша дочь О́льга — стюарде́сса. У неё есть па́рень, его́ зову́т Марк."
+              "ru": "На́ша дочь О́льга — стюарде́сса. У неё есть па́рень, его́ зову́т Марк.",
+              "tone": "proud, a bit gossipy"
             },
             {
               "speaker": "Гали́на",
               "gender": "f",
-              "ru": "А э́то чья соба́ка? Э́то на́ша соба́ка Бо́бик!"
+              "ru": "А э́то чья соба́ка? Э́то на́ша соба́ка Бо́бик!",
+              "tone": "playful and affectionate"
             }
           ],
           "cast": [
@@ -974,46 +1058,55 @@
           "id": "2.2-l-4",
           "title": "Llamada: ¿de quién es el abrigo?",
           "kind": "dialogue",
+          "scene": "Phone call between friends, solving a mystery",
           "lines": [
             {
               "speaker": "Све́та",
               "gender": "f",
-              "ru": "Анто́н, приве́т! Э́то Све́та."
+              "ru": "Анто́н, приве́т! Э́то Све́та.",
+              "tone": "friendly and cheerful"
             },
             {
               "speaker": "Анто́н",
               "gender": "m",
-              "ru": "Приве́т, Све́та! Как дела́?"
+              "ru": "Приве́т, Све́та! Как дела́?",
+              "tone": "warm and friendly"
             },
             {
               "speaker": "Све́та",
               "gender": "f",
-              "ru": "Хорошо́. Анто́н, у меня́ здесь пальто́ и зонт. Чьё э́то пальто́? Твоё?"
+              "ru": "Хорошо́. Анто́н, у меня́ здесь пальто́ и зонт. Чьё э́то пальто́? Твоё?",
+              "tone": "curious, a bit puzzled"
             },
             {
               "speaker": "Анто́н",
               "gender": "m",
-              "ru": "Нет, не моё. А что там?"
+              "ru": "Нет, не моё. А что там?",
+              "tone": "casual, curious"
             },
             {
               "speaker": "Све́та",
               "gender": "f",
-              "ru": "Здесь ключи́, кошелёк и па́спорт. Фами́лия — Гонса́лес."
+              "ru": "Здесь ключи́, кошелёк и па́спорт. Фами́лия — Гонса́лес.",
+              "tone": "careful, reading out"
             },
             {
               "speaker": "Анто́н",
               "gender": "m",
-              "ru": "Гонса́лес? Э́то Хуа́н, мой друг. Он мексика́нец. Э́то его́ пальто́."
+              "ru": "Гонса́лес? Э́то Хуа́н, мой друг. Он мексика́нец. Э́то его́ пальто́.",
+              "tone": "surprised, then sure"
             },
             {
               "speaker": "Све́та",
               "gender": "f",
-              "ru": "А зонт? Чей э́то зонт? Твой?"
+              "ru": "А зонт? Чей э́то зонт? Твой?",
+              "tone": "curious and hopeful"
             },
             {
               "speaker": "Анто́н",
               "gender": "m",
-              "ru": "Да, э́то мой зонт! Спаси́бо, Све́та!"
+              "ru": "Да, э́то мой зонт! Спаси́бо, Све́та!",
+              "tone": "happy and grateful"
             }
           ],
           "cast": [
@@ -1084,36 +1177,43 @@
           "id": "2.2-l-5",
           "title": "La familia de Mila",
           "kind": "story",
+          "scene": "Little girl proudly presenting her family",
           "lines": [
             {
               "speaker": "Ми́ла",
               "gender": "f",
-              "ru": "Приве́т! Я Ми́ла. Э́то моя́ семья́."
+              "ru": "Приве́т! Я Ми́ла. Э́то моя́ семья́.",
+              "tone": "bright and cheerful"
             },
             {
               "speaker": "Ми́ла",
               "gender": "f",
-              "ru": "Вот мой па́па. Его́ зову́т Серге́й, он такси́ст."
+              "ru": "Вот мой па́па. Его́ зову́т Серге́й, он такси́ст.",
+              "tone": "proud and excited"
             },
             {
               "speaker": "Ми́ла",
               "gender": "f",
-              "ru": "Вот моя́ ма́ма. Её зову́т Ле́на, она́ до́ктор."
+              "ru": "Вот моя́ ма́ма. Её зову́т Ле́на, она́ до́ктор.",
+              "tone": "proud and sweet"
             },
             {
               "speaker": "Ми́ла",
               "gender": "f",
-              "ru": "У меня́ есть брат. Его́ зову́т Ти́ма. Он ребёнок."
+              "ru": "У меня́ есть брат. Его́ зову́т Ти́ма. Он ребёнок.",
+              "tone": "excited, a bit bossy"
             },
             {
               "speaker": "Ми́ла",
               "gender": "f",
-              "ru": "Вот мой дя́дя Ко́ля и моя́ тётя И́ра. Их дочь Со́ня — моя́ подру́га."
+              "ru": "Вот мой дя́дя Ко́ля и моя́ тётя И́ра. Их дочь Со́ня — моя́ подру́га.",
+              "tone": "happy and chatty"
             },
             {
               "speaker": "Ми́ла",
               "gender": "f",
-              "ru": "А э́то наш кот Баро́н. Он то́же на́ша семья́!"
+              "ru": "А э́то наш кот Баро́н. Он то́же на́ша семья́!",
+              "tone": "giggling, affectionate"
             }
           ],
           "cast": [
@@ -1173,51 +1273,61 @@
           "id": "2.2-l-6",
           "title": "Correo, teléfono y una foto",
           "kind": "dialogue",
+          "scene": "Two young friends swapping contacts, flirty",
           "lines": [
             {
               "speaker": "Па́бло",
               "gender": "m",
-              "ru": "Ди́ана, у тебя́ есть име́йл?"
+              "ru": "Ди́ана, у тебя́ есть име́йл?",
+              "tone": "casual, a bit shy"
             },
             {
               "speaker": "Ди́ана",
               "gender": "f",
-              "ru": "Да, есть: ди́ана сто, соба́ка, ма́йл, то́чка, ком."
+              "ru": "Да, есть: ди́ана сто, соба́ка, ма́йл, то́чка, ком.",
+              "tone": "friendly, spelling clearly"
             },
             {
               "speaker": "Па́бло",
               "gender": "m",
-              "ru": "Спаси́бо! А телефо́н?"
+              "ru": "Спаси́бо! А телефо́н?",
+              "tone": "grateful and curious"
             },
             {
               "speaker": "Ди́ана",
               "gender": "f",
-              "ru": "Телефо́н: восемна́дцать, со́рок, девяно́сто три. А твой име́йл?"
+              "ru": "Телефо́н: восемна́дцать, со́рок, девяно́сто три. А твой име́йл?",
+              "tone": "helpful, then curious"
             },
             {
               "speaker": "Па́бло",
               "gender": "m",
-              "ru": "Мой име́йл: па́бло, соба́ка, ма́йл, то́чка, ру."
+              "ru": "Мой име́йл: па́бло, соба́ка, ма́йл, то́чка, ру.",
+              "tone": "clear and friendly"
             },
             {
               "speaker": "Ди́ана",
               "gender": "f",
-              "ru": "Па́бло, а чья э́то фотогра́фия? Э́то твоя́ де́вушка?"
+              "ru": "Па́бло, а чья э́то фотогра́фия? Э́то твоя́ де́вушка?",
+              "tone": "curious, gently teasing"
             },
             {
               "speaker": "Па́бло",
               "gender": "m",
-              "ru": "Нет, что ты! Э́то моя́ сестра́ Ло́ла. А э́то её муж и их сын."
+              "ru": "Нет, что ты! Э́то моя́ сестра́ Ло́ла. А э́то её муж и их сын.",
+              "tone": "laughing, quickly correcting"
             },
             {
               "speaker": "Ди́ана",
               "gender": "f",
-              "ru": "А э́то кто? Твой па́па?"
+              "ru": "А э́то кто? Твой па́па?",
+              "tone": "curious and playful"
             },
             {
               "speaker": "Па́бло",
               "gender": "m",
-              "ru": "Нет, э́то мой де́душка. Он пенсионе́р. А э́то его́ соба́ка!"
+              "ru": "Нет, э́то мой де́душка. Он пенсионе́р. А э́то его́ соба́ка!",
+              "tone": "amused, fond"
             }
           ],
           "cast": [
@@ -1293,51 +1403,61 @@
           "id": "2.3-l-1",
           "title": "¿Qué estás haciendo?",
           "kind": "dialogue",
+          "scene": "Friends on a video call, chatty",
           "lines": [
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "Ма́ша, приве́т! Что ты де́лаешь?"
+              "ru": "Ма́ша, приве́т! Что ты де́лаешь?",
+              "tone": "cheerful and curious"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "Приве́т! Я чита́ю. Я обожа́ю поэ́зию."
+              "ru": "Приве́т! Я чита́ю. Я обожа́ю поэ́зию.",
+              "tone": "relaxed and dreamy"
             },
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "А я смотрю́ фильм. Э́то коме́дия. Ты лю́бишь кино́?"
+              "ru": "А я смотрю́ фильм. Э́то коме́дия. Ты лю́бишь кино́?",
+              "tone": "enthusiastic and curious"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "Да, но коме́дию не о́чень. Я люблю́ дра́му."
+              "ru": "Да, но коме́дию не о́чень. Я люблю́ дра́му.",
+              "tone": "polite, a bit picky"
             },
             {
               "speaker": "Ли",
               "gender": "m",
-              "ru": "Ли́за, э́то Ма́ша? Приве́т, Ма́ша! Я то́же здесь."
+              "ru": "Ли́за, э́то Ма́ша? Приве́т, Ма́ша! Я то́же здесь.",
+              "tone": "surprised, cheerful"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "Приве́т, Ли! Ты то́же лю́бишь коме́дию?"
+              "ru": "Приве́т, Ли! Ты то́же лю́бишь коме́дию?",
+              "tone": "happy and curious"
             },
             {
               "speaker": "Ли",
               "gender": "m",
-              "ru": "Нет, я ненави́жу коме́дию. Я люблю́ ша́хматы и филосо́фию."
+              "ru": "Нет, я ненави́жу коме́дию. Я люблю́ ша́хматы и филосо́фию.",
+              "tone": "dry, a bit serious"
             },
             {
               "speaker": "Ли́за",
               "gender": "f",
-              "ru": "Ма́ша, а ты лю́бишь карао́ке?"
+              "ru": "Ма́ша, а ты лю́бишь карао́ке?",
+              "tone": "playful and curious"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "Коне́чно! Карао́ке — э́то кла́ссно!"
+              "ru": "Коне́чно! Карао́ке — э́то кла́ссно!",
+              "tone": "excited and delighted"
             }
           ],
           "es": "¡Masha, hola! ¿Qué estás haciendo?\n¡Hola! Estoy leyendo. Me encanta la poesía.\nY yo estoy viendo una película. Es una comedia. ¿Te gusta el cine?\nSí, pero la comedia no mucho. Me gusta el drama.\nLiza, ¿es Masha? ¡Hola, Masha! Yo también estoy aquí.\n¡Hola, Li! ¿A ti también te gusta la comedia?\nNo, odio la comedia. Me gustan el ajedrez y la filosofía.\nMasha, ¿y a ti te gusta el karaoke?\n¡Claro! ¡El karaoke es genial!",
@@ -1419,36 +1539,43 @@
           "id": "2.3-l-2",
           "title": "Giovanni y su mamá",
           "kind": "story",
+          "scene": "Young man complaining about his mom, comic",
           "lines": [
             {
               "speaker": "Джова́нни",
               "gender": "m",
-              "ru": "Меня́ зову́т Джова́нни. Я италья́нец."
+              "ru": "Меня́ зову́т Джова́нни. Я италья́нец.",
+              "tone": "friendly and casual"
             },
             {
               "speaker": "Джова́нни",
               "gender": "m",
-              "ru": "Я люблю́ футбо́л и пи́ццу. Пи́ццу я обожа́ю!"
+              "ru": "Я люблю́ футбо́л и пи́ццу. Пи́ццу я обожа́ю!",
+              "tone": "enthusiastic and passionate"
             },
             {
               "speaker": "Джова́нни",
               "gender": "m",
-              "ru": "Я всегда́ смотрю́ футбо́л и слу́шаю ра́дио."
+              "ru": "Я всегда́ смотрю́ футбо́л и слу́шаю ра́дио.",
+              "tone": "relaxed and content"
             },
             {
               "speaker": "Джова́нни",
               "gender": "m",
-              "ru": "А моя́ ма́ма ненави́дит футбо́л. Она́ лю́бит о́перу и сериа́лы."
+              "ru": "А моя́ ма́ма ненави́дит футбо́л. Она́ лю́бит о́перу и сериа́лы.",
+              "tone": "amused, slightly exasperated"
             },
             {
               "speaker": "Джова́нни",
               "gender": "m",
-              "ru": "Ма́ма всё контроли́рует: «Джова́нни, где ты? Что ты де́лаешь? Ты де́лаешь дома́шнее зада́ние?»"
+              "ru": "Ма́ма всё контроли́рует: «Джова́нни, где ты? Что ты де́лаешь? Ты де́лаешь дома́шнее зада́ние?»",
+              "tone": "mocking, exaggerated motherly voice"
             },
             {
               "speaker": "Джова́нни",
               "gender": "m",
-              "ru": "Но я не ребёнок! Кошма́р!"
+              "ru": "Но я не ребёнок! Кошма́р!",
+              "tone": "exasperated, comically dramatic"
             }
           ],
           "es": "Me llamo Giovanni. Soy italiano.\nMe gustan el futbol y la pizza. ¡La pizza me encanta!\nSiempre veo futbol y escucho la radio.\nPero mi mamá odia el futbol. Le gustan la ópera y las series.\nMamá lo controla todo: «Giovanni, ¿dónde estás? ¿Qué estás haciendo? ¿Estás haciendo la tarea?»\n¡Pero no soy un niño! ¡Qué horror!",
@@ -1508,56 +1635,67 @@
           "id": "2.3-l-3",
           "title": "Entrevista en la radio",
           "kind": "dialogue",
+          "scene": "Evening radio show interview, elegant",
           "lines": [
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "До́брый ве́чер! Вы слу́шаете ра́дио, переда́ча «Мелома́н». Я Ве́ра."
+              "ru": "До́брый ве́чер! Вы слу́шаете ра́дио, переда́ча «Мелома́н». Я Ве́ра.",
+              "tone": "smooth radio host voice"
             },
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "Здесь балери́на Али́са. Али́са, что Вы слу́шаете?"
+              "ru": "Здесь балери́на Али́са. Али́са, что Вы слу́шаете?",
+              "tone": "polished and welcoming"
             },
             {
               "speaker": "Али́са",
               "gender": "f",
-              "ru": "Я обожа́ю кла́ссику. И о́перу то́же люблю́."
+              "ru": "Я обожа́ю кла́ссику. И о́перу то́же люблю́.",
+              "tone": "graceful and passionate"
             },
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "А рок? Поп?"
+              "ru": "А рок? Поп?",
+              "tone": "curious and light"
             },
             {
               "speaker": "Али́са",
               "gender": "f",
-              "ru": "Рок я ненави́жу. Поп — не о́чень. А джаз и блюз о́чень люблю́."
+              "ru": "Рок я ненави́жу. Поп — не о́чень. А джаз и блюз о́чень люблю́.",
+              "tone": "firm, then warm"
             },
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "А что Вы смо́трите? Сериа́лы?"
+              "ru": "А что Вы смо́трите? Сериа́лы?",
+              "tone": "curious and friendly"
             },
             {
               "speaker": "Али́са",
               "gender": "f",
-              "ru": "Нет, сериа́лы — скоре́е нет. Я смотрю́ но́вости и детекти́вы."
+              "ru": "Нет, сериа́лы — скоре́е нет. Я смотрю́ но́вости и детекти́вы.",
+              "tone": "thoughtful, a bit dismissive"
             },
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "А что Вы чита́ете?"
+              "ru": "А что Вы чита́ете?",
+              "tone": "curious and gentle"
             },
             {
               "speaker": "Али́са",
               "gender": "f",
-              "ru": "Поэ́зию и рома́ны. И я всегда́ разга́дываю кроссво́рды!"
+              "ru": "Поэ́зию и рома́ны. И я всегда́ разга́дываю кроссво́рды!",
+              "tone": "proud, playful"
             },
             {
               "speaker": "Ве́ра",
               "gender": "f",
-              "ru": "Спаси́бо, Али́са!"
+              "ru": "Спаси́бо, Али́са!",
+              "tone": "warm and appreciative"
             }
           ],
           "cast": [
@@ -1628,41 +1766,49 @@
           "id": "2.3-l-4",
           "title": "Mensaje de voz de mamá",
           "kind": "story",
+          "scene": "Worried mother's voicemail, fussy and loving",
           "lines": [
             {
               "speaker": "Ма́ма",
               "gender": "f",
-              "ru": "Джова́нни, приве́т! Э́то ма́ма."
+              "ru": "Джова́нни, приве́т! Э́то ма́ма.",
+              "tone": "warm and loving"
             },
             {
               "speaker": "Ма́ма",
               "gender": "f",
-              "ru": "Где ты? Что ты де́лаешь? Ты смо́тришь футбо́л?"
+              "ru": "Где ты? Что ты де́лаешь? Ты смо́тришь футбо́л?",
+              "tone": "anxious and nosy"
             },
             {
               "speaker": "Ма́ма",
               "gender": "f",
-              "ru": "А дома́шнее зада́ние? Ты де́лаешь дома́шнее зада́ние?"
+              "ru": "А дома́шнее зада́ние? Ты де́лаешь дома́шнее зада́ние?",
+              "tone": "stern and worried"
             },
             {
               "speaker": "Ма́ма",
               "gender": "f",
-              "ru": "Здесь па́па, он смо́трит телеви́зор."
+              "ru": "Здесь па́па, он смо́трит телеви́зор.",
+              "tone": "casual, a bit dismissive"
             },
             {
               "speaker": "Ма́ма",
               "gender": "f",
-              "ru": "У нас лаза́нья и сала́т. И торт!"
+              "ru": "У нас лаза́нья и сала́т. И торт!",
+              "tone": "proud and tempting"
             },
             {
               "speaker": "Ма́ма",
               "gender": "f",
-              "ru": "Ты лю́бишь лаза́нью? Коне́чно, лю́бишь!"
+              "ru": "Ты лю́бишь лаза́нью? Коне́чно, лю́бишь!",
+              "tone": "sweet and coaxing"
             },
             {
               "speaker": "Ма́ма",
               "gender": "f",
-              "ru": "Джова́нни, где ты? Кошма́р! Пока́!"
+              "ru": "Джова́нни, где ты? Кошма́р! Пока́!",
+              "tone": "exasperated, dramatic"
             }
           ],
           "cast": [
@@ -1713,51 +1859,61 @@
           "id": "2.3-l-5",
           "title": "¿Qué vemos hoy?",
           "kind": "dialogue",
+          "scene": "Couple choosing a movie night, playful",
           "lines": [
             {
               "speaker": "Ка́тя",
               "gender": "f",
-              "ru": "Макс, что ты де́лаешь?"
+              "ru": "Макс, что ты де́лаешь?",
+              "tone": "curious and casual"
             },
             {
               "speaker": "Макс",
               "gender": "m",
-              "ru": "Я смотрю́ телеви́зор. Здесь хокке́й. Ты лю́бишь хокке́й?"
+              "ru": "Я смотрю́ телеви́зор. Здесь хокке́й. Ты лю́бишь хокке́й?",
+              "tone": "relaxed and casual"
             },
             {
               "speaker": "Ка́тя",
               "gender": "f",
-              "ru": "Хокке́й? Нет, не о́чень. Я люблю́ кино́. Ты лю́бишь коме́дию?"
+              "ru": "Хокке́й? Нет, не о́чень. Я люблю́ кино́. Ты лю́бишь коме́дию?",
+              "tone": "polite, unimpressed"
             },
             {
               "speaker": "Макс",
               "gender": "m",
-              "ru": "Коме́дию — скоре́е да. А дра́му я ненави́жу."
+              "ru": "Коме́дию — скоре́е да. А дра́му я ненави́жу.",
+              "tone": "easygoing, then firm"
             },
             {
               "speaker": "Ка́тя",
               "gender": "f",
-              "ru": "А детекти́вы?"
+              "ru": "А детекти́вы?",
+              "tone": "hopeful and curious"
             },
             {
               "speaker": "Макс",
               "gender": "m",
-              "ru": "Детекти́вы я обожа́ю!"
+              "ru": "Детекти́вы я обожа́ю!",
+              "tone": "excited and delighted"
             },
             {
               "speaker": "Ка́тя",
               "gender": "f",
-              "ru": "Я то́же! Мы о́ба лю́бим детекти́вы."
+              "ru": "Я то́же! Мы о́ба лю́бим детекти́вы.",
+              "tone": "happy and surprised"
             },
             {
               "speaker": "Макс",
               "gender": "m",
-              "ru": "То́чно! А попко́рн и ко́ла?"
+              "ru": "То́чно! А попко́рн и ко́ла?",
+              "tone": "playful and eager"
             },
             {
               "speaker": "Ка́тя",
               "gender": "f",
-              "ru": "Коне́чно! Попко́рн, ко́ла и десе́рт — я сладкое́жка!"
+              "ru": "Коне́чно! Попко́рн, ко́ла и десе́рт — я сладкое́жка!",
+              "tone": "excited, sweet-toothed"
             }
           ],
           "cast": [
@@ -1828,41 +1984,49 @@
           "id": "2.3-l-6",
           "title": "Los gustos de Li",
           "kind": "story",
+          "scene": "Student introducing himself, calm and quirky",
           "lines": [
             {
               "speaker": "Ли",
               "gender": "m",
-              "ru": "Приве́т! Меня́ зову́т Ли. Я из Кита́я."
+              "ru": "Приве́т! Меня́ зову́т Ли. Я из Кита́я.",
+              "tone": "polite and friendly"
             },
             {
               "speaker": "Ли",
               "gender": "m",
-              "ru": "Я студе́нт. Я чита́ю филосо́фию и психоло́гию."
+              "ru": "Я студе́нт. Я чита́ю филосо́фию и психоло́гию.",
+              "tone": "calm and earnest"
             },
             {
               "speaker": "Ли",
               "gender": "m",
-              "ru": "Я люблю́ ша́хматы. И я обожа́ю ка́рты и билья́рд."
+              "ru": "Я люблю́ ша́хматы. И я обожа́ю ка́рты и билья́рд.",
+              "tone": "quietly enthusiastic"
             },
             {
               "speaker": "Ли",
               "gender": "m",
-              "ru": "Коме́дию я ненави́жу. Кино́ — скоре́е нет."
+              "ru": "Коме́дию я ненави́жу. Кино́ — скоре́е нет.",
+              "tone": "dry and blunt"
             },
             {
               "speaker": "Ли",
               "gender": "m",
-              "ru": "Я слу́шаю джаз и кла́ссику. Рок — не о́чень."
+              "ru": "Я слу́шаю джаз и кла́ссику. Рок — не о́чень.",
+              "tone": "calm, thoughtful"
             },
             {
               "speaker": "Ли",
               "gender": "m",
-              "ru": "Я люблю́ су́ши и борщ. А пи́ццу ненави́жу!"
+              "ru": "Я люблю́ су́ши и борщ. А пи́ццу ненави́жу!",
+              "tone": "cheerful, then firm"
             },
             {
               "speaker": "Ли",
               "gender": "m",
-              "ru": "Мой друг Джова́нни говори́т: «Ли, ты то́чно не италья́нец!»"
+              "ru": "Мой друг Джова́нни говори́т: «Ли, ты то́чно не италья́нец!»",
+              "tone": "amused, imitating a friend"
             }
           ],
           "cast": [
@@ -1927,56 +2091,67 @@
           "id": "2.4-l-1",
           "title": "La foto de Frank",
           "kind": "dialogue",
+          "scene": "Friends looking at a family photo",
           "lines": [
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "Фрэнк, э́то твоя́ семья́?"
+              "ru": "Фрэнк, э́то твоя́ семья́?",
+              "tone": "curious and friendly"
             },
             {
               "speaker": "Фрэнк",
               "gender": "m",
-              "ru": "Да. Вот мой па́па Джон. Он профе́ссор, он игра́ет в гольф."
+              "ru": "Да. Вот мой па́па Джон. Он профе́ссор, он игра́ет в гольф.",
+              "tone": "proud and relaxed"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "А ма́ма?"
+              "ru": "А ма́ма?",
+              "tone": "curious and interested"
             },
             {
               "speaker": "Фрэнк",
               "gender": "m",
-              "ru": "Ма́ма — юри́ст. Она́ мно́го рабо́тает и ма́ло отдыха́ет. И она́ ненави́дит гото́вить."
+              "ru": "Ма́ма — юри́ст. Она́ мно́го рабо́тает и ма́ло отдыха́ет. И она́ ненави́дит гото́вить.",
+              "tone": "fond, a bit wry"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "А кто гото́вит?"
+              "ru": "А кто гото́вит?",
+              "tone": "curious and amused"
             },
             {
               "speaker": "Фрэнк",
               "gender": "m",
-              "ru": "Па́па! Он гото́вит пи́ццу и па́сту. А я люблю́ фотографи́ровать."
+              "ru": "Па́па! Он гото́вит пи́ццу и па́сту. А я люблю́ фотографи́ровать.",
+              "tone": "proud, then enthusiastic"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "А сестра́? Она́ то́же фотографи́рует?"
+              "ru": "А сестра́? Она́ то́же фотографи́рует?",
+              "tone": "curious and interested"
             },
             {
               "speaker": "Фрэнк",
               "gender": "m",
-              "ru": "Нет, Мэ́гги рису́ет. Она́ рису́ет прекра́сно, но ненави́дит дома́шнее зада́ние."
+              "ru": "Нет, Мэ́гги рису́ет. Она́ рису́ет прекра́сно, но ненави́дит дома́шнее зада́ние.",
+              "tone": "proud, gently teasing"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
-              "ru": "А что де́лает кот?"
+              "ru": "А что де́лает кот?",
+              "tone": "playful and curious"
             },
             {
               "speaker": "Фрэнк",
               "gender": "m",
-              "ru": "Роме́о спит и игра́ет. А гуля́ть он не лю́бит."
+              "ru": "Роме́о спит и игра́ет. А гуля́ть он не лю́бит.",
+              "tone": "amused and affectionate"
             }
           ],
           "es": "Frank, ¿esta es tu familia?\nSí. Este es mi papá, John. Es profesor universitario, juega golf.\n¿Y la mamá?\nMamá es abogada. Trabaja mucho y descansa poco. Y odia cocinar.\n¿Y quién cocina?\n¡Papá! Prepara pizza y pasta. Y a mí me gusta tomar fotos.\n¿Y tu hermana? ¿También toma fotos?\nNo, Maggie dibuja. Dibuja de maravilla, pero odia la tarea.\n¿Y qué hace el gato?\nRomeo duerme y juega. Pero no le gusta pasear.",
@@ -2047,41 +2222,49 @@
           "id": "2.4-l-2",
           "title": "Busco pareja",
           "kind": "story",
+          "scene": "Dating profile video, hopeful and lively",
           "lines": [
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Приве́т! Меня́ зову́т Ни́на. Я бухга́лтер."
+              "ru": "Приве́т! Меня́ зову́т Ни́на. Я бухга́лтер.",
+              "tone": "bright and friendly"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Я не за́мужем. Где мой идеа́льный партнёр?"
+              "ru": "Я не за́мужем. Где мой идеа́льный партнёр?",
+              "tone": "wistful and hopeful"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Я о́чень люблю́ танцева́ть, осо́бенно та́нго и са́льсу."
+              "ru": "Я о́чень люблю́ танцева́ть, осо́бенно та́нго и са́льсу.",
+              "tone": "excited and passionate"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Я пою́ и игра́ю на пиани́но."
+              "ru": "Я пою́ и игра́ю на пиани́но.",
+              "tone": "proud and cheerful"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Я хожу́ в кино́ и мно́го путеше́ствую."
+              "ru": "Я хожу́ в кино́ и мно́го путеше́ствую.",
+              "tone": "lively and adventurous"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Я не курю́ и ненави́жу сигаре́ты."
+              "ru": "Я не курю́ и ненави́жу сигаре́ты.",
+              "tone": "firm and serious"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Мой идеа́льный партнёр не трудого́лик. Он лю́бит гуля́ть и гото́вить пельме́ни!"
+              "ru": "Мой идеа́льный партнёр не трудого́лик. Он лю́бит гуля́ть и гото́вить пельме́ни!",
+              "tone": "dreamy, playful"
             }
           ],
           "es": "¡Hola! Me llamo Nina. Soy contadora.\nNo estoy casada. ¿Dónde está mi pareja ideal?\nMe encanta bailar, sobre todo tango y salsa.\nCanto y toco el piano.\nVoy al cine y viajo mucho.\nNo fumo y odio los cigarros.\nMi pareja ideal no es adicto al trabajo. ¡Le gusta pasear y cocinar pelmeni!",
@@ -2141,56 +2324,67 @@
           "id": "2.4-l-3",
           "title": "Entrevista con Marina",
           "kind": "dialogue",
+          "scene": "Friendly interview with an architecture student",
           "lines": [
             {
               "speaker": "Кири́лл",
               "gender": "m",
-              "ru": "Мари́на, Вы изуча́ете архитекту́ру?"
+              "ru": "Мари́на, Вы изуча́ете архитекту́ру?",
+              "tone": "polite and curious"
             },
             {
               "speaker": "Мари́на",
               "gender": "f",
-              "ru": "Да, я студе́нтка. Я изуча́ю архитекту́ру и мно́го рабо́таю."
+              "ru": "Да, я студе́нтка. Я изуча́ю архитекту́ру и мно́го рабо́таю.",
+              "tone": "modest and friendly"
             },
             {
               "speaker": "Кири́лл",
               "gender": "m",
-              "ru": "А что Вы де́лаете, когда́ отдыха́ете?"
+              "ru": "А что Вы де́лаете, когда́ отдыха́ете?",
+              "tone": "curious and warm"
             },
             {
               "speaker": "Мари́на",
               "gender": "f",
-              "ru": "Я игра́ю на скри́пке и на пиани́но. И я пою́."
+              "ru": "Я игра́ю на скри́пке и на пиани́но. И я пою́.",
+              "tone": "proud and cheerful"
             },
             {
               "speaker": "Кири́лл",
               "gender": "m",
-              "ru": "Вы игра́ете в те́ннис?"
+              "ru": "Вы игра́ете в те́ннис?",
+              "tone": "curious and interested"
             },
             {
               "speaker": "Мари́на",
               "gender": "f",
-              "ru": "Нет, в те́ннис я игра́ю пло́хо. Я игра́ю в волейбо́л."
+              "ru": "Нет, в те́ннис я игра́ю пло́хо. Я игра́ю в волейбо́л.",
+              "tone": "honest, slightly embarrassed"
             },
             {
               "speaker": "Кири́лл",
               "gender": "m",
-              "ru": "А Вы гото́вите?"
+              "ru": "А Вы гото́вите?",
+              "tone": "curious and polite"
             },
             {
               "speaker": "Мари́на",
               "gender": "f",
-              "ru": "Гото́вить я ненави́жу! Но я люблю́ рисова́ть и путеше́ствовать."
+              "ru": "Гото́вить я ненави́жу! Но я люблю́ рисова́ть и путеше́ствовать.",
+              "tone": "dramatic, then enthusiastic"
             },
             {
               "speaker": "Кири́лл",
               "gender": "m",
-              "ru": "Мари́на, Вы ге́ний!"
+              "ru": "Мари́на, Вы ге́ний!",
+              "tone": "impressed and admiring"
             },
             {
               "speaker": "Мари́на",
               "gender": "f",
-              "ru": "Нет, что Вы! Я ма́ло сплю, вот и всё."
+              "ru": "Нет, что Вы! Я ма́ло сплю, вот и всё.",
+              "tone": "laughing, modest"
             }
           ],
           "cast": [
@@ -2261,41 +2455,49 @@
           "id": "2.4-l-4",
           "title": "Mensaje de voz de Nina",
           "kind": "story",
+          "scene": "Excited voice message to a friend",
           "lines": [
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Ли́за, приве́т! Э́то Ни́на."
+              "ru": "Ли́за, приве́т! Э́то Ни́на.",
+              "tone": "bubbly and excited"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "У меня́ есть партнёр! Его́ зову́т Ро́берт."
+              "ru": "У меня́ есть партнёр! Его́ зову́т Ро́берт.",
+              "tone": "thrilled and giddy"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Он америка́нец, он автомеха́ник."
+              "ru": "Он америка́нец, он автомеха́ник.",
+              "tone": "proud and dreamy"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Он не ку́рит и не трудого́лик. Он лю́бит гуля́ть и танцева́ть та́нго."
+              "ru": "Он не ку́рит и не трудого́лик. Он лю́бит гуля́ть и танцева́ть та́нго.",
+              "tone": "gushing and happy"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "И он прекра́сно гото́вит пельме́ни!"
+              "ru": "И он прекра́сно гото́вит пельме́ни!",
+              "tone": "delighted and proud"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Мы вме́сте поём и игра́ем: я на пиани́но, а он на саксофо́не."
+              "ru": "Мы вме́сте поём и игра́ем: я на пиани́но, а он на саксофо́не.",
+              "tone": "happy and romantic"
             },
             {
               "speaker": "Ни́на",
               "gender": "f",
-              "ru": "Кла́ссно! Пока́!"
+              "ru": "Кла́ссно! Пока́!",
+              "tone": "giddy and cheerful"
             }
           ],
           "cast": [
@@ -2355,56 +2557,67 @@
           "id": "2.4-l-5",
           "title": "El abuelo y Kostia",
           "kind": "dialogue",
+          "scene": "Grandfather and grandson chatting at home",
           "lines": [
             {
               "speaker": "Ко́стя",
               "gender": "m",
-              "ru": "Де́душка, что ты де́лаешь?"
+              "ru": "Де́душка, что ты де́лаешь?",
+              "tone": "curious and casual"
             },
             {
               "speaker": "Ива́н",
               "gender": "m",
-              "ru": "Я пишу́ письмо́. А ты?"
+              "ru": "Я пишу́ письмо́. А ты?",
+              "tone": "calm and gentle"
             },
             {
               "speaker": "Ко́стя",
               "gender": "m",
-              "ru": "Я игра́ю в ша́хматы. Ты игра́ешь в ша́хматы?"
+              "ru": "Я игра́ю в ша́хматы. Ты игра́ешь в ша́хматы?",
+              "tone": "eager and curious"
             },
             {
               "speaker": "Ива́н",
               "gender": "m",
-              "ru": "Коне́чно! Я игра́ю отли́чно. А ба́бушка игра́ет в ка́рты?"
+              "ru": "Коне́чно! Я игра́ю отли́чно. А ба́бушка игра́ет в ка́рты?",
+              "tone": "proud, a bit boastful"
             },
             {
               "speaker": "Ко́стя",
               "gender": "m",
-              "ru": "Ба́бушка? Нет, она́ поёт и танцу́ет. Она́ обожа́ет са́льсу!"
+              "ru": "Ба́бушка? Нет, она́ поёт и танцу́ет. Она́ обожа́ет са́льсу!",
+              "tone": "amused and admiring"
             },
             {
               "speaker": "Ива́н",
               "gender": "m",
-              "ru": "Да, она́ у нас тала́нт!"
+              "ru": "Да, она́ у нас тала́нт!",
+              "tone": "proud and affectionate"
             },
             {
               "speaker": "Ко́стя",
               "gender": "m",
-              "ru": "А па́па? Что де́лает па́па, когда́ отдыха́ет?"
+              "ru": "А па́па? Что де́лает па́па, когда́ отдыха́ет?",
+              "tone": "curious and casual"
             },
             {
               "speaker": "Ива́н",
               "gender": "m",
-              "ru": "Твой па́па? Он спит! Он врач, он мно́го рабо́тает."
+              "ru": "Твой па́па? Он спит! Он врач, он мно́го рабо́тает.",
+              "tone": "chuckling, sympathetic"
             },
             {
               "speaker": "Ко́стя",
               "gender": "m",
-              "ru": "А ма́ма?"
+              "ru": "А ма́ма?",
+              "tone": "curious and casual"
             },
             {
               "speaker": "Ива́н",
               "gender": "m",
-              "ru": "Ма́ма фотографи́рует и путеше́ствует. А ты, Ко́стя, ма́ло гуля́ешь!"
+              "ru": "Ма́ма фотографи́рует и путеше́ствует. А ты, Ко́стя, ма́ло гуля́ешь!",
+              "tone": "fond, gently scolding"
             }
           ],
           "cast": [
@@ -2475,41 +2688,49 @@
           "id": "2.4-l-6",
           "title": "Los pasatiempos de Teresa",
           "kind": "story",
+          "scene": "Schoolgirl introducing herself, cheerful",
           "lines": [
             {
               "speaker": "Тере́са",
               "gender": "f",
-              "ru": "Приве́т! Меня́ зову́т Тере́са. Я мексика́нка."
+              "ru": "Приве́т! Меня́ зову́т Тере́са. Я мексика́нка.",
+              "tone": "bright and cheerful"
             },
             {
               "speaker": "Тере́са",
               "gender": "f",
-              "ru": "Я шко́льница. Я изуча́ю ру́сский."
+              "ru": "Я шко́льница. Я изуча́ю ру́сский.",
+              "tone": "proud and eager"
             },
             {
               "speaker": "Тере́са",
               "gender": "f",
-              "ru": "Моё хо́бби — му́зыка. Я игра́ю на фле́йте и на гита́ре."
+              "ru": "Моё хо́бби — му́зыка. Я игра́ю на фле́йте и на гита́ре.",
+              "tone": "enthusiastic and happy"
             },
             {
               "speaker": "Тере́са",
               "gender": "f",
-              "ru": "Я пою́, но пою́ ужа́сно!"
+              "ru": "Я пою́, но пою́ ужа́сно!",
+              "tone": "laughing at herself"
             },
             {
               "speaker": "Тере́са",
               "gender": "f",
-              "ru": "Я игра́ю в баскетбо́л. А те́ннис? Нет, не о́чень."
+              "ru": "Я игра́ю в баскетбо́л. А те́ннис? Нет, не о́чень.",
+              "tone": "sporty, then unsure"
             },
             {
               "speaker": "Тере́са",
               "gender": "f",
-              "ru": "Я люблю́ гото́вить, осо́бенно па́сту."
+              "ru": "Я люблю́ гото́вить, осо́бенно па́сту.",
+              "tone": "warm and happy"
             },
             {
               "speaker": "Тере́са",
               "gender": "f",
-              "ru": "Я мно́го рису́ю и пишу́ смс. А сплю я ма́ло!"
+              "ru": "Я мно́го рису́ю и пишу́ смс. А сплю я ма́ло!",
+              "tone": "cheeky and playful"
             }
           ],
           "cast": [
