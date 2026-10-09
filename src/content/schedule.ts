@@ -20,12 +20,21 @@ export interface Homework {
 }
 
 /** Homework, newest last. Past items disappear automatically. */
-export const HOMEWORK: Homework[] = []
+export const HOMEWORK: Homework[] = [
+  {
+    due: '2026-10-13',
+    title: 'Descríbete en ruso',
+    detail: 'Escribe una descripción de ti mismo usando los adjetivos y adverbios vistos en clase (lección 3.4).',
+    lesson: '3.4',
+  },
+]
 
 export interface Reminder { date?: string; text: string }
 
 /** Short notices (no class on a holiday, bring the workbook…). Dated ones hide after their date. */
-export const REMINDERS: Reminder[] = []
+export const REMINDERS: Reminder[] = [
+  { text: '¿Te perdiste una clase? Las grabaciones de clases anteriores están disponibles: pídeselas a Aldo.' },
+]
 
 // ---------------------------------------------------------------- time zone helpers
 
