@@ -9,13 +9,16 @@ const base = process.env.BASE_PATH ?? '/'
 
 export default defineConfig({
   base,
+  // Build stamp (visible as window.__BUILD__) — handy to confirm which version a phone is running.
+  define: { __BUILD__: JSON.stringify(new Date().toISOString()) },
   // Content JSON is bundled into the main chunk on purpose (works offline, one request).
   build: { chunkSizeWarningLimit: 2000 },
   plugins: [
     react(),
     tailwindcss(),
     VitePWA({
-      registerType: 'autoUpdate',
+      // 'prompt': we decide when to apply an update (src/lib/updates.ts), so a review is never interrupted.
+      registerType: 'prompt',
       includeAssets: ['icon.svg', 'apple-touch-icon.png'],
       manifest: {
         name: 'ру · práctica de ruso',
