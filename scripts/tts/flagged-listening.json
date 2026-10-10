@@ -1,0 +1,249 @@
+{
+ "note": "Listening pieces recorded before persona-anchored prompts (v2) where a character's voice jumps > 7 semitones from their usual pitch. Set \"redo\": true on a piece and the daily job regenerates it with the current prompt (it keeps its current recording until the new one passes QA).",
+ "pieces": {
+  "1.1-l-2": {
+   "title": "Klaus en Moscú",
+   "file": "l/1.1-l-2-g38-dreg4epoxp.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 4,
+     "speaker": "Кла́ус",
+     "semitones": -7.3,
+     "ru": "Кто э́то? Э́то ма́ма? Нет, э́то не ма́ма. Э́то шеф."
+    },
+    {
+     "line": 7,
+     "speaker": "Кла́ус",
+     "semitones": 7.8,
+     "ru": "Пока́! До встре́чи!"
+    }
+   ]
+  },
+  "1.1-l-3": {
+   "title": "En el restaurante",
+   "file": "l/1.1-l-3-g38-c4gdfx743r.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 1,
+     "speaker": "Официа́нт",
+     "semitones": 10.3,
+     "ru": "Приве́т! Суп?"
+    },
+    {
+     "line": 6,
+     "speaker": "Ма́рко",
+     "semitones": 11.7,
+     "ru": "Вино́, пожа́луйста. И суп."
+    }
+   ]
+  },
+  "1.1-l-5": {
+   "title": "Concurso en la radio",
+   "file": "l/1.1-l-5-g38-1p1d5zccbtf.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 5,
+     "speaker": "Макс",
+     "semitones": 10.2,
+     "ru": "То́же хорошо́. Вот экза́мен! Что э́то? Гита́ра и́ли ра́дио?"
+    },
+    {
+     "line": 7,
+     "speaker": "Макс",
+     "semitones": 11.1,
+     "ru": "Да! Отли́чно! А кто э́то? Шеф и́ли актёр?"
+    },
+    {
+     "line": 11,
+     "speaker": "Макс",
+     "semitones": -7.2,
+     "ru": "Норма́льно, О́ля! Вот торт и шампа́нское!"
+    },
+    {
+     "line": 13,
+     "speaker": "Макс",
+     "semitones": 7.7,
+     "ru": "До встре́чи!"
+    }
+   ]
+  },
+  "1.1-l-6": {
+   "title": "En el parque",
+   "file": "l/1.1-l-6-g38-kdmf9ivbyv.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 1,
+     "speaker": "Ива́н",
+     "semitones": 8.0,
+     "ru": "Приве́т! Как тебя́ зову́т?"
+    }
+   ]
+  },
+  "1.3-l-1": {
+   "title": "¿Dónde está el metro?",
+   "file": "l/1.3-l-1-g38-27v4zht1bc1.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 9,
+     "speaker": "Ма́ша",
+     "semitones": -7.3,
+     "ru": "О́чень прия́тно! Вот кафе́. Ко́фе?"
+    }
+   ]
+  },
+  "1.4-l-5": {
+   "title": "En clase de ruso",
+   "file": "l/1.4-l-5-g38-1rbfu7yy5lw.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 5,
+     "speaker": "Ната́лья Ива́новна",
+     "semitones": 7.0,
+     "ru": "Хорошо́. Джон, что зна́чит «ру́чка»?"
+    }
+   ]
+  },
+  "2.1-l-1": {
+   "title": "¿Dónde está el teléfono?",
+   "file": "l/2.1-l-1-g38-40z1wxa3vx.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 1,
+     "speaker": "Хосе́",
+     "semitones": 9.2,
+     "ru": "Ли́за, приве́т! Что э́то?"
+    }
+   ]
+  },
+  "2.1-l-5": {
+   "title": "Entrevista con un entrenador",
+   "file": "l/2.1-l-5-g38-1ieqf4rw4wz.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 5,
+     "speaker": "Ве́ра",
+     "semitones": -8.1,
+     "ru": "Ско́лько?"
+    }
+   ]
+  },
+  "2.2-l-4": {
+   "title": "Llamada: ¿de quién es el abrigo?",
+   "file": "l/2.2-l-4-g38-18c4e4p7uwy.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 4,
+     "speaker": "Анто́н",
+     "semitones": -8.5,
+     "ru": "Нет, не моё. А что там?"
+    }
+   ]
+  },
+  "2.3-l-2": {
+   "title": "Giovanni y su mamá",
+   "file": "l/2.3-l-2-g38-xdfuiix4j8.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 6,
+     "speaker": "Джова́нни",
+     "semitones": 8.1,
+     "ru": "Но я не ребёнок! Кошма́р!"
+    }
+   ]
+  },
+  "2.4-l-4": {
+   "title": "Mensaje de voz de Nina",
+   "file": "l/2.4-l-4-g38-1atisqv0rlr.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 1,
+     "speaker": "Ни́на",
+     "semitones": 7.9,
+     "ru": "Ли́за, приве́т! Э́то Ни́на."
+    }
+   ]
+  },
+  "2.4-l-5": {
+   "title": "El abuelo y Kostia",
+   "file": "l/2.4-l-5-g38-15pkkri34ao.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 6,
+     "speaker": "Ива́н",
+     "semitones": -7.5,
+     "ru": "Да, она́ у нас тала́нт!"
+    }
+   ]
+  },
+  "3.1-l-1": {
+   "title": "¿Dónde está la tortuga?",
+   "file": "l/3.1-l-1-g38-170x3pty0nt.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 8,
+     "speaker": "Джова́нни",
+     "semitones": 7.3,
+     "ru": "А что ты де́лаешь на ку́хне?"
+    }
+   ]
+  },
+  "3.4-l-1": {
+   "title": "Masha cuenta de sus vecinos",
+   "file": "l/3.4-l-1-g38-23pzs26wc15.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 1,
+     "speaker": "Па́вел",
+     "semitones": 10.0,
+     "ru": "Ма́ша, приве́т! Как дела́?"
+    },
+    {
+     "line": 9,
+     "speaker": "Па́вел",
+     "semitones": 11.0,
+     "ru": "Тогда́ всё не так пло́хо."
+    }
+   ]
+  },
+  "3.4-l-3": {
+   "title": "Una queja a los vecinos",
+   "file": "l/3.4-l-3-g38-1zh70xlm475.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 5,
+     "speaker": "Оле́г",
+     "semitones": 9.4,
+     "ru": "Пра́вда? Я музыка́нт, я мно́го рабо́таю до́ма."
+    }
+   ]
+  },
+  "3.4-l-6": {
+   "title": "¿Cómo es tu nuevo jefe?",
+   "file": "l/3.4-l-6-g38-1toz0fkemmr.mp3",
+   "redo": false,
+   "jumps": [
+    {
+     "line": 5,
+     "speaker": "Ма́ша",
+     "semitones": 7.1,
+     "ru": "А как он говори́т?"
+    }
+   ]
+  }
+ }
+}

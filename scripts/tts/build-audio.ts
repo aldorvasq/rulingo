@@ -84,6 +84,11 @@ const clipDone = (t: string) => existsSync(clipFile(t)) && qa[clipFile(t)]?.ok
 const clipNeeds = (t: string) => !existsSync(clipFile(t)) || (!qa[clipFile(t)]?.ok && (qa[clipFile(t)]?.tries ?? 0) < 3)
 
 // ---------------------------------------------------------------- listening plan
+// v2: persona-anchored styles (v1 described each line from scratch and voices drifted between lines).
+const STYLE_V = 'v2'
+/** Older pieces whose voices drift (flagged-listening.json); those marked "redo" get re-recorded with the current prompt. */
+const flagged = JSON.parse(readFileSync(join(import.meta.dirname, 'flagged-listening.json'), 'utf8')).pieces as Record<string, { file: string; redo: boolean }>
+const redo = (li: Listening) => !!flagged[li.id]?.redo
 const voiceOf = new Map<string, string>()
 const speakerOf = (li: Listening, i: number) => li.lines[i].speaker ?? li.cast?.[0]?.name ?? 'narrador'
 function voicesFor(li: Listening): Map<string, string> {
@@ -112,7 +117,7 @@ function segments(li: Listening): number[][] {
   if (cur.length) out.push(cur)
   return out
 }
-const pieceFile = (li: Listening) => join(OUT, 'l', `${li.id}-g38-${audioKey(MODEL + JSON.stringify([...voicesFor(li)]) + li.lines.map((l) => `${l.speaker}|${l.tone}|${l.ru}`).join('\n') + (li.scene ?? ''))}.mp3`)
+const pieceFile = (li: Listening) => join(OUT, 'l', `${li.id}-g38-${audioKey(MODEL + (redo(li) ? STYLE_V : '') + JSON.stringify([...voicesFor(li)]) + li.lines.map((l) => `${l.speaker}|${l.tone}|${l.ru}`).join('\n') + (li.scene ?? ''))}.mp3`)
 const pieceDone = (li: Listening) => existsSync(pieceFile(li)) && qa[pieceFile(li)]?.ok
 const pieceNeeds = (li: Listening) => !existsSync(pieceFile(li)) || (!qa[pieceFile(li)]?.ok && (qa[pieceFile(li)]?.tries ?? 0) < 3)
 
@@ -187,8 +192,6 @@ function personaOf(li: Listening, s: string): string {
   }[age]
   return `${s.replace(/\u0301/g, '')}, ${who}, native Russian speaker`
 }
-// v2: persona-anchored styles (v1 described each line from scratch and voices drifted between lines).
-const STYLE_V = 'v2'
 const styleOf = (li: Listening, s: string, tone?: string) =>
   `Speaker: ${personaOf(li, s)}. Keep exactly the same voice, age, pitch and timbre as in all of this speaker's other lines; only the feeling changes, and only slightly. ` +
   `Feeling: ${tone ?? 'natural, conversational'}.${li.scene ? ` Scene: ${li.scene}.` : ''} Follow the stress marks exactly.`
@@ -248,6 +251,8 @@ const listeningIndex: Record<string, unknown> = { ...wavenet.listening }
 for (const li of listening) {
   if (pieceDone(li)) {
     listeningIndex[li.id] = { file: `l/${pieceFile(li).split('/').pop()}`, starts: qa[pieceFile(li)]?.starts ?? [], speakers: li.lines.map((_, i) => speakerOf(li, i)) }
+  } else if (redo(li) && qa[join(OUT, flagged[li.id].file)]?.ok) { // keep the old recording until the redo passes QA
+    listeningIndex[li.id] = { file: flagged[li.id].file, starts: qa[join(OUT, flagged[li.id].file)]?.starts ?? [], speakers: li.lines.map((_, i) => speakerOf(li, i)) }
   }
 }
 const gemClips = all.filter(clipDone).map(audioKey)
