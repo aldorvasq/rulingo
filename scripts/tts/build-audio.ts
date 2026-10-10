@@ -8,7 +8,9 @@
 // Clips: public/audio/c2/<key>.mp3 (Kore/Puck). Listening: public/audio/l/<id>-g38-<key>.mp3 — one or two
 // speakers → one conversational request; more → consecutive two-speaker stretches joined with pauses.
 // Every new file is transcribed with Whisper (qa_check.py): instructions read aloud or extra/missing words
-// → regenerated on a later run; Whisper also gives each line's start time for the transcript.
+// → regenerated on a later run; Whisper also gives each line's start time for the transcript, and a character
+// whose pitch jumps far from their usual voice (voice_check.py) also fails. Every line of a character carries
+// the same persona description so the model keeps one voice per person.
 // Key: GEMINI_KEY_FILE, else ~/.config/rulingo/gemini-key, else ~/Downloads/googleapikey.txt (never printed).
 import { execFileSync } from 'node:child_process'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
@@ -159,7 +161,7 @@ async function tts(turns: Turn[], speech: unknown, mp3: string): Promise<boolean
   return false
 }
 
-function runQa(jobs: { file: string; text: string; lines?: string[]; single?: boolean }[]) {
+function runQa(jobs: { file: string; text: string; lines?: string[]; speakers?: string[]; single?: boolean }[]) {
   jobs = jobs.filter((j) => existsSync(j.file))
   if (!jobs.length) return
   const jf = join(CACHE, 'qa-jobs.json')
@@ -172,7 +174,24 @@ function runQa(jobs: { file: string; text: string; lines?: string[]; single?: bo
 }
 
 // ---------------------------------------------------------------- 1. listening
-const styleOf = (li: Listening, tone?: string) => [tone, li.scene].filter(Boolean).join('; ') || 'natural, conversational'
+/** Who the speaker is: the same description on every one of their lines, so the voice never turns into someone else. */
+function personaOf(li: Listening, s: string): string {
+  const c = li.cast?.find((x) => x.name === s)
+  const g = c?.gender ?? li.lines.find((l) => l.speaker === s)?.gender ?? 'f'
+  const age = c?.age ?? 'adult'
+  const who = {
+    child: g === 'm' ? 'a boy of about eight' : 'a girl of about eight',
+    young: g === 'm' ? 'a young man in his twenties' : 'a young woman in her twenties',
+    adult: g === 'm' ? 'a man in his forties' : 'a woman in her forties',
+    old: g === 'm' ? 'an elderly man in his seventies' : 'an elderly woman in her seventies',
+  }[age]
+  return `${s.replace(/\u0301/g, '')}, ${who}, native Russian speaker`
+}
+// v2: persona-anchored styles (v1 described each line from scratch and voices drifted between lines).
+const STYLE_V = 'v2'
+const styleOf = (li: Listening, s: string, tone?: string) =>
+  `Speaker: ${personaOf(li, s)}. Keep exactly the same voice, age, pitch and timbre as in all of this speaker's other lines; only the feeling changes, and only slightly. ` +
+  `Feeling: ${tone ?? 'natural, conversational'}.${li.scene ? ` Scene: ${li.scene}.` : ''} Follow the stress marks exactly.`
 const silence = join(CACHE, 'silence.mp3')
 if (!existsSync(silence)) execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'lavfi', '-i', 'anullsrc=r=24000:cl=mono', '-t', '0.5', '-q:a', '9', silence])
 
@@ -182,10 +201,10 @@ async function buildPiece(li: Listening): Promise<boolean> {
   const parts: string[] = []
   for (const seg of segs) {
     const who = [...new Set(seg.map((i) => speakerOf(li, i)))]
-    const key = audioKey(MODEL + JSON.stringify(who.map((s) => v.get(s))) + seg.map((i) => `${li.lines[i].tone}|${li.lines[i].ru}`).join('\n') + (li.scene ?? ''))
+    const key = audioKey(MODEL + STYLE_V + JSON.stringify(who.map((s) => v.get(s))) + seg.map((i) => `${li.lines[i].tone}|${li.lines[i].ru}`).join('\n') + (li.scene ?? ''))
     const part = segs.length === 1 ? pieceFile(li) : join(CACHE, 'segments', `${key}.mp3`)
     if (segs.length > 1 && existsSync(part)) { parts.push(part); continue }
-    const turns = seg.map((i) => ({ text: li.lines[i].ru, style: styleOf(li, li.lines[i].tone), speaker: who.length === 2 ? speakerOf(li, i) : undefined }))
+    const turns = seg.map((i) => ({ text: li.lines[i].ru, style: styleOf(li, speakerOf(li, i), li.lines[i].tone), speaker: who.length === 2 ? speakerOf(li, i) : undefined }))
     const speech = who.length === 2 ? { mode: 'conversational', speakers: who.map((s) => ({ speaker: s, voice: v.get(s) })) } : [{ voice: v.get(who[0]) }]
     if (!(await tts(turns, speech, part))) return false
     parts.push(part)
@@ -205,7 +224,7 @@ for (const li of leftListening) {
 }
 if (madePieces.length) {
   console.log(`\nRevisando ${madePieces.length} audios de escucha con Whisper…`)
-  runQa(madePieces.map((li) => ({ file: pieceFile(li), text: li.lines.map((l) => l.ru).join(' '), lines: li.lines.map((l) => l.ru) })))
+  runQa(madePieces.map((li) => ({ file: pieceFile(li), text: li.lines.map((l) => l.ru).join(' '), lines: li.lines.map((l) => l.ru), speakers: li.lines.map((_, i) => speakerOf(li, i)) })))
 }
 
 // ---------------------------------------------------------------- 2. clips (by priority)

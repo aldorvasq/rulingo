@@ -18,6 +18,7 @@ import numpy as np
 
 from faster_whisper import WhisperModel
 from num2words import num2words
+from voice_check import drift, line_pitches
 
 
 def norm(s: str) -> str:
@@ -62,7 +63,8 @@ def main() -> None:
     out = []
     for i, job in enumerate(jobs):
         lines = job.get("lines")
-        segs, _ = model.transcribe(load_audio(job["file"]), language="ru", beam_size=5, condition_on_previous_text=False,
+        audio = load_audio(job["file"])
+        segs, _ = model.transcribe(audio, language="ru", beam_size=5, condition_on_previous_text=False,
                                    vad_filter=False, word_timestamps=bool(lines))
         segs = list(segs)
         heard = " ".join(s.text.strip() for s in segs).strip()
@@ -77,6 +79,10 @@ def main() -> None:
         entry = {"file": job["file"], "heard": heard, "score": round(score, 3), "latin": latin, "tooLong": too_long, "ok": ok}
         if starts is not None:
             entry["starts"] = starts
+        if starts and job.get("speakers"):  # a character whose voice jumps far from their usual pitch = "another person"
+            jumps = drift(job["speakers"], line_pitches(audio, starts), limit=7.0)
+            entry["voiceDrift"] = jumps
+            entry["ok"] = ok = ok and not jumps
         out.append(entry)
         print(f"{i + 1}/{len(jobs)} {'ok ' if ok else 'BAD'} {score:.2f} {heard[:60]}", flush=True)
     json.dump(out, open(sys.argv[2], "w", encoding="utf-8"), ensure_ascii=False, indent=1)
