@@ -38,6 +38,20 @@ def spell_numbers(s: str) -> str:
     return re.sub(r"\d+", lambda m: num2words(int(m.group()), lang="ru"), s)
 
 
+LAT = dict(zip("abcdefghijklmnopqrstuvwxyz", "абцдефгхийклмнопкрстуввксиз"))
+
+
+def stray_latin(heard: str, script: str) -> bool:
+    """Latin words in the transcript that aren't just Whisper spelling a script word the Latin way
+    ("ди́ана сто, соба́ка, ма́йл, то́чка, ком" → "diana100, mail.com") — i.e. instructions read aloud."""
+    words = script.split()
+    for w in re.findall(r"[a-z]{3,}", heard):
+        cyr = "".join(LAT[c] for c in w)
+        if not any(difflib.SequenceMatcher(None, cyr, x).ratio() >= 0.6 for x in words):
+            return True
+    return False
+
+
 def align_lines(lines: list[str], words) -> list[float]:
     """Start time of each script line inside one recording, by aligning script words to Whisper's words."""
     script = [(li, w) for li, line in enumerate(lines) for w in norm(spell_numbers(line)).split()]
@@ -71,7 +85,7 @@ def main() -> None:
         starts = align_lines(lines, [w for s in segs for w in (s.words or [])]) if lines else None
         a, b = norm(job["text"]), norm(spell_numbers(heard))
         score = difflib.SequenceMatcher(None, a, b, autojunk=False).ratio()
-        latin = bool(re.search(r"[a-z]{3,}", b))
+        latin = stray_latin(b, a)
         too_long = len(b) > len(a) * 1.35 + 8
         ok = score >= 0.78 and not latin and not too_long
         if job.get("single"):  # one word: Whisper's spelling of isolated words is unreliable; only catch artifacts
