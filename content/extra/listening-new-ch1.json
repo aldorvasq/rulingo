@@ -1,0 +1,1307 @@
+{
+ "id": "listening-new-ch1",
+ "lessons": [
+  {
+   "id": "1.1",
+   "listening": [
+    {
+     "id": "1.1-n-1",
+     "title": "Lupita llega a Moscú",
+     "kind": "story",
+     "scene": "Voice message from a Mexican student on her first day in Moscow, excited",
+     "lines": [
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Приве́т, ма́ма! Э́то Лупи́та.",
+       "tone": "warm, excited greeting"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Как дела́? У меня́ всё хорошо́!",
+       "tone": "cheerful"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Вот Москва́. Э́то метро́, а э́то парк.",
+       "tone": "amazed, describing"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Кафе́? Да, вот кафе́. Ко́фе и торт — о́чень хорошо́!",
+       "tone": "delighted"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "А кто э́то? Э́то Ди́ма, мой гид.",
+       "tone": "playful"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Ди́ма о́чень прия́тный.",
+       "tone": "a little shy"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Пока́, ма́ма! До встре́чи!",
+       "tone": "affectionate goodbye"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Лупи́та",
+       "gender": "f",
+       "age": "young",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "long",
+       "glasses": false,
+       "beard": false,
+       "top": "red"
+      }
+     ],
+     "es": "¡Hola, mamá! Soy Lupita.\n¿Cómo estás? ¡Yo estoy muy bien!\nAquí está Moscú. Este es el metro y este es un parque.\n¿Un café? Sí, aquí hay un café. Café y pastel: ¡muy bien!\n¿Y quién es? Es Dima, mi guía.\nDima es muy agradable.\n¡Adiós, mamá! ¡Nos vemos!",
+     "questions": [
+      {
+       "q": "¿Quién manda el mensaje?",
+       "choices": [
+        "Lupita",
+        "Dima",
+        "Mamá"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué come Lupita?",
+       "choices": [
+        "Café y pastel",
+        "Sopa y té",
+        "Vino y plátano"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Quién es Dima?",
+       "choices": [
+        "Su guía",
+        "Su hermano",
+        "Un mesero"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "1.1-n-2",
+     "title": "Se fue la luz",
+     "kind": "dialogue",
+     "scene": "Two friends at home in a sudden blackout, guessing objects in the dark, funny",
+     "lines": [
+      {
+       "speaker": "Ве́ра",
+       "gender": "f",
+       "ru": "Ой! Где свет? Ми́ша, э́то ты?",
+       "tone": "startled"
+      },
+      {
+       "speaker": "Ми́ша",
+       "gender": "m",
+       "ru": "Да, э́то я. Всё норма́льно.",
+       "tone": "calm, reassuring"
+      },
+      {
+       "speaker": "Ве́ра",
+       "gender": "f",
+       "ru": "А что э́то? Э́то торт?",
+       "tone": "curious, groping"
+      },
+      {
+       "speaker": "Ми́ша",
+       "gender": "m",
+       "ru": "Нет, э́то не торт. Э́то гита́ра!",
+       "tone": "laughing"
+      },
+      {
+       "speaker": "Ве́ра",
+       "gender": "f",
+       "ru": "А э́то что? Ра́дио?",
+       "tone": "puzzled"
+      },
+      {
+       "speaker": "Ми́ша",
+       "gender": "m",
+       "ru": "Нет, э́то телефо́н.",
+       "tone": "amused"
+      },
+      {
+       "speaker": "Ве́ра",
+       "gender": "f",
+       "ru": "Ой! А кто э́то?",
+       "tone": "surprised, a little scared"
+      },
+      {
+       "speaker": "Ми́ша",
+       "gender": "m",
+       "ru": "Э́то кот Ба́рсик! Мя́у!",
+       "tone": "playful, imitating a cat"
+      },
+      {
+       "speaker": "Ве́ра",
+       "gender": "f",
+       "ru": "Ура́! Вот свет!",
+       "tone": "relieved and happy"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ве́ра",
+       "gender": "f",
+       "age": "young",
+       "skin": "light",
+       "hair": "blond",
+       "hairStyle": "long",
+       "glasses": false,
+       "beard": false,
+       "top": "teal"
+      },
+      {
+       "name": "Ми́ша",
+       "gender": "m",
+       "age": "young",
+       "skin": "light",
+       "hair": "red",
+       "hairStyle": "curly",
+       "glasses": false,
+       "beard": false,
+       "top": "gray"
+      }
+     ],
+     "es": "¡Ay! ¿Dónde está la luz? Misha, ¿eres tú?\nSí, soy yo. Todo bien.\n¿Y qué es esto? ¿Es un pastel?\nNo, no es un pastel. ¡Es una guitarra!\n¿Y esto qué es? ¿Un radio?\nNo, es un teléfono.\n¡Ay! ¿Y quién es?\n¡Es el gato Bársik! ¡Miau!\n¡Hurra! ¡Ya hay luz!",
+     "questions": [
+      {
+       "q": "Vera cree que toca un pastel. ¿Qué es en realidad?",
+       "choices": [
+        "Una guitarra",
+        "Un radio",
+        "Un teléfono"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué cosa cree Vera que es un radio?",
+       "choices": [
+        "Un teléfono",
+        "Una guitarra",
+        "Un gato"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cómo se llama el gato?",
+       "choices": [
+        "Bársik",
+        "Misha",
+        "Murka"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "1.1-n-3",
+     "title": "Café en el aeropuerto",
+     "kind": "dialogue",
+     "scene": "Early morning airport coffee counter, friendly and relaxed",
+     "lines": [
+      {
+       "speaker": "Да́ша",
+       "gender": "f",
+       "ru": "До́брое у́тро! Что вам?",
+       "tone": "bright barista"
+      },
+      {
+       "speaker": "Ферна́ндо",
+       "gender": "m",
+       "ru": "До́брое у́тро! Ко́фе, пожа́луйста.",
+       "tone": "sleepy but polite"
+      },
+      {
+       "speaker": "Да́ша",
+       "gender": "f",
+       "ru": "Ко́фе и́ли капучи́но?",
+       "tone": "helpful"
+      },
+      {
+       "speaker": "Ферна́ндо",
+       "gender": "m",
+       "ru": "Капучи́но. И во́ду, пожа́луйста.",
+       "tone": "decisive"
+      },
+      {
+       "speaker": "Да́ша",
+       "gender": "f",
+       "ru": "А торт? Э́то торт «Медо́вик». Он о́чень вку́сный.",
+       "tone": "tempting, warm"
+      },
+      {
+       "speaker": "Ферна́ндо",
+       "gender": "m",
+       "ru": "Да, спаси́бо! А как вас зову́т?",
+       "tone": "friendly"
+      },
+      {
+       "speaker": "Да́ша",
+       "gender": "f",
+       "ru": "Меня́ зову́т Да́ша. А вас?",
+       "tone": "smiling"
+      },
+      {
+       "speaker": "Ферна́ндо",
+       "gender": "m",
+       "ru": "Ферна́ндо. О́чень прия́тно!",
+       "tone": "pleased"
+      },
+      {
+       "speaker": "Да́ша",
+       "gender": "f",
+       "ru": "Вот ваш ко́фе, Ферна́ндо. Всего́ хоро́шего!",
+       "tone": "cheerful goodbye"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Да́ша",
+       "gender": "f",
+       "age": "young",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "ponytail",
+       "glasses": false,
+       "beard": false,
+       "top": "green"
+      },
+      {
+       "name": "Ферна́ндо",
+       "gender": "m",
+       "age": "adult",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "short",
+       "glasses": true,
+       "beard": false,
+       "top": "blue"
+      }
+     ],
+     "es": "¡Buenos días! ¿Qué le sirvo?\n¡Buenos días! Un café, por favor.\n¿Café o capuchino?\nCapuchino. Y agua, por favor.\n¿Y pastel? Es el pastel «Medóvik». Está muy rico.\n¡Sí, gracias! ¿Y cómo se llama usted?\nMe llamo Dasha. ¿Y usted?\nFernando. ¡Mucho gusto!\nAquí está su café, Fernando. ¡Que le vaya bien!",
+     "questions": [
+      {
+       "q": "¿Qué pide Fernando?",
+       "choices": [
+        "Capuchino y agua",
+        "Té y jugo",
+        "Vino y sopa"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cómo se llama el pastel?",
+       "choices": [
+        "Medóvik",
+        "Napoleón",
+        "Praga"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cómo se llama la barista?",
+       "choices": [
+        "Dasha",
+        "Vera",
+        "Lupita"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1.2",
+   "listening": [
+    {
+     "id": "1.2-n-1",
+     "title": "Clase de ruso por internet",
+     "kind": "dialogue",
+     "scene": "First online lesson by video call, teacher kind and patient",
+     "lines": [
+      {
+       "speaker": "Серге́й",
+       "gender": "m",
+       "ru": "До́брый ве́чер! Меня́ зову́т Серге́й. Я ваш учи́тель.",
+       "tone": "warm teacher"
+      },
+      {
+       "speaker": "Мари́я",
+       "gender": "f",
+       "ru": "До́брый ве́чер! Я Мари́я.",
+       "tone": "a bit nervous"
+      },
+      {
+       "speaker": "Серге́й",
+       "gender": "m",
+       "ru": "Мари́я, отку́да вы?",
+       "tone": "interested"
+      },
+      {
+       "speaker": "Мари́я",
+       "gender": "f",
+       "ru": "Я из Ме́ксики, из Гвадалаха́ры.",
+       "tone": "proud"
+      },
+      {
+       "speaker": "Серге́й",
+       "gender": "m",
+       "ru": "О, Ме́ксика! Вы говори́те по-англи́йски?",
+       "tone": "pleasantly surprised"
+      },
+      {
+       "speaker": "Мари́я",
+       "gender": "f",
+       "ru": "Да, немно́го. И по-испа́нски, коне́чно.",
+       "tone": "relaxed"
+      },
+      {
+       "speaker": "Серге́й",
+       "gender": "m",
+       "ru": "А по-ру́сски?",
+       "tone": "gently teasing"
+      },
+      {
+       "speaker": "Мари́я",
+       "gender": "f",
+       "ru": "По-ру́сски я говорю́ ме́дленно.",
+       "tone": "embarrassed laugh"
+      },
+      {
+       "speaker": "Серге́й",
+       "gender": "m",
+       "ru": "Ничего́! Э́то норма́льно. Начнём!",
+       "tone": "encouraging"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Серге́й",
+       "gender": "m",
+       "age": "adult",
+       "skin": "light",
+       "hair": "gray",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": true,
+       "top": "gray"
+      },
+      {
+       "name": "Мари́я",
+       "gender": "f",
+       "age": "adult",
+       "skin": "medium",
+       "hair": "brown",
+       "hairStyle": "bun",
+       "glasses": true,
+       "beard": false,
+       "top": "teal"
+      }
+     ],
+     "es": "¡Buenas noches! Me llamo Serguéi. Soy su profesor.\n¡Buenas noches! Soy María.\nMaría, ¿de dónde es usted?\nSoy de México, de Guadalajara.\n¡Oh, México! ¿Habla inglés?\nSí, un poco. Y español, claro.\n¿Y ruso?\nEn ruso hablo despacio.\n¡No pasa nada! Es normal. ¡Empecemos!",
+     "questions": [
+      {
+       "q": "¿De qué ciudad es María?",
+       "choices": [
+        "Guadalajara",
+        "Monterrey",
+        "Puebla"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cómo habla ruso María?",
+       "choices": [
+        "Despacio",
+        "Muy bien",
+        "No lo habla"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Quién es Serguéi?",
+       "choices": [
+        "El profesor",
+        "Un compañero",
+        "Su vecino"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "1.2-n-2",
+     "title": "Fiesta internacional",
+     "kind": "story",
+     "scene": "Student dormitory party, lively and happy",
+     "lines": [
+      {
+       "speaker": "Ками́ла",
+       "gender": "f",
+       "ru": "Приве́т! Я Ками́ла, я бразилья́нка.",
+       "tone": "bubbly"
+      },
+      {
+       "speaker": "Ками́ла",
+       "gender": "f",
+       "ru": "Сего́дня у нас интернациона́льная вечери́нка.",
+       "tone": "excited"
+      },
+      {
+       "speaker": "Ками́ла",
+       "gender": "f",
+       "ru": "Вот Хуа́н. Он мексика́нец и говори́т по-испа́нски.",
+       "tone": "introducing"
+      },
+      {
+       "speaker": "Ками́ла",
+       "gender": "f",
+       "ru": "Вот Ли и Ван. Они́ кита́йцы.",
+       "tone": "friendly"
+      },
+      {
+       "speaker": "Ками́ла",
+       "gender": "f",
+       "ru": "А э́то Пьер. Он францу́з, но говори́т по-ру́сски о́чень хорошо́!",
+       "tone": "impressed"
+      },
+      {
+       "speaker": "Ками́ла",
+       "gender": "f",
+       "ru": "Мы все говори́м по-ру́сски. Э́то наш о́бщий язы́к!",
+       "tone": "proud, warm"
+      },
+      {
+       "speaker": "Ками́ла",
+       "gender": "f",
+       "ru": "Хуа́н и я танцу́ем са́льсу. Ура́!",
+       "tone": "joyful"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ками́ла",
+       "gender": "f",
+       "age": "young",
+       "skin": "dark",
+       "hair": "black",
+       "hairStyle": "curly",
+       "glasses": false,
+       "beard": false,
+       "top": "ochre"
+      }
+     ],
+     "es": "¡Hola! Soy Camila, soy brasileña.\nHoy tenemos una fiesta internacional.\nAquí está Juan. Es mexicano y habla español.\nAquí están Li y Wan. Son chinos.\nY este es Pierre. Es francés, pero habla ruso muy bien.\nTodos hablamos ruso. ¡Es nuestro idioma común!\nJuan y yo bailamos salsa. ¡Hurra!",
+     "questions": [
+      {
+       "q": "¿De dónde es Camila?",
+       "choices": [
+        "De Brasil",
+        "De México",
+        "De Francia"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Quién habla ruso muy bien?",
+       "choices": [
+        "Pierre",
+        "Juan",
+        "Li"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué idioma hablan todos?",
+       "choices": [
+        "Ruso",
+        "Español",
+        "Inglés"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "1.2-n-3",
+     "title": "Un taxi en Moscú",
+     "kind": "dialogue",
+     "scene": "Chatty taxi ride from the airport, friendly driver",
+     "lines": [
+      {
+       "speaker": "Такси́ст",
+       "gender": "m",
+       "ru": "До́брый день! Вы Ка́рлос?",
+       "tone": "friendly driver"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Да, э́то я. Здра́вствуйте!",
+       "tone": "polite"
+      },
+      {
+       "speaker": "Такси́ст",
+       "gender": "m",
+       "ru": "Вы испа́нец?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Нет, я не испа́нец. Я мексика́нец.",
+       "tone": "smiling, correcting"
+      },
+      {
+       "speaker": "Такси́ст",
+       "gender": "m",
+       "ru": "О! Ме́хико — о́чень большо́й го́род!",
+       "tone": "impressed"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Да! А вы отку́да? Вы москви́ч?",
+       "tone": "interested"
+      },
+      {
+       "speaker": "Такси́ст",
+       "gender": "m",
+       "ru": "Нет, я из Каза́ни. Я тата́рин.",
+       "tone": "proud"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Вы говори́те по-тата́рски?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Такси́ст",
+       "gender": "m",
+       "ru": "Да, по-тата́рски и по-ру́сски. Ну, пое́хали!",
+       "tone": "jovial"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Такси́ст",
+       "gender": "m",
+       "age": "old",
+       "skin": "light",
+       "hair": "gray",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": true,
+       "top": "gray"
+      },
+      {
+       "name": "Ка́рлос",
+       "gender": "m",
+       "age": "young",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "curly",
+       "glasses": false,
+       "beard": true,
+       "top": "ochre"
+      }
+     ],
+     "es": "¡Buenas tardes! ¿Es usted Carlos?\nSí, soy yo. ¡Buenas tardes!\n¿Es usted español?\nNo, no soy español. Soy mexicano.\n¡Oh! La Ciudad de México es una ciudad muy grande.\n¡Sí! ¿Y usted de dónde es? ¿Es moscovita?\nNo, soy de Kazán. Soy tártaro.\n¿Habla tártaro?\nSí, tártaro y ruso. ¡Bueno, vámonos!",
+     "questions": [
+      {
+       "q": "¿De dónde es Carlos?",
+       "choices": [
+        "De México",
+        "De España",
+        "De Kazán"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿De dónde es el taxista?",
+       "choices": [
+        "De Kazán",
+        "De Moscú",
+        "De México"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué idiomas habla el taxista?",
+       "choices": [
+        "Tártaro y ruso",
+        "Español y ruso",
+        "Solo ruso"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1.3",
+   "listening": [
+    {
+     "id": "1.3-n-1",
+     "title": "El navegador se equivoca",
+     "kind": "dialogue",
+     "scene": "A tourist walking with a phone navigation app that keeps getting it wrong, comic",
+     "lines": [
+      {
+       "speaker": "Навига́тор",
+       "gender": "f",
+       "ru": "Внима́ние! Спра́ва — апте́ка.",
+       "tone": "calm, precise navigation voice"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Апте́ка? Где? А, вот она́.",
+       "tone": "looking around"
+      },
+      {
+       "speaker": "Навига́тор",
+       "gender": "f",
+       "ru": "Сле́ва — банк. Музе́й — пря́мо.",
+       "tone": "calm, precise navigation voice"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Музе́й пря́мо? Хорошо́.",
+       "tone": "trusting"
+      },
+      {
+       "speaker": "Навига́тор",
+       "gender": "f",
+       "ru": "Вы на ме́сте. Музе́й здесь.",
+       "tone": "calm, precise navigation voice"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Здесь? Но здесь кафе́, а не музе́й!",
+       "tone": "confused, annoyed"
+      },
+      {
+       "speaker": "Навига́тор",
+       "gender": "f",
+       "ru": "Извини́те. Музе́й — там, спра́ва.",
+       "tone": "calm, precise navigation voice"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Ну вот! Почему́ ты всегда́ ошиба́ешься?",
+       "tone": "exasperated, laughing"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Навига́тор",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "bun",
+       "glasses": false,
+       "beard": false,
+       "top": "gray"
+      },
+      {
+       "name": "Лупи́та",
+       "gender": "f",
+       "age": "young",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "long",
+       "glasses": false,
+       "beard": false,
+       "top": "red"
+      }
+     ],
+     "es": "¡Atención! A la derecha: la farmacia.\n¿Farmacia? ¿Dónde? Ah, aquí está.\nA la izquierda: el banco. El museo: todo recto.\n¿El museo recto? Bien.\nHa llegado. El museo está aquí.\n¿Aquí? ¡Pero aquí hay un café, no un museo!\nDisculpe. El museo está allá, a la derecha.\n¡Ay, no! ¿Por qué siempre te equivocas?",
+     "questions": [
+      {
+       "q": "¿Qué hay a la derecha al principio?",
+       "choices": [
+        "Una farmacia",
+        "Un banco",
+        "Un café"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué hay donde el navegador dice «aquí»?",
+       "choices": [
+        "Un café",
+        "El museo",
+        "Un banco"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde está el museo en realidad?",
+       "choices": [
+        "Allá, a la derecha",
+        "A la izquierda",
+        "Detrás del banco"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "1.3-n-2",
+     "title": "Aviso en el aeropuerto",
+     "kind": "story",
+     "scene": "Airport terminal public announcement, clear and formal",
+     "lines": [
+      {
+       "speaker": "Дикто́р",
+       "gender": "f",
+       "ru": "Уважа́емые пассажи́ры! До́брый день!",
+       "tone": "formal announcer"
+      },
+      {
+       "speaker": "Дикто́р",
+       "gender": "f",
+       "ru": "Вы в аэропорту́ «Шереме́тьево».",
+       "tone": "formal announcer"
+      },
+      {
+       "speaker": "Дикто́р",
+       "gender": "f",
+       "ru": "Информа́ция — сле́ва, а банк и апте́ка — спра́ва.",
+       "tone": "clear, informative"
+      },
+      {
+       "speaker": "Дикто́р",
+       "gender": "f",
+       "ru": "Кафе́ и рестора́ны — на второ́м этаже́.",
+       "tone": "clear, informative"
+      },
+      {
+       "speaker": "Дикто́р",
+       "gender": "f",
+       "ru": "Такси́ — здесь, а аэроэкспре́сс в центр — там, пря́мо.",
+       "tone": "clear, informative"
+      },
+      {
+       "speaker": "Дикто́р",
+       "gender": "f",
+       "ru": "Внима́ние! Рейс в Канку́н заде́рживается.",
+       "tone": "serious, apologetic"
+      },
+      {
+       "speaker": "Дикто́р",
+       "gender": "f",
+       "ru": "Спаси́бо!",
+       "tone": "formal announcer"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Дикто́р",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "blond",
+       "hairStyle": "bun",
+       "glasses": false,
+       "beard": false,
+       "top": "blue"
+      }
+     ],
+     "es": "¡Estimados pasajeros! ¡Buenas tardes!\nEstán en el aeropuerto Sheremétievo.\nLa información está a la izquierda; el banco y la farmacia, a la derecha.\nLos cafés y restaurantes están en el segundo piso.\nLos taxis están aquí, y el Aeroexprés al centro, allá, todo recto.\n¡Atención! El vuelo a Cancún está retrasado.\n¡Gracias!",
+     "questions": [
+      {
+       "q": "¿Dónde están el banco y la farmacia?",
+       "choices": [
+        "A la derecha",
+        "A la izquierda",
+        "En el segundo piso"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde están los restaurantes?",
+       "choices": [
+        "En el segundo piso",
+        "A la derecha",
+        "Junto a los taxis"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué vuelo está retrasado?",
+       "choices": [
+        "El de Cancún",
+        "El de Madrid",
+        "El de Kazán"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "1.3-n-3",
+     "title": "¿Dónde está el Bolshói?",
+     "kind": "dialogue",
+     "scene": "Lost tourist asks a kind grandmother in a park for directions",
+     "lines": [
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Извини́те, пожа́луйста! Где Большо́й теа́тр?",
+       "tone": "polite, a bit lost"
+      },
+      {
+       "speaker": "Ба́бушка",
+       "gender": "f",
+       "ru": "Большо́й теа́тр? Он в це́нтре. А вы здесь, в па́рке.",
+       "tone": "kind, slow"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Далеко́?",
+       "tone": "worried"
+      },
+      {
+       "speaker": "Ба́бушка",
+       "gender": "f",
+       "ru": "Да, далеко́. Вот метро́, сле́ва.",
+       "tone": "pointing, helpful"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "А почему́ не такси́?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Ба́бушка",
+       "gender": "f",
+       "ru": "Потому́ что метро́ — бы́стро, а такси́ — до́рого!",
+       "tone": "wise, amused"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Поня́тно! Спаси́бо большо́е!",
+       "tone": "grateful"
+      },
+      {
+       "speaker": "Ба́бушка",
+       "gender": "f",
+       "ru": "Пожа́луйста! А отку́да вы?",
+       "tone": "curious, warm"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Из Ме́ксики!",
+       "tone": "cheerful"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ка́рлос",
+       "gender": "m",
+       "age": "young",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "curly",
+       "glasses": false,
+       "beard": true,
+       "top": "ochre"
+      },
+      {
+       "name": "Ба́бушка",
+       "gender": "f",
+       "age": "old",
+       "skin": "light",
+       "hair": "gray",
+       "hairStyle": "bun",
+       "glasses": true,
+       "beard": false,
+       "top": "red"
+      }
+     ],
+     "es": "Disculpe, ¿dónde está el Teatro Bolshói?\n¿El Bolshói? Está en el centro. Y usted está aquí, en el parque.\n¿Está lejos?\nSí, lejos. Aquí está el metro, a la izquierda.\n¿Y por qué no un taxi?\n¡Porque el metro es rápido y el taxi es caro!\n¡Entendido! ¡Muchas gracias!\n¡De nada! ¿Y de dónde es?\n¡De México!",
+     "questions": [
+      {
+       "q": "¿Qué busca Carlos?",
+       "choices": [
+        "El Teatro Bolshói",
+        "Un parque",
+        "El metro"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Por qué la abuela recomienda el metro?",
+       "choices": [
+        "Es rápido y el taxi es caro",
+        "No hay taxis",
+        "El metro es gratis"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde está el metro?",
+       "choices": [
+        "A la izquierda",
+        "A la derecha",
+        "En el centro"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1.4",
+   "listening": [
+    {
+     "id": "1.4-n-1",
+     "title": "Tarjetas de presentación",
+     "kind": "dialogue",
+     "scene": "Networking at a business conference, upbeat and polite",
+     "lines": [
+      {
+       "speaker": "Ири́на",
+       "gender": "f",
+       "ru": "Приве́т! Я Ири́на. Вот моя́ визи́тка.",
+       "tone": "confident, friendly"
+      },
+      {
+       "speaker": "Хавье́р",
+       "gender": "m",
+       "ru": "Спаси́бо! Вы диза́йнер?",
+       "tone": "reading the card"
+      },
+      {
+       "speaker": "Ири́на",
+       "gender": "f",
+       "ru": "Да, я диза́йнер. Я рабо́таю в Москве́. А вы кто по профе́ссии?",
+       "tone": "interested"
+      },
+      {
+       "speaker": "Хавье́р",
+       "gender": "m",
+       "ru": "Я инжене́р. Я рабо́таю в Монтерре́е.",
+       "tone": "polite"
+      },
+      {
+       "speaker": "Ири́на",
+       "gender": "f",
+       "ru": "О, как интере́сно! Монтерре́й — э́то Ме́ксика?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Хавье́р",
+       "gender": "m",
+       "ru": "Коне́чно! А ваш муж то́же диза́йнер?",
+       "tone": "friendly"
+      },
+      {
+       "speaker": "Ири́на",
+       "gender": "f",
+       "ru": "Нет, что вы! Он по́вар.",
+       "tone": "laughing"
+      },
+      {
+       "speaker": "Хавье́р",
+       "gender": "m",
+       "ru": "Кла́ссно! Я люблю́ рестора́ны!",
+       "tone": "enthusiastic"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ири́на",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "red",
+       "hairStyle": "long",
+       "glasses": false,
+       "beard": false,
+       "top": "teal"
+      },
+      {
+       "name": "Хавье́р",
+       "gender": "m",
+       "age": "adult",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "short",
+       "glasses": true,
+       "beard": false,
+       "top": "gray"
+      }
+     ],
+     "es": "¡Hola! Soy Irina. Aquí está mi tarjeta.\n¡Gracias! ¿Es usted diseñadora?\nSí, soy diseñadora. Trabajo en Moscú. ¿Y usted a qué se dedica?\nSoy ingeniero. Trabajo en Monterrey.\n¡Oh, qué interesante! ¿Monterrey está en México?\n¡Claro! ¿Y su esposo también es diseñador?\n¡No, qué va! Es cocinero.\n¡Genial! ¡Me encantan los restaurantes!",
+     "questions": [
+      {
+       "q": "¿A qué se dedica Irina?",
+       "choices": [
+        "Es diseñadora",
+        "Es ingeniera",
+        "Es cocinera"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde trabaja Javier?",
+       "choices": [
+        "En Monterrey",
+        "En Moscú",
+        "En Cancún"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué es el esposo de Irina?",
+       "choices": [
+        "Cocinero",
+        "Diseñador",
+        "Ingeniero"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "1.4-n-2",
+     "title": "Pódcast: profesiones raras",
+     "kind": "story",
+     "scene": "Upbeat podcast intro about unusual jobs",
+     "lines": [
+      {
+       "speaker": "Гле́б",
+       "gender": "m",
+       "ru": "Приве́т! Э́то по́дкаст «Профе́ссии». Я Гле́б.",
+       "tone": "energetic host"
+      },
+      {
+       "speaker": "Гле́б",
+       "gender": "m",
+       "ru": "Сего́дня — необы́чные профе́ссии.",
+       "tone": "intriguing"
+      },
+      {
+       "speaker": "Гле́б",
+       "gender": "m",
+       "ru": "Ма́ша — дегуста́тор. Она́ пробу́ет шокола́д.",
+       "tone": "envious, amused"
+      },
+      {
+       "speaker": "Гле́б",
+       "gender": "m",
+       "ru": "Па́вел — гид. Но он гид не в музе́е, а в метро́!",
+       "tone": "surprised"
+      },
+      {
+       "speaker": "Гле́б",
+       "gender": "m",
+       "ru": "А Ли́да — а́ктриса. Она́ рабо́тает в теа́тре и игра́ет… де́рево!",
+       "tone": "comic timing"
+      },
+      {
+       "speaker": "Гле́б",
+       "gender": "m",
+       "ru": "Кла́ссно, пра́вда?",
+       "tone": "laughing"
+      },
+      {
+       "speaker": "Гле́б",
+       "gender": "m",
+       "ru": "А вы кто по профе́ссии? Пиши́те нам!",
+       "tone": "inviting"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Гле́б",
+       "gender": "m",
+       "age": "young",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "curly",
+       "glasses": true,
+       "beard": false,
+       "top": "teal"
+      }
+     ],
+     "es": "¡Hola! Este es el pódcast «Profesiones». Soy Gleb.\nHoy: profesiones poco comunes.\nMasha es catadora. Prueba chocolate.\nPável es guía. ¡Pero no en un museo, sino en el metro!\nY Lida es actriz. Trabaja en un teatro y hace de… ¡árbol!\nGenial, ¿verdad?\n¿Y ustedes a qué se dedican? ¡Escríbannos!",
+     "questions": [
+      {
+       "q": "¿Qué prueba Masha en su trabajo?",
+       "choices": [
+        "Chocolate",
+        "Café",
+        "Vino"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde es guía Pável?",
+       "choices": [
+        "En el metro",
+        "En un museo",
+        "En un parque"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué papel interpreta Lida?",
+       "choices": [
+        "Un árbol",
+        "Una princesa",
+        "Una doctora"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "1.4-n-3",
+     "title": "Reencuentro de excompañeros",
+     "kind": "dialogue",
+     "scene": "Two old classmates meet by chance years later, surprised and happy",
+     "lines": [
+      {
+       "speaker": "Арка́дий",
+       "gender": "m",
+       "ru": "Ксе́ния? Э́то ты?",
+       "tone": "surprised"
+      },
+      {
+       "speaker": "Ксе́ния",
+       "gender": "f",
+       "ru": "Арка́дий! Приве́т! Как дела́?",
+       "tone": "delighted"
+      },
+      {
+       "speaker": "Арка́дий",
+       "gender": "m",
+       "ru": "Отли́чно! Ты сейча́с рабо́таешь?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Ксе́ния",
+       "gender": "f",
+       "ru": "Да, я врач. А ты? Ты всё ещё журнали́ст?",
+       "tone": "interested"
+      },
+      {
+       "speaker": "Арка́дий",
+       "gender": "m",
+       "ru": "Нет, тепе́рь я учи́тель. Я рабо́таю в шко́ле.",
+       "tone": "proud"
+      },
+      {
+       "speaker": "Ксе́ния",
+       "gender": "f",
+       "ru": "Учи́тель? Ты? Как интере́сно!",
+       "tone": "amused disbelief"
+      },
+      {
+       "speaker": "Арка́дий",
+       "gender": "m",
+       "ru": "А Оле́г? Он бизнесме́н?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Ксе́ния",
+       "gender": "f",
+       "ru": "Нет, что ты! Оле́г — музыка́нт. Он игра́ет в рестора́не.",
+       "tone": "laughing"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ксе́ния",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "blond",
+       "hairStyle": "ponytail",
+       "glasses": false,
+       "beard": false,
+       "top": "green"
+      },
+      {
+       "name": "Арка́дий",
+       "gender": "m",
+       "age": "adult",
+       "skin": "light",
+       "hair": "black",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": true,
+       "top": "red"
+      }
+     ],
+     "es": "¿Ksenia? ¿Eres tú?\n¡Arkadi! ¡Hola! ¿Qué tal?\n¡Excelente! ¿Ahora trabajas?\nSí, soy doctora. ¿Y tú? ¿Sigues siendo periodista?\nNo, ahora soy maestro. Trabajo en una escuela.\n¿Maestro? ¿Tú? ¡Qué interesante!\n¿Y Oleg? ¿Es empresario?\n¡No, qué va! Oleg es músico. Toca en un restaurante.",
+     "questions": [
+      {
+       "q": "¿Qué es Ksenia?",
+       "choices": [
+        "Doctora",
+        "Maestra",
+        "Periodista"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde trabaja Arkadi ahora?",
+       "choices": [
+        "En una escuela",
+        "En un periódico",
+        "En un restaurante"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué es Oleg?",
+       "choices": [
+        "Músico",
+        "Empresario",
+        "Periodista"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

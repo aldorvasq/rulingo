@@ -1,0 +1,1301 @@
+{
+ "id": "listening-new-ch3",
+ "lessons": [
+  {
+   "id": "3.1",
+   "listening": [
+    {
+     "id": "3.1-n-1",
+     "title": "Video: mi departamento nuevo",
+     "kind": "story",
+     "scene": "A cheerful video blogger gives a tour of her new flat",
+     "lines": [
+      {
+       "speaker": "Ле́ра",
+       "gender": "f",
+       "ru": "Приве́т, друзья́! Э́то мой ка́нал, и сего́дня — моя́ но́вая кварти́ра!",
+       "tone": "bubbly vlogger"
+      },
+      {
+       "speaker": "Ле́ра",
+       "gender": "f",
+       "ru": "Вот гости́ная. Здесь дива́н и телеви́зор.",
+       "tone": "showing around"
+      },
+      {
+       "speaker": "Ле́ра",
+       "gender": "f",
+       "ru": "Сле́ва — ку́хня. Она́ ма́ленькая, но удо́бная.",
+       "tone": "honest"
+      },
+      {
+       "speaker": "Ле́ра",
+       "gender": "f",
+       "ru": "Спра́ва — ва́нная. А вот моя́ спа́льня.",
+       "tone": "showing around"
+      },
+      {
+       "speaker": "Ле́ра",
+       "gender": "f",
+       "ru": "А э́то балко́н. Отсю́да ви́дно Кремль!",
+       "tone": "thrilled"
+      },
+      {
+       "speaker": "Ле́ра",
+       "gender": "f",
+       "ru": "А в углу́ живёт Торти́ла, моя́ черепа́ха.",
+       "tone": "affectionate"
+      },
+      {
+       "speaker": "Ле́ра",
+       "gender": "f",
+       "ru": "Ста́вьте ла́йки! Пока́!",
+       "tone": "energetic sign-off"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ле́ра",
+       "gender": "f",
+       "age": "young",
+       "skin": "light",
+       "hair": "blond",
+       "hairStyle": "long",
+       "glasses": false,
+       "beard": false,
+       "top": "green"
+      }
+     ],
+     "es": "¡Hola, amigos! Este es mi canal y hoy: ¡mi departamento nuevo!\nEsta es la sala. Aquí hay un sofá y una tele.\nA la izquierda, la cocina. Es pequeña pero cómoda.\nA la derecha, el baño. Y esta es mi recámara.\nY este es el balcón. ¡Desde aquí se ve el Kremlin!\nY en el rincón vive Tortila, mi tortuga.\n¡Denle like! ¡Adiós!",
+     "questions": [
+      {
+       "q": "¿Cómo es la cocina?",
+       "choices": [
+        "Pequeña pero cómoda",
+        "Grande y vieja",
+        "No tiene cocina"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué se ve desde el balcón?",
+       "choices": [
+        "El Kremlin",
+        "Un parque",
+        "El río"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Quién vive en el rincón?",
+       "choices": [
+        "Una tortuga",
+        "Un gato",
+        "Un perico"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "3.1-n-2",
+     "title": "Una casa en Cuernavaca",
+     "kind": "dialogue",
+     "scene": "Two friends in snowy Moscow talk about a house in Mexico, wistful",
+     "lines": [
+      {
+       "speaker": "Ро́ма",
+       "gender": "m",
+       "ru": "Химе́на, у тебя́ дом и́ли кварти́ра?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Химе́на",
+       "gender": "f",
+       "ru": "В Москве́ — кварти́ра. А в Ме́ксике у меня́ дом.",
+       "tone": "friendly"
+      },
+      {
+       "speaker": "Ро́ма",
+       "gender": "m",
+       "ru": "Большо́й?",
+       "tone": "interested"
+      },
+      {
+       "speaker": "Химе́на",
+       "gender": "f",
+       "ru": "Да. В Куэрнава́ке. Там есть сад и бассе́йн.",
+       "tone": "dreamy"
+      },
+      {
+       "speaker": "Ро́ма",
+       "gender": "m",
+       "ru": "Бассе́йн? Кла́ссно! А зимо́й там хо́лодно?",
+       "tone": "impressed"
+      },
+      {
+       "speaker": "Химе́на",
+       "gender": "f",
+       "ru": "Нет, что ты! Там всегда́ тепло́. Э́то «го́род ве́чной весны́».",
+       "tone": "warm, proud"
+      },
+      {
+       "speaker": "Ро́ма",
+       "gender": "m",
+       "ru": "А в Москве́ сейча́с снег…",
+       "tone": "wistful"
+      },
+      {
+       "speaker": "Химе́на",
+       "gender": "f",
+       "ru": "Да, поэ́тому я так люблю́ мой дом в Ме́ксике!",
+       "tone": "laughing"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ро́ма",
+       "gender": "m",
+       "age": "young",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "curly",
+       "glasses": false,
+       "beard": false,
+       "top": "blue"
+      },
+      {
+       "name": "Химе́на",
+       "gender": "f",
+       "age": "young",
+       "skin": "medium",
+       "hair": "brown",
+       "hairStyle": "ponytail",
+       "glasses": false,
+       "beard": false,
+       "top": "green"
+      }
+     ],
+     "es": "Jimena, ¿tienes casa o departamento?\nEn Moscú, departamento. Y en México tengo una casa.\n¿Grande?\nSí. En Cuernavaca. Ahí hay jardín y alberca.\n¿Alberca? ¡Genial! ¿Y en invierno hace frío ahí?\n¡No, qué va! Siempre hace calor. Es «la ciudad de la eterna primavera».\nY en Moscú ahora hay nieve…\n¡Sí, por eso me encanta tanto mi casa en México!",
+     "questions": [
+      {
+       "q": "¿Dónde está la casa de Jimena?",
+       "choices": [
+        "En Cuernavaca",
+        "En Moscú",
+        "En Cancún"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué tiene la casa?",
+       "choices": [
+        "Jardín y alberca",
+        "Garage y balcón",
+        "Solo un cuarto"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cómo es el clima en Cuernavaca?",
+       "choices": [
+        "Siempre cálido",
+        "Siempre frío",
+        "Con mucha nieve"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "3.1-n-3",
+     "title": "La bocina inteligente",
+     "kind": "dialogue",
+     "scene": "A man asks his smart speaker where his keys are, comic ending",
+     "lines": [
+      {
+       "speaker": "Пётр",
+       "gender": "m",
+       "ru": "Коло́нка, где мои́ ключи́?",
+       "tone": "in a hurry"
+      },
+      {
+       "speaker": "Коло́нка",
+       "gender": "f",
+       "ru": "Ключи́ на ку́хне, на столе́.",
+       "tone": "calm synthetic assistant"
+      },
+      {
+       "speaker": "Пётр",
+       "gender": "m",
+       "ru": "На ку́хне их нет.",
+       "tone": "irritated"
+      },
+      {
+       "speaker": "Коло́нка",
+       "gender": "f",
+       "ru": "Тогда́ в ва́нной.",
+       "tone": "calm synthetic assistant"
+      },
+      {
+       "speaker": "Пётр",
+       "gender": "m",
+       "ru": "И в ва́нной нет!",
+       "tone": "frustrated"
+      },
+      {
+       "speaker": "Коло́нка",
+       "gender": "f",
+       "ru": "Мо́жет быть, в гараже́? И́ли в саду́?",
+       "tone": "calm synthetic assistant"
+      },
+      {
+       "speaker": "Пётр",
+       "gender": "m",
+       "ru": "Ты не зна́ешь!",
+       "tone": "angry"
+      },
+      {
+       "speaker": "Коло́нка",
+       "gender": "f",
+       "ru": "Я зна́ю. Ключи́… у вас в руке́.",
+       "tone": "calm, slightly smug"
+      },
+      {
+       "speaker": "Пётр",
+       "gender": "m",
+       "ru": "Ой… Спаси́бо.",
+       "tone": "embarrassed"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Пётр",
+       "gender": "m",
+       "age": "adult",
+       "skin": "light",
+       "hair": "black",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": false,
+       "top": "gray"
+      },
+      {
+       "name": "Коло́нка",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "gray",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": false,
+       "top": "gray"
+      }
+     ],
+     "es": "Bocina, ¿dónde están mis llaves?\nLas llaves están en la cocina, en la mesa.\nEn la cocina no están.\nEntonces en el baño.\n¡Tampoco en el baño!\n¿Tal vez en el garage? ¿O en el jardín?\n¡No sabes!\nSí sé. Las llaves… están en su mano.\nAy… Gracias.",
+     "questions": [
+      {
+       "q": "¿Qué busca Piotr?",
+       "choices": [
+        "Sus llaves",
+        "Su teléfono",
+        "Sus lentes"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué lugares menciona la bocina?",
+       "choices": [
+        "La cocina, el baño, el garage y el jardín",
+        "La recámara y el balcón",
+        "La sala y la oficina"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde estaban las llaves?",
+       "choices": [
+        "En su mano",
+        "En la cocina",
+        "En el garage"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.2",
+   "listening": [
+    {
+     "id": "3.2-n-1",
+     "title": "Desorden o sistema",
+     "kind": "dialogue",
+     "scene": "A mother and her son argue about his messy room, playful",
+     "lines": [
+      {
+       "speaker": "Ма́ма",
+       "gender": "f",
+       "ru": "Ти́ма! Что э́то? Почему́ здесь тако́й беспоря́док?",
+       "tone": "shocked mother"
+      },
+      {
+       "speaker": "Ти́ма",
+       "gender": "m",
+       "ru": "Ма́ма, э́то не беспоря́док. Э́то систе́ма!",
+       "tone": "confident child"
+      },
+      {
+       "speaker": "Ма́ма",
+       "gender": "f",
+       "ru": "Систе́ма? А почему́ носки́ лежа́т на столе́?",
+       "tone": "skeptical"
+      },
+      {
+       "speaker": "Ти́ма",
+       "gender": "m",
+       "ru": "Потому́ что так удо́бно!",
+       "tone": "matter-of-fact"
+      },
+      {
+       "speaker": "Ма́ма",
+       "gender": "f",
+       "ru": "А почему́ ку́ртка виси́т на ла́мпе?",
+       "tone": "exasperated"
+      },
+      {
+       "speaker": "Ти́ма",
+       "gender": "m",
+       "ru": "Она́ там су́шится.",
+       "tone": "innocent"
+      },
+      {
+       "speaker": "Ма́ма",
+       "gender": "f",
+       "ru": "Хорошо́. А где твой рюкза́к?",
+       "tone": "testing"
+      },
+      {
+       "speaker": "Ти́ма",
+       "gender": "m",
+       "ru": "Рюкза́к… Хм. Систе́ма не зна́ет.",
+       "tone": "caught out"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ма́ма",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "long",
+       "glasses": false,
+       "beard": false,
+       "top": "teal"
+      },
+      {
+       "name": "Ти́ма",
+       "gender": "m",
+       "age": "child",
+       "skin": "light",
+       "hair": "blond",
+       "hairStyle": "curly",
+       "glasses": false,
+       "beard": false,
+       "top": "red"
+      }
+     ],
+     "es": "¡Tima! ¿Qué es esto? ¿Por qué hay tanto desorden?\nMamá, no es desorden. ¡Es un sistema!\n¿Un sistema? ¿Y por qué los calcetines están en la mesa?\n¡Porque así es cómodo!\n¿Y por qué la chamarra está colgada en la lámpara?\nAhí se está secando.\nBueno. ¿Y dónde está tu mochila?\nLa mochila… Hm. El sistema no sabe.",
+     "questions": [
+      {
+       "q": "¿Dónde están los calcetines?",
+       "choices": [
+        "En la mesa",
+        "En el armario",
+        "Debajo de la cama"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde está colgada la chamarra?",
+       "choices": [
+        "En la lámpara",
+        "En la puerta",
+        "En el armario"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué no encuentra Tima?",
+       "choices": [
+        "Su mochila",
+        "Sus calcetines",
+        "Su chamarra"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "3.2-n-2",
+     "title": "Vivir en un faro",
+     "kind": "story",
+     "scene": "An old lighthouse keeper on a remote island describes his home, calm and content",
+     "lines": [
+      {
+       "speaker": "Арсе́ний",
+       "gender": "m",
+       "ru": "Меня́ зову́т Арсе́ний. Я живу́ на маяке́.",
+       "tone": "slow, calm"
+      },
+      {
+       "speaker": "Арсе́ний",
+       "gender": "m",
+       "ru": "Мой мая́к нахо́дится на о́строве в Бе́лом мо́ре.",
+       "tone": "calm"
+      },
+      {
+       "speaker": "Арсе́ний",
+       "gender": "m",
+       "ru": "Го́род далеко́, а магази́н — о́чень далеко́!",
+       "tone": "wry humour"
+      },
+      {
+       "speaker": "Арсе́ний",
+       "gender": "m",
+       "ru": "Наверху́ — ла́мпа. Внизу́ — моя́ ко́мната и ку́хня.",
+       "tone": "describing"
+      },
+      {
+       "speaker": "Арсе́ний",
+       "gender": "m",
+       "ru": "На стене́ виси́т ка́рта, а на столе́ лежи́т кни́га.",
+       "tone": "calm"
+      },
+      {
+       "speaker": "Арсе́ний",
+       "gender": "m",
+       "ru": "Здесь ти́хо. То́лько мо́ре и пти́цы.",
+       "tone": "peaceful"
+      },
+      {
+       "speaker": "Арсе́ний",
+       "gender": "m",
+       "ru": "Мне здесь хорошо́!",
+       "tone": "content"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Арсе́ний",
+       "gender": "m",
+       "age": "old",
+       "skin": "light",
+       "hair": "gray",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": true,
+       "top": "blue"
+      }
+     ],
+     "es": "Me llamo Arseni. Vivo en un faro.\nMi faro está en una isla del Mar Blanco.\nLa ciudad está lejos, y la tienda, ¡muy lejos!\nArriba está la lámpara. Abajo, mi cuarto y la cocina.\nEn la pared cuelga un mapa, y en la mesa hay un libro.\nAquí hay silencio. Solo el mar y los pájaros.\n¡Aquí estoy bien!",
+     "questions": [
+      {
+       "q": "¿Dónde vive Arseni?",
+       "choices": [
+        "En un faro",
+        "En un barco",
+        "En una cabaña"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué hay arriba?",
+       "choices": [
+        "La lámpara",
+        "Su cuarto",
+        "La cocina"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué cuelga en la pared?",
+       "choices": [
+        "Un mapa",
+        "Una foto",
+        "Un reloj"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "3.2-n-3",
+     "title": "Un café cerca de la estación",
+     "kind": "dialogue",
+     "scene": "A tourist asks a friendly policeman for directions",
+     "lines": [
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Извини́те, где нахо́дится вокза́л?",
+       "tone": "polite"
+      },
+      {
+       "speaker": "Полице́йский",
+       "gender": "m",
+       "ru": "Вокза́л? Недалеко́. Вот там, спра́ва.",
+       "tone": "helpful"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "А мо́жно пешко́м?",
+       "tone": "hopeful"
+      },
+      {
+       "speaker": "Полице́йский",
+       "gender": "m",
+       "ru": "Мо́жно. Пять мину́т.",
+       "tone": "friendly"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "А где нахо́дится хоро́шее кафе́?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Полице́йский",
+       "gender": "m",
+       "ru": "Кафе́ «Пу́шкин» — далеко́, в це́нтре. Но там о́чень вку́сно!",
+       "tone": "enthusiastic"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "А э́то кафе́, сле́ва?",
+       "tone": "pointing"
+      },
+      {
+       "speaker": "Полице́йский",
+       "gender": "m",
+       "ru": "Э́то моё люби́мое ме́сто! Там лу́чший ко́фе.",
+       "tone": "warm, conspiratorial"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Лупи́та",
+       "gender": "f",
+       "age": "young",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "long",
+       "glasses": false,
+       "beard": false,
+       "top": "red"
+      },
+      {
+       "name": "Полице́йский",
+       "gender": "m",
+       "age": "adult",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": false,
+       "top": "blue"
+      }
+     ],
+     "es": "Disculpe, ¿dónde está la estación de tren?\n¿La estación? No está lejos. Allá, a la derecha.\n¿Se puede ir a pie?\nSí. Cinco minutos.\n¿Y dónde hay un buen café?\nEl café «Pushkin» está lejos, en el centro. ¡Pero ahí todo es delicioso!\n¿Y este café, a la izquierda?\n¡Es mi lugar favorito! Ahí está el mejor café.",
+     "questions": [
+      {
+       "q": "¿Está lejos la estación?",
+       "choices": [
+        "No, a cinco minutos a pie",
+        "Sí, muy lejos",
+        "Está en el centro"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde está el café «Pushkin»?",
+       "choices": [
+        "En el centro",
+        "A la derecha",
+        "Junto a la estación"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué dice el policía del café de la izquierda?",
+       "choices": [
+        "Es su lugar favorito",
+        "Es caro",
+        "Está cerrado"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3",
+   "listening": [
+    {
+     "id": "3.3-n-1",
+     "title": "Primer día en la oficina",
+     "kind": "dialogue",
+     "scene": "A manager welcomes a Mexican newcomer to a relaxed creative office",
+     "lines": [
+      {
+       "speaker": "Ни́ка",
+       "gender": "f",
+       "ru": "Ма́тео, добро́ пожа́ловать! Вот наш о́фис.",
+       "tone": "welcoming"
+      },
+      {
+       "speaker": "Ма́тео",
+       "gender": "m",
+       "ru": "Ого́! А э́то что? Гама́к?",
+       "tone": "amazed"
+      },
+      {
+       "speaker": "Ни́ка",
+       "gender": "f",
+       "ru": "Да. Здесь мы отдыха́ем. У нас неформа́льная атмосфе́ра.",
+       "tone": "relaxed"
+      },
+      {
+       "speaker": "Ма́тео",
+       "gender": "m",
+       "ru": "А где мы за́втракаем?",
+       "tone": "hopeful"
+      },
+      {
+       "speaker": "Ни́ка",
+       "gender": "f",
+       "ru": "На ку́хне. Там всегда́ есть ко́фе и пече́нье.",
+       "tone": "friendly"
+      },
+      {
+       "speaker": "Ма́тео",
+       "gender": "m",
+       "ru": "А что я де́лаю сего́дня?",
+       "tone": "eager"
+      },
+      {
+       "speaker": "Ни́ка",
+       "gender": "f",
+       "ru": "Сего́дня ты отвеча́ешь на пи́сьма и говори́шь по телефо́ну с клие́нтами.",
+       "tone": "businesslike"
+      },
+      {
+       "speaker": "Ма́тео",
+       "gender": "m",
+       "ru": "По-ру́сски?",
+       "tone": "alarmed"
+      },
+      {
+       "speaker": "Ни́ка",
+       "gender": "f",
+       "ru": "Коне́чно! Не волну́йся, всё бу́дет в поря́дке!",
+       "tone": "reassuring, laughing"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ни́ка",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "black",
+       "hairStyle": "bun",
+       "glasses": true,
+       "beard": false,
+       "top": "teal"
+      },
+      {
+       "name": "Ма́тео",
+       "gender": "m",
+       "age": "young",
+       "skin": "medium",
+       "hair": "brown",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": false,
+       "top": "green"
+      }
+     ],
+     "es": "Mateo, ¡bienvenido! Esta es nuestra oficina.\n¡Vaya! ¿Y esto qué es? ¿Una hamaca?\nSí. Aquí descansamos. Tenemos un ambiente informal.\n¿Y dónde desayunamos?\nEn la cocina. Siempre hay café y galletas.\n¿Y qué hago hoy?\nHoy contestas correos y hablas por teléfono con clientes.\n¿En ruso?\n¡Claro! No te preocupes, ¡todo va a estar bien!",
+     "questions": [
+      {
+       "q": "¿Qué hay en la oficina para descansar?",
+       "choices": [
+        "Una hamaca",
+        "Una alberca",
+        "Un tobogán"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde desayunan?",
+       "choices": [
+        "En la cocina",
+        "En la sala de juntas",
+        "En un café"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué hace Mateo hoy?",
+       "choices": [
+        "Contesta correos y habla con clientes",
+        "Desayuna todo el día",
+        "Graba un video"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "3.3-n-2",
+     "title": "La oficina en la playa",
+     "kind": "story",
+     "scene": "A remote programmer working from a Mexican beach, smug but honest",
+     "lines": [
+      {
+       "speaker": "Стёпа",
+       "gender": "m",
+       "ru": "Я программи́ст. Мой о́фис — э́то пляж!",
+       "tone": "smug, cheerful"
+      },
+      {
+       "speaker": "Стёпа",
+       "gender": "m",
+       "ru": "Сейча́с я в Ме́ксике, в Тулу́ме.",
+       "tone": "relaxed"
+      },
+      {
+       "speaker": "Стёпа",
+       "gender": "m",
+       "ru": "У́тром я за́втракаю: фру́кты и ко́фе.",
+       "tone": "content"
+      },
+      {
+       "speaker": "Стёпа",
+       "gender": "m",
+       "ru": "Пото́м отвеча́ю на пи́сьма. Мой компью́тер — на гамаке́!",
+       "tone": "laughing"
+      },
+      {
+       "speaker": "Стёпа",
+       "gender": "m",
+       "ru": "Днём у нас видеозвоно́к. Колле́ги в Москве́, а там снег!",
+       "tone": "teasing"
+      },
+      {
+       "speaker": "Стёпа",
+       "gender": "m",
+       "ru": "Они́ говоря́т: «Стёпа, э́то не рабо́та, а мечта́!»",
+       "tone": "imitating colleagues"
+      },
+      {
+       "speaker": "Стёпа",
+       "gender": "m",
+       "ru": "Я отвеча́ю: «Да! Но интерне́т здесь ме́дленный».",
+       "tone": "wry"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Стёпа",
+       "gender": "m",
+       "age": "young",
+       "skin": "light",
+       "hair": "blond",
+       "hairStyle": "curly",
+       "glasses": false,
+       "beard": false,
+       "top": "ochre"
+      }
+     ],
+     "es": "Soy programador. ¡Mi oficina es la playa!\nAhora estoy en México, en Tulum.\nEn la mañana desayuno: fruta y café.\nLuego contesto correos. ¡Mi computadora está en la hamaca!\nA mediodía tenemos videollamada. Mis colegas están en Moscú, ¡y allá hay nieve!\nDicen: «Stiopa, ¡esto no es trabajo, es un sueño!»\nYo contesto: «¡Sí! Pero aquí el internet es lento.»",
+     "questions": [
+      {
+       "q": "¿Dónde trabaja Stiopa ahora?",
+       "choices": [
+        "En Tulum",
+        "En Moscú",
+        "En Cancún"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde pone su computadora?",
+       "choices": [
+        "En la hamaca",
+        "En la mesa",
+        "En la arena"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cuál es el problema?",
+       "choices": [
+        "El internet es lento",
+        "Hace frío",
+        "No hay café"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "3.3-n-3",
+     "title": "Un proyecto original",
+     "kind": "dialogue",
+     "scene": "A team meeting about an unusual new project, energetic",
+     "lines": [
+      {
+       "speaker": "Мари́на",
+       "gender": "f",
+       "ru": "Колле́ги, начина́ем! Сего́дня мы обсужда́ем но́вый прое́кт.",
+       "tone": "brisk boss"
+      },
+      {
+       "speaker": "Русла́н",
+       "gender": "m",
+       "ru": "Мари́на, извини́те, я говорю́ по телефо́ну…",
+       "tone": "distracted"
+      },
+      {
+       "speaker": "Мари́на",
+       "gender": "f",
+       "ru": "Русла́н! Пото́м! Наш прое́кт — креати́вное кафе́ для соба́к.",
+       "tone": "impatient then proud"
+      },
+      {
+       "speaker": "Русла́н",
+       "gender": "m",
+       "ru": "Для соба́к? Э́то оригина́льно!",
+       "tone": "surprised"
+      },
+      {
+       "speaker": "Мари́на",
+       "gender": "f",
+       "ru": "Да! Там есть гама́ки, игру́шки и ко́фе — для хозя́ев.",
+       "tone": "enthusiastic"
+      },
+      {
+       "speaker": "Русла́н",
+       "gender": "m",
+       "ru": "А где оно́ нахо́дится?",
+       "tone": "interested"
+      },
+      {
+       "speaker": "Мари́на",
+       "gender": "f",
+       "ru": "В це́нтре, недалеко́ от па́рка.",
+       "tone": "confident"
+      },
+      {
+       "speaker": "Русла́н",
+       "gender": "m",
+       "ru": "Мне нра́вится! А мо́жно с мое́й соба́кой?",
+       "tone": "excited"
+      },
+      {
+       "speaker": "Мари́на",
+       "gender": "f",
+       "ru": "Коне́чно! Она́ — наш пе́рвый клие́нт!",
+       "tone": "laughing"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Мари́на",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "red",
+       "hairStyle": "bun",
+       "glasses": false,
+       "beard": false,
+       "top": "ochre"
+      },
+      {
+       "name": "Русла́н",
+       "gender": "m",
+       "age": "adult",
+       "skin": "light",
+       "hair": "black",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": true,
+       "top": "gray"
+      }
+     ],
+     "es": "Colegas, ¡empezamos! Hoy hablamos del nuevo proyecto.\nMarina, disculpe, estoy hablando por teléfono…\n¡Ruslan! ¡Luego! Nuestro proyecto es un café creativo para perros.\n¿Para perros? ¡Qué original!\n¡Sí! Hay hamacas, juguetes y café, para los dueños.\n¿Y dónde está?\nEn el centro, cerca del parque.\n¡Me gusta! ¿Puedo ir con mi perro?\n¡Claro! ¡Es nuestro primer cliente!",
+     "questions": [
+      {
+       "q": "¿Qué hace Ruslan al principio?",
+       "choices": [
+        "Habla por teléfono",
+        "Desayuna",
+        "Contesta correos"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cuál es el proyecto?",
+       "choices": [
+        "Un café para perros",
+        "Una oficina nueva",
+        "Una tienda de juguetes"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde está el café?",
+       "choices": [
+        "En el centro, cerca del parque",
+        "Lejos de la ciudad",
+        "En la oficina"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.4",
+   "listening": [
+    {
+     "id": "3.4-n-1",
+     "title": "El vecino misterioso",
+     "kind": "dialogue",
+     "scene": "Two neighbours gossip about a mysterious new tenant, playful suspense",
+     "lines": [
+      {
+       "speaker": "Ли́ля",
+       "gender": "f",
+       "ru": "Ге́на, ты зна́ешь на́шего но́вого сосе́да?",
+       "tone": "secretive"
+      },
+      {
+       "speaker": "Ге́на",
+       "gender": "m",
+       "ru": "Нет. Како́й он?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Ли́ля",
+       "gender": "f",
+       "ru": "Высо́кий, в чёрном пальто́ и в чёрной шля́пе.",
+       "tone": "mysterious whisper"
+      },
+      {
+       "speaker": "Ге́на",
+       "gender": "m",
+       "ru": "Интере́сно. А что он де́лает?",
+       "tone": "intrigued"
+      },
+      {
+       "speaker": "Ли́ля",
+       "gender": "f",
+       "ru": "Днём он спит, а но́чью игра́ет на скри́пке.",
+       "tone": "suspenseful"
+      },
+      {
+       "speaker": "Ге́на",
+       "gender": "m",
+       "ru": "Мо́жет, он вампи́р?",
+       "tone": "mock horror"
+      },
+      {
+       "speaker": "Ли́ля",
+       "gender": "f",
+       "ru": "Ге́на! Он музыка́нт. Он рабо́тает в теа́тре ве́чером.",
+       "tone": "laughing, scolding"
+      },
+      {
+       "speaker": "Ге́на",
+       "gender": "m",
+       "ru": "А, поня́тно. Но шля́па подозри́тельная…",
+       "tone": "unconvinced, joking"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ли́ля",
+       "gender": "f",
+       "age": "young",
+       "skin": "light",
+       "hair": "black",
+       "hairStyle": "curly",
+       "glasses": false,
+       "beard": false,
+       "top": "red"
+      },
+      {
+       "name": "Ге́на",
+       "gender": "m",
+       "age": "young",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "short",
+       "glasses": true,
+       "beard": false,
+       "top": "blue"
+      }
+     ],
+     "es": "Gena, ¿conoces a nuestro nuevo vecino?\nNo. ¿Cómo es?\nAlto, con abrigo negro y sombrero negro.\nInteresante. ¿Y qué hace?\nDe día duerme y de noche toca el violín.\n¿Será un vampiro?\n¡Gena! Es músico. Trabaja en el teatro en las noches.\nAh, ya entiendo. Pero el sombrero es sospechoso…",
+     "questions": [
+      {
+       "q": "¿Cómo viste el vecino?",
+       "choices": [
+        "Abrigo y sombrero negros",
+        "Ropa blanca",
+        "Un traje rojo"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué hace de noche?",
+       "choices": [
+        "Toca el violín",
+        "Duerme",
+        "Ve la tele"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde trabaja?",
+       "choices": [
+        "En el teatro",
+        "En un banco",
+        "En un hospital"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "3.4-n-2",
+     "title": "Noches blancas",
+     "kind": "story",
+     "scene": "A woman in St Petersburg describes her neighbours during the white nights, light and happy",
+     "lines": [
+      {
+       "speaker": "Со́фья",
+       "gender": "f",
+       "ru": "Я живу́ в Петербу́рге, на пя́том этаже́.",
+       "tone": "friendly"
+      },
+      {
+       "speaker": "Со́фья",
+       "gender": "f",
+       "ru": "Сейча́с ию́нь — бе́лые но́чи. Но́чью светло́, как днём!",
+       "tone": "enchanted"
+      },
+      {
+       "speaker": "Со́фья",
+       "gender": "f",
+       "ru": "Мои́ сосе́ди наверху́ — молоды́е и весёлые.",
+       "tone": "amused"
+      },
+      {
+       "speaker": "Со́фья",
+       "gender": "f",
+       "ru": "Они́ гуля́ют всю ночь и пою́т пе́сни.",
+       "tone": "smiling"
+      },
+      {
+       "speaker": "Со́фья",
+       "gender": "f",
+       "ru": "Сосе́д внизу́ — пенсионе́р. Он ворчи́т: «Почему́ так гро́мко?»",
+       "tone": "imitating a grumpy old man"
+      },
+      {
+       "speaker": "Со́фья",
+       "gender": "f",
+       "ru": "А я? Я оптими́стка. Я то́же гуля́ю!",
+       "tone": "cheerful"
+      },
+      {
+       "speaker": "Со́фья",
+       "gender": "f",
+       "ru": "Бе́лые но́чи — то́лько раз в году́!",
+       "tone": "joyful"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Со́фья",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "blond",
+       "hairStyle": "long",
+       "glasses": false,
+       "beard": false,
+       "top": "teal"
+      }
+     ],
+     "es": "Vivo en San Petersburgo, en el quinto piso.\nAhora es junio: noches blancas. ¡De noche hay luz como de día!\nMis vecinos de arriba son jóvenes y alegres.\nPasean toda la noche y cantan canciones.\nEl vecino de abajo es jubilado. Refunfuña: «¿Por qué tan fuerte?»\n¿Y yo? Soy optimista. ¡Yo también salgo a pasear!\n¡Las noches blancas son solo una vez al año!",
+     "questions": [
+      {
+       "q": "¿En qué piso vive Sofía?",
+       "choices": [
+        "En el quinto",
+        "En el primero",
+        "En el décimo"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cómo son los vecinos de arriba?",
+       "choices": [
+        "Jóvenes y alegres",
+        "Viejos y serios",
+        "Muy tranquilos"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué dice el vecino de abajo?",
+       "choices": [
+        "«¿Por qué tan fuerte?»",
+        "«¡Qué bonito!»",
+        "«¡Buenas noches!»"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "3.4-n-3",
+     "title": "La fiesta del patio",
+     "kind": "dialogue",
+     "scene": "The building manager and a Mexican neighbour plan a courtyard party, warm and funny",
+     "lines": [
+      {
+       "speaker": "Зо́я Ива́новна",
+       "gender": "f",
+       "ru": "Ка́рлос, в суббо́ту у нас пра́здник двора́!",
+       "tone": "bustling, cheerful"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Пра́здник? Кла́ссно! Что ну́жно?",
+       "tone": "eager"
+      },
+      {
+       "speaker": "Зо́я Ива́новна",
+       "gender": "f",
+       "ru": "Сосе́ди с тре́тьего этажа́ гото́вят пироги́.",
+       "tone": "organized"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "А я могу́ пригото́вить гуакамо́ле!",
+       "tone": "proud"
+      },
+      {
+       "speaker": "Зо́я Ива́новна",
+       "gender": "f",
+       "ru": "Гуакамо́ле? Что э́то, зелёный со́ус?",
+       "tone": "suspicious, curious"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Да, зелёный и о́чень вку́сный! И я принесу́ пинья́ту.",
+       "tone": "enthusiastic"
+      },
+      {
+       "speaker": "Зо́я Ива́новна",
+       "gender": "f",
+       "ru": "Пинья́ту? Кака́я она́?",
+       "tone": "puzzled"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Больша́я, кра́сная и жёлтая. Де́ти бу́дут в восто́рге!",
+       "tone": "excited"
+      },
+      {
+       "speaker": "Зо́я Ива́новна",
+       "gender": "f",
+       "ru": "Мне уже́ нра́вится!",
+       "tone": "won over, warm"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Зо́я Ива́новна",
+       "gender": "f",
+       "age": "old",
+       "skin": "light",
+       "hair": "gray",
+       "hairStyle": "short",
+       "glasses": true,
+       "beard": false,
+       "top": "ochre"
+      },
+      {
+       "name": "Ка́рлос",
+       "gender": "m",
+       "age": "young",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "curly",
+       "glasses": false,
+       "beard": true,
+       "top": "ochre"
+      }
+     ],
+     "es": "Carlos, ¡el sábado tenemos la fiesta del patio!\n¿Fiesta? ¡Genial! ¿Qué se necesita?\nLos vecinos del tercer piso preparan pays.\n¡Y yo puedo preparar guacamole!\n¿Guacamole? ¿Qué es eso, una salsa verde?\n¡Sí, verde y muy rico! Y traigo una piñata.\n¿Una piñata? ¿Cómo es?\nGrande, roja y amarilla. ¡Los niños van a estar encantados!\n¡Ya me gusta!",
+     "questions": [
+      {
+       "q": "¿Qué pasa el sábado?",
+       "choices": [
+        "La fiesta del patio",
+        "Una junta de vecinos",
+        "Una mudanza"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué prepara Carlos?",
+       "choices": [
+        "Guacamole",
+        "Pays",
+        "Borsch"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cómo es la piñata?",
+       "choices": [
+        "Grande, roja y amarilla",
+        "Pequeña y azul",
+        "Verde"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

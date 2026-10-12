@@ -1,0 +1,1301 @@
+{
+ "id": "listening-new-ch2",
+ "lessons": [
+  {
+   "id": "2.1",
+   "listening": [
+    {
+     "id": "2.1-n-1",
+     "title": "La maleta perdida",
+     "kind": "dialogue",
+     "scene": "Airport lost-luggage desk, worried traveller and calm clerk",
+     "lines": [
+      {
+       "speaker": "Сотру́дница",
+       "gender": "f",
+       "ru": "Здра́вствуйте! Что у вас в чемода́не?",
+       "tone": "calm, professional"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Там оде́жда, фотоаппара́т и пода́рки.",
+       "tone": "worried"
+      },
+      {
+       "speaker": "Сотру́дница",
+       "gender": "f",
+       "ru": "Како́й у вас чемода́н?",
+       "tone": "professional"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Он большо́й и кра́сный.",
+       "tone": "hopeful"
+      },
+      {
+       "speaker": "Сотру́дница",
+       "gender": "f",
+       "ru": "У вас есть биле́т?",
+       "tone": "professional"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Да, есть. Вот биле́т и па́спорт.",
+       "tone": "quick, eager"
+      },
+      {
+       "speaker": "Сотру́дница",
+       "gender": "f",
+       "ru": "Вот кра́сный чемода́н. Э́то ваш?",
+       "tone": "helpful"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Нет, не мой… Ой, да! Вот мой фотоаппара́т!",
+       "tone": "doubtful, then overjoyed"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Сотру́дница",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "black",
+       "hairStyle": "bun",
+       "glasses": false,
+       "beard": false,
+       "top": "blue"
+      },
+      {
+       "name": "Лупи́та",
+       "gender": "f",
+       "age": "young",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "long",
+       "glasses": false,
+       "beard": false,
+       "top": "red"
+      }
+     ],
+     "es": "Buenas tardes. ¿Qué tiene en su maleta?\nAhí hay ropa, una cámara y regalos.\n¿Cómo es su maleta?\nEs grande y roja.\n¿Tiene su boleto?\nSí. Aquí están el boleto y el pasaporte.\nAquí hay una maleta roja. ¿Es suya?\nNo, no es mía… ¡Ay, sí! ¡Aquí está mi cámara!",
+     "questions": [
+      {
+       "q": "¿Qué hay en la maleta?",
+       "choices": [
+        "Ropa, una cámara y regalos",
+        "Libros y comida",
+        "Solo ropa"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cómo es la maleta?",
+       "choices": [
+        "Grande y roja",
+        "Pequeña y negra",
+        "Grande y azul"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cómo sabe Lupita que es su maleta?",
+       "choices": [
+        "Ve su cámara",
+        "Ve su nombre",
+        "Ve su pasaporte"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "2.1-n-2",
+     "title": "El millonario sencillo",
+     "kind": "story",
+     "scene": "A modest millionaire talks about what really matters, thoughtful",
+     "lines": [
+      {
+       "speaker": "Вади́м",
+       "gender": "m",
+       "ru": "Меня́ зову́т Вади́м. Я миллионе́р.",
+       "tone": "calm, modest"
+      },
+      {
+       "speaker": "Вади́м",
+       "gender": "m",
+       "ru": "У меня́ есть ви́лла, но нет бассе́йна.",
+       "tone": "matter-of-fact"
+      },
+      {
+       "speaker": "Вади́м",
+       "gender": "m",
+       "ru": "У меня́ есть маши́на, но я люблю́ велосипе́д.",
+       "tone": "smiling"
+      },
+      {
+       "speaker": "Вади́м",
+       "gender": "m",
+       "ru": "У меня́ есть телефо́н, но он ста́рый.",
+       "tone": "amused"
+      },
+      {
+       "speaker": "Вади́м",
+       "gender": "m",
+       "ru": "Почему́? Потому́ что я не люблю́ ве́щи.",
+       "tone": "thoughtful"
+      },
+      {
+       "speaker": "Вади́м",
+       "gender": "m",
+       "ru": "Я люблю́ друзе́й, кни́ги и чай.",
+       "tone": "warm"
+      },
+      {
+       "speaker": "Вади́м",
+       "gender": "m",
+       "ru": "Э́то пра́вильно, да?",
+       "tone": "gentle question"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Вади́м",
+       "gender": "m",
+       "age": "adult",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "short",
+       "glasses": true,
+       "beard": false,
+       "top": "gray"
+      }
+     ],
+     "es": "Me llamo Vadim. Soy millonario.\nTengo una villa, pero no tengo alberca.\nTengo carro, pero me gusta la bicicleta.\nTengo teléfono, pero es viejo.\n¿Por qué? Porque no me gustan las cosas.\nMe gustan los amigos, los libros y el té.\nEso está bien, ¿no?",
+     "questions": [
+      {
+       "q": "¿Qué no tiene la villa de Vadim?",
+       "choices": [
+        "Alberca",
+        "Garage",
+        "Jardín"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cómo es su teléfono?",
+       "choices": [
+        "Viejo",
+        "Nuevo",
+        "Caro"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué le gusta a Vadim?",
+       "choices": [
+        "Los amigos, los libros y el té",
+        "Los carros caros",
+        "Las cosas nuevas"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "2.1-n-3",
+     "title": "¿Tienes cargador?",
+     "kind": "dialogue",
+     "scene": "Two classmates before class, comic surprise",
+     "lines": [
+      {
+       "speaker": "Ко́ля",
+       "gender": "m",
+       "ru": "Да́ша, у тебя́ есть заря́дка?",
+       "tone": "urgent"
+      },
+      {
+       "speaker": "Да́ша",
+       "gender": "f",
+       "ru": "Есть. А что, у тебя́ нет?",
+       "tone": "casual"
+      },
+      {
+       "speaker": "Ко́ля",
+       "gender": "m",
+       "ru": "Нет. Телефо́н — ноль проце́нтов!",
+       "tone": "dramatic"
+      },
+      {
+       "speaker": "Да́ша",
+       "gender": "f",
+       "ru": "Вот, пожа́луйста. А у тебя́ есть ру́чка?",
+       "tone": "helpful"
+      },
+      {
+       "speaker": "Ко́ля",
+       "gender": "m",
+       "ru": "Ру́чка? Да, вот. А заче́м?",
+       "tone": "puzzled"
+      },
+      {
+       "speaker": "Да́ша",
+       "gender": "f",
+       "ru": "У меня́ экза́мен!",
+       "tone": "nervous"
+      },
+      {
+       "speaker": "Ко́ля",
+       "gender": "m",
+       "ru": "Экза́мен? Сего́дня?",
+       "tone": "confused"
+      },
+      {
+       "speaker": "Да́ша",
+       "gender": "f",
+       "ru": "Да, сего́дня! Ты не зна́ешь? У тебя́ то́же!",
+       "tone": "surprised, laughing"
+      },
+      {
+       "speaker": "Ко́ля",
+       "gender": "m",
+       "ru": "Ой…",
+       "tone": "horrified"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ко́ля",
+       "gender": "m",
+       "age": "young",
+       "skin": "light",
+       "hair": "blond",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": false,
+       "top": "green"
+      },
+      {
+       "name": "Да́ша",
+       "gender": "f",
+       "age": "young",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "ponytail",
+       "glasses": false,
+       "beard": false,
+       "top": "green"
+      }
+     ],
+     "es": "Dasha, ¿tienes cargador?\nSí. ¿Por qué, tú no tienes?\nNo. ¡El teléfono está en cero por ciento!\nAquí tienes. ¿Y tú tienes pluma?\n¿Pluma? Sí, aquí. ¿Para qué?\n¡Tengo examen!\n¿Examen? ¿Hoy?\n¡Sí, hoy! ¿No sabías? ¡Tú también tienes!\nAy…",
+     "questions": [
+      {
+       "q": "¿Qué necesita Kolia?",
+       "choices": [
+        "Un cargador",
+        "Una pluma",
+        "Un libro"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué le pide Dasha?",
+       "choices": [
+        "Una pluma",
+        "Un cargador",
+        "Un teléfono"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué descubre Kolia?",
+       "choices": [
+        "Que él también tiene examen",
+        "Que perdió su teléfono",
+        "Que hoy no hay clase"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2",
+   "listening": [
+    {
+     "id": "2.2-n-1",
+     "title": "El álbum de la abuela",
+     "kind": "dialogue",
+     "scene": "Grandmother and grandson looking at old family photos, tender",
+     "lines": [
+      {
+       "speaker": "Ми́тя",
+       "gender": "m",
+       "ru": "Ба́бушка, кто э́то на фо́то?",
+       "tone": "curious child"
+      },
+      {
+       "speaker": "Ба́бушка Тама́ра",
+       "gender": "f",
+       "ru": "Э́то мой па́па, твой праде́душка.",
+       "tone": "tender, nostalgic"
+      },
+      {
+       "speaker": "Ми́тя",
+       "gender": "m",
+       "ru": "А э́то кто? Кака́я краси́вая!",
+       "tone": "impressed"
+      },
+      {
+       "speaker": "Ба́бушка Тама́ра",
+       "gender": "f",
+       "ru": "Э́то я! А э́то мой брат Ко́ля.",
+       "tone": "laughing, flattered"
+      },
+      {
+       "speaker": "Ми́тя",
+       "gender": "m",
+       "ru": "А чья э́то соба́ка?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Ба́бушка Тама́ра",
+       "gender": "f",
+       "ru": "Э́то на́ша соба́ка Ша́рик.",
+       "tone": "fond"
+      },
+      {
+       "speaker": "Ми́тя",
+       "gender": "m",
+       "ru": "А где ма́ма?",
+       "tone": "searching"
+      },
+      {
+       "speaker": "Ба́бушка Тама́ра",
+       "gender": "f",
+       "ru": "Ма́ма? Вот она́, ма́ленькая! Ей здесь три го́да.",
+       "tone": "loving"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ми́тя",
+       "gender": "m",
+       "age": "child",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": false,
+       "top": "blue"
+      },
+      {
+       "name": "Ба́бушка Тама́ра",
+       "gender": "f",
+       "age": "old",
+       "skin": "light",
+       "hair": "gray",
+       "hairStyle": "bun",
+       "glasses": true,
+       "beard": false,
+       "top": "teal"
+      }
+     ],
+     "es": "Abuela, ¿quién es el de la foto?\nEs mi papá, tu bisabuelo.\n¿Y quién es ella? ¡Qué bonita!\n¡Soy yo! Y este es mi hermano Kolia.\n¿Y de quién es el perro?\nEs nuestro perro Shárik.\n¿Y dónde está mamá?\n¿Mamá? ¡Aquí está, chiquita! Aquí tiene tres años.",
+     "questions": [
+      {
+       "q": "¿Quién es el hombre de la primera foto?",
+       "choices": [
+        "El papá de la abuela",
+        "El abuelo de Mitia",
+        "El hermano de la abuela"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cómo se llama el perro?",
+       "choices": [
+        "Shárik",
+        "Kolia",
+        "Bársik"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cuántos años tiene mamá en la foto?",
+       "choices": [
+        "Tres",
+        "Trece",
+        "Treinta"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "2.2-n-2",
+     "title": "Mi familia de Puebla",
+     "kind": "story",
+     "scene": "A Mexican student proudly describes his big family",
+     "lines": [
+      {
+       "speaker": "Луи́с",
+       "gender": "m",
+       "ru": "Приве́т! Я Луи́с, я из Пу́эблы.",
+       "tone": "cheerful"
+      },
+      {
+       "speaker": "Луи́с",
+       "gender": "m",
+       "ru": "У меня́ больша́я семья́.",
+       "tone": "proud"
+      },
+      {
+       "speaker": "Луи́с",
+       "gender": "m",
+       "ru": "Мой па́па — врач, а моя́ ма́ма — учи́тельница.",
+       "tone": "informative"
+      },
+      {
+       "speaker": "Луи́с",
+       "gender": "m",
+       "ru": "У меня́ два бра́та и одна́ сестра́.",
+       "tone": "counting"
+      },
+      {
+       "speaker": "Луи́с",
+       "gender": "m",
+       "ru": "Моя́ ба́бушка живёт с на́ми. Она́ гото́вит моле́!",
+       "tone": "delighted"
+      },
+      {
+       "speaker": "Луи́с",
+       "gender": "m",
+       "ru": "А э́то наш попуга́й Пе́дро. Он говори́т по-испа́нски!",
+       "tone": "laughing"
+      },
+      {
+       "speaker": "Луи́с",
+       "gender": "m",
+       "ru": "А ва́ша семья́ больша́я?",
+       "tone": "friendly question"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Луи́с",
+       "gender": "m",
+       "age": "young",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": false,
+       "top": "red"
+      }
+     ],
+     "es": "¡Hola! Soy Luis, soy de Puebla.\nTengo una familia grande.\nMi papá es doctor y mi mamá es maestra.\nTengo dos hermanos y una hermana.\nMi abuela vive con nosotros. ¡Cocina mole!\nY este es nuestro perico Pedro. ¡Habla español!\n¿Y su familia es grande?",
+     "questions": [
+      {
+       "q": "¿Qué es la mamá de Luis?",
+       "choices": [
+        "Maestra",
+        "Doctora",
+        "Cocinera"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cuántos hermanos tiene Luis?",
+       "choices": [
+        "Dos hermanos y una hermana",
+        "Un hermano",
+        "Tres hermanas"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Quién es Pedro?",
+       "choices": [
+        "Un perico",
+        "Su hermano",
+        "Su abuelo"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "2.2-n-3",
+     "title": "Objetos perdidos",
+     "kind": "dialogue",
+     "scene": "Teacher sorts lost things after class with a pupil, funny ending",
+     "lines": [
+      {
+       "speaker": "Ма́рья Ива́новна",
+       "gender": "f",
+       "ru": "Де́ти, чей э́то рюкза́к?",
+       "tone": "teacherly"
+      },
+      {
+       "speaker": "Со́ня",
+       "gender": "f",
+       "ru": "Э́то мой рюкза́к! Спаси́бо!",
+       "tone": "happy child"
+      },
+      {
+       "speaker": "Ма́рья Ива́новна",
+       "gender": "f",
+       "ru": "А чья э́то ку́ртка?",
+       "tone": "teacherly"
+      },
+      {
+       "speaker": "Со́ня",
+       "gender": "f",
+       "ru": "Э́то ку́ртка Макси́ма.",
+       "tone": "sure"
+      },
+      {
+       "speaker": "Ма́рья Ива́новна",
+       "gender": "f",
+       "ru": "А чьё э́то я́блоко?",
+       "tone": "puzzled"
+      },
+      {
+       "speaker": "Со́ня",
+       "gender": "f",
+       "ru": "Не зна́ю… Мо́жет, э́то ва́ше?",
+       "tone": "shy"
+      },
+      {
+       "speaker": "Ма́рья Ива́новна",
+       "gender": "f",
+       "ru": "Моё? Нет! А чьи э́то очки́?",
+       "tone": "confused"
+      },
+      {
+       "speaker": "Со́ня",
+       "gender": "f",
+       "ru": "Ма́рья Ива́новна, э́то ва́ши очки́! Они́ у вас на голове́!",
+       "tone": "giggling"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ма́рья Ива́новна",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "bun",
+       "glasses": false,
+       "beard": false,
+       "top": "ochre"
+      },
+      {
+       "name": "Со́ня",
+       "gender": "f",
+       "age": "child",
+       "skin": "light",
+       "hair": "blond",
+       "hairStyle": "ponytail",
+       "glasses": false,
+       "beard": false,
+       "top": "red"
+      }
+     ],
+     "es": "Niños, ¿de quién es esta mochila?\n¡Es mi mochila! ¡Gracias!\n¿Y de quién es esta chamarra?\nEs la chamarra de Maxim.\n¿Y de quién es esta manzana?\nNo sé… ¿Tal vez es suya?\n¿Mía? ¡No! ¿Y de quién son estos lentes?\nMaría Ivánovna, ¡son sus lentes! ¡Los tiene en la cabeza!",
+     "questions": [
+      {
+       "q": "¿De quién es la mochila?",
+       "choices": [
+        "De Sonia",
+        "De Maxim",
+        "De la maestra"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿De quién es la chamarra?",
+       "choices": [
+        "De Maxim",
+        "De Sonia",
+        "De la maestra"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde están los lentes de la maestra?",
+       "choices": [
+        "En su cabeza",
+        "En la mesa",
+        "En la mochila"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3",
+   "listening": [
+    {
+     "id": "2.3-n-1",
+     "title": "Noche de karaoke",
+     "kind": "dialogue",
+     "scene": "Friends choosing songs at a karaoke bar, fun and lively",
+     "lines": [
+      {
+       "speaker": "Оле́ся",
+       "gender": "f",
+       "ru": "Ка́рлос, ты лю́бишь карао́ке?",
+       "tone": "playful"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "О́чень! Я всегда́ пою́ «Бе́саме му́чо».",
+       "tone": "enthusiastic"
+      },
+      {
+       "speaker": "Оле́ся",
+       "gender": "f",
+       "ru": "А я люблю́ ру́сские пе́сни.",
+       "tone": "warm"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Каки́е?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Оле́ся",
+       "gender": "f",
+       "ru": "«Катю́ша»! Ты зна́ешь?",
+       "tone": "excited"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Коне́чно, зна́ю! Дава́й вме́сте!",
+       "tone": "eager"
+      },
+      {
+       "speaker": "Оле́ся",
+       "gender": "f",
+       "ru": "Дава́й! А пото́м «Бе́саме му́чо»!",
+       "tone": "laughing"
+      },
+      {
+       "speaker": "Ка́рлос",
+       "gender": "m",
+       "ru": "Отли́чно! Ты поёшь по-испа́нски?",
+       "tone": "surprised"
+      },
+      {
+       "speaker": "Оле́ся",
+       "gender": "f",
+       "ru": "Немно́го. Но я о́чень люблю́ э́ту пе́сню!",
+       "tone": "sincere"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Оле́ся",
+       "gender": "f",
+       "age": "young",
+       "skin": "light",
+       "hair": "red",
+       "hairStyle": "curly",
+       "glasses": false,
+       "beard": false,
+       "top": "teal"
+      },
+      {
+       "name": "Ка́рлос",
+       "gender": "m",
+       "age": "young",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "curly",
+       "glasses": false,
+       "beard": true,
+       "top": "ochre"
+      }
+     ],
+     "es": "Carlos, ¿te gusta el karaoke?\n¡Mucho! Siempre canto «Bésame mucho».\nY a mí me gustan las canciones rusas.\n¿Cuáles?\n¡«Katiusha»! ¿La conoces?\n¡Claro que la conozco! ¡Cantemos juntos!\n¡Va! ¡Y luego «Bésame mucho»!\n¡Excelente! ¿Cantas en español?\nUn poco. ¡Pero me encanta esa canción!",
+     "questions": [
+      {
+       "q": "¿Qué canta siempre Carlos?",
+       "choices": [
+        "«Bésame mucho»",
+        "«Katiusha»",
+        "Una canción en inglés"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué canciones le gustan a Olesia?",
+       "choices": [
+        "Las canciones rusas",
+        "Las canciones en inglés",
+        "El rock"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué deciden hacer?",
+       "choices": [
+        "Cantar juntos",
+        "Ver una película",
+        "Jugar cartas"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "2.3-n-2",
+     "title": "Un domingo ruidoso",
+     "kind": "story",
+     "scene": "A teenage girl describes her noisy family Sunday, ironic but loving",
+     "lines": [
+      {
+       "speaker": "Ле́на",
+       "gender": "f",
+       "ru": "В воскресе́нье у нас до́ма ти́хо… Нет!",
+       "tone": "ironic"
+      },
+      {
+       "speaker": "Ле́на",
+       "gender": "f",
+       "ru": "Па́па смо́трит футбо́л и кричи́т: «Гол!»",
+       "tone": "imitating dad"
+      },
+      {
+       "speaker": "Ле́на",
+       "gender": "f",
+       "ru": "Ма́ма слу́шает рок и танцу́ет на ку́хне.",
+       "tone": "amused"
+      },
+      {
+       "speaker": "Ле́на",
+       "gender": "f",
+       "ru": "Мой брат игра́ет на гита́ре. О́чень гро́мко!",
+       "tone": "exasperated"
+      },
+      {
+       "speaker": "Ле́на",
+       "gender": "f",
+       "ru": "Ба́бушка и де́душка игра́ют в ка́рты.",
+       "tone": "fond"
+      },
+      {
+       "speaker": "Ле́на",
+       "gender": "f",
+       "ru": "А я? Я де́лаю дома́шнее зада́ние. Э́то кошма́р!",
+       "tone": "dramatic sigh"
+      },
+      {
+       "speaker": "Ле́на",
+       "gender": "f",
+       "ru": "Но я люблю́ воскресе́нье!",
+       "tone": "warm, smiling"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ле́на",
+       "gender": "f",
+       "age": "child",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "ponytail",
+       "glasses": false,
+       "beard": false,
+       "top": "ochre"
+      }
+     ],
+     "es": "El domingo en casa hay silencio… ¡No!\nPapá ve el futbol y grita: «¡Gol!»\nMamá escucha rock y baila en la cocina.\nMi hermano toca la guitarra. ¡Muy fuerte!\nLa abuela y el abuelo juegan cartas.\n¿Y yo? Hago la tarea. ¡Es una pesadilla!\n¡Pero me encanta el domingo!",
+     "questions": [
+      {
+       "q": "¿Qué hace papá?",
+       "choices": [
+        "Ve el futbol",
+        "Escucha rock",
+        "Juega cartas"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué hace mamá?",
+       "choices": [
+        "Escucha rock y baila",
+        "Cocina",
+        "Lee un libro"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué hace Lena?",
+       "choices": [
+        "La tarea",
+        "Toca la guitarra",
+        "Ve el futbol"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "2.3-n-3",
+     "title": "¿Qué está leyendo?",
+     "kind": "dialogue",
+     "scene": "A Mexican student and an elderly passenger chat on the metro about books",
+     "lines": [
+      {
+       "speaker": "Пассажи́р",
+       "gender": "m",
+       "ru": "Извини́те, что вы чита́ете?",
+       "tone": "polite, curious"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Я чита́ю Пу́шкина. По-ру́сски!",
+       "tone": "proud"
+      },
+      {
+       "speaker": "Пассажи́р",
+       "gender": "m",
+       "ru": "По-ру́сски? Молоде́ц! Э́то тру́дно?",
+       "tone": "impressed"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Да, о́чень. Но я люблю́ Пу́шкина.",
+       "tone": "sincere"
+      },
+      {
+       "speaker": "Пассажи́р",
+       "gender": "m",
+       "ru": "А что вы ещё чита́ете?",
+       "tone": "interested"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "До́ма я чита́ю Ма́ркеса, по-испа́нски.",
+       "tone": "friendly"
+      },
+      {
+       "speaker": "Пассажи́р",
+       "gender": "m",
+       "ru": "Ма́ркес! Я то́же его́ люблю́. «Сто лет одино́чества»!",
+       "tone": "delighted"
+      },
+      {
+       "speaker": "Лупи́та",
+       "gender": "f",
+       "ru": "Вы чита́ете по-испа́нски?",
+       "tone": "surprised"
+      },
+      {
+       "speaker": "Пассажи́р",
+       "gender": "m",
+       "ru": "Нет, по-ру́сски, коне́чно!",
+       "tone": "chuckling"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Пассажи́р",
+       "gender": "m",
+       "age": "old",
+       "skin": "light",
+       "hair": "gray",
+       "hairStyle": "short",
+       "glasses": true,
+       "beard": true,
+       "top": "blue"
+      },
+      {
+       "name": "Лупи́та",
+       "gender": "f",
+       "age": "young",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "long",
+       "glasses": false,
+       "beard": false,
+       "top": "red"
+      }
+     ],
+     "es": "Disculpe, ¿qué está leyendo?\nLeo a Pushkin. ¡En ruso!\n¿En ruso? ¡Bravo! ¿Es difícil?\nSí, mucho. Pero me encanta Pushkin.\n¿Y qué más lee?\nEn casa leo a García Márquez, en español.\n¡Márquez! A mí también me encanta. ¡«Cien años de soledad»!\n¿Usted lee en español?\n¡No, en ruso, claro!",
+     "questions": [
+      {
+       "q": "¿Qué lee Lupita en el metro?",
+       "choices": [
+        "A Pushkin",
+        "A García Márquez",
+        "Una revista"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué lee en casa?",
+       "choices": [
+        "A García Márquez",
+        "A Pushkin",
+        "A Tolstói"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿En qué idioma lee el señor a Márquez?",
+       "choices": [
+        "En ruso",
+        "En español",
+        "En inglés"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.4",
+   "listening": [
+    {
+     "id": "2.4-n-1",
+     "title": "Cita a ciegas",
+     "kind": "dialogue",
+     "scene": "First date in a café, a little awkward then charming",
+     "lines": [
+      {
+       "speaker": "Ди́ма",
+       "gender": "m",
+       "ru": "Приве́т! Ты Али́на?",
+       "tone": "nervous"
+      },
+      {
+       "speaker": "Али́на",
+       "gender": "f",
+       "ru": "Да! А ты Ди́ма. Ты бухга́лтер, да?",
+       "tone": "friendly, teasing"
+      },
+      {
+       "speaker": "Ди́ма",
+       "gender": "m",
+       "ru": "Да, но я не ску́чный! Я люблю́ гото́вить.",
+       "tone": "defensive, funny"
+      },
+      {
+       "speaker": "Али́на",
+       "gender": "f",
+       "ru": "Пра́вда? А что ты гото́вишь?",
+       "tone": "interested"
+      },
+      {
+       "speaker": "Ди́ма",
+       "gender": "m",
+       "ru": "Борщ, пельме́ни и… тако́с!",
+       "tone": "proud"
+      },
+      {
+       "speaker": "Али́на",
+       "gender": "f",
+       "ru": "Тако́с? Кла́ссно! А я изуча́ю испа́нский.",
+       "tone": "excited"
+      },
+      {
+       "speaker": "Ди́ма",
+       "gender": "m",
+       "ru": "Пра́вда? Ты лю́бишь Ме́ксику?",
+       "tone": "surprised"
+      },
+      {
+       "speaker": "Али́на",
+       "gender": "f",
+       "ru": "О́чень! Дава́й гото́вить тако́с вме́сте!",
+       "tone": "warm"
+      },
+      {
+       "speaker": "Ди́ма",
+       "gender": "m",
+       "ru": "Гениа́льная иде́я!",
+       "tone": "happy"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ди́ма",
+       "gender": "m",
+       "age": "young",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": false,
+       "top": "gray"
+      },
+      {
+       "name": "Али́на",
+       "gender": "f",
+       "age": "young",
+       "skin": "light",
+       "hair": "black",
+       "hairStyle": "long",
+       "glasses": false,
+       "beard": false,
+       "top": "red"
+      }
+     ],
+     "es": "¡Hola! ¿Eres Alina?\n¡Sí! Y tú eres Dima. Eres contador, ¿no?\nSí, ¡pero no soy aburrido! Me encanta cocinar.\n¿En serio? ¿Y qué cocinas?\nBorsch, pelmeni y… ¡tacos!\n¿Tacos? ¡Genial! Yo estudio español.\n¿En serio? ¿Te gusta México?\n¡Mucho! ¡Cocinemos tacos juntos!\n¡Idea genial!",
+     "questions": [
+      {
+       "q": "¿Qué es Dima?",
+       "choices": [
+        "Contador",
+        "Cocinero",
+        "Mecánico"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué estudia Alina?",
+       "choices": [
+        "Español",
+        "Arquitectura",
+        "Cocina"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué quieren hacer juntos?",
+       "choices": [
+        "Cocinar tacos",
+        "Ir al cine",
+        "Pasear"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "2.4-n-2",
+     "title": "La abuela no se aburre",
+     "kind": "story",
+     "scene": "An energetic seventy-year-old lists her weekly hobbies, proud and funny",
+     "lines": [
+      {
+       "speaker": "Ве́ра Петро́вна",
+       "gender": "f",
+       "ru": "Мне се́мьдесят лет, но я не сижу́ до́ма!",
+       "tone": "energetic"
+      },
+      {
+       "speaker": "Ве́ра Петро́вна",
+       "gender": "f",
+       "ru": "В понеде́льник я изуча́ю англи́йский.",
+       "tone": "brisk"
+      },
+      {
+       "speaker": "Ве́ра Петро́вна",
+       "gender": "f",
+       "ru": "Во вто́рник я танцу́ю та́нго.",
+       "tone": "flirtatious"
+      },
+      {
+       "speaker": "Ве́ра Петро́вна",
+       "gender": "f",
+       "ru": "В сре́ду мы с подру́гой гуля́ем в па́рке.",
+       "tone": "calm"
+      },
+      {
+       "speaker": "Ве́ра Петро́вна",
+       "gender": "f",
+       "ru": "В суббо́ту я игра́ю в ша́хматы. Я всегда́ выи́грываю!",
+       "tone": "triumphant"
+      },
+      {
+       "speaker": "Ве́ра Петро́вна",
+       "gender": "f",
+       "ru": "Мой муж говори́т: «Ты ге́ний!»",
+       "tone": "proud"
+      },
+      {
+       "speaker": "Ве́ра Петро́вна",
+       "gender": "f",
+       "ru": "А вы? Что вы лю́бите де́лать?",
+       "tone": "inviting"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ве́ра Петро́вна",
+       "gender": "f",
+       "age": "old",
+       "skin": "light",
+       "hair": "gray",
+       "hairStyle": "short",
+       "glasses": true,
+       "beard": false,
+       "top": "red"
+      }
+     ],
+     "es": "Tengo setenta años, ¡pero no me quedo en casa!\nLos lunes estudio inglés.\nLos martes bailo tango.\nLos miércoles paseo con mi amiga en el parque.\nLos sábados juego ajedrez. ¡Siempre gano!\nMi esposo dice: «¡Eres un genio!»\n¿Y ustedes? ¿Qué les gusta hacer?",
+     "questions": [
+      {
+       "q": "¿Qué hace los martes?",
+       "choices": [
+        "Baila tango",
+        "Estudia inglés",
+        "Juega ajedrez"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué juega los sábados?",
+       "choices": [
+        "Ajedrez",
+        "Cartas",
+        "Tenis"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cuántos años tiene?",
+       "choices": [
+        "Setenta",
+        "Diecisiete",
+        "Sesenta"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "2.4-n-3",
+     "title": "El coleccionista de matrioshkas",
+     "kind": "dialogue",
+     "scene": "Radio interview with a Mexican collector, amused host",
+     "lines": [
+      {
+       "speaker": "Веду́щая",
+       "gender": "f",
+       "ru": "Гаэ́ль, како́е у вас хо́бби?",
+       "tone": "radio host"
+      },
+      {
+       "speaker": "Гаэ́ль",
+       "gender": "m",
+       "ru": "Я собира́ю матрёшки.",
+       "tone": "proud"
+      },
+      {
+       "speaker": "Веду́щая",
+       "gender": "f",
+       "ru": "Матрёшки? Ско́лько их у вас?",
+       "tone": "surprised"
+      },
+      {
+       "speaker": "Гаэ́ль",
+       "gender": "m",
+       "ru": "Сто два́дцать!",
+       "tone": "triumphant"
+      },
+      {
+       "speaker": "Веду́щая",
+       "gender": "f",
+       "ru": "Ого́! А где они́?",
+       "tone": "amazed"
+      },
+      {
+       "speaker": "Гаэ́ль",
+       "gender": "m",
+       "ru": "До́ма, в Ме́хико. Моя́ жена́ говори́т, что э́то кошма́р!",
+       "tone": "laughing"
+      },
+      {
+       "speaker": "Веду́щая",
+       "gender": "f",
+       "ru": "Вы жена́ты? А у жены́ есть хо́бби?",
+       "tone": "curious"
+      },
+      {
+       "speaker": "Гаэ́ль",
+       "gender": "m",
+       "ru": "Да! Она́ гото́вит пельме́ни. Ру́сские пельме́ни в Ме́хико!",
+       "tone": "delighted"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Веду́щая",
+       "gender": "f",
+       "age": "adult",
+       "skin": "light",
+       "hair": "blond",
+       "hairStyle": "bun",
+       "glasses": false,
+       "beard": false,
+       "top": "teal"
+      },
+      {
+       "name": "Гаэ́ль",
+       "gender": "m",
+       "age": "adult",
+       "skin": "medium",
+       "hair": "black",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": false,
+       "top": "green"
+      }
+     ],
+     "es": "Gael, ¿cuál es su pasatiempo?\nColecciono matrioshkas.\n¿Matrioshkas? ¿Cuántas tiene?\n¡Ciento veinte!\n¡Vaya! ¿Y dónde están?\nEn casa, en la Ciudad de México. ¡Mi esposa dice que es una pesadilla!\n¿Es casado? ¿Y su esposa tiene un pasatiempo?\n¡Sí! Cocina pelmeni. ¡Pelmeni rusos en la Ciudad de México!",
+     "questions": [
+      {
+       "q": "¿Qué colecciona Gael?",
+       "choices": [
+        "Matrioshkas",
+        "Discos",
+        "Fotos"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cuántas tiene?",
+       "choices": [
+        "Ciento veinte",
+        "Doce",
+        "Veinte"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué cocina su esposa?",
+       "choices": [
+        "Pelmeni",
+        "Tacos",
+        "Borsch"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
