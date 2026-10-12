@@ -88,7 +88,9 @@ def main() -> None:
         latin = stray_latin(b, a)
         too_long = len(b) > len(a) * 1.35 + 8
         ok = score >= 0.78 and not latin and not too_long
-        if job.get("single"):  # one word: Whisper's spelling of isolated words is unreliable; only catch artifacts
+        if job.get("fromList"):  # cut from a list recording: make sure the clip holds *this* word, not its neighbour
+            ok = score >= 0.5 and not latin and not too_long
+        elif job.get("single"):  # one word: Whisper's spelling of isolated words is unreliable; only catch artifacts
             ok = not latin and not too_long and len(b.split()) <= len(a.split()) + 2
         entry = {"file": job["file"], "heard": heard, "score": round(score, 3), "latin": latin, "tooLong": too_long, "ok": ok}
         if starts is not None:

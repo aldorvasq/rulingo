@@ -5,7 +5,7 @@
 // resumes where it stopped. Priority: listening → readings → sentences → phrases → words & their examples.
 // Anything not yet re-recorded keeps its earlier Wavenet recording (public/audio/wavenet-manifest.json).
 //
-// Clips: public/audio/c2/<key>.mp3 (Kore/Puck). Listening: public/audio/l/<id>-g38-<key>.mp3 — one or two
+// Clips: public/audio/c2/<key>.mp3 (Kore/Puck); single words are read ~20 per request as a list and cut at the pauses. Listening: public/audio/l/<id>-g38-<key>.mp3 — one or two
 // speakers → one conversational request; more → consecutive two-speaker stretches joined with pauses.
 // Every new file is transcribed with Whisper (qa_check.py): instructions read aloud or extra/missing words
 // → regenerated on a later run; Whisper also gives each line's start time for the transcript, and a character
@@ -78,7 +78,7 @@ const all = [...prio.keys()].sort((a, b) => prio.get(a)! - prio.get(b)! || a.loc
 
 // ---------------------------------------------------------------- QA bookkeeping
 const QA_FILE = join(CACHE, 'qa38.json')
-const qa: Record<string, { ok: boolean; tries: number; starts?: number[] }> = existsSync(QA_FILE) ? JSON.parse(readFileSync(QA_FILE, 'utf8')) : {}
+const qa: Record<string, { ok: boolean; tries: number; starts?: number[]; listFail?: boolean; fromList?: boolean }> = existsSync(QA_FILE) ? JSON.parse(readFileSync(QA_FILE, 'utf8')) : {}
 const clipFile = (t: string) => join(OUT, CLIP_DIR, `${audioKey(t)}.mp3`)
 const clipDone = (t: string) => existsSync(clipFile(t)) && qa[clipFile(t)]?.ok
 const clipNeeds = (t: string) => !existsSync(clipFile(t)) || (!qa[clipFile(t)]?.ok && (qa[clipFile(t)]?.tries ?? 0) < 3)
@@ -166,7 +166,7 @@ async function tts(turns: Turn[], speech: unknown, mp3: string): Promise<boolean
   return false
 }
 
-function runQa(jobs: { file: string; text: string; lines?: string[]; speakers?: string[]; single?: boolean }[]) {
+function runQa(jobs: { file: string; text: string; lines?: string[]; speakers?: string[]; single?: boolean; fromList?: boolean }[]) {
   jobs = jobs.filter((j) => existsSync(j.file))
   if (!jobs.length) return
   const jf = join(CACHE, 'qa-jobs.json')
@@ -174,7 +174,7 @@ function runQa(jobs: { file: string; text: string; lines?: string[]; speakers?: 
   writeFileSync(jf, JSON.stringify(jobs))
   execFileSync(join(ROOT, '.venv-transcribe', 'bin', 'python'), [join(import.meta.dirname, 'qa_check.py'), jf, rf], { stdio: ['ignore', 'ignore', 'ignore'] })
   const res = JSON.parse(readFileSync(rf, 'utf8')) as { ok: boolean; starts?: number[] }[]
-  jobs.forEach((j, i) => { qa[j.file] = { ok: res[i].ok, tries: (qa[j.file]?.tries ?? 0) + 1, starts: res[i].starts } })
+  jobs.forEach((j, i) => { qa[j.file] = { ok: res[i].ok, tries: (qa[j.file]?.tries ?? 0) + 1, starts: res[i].starts, ...(j.fromList ? { fromList: true } : {}) } })
   writeFileSync(QA_FILE, JSON.stringify(qa))
 }
 
@@ -236,13 +236,66 @@ const clipStyle = (t: string) => isSingle(t)
   ? 'Clear, natural pronunciation for a language learner; native Russian speaker; follow the stress marks exactly.'
   : 'Natural, friendly conversational Russian, clear for a learner; follow the stress marks exactly.'
 const madeClips: string[] = []
+const listClips: string[] = []
+
+// 2a. Single words in batches: one request reads ~20 words as a list, cut at the pauses into one clip per word.
+// (Tested on 2026-10-12 with stress minimal pairs read back to back: every word clean and correctly stressed.)
+const BATCH = 20
+const batchable = (t: string) => isSingle(t) && !/[,;:—/()«»]/.test(t.replace(/[.!?]+$/, '')) && !qa[clipFile(t)]?.listFail
+const LIST_STYLE = [
+  'Recording isolated dictionary headwords for a pronunciation app; native Russian speaker, clear studio voice.',
+  'Say every line as its own complete one-word utterance, exactly as if it were the only word being recorded:',
+  'the same calm, neutral, gently falling intonation on every word. Never use list intonation: no rising tone,',
+  'no trailing off, no speeding up, no change in energy from the first word to the last.',
+  'After every word, stay completely silent for about one and a half seconds before the next one.',
+  'Pronounce each word in full citation form, following its stress mark (acute accent) exactly.',
+  'Neighbouring words may differ only in stress; they are different words, so give each its own stress.',
+  'Say each word exactly once. Do not add, skip or repeat anything, and say nothing else.',
+].join(' ')
+const asLine = (t: string) => `${t[0].toUpperCase()}${t.slice(1)}${/[.!?]$/.test(t) ? '' : '.'}`
+
+/** Cut a list recording at its N-1 longest pauses into the given clip files; false if the pauses don't add up. */
+function splitList(file: string, outs: string[]): boolean {
+  const log = execFileSync('sh', ['-c', `ffmpeg -hide_banner -i "${file}" -af silencedetect=noise=-38dB:d=0.25 -f null - 2>&1`]).toString()
+  const starts = [...log.matchAll(/silence_start: ([\d.]+)/g)].map((m) => +m[1])
+  const ends = [...log.matchAll(/silence_end: ([\d.]+)/g)].map((m) => +m[1])
+  const total = duration(file)
+  const inner = ends.map((e, i) => ({ s: starts[i], e })).filter((g) => g.s > 0.05 && g.e < total - 0.05)
+  if (inner.length < outs.length - 1) return false
+  const cuts = [...inner].sort((a, b) => (b.e - b.s) - (a.e - a.s)).slice(0, outs.length - 1).sort((a, b) => a.s - b.s)
+  const bounds = [[0, cuts[0]?.s ?? total], ...cuts.slice(1).map((c, i) => [cuts[i].e, c.s]), ...(cuts.length ? [[cuts.at(-1)!.e, total]] : [])]
+  if (bounds.some(([a, b]) => b - a < 0.25 || b - a > 4)) return false
+  bounds.forEach(([a, b], i) => execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', file, '-ss', String(Math.max(0, a - 0.08)), '-to', String(b + 0.12),
+    '-af', 'afade=t=in:d=0.02,areverse,afade=t=in:d=0.04,areverse', '-ac', '1', '-ar', '24000', '-b:a', '48k', outs[i]]))
+  return true
+}
+
+for (const voice of ['Kore', 'Puck']) {
+  const words = leftClips.filter((t) => batchable(t) && (hashNum(t) % 2 ? 'Puck' : 'Kore') === voice)
+  for (let i = 0; i < words.length && !stopped; i += BATCH) {
+    const group = words.slice(i, i + BATCH)
+    const whole = join(CACHE, 'segments', `list-${audioKey(voice + group.join('|'))}.mp3`)
+    if (!(await tts([{ text: group.map(asLine).join('\n'), style: LIST_STYLE }], [{ voice }], whole))) break
+    audioSeconds -= 0.4 * group.length // pauses between words aren't speech
+    if (splitList(whole, group.map(clipFile))) { listClips.push(...group); process.stdout.write('▤') }
+    else { for (const t of group) qa[clipFile(t)] = { ...qa[clipFile(t)], ok: false, tries: qa[clipFile(t)]?.tries ?? 0, listFail: true }; process.stdout.write('×') }
+  }
+}
+writeFileSync(QA_FILE, JSON.stringify(qa))
+
+// 2b. Everything else (and words whose list didn't split cleanly): one request per clip.
+const listed = new Set(listClips)
 for (const t of leftClips) {
   if (stopped) break
+  if (listed.has(t) || batchable(t)) continue
   if (await tts([{ text: t, style: clipStyle(t) }], [{ voice: hashNum(t) % 2 ? 'Puck' : 'Kore' }], clipFile(t))) madeClips.push(t)
 }
-if (madeClips.length) {
-  console.log(`Revisando ${madeClips.length} clips con Whisper…`)
-  runQa(madeClips.map((t) => ({ file: clipFile(t), text: t, single: isSingle(t) })))
+if (madeClips.length || listClips.length) {
+  console.log(`\nRevisando ${madeClips.length + listClips.length} clips con Whisper…`)
+  runQa([
+    ...listClips.map((t) => ({ file: clipFile(t), text: t, fromList: true })),
+    ...madeClips.map((t) => ({ file: clipFile(t), text: t, single: isSingle(t) })),
+  ])
 }
 
 // ---------------------------------------------------------------- manifest: Gemini where verified, else Wavenet
