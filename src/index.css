@@ -175,3 +175,52 @@ body {
     #fffdf6;
 }
 :root[data-theme="dark"] .paper { background-color: #fffdf6; }
+
+/* Route murals: gentle ambient motion (off when the user prefers reduced motion). */
+@media (prefers-reduced-motion: no-preference) {
+  .mural .m-drift { animation: m-drift 40s linear infinite alternate; }
+  .mural .m-twinkle { animation: m-twinkle 2.4s ease-in-out infinite; }
+  .mural .m-glow { animation: m-glow 3s ease-in-out infinite; }
+  .mural .m-jet { animation: m-jet 1.6s ease-in-out infinite; transform-origin: center bottom; transform-box: fill-box; }
+  .mural .m-boat { animation: m-boat 26s ease-in-out infinite alternate; }
+  .mural .m-bob { animation: m-bob 4s ease-in-out infinite; }
+  .mural .m-metro { animation: m-metro 9s ease-in-out infinite; }
+  .mural .m-plane { animation: m-plane 14s ease-in infinite; }
+  .mural .m-train-up { animation: m-train-up 12s linear infinite; }
+  .mural .m-cycle { animation: m-cycle 18s linear infinite; }
+  .mural .m-ball { animation: m-ball 1.4s ease-in-out infinite alternate; }
+}
+@keyframes m-drift { from { transform: translateX(-12px); } to { transform: translateX(14px); } }
+@keyframes m-twinkle { 0%, 100% { opacity: .25; } 50% { opacity: 1; } }
+@keyframes m-glow { 0%, 100% { opacity: .55; } 50% { opacity: .9; } }
+@keyframes m-jet { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(.9); } }
+@keyframes m-boat { from { transform: translateX(0); } to { transform: translateX(150px); } }
+@keyframes m-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(1.5px); } }
+@keyframes m-metro { 0%, 35% { transform: translateX(0); } 65%, 100% { transform: translateX(-470px); } }
+@keyframes m-plane { 0%, 30% { transform: translate(0, 0); opacity: 1; } 85% { transform: translate(200px, -90px); opacity: 1; } 86%, 100% { transform: translate(200px, -90px); opacity: 0; } }
+@keyframes m-train-up { 0% { transform: translateY(120px); opacity: 0; } 8% { opacity: 1; } 92% { opacity: 1; } 100% { transform: translateY(-260px); opacity: 0; } }
+@keyframes m-cycle { from { transform: translateX(-60px); } to { transform: translateX(380px); } }
+@keyframes m-ball { from { transform: translate(-6px, 0); } to { transform: translate(8px, 4px); } }
+
+/* Route: raised lesson blocks (red = available, gold = mastered, grey = locked, green = chapter goal). */
+.route-block { position: relative; width: 3.6rem; height: 3.6rem; }
+.route-block .route-side { position: absolute; inset: 7px 0 0 0; border-radius: 9px; background: #6e2a20; box-shadow: 0 8px 14px rgba(20, 10, 0, .35); }
+.route-block .route-face {
+  position: absolute; inset: 0 0 7px 0; border-radius: 9px; display: grid; place-items: center; color: #fff;
+  font-weight: 700; font-size: 1.15rem; text-shadow: 0 1px 0 rgba(0, 0, 0, .35); z-index: 1;
+  background: linear-gradient(160deg, #c45a43, #9a3c2d); border: 2px solid rgba(255, 255, 255, .55);
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .35), inset 0 -3px 0 rgba(0, 0, 0, .18); transition: transform .1s;
+}
+button:active .route-block .route-face { transform: translateY(4px); }
+.route-done .route-face { background: linear-gradient(160deg, #e2bd62, #b8913f); }
+.route-done .route-side { background: #7d6024; }
+.route-locked .route-face { background: linear-gradient(160deg, #a9a69f, #878580); }
+.route-locked .route-side { background: #5d5b57; }
+.route-goal { width: 4.2rem; height: 4.2rem; }
+.route-goal .route-face { background: linear-gradient(160deg, #3f7d63, #285a46); }
+.route-goal .route-side { background: #183a2c; }
+.route-current .route-face { animation: route-pulse 1.8s ease-in-out infinite; }
+@keyframes route-pulse {
+  0%, 100% { box-shadow: inset 0 2px 0 rgba(255, 255, 255, .35), 0 0 0 0 rgba(255, 236, 170, .9); }
+  50% { box-shadow: inset 0 2px 0 rgba(255, 255, 255, .35), 0 0 0 9px rgba(255, 236, 170, 0); }
+}
