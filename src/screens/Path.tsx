@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import { chapters, colorFor, compareLessonIds } from '../content'
 import { useStore } from '../state/store'
 import { lessonMastery, MASTERED } from '../state/mastery'
@@ -9,7 +10,18 @@ import { Scene, SCENES, W, nodePositions, sceneHeight } from './scenes'
 export function Path() {
   const progress = useStore((s) => s.progress)
   const { coveredUpTo, focusLessons } = useStore((s) => s.settings)
+  const here = useRef<HTMLButtonElement>(null)
+  // The route climbs: chapter 1 is at the bottom, so open on the lesson the learner is on.
+  useEffect(() => {
+    here.current?.scrollIntoView({ block: 'center' })
+    if (!here.current) window.scrollTo(0, document.body.scrollHeight)
+  }, [])
   let offset = 0
+  const laidOut = chapters.map((c) => {
+    const o = offset
+    offset += c.lessons.length
+    return { c, offset: o }
+  })
 
   return (
     <div className="mx-auto max-w-xl pb-24">
@@ -18,34 +30,35 @@ export function Path() {
         <StreakBadge />
       </div>
 
-      {chapters.map((c) => {
+      {[...laidOut].reverse().map(({ c, offset: o }) => {
         const color = colorFor(c.chapter)
         const scene = SCENES[c.chapter]
         const height = sceneHeight(c.lessons.length)
-        const nodes = nodePositions(c.lessons.length, offset)
-        offset += c.lessons.length
+        // Nodes run from the horizon down; the first lesson takes the lowest one so the road leads up.
+        const nodes = nodePositions(c.lessons.length, o)
+        const header = (
+          <div className="px-4 py-3" style={{ background: color.bg, color: color.fg }}>
+            <div className="text-xs font-bold uppercase tracking-[0.12em] opacity-80">Capítulo {c.chapter}</div>
+            <div className="ru text-2xl font-bold leading-tight">{c.title}</div>
+            {c.titleEs && <div className="text-sm opacity-90">{c.titleEs}</div>}
+            {scene && (
+              <div className="mt-2 border-t border-white/25 pt-1.5 text-xs opacity-85">
+                <span className="ru text-[13px]">{scene.place}</span> · {scene.placeEs}
+              </div>
+            )}
+          </div>
+        )
         return (
           <section key={c.chapter}>
-            <div className="px-4 py-3" style={{ background: color.bg, color: color.fg }}>
-              <div className="text-xs font-bold uppercase tracking-[0.12em] opacity-80">Capítulo {c.chapter}</div>
-              <div className="ru text-2xl font-bold leading-tight">{c.title}</div>
-              {c.titleEs && <div className="text-sm opacity-90">{c.titleEs}</div>}
-              {scene && (
-                <div className="mt-2 border-t border-white/25 pt-1.5 text-xs opacity-85">
-                  <span className="ru text-[13px]">{scene.place}</span> · {scene.placeEs}
-                </div>
-              )}
-            </div>
-
             <div className="relative w-full" style={{ aspectRatio: `${W} / ${height}` }}>
               <Scene chapter={c.chapter} nodes={nodes} height={height} />
               {c.lessons.map((l, i) => {
-                const [x, y] = nodes[i]
+                const [x, y] = nodes[nodes.length - 1 - i]
                 const locked = compareLessonIds(l.id, coveredUpTo) > 0
                 const m = lessonMastery(l, progress)
                 const current = focusLessons.includes(l.id)
                 return (
-                  <button key={l.id} onClick={() => navigate(`/lesson/${l.id}`)}
+                  <button key={l.id} ref={current ? here : undefined} onClick={() => navigate(`/lesson/${l.id}`)}
                     className="absolute flex -translate-x-1/2 -translate-y-1/2 flex-col items-center"
                     style={{ left: `${(x / W) * 100}%`, top: `${(y / height) * 100}%` }}>
                     <div className={`relative grid h-14 w-14 place-items-center rounded-md border-[3px] border-[#fffdf8] text-lg font-bold shadow-[0_3px_8px_rgba(0,0,0,0.25)] ${current ? 'ring-pulse' : ''}`}
@@ -65,6 +78,7 @@ export function Path() {
                 )
               })}
             </div>
+            {header}
           </section>
         )
       })}

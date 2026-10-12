@@ -50,7 +50,11 @@ export interface PersistedState {
   streak: Streak
   badges: Record<string, string>
   lastBackup: string | null
+  /** Hints spent today (the count resets each day). */
+  hints: { day: string; used: number }
 }
+
+export const HINTS_PER_DAY = 3
 
 export interface SessionSummary {
   xp: number
@@ -69,6 +73,8 @@ interface Actions {
   settleStreak: () => void
   replaceState: (s: PersistedState) => void
   markBackup: () => void
+  /** Spend one of today's hints; false when none are left. */
+  spendHint: () => boolean
   resetAll: () => void
 }
 
@@ -93,6 +99,7 @@ const initial = (): PersistedState => ({
   streak: { current: 0, best: 0, lastGoalDay: null, freezes: 0, frozenDays: [] },
   badges: {},
   lastBackup: null,
+  hints: { day: '', used: 0 },
 })
 
 /** Apply missed days: spend streak freezes if there are enough, otherwise the streak resets. */
@@ -178,12 +185,20 @@ export const useStore = create<PersistedState & Actions>()(
 
       markBackup: () => set({ lastBackup: dayKey() }),
 
+      spendHint: () => {
+        const today = dayKey()
+        const used = get().hints.day === today ? get().hints.used : 0
+        if (used >= HINTS_PER_DAY) return false
+        set({ hints: { day: today, used: used + 1 } })
+        return true
+      },
+
       resetAll: () => set(initial()),
     }),
     {
       name: 'rulingo',
       version: 1,
-      partialize: ({ settings, progress, stats, streak, badges, lastBackup }) => ({ settings, progress, stats, streak, badges, lastBackup }),
+      partialize: ({ settings, progress, stats, streak, badges, lastBackup, hints }) => ({ settings, progress, stats, streak, badges, lastBackup, hints }),
       merge: (persisted, current) => {
         const p = (persisted ?? {}) as Partial<PersistedState>
         return { ...current, ...p, settings: { ...defaultSettings, ...p.settings }, stats: { ...current.stats, ...p.stats } }
@@ -193,6 +208,9 @@ export const useStore = create<PersistedState & Actions>()(
 )
 
 export const snapshot = (): PersistedState => {
-  const { settings, progress, stats, streak, badges, lastBackup } = useStore.getState()
-  return { settings, progress, stats, streak, badges, lastBackup }
+  const { settings, progress, stats, streak, badges, lastBackup, hints } = useStore.getState()
+  return { settings, progress, stats, streak, badges, lastBackup, hints }
 }
+
+/** Hints still available today. */
+export const hintsLeft = (h: PersistedState['hints']) => HINTS_PER_DAY - (h.day === dayKey() ? h.used : 0)

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { buildSession, type SessionMode } from '../engine/session'
 import { exerciseTopic, topicTitle } from '../engine/topics'
 import type { AnswerResult, RunExercise } from '../engine/types'
-import { useStore, type SessionSummary } from '../state/store'
+import { hintsLeft, HINTS_PER_DAY, useStore, type SessionSummary } from '../state/store'
 import { dayKey } from '../lib/date'
 import { navigate } from '../lib/router'
 import { lessonById, grammarById, vocabById } from '../content'
@@ -83,6 +83,50 @@ function audioTextOf(ex: RunExercise): string | undefined {
   return candidates.find((c) => c && hasAudio(c))
 }
 
+const pickOne = <T,>(xs: T[]) => xs[Math.floor(Math.random() * xs.length)]
+const shuffled = <T,>(xs: T[]) => [...xs].sort(() => Math.random() - 0.5)
+const firstLetters = (w: string) => {
+  const plain = w.normalize('NFD').replace(/\u0301/g, '').normalize('NFC')
+  const n = plain.replace(/[^\p{L}]/gu, '').length
+  return { start: plain.slice(0, n > 5 ? 2 : 1), n }
+}
+
+/** A nudge that narrows the answer down without giving it away; null when the exercise has none. */
+function hintFor(ex: RunExercise): string | null {
+  switch (ex.kind) {
+    case 'choice': {
+      const wrong = shuffled(ex.choices.filter((_, i) => i !== ex.answer)).slice(0, ex.choices.length >= 4 ? 2 : 1)
+      return wrong.length ? `No es ${wrong.map((w) => `«${w}»`).join(' ni ')}.` : null
+    }
+    case 'typed': {
+      const { start, n } = firstLetters(ex.answers[0])
+      return `Empieza con «${start}…»${ex.answers[0].includes(' ') ? '' : ` y tiene ${n} letras`}.`
+    }
+    case 'conjugate': {
+      const i = Math.floor(Math.random() * ex.answers.length)
+      return `${ex.pronouns[i]} → ${ex.answers[i]}`
+    }
+    case 'word_order': {
+      const words = ex.answer.split(/\s+/)
+      return `Empieza así: «${words.slice(0, words.length > 6 ? 2 : 1).join(' ')}…»`
+    }
+    case 'error_spot': {
+      const words = ex.sentence.split(/\s+/)
+      const others = shuffled(words.map((_, i) => i).filter((i) => i !== ex.wrongWord)).slice(0, 2)
+      const pool = [ex.wrongWord, ...others].sort((a, b) => a - b).map((i) => `«${words[i].replace(/[.,!?;:«»—]/g, '')}»`)
+      return `El error está en una de estas: ${pool.join(', ')}.`
+    }
+    case 'match': {
+      const [a, b] = pickOne(ex.pairs)
+      return `«${a}» va con «${b}».`
+    }
+    case 'sort': {
+      const e = pickOne(ex.entries)
+      return `«${e.text}» va en «${e.category}».`
+    }
+  }
+}
+
 const XP = (r: AnswerResult) => (r.correct ? (r.almost ? 8 : r.typed ? 15 : 10) : 0)
 const hasCyrillic = (s: string) => /[а-яё]/i.test(s)
 
@@ -112,6 +156,9 @@ export function Player({ params }: { params: URLSearchParams }) {
   const [praise, setPraise] = useState(PRAISE[0])
   const [confirmQuit, setConfirmQuit] = useState(false)
   const [reveal, setReveal] = useState<'tr' | 'ex' | null>(null)
+  const [hint, setHint] = useState<string | null>(null)
+  const hints = useStore((s) => s.hints)
+  const spendHint = useStore((s) => s.spendHint)
 
   const ex = queue[pos]
 
@@ -128,7 +175,8 @@ export function Player({ params }: { params: URLSearchParams }) {
       stats.current.done += 1
       if (r.correct) stats.current.firstTryCorrect += 1
     }
-    stats.current.xp += isRetry ? Math.round(XP(r) / 2) : XP(r)
+    // A hint or a retry halves the XP of a correct answer.
+    stats.current.xp += isRetry || hint ? Math.round(XP(r) / 2) : XP(r)
     stats.current.combo = r.correct ? stats.current.combo + 1 : 0
     stats.current.bestCombo = Math.max(stats.current.bestCombo, stats.current.combo)
     if (!r.correct && !isRetry) {
@@ -138,7 +186,7 @@ export function Player({ params }: { params: URLSearchParams }) {
     }
     setPraise(r.almost ? '¡Casi!' : PRAISE[Math.floor(Math.random() * PRAISE.length)])
     setResult(r)
-  }, [ex, result, recordAnswer])
+  }, [ex, result, recordAnswer, hint])
 
   const check = useCallback(() => {
     if (!submitRef.current || result) return
@@ -150,6 +198,7 @@ export function Player({ params }: { params: URLSearchParams }) {
     setCanSubmit(false)
     setResult(null)
     setReveal(null)
+    setHint(null)
     stopAudio()
     if (pos + 1 >= queue.length) {
       setSummary(finishSession({
@@ -219,7 +268,26 @@ export function Player({ params }: { params: URLSearchParams }) {
         {lesson && mode.mode !== 'lesson' && mode.mode !== 'topic' && (
           <div className="mb-1 text-xs text-muted">Lección {lesson.id} · <span className="ru">{lesson.title}</span></div>
         )}
-        <h2 className="mb-6 text-lg font-bold text-ink/80">{ex.instruction}</h2>
+        <div className="mb-6">
+          <div className="flex items-start justify-between gap-3">
+            <h2 className="text-lg font-bold text-ink/80">{ex.instruction}</h2>
+            {!result && !hint && hintFor(ex) !== null && (
+              <button
+                className="chip mt-0.5 shrink-0 gap-1 !px-2 disabled:opacity-45"
+                disabled={hintsLeft(hints) <= 0}
+                title={hintsLeft(hints) > 0 ? `Te quedan ${hintsLeft(hints)} de ${HINTS_PER_DAY} pistas hoy` : 'Ya usaste las pistas de hoy'}
+                onClick={() => { if (spendHint()) setHint(hintFor(ex)) }}>
+                <Icon name="bulb" size={16} /> Pista · {hintsLeft(hints)}
+              </button>
+            )}
+          </div>
+          {hint && (
+            <div key={`hint${pos}`} className="animate-pop mt-2 flex gap-2 rounded-md border border-gold/40 bg-gold/10 px-3 py-2 text-[15px] text-ink/90">
+              <Icon name="bulb" size={18} className="mt-0.5 shrink-0 text-gold" />
+              <span><Mixed text={hint} /> <span className="text-xs text-muted">· {hintsLeft(hints)} {hintsLeft(hints) === 1 ? 'pista' : 'pistas'} más hoy</span></span>
+            </div>
+          )}
+        </div>
         <div key={ex.key + pos} className="slide-in">
           <Exercise ex={ex} locked={!!result} ready={ready} autoSubmit={apply} />
         </div>
