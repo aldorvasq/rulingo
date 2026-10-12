@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import type { AnswerResult, RunExercise } from '../engine/types'
 import { listeningInfo, listeningSrc, seekListening, setRate, toggleListening, useAudioState } from '../lib/audio'
 import { Avatar } from '../components/Avatar'
+import { Handwriting, HANDS, Paper, handFor } from '../components/Handwriting'
 
 export interface ExProps<K extends RunExercise['kind']> {
   ex: Extract<RunExercise, { kind: K }>
@@ -19,9 +20,46 @@ export const ruPromptSize = (text: string) => (text.length <= 18 ? 'text-4xl' : 
 export const optionSize = (text: string, ru: boolean) =>
   ru ? (text.length <= 9 ? 'text-xl' : text.length <= 16 ? 'text-lg' : 'text-base') : text.length <= 16 ? 'text-[15px]' : 'text-sm'
 
+/** A handwritten prompt on notebook paper; `multi` writes it in three different hands. */
+export function HandPrompt({ ex }: { ex: RunExercise }) {
+  if (!ex.hand || !('prompt' in ex) || !ex.prompt) return null
+  const { level, seed, multi } = ex.hand
+  const size = ex.prompt.length > 9 ? 38 : 46
+  if (multi) {
+    return (
+      <Paper className="mb-7 space-y-1">
+        {[0, 1, 2].map((k) => <div key={k}><Handwriting text={ex.prompt!} hand={(seed + k) % HANDS.length} seed={seed + k * 7919} size={34} /></div>)}
+      </Paper>
+    )
+  }
+  return (
+    <Paper className="mb-7 py-4 text-center">
+      <Handwriting text={ex.prompt} hand={handFor(level, seed)} seed={seed} size={size} />
+    </Paper>
+  )
+}
+
 /** Reading passage / dialogue shown above a question. */
 export function ContextBlock({ ex }: { ex: RunExercise }) {
   const [showEs, setShowEs] = useState(false)
+  if (ex.passage?.handwritten) {
+    const seed = ex.passage.text.length * 31
+    return (
+      <div className="mb-5">
+        <Paper className="-rotate-1 shadow-md">
+          {ex.passage.text.split('\n').map((line, i) => (
+            <div key={i}><Handwriting text={line} hand={1} seed={seed + i} size={28} /></div>
+          ))}
+        </Paper>
+        {ex.passage.textEs && (
+          <button className="mt-3 text-sm font-bold text-brand" onClick={() => setShowEs(!showEs)}>
+            {showEs ? 'Ocultar traducción' : 'Ver traducción'}
+          </button>
+        )}
+        {showEs && <p className="mt-1 whitespace-pre-line text-sm text-muted">{ex.passage.textEs}</p>}
+      </div>
+    )
+  }
   if (ex.passage) {
     return (
       <div className="card mb-5 max-h-[42vh] overflow-y-auto p-4">

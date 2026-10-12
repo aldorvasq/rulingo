@@ -6,7 +6,7 @@ import type { CastMember } from '../content/types'
 export type Lang = 'ru' | 'es'
 
 /** Stats bucket used for topics and badges ("100 conjugations", "50 antonyms"…). */
-export type Skill = 'vocab' | 'grammar' | 'conjugation' | 'antonym' | 'writing' | 'reading' | 'syntax' | 'listening'
+export type Skill = 'vocab' | 'grammar' | 'conjugation' | 'antonym' | 'writing' | 'reading' | 'syntax' | 'listening' | 'cursive'
 
 interface RunBase {
   key: string
@@ -20,10 +20,14 @@ interface RunBase {
   skill: Skill
   sneak?: boolean
   /** Context shown above the prompt (reading passage or dialogue). */
-  passage?: { title?: string; text: string; textEs?: string }
+  passage?: { title?: string; text: string; textEs?: string; handwritten?: boolean }
   dialogue?: { speaker: string; ru: string }[]
   /** Listening piece played (not shown) above the question; its text is revealed after answering. */
   listen?: { id: string; title: string; lines: { speaker?: string; ru: string }[]; es?: string; cast?: CastMember[] }
+  /** The Russian prompt is shown handwritten (level picks how messy); `multi` shows it in three hands. */
+  hand?: { level: 1 | 2 | 3; seed: number; multi?: boolean }
+  /** Match: the left column is handwritten. */
+  cursiveLeft?: boolean
 }
 
 export type RunExercise = RunBase & (

@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { shuffle } from '../lib/text'
 import { Icon } from '../components/ui'
 import { optionSize, type ExProps } from './common'
+import { Handwriting } from '../components/Handwriting'
 
 const hasCyrillic = (s: string) => /[а-яё]/i.test(s)
 
@@ -21,7 +22,7 @@ export function MatchEx({ ex, autoSubmit }: ExProps<'match'>) {
 
   const leftRu = ex.pairs.every((p) => hasCyrillic(p[0]))
   const rightRu = ex.pairs.every((p) => hasCyrillic(p[1]))
-  const [leftLabel, rightLabel] = leftRu && rightRu ? ['Palabra', 'Su pareja'] : [leftRu ? 'Ruso' : 'Palabra', rightRu ? 'Ruso' : 'Español']
+  const [leftLabel, rightLabel] = ex.cursiveLeft ? ['A mano', 'Impresa'] : leftRu && rightRu ? ['Palabra', 'Su pareja'] : [leftRu ? 'Ruso' : 'Palabra', rightRu ? 'Ruso' : 'Español']
 
   const attempt = (l: number | null, r: number | null) => {
     if (l === null || r === null) return
@@ -58,7 +59,9 @@ export function MatchEx({ ex, autoSubmit }: ExProps<'match'>) {
       <button key={i} disabled={st === 'done'}
         onClick={() => (isL ? (setSelL(i), attempt(i, selR)) : (setSelR(i), attempt(selL, i)))}
         className={`relative flex min-h-14 w-full items-center gap-2 rounded-md border-[1.5px] border-line px-3 py-2.5 transition-colors ${base} ${look} ${isL ? 'text-left' : 'flex-row-reverse text-right'}`}>
-        <span className={`min-w-0 flex-1 ${hasCyrillic(text) ? 'ru' : ''} ${optionSize(text, hasCyrillic(text))}`}>{text}</span>
+        {isL && ex.cursiveLeft
+          ? <span className="min-w-0 flex-1"><Handwriting text={text} hand={i % 3} seed={i * 101 + text.length} size={34} /></span>
+          : <span className={`min-w-0 flex-1 ${hasCyrillic(text) ? 'ru' : ''} ${optionSize(text, hasCyrillic(text))}`}>{text}</span>}
         {st === 'done'
           ? <span className="grid h-5 w-5 shrink-0 place-items-center rounded-sm bg-ok text-[11px] font-bold text-white">{n}</span>
           : <span className={`h-2.5 w-2.5 shrink-0 rounded-full border-2 ${isL ? 'border-brand' : 'border-gold'} ${st === 'sel' ? (isL ? 'bg-brand' : 'bg-gold') : 'bg-card'}`} />}

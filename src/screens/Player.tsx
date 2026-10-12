@@ -29,6 +29,7 @@ export function parseMode(params: URLSearchParams): SessionMode {
   if (m === 'review') return { mode: 'review' }
   if (m === 'weak') return { mode: 'weak' }
   if (m === 'listening') return { mode: 'listening' }
+  if (m === 'cursive') return { mode: 'cursive' }
   return { mode: 'daily' }
 }
 
@@ -40,6 +41,7 @@ export function sessionTitle(mode: SessionMode): string {
     case 'weak': return 'Puntos débiles'
     case 'daily': return 'Práctica del día'
     case 'listening': return 'Comprensión auditiva'
+    case 'cursive': return 'Leer cursiva'
   }
 }
 

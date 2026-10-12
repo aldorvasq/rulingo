@@ -13,6 +13,7 @@ export type SessionMode =
   | { mode: 'weak' }
   | { mode: 'daily' }
   | { mode: 'listening' }
+  | { mode: 'cursive' }
 
 export interface SessionContext {
   progress: Record<string, ItemState>
@@ -158,6 +159,18 @@ export function buildSession(mode: SessionMode, ctx: SessionContext): RunExercis
     const focus = all.filter((c) => ctx.focusLessons.includes(c.lessonId))
     const half = p.pick(focus, Math.ceil(n / 2))
     chosen = [...half, ...p.pick(all, n - half.length)]
+  } else if (mode.mode === 'cursive') {
+    // Handwriting practice: words from the current lesson and earlier ones, letters, and notes.
+    p.limits = { kind: {}, skill: {}, other: n }
+    const all = pool(covered).filter((c) => c.skill === 'cursive')
+    const near = (cs: Candidate[]) => { const f = cs.filter((c) => ctx.focusLessons.includes(c.lessonId)); return f.length ? f : cs }
+    // Always a mix: letters, a few notes, the same word in three hands, then single words.
+    const letters = p.pick(near(all.filter((c) => c.kind === 'match')), 1)
+    const notes = p.pick(near(all.filter((c) => c.items[1]?.startsWith('note-'))), 3)
+    const three = p.pick(all.filter((c) => c.id.endsWith(':three')), 3)
+    const rest = n - letters.length - notes.length - three.length
+    const half = p.pick(near(all.filter((c) => c.kind !== 'match')), Math.ceil(rest / 2))
+    chosen = [...letters, ...notes, ...three, ...half, ...p.pick(all, rest - half.length)]
   } else if (mode.mode === 'weak') {
     const weak = pool(covered).filter((c) => !c.sneak && c.items.some((i) => {
       const st = ctx.progress[i]

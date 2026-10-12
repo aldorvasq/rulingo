@@ -93,6 +93,16 @@ export interface Listening {
   questions: { q: string; choices: string[]; answer: number }[]
 }
 
+/** A handwritten note (shopping list, message to a neighbour…) read in cursive, with questions in Spanish. */
+export interface CursiveNote {
+  id: string
+  title: string
+  /** Lines as written, no stress marks. */
+  lines: string[]
+  es: string
+  questions: { q: string; choices: string[]; answer: number }[]
+}
+
 export interface Lesson {
   id: string
   title: string
@@ -105,6 +115,7 @@ export interface Lesson {
   sentences?: { ru: string; es: string; tags?: string[] }[]
   readings?: Reading[]
   listening?: Listening[]
+  notes?: CursiveNote[]
   exercises?: ContentExercise[]
 }
 

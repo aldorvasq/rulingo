@@ -125,6 +125,7 @@ const ICONS: Record<string, string> = {
   plus: 'M4 4h16v16H4zM12 8v8M8 12h8',
   install: 'M12 3v12m0 0-4-4m4 4 4-4M5 21h14',
   down: 'M5 9l7 7 7-7',
+  pen: 'M4 20l4.2-1L19 8.2 15.8 5 5 15.8zM13.8 7l3.2 3.2',
   bulb: 'M9 18h6m-5 3h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z',
   listen: 'M4 14v-2a8 8 0 0 1 16 0v2M4 14h3v6H5a1 1 0 0 1-1-1zm16 0h-3v6h2a1 1 0 0 0 1-1z',
 }

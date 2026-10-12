@@ -1,0 +1,460 @@
+{
+ "id": "cursive-notes",
+ "lessons": [
+  {
+   "id": "1.1",
+   "notes": [
+    {
+     "id": "note-1.1",
+     "title": "Записка от Лизы",
+     "lines": [
+      "Привет, Нина!",
+      "Я в кафе.",
+      "Кофе, чай и торт — хорошо!",
+      "Вино? Нет, спасибо.",
+      "Пока! Лиза"
+     ],
+     "es": "¡Hola, Nina!\nEstoy en el café.\nCafé, té y pastel: ¡bien!\n¿Vino? No, gracias.\n¡Adiós! Liza",
+     "questions": [
+      {
+       "q": "¿Dónde está Liza?",
+       "choices": [
+        "En el café",
+        "En casa",
+        "En el metro"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué no quiere Liza?",
+       "choices": [
+        "Vino",
+        "Café",
+        "Pastel"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1.2",
+   "notes": [
+    {
+     "id": "note-1.2",
+     "title": "Открытка от Пабло",
+     "lines": [
+      "Привет! Меня зовут Пабло.",
+      "Я мексиканец.",
+      "Я говорю по-испански",
+      "и немного по-русски.",
+      "А ты? Откуда ты?"
+     ],
+     "es": "¡Hola! Me llamo Pablo.\nSoy mexicano.\nHablo español\ny un poco de ruso.\n¿Y tú? ¿De dónde eres?",
+     "questions": [
+      {
+       "q": "¿De dónde es Pablo?",
+       "choices": [
+        "De México",
+        "De España",
+        "De Italia"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué idiomas habla?",
+       "choices": [
+        "Español y un poco de ruso",
+        "Inglés y ruso",
+        "Solo español"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1.3",
+   "notes": [
+    {
+     "id": "note-1.3",
+     "title": "Как дойти",
+     "lines": [
+      "Аня!",
+      "Метро — здесь, слева.",
+      "Банк — справа.",
+      "Аптека в центре,",
+      "а кафе — вот здесь.",
+      "Твой Ваня"
+     ],
+     "es": "¡Ania!\nEl metro está aquí, a la izquierda.\nEl banco, a la derecha.\nLa farmacia está en el centro,\ny el café, aquí mismo.\nTu Vania",
+     "questions": [
+      {
+       "q": "¿Dónde está el metro?",
+       "choices": [
+        "Aquí, a la izquierda",
+        "A la derecha",
+        "En el centro"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde está la farmacia?",
+       "choices": [
+        "En el centro",
+        "A la izquierda",
+        "Junto al banco"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1.4",
+   "notes": [
+    {
+     "id": "note-1.4",
+     "title": "Кто есть кто",
+     "lines": [
+      "Маша — врач.",
+      "Её брат Олег — программист.",
+      "Он работает в банке.",
+      "А я гид.",
+      "Я работаю в Москве!"
+     ],
+     "es": "Masha es doctora.\nSu hermano Oleg es programador.\nÉl trabaja en un banco.\nY yo soy guía.\n¡Trabajo en Moscú!",
+     "questions": [
+      {
+       "q": "¿A qué se dedica Masha?",
+       "choices": [
+        "Es doctora",
+        "Es guía",
+        "Es programadora"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Quién trabaja en el banco?",
+       "choices": [
+        "Oleg",
+        "Masha",
+        "Quien escribe la nota"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.1",
+   "notes": [
+    {
+     "id": "note-2.1",
+     "title": "Записка от мамы",
+     "lines": [
+      "Саша!",
+      "Твой паспорт — на столе.",
+      "Ключи тоже там.",
+      "Телефон? Не знаю, где он.",
+      "Мама"
+     ],
+     "es": "¡Sasha!\nTu pasaporte está en la mesa.\nLas llaves también están ahí.\n¿El teléfono? No sé dónde está.\nMamá",
+     "questions": [
+      {
+       "q": "¿Dónde está el pasaporte?",
+       "choices": [
+        "En la mesa",
+        "En la bolsa",
+        "No se sabe"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué no sabe mamá?",
+       "choices": [
+        "Dónde está el teléfono",
+        "Dónde están las llaves",
+        "Dónde está la mesa"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2",
+   "notes": [
+    {
+     "id": "note-2.2",
+     "title": "На обороте фотографии",
+     "lines": [
+      "Это моя семья.",
+      "Это мой папа и моя мама.",
+      "Это мой брат Иван",
+      "и моя сестра Лола.",
+      "А это наша бабушка и её кот."
+     ],
+     "es": "Esta es mi familia.\nEstos son mi papá y mi mamá.\nEste es mi hermano Iván\ny mi hermana Lola.\nY esta es nuestra abuela y su gato.",
+     "questions": [
+      {
+       "q": "¿Cómo se llama la hermana?",
+       "choices": [
+        "Lola",
+        "Iván",
+        "Galina"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿De quién es el gato?",
+       "choices": [
+        "De la abuela",
+        "Del hermano",
+        "De papá"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3",
+   "notes": [
+    {
+     "id": "note-2.3",
+     "title": "Планы на субботу",
+     "lines": [
+      "Суббота",
+      "Утром я читаю.",
+      "Днём мы с Олей",
+      "играем в теннис.",
+      "Вечером смотрим фильм.",
+      "Я люблю субботу!"
+     ],
+     "es": "Sábado\nEn la mañana leo.\nEn la tarde Olia y yo\njugamos tenis.\nEn la noche vemos una película.\n¡Me encanta el sábado!",
+     "questions": [
+      {
+       "q": "¿Qué hace en la mañana?",
+       "choices": [
+        "Lee",
+        "Juega tenis",
+        "Ve una película"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Con quién juega tenis?",
+       "choices": [
+        "Con Olia",
+        "Con mamá",
+        "Solo"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.4",
+   "notes": [
+    {
+     "id": "note-2.4",
+     "title": "Объявление",
+     "lines": [
+      "Привет! Меня зовут Костя.",
+      "Мне 25 лет.",
+      "Я люблю футбол, музыку",
+      "и фотографию.",
+      "Ищу друзей!"
+     ],
+     "es": "¡Hola! Me llamo Kostia.\nTengo 25 años.\nMe gustan el futbol, la música\ny la fotografía.\n¡Busco amigos!",
+     "questions": [
+      {
+       "q": "¿Qué busca Kostia?",
+       "choices": [
+        "Amigos",
+        "Trabajo",
+        "Departamento"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cuántos años tiene?",
+       "choices": [
+        "25",
+        "52",
+        "15"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.1",
+   "notes": [
+    {
+     "id": "note-3.1",
+     "title": "Для гостя",
+     "lines": [
+      "Добро пожаловать!",
+      "Кухня — слева,",
+      "ванная — справа.",
+      "Твоя комната — наверху.",
+      "Ключи на кухне. Анна"
+     ],
+     "es": "¡Bienvenido!\nLa cocina está a la izquierda,\nel baño, a la derecha.\nTu cuarto está arriba.\nLas llaves están en la cocina. Anna",
+     "questions": [
+      {
+       "q": "¿Dónde está tu cuarto?",
+       "choices": [
+        "Arriba",
+        "A la izquierda",
+        "Abajo"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Dónde están las llaves?",
+       "choices": [
+        "En la cocina",
+        "En el baño",
+        "En el cuarto"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.2",
+   "notes": [
+    {
+     "id": "note-3.2",
+     "title": "Записка для Фрэнка",
+     "lines": [
+      "Фрэнк!",
+      "Твоя куртка висит в шкафу.",
+      "Книги лежат на столе.",
+      "Гитара стоит у дивана.",
+      "Ли"
+     ],
+     "es": "¡Frank!\nTu chamarra está colgada en el armario.\nLos libros están en la mesa.\nLa guitarra está junto al sofá.\nLi",
+     "questions": [
+      {
+       "q": "¿Dónde está la chamarra?",
+       "choices": [
+        "En el armario",
+        "En la mesa",
+        "Junto al sofá"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué hay junto al sofá?",
+       "choices": [
+        "La guitarra",
+        "Los libros",
+        "La chamarra"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.3",
+   "notes": [
+    {
+     "id": "note-3.3",
+     "title": "Записка в офисе",
+     "lines": [
+      "Коллеги!",
+      "Принтер не работает.",
+      "Новый будет завтра.",
+      "Кофемашина работает!",
+      "Шеф"
+     ],
+     "es": "¡Colegas!\nLa impresora no funciona.\nLa nueva llega mañana.\n¡La cafetera sí funciona!\nEl jefe",
+     "questions": [
+      {
+       "q": "¿Qué no funciona?",
+       "choices": [
+        "La impresora",
+        "La cafetera",
+        "La computadora"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cuándo llega la nueva?",
+       "choices": [
+        "Mañana",
+        "Hoy",
+        "El lunes"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3.4",
+   "notes": [
+    {
+     "id": "note-3.4",
+     "title": "Соседям",
+     "lines": [
+      "Дорогие соседи!",
+      "Пожалуйста, не слушайте",
+      "музыку так громко",
+      "после 23:00.",
+      "Спасибо! Вера Ивановна, кв. 5"
+     ],
+     "es": "¡Queridos vecinos!\nPor favor, no escuchen\nla música tan fuerte\ndespués de las 23:00.\n¡Gracias! Vera Ivánovna, depto. 5",
+     "questions": [
+      {
+       "q": "¿Qué pide Vera Ivánovna?",
+       "choices": [
+        "Que no pongan la música tan fuerte",
+        "Que hagan una fiesta",
+        "Que la visiten"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Desde qué hora?",
+       "choices": [
+        "Después de las 23:00",
+        "Después de las 13:00",
+        "Todo el día"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿En qué departamento vive?",
+       "choices": [
+        "En el 5",
+        "En el 23",
+        "En el 15"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

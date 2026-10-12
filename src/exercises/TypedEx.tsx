@@ -3,7 +3,7 @@ import { GapSentence } from '../components/ui'
 import { RuInput } from '../components/RuInput'
 import { CyrillicKeyboard, KeyboardToggle } from '../components/CyrillicKeyboard'
 import { gradeTyped } from '../lib/text'
-import { ContextBlock, ruPromptSize, type ExProps } from './common'
+import { ContextBlock, HandPrompt, ruPromptSize, type ExProps } from './common'
 import { Speak } from '../components/Speak'
 
 export function TypedEx({ ex, locked, ready }: ExProps<'typed'>) {
@@ -28,7 +28,8 @@ export function TypedEx({ ex, locked, ready }: ExProps<'typed'>) {
   return (
     <div>
       <ContextBlock ex={ex} />
-      {ex.prompt && (
+      <HandPrompt ex={ex} />
+      {ex.prompt && !ex.hand && (
         <p className={`mb-6 ${ex.promptLang === 'ru' ? `ru ${ruPromptSize(ex.prompt)} font-bold leading-snug` : 'text-2xl font-bold text-ink/85'}`}>
           {ex.prompt.includes('___')
             ? <GapSentence text={ex.prompt} fill={value || undefined} fillClass={locked ? (verdict === 'wrong' ? 'text-bad' : 'text-ok') : 'text-brand'} />

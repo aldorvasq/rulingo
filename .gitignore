@@ -13,3 +13,6 @@ transcripts/
 # TTS pilot output (not published)
 scripts/tts/out/
 scripts/tts/cache/
+
+# Design proposals (local review only)
+design-previews/

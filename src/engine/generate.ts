@@ -324,6 +324,95 @@ function lessonLevel(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
   return out
 }
 
+// ---------------------------------------------------------------- cursive (handwriting)
+
+/** Letters that look alike in Russian handwriting; wrong options swap one of them for a look-alike. */
+const LOOKALIKE: string[][] = [
+  ['т', 'ш', 'м'], ['и', 'ш', 'у', 'п', 'н'], ['д', 'г', 'б', 'з'], ['л', 'м', 'и'], ['з', 'э', 'е'],
+  ['в', 'б', 'ь'], ['ж', 'х'], ['к', 'н', 'и'], ['а', 'о'], ['г', 'ч', 'р'], ['ц', 'щ', 'и'], ['ь', 'ъ', 'ы'],
+]
+
+function cursiveFakes(word: string, n: number): string[] {
+  const out = new Set<string>()
+  const chars = [...word]
+  for (let tries = 0; tries < 60 && out.size < n; tries++) {
+    const i = Math.floor(Math.random() * chars.length)
+    const group = LOOKALIKE.filter((g) => g.includes(chars[i].toLowerCase()))
+    if (!group.length) continue
+    const alt = pick(pick(group).filter((x) => x !== chars[i].toLowerCase()))
+    const next = [...chars]
+    next[i] = chars[i] === chars[i].toUpperCase() ? alt.toUpperCase() : alt
+    const w = next.join('')
+    if (w !== word) out.add(w)
+  }
+  return [...out]
+}
+
+const seed = () => Math.floor(Math.random() * 1e9)
+
+function cursiveFor(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
+  const out: Candidate[] = []
+  const rnd = () => Math.random().toString(36).slice(2, 7)
+  // Plain words written as they'd be in a notebook: no stress marks, letters only.
+  const words = (lesson.vocab ?? [])
+    .map((v) => ({ v, w: stripStress(v.ru) }))
+    .filter(({ w }) => /^[а-яё-]{2,12}$/i.test(w))
+  const others = pool.map((v) => stripStress(v.ru)).filter((w) => /^[а-яё-]{2,12}$/i.test(w))
+
+  for (const { v, w } of words) {
+    const id = `cur:${v.id}`
+    const tr = `${w} = ${v.es}`
+    const options = () => {
+      const fakes = cursiveFakes(w, 2)
+      const near = others.filter((o) => o !== w && Math.abs(o.length - w.length) <= 1)
+      const real = distractors(w, near.length >= 2 ? near : others, 3 - fakes.length)
+      const choices = shuffle([w, ...fakes, ...real]).slice(0, 4)
+      if (!choices.includes(w)) choices[0] = w
+      return { choices, answer: choices.indexOf(w) }
+    }
+    out.push({ id: `${id}:read`, lessonId: lesson.id, items: [id], level: 1, skill: 'cursive', kind: 'choice',
+      make: () => ({ key: `${id}:read-${rnd()}`, items: [id], lessonId: lesson.id, skill: 'cursive', kind: 'choice',
+        instruction: '¿Qué dice aquí?', prompt: w, promptLang: 'ru', hand: { level: 1, seed: seed() }, ...options(), choiceLang: 'ru', translation: tr }) })
+    out.push({ id: `${id}:three`, lessonId: lesson.id, items: [id], level: 2, skill: 'cursive', kind: 'choice',
+      make: () => ({ key: `${id}:three-${rnd()}`, items: [id], lessonId: lesson.id, skill: 'cursive', kind: 'choice',
+        instruction: 'Tres personas escribieron la misma palabra. ¿Cuál es?', prompt: w, promptLang: 'ru',
+        hand: { level: 2, seed: seed(), multi: true }, ...options(), choiceLang: 'ru', translation: tr }) })
+    out.push({ id: `${id}:type`, lessonId: lesson.id, items: [id], level: 3, skill: 'cursive', kind: 'typed',
+      make: () => ({ key: `${id}:type-${rnd()}`, items: [id], lessonId: lesson.id, skill: 'cursive', kind: 'typed',
+        instruction: 'Escribe lo que lees', prompt: w, promptLang: 'ru', hand: { level: pick([2, 3] as const), seed: seed() },
+        answers: [v.ru], answerLang: 'ru', strict: false, translation: tr }) })
+  }
+
+  // Letter by letter: handwritten letters ↔ printed ones, look-alikes first.
+  const letters = [...new Set(words.flatMap(({ w }) => [...w.toLowerCase()]).filter((c) => /[а-яё]/.test(c)))]
+  const tricky = letters.filter((c) => LOOKALIKE.some((g) => g.includes(c)))
+  if (letters.length >= 5) {
+    out.push({ id: `${lesson.id}:cur-letters`, lessonId: lesson.id, items: [], level: 1, skill: 'cursive', kind: 'match',
+      make: () => {
+        const chosen = [...sample(tricky, Math.min(3, tricky.length)), ...sample(letters, 5)].filter((c, i, a) => a.indexOf(c) === i).slice(0, 5)
+        return { key: `${lesson.id}:cur-letters-${rnd()}`, items: [], lessonId: lesson.id, skill: 'cursive', kind: 'match',
+          instruction: 'Une cada letra manuscrita con su letra impresa', cursiveLeft: true,
+          pairs: chosen.map((c) => [c === 'т' || c === 'ш' ? c : pick([c, c.toUpperCase() + c]), c] as [string, string]) }
+      } })
+  }
+
+  // Handwritten notes with comprehension questions.
+  for (const note of lesson.notes ?? []) {
+    note.questions.forEach((q, i) => {
+      const id = `${note.id}:q${i}`
+      const items = [id, note.id]
+      out.push({ id, lessonId: lesson.id, items, level: 1, handmade: true, skill: 'cursive', kind: 'choice',
+        make: () => {
+          const order = shuffle(q.choices.map((_, j) => j))
+          return { key: `${id}-${rnd()}`, items, lessonId: lesson.id, skill: 'cursive', kind: 'choice', instruction: q.q,
+            passage: { title: note.title, text: note.lines.join('\n'), handwritten: true },
+            promptLang: 'ru', choices: order.map((j) => q.choices[j]), choiceLang: 'es', answer: order.indexOf(q.answer), translation: note.es }
+        } })
+    })
+  }
+  return out
+}
+
 // ---------------------------------------------------------------- public
 
 const cache = new Map<string, Candidate[]>()
@@ -339,6 +428,7 @@ export function candidatesFor(lessonId: string): Candidate[] {
     ...(lesson.vocab ?? []).flatMap((v) => fromVocab(v, lesson, pool)),
     ...lesson.sneakIns.flatMap((v) => fromVocab(v, lesson, pool).filter((c) => c.level < 3)),
     ...lessonLevel(lesson, pool),
+    ...cursiveFor(lesson, pool),
   ]
   // Every exercise gets a translation: hand-written ones bring theirs, the rest are derived.
   for (const c of result) {

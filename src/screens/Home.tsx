@@ -107,6 +107,7 @@ export function Home() {
           desc={dueCount ? `${dueCount} elementos para repasar hoy` : 'Mezcla de todo lo visto, según lo que más necesitas'}
           onClick={() => navigate('/play?mode=review')} />
         <Row icon="listen" title="Escuchar historias" desc="Diálogos y relatos grabados, con preguntas" onClick={() => navigate('/play?mode=listening')} />
+        <Row icon="pen" title="Leer cursiva" desc="Palabras y notas escritas a mano" onClick={() => navigate('/play?mode=cursive')} />
         <Row icon="target" title="Mis errores" desc={weakCount ? `${weakCount} elementos con errores recientes` : 'Aún no hay errores registrados'}
           onClick={() => navigate('/play?mode=weak')} />
         <Row icon="map" title="Otra lección" desc="Elige cualquier lección en la ruta" onClick={() => navigate('/path')} />
