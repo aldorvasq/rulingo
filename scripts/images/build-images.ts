@@ -52,7 +52,11 @@ const HINTS: Record<string, string> = {
   'визитка': 'a small business card held between two fingers, a neat stack of business cards on a desk (cards are blank)',
   'студент': 'a university student with a backpack and books walking in front of a grand university building',
 }
-const REDO = new Set(process.argv.includes('--redo') ? process.argv[process.argv.indexOf('--redo') + 1].split(',') : [])
+const DONE_REDO = join(RAW, 'redone.json')
+const redone: string[] = existsSync(DONE_REDO) ? JSON.parse(readFileSync(DONE_REDO, 'utf8')) : []
+// --once: each word in --redo is repainted a single time (remembered in out/redone.json).
+const REDO = new Set((process.argv.includes('--redo') ? process.argv[process.argv.indexOf('--redo') + 1].split(',') : [])
+  .filter((w) => !process.argv.includes('--once') || !redone.includes(w)))
 
 const index: Record<string, string> = existsSync(INDEX) ? JSON.parse(readFileSync(INDEX, 'utf8')) : {}
 let made = 0, stopped = ''
@@ -76,6 +80,7 @@ for (const [word, emoji] of Object.entries(EMOJI)) {
       index[word] = `img/vocab/${file}`
       writeFileSync(INDEX, JSON.stringify(index, null, 1) + '\n')
       made++
+      if (REDO.has(word)) { redone.push(word); writeFileSync(DONE_REDO, JSON.stringify(redone)) }
       process.stdout.write(`✓ ${word}\n`)
       break
     }
