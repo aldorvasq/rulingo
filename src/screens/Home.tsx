@@ -11,6 +11,7 @@ import { DailyHero } from '../components/Culture'
 import { ScheduleCard } from '../components/ScheduleCard'
 import { exportProgress } from '../state/backup'
 import { TopicList } from '../components/TopicList'
+import { GoalStrip } from '../components/Goal'
 
 export function StreakBadge() {
   const streak = useStore((s) => s.streak)
@@ -86,6 +87,7 @@ export function Home() {
                 <span className="tabular-nums">{Math.round(lessonMastery(lesson, progress) * 100)}%</span>
               </div>
             </div>
+            <GoalStrip />
           </section>
 
           <InstallBanner />

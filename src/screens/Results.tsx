@@ -11,7 +11,7 @@ export function Results({ summary, mode, bestCombo }: { summary: SessionSummary;
   const title = summary.perfect ? 'Repaso perfecto' : accuracy >= 80 ? 'Repaso terminado' : 'Buen trabajo, sigue practicando'
   const again = 'lessonId' in mode
     ? `/play?mode=${mode.mode}&id=${mode.lessonId}${mode.mode === 'topic' ? `&topic=${encodeURIComponent(mode.topic)}` : ''}`
-    : `/play?mode=${mode.mode}`
+    : mode.mode === 'skill' ? `/play?mode=skill&skill=${mode.skill}` : `/play?mode=${mode.mode}`
 
   return (
     <div className="mx-auto flex min-h-full max-w-xl flex-col px-6 py-10">

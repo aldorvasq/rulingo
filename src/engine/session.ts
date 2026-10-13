@@ -4,7 +4,7 @@ import { candidatesFor } from './generate'
 import type { ItemState } from './srs'
 import { lessonTopics, topicMatches } from './topics'
 import { hasListening } from '../lib/audio'
-import type { Candidate, RunExercise } from './types'
+import type { Candidate, RunExercise, Skill } from './types'
 
 export type SessionMode =
   | { mode: 'lesson'; lessonId: string }
@@ -14,6 +14,7 @@ export type SessionMode =
   | { mode: 'daily' }
   | { mode: 'listening' }
   | { mode: 'cursive' }
+  | { mode: 'skill'; skill: Skill }
 
 export interface SessionContext {
   progress: Record<string, ItemState>
@@ -22,6 +23,8 @@ export interface SessionContext {
   coveredUpTo: string
   length: number
   today: string
+  /** The learner's goal skill: mixed sessions give it about a third of the exercises. */
+  goal?: Skill | null
 }
 
 function desiredLevel(c: Candidate, progress: Record<string, ItemState>): number {
@@ -189,6 +192,10 @@ export function buildSession(mode: SessionMode, ctx: SessionContext): RunExercis
     const rest = n - letters.length - notes.length - three.length
     const third = p.pick(near(all.filter((c) => c.kind !== 'match')), Math.ceil(rest / 4))
     chosen = [...letters, ...notes, ...three, ...third, ...acrossChapters(p, all, rest - third.length, undefined, false)]
+  } else if (mode.mode === 'skill') {
+    // Strengthen one skill across everything covered, shaky and due items first.
+    p.limits = { kind: {}, skill: {}, other: n }
+    chosen = acrossChapters(p, pool(covered).filter((c) => c.skill === mode.skill && !c.sneak), n, { weak: 5, due: 3, fresh: 0.5 })
   } else if (mode.mode === 'weak') {
     const weak = pool(covered).filter((c) => !c.sneak && c.items.some((i) => {
       const st = ctx.progress[i]
@@ -209,6 +216,18 @@ export function buildSession(mode: SessionMode, ctx: SessionContext): RunExercis
     const sneak = p.pick(sneaks, nSneak)
     const main = p.mixed(pool(focusIds).filter((c) => !c.sneak), n - review.length - sneak.length)
     chosen = [...main, ...review, ...sneak]
+  }
+
+  // The goal skill gets about a third of mixed sessions (not all of it: everything else still matters).
+  if (ctx.goal && (mode.mode === 'lesson' || mode.mode === 'review' || mode.mode === 'daily')) {
+    const ids = mode.mode === 'lesson' ? [mode.lessonId] : mode.mode === 'review' ? covered : [...new Set([...ctx.focusLessons, ...covered.slice(-4)])]
+    const want = Math.round(n * 0.3)
+    const have = chosen.filter((c) => c.skill === ctx.goal).length
+    if (have < want) {
+      const extra = acrossChapters(p, pool(ids).filter((c) => c.skill === ctx.goal && !c.sneak && !chosen.includes(c)), want - have, { weak: 4, due: 3 }, false)
+      const others = chosen.filter((c) => c.skill !== ctx.goal)
+      chosen = [...chosen.filter((c) => c.skill === ctx.goal), ...extra, ...shuffle(others).slice(0, Math.max(0, n - have - extra.length))]
+    }
   }
 
   const levels = new Map<string, number>()

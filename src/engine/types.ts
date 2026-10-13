@@ -51,6 +51,8 @@ export interface AnswerResult {
   /** Shown in the feedback sheet when wrong / almost. */
   correctAnswer?: string
   typed?: boolean
+  /** A hint was used for this answer. */
+  hinted?: boolean
 }
 
 /** A candidate the session builder can choose; `make` renders a fresh instance (new distractors). */

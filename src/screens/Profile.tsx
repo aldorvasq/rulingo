@@ -7,6 +7,7 @@ import { addDays, dayKey } from '../lib/date'
 import { normalizeEs, normalizeRu } from '../lib/text'
 import { Header, ProgressBar } from '../components/ui'
 import { ExampleLine, Speak } from '../components/Speak'
+import { SkillsCard } from '../components/Goal'
 
 export function Profile() {
   const [tab, setTab] = useState<'badges' | 'words'>('words')
@@ -25,6 +26,8 @@ export function Profile() {
           <Stat value={`${accuracy}%`} label="Precisión total" />
           <Stat value={`${streak.current} / ${streak.best}`} label="Racha actual / mejor" />
         </section>
+
+        <SkillsCard />
 
         <StreakCalendar xpByDay={stats.xpByDay} frozen={streak.frozenDays} />
 

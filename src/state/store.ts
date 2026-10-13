@@ -17,6 +17,9 @@ export interface Settings {
   /** On-screen ЙЦУКЕН keyboard (suppresses the phone keyboard). */
   cyrKeyboard: boolean
   theme: 'light' | 'dark'
+  /** The skill the learner chose to strengthen (suggested from their weakest), and since when. */
+  goal: Skill | null
+  goalSince: string | null
 }
 
 export interface Stats {
@@ -33,6 +36,8 @@ export interface Stats {
   lessonRuns: Record<string, number>
   earlyBird: number
   nightOwl: number
+  /** First-attempt answers per day and skill: [attempts, correct without a hint]. Drives the weakness analysis. */
+  skillLog: Record<string, Partial<Record<Skill, [number, number]>>>
 }
 
 export interface Streak {
@@ -86,6 +91,8 @@ export const defaultSettings: Settings = {
   sessionLength: 15,
   translit: false,
   theme: 'light',
+  goal: null,
+  goalSince: null,
   cyrKeyboard: typeof matchMedia !== 'undefined' && matchMedia('(pointer: coarse)').matches,
 }
 
@@ -94,7 +101,7 @@ const initial = (): PersistedState => ({
   progress: {},
   stats: {
     xpTotal: 0, xpByDay: {}, sessions: 0, perfect: 0, answered: 0, correct: 0, bySkill: {},
-    typedCorrect: 0, sneakCorrect: 0, dailyDone: [], lessonRuns: {}, earlyBird: 0, nightOwl: 0,
+    typedCorrect: 0, sneakCorrect: 0, dailyDone: [], lessonRuns: {}, earlyBird: 0, nightOwl: 0, skillLog: {},
   },
   streak: { current: 0, best: 0, lastGoalDay: null, freezes: 0, frozenDays: [] },
   badges: {},
@@ -128,6 +135,12 @@ export const useStore = create<PersistedState & Actions>()(
           const progress = { ...st.progress }
           for (const id of ex.items) progress[id] = review(progress[id], r.correct, today)
           const stats = { ...st.stats, answered: st.stats.answered + 1 }
+          // Honest per-skill accuracy: a hinted answer counts as an attempt but not as correct.
+          const day = { ...(st.stats.skillLog[today] ?? {}) }
+          const [a, c] = day[ex.skill] ?? [0, 0]
+          day[ex.skill] = [a + 1, c + (r.correct && !r.hinted ? 1 : 0)]
+          const keep = Object.keys(st.stats.skillLog).filter((d) => d >= addDays(today, -180))
+          stats.skillLog = { ...Object.fromEntries(keep.map((d) => [d, st.stats.skillLog[d]])), [today]: day }
           if (r.correct) {
             stats.correct += 1
             stats.bySkill = { ...stats.bySkill, [ex.skill]: (stats.bySkill[ex.skill] ?? 0) + 1 }

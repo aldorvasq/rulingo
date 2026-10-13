@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { buildSession, type SessionMode } from '../engine/session'
-import { exerciseTopic, topicTitle } from '../engine/topics'
-import type { AnswerResult, RunExercise } from '../engine/types'
+import { exerciseTopic, SKILL_TOPICS, topicTitle } from '../engine/topics'
+import type { AnswerResult, RunExercise, Skill } from '../engine/types'
 import { hintsLeft, HINTS_PER_DAY, useStore, type SessionSummary } from '../state/store'
 import { dayKey } from '../lib/date'
 import { navigate } from '../lib/router'
@@ -30,6 +30,7 @@ export function parseMode(params: URLSearchParams): SessionMode {
   if (m === 'weak') return { mode: 'weak' }
   if (m === 'listening') return { mode: 'listening' }
   if (m === 'cursive') return { mode: 'cursive' }
+  if (m === 'skill' && params.get('skill') && SKILL_TOPICS[params.get('skill') as Skill]) return { mode: 'skill', skill: params.get('skill') as Skill }
   return { mode: 'daily' }
 }
 
@@ -42,6 +43,7 @@ export function sessionTitle(mode: SessionMode): string {
     case 'daily': return 'Práctica del día'
     case 'listening': return 'Comprensión auditiva'
     case 'cursive': return 'Leer cursiva'
+    case 'skill': return `Reforzar · ${SKILL_TOPICS[mode.skill].title}`
   }
 }
 
@@ -145,6 +147,7 @@ export function Player({ params }: { params: URLSearchParams }) {
       coveredUpTo: st.settings.coveredUpTo,
       length: st.settings.sessionLength,
       today: dayKey(),
+      goal: st.settings.goal,
     })
   })
   const total = useRef(queue.length)
@@ -161,6 +164,7 @@ export function Player({ params }: { params: URLSearchParams }) {
   const [hint, setHint] = useState<string | null>(null)
   const hints = useStore((s) => s.hints)
   const spendHint = useStore((s) => s.spendHint)
+  const goalSkill = useStore((s) => s.settings.goal)
 
   const ex = queue[pos]
 
@@ -173,7 +177,7 @@ export function Player({ params }: { params: URLSearchParams }) {
     if (!ex || result) return
     const isRetry = retried.current.has(ex.key)
     if (!isRetry) {
-      recordAnswer(ex, r)
+      recordAnswer(ex, { ...r, hinted: !!hint })
       stats.current.done += 1
       if (r.correct) stats.current.firstTryCorrect += 1
     }
@@ -264,6 +268,7 @@ export function Player({ params }: { params: URLSearchParams }) {
             <span className="text-muted">Repasando · </span>
             <TopicTitle title={mode.mode === 'topic' ? topicTitle(mode.topic) ?? exerciseTopic(ex) : exerciseTopic(ex)} />
           </span>
+          {ex.skill === goalSkill && <span className="rounded-sm bg-brand/10 px-1.5 py-0.5 text-xs font-bold text-brand">🎯 Tu meta</span>}
           {ex.sneak && <span className="rounded-sm bg-gold/15 px-1.5 py-0.5 text-xs font-bold text-gold">Palabra extra</span>}
           {isRetry && <span className="rounded-sm bg-brick/10 px-1.5 py-0.5 text-xs font-bold text-brick">Repaso de error</span>}
         </div>
