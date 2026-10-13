@@ -36,14 +36,33 @@ const RULES = 'Square composition, one clearly recognisable subject centred with
   'Show the subject in an ordinary, unmistakable way so a language learner can name it at a glance. ' +
   'Absolutely no text, letters, numbers, labels, signs, logos or watermarks anywhere (flags and objects must have no writing).'
 
+/** Clearer subjects for words whose picture could be confused with another one. */
+const HINTS: Record<string, string> = {
+  'кофе': 'coffee: a copper Turkish coffee pot (cezve) pouring dark coffee into a small cup, roasted coffee beans scattered around',
+  'чай': 'tea: a brass Russian samovar with a glass of amber tea in an ornate metal glass-holder (podstakannik) and a lemon slice',
+  'яхта': 'a modern white sailing yacht with a tall mast on blue water',
+  // Buildings: show what happens inside or a telling symbol, so they don't all look like the same house.
+  'школа': 'a school classroom: children at wooden desks, a teacher at a green blackboard with chalk drawings (no writing)',
+  'почта': 'a post office: a blue postbox, a pile of stamped envelopes and parcels tied with string on a counter',
+  'отель': 'a hotel reception: a polished desk with a brass service bell, a wall board of room keys, a guest with a suitcase',
+  'магазин': 'a small shop: a counter with scales, shelves of jars, bread and goods, a shopkeeper and a customer with a basket',
+  'клиника': 'a clinic: a doctor in a white coat with a stethoscope, an examination bed and a red cross on a white cabinet',
+  'аэропорт': 'an airport: a large passenger airplane parked by a glass terminal, travellers with suitcases',
+  'банк': 'a bank: an open steel safe full of gold coins and banknote bundles behind a counter',
+  'визитка': 'a small business card held between two fingers, a neat stack of business cards on a desk (cards are blank)',
+  'студент': 'a university student with a backpack and books walking in front of a grand university building',
+}
+const REDO = new Set(process.argv.includes('--redo') ? process.argv[process.argv.indexOf('--redo') + 1].split(',') : [])
+
 const index: Record<string, string> = existsSync(INDEX) ? JSON.parse(readFileSync(INDEX, 'utf8')) : {}
 let made = 0, stopped = ''
 for (const [word, emoji] of Object.entries(EMOJI)) {
   if (made >= LIMIT || stopped) break
   const file = `${audioKey(word)}.jpg`
-  if (index[word] && existsSync(join(OUT, file))) continue
+  if (index[word] && existsSync(join(OUT, file)) && !REDO.has(word)) continue
   const es = gloss.get(word) ?? word
-  const prompt = `${STYLE} Subject: «${es}» (Russian word «${word}»; the thing shown by the emoji ${emoji}). ${RULES}`
+  const subject = HINTS[word] ? `${HINTS[word]} (Russian word «${word}»)` : `«${es}» (Russian word «${word}»; the thing shown by the emoji ${emoji})`
+  const prompt = `${STYLE} Subject: ${subject}. ${RULES}`
   for (let attempt = 0; attempt < 3; attempt++) {
     const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`, {
       method: 'POST', headers: { 'x-goog-api-key': KEY, 'Content-Type': 'application/json' },
