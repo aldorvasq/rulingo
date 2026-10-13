@@ -22,7 +22,7 @@ export function MatchEx({ ex, autoSubmit }: ExProps<'match'>) {
 
   const leftRu = ex.pairs.every((p) => hasCyrillic(p[0]))
   const rightRu = ex.pairs.every((p) => hasCyrillic(p[1]))
-  const [leftLabel, rightLabel] = ex.cursiveLeft ? ['A mano', 'Impresa'] : leftRu && rightRu ? ['Palabra', 'Su pareja'] : [leftRu ? 'Ruso' : 'Palabra', rightRu ? 'Ruso' : 'Español']
+  const [leftLabel, rightLabel] = ex.pictureLeft ? ['Imagen', 'Palabra'] : ex.cursiveLeft ? ['A mano', 'Impresa'] : leftRu && rightRu ? ['Palabra', 'Su pareja'] : [leftRu ? 'Ruso' : 'Palabra', rightRu ? 'Ruso' : 'Español']
 
   const attempt = (l: number | null, r: number | null) => {
     if (l === null || r === null) return
@@ -59,7 +59,9 @@ export function MatchEx({ ex, autoSubmit }: ExProps<'match'>) {
       <button key={i} disabled={st === 'done'}
         onClick={() => (isL ? (setSelL(i), attempt(i, selR)) : (setSelR(i), attempt(selL, i)))}
         className={`relative flex min-h-14 w-full items-center gap-2 rounded-md border-[1.5px] border-line px-3 py-2.5 transition-colors ${base} ${look} ${isL ? 'text-left' : 'flex-row-reverse text-right'}`}>
-        {isL && ex.cursiveLeft
+        {isL && ex.pictureLeft
+          ? <span className="emoji min-w-0 flex-1 text-4xl leading-none">{text}</span>
+          : isL && ex.cursiveLeft
           ? <span className="min-w-0 flex-1"><Handwriting text={text} hand={i % 3} seed={i * 101 + text.length} size={34} /></span>
           : <span className={`min-w-0 flex-1 ${hasCyrillic(text) ? 'ru' : ''} ${optionSize(text, hasCyrillic(text))}`}>{text}</span>}
         {st === 'done'

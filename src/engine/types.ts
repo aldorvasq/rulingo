@@ -6,7 +6,7 @@ import type { CastMember } from '../content/types'
 export type Lang = 'ru' | 'es'
 
 /** Stats bucket used for topics and badges ("100 conjugations", "50 antonyms"…). */
-export type Skill = 'vocab' | 'grammar' | 'conjugation' | 'antonym' | 'writing' | 'reading' | 'syntax' | 'listening' | 'cursive'
+export type Skill = 'vocab' | 'grammar' | 'conjugation' | 'antonym' | 'writing' | 'reading' | 'syntax' | 'listening' | 'cursive' | 'visual'
 
 interface RunBase {
   key: string
@@ -28,6 +28,10 @@ interface RunBase {
   hand?: { level: 1 | 2 | 3; seed: number; multi?: boolean }
   /** Match: the left column is handwritten. */
   cursiveLeft?: boolean
+  /** A picture shown above the prompt: a photo, a drawing (SVG markup, viewBox 0 0 120 100) or an emoji. */
+  picture?: { img?: string; svg?: string; emoji?: string }
+  /** Match: the left column holds emoji pictures. */
+  pictureLeft?: boolean
 }
 
 export type RunExercise = RunBase & (

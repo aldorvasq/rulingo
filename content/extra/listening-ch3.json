@@ -2284,14 +2284,14 @@
         {
           "id": "3.4-l-3",
           "title": "Una queja a los vecinos",
-          "scene": "Neighbour complaint at the door, evening",
+          "scene": "Neighbour visits the flat upstairs in the evening to ask them politely to play more quietly; calm and friendly throughout",
           "kind": "dialogue",
           "lines": [
             {
               "speaker": "Ма́ша",
               "gender": "f",
               "ru": "До́брый ве́чер! Я ва́ша сосе́дка, я живу́ внизу́.",
-              "tone": "polite, a bit tense"
+              "tone": "polite, calm, friendly"
             },
             {
               "speaker": "Оле́г",
@@ -2303,13 +2303,13 @@
               "speaker": "Ка́тя",
               "gender": "f",
               "ru": "О́чень прия́тно! Всё в поря́дке?",
-              "tone": "cheerful, concerned"
+              "tone": "cheerful, friendly"
             },
             {
               "speaker": "Ма́ша",
               "gender": "f",
               "ru": "Нет, не всё. Вы о́чень гро́мко игра́ете на саксофо́не.",
-              "tone": "firm but polite"
+              "tone": "polite, calm, a little firm"
             },
             {
               "speaker": "Оле́г",
@@ -2321,7 +2321,7 @@
               "speaker": "Ма́ша",
               "gender": "f",
               "ru": "Я понима́ю. Но сейча́с уже́ по́здно, а я рабо́таю ра́но.",
-              "tone": "tired, polite but firm"
+              "tone": "polite, calm, explaining"
             },
             {
               "speaker": "Ка́тя",
@@ -2333,7 +2333,7 @@
               "speaker": "Ма́ша",
               "gender": "f",
               "ru": "Да, но де́ти у вас весёлые и до́брые.",
-              "tone": "kind, softening"
+              "tone": "warm, kind"
             },
             {
               "speaker": "Оле́г",
@@ -2345,7 +2345,7 @@
               "speaker": "Ма́ша",
               "gender": "f",
               "ru": "Спаси́бо! Вы идеа́льные сосе́ди!",
-              "tone": "relieved, grateful"
+              "tone": "warm, grateful"
             }
           ],
           "cast": [

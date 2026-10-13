@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { GapSentence } from '../components/ui'
-import { ContextBlock, HandPrompt, ListenBlock, ruPromptSize, tileState, type ExProps } from './common'
+import { ContextBlock, HandPrompt, PicturePrompt, ListenBlock, ruPromptSize, tileState, type ExProps } from './common'
 import { Speak } from '../components/Speak'
 
 export function ChoiceEx({ ex, locked, ready }: ExProps<'choice'>) {
@@ -30,6 +30,7 @@ export function ChoiceEx({ ex, locked, ready }: ExProps<'choice'>) {
       <ContextBlock ex={ex} />
       <ListenBlock ex={ex} locked={locked} correct={locked && sel === ex.answer} />
       <HandPrompt ex={ex} />
+      <PicturePrompt ex={ex} />
       {ex.prompt && !ex.hand && (
         <p className={`mb-7 ${ex.promptLang === 'ru' ? `ru ${ruPromptSize(ex.prompt)} font-bold leading-snug` : 'text-2xl font-bold text-ink/85'}`}>
           {ex.prompt.includes('___')

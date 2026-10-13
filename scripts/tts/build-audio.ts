@@ -13,7 +13,7 @@
 // the same persona description so the model keeps one voice per person.
 // Key: GEMINI_KEY_FILE, else ~/.config/rulingo/gemini-key, else ~/Downloads/googleapikey.txt (never printed).
 import { execFileSync } from 'node:child_process'
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs'
 import { homedir } from 'node:os'
 import { join } from 'node:path'
 import { audioKey, fillGap, normalizeForAudio } from '../../src/lib/audioKey'
@@ -24,10 +24,11 @@ const ROOT = join(import.meta.dirname, '..', '..')
 const OUT = join(ROOT, 'public', 'audio')
 const CACHE = join(import.meta.dirname, 'cache')
 const DRY = process.argv.includes('--dry-run')
-const BUDGET = Number(process.argv[process.argv.indexOf('--budget') + 1]) || 95
+const budgetArg = process.argv.indexOf('--budget')
+const BUDGET = budgetArg >= 0 && Number.isFinite(Number(process.argv[budgetArg + 1])) ? Number(process.argv[budgetArg + 1]) : 95
 const MODEL = 'gemini-3.8-flash-tts'
 const CLIP_DIR = 'c2'
-for (const d of [join(OUT, CLIP_DIR), join(OUT, 'l'), join(CACHE, 'segments')]) mkdirSync(d, { recursive: true })
+for (const d of [join(OUT, CLIP_DIR), join(OUT, 'l'), join(CACHE, 'segments'), join(CACHE, 'wav')]) mkdirSync(d, { recursive: true })
 
 const FEMALE = ['Kore', 'Aoede', 'Leda']
 const MALE = ['Puck', 'Charon']
@@ -153,7 +154,8 @@ async function tts(turns: Turn[], speech: unknown, mp3: string): Promise<boolean
     }).then((r) => r.json()).catch((e) => ({ error: { message: String(e) } }))
     const audio = (res.steps ?? []).filter((s: any) => s.type === 'model_output').flatMap((s: any) => s.content ?? []).filter((c: any) => c.type === 'audio').at(-1)
     if (audio) {
-      const wav = mp3.replace(/\.mp3$/, '.wav')
+      // The raw WAV stays in the private cache; only the mp3 is published.
+      const wav = join(CACHE, 'wav', mp3.split('/').pop()!.replace(/\.mp3$/, '.wav'))
       writeFileSync(wav, Buffer.from(audio.data, 'base64'))
       execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', wav, '-ac', '1', '-ar', '24000', '-b:a', '48k', mp3])
       audioSeconds += duration(mp3)
@@ -265,17 +267,30 @@ function splitList(file: string, outs: string[]): boolean {
   const cuts = [...inner].sort((a, b) => (b.e - b.s) - (a.e - a.s)).slice(0, outs.length - 1).sort((a, b) => a.s - b.s)
   const bounds = [[0, cuts[0]?.s ?? total], ...cuts.slice(1).map((c, i) => [cuts[i].e, c.s]), ...(cuts.length ? [[cuts.at(-1)!.e, total]] : [])]
   if (bounds.some(([a, b]) => b - a < 0.25 || b - a > 4)) return false
-  bounds.forEach(([a, b], i) => execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', file, '-ss', String(Math.max(0, a - 0.08)), '-to', String(b + 0.12),
-    '-af', 'afade=t=in:d=0.02,areverse,afade=t=in:d=0.04,areverse', '-ac', '1', '-ar', '24000', '-b:a', '48k', outs[i]]))
+  // Fade in/out with explicit times (areverse into the mp3 encoder crashes some ffmpeg builds).
+  try {
+    bounds.forEach(([a, b], i) => {
+      const start = Math.max(0, a - 0.08), len = b + 0.12 - start
+      // Cut to WAV first, then encode: filtering straight into the mp3 encoder crashes some ffmpeg builds.
+      const wav = outs[i].replace(/\.mp3$/, '.cut.wav')
+      execFileSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(start), '-t', String(len), '-i', file,
+        '-af', `afade=t=in:d=0.02,afade=t=out:st=${(len - 0.05).toFixed(3)}:d=0.05`, '-ac', '1', '-ar', '24000', wav])
+      execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', wav, '-b:a', '48k', outs[i]])
+      renameSync(wav, join(CACHE, 'segments', 'last-cut.wav'))
+    })
+  } catch {
+    return false
+  }
   return true
 }
 
 for (const voice of ['Kore', 'Puck']) {
   const words = leftClips.filter((t) => batchable(t) && (hashNum(t) % 2 ? 'Puck' : 'Kore') === voice)
-  for (let i = 0; i < words.length && !stopped; i += BATCH) {
+  for (let i = 0; i < words.length; i += BATCH) {
     const group = words.slice(i, i + BATCH)
     const whole = join(CACHE, 'segments', `list-${audioKey(voice + group.join('|'))}.mp3`)
-    if (!(await tts([{ text: group.map(asLine).join('\n'), style: LIST_STYLE }], [{ voice }], whole))) break
+    // A list already recorded (e.g. by a run that stopped early) is reused without a new request.
+    if (!existsSync(whole) && (stopped || !(await tts([{ text: group.map(asLine).join('\n'), style: LIST_STYLE }], [{ voice }], whole)))) continue
     audioSeconds -= 0.4 * group.length // pauses between words aren't speech
     if (splitList(whole, group.map(clipFile))) { listClips.push(...group); process.stdout.write('▤') }
     else { for (const t of group) qa[clipFile(t)] = { ...qa[clipFile(t)], ok: false, tries: qa[clipFile(t)]?.tries ?? 0, listFail: true }; process.stdout.write('×') }

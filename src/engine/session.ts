@@ -110,6 +110,24 @@ class Picker {
   }
 }
 
+/** Share a session evenly across chapters, so a general review covers everything seen so far
+ *  (otherwise whatever was practised most recently dominates through due/weak scores). */
+function acrossChapters(p: Picker, cands: Candidate[], n: number, weights?: Parameters<typeof score>[2], mix = true): Candidate[] {
+  const byChapter = new Map<number, Candidate[]>()
+  for (const c of cands) {
+    const ch = lessonById.get(c.lessonId)?.chapter ?? 0
+    byChapter.set(ch, [...(byChapter.get(ch) ?? []), c])
+  }
+  const groups = shuffle([...byChapter.values()])
+  if (groups.length <= 1) return mix ? p.mixed(cands, n, weights) : p.pick(cands, n, weights)
+  const out: Candidate[] = []
+  groups.forEach((g, i) => {
+    const share = Math.floor(n / groups.length) + (i < n % groups.length ? 1 : 0)
+    out.push(...(mix ? p.mixed(g, share, weights) : p.pick(g, share, weights)))
+  })
+  return out.length < n ? [...out, ...p.pick(cands, n - out.length, weights)] : out
+}
+
 /** Easier items first, then avoid the same exercise kind twice in a row. */
 function order(list: RunExercise[], levels: Map<string, number>): RunExercise[] {
   const sorted = [...list].sort((a, b) => (levels.get(a.key) ?? 2) - (levels.get(b.key) ?? 2) + (Math.random() - 0.5) * 1.5)
@@ -152,13 +170,13 @@ export function buildSession(mode: SessionMode, ctx: SessionContext): RunExercis
     chosen = p.mixed(all, n)
   } else if (mode.mode === 'review') {
     // Spaced repetition across everything covered so far: due and shaky items first.
-    chosen = p.mixed(pool(covered).filter((c) => !c.sneak), n, { due: 6, weak: 4, fresh: -2 })
+    chosen = acrossChapters(p, pool(covered).filter((c) => !c.sneak), n, { due: 6, weak: 4, fresh: -2 })
   } else if (mode.mode === 'listening') {
     p.limits = { kind: {}, skill: {}, other: n }
+    // A third from the lesson in class, the rest spread over every chapter covered.
     const all = pool(covered).filter((c) => c.skill === 'listening')
-    const focus = all.filter((c) => ctx.focusLessons.includes(c.lessonId))
-    const half = p.pick(focus, Math.ceil(n / 2))
-    chosen = [...half, ...p.pick(all, n - half.length)]
+    const focus = p.pick(all.filter((c) => ctx.focusLessons.includes(c.lessonId)), Math.ceil(n / 3))
+    chosen = [...focus, ...acrossChapters(p, all, n - focus.length, undefined, false)]
   } else if (mode.mode === 'cursive') {
     // Handwriting practice: words from the current lesson and earlier ones, letters, and notes.
     p.limits = { kind: {}, skill: {}, other: n }
@@ -166,11 +184,11 @@ export function buildSession(mode: SessionMode, ctx: SessionContext): RunExercis
     const near = (cs: Candidate[]) => { const f = cs.filter((c) => ctx.focusLessons.includes(c.lessonId)); return f.length ? f : cs }
     // Always a mix: letters, a few notes, the same word in three hands, then single words.
     const letters = p.pick(near(all.filter((c) => c.kind === 'match')), 1)
-    const notes = p.pick(near(all.filter((c) => c.items[1]?.startsWith('note-'))), 3)
-    const three = p.pick(all.filter((c) => c.id.endsWith(':three')), 3)
+    const notes = acrossChapters(p, all.filter((c) => c.items[1]?.startsWith('note-')), 3, undefined, false)
+    const three = acrossChapters(p, all.filter((c) => c.id.endsWith(':three')), 3, undefined, false)
     const rest = n - letters.length - notes.length - three.length
-    const half = p.pick(near(all.filter((c) => c.kind !== 'match')), Math.ceil(rest / 2))
-    chosen = [...letters, ...notes, ...three, ...half, ...p.pick(all, rest - half.length)]
+    const third = p.pick(near(all.filter((c) => c.kind !== 'match')), Math.ceil(rest / 4))
+    chosen = [...letters, ...notes, ...three, ...third, ...acrossChapters(p, all, rest - third.length, undefined, false)]
   } else if (mode.mode === 'weak') {
     const weak = pool(covered).filter((c) => !c.sneak && c.items.some((i) => {
       const st = ctx.progress[i]

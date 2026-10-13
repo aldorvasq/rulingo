@@ -16,3 +16,6 @@ scripts/tts/cache/
 
 # Design proposals (local review only)
 design-previews/
+
+# Raw TTS output (only the mp3s are published)
+public/audio/**/*.wav

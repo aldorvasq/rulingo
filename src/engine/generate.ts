@@ -3,6 +3,7 @@ import { lessonById, lessons, type LoadedLesson } from '../content'
 import { normalizeRu, pick, sample, shuffle, stripStress } from '../lib/text'
 import { fakeVariants } from '../lib/fakes'
 import { autoTranslation } from './translate'
+import { COLOURS, EMOJI, OBJECTS, PHOTOS, agree } from '../content/pictures'
 import type { Candidate, RunExercise, Skill } from './types'
 
 const GENDER_LABEL: Record<string, string> = { m: 'masculino', f: 'femenino', n: 'neutro', pl: 'plural' }
@@ -413,6 +414,68 @@ function cursiveFor(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
   return out
 }
 
+// ---------------------------------------------------------------- pictures and colours
+
+const plainWord = (ru: string) => stripStress(ru).toLowerCase()
+const pictureOf = (v: VocabItem) => {
+  const w = plainWord(v.ru)
+  return PHOTOS[w] ? { img: PHOTOS[w] } : EMOJI[w] ? { emoji: EMOJI[w] } : undefined
+}
+
+function picturesFor(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
+  const out: Candidate[] = []
+  const rnd = () => Math.random().toString(36).slice(2, 7)
+  const pictured = (lesson.vocab ?? []).filter((v) => pictureOf(v))
+  const others = [...new Map(pool.filter((v) => pictureOf(v)).map((v) => [plainWord(v.ru), v])).values()]
+
+  for (const v of pictured) {
+    const id = v.id
+    const tr = `${v.ru} = ${v.es}`
+    out.push({ id: `${id}:pic`, lessonId: lesson.id, items: [id], level: 1, skill: 'visual', kind: 'choice',
+      make: () => {
+        const near = others.filter((o) => o.id !== v.id && o.pos === v.pos)
+        return { key: `${id}:pic-${rnd()}`, items: [id], lessonId: lesson.id, skill: 'visual', kind: 'choice',
+          instruction: '¿Qué es esto?', picture: pictureOf(v), promptLang: 'ru',
+          ...choiceSet(v.ru, (near.length >= 3 ? near : others.filter((o) => o.id !== v.id)).map((o) => o.ru)), choiceLang: 'ru', translation: tr }
+      } })
+    out.push({ id: `${id}:pic-type`, lessonId: lesson.id, items: [id], level: 3, skill: 'visual', kind: 'typed',
+      make: () => ({ key: `${id}:pic-type-${rnd()}`, items: [id], lessonId: lesson.id, skill: 'visual', kind: 'typed',
+        instruction: 'Escribe en ruso qué ves', picture: pictureOf(v), promptLang: 'ru', answers: [v.ru], answerLang: 'ru', strict: false,
+        hint: describe(v) || undefined, translation: tr }) })
+  }
+  if (pictured.length >= 5) {
+    out.push({ id: `${lesson.id}:pic-match`, lessonId: lesson.id, items: [], level: 1, skill: 'visual', kind: 'match',
+      make: () => {
+        const words = sample(pictured, 5)
+        return { key: `${lesson.id}:pic-match-${rnd()}`, items: words.map((w) => w.id), lessonId: lesson.id, skill: 'visual', kind: 'match',
+          instruction: 'Une cada imagen con su palabra', pictureLeft: true, pairs: words.map((w) => [pictureOf(w)!.emoji ?? '', w.ru] as [string, string]) }
+      } })
+  }
+
+  // Colours: "What colour is the car?" — the answer must agree with the object (кра́сная маши́на, кра́сный дом).
+  const colours = (lesson.vocab ?? []).filter((v) => v.pos === 'adj' && v.forms && COLOURS[plainWord(v.ru)])
+  if (colours.length >= 4) {
+    for (const v of colours) {
+      const paint = COLOURS[plainWord(v.ru)]
+      const make = (typed: boolean) => (): RunExercise => {
+        const obj = pick(OBJECTS)
+        const correct = agree(v.forms!, obj.gender)
+        const base = { key: `${v.id}:colour-${rnd()}`, items: [v.id], lessonId: lesson.id, skill: 'visual' as const,
+          picture: { svg: obj.draw(paint.hex, paint.stroke ?? 'rgba(0,0,0,.45)') },
+          prompt: `Како́го цве́та ${obj.ru}?`, promptLang: 'ru' as const, translation: `${correct} ${stripStress(obj.ru)} = ${obj.es} ${v.es}`,
+          explanation: `${obj.ru} es ${GENDER_LABEL[obj.gender]} → ${correct}` }
+        if (typed) return { ...base, kind: 'typed', instruction: 'Escribe el color (con la terminación correcta)', answers: [correct], answerLang: 'ru', strict: true, hint: GENDER_LABEL[obj.gender] }
+        const wrong = sample(colours.filter((c) => c.id !== v.id), 3).map((c) => agree(c.forms!, obj.gender))
+        const choices = shuffle([correct, ...wrong])
+        return { ...base, kind: 'choice', instruction: '¿De qué color es?', choices, answer: choices.indexOf(correct), choiceLang: 'ru' }
+      }
+      out.push({ id: `${v.id}:colour`, lessonId: lesson.id, items: [v.id], level: 2, skill: 'visual', kind: 'choice', make: make(false) })
+      out.push({ id: `${v.id}:colour-type`, lessonId: lesson.id, items: [v.id], level: 3, skill: 'visual', kind: 'typed', make: make(true) })
+    }
+  }
+  return out
+}
+
 // ---------------------------------------------------------------- public
 
 const cache = new Map<string, Candidate[]>()
@@ -429,6 +492,7 @@ export function candidatesFor(lessonId: string): Candidate[] {
     ...lesson.sneakIns.flatMap((v) => fromVocab(v, lesson, pool).filter((c) => c.level < 3)),
     ...lessonLevel(lesson, pool),
     ...cursiveFor(lesson, pool),
+    ...picturesFor(lesson, pool),
   ]
   // Every exercise gets a translation: hand-written ones bring theirs, the rest are derived.
   for (const c of result) {

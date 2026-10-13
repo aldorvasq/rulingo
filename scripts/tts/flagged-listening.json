@@ -222,7 +222,7 @@
   "3.4-l-3": {
    "title": "Una queja a los vecinos",
    "file": "l/3.4-l-3-g38-1zh70xlm475.mp3",
-   "redo": false,
+   "redo": true,
    "jumps": [
     {
      "line": 5,
