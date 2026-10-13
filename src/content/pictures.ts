@@ -1,6 +1,7 @@
-// Pictures for vocabulary: the phone's own colour emoji (cartoon drawings that work offline) for nouns,
-// and recolourable drawings of everyday objects for the colour exercises. Photos can be added later as
-// files in public/img/vocab/<word>.webp and listed in PHOTOS; a photo wins over the emoji.
+// Pictures for vocabulary: storybook paintings generated for each word (public/img/vocab, listed in
+// photos.json by scripts/images/build-images.ts), the phone's colour emoji as a fallback, and
+// recolourable drawings of everyday objects for the colour exercises.
+import photos from './photos.json'
 
 /** Plain word (no stress marks, lower case) → emoji. Every emoji is unique so a picture has one answer. */
 export const EMOJI: Record<string, string> = {
@@ -49,8 +50,8 @@ export const EMOJI: Record<string, string> = {
   'гора': '⛰️', 'крокодил': '🐊',
 }
 
-/** Real photos available as files (word → path under public/). Empty until photos are added. */
-export const PHOTOS: Record<string, string> = {}
+/** Generated paintings (word → path under public/); a painting wins over the emoji. */
+export const PHOTOS: Record<string, string> = photos
 
 // ---------------------------------------------------------------- colours
 

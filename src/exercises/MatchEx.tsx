@@ -60,7 +60,9 @@ export function MatchEx({ ex, autoSubmit }: ExProps<'match'>) {
         onClick={() => (isL ? (setSelL(i), attempt(i, selR)) : (setSelR(i), attempt(selL, i)))}
         className={`relative flex min-h-14 w-full items-center gap-2 rounded-md border-[1.5px] border-line px-3 py-2.5 transition-colors ${base} ${look} ${isL ? 'text-left' : 'flex-row-reverse text-right'}`}>
         {isL && ex.pictureLeft
-          ? <span className="emoji min-w-0 flex-1 text-4xl leading-none">{text}</span>
+          ? text.startsWith('img:')
+            ? <span className="min-w-0 flex-1"><img src={text.slice(4)} alt="" className="h-16 w-16 rounded-sm object-cover" /></span>
+            : <span className="emoji min-w-0 flex-1 text-4xl leading-none">{text}</span>
           : isL && ex.cursiveLeft
           ? <span className="min-w-0 flex-1"><Handwriting text={text} hand={i % 3} seed={i * 101 + text.length} size={34} /></span>
           : <span className={`min-w-0 flex-1 ${hasCyrillic(text) ? 'ru' : ''} ${optionSize(text, hasCyrillic(text))}`}>{text}</span>}

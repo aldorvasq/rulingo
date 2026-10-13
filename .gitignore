@@ -19,3 +19,6 @@ design-previews/
 
 # Raw TTS output (only the mp3s are published)
 public/audio/**/*.wav
+
+# Image generation originals (only the resized copies are published)
+scripts/images/out/

@@ -419,7 +419,7 @@ function cursiveFor(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
 const plainWord = (ru: string) => stripStress(ru).toLowerCase()
 const pictureOf = (v: VocabItem) => {
   const w = plainWord(v.ru)
-  return PHOTOS[w] ? { img: PHOTOS[w] } : EMOJI[w] ? { emoji: EMOJI[w] } : undefined
+  return PHOTOS[w] ? { img: `${import.meta.env.BASE_URL}${PHOTOS[w]}` } : EMOJI[w] ? { emoji: EMOJI[w] } : undefined
 }
 
 function picturesFor(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
@@ -448,7 +448,7 @@ function picturesFor(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
       make: () => {
         const words = sample(pictured, 5)
         return { key: `${lesson.id}:pic-match-${rnd()}`, items: words.map((w) => w.id), lessonId: lesson.id, skill: 'visual', kind: 'match',
-          instruction: 'Une cada imagen con su palabra', pictureLeft: true, pairs: words.map((w) => [pictureOf(w)!.emoji ?? '', w.ru] as [string, string]) }
+          instruction: 'Une cada imagen con su palabra', pictureLeft: true, pairs: words.map((w) => { const p = pictureOf(w)!; return [p.img ? `img:${p.img}` : p.emoji ?? '', w.ru] as [string, string] }) }
       } })
   }
 

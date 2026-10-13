@@ -43,6 +43,7 @@ export default defineConfig({
         runtimeCaching: [
           { urlPattern: /\/audio\/manifest\.json$/, handler: 'NetworkFirst', options: { cacheName: 'audio-manifest' } },
           { urlPattern: /\/audio\/.*\.mp3$/, handler: 'CacheFirst', options: { cacheName: 'audio', expiration: { maxEntries: 4000 }, rangeRequests: true } },
+          { urlPattern: /\/img\/vocab\/.*\.jpg$/, handler: 'CacheFirst', options: { cacheName: 'vocab-images', expiration: { maxEntries: 400 } } },
         ],
       },
     }),
