@@ -47,7 +47,7 @@ const HINTS: Record<string, string> = {
   'отель': 'a hotel reception: a polished desk with a brass service bell, a wall board of room keys, a guest with a suitcase',
   'магазин': 'a small shop: a counter with scales, shelves of jars, bread and goods, a shopkeeper and a customer with a basket',
   'клиника': 'a clinic: a doctor in a white coat with a stethoscope, an examination bed and a red cross on a white cabinet',
-  'аэропорт': 'an airport: a large passenger airplane parked by a glass terminal, travellers with suitcases',
+  'аэропорт': 'an airport seen from the apron: a large passenger airplane at a jet bridge, a plain glass terminal behind it with NO signs, banners or lettering of any kind, travellers with suitcases',
   'банк': 'a bank: an open steel safe full of gold coins and banknote bundles behind a counter',
   'визитка': 'a small business card held between two fingers, a neat stack of business cards on a desk (cards are blank)',
   'студент': 'a university student with a backpack and books walking in front of a grand university building',
