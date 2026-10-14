@@ -1171,6 +1171,27 @@
           "tags": [
             "3.4x-g-age"
           ]
+        },
+        {
+          "ru": "Не́бо си́него цве́та.",
+          "es": "El cielo es azul.",
+          "tags": [
+            "3.4-g-colors"
+          ]
+        },
+        {
+          "ru": "Моя́ маши́на кра́сного цве́та.",
+          "es": "Mi carro es rojo.",
+          "tags": [
+            "3.4-g-colors"
+          ]
+        },
+        {
+          "ru": "Како́го цве́та твой дом? – Бе́лого цве́та.",
+          "es": "¿De qué color es tu casa? – Blanca.",
+          "tags": [
+            "3.4-g-colors"
+          ]
         }
       ],
       "readings": [
@@ -3191,6 +3212,324 @@
             "3.4x-g-age"
           ],
           "origin": "original"
+        },
+        {
+          "id": "3.4x-x-148",
+          "type": "fill_choice",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та не́бо? — ___",
+          "choices": [
+            "Си́него цве́та.",
+            "Си́нее.",
+            "Си́ний цве́та."
+          ],
+          "answer": 0,
+          "explanationEs": "A «Како́го цве́та…?» se responde con -его / -ого цве́та: си́ний → си́него цве́та.",
+          "es": "¿De qué color es el cielo? — Azul.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-149",
+          "type": "fill_choice",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та ро́за? — ___ цве́та.",
+          "choices": [
+            "Кра́сного",
+            "Кра́сная",
+            "Кра́сной"
+          ],
+          "answer": 0,
+          "explanationEs": "Aunque ро́за es femenino, la respuesta es siempre кра́сного цве́та.",
+          "es": "¿De qué color es la rosa? — Roja.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-150",
+          "type": "fill_choice",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та джи́нсы? — ___ цве́та.",
+          "choices": [
+            "Чёрного",
+            "Чёрные",
+            "Чёрный"
+          ],
+          "answer": 0,
+          "explanationEs": "Plural o no, se responde чёрного цве́та.",
+          "es": "¿De qué color son los jeans? — Negros.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-151",
+          "type": "fill_choice",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та снег? — ___ цве́та.",
+          "choices": [
+            "Бе́лого",
+            "Бе́лый",
+            "Бе́лая"
+          ],
+          "answer": 0,
+          "explanationEs": "бе́лый → бе́лого цве́та.",
+          "es": "¿De qué color es la nieve? — Blanca.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-152",
+          "type": "fill_choice",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та мо́ре в Канку́не? — ___ цве́та.",
+          "choices": [
+            "Голубо́го",
+            "Голубо́е",
+            "Голубо́й"
+          ],
+          "answer": 0,
+          "explanationEs": "голубо́й → голубо́го цве́та (acento en la terminación).",
+          "es": "¿De qué color es el mar en Cancún? — Celeste.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-153",
+          "type": "fill_typed",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та трава́? — ___ цве́та.",
+          "answers": [
+            "Зелёного"
+          ],
+          "hint": "verde",
+          "explanationEs": "зелёный → зелёного цве́та.",
+          "es": "¿De qué color es el pasto? — Verde.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-154",
+          "type": "fill_typed",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та апельси́н? — ___ цве́та.",
+          "answers": [
+            "Ора́нжевого"
+          ],
+          "hint": "naranja",
+          "explanationEs": "ора́нжевый → ора́нжевого цве́та.",
+          "es": "¿De qué color es la naranja? — Naranja.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-155",
+          "type": "fill_typed",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та твой телефо́н? — ___ цве́та.",
+          "answers": [
+            "Се́рого"
+          ],
+          "hint": "gris",
+          "explanationEs": "се́рый → се́рого цве́та.",
+          "es": "¿De qué color es tu teléfono? — Gris.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-156",
+          "type": "fill_typed",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та твоя́ су́мка? — ___ цве́та.",
+          "answers": [
+            "Кори́чневого"
+          ],
+          "hint": "café",
+          "explanationEs": "кори́чневый → кори́чневого цве́та.",
+          "es": "¿De qué color es tu bolsa? — Café.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-157",
+          "type": "fill_typed",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та фла́минго? — ___ цве́та.",
+          "answers": [
+            "Ро́зового"
+          ],
+          "hint": "rosa",
+          "explanationEs": "ро́зовый → ро́зового цве́та.",
+          "es": "¿De qué color es el flamenco? — Rosa.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-158",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "Како́го цве́та не́бо? — Си́нее цве́та.",
+          "wrongWord": 4,
+          "correction": "Си́него",
+          "explanationEs": "Con цве́та va -его / -ого: Си́него цве́та.",
+          "es": "¿De qué color es el cielo? — Azul.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-159",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "Како́го цве́та маши́на? — Кра́сная цве́та.",
+          "wrongWord": 4,
+          "correction": "Кра́сного",
+          "explanationEs": "Con цве́та va -ого: Кра́сного цве́та (aunque маши́на sea femenino).",
+          "es": "¿De qué color es el carro? — Rojo.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-160",
+          "type": "match",
+          "instructionEs": "Une el color con la respuesta a «Како́го цве́та?»",
+          "pairs": [
+            [
+              "кра́сный",
+              "кра́сного цве́та"
+            ],
+            [
+              "си́ний",
+              "си́него цве́та"
+            ],
+            [
+              "голубо́й",
+              "голубо́го цве́та"
+            ],
+            [
+              "жёлтый",
+              "жёлтого цве́та"
+            ],
+            [
+              "бе́лый",
+              "бе́лого цве́та"
+            ]
+          ],
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-161",
+          "type": "transform",
+          "instructionEs": "Escribe la respuesta a «Како́го цве́та?»",
+          "prompt": "си́ний →",
+          "answers": [
+            "си́него цве́та"
+          ],
+          "explanationEs": "-ий → -его: си́него цве́та.",
+          "es": "azul",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-162",
+          "type": "transform",
+          "instructionEs": "Escribe la respuesta a «Како́го цве́та?»",
+          "prompt": "голубо́й →",
+          "answers": [
+            "голубо́го цве́та"
+          ],
+          "explanationEs": "-о́й → -о́го: голубо́го цве́та.",
+          "es": "celeste",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-163",
+          "type": "transform",
+          "instructionEs": "Escribe la respuesta a «Како́го цве́та?»",
+          "prompt": "чёрный →",
+          "answers": [
+            "чёрного цве́та"
+          ],
+          "explanationEs": "-ый → -ого: чёрного цве́та.",
+          "es": "negro",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-164",
+          "type": "dialogue",
+          "instructionEs": "Completa el diálogo",
+          "lines": [
+            {
+              "speaker": "Ма́ша",
+              "ru": "Како́го цве́та твоя́ ко́шка?"
+            },
+            {
+              "speaker": "Оле́г",
+              "ru": "___"
+            }
+          ],
+          "choices": [
+            "Се́рого цве́та.",
+            "Се́рая цве́та.",
+            "Се́рый."
+          ],
+          "answer": 0,
+          "explanationEs": "Se responde con -ого цве́та: Се́рого цве́та.",
+          "es": "—¿De qué color es tu gata? —Gris.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
+        },
+        {
+          "id": "3.4x-x-165",
+          "type": "translate",
+          "direction": "es-ru",
+          "instructionEs": "Traduce al ruso",
+          "prompt": "Mi carro es rojo (responde «de color rojo»).",
+          "answers": [
+            "Моя́ маши́на кра́сного цве́та.",
+            "Моя машина красного цвета."
+          ],
+          "explanationEs": "кра́сного цве́та",
+          "es": "Mi carro es rojo.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (clase)"
         }
       ]
     }

@@ -3,7 +3,7 @@ import { lessonById, lessons, type LoadedLesson } from '../content'
 import { normalizeRu, pick, sample, shuffle, stripStress } from '../lib/text'
 import { fakeVariants } from '../lib/fakes'
 import { autoTranslation } from './translate'
-import { COLOURS, COLOUR_PHOTOS, EMOJI, OBJECTS, PHOTOS, agree } from '../content/pictures'
+import { COLOURS, COLOUR_PHOTOS, EMOJI, OBJECTS, PHOTOS, agree, colourGenitive } from '../content/pictures'
 import type { Candidate, RunExercise, Skill } from './types'
 
 const GENDER_LABEL: Record<string, string> = { m: 'masculino', f: 'femenino', n: 'neutro', pl: 'plural' }
@@ -445,27 +445,41 @@ function picturesFor(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
   }
   // (No picture matching: small thumbnails can't be told apart reliably.)
 
-  // Colours: "What colour is the car?" — the answer must agree with the object (кра́сная маши́на, кра́сный дом).
+  // Colours. Russians answer «Како́го цве́та…?» with the colour + цве́та, whatever the object:
+  // «Како́го цве́та маши́на? — Кра́сного цве́та.» A separate "describe it" variant still practises
+  // agreement (Э́то кра́сная маши́на / кра́сный дом).
   const colours = (lesson.vocab ?? []).filter((v) => v.pos === 'adj' && v.forms && COLOURS[plainWord(v.ru)])
   if (colours.length >= 4) {
+    const cap = (w: string) => w[0].toUpperCase() + w.slice(1)
     for (const v of colours) {
       const paint = COLOURS[plainWord(v.ru)]
-      const make = (typed: boolean) => (): RunExercise => {
+      const pictureFor = (obj: (typeof OBJECTS)[number]) => {
+        const photo = COLOUR_PHOTOS[`${stripStress(obj.ru)}|${plainWord(v.ru)}`]
+        return photo ? { img: `${import.meta.env.BASE_URL}${photo}` } : { svg: obj.draw(paint.hex, paint.stroke ?? 'rgba(0,0,0,.45)') }
+      }
+      const answer = (c: VocabItem) => `${colourGenitive(c.forms!.m ?? c.ru)} цве́та`
+      const ask = (typed: boolean) => (): RunExercise => {
+        const obj = pick(OBJECTS)
+        const correct = answer(v)
+        const base = { key: `${v.id}:colour-${rnd()}`, items: [v.id], lessonId: lesson.id, skill: 'visual' as const, picture: pictureFor(obj),
+          prompt: `Како́го цве́та ${obj.ru}?`, promptLang: 'ru' as const, translation: `Како́го цве́та ${stripStress(obj.ru)}? — ${cap(correct)}. = ¿De qué color es ${obj.es}? — ${v.es}.`,
+          explanation: `A «Како́го цве́та…?» se responde con -ого / -его цве́та, sea cual sea el objeto: ${v.forms!.m} → ${correct}.` }
+        if (typed) return { ...base, kind: 'typed', instruction: 'Responde como los rusos: «… цве́та»', answers: [correct, colourGenitive(v.forms!.m ?? v.ru)], answerLang: 'ru', strict: true, hint: v.es }
+        const choices = shuffle([correct, ...sample(colours.filter((c) => c.id !== v.id), 3).map(answer)])
+        return { ...base, kind: 'choice', instruction: '¿De qué color es? Responde como los rusos', choices, answer: choices.indexOf(correct), choiceLang: 'ru' }
+      }
+      const describe = (): RunExercise => {
         const obj = pick(OBJECTS)
         const correct = agree(v.forms!, obj.gender)
-        const base = { key: `${v.id}:colour-${rnd()}`, items: [v.id], lessonId: lesson.id, skill: 'visual' as const,
-          picture: COLOUR_PHOTOS[`${stripStress(obj.ru)}|${plainWord(v.ru)}`]
-            ? { img: `${import.meta.env.BASE_URL}${COLOUR_PHOTOS[`${stripStress(obj.ru)}|${plainWord(v.ru)}`]}` }
-            : { svg: obj.draw(paint.hex, paint.stroke ?? 'rgba(0,0,0,.45)') },
-          prompt: `Како́го цве́та ${obj.ru}?`, promptLang: 'ru' as const, translation: `${correct} ${stripStress(obj.ru)} = ${obj.es} ${v.es}`,
-          explanation: `${obj.ru} es ${GENDER_LABEL[obj.gender]} → ${correct}` }
-        if (typed) return { ...base, kind: 'typed', instruction: 'Escribe el color (con la terminación correcta)', answers: [correct], answerLang: 'ru', strict: true, hint: GENDER_LABEL[obj.gender] }
-        const wrong = sample(colours.filter((c) => c.id !== v.id), 3).map((c) => agree(c.forms!, obj.gender))
-        const choices = shuffle([correct, ...wrong])
-        return { ...base, kind: 'choice', instruction: '¿De qué color es?', choices, answer: choices.indexOf(correct), choiceLang: 'ru' }
+        const choices = shuffle([correct, ...sample(colours.filter((c) => c.id !== v.id), 3).map((c) => agree(c.forms!, obj.gender))])
+        return { key: `${v.id}:colour-agree-${rnd()}`, items: [v.id], lessonId: lesson.id, skill: 'visual', kind: 'choice', picture: pictureFor(obj),
+          instruction: 'Describe el objeto (el color concuerda con él)', prompt: `Э́то ___ ${obj.ru}.`, promptLang: 'ru', choices, answer: choices.indexOf(correct), choiceLang: 'ru',
+          translation: `Э́то ${correct} ${stripStress(obj.ru)}. = Es ${obj.es} ${v.es}.`,
+          explanation: `Para describir, el color concuerda: ${obj.ru} es ${GENDER_LABEL[obj.gender]} → ${correct}.` }
       }
-      out.push({ id: `${v.id}:colour`, lessonId: lesson.id, items: [v.id], level: 2, skill: 'visual', kind: 'choice', make: make(false) })
-      out.push({ id: `${v.id}:colour-type`, lessonId: lesson.id, items: [v.id], level: 3, skill: 'visual', kind: 'typed', make: make(true) })
+      out.push({ id: `${v.id}:colour`, lessonId: lesson.id, items: [v.id], level: 2, skill: 'visual', kind: 'choice', make: ask(false) })
+      out.push({ id: `${v.id}:colour-type`, lessonId: lesson.id, items: [v.id], level: 3, skill: 'visual', kind: 'typed', make: ask(true) })
+      out.push({ id: `${v.id}:colour-agree`, lessonId: lesson.id, items: [v.id], level: 2, skill: 'visual', kind: 'choice', make: describe })
     }
   }
   return out

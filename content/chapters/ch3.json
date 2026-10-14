@@ -9389,7 +9389,7 @@
         {
           "id": "3.4-g-colors",
           "title": "Colores: Како́го цве́та…?",
-          "explanationEs": "Los colores son adjetivos y concuerdan con el sustantivo: кра́сный по́мидор, кра́сная ро́за, кра́сное вино́, кра́сные я́блоки. Para preguntar el color: **Како́го цве́та шокола́д? – Шокола́д кори́чневый.** (la pregunta no cambia).\n\nEn ruso hay **dos azules**: **си́ний** (azul oscuro, adjetivo suave: си́няя, си́нее, си́ние) y **голубо́й** (azul claro/celeste: голуба́я, голубо́е, голубы́е).",
+          "explanationEs": "**Cómo responden los rusos a «Како́го цве́та…?»:** con el color en la forma **-ого / -его** + **цве́та**, ¡sin importar el objeto!\n\n- Како́го цве́та не́бо? — **Си́него цве́та.** (no «си́нее»)\n- Како́го цве́та маши́на? — **Кра́сного цве́та.**\n- Како́го цве́та джи́нсы? — **Чёрного цве́та.**\n\nLa pregunta y la respuesta usan la misma forma (es el genitivo de «цвет»): **како́го** цве́та → **кра́сного** цве́та. Se forma así: **-ый → -ого** (кра́сный → кра́сного), **-о́й → -о́го** (голубо́й → голубо́го), **-ий → -его** (си́ний → си́него).\n\n**Para describir** (no para responder a «Како́го цве́та?») el color sí concuerda con el sustantivo como cualquier adjetivo: кра́сн**ая** ро́за, кра́сн**ый** помидо́р, кра́сн**ое** вино́, кра́сн**ые** я́блоки.\n\nEn ruso hay **dos azules**: **си́ний** (azul oscuro → си́него цве́та) y **голубо́й** (azul claro, celeste → голубо́го цве́та).",
           "tables": [
             {
               "caption": "Colores",
@@ -9398,6 +9398,7 @@
                 "f",
                 "n",
                 "pl",
+                "¿Како́го цве́та?",
                 "español"
               ],
               "rows": [
@@ -9406,6 +9407,7 @@
                   "кра́сная",
                   "кра́сное",
                   "кра́сные",
+                  "кра́сного цве́та",
                   "rojo"
                 ],
                 [
@@ -9413,6 +9415,7 @@
                   "жёлтая",
                   "жёлтое",
                   "жёлтые",
+                  "жёлтого цве́та",
                   "amarillo"
                 ],
                 [
@@ -9420,6 +9423,7 @@
                   "ора́нжевая",
                   "ора́нжевое",
                   "ора́нжевые",
+                  "ора́нжевого цве́та",
                   "naranja"
                 ],
                 [
@@ -9427,6 +9431,7 @@
                   "си́няя",
                   "си́нее",
                   "си́ние",
+                  "си́него цве́та",
                   "azul (oscuro)"
                 ],
                 [
@@ -9434,6 +9439,7 @@
                   "голуба́я",
                   "голубо́е",
                   "голубы́е",
+                  "голубоо́го цве́та",
                   "azul claro, celeste"
                 ],
                 [
@@ -9441,6 +9447,7 @@
                   "зелёная",
                   "зелёное",
                   "зелёные",
+                  "зелёного цве́та",
                   "verde"
                 ],
                 [
@@ -9448,6 +9455,7 @@
                   "бе́лая",
                   "бе́лое",
                   "бе́лые",
+                  "бе́лого цве́та",
                   "blanco"
                 ],
                 [
@@ -9455,6 +9463,7 @@
                   "чёрная",
                   "чёрное",
                   "чёрные",
+                  "чёрного цве́та",
                   "negro"
                 ],
                 [
@@ -9462,6 +9471,7 @@
                   "се́рая",
                   "се́рое",
                   "се́рые",
+                  "се́рого цве́та",
                   "gris"
                 ],
                 [
@@ -9469,6 +9479,7 @@
                   "фиоле́товая",
                   "фиоле́товое",
                   "фиоле́товые",
+                  "фиоле́тового цве́та",
                   "morado"
                 ],
                 [
@@ -9476,6 +9487,7 @@
                   "ро́зовая",
                   "ро́зовое",
                   "ро́зовые",
+                  "ро́зового цве́та",
                   "rosa"
                 ],
                 [
@@ -9483,6 +9495,7 @@
                   "кори́чневая",
                   "кори́чневое",
                   "кори́чневые",
+                  "кори́чневого цве́та",
                   "café, marrón"
                 ]
               ]
@@ -9490,12 +9503,16 @@
           ],
           "examples": [
             {
-              "ru": "Како́го цве́та мо́ре? – Мо́ре си́нее.",
-              "es": "¿De qué color es el mar? – El mar es azul."
+              "ru": "Како́го цве́та мо́ре? – Си́него цве́та.",
+              "es": "¿De qué color es el mar? – Azul."
+            },
+            {
+              "ru": "Како́го цве́та твоя́ маши́на? – Бе́лого цве́та.",
+              "es": "¿De qué color es tu carro? – Blanco."
             },
             {
               "ru": "Лимо́н жёлтый, а апельси́ны ора́нжевые.",
-              "es": "El limón es amarillo y las naranjas son anaranjadas."
+              "es": "El limón es amarillo y las naranjas son anaranjadas (descripción: el color concuerda)."
             }
           ],
           "drill": {
@@ -12417,8 +12434,8 @@
           ]
         },
         {
-          "ru": "Како́го цве́та ва́ша маши́на? – Бе́лая.",
-          "es": "¿De qué color es su coche? – Blanco.",
+          "ru": "Како́го цве́та ва́ша маши́на? – Бе́лого цве́та.",
+          "es": "¿De qué color es su carro? – Blanco.",
           "tags": [
             "3.4-v-kakogo_cveta",
             "3.4-g-colors"
@@ -13379,56 +13396,56 @@
         {
           "id": "3.4-x-31",
           "type": "fill_typed",
-          "instructionEs": "Escribe el color en la forma correcta.",
-          "sentence": "Шокола́д ___.",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та шокола́д? — ___ цве́та.",
           "answers": [
-            "кори́чневый"
+            "Кори́чневого"
           ],
-          "hint": "¿Како́го цве́та? café",
-          "explanationEs": "шокола́д (m) → кори́чневый.",
+          "hint": "café",
+          "explanationEs": "A «Како́го цве́та?» se responde con -ого цве́та: кори́чневый → кори́чневого цве́та.",
           "tags": [
             "3.4-g-colors"
           ],
           "origin": "textbook p.70 ex.6А",
-          "es": "El chocolate es café."
+          "es": "¿De qué color es el chocolate? — Café."
         },
         {
           "id": "3.4-x-32",
           "type": "fill_typed",
-          "instructionEs": "Escribe el color en la forma correcta.",
-          "sentence": "Мо́ре ___.",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та мо́ре? — ___ цве́та.",
           "answers": [
-            "си́нее",
-            "голубо́е"
+            "Си́него",
+            "Голубо́го"
           ],
-          "hint": "¿Како́го цве́та? azul",
-          "explanationEs": "мо́ре (n) → си́нее / голубо́е.",
+          "hint": "azul",
+          "explanationEs": "си́ний → си́него цве́та (o голубо́й → голубо́го цве́та). ¡Nunca «си́нее цве́та»!",
           "tags": [
             "3.4-g-colors"
           ],
           "origin": "textbook p.70 ex.6А",
-          "es": "El mar es azul."
+          "es": "¿De qué color es el mar? — Azul."
         },
         {
           "id": "3.4-x-33",
           "type": "fill_typed",
-          "instructionEs": "Escribe el color en la forma correcta.",
-          "sentence": "Лимо́н ___.",
+          "instructionEs": "Responde como lo hacen los rusos",
+          "sentence": "Како́го цве́та лимо́н? — ___ цве́та.",
           "answers": [
-            "жёлтый"
+            "Жёлтого"
           ],
-          "hint": "¿Како́го цве́та? amarillo",
-          "explanationEs": "лимо́н (m) → жёлтый.",
+          "hint": "amarillo",
+          "explanationEs": "жёлтый → жёлтого цве́та.",
           "tags": [
             "3.4-g-colors"
           ],
           "origin": "textbook p.70 ex.6А",
-          "es": "El limón es amarillo."
+          "es": "¿De qué color es el limón? — Amarillo."
         },
         {
           "id": "3.4-x-34",
           "type": "match",
-          "instructionEs": "¿De qué color es?",
+          "instructionEs": "Describe: une cada cosa con su color (aquí el color concuerda: бана́ны жёлтые)",
           "pairs": [
             [
               "бана́ны",
@@ -13455,7 +13472,7 @@
               "ора́нжевый"
             ]
           ],
-          "explanationEs": "Fíjate en la concordancia: plural -ые, neutro -ее.",
+          "explanationEs": "Para describir, el color concuerda con el sustantivo (бана́ны жёлтые, мо́ре си́нее). Para responder a «Како́го цве́та?» se dice: жёлтого цве́та, си́него цве́та.",
           "tags": [
             "3.4-g-colors"
           ],

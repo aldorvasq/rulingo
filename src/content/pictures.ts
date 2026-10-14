@@ -117,3 +117,11 @@ export const OBJECTS: ColourObject[] = [
 
 /** The colour's form that agrees with the object (красный → красная маши́на). */
 export const agree = (forms: Record<string, string>, gender: ColourObject['gender']) => forms[gender] ?? forms.m
+
+/** The form used to answer «Како́го цве́та…?»: кра́сный → кра́сного, голубо́й → голубо́го, си́ний → си́него. */
+export function colourGenitive(m: string) {
+  if (m.endsWith('о́й')) return m.slice(0, -2) + 'о́го'
+  if (m.endsWith('ый')) return m.slice(0, -2) + 'ого'
+  if (m.endsWith('ий')) return m.slice(0, -2) + 'его'
+  return m
+}
