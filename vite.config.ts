@@ -44,6 +44,7 @@ export default defineConfig({
           { urlPattern: /\/audio\/manifest\.json$/, handler: 'NetworkFirst', options: { cacheName: 'audio-manifest' } },
           { urlPattern: /\/audio\/.*\.mp3$/, handler: 'CacheFirst', options: { cacheName: 'audio', expiration: { maxEntries: 4000 }, rangeRequests: true } },
           { urlPattern: /\/img\/vocab\/.*\.jpg$/, handler: 'CacheFirst', options: { cacheName: 'vocab-images', expiration: { maxEntries: 400 } } },
+          { urlPattern: /\/img\/(murals|colour)\/.*\.(jpg|png)$/, handler: 'CacheFirst', options: { cacheName: 'mural-images', expiration: { maxEntries: 300 } } },
         ],
       },
     }),

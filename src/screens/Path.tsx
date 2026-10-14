@@ -7,6 +7,7 @@ import { Icon } from '../components/ui'
 import { StreakBadge } from './Home'
 import { Scene, SCENES, W as SCENE_W, nodePositions, sceneHeight } from './scenes'
 import { CAP, MURALS, W, type Mural } from '../murals'
+import { PAINTED, type PaintedMural } from '../murals/overlays'
 
 // The route is one long road that climbs: chapter 1 at the bottom, the newest chapter at the top and the
 // road's end above it. Each chapter is a mural; lessons are raised blocks on the road.
@@ -18,8 +19,18 @@ const svgOf = (m: Mural) => {
   return s
 }
 
-function MuralArt({ mural }: { mural: Mural }) {
-  const html = useMemo(() => svgOf(mural), [mural])
+/** A painted mural with its animated layer, or the SVG mural where there's no painting yet. */
+function MuralArt({ mural, painted }: { mural: Mural; painted?: PaintedMural }) {
+  const overlay = useMemo(() => painted?.overlay() ?? '', [painted])
+  const html = useMemo(() => (painted ? '' : svgOf(mural)), [mural, painted])
+  if (painted) {
+    return (
+      <>
+        <img src={painted.image} alt="" decoding="async" className="absolute inset-0 h-full w-full select-none" draggable={false} />
+        <div className="pointer-events-none absolute inset-0 [&>svg]:h-full [&>svg]:w-full" dangerouslySetInnerHTML={{ __html: overlay }} />
+      </>
+    )
+  }
   return <div className="absolute inset-0 [&>svg]:h-full [&>svg]:w-full" dangerouslySetInnerHTML={{ __html: html }} />
 }
 
@@ -50,7 +61,9 @@ export function Path() {
     const allDone = c.lessons.every((l) => lessonMastery(l, progress) >= MASTERED)
     return (
       <section key={c.chapter} className="mural relative w-full" style={{ aspectRatio: `${W} / ${m.height}` }}>
-        <MuralArt mural={m} />
+        <MuralArt mural={m} painted={PAINTED[`ch${c.chapter}`]} />
+        {/* soft mist over the seam with the chapter below (paintings of neighbouring chapters differ slightly in tone) */}
+        {c.chapter > 1 && PAINTED[`ch${c.chapter}`] && <div className="mural-seam" style={{ bottom: 0 }} />}
         {c.lessons.map((l, i) => {
           const pos = m.nodes[i] ?? m.nodes[m.nodes.length - 1]
           const locked = compareLessonIds(l.id, coveredUpTo) > 0
@@ -137,7 +150,7 @@ export function Path() {
         <StreakBadge />
       </div>
       {newest !== undefined && MURALS[newest] && (
-        <section className="mural relative w-full" style={{ aspectRatio: `${W} / ${CAP.height}` }}><MuralArt mural={CAP} /></section>
+        <section className="mural relative w-full" style={{ aspectRatio: `${W} / ${CAP.height}` }}><MuralArt mural={CAP} painted={PAINTED.cap} /><div className="mural-seam" style={{ bottom: 0 }} /></section>
       )}
       {[...chapters].reverse().map((c) => (MURALS[c.chapter] ? chapterOnMural(c, MURALS[c.chapter]) : chapterOnScene(c)))}
       {chapters.length === 0 && <p className="p-6 text-center text-muted">Aún no hay contenido cargado.</p>}
