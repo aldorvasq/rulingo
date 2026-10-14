@@ -233,8 +233,12 @@ export function smooth(p: [number, number][]) {
   return d
 }
 
+/** For painting sketches: draw the route as a thin red guide line instead of a road (see scripts/murals). */
+export const sketch = { guide: false }
+
 /** The cobbled road every chapter shares. */
 export function road(d: string, shadow = true) {
+  if (sketch.guide) return `<path d="${d}" fill="none" stroke="#e0262a" stroke-width="3.2" stroke-dasharray="9 6" stroke-linecap="round"/>`
   return (shadow ? `<path d="${d}" fill="none" stroke="rgba(40,25,10,.22)" stroke-width="30" stroke-linecap="round" transform="translate(2 4)" filter="url(#m-soft)"/>` : '') + `
   <path d="${d}" fill="none" stroke="#8f8170" stroke-width="27" stroke-linecap="round"/>
   <path d="${d}" fill="none" stroke="#e9dcc2" stroke-width="22" stroke-linecap="round"/>

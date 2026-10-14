@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react'
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
 import { chapters, colorFor, compareLessonIds, type LoadedChapter } from '../content'
 import { useStore } from '../state/store'
 import { lessonMastery, MASTERED } from '../state/mastery'
@@ -7,7 +7,7 @@ import { Icon } from '../components/ui'
 import { StreakBadge } from './Home'
 import { Scene, SCENES, W as SCENE_W, nodePositions, sceneHeight } from './scenes'
 import { CAP, MURALS, W, type Mural } from '../murals'
-import { PAINTED, type PaintedMural } from '../murals/overlays'
+import { PAINTED, timeOfDay, type PaintedMural, type TimeOfDay } from '../murals/overlays'
 
 // The route is one long road that climbs: chapter 1 at the bottom, the newest chapter at the top and the
 // road's end above it. Each chapter is a mural; lessons are raised blocks on the road.
@@ -19,15 +19,33 @@ const svgOf = (m: Mural) => {
   return s
 }
 
-/** A painted mural with its animated layer, or the SVG mural where there's no painting yet. */
-function MuralArt({ mural, painted }: { mural: Mural; painted?: PaintedMural }) {
+/** The phone's local time as light for the murals; `#/path?tod=21:30` previews another hour. Re-checks every 5 min. */
+function useTimeOfDay(): TimeOfDay {
+  const read = () => {
+    const forced = /[?&]tod=(\d{1,2}):(\d{2})/.exec(location.hash)
+    const d = new Date()
+    return timeOfDay(forced ? Number(forced[1]) + Number(forced[2]) / 60 : d.getHours() + d.getMinutes() / 60)
+  }
+  const [tod, setTod] = useState(read)
+  useEffect(() => {
+    const id = setInterval(() => setTod(read()), 5 * 60 * 1000)
+    return () => clearInterval(id)
+  }, [])
+  return tod
+}
+
+/** A painted mural (day and night paintings crossfaded by time) with its animated layer, or the SVG mural. */
+function MuralArt({ mural, painted, tod }: { mural: Mural; painted?: PaintedMural; tod?: TimeOfDay }) {
   const overlay = useMemo(() => painted?.overlay() ?? '', [painted])
   const html = useMemo(() => (painted ? '' : svgOf(mural)), [mural, painted])
   if (painted) {
     return (
       <>
         <img src={painted.image} alt="" decoding="async" className="absolute inset-0 h-full w-full select-none" draggable={false} />
-        <div className="pointer-events-none absolute inset-0 [&>svg]:h-full [&>svg]:w-full" dangerouslySetInnerHTML={{ __html: overlay }} />
+        {!!tod?.night && <img src={painted.night} alt="" decoding="async" className="absolute inset-0 h-full w-full select-none transition-opacity duration-[3000ms]" style={{ opacity: tod.night }} draggable={false} />}
+        {tod?.tint && <div className="pointer-events-none absolute inset-0 mix-blend-soft-light" style={{ background: `rgba(${tod.tint.color}, ${tod.tint.amount * 2})` }} />}
+        <div className="pointer-events-none absolute inset-0 [&>svg]:h-full [&>svg]:w-full" style={tod?.night ? { filter: `brightness(${1 - 0.35 * tod.night})` } : undefined}
+          dangerouslySetInnerHTML={{ __html: overlay }} />
       </>
     )
   }
@@ -40,6 +58,7 @@ export function Path() {
   const progress = useStore((s) => s.progress)
   const { coveredUpTo, focusLessons } = useStore((s) => s.settings)
   const here = useRef<HTMLButtonElement>(null)
+  const tod = useTimeOfDay()
 
   // Open on the lesson the learner is on (the route starts at the bottom).
   useEffect(() => {
@@ -61,9 +80,8 @@ export function Path() {
     const allDone = c.lessons.every((l) => lessonMastery(l, progress) >= MASTERED)
     return (
       <section key={c.chapter} className="mural relative w-full" style={{ aspectRatio: `${W} / ${m.height}` }}>
-        <MuralArt mural={m} painted={PAINTED[`ch${c.chapter}`]} />
-        {/* soft mist over the seam with the chapter below (paintings of neighbouring chapters differ slightly in tone) */}
-        {c.chapter > 1 && PAINTED[`ch${c.chapter}`] && <div className="mural-seam" style={{ bottom: 0 }} />}
+        <MuralArt mural={m} painted={PAINTED[`ch${c.chapter}`]} tod={tod} />
+
         {c.lessons.map((l, i) => {
           const pos = m.nodes[i] ?? m.nodes[m.nodes.length - 1]
           const locked = compareLessonIds(l.id, coveredUpTo) > 0
@@ -150,9 +168,15 @@ export function Path() {
         <StreakBadge />
       </div>
       {newest !== undefined && MURALS[newest] && (
-        <section className="mural relative w-full" style={{ aspectRatio: `${W} / ${CAP.height}` }}><MuralArt mural={CAP} painted={PAINTED.cap} /><div className="mural-seam" style={{ bottom: 0 }} /></section>
+        <section className="mural relative w-full" style={{ aspectRatio: `${W} / ${CAP.height}` }}><MuralArt mural={CAP} painted={PAINTED.cap} tod={tod} /></section>
       )}
-      {[...chapters].reverse().map((c) => (MURALS[c.chapter] ? chapterOnMural(c, MURALS[c.chapter]) : chapterOnScene(c)))}
+      {[...chapters].reverse().map((c) => (
+        <Fragment key={c.chapter}>
+          {/* each chapter is its own painted scene: a folk-ornament band separates it from the one above */}
+          {MURALS[c.chapter] && PAINTED[`ch${c.chapter}`] && <div className="mural-band" aria-hidden />}
+          {MURALS[c.chapter] ? chapterOnMural(c, MURALS[c.chapter]) : chapterOnScene(c)}
+        </Fragment>
+      ))}
       {chapters.length === 0 && <p className="p-6 text-center text-muted">Aún no hay contenido cargado.</p>}
     </div>
   )

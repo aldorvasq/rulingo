@@ -186,7 +186,7 @@ function riverside() {
   s += `<rect x="0" y="624" width="${W}" height="10" fill="#cfc6b4"/><rect x="0" y="632" width="${W}" height="3" fill="#9f9583"/>`
   s += `<rect x="0" y="635" width="${W}" height="250" fill="#d9d2bf"/>`
   // merchant houses
-  const houses: [number, number, string][] = [[4, 66, '#e3c27f'], [70, 56, '#c9d3b8'], [126, 60, '#efd2b2'], [186, 50, '#e6dcc0']]
+  const houses: [number, number, string][] = [[4, 62, '#e3c27f'], [70, 62, '#c9d3b8'], [196, 44, '#efd2b2']] // gap at x≈140–190 for the way through
   for (const [x, w, c] of houses) {
     const top = 660, h = 66
     s += `<rect x="${x}" y="${top}" width="${w}" height="${h}" fill="${c}"/>
@@ -320,9 +320,10 @@ function airport() {
   s += `<g><rect x="196" y="1400" width="12" height="102" fill="#d8d4c8"/><rect x="203" y="1400" width="5" height="102" fill="rgba(0,0,0,.12)"/>
     <path d="M184,1400 h36 l-4,-16 h-28 z" fill="#5f8496"/><path d="M186,1384 h32 v-4 h-32 z" fill="#e8e6de"/><line x1="202" y1="1380" x2="202" y2="1366" stroke="#555"/><circle cx="202" cy="1365" r="1.6" fill="#c8322a" class="m-twinkle"/></g>`
   // runway with markings and lights
-  s += `<path d="M150,1700 L400,1560 L400,1660 L250,1700 Z" fill="#6e6d68"/>`
-  for (let k = 0; k < 8; k++) { const t = k / 8; s += `<path d="M${205 + t * 195},${1698 - t * 86} l14,-6.2" stroke="#f4f1ea" stroke-width="3"/>` }
-  for (let k = 0; k < 14; k++) { const t = k / 14; s += `<circle class="m-twinkle" style="animation-delay:${(k * 0.15).toFixed(2)}s" cx="${150 + t * 250}" cy="${1700 - t * 140}" r="1.6" fill="#ffd27a"/>` }
+  // a straight, even runway running left–right along the bottom (the plane takes off along it)
+  s += `<rect x="170" y="1636" width="236" height="40" fill="#6e6d68"/><rect x="170" y="1636" width="236" height="3" fill="#f4f1ea"/><rect x="170" y="1673" width="236" height="3" fill="#f4f1ea"/>`
+  for (let x = 180; x < 400; x += 22) s += `<rect x="${x}" y="1654.5" width="12" height="3" fill="#f4f1ea"/>`
+  for (let x = 174; x < 404; x += 16) s += `<circle class="m-twinkle" style="animation-delay:${((x / 16) * 0.15).toFixed(2)}s" cx="${x}" cy="1632" r="1.4" fill="#ffd27a"/><circle cx="${x}" cy="1680" r="1.4" fill="#ffd27a"/>`
   // the plane taking off
   s += `<g class="m-plane"><g transform="translate(318 1640) rotate(-24) scale(1.45)">
     <ellipse cx="0" cy="22" rx="46" ry="5" fill="rgba(0,0,0,.18)" transform="rotate(24)"/>

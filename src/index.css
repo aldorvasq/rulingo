@@ -235,7 +235,7 @@ button:active .route-block .route-face { transform: translateY(4px); }
 /* Painted murals: animations of the cut-outs drawn over the paintings. */
 @media (prefers-reduced-motion: no-preference) {
   .mural .m-metro2 { animation: m-metro2 14s ease-in-out infinite; }
-  .mural .m-takeoff { animation: m-takeoff 16s ease-in infinite; }
+  .mural .m-takeoff2 { animation: m-takeoff2 16s ease-in infinite; transform-box: fill-box; transform-origin: 60% 70%; }
   .mural .m-ferry { animation: m-ferry 36s linear infinite; transform-box: fill-box; transform-origin: center; }
   .mural .m-ferry.m-short { animation-name: m-ferry-short; }
   .mural .m-cloud { animation: m-cloud 70s ease-in-out infinite alternate; }
@@ -252,9 +252,14 @@ button:active .route-block .route-face { transform: translateY(4px); }
 @keyframes m-birds { 0% { transform: translate(-80px, 10px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translate(260px, -30px); opacity: 0; } }
 @keyframes m-smoke { 0% { transform: translateY(0) scale(.6); opacity: .65; } 100% { transform: translateY(-22px) scale(1.8); opacity: 0; } }
 :root[data-theme="dark"] .mural > img { filter: brightness(0.86); }
-/* Mist across the seam between two painted chapters (sits over both paintings, under the lesson blocks). */
-.mural-seam {
-  position: absolute; left: 0; right: 0; height: 64px; transform: translateY(50%); z-index: 1; pointer-events: none;
-  background: linear-gradient(to bottom, rgba(236, 231, 214, 0), rgba(236, 231, 214, .78) 50%, rgba(236, 231, 214, 0));
+
+/* the plane rolls along the runway, then lifts off and climbs away */
+@keyframes m-takeoff2 { 0%, 15% { transform: translate(0, 0) rotate(0); opacity: 1; } 55% { transform: translate(140px, 0) rotate(0); } 62% { transform: translate(175px, -6px) rotate(-8deg); } 82% { transform: translate(265px, -80px) rotate(-14deg); opacity: 1; } 83%, 100% { transform: translate(265px, -80px) rotate(-14deg); opacity: 0; } }
+
+/* Folk-ornament band between two chapters' paintings (they're separate scenes). */
+.mural-band {
+  position: relative; z-index: 1; height: 54px; margin: -6px 0; pointer-events: none;
+  background: url('/img/murals/band.jpg') repeat-x center / auto 100%;
+  box-shadow: 0 2px 6px rgba(40, 25, 10, .25), 0 -2px 6px rgba(40, 25, 10, .25);
 }
-:root[data-theme="dark"] .mural-seam { background: linear-gradient(to bottom, rgba(150, 146, 134, 0), rgba(150, 146, 134, .6) 50%, rgba(150, 146, 134, 0)); }
+:root[data-theme="dark"] .mural-band { filter: brightness(.82); }
