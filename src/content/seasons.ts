@@ -96,6 +96,12 @@ function eventsOfYear(y: number): SeasonEvent[] {
       { ru: 'листопа́д', es: 'caída de las hojas', note: 'Лист (hoja) + па́дать (caer). En ucraniano y bielorruso es también el nombre de un mes.' },
       { ru: 'собира́ть грибы́', es: 'ir a recoger hongos', note: 'Un pasatiempo nacional: en otoño familias enteras van al bosque con cestas.' },
       { ru: 'сля́коть', es: 'aguanieve, lodo de otoño', note: 'Esa mezcla de lluvia, nieve derretida y lodo de finales de otoño.' },
+      { ru: 'золота́я о́сень', es: 'otoño dorado', note: 'Cuando los abedules y los álamos se vuelven amarillos: la época favorita de los pintores rusos.' },
+      { ru: 'урожа́й', es: 'cosecha', note: 'En otoño las familias recogen papas, manzanas y verduras en la dacha. «Урожа́й в э́том году́ хоро́ший!».' },
+      { ru: 'грибни́к', es: 'buscador de hongos', note: 'Гриб (hongo) + -ник. Los грибники́ salen al bosque al amanecer con una cesta y un cuchillo.' },
+      { ru: 'лу́жа', es: 'charco', note: 'En otoño hay лу́жи por todas partes: por eso las botas de lluvia son imprescindibles.' },
+      { ru: 'ту́ча', es: 'nubarrón', note: 'Una nube oscura de lluvia. Ту́ча (gris y pesada) vs о́блако (nube blanca y ligera).' },
+      { ru: 'мороси́ть', es: 'lloviznar', note: 'La lluvia fina y constante del otoño: «Весь день мороси́т».' },
     ], { from: D(y, 9, 15), to: D(y, 10, 31) }),
     ev('teacher', 'День учи́теля', 'Día del Maestro', 'El 5 de octubre se felicita a los maestros con flores y tarjetas.', D(y, 10, 5), [
       { ru: 'учи́тель', es: 'maestro', note: 'Учи́тельница para una maestra. En la universidad se dice преподава́тель.' },

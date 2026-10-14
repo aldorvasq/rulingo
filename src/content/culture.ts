@@ -75,6 +75,64 @@ export const WORDS: DailyWord[] = [
   { ru: 'о́ттепель', es: 'deshielo', note: 'El momento en que el invierno afloja. También el nombre del periodo de apertura en la URSS tras la muerte de Stalin.' },
   { ru: 'подста́канник', es: 'portavasos metálico para el té', note: 'El soporte decorado donde se sirve el vaso de té en los trenes rusos. Un símbolo de los viajes largos.' },
   { ru: 'ша́пка-уша́нка', es: 'gorro con orejeras', note: 'El clásico gorro de piel con orejeras que se pueden atar arriba o abajo. Уши = orejas.' },
+  { ru: 'ую́т', es: 'calidez y comodidad del hogar', note: 'Esa sensación de estar a gusto en casa: luz suave, té caliente, una manta. Ую́тно = acogedor.' },
+  { ru: 'хандра́', es: 'bajón, desgana', note: 'Tristeza perezosa sin motivo claro. Pushkin la describe en «Eugenio Oneguin» como la enfermedad de su héroe.' },
+  { ru: 'лень', es: 'pereza', note: 'Dicho popular: «Лень — дви́гатель прогре́сса» (la pereza es el motor del progreso): inventamos cosas para no trabajar.' },
+  { ru: 'халя́ва', es: 'algo gratis, conseguido sin esfuerzo', note: 'Muy coloquial. Los estudiantes, antes de un examen, «llaman» a la халя́ва por la ventana para que les toque una pregunta fácil.' },
+  { ru: 'ба́ня', es: 'baño de vapor ruso', note: 'Con ramas de abedul (ве́ник) y agua fría después. Al salir se felicita: «С лёгким па́ром!» (¡que el vapor te haya sentado bien!).' },
+  { ru: 'самова́р', es: 'samovar (tetera tradicional)', note: 'Само (sí mismo) + вари́ть (hervir): «el que hierve solo». Símbolo del té en familia.' },
+  { ru: 'матрёшка', es: 'matrioshka', note: 'Viene del nombre Матрёна. La primera se talló en 1890; hoy existen matrioshkas de todo tipo, ¡también de futbolistas!' },
+  { ru: 'ва́ленки', es: 'botas de fieltro', note: 'Botas de lana prensada, calientísimas para la nieve seca. Se dice «одни́ ва́ленки» (un par).' },
+  { ru: 'кефи́р', es: 'kéfir', note: 'Bebida láctea agria que en Rusia se toma a diario, sobre todo antes de dormir.' },
+  { ru: 'квас', es: 'kvas (bebida de pan fermentado)', note: 'Bebida dulce-agria de pan de centeno. En verano se vendía en la calle desde barriles amarillos.' },
+  { ru: 'блины́', es: 'crepas rusas', note: 'Refrán: «Пе́рвый блин ко́мом» (la primera crepa sale fea): el primer intento casi nunca sale bien.' },
+  { ru: 'кварти́рник', es: 'concierto en un departamento', note: 'En la época soviética, los músicos de rock prohibidos tocaban en casas particulares para sus amigos.' },
+  { ru: 'земля́к', es: 'paisano', note: 'Alguien de tu misma ciudad o región: Он мой земля́к, то́же из Гвадалаха́ры.' },
+  { ru: 'тёзка', es: 'tocayo', note: 'Alguien con tu mismo nombre: Ты то́же Ми́ша? Мы тёзки!' },
+  { ru: 'Чебура́шка', es: 'Cheburashka', note: 'Personaje de dibujos animados soviético con orejas enormes, mascota olímpica rusa. Nadie sabe qué animal es.' },
+  { ru: 'закады́чный друг', es: 'amigo del alma', note: 'Un amigo íntimo de toda la vida. Antes se decía de quien bebía contigo: кады́к es la manzana de Adán.' },
+  { ru: 'вдохнове́ние', es: 'inspiración', note: 'De дохну́ть (soplar, respirar): algo que «te sopla dentro». Pushkin: «Не продаётся вдохнове́нье».' },
+  { ru: 'любопы́тство', es: 'curiosidad', note: 'Любо́вь (amor) + пыта́ть (indagar): «amor por averiguar». Любопы́тно = curioso, interesante.' },
+  { ru: 'тишина́', es: 'silencio, calma', note: 'Ти́хо = en silencio. En las bibliotecas rusas verás el letrero: «Соблюда́йте тишину́!».' },
+  { ru: 'мечта́', es: 'sueño (anhelo)', note: 'Ojo: мечта́ es un deseo («mi sueño es viajar»); сон es lo que sueñas al dormir. Моя́ мечта́ — уви́деть Байка́л.' },
+  { ru: 'сон', es: 'sueño (al dormir)', note: 'Мне сни́лся стра́нный сон = tuve un sueño raro. Para un anhelo se usa мечта́.' },
+  { ru: 'ла́дно', es: 'está bien, ok, va', note: 'La forma más común de aceptar algo: — Пойдём в кино́? — Ла́дно! También para cerrar una discusión.' },
+  { ru: 'кста́ти', es: 'por cierto', note: 'Para cambiar de tema: Кста́ти, ты зна́ешь, что за́втра экза́мен?' },
+  { ru: 'наконе́ц-то', es: '¡por fin!', note: 'Con -то suena aliviado y emocionado: Наконе́ц-то пя́тница!' },
+  { ru: 'вообще́', es: 'en general; de plano', note: 'Muy usado en conversación: Я вообще́ не люблю́ хо́лод. Sola, «Вообще́!» expresa asombro.' },
+  { ru: 'пожа́луй', es: 'quizá, tal vez (suave)', note: 'Para aceptar sin mucho entusiasmo: — Ко́фе? — Пожа́луй. No confundir con пожа́луйста.' },
+  { ru: 'моро́з', es: 'helada, frío intenso', note: 'Pushkin: «Моро́з и со́лнце; день чуде́сный!». Дед Моро́з es el «Abuelo Helada», el Santa Claus ruso.' },
+  { ru: 'пе́рвый снег', es: 'la primera nevada', note: 'Un día especial: la gente sale a fotografiarla y en las ciudades todo se vuelve silencioso.' },
+  { ru: 'тайга́', es: 'taiga', note: 'El bosque boreal de coníferas que cubre gran parte de Siberia. Es el bosque más grande del mundo.' },
+  { ru: 'степь', es: 'estepa', note: 'Llanura inmensa con hierba y sin árboles, al sur de Rusia. Muchas canciones hablan de ella.' },
+  { ru: 'берёза', es: 'abedul', note: 'El árbol símbolo de Rusia, de tronco blanco con manchas negras. Aparece en poemas, canciones y pinturas.' },
+  { ru: 'электри́чка', es: 'tren suburbano', note: 'El tren eléctrico que une la ciudad con las dachas y los pueblos cercanos. En verano va lleno de jardineros.' },
+  { ru: 'маршру́тка', es: 'microbús (pesero)', note: 'Una camioneta con ruta fija: se para donde pidas. Igualito que un pesero.' },
+  { ru: 'подъе́зд', es: 'entrada del edificio', note: 'Cada edificio de departamentos tiene varios подъе́зды (entradas) con su escalera. «Встре́тимся у подъе́зда».' },
+  { ru: 'хрущёвка', es: 'edificio de departamentos de los años 60', note: 'Edificios de cinco pisos sin elevador construidos con Jrushchov para dar vivienda rápida a millones de familias.' },
+  { ru: 'коммуна́лка', es: 'departamento compartido', note: 'Departamento donde varias familias compartían cocina y baño. Muy común en la época soviética.' },
+  { ru: 'дру́жба', es: 'amistad', note: 'Друг (amigo) + -жба. Дружи́ть = ser amigos. El estadio de Luzhnikí fue sede de los «Juegos de la Amistad».' },
+  { ru: 'спаси́бо', es: 'gracias', note: 'Viene de «Спаси́ Бог» (que Dios te salve). Respuesta: пожа́луйста o не за что.' },
+  { ru: 'здра́вствуйте', es: 'buenos días, hola (formal)', note: 'Literalmente «que esté usted sano». La primera в no se pronuncia: [зДРА́ствуйте].' },
+  { ru: 'прия́тного аппети́та', es: '¡buen provecho!', note: 'Se dice al empezar a comer. Muchos lo acortan a «Прия́тного!».' },
+  { ru: 'будь здоро́в', es: '¡salud! (al estornudar)', note: 'A una mujer: будь здоро́ва; formal: бу́дьте здоро́вы. Se responde спаси́бо.' },
+  { ru: 'ни пу́ха ни пера́', es: '¡mucha suerte!', note: 'Literalmente «ni pelusa ni pluma», antes de un examen. La respuesta tradicional es «К чёрту!» (¡al diablo!).' },
+  { ru: 'присе́сть на доро́жку', es: 'sentarse antes de un viaje', note: 'Costumbre: antes de salir de viaje, todos se sientan un momento en silencio para que el viaje salga bien.' },
+  { ru: 'с днём рожде́ния', es: '¡feliz cumpleaños!', note: 'Literalmente «con el día de nacimiento». Ojo: felicitar antes del día trae mala suerte en Rusia.' },
+  { ru: 'уда́чи', es: '¡suerte!', note: 'Forma corta de «Жела́ю уда́чи!». Уда́ча = suerte, éxito.' },
+  { ru: 'молоде́ц', es: '¡bien hecho!', note: 'Para elogiar a alguien, hombre o mujer: Ты молоде́ц! Los maestros lo dicen mucho.' },
+  { ru: 'ура́', es: '¡hurra!', note: 'El grito de alegría ruso, también de los soldados al atacar. «Ура́! Пя́тница!».' },
+  { ru: 'чепуха́', es: 'tontería', note: 'Algo sin sentido o sin importancia: Э́то чепуха́! Sinónimo coloquial: ерунда́.' },
+  { ru: 'безде́льник', es: 'flojo, vago', note: 'Без (sin) + де́ло (asunto): quien no hace nada. Безде́льничать = holgazanear.' },
+  { ru: 'поня́тно', es: 'entendido, ya veo', note: 'Muy útil en clase: — Поня́тно? — Да, поня́тно! Если нет: «Непоня́тно».' },
+  { ru: 'сканда́л', es: 'pleito, escándalo', note: 'En ruso se usa también para una pelea en casa: Сосе́ди опя́ть устро́или сканда́л!' },
+  { ru: 'бутербро́д', es: 'pan con algo encima', note: 'Del alemán Butterbrot (pan con mantequilla), pero en ruso es cualquier pan abierto: с сы́ром, с колбасо́й.' },
+  { ru: 'ча́ша терпе́ния', es: 'la gota que derrama el vaso', note: '«Ча́ша терпе́ния перепо́лнилась» = se llenó la copa de la paciencia: ya no se aguanta más.' },
+  { ru: 'глуби́нка', es: 'provincia profunda', note: 'Los pueblos lejos de las grandes ciudades, donde la vida es tranquila y tradicional.' },
+  { ru: 'ру́сская речь', es: 'el habla rusa', note: 'Речь = habla, discurso. Turgénev llamó al ruso «вели́кий, могу́чий, правди́вый и свобо́дный ру́сский язы́к».' },
+  { ru: 'скоморо́х', es: 'juglar, bufón', note: 'Los artistas ambulantes de la Rusia medieval: cantaban, bailaban y hacían reír en las plazas.' },
+  { ru: 'коля́дки', es: 'cantos navideños', note: 'En Navidad, grupos de jóvenes iban de casa en casa cantando y recibían dulces, como en las posadas.' },
+  { ru: 'часту́шка', es: 'copla popular', note: 'Una canción corta, rápida y chistosa de cuatro versos, a menudo con acordeón. Se improvisan sobre cualquier tema.' },
 ]
 
 export interface TongueTwister { ru: string; es: string; tip: string }
@@ -91,6 +149,16 @@ export const TWISTERS: TongueTwister[] = [
   { ru: 'Корабли́ лави́ровали, лави́ровали, да не вы́лавировали.', es: 'Los barcos maniobraban y maniobraban, pero no lograron salir.', tip: 'Palabras largas: no pierdas el acento.' },
   { ru: 'Сшит колпа́к не по-колпако́вски, вы́лит ко́локол не по-колоколо́вски.', es: 'El gorro no está cosido como gorro, la campana no está fundida como campana.', tip: 'Ojo con las o sin acento: suenan como «a».' },
   { ru: 'Ткёт ткач тка́ни на плато́к Та́не.', es: 'El tejedor teje telas para el pañuelo de Tania.', tip: 'El grupo тк al inicio.' },
+  { ru: 'Бык тупогу́б, тупогу́бенький бычо́к, у быка́ бела́ губа́ была́ тупа́.', es: 'El toro de labio romo, el torito de labio romito: el toro tenía el labio blanco y romo.', tip: 'Practica la diferencia entre б y п, y entre ы e и.' },
+  { ru: 'Ку́кушка кукушо́нку купи́ла капюшо́н.', es: 'La cuca le compró una capucha al cuquito.', tip: 'Muchas к y у seguidas: empieza despacio.' },
+  { ru: 'Ма́ма мы́ла Ми́лу мы́лом, Ми́ла мы́ло не люби́ла.', es: 'Mamá lavó a Mila con jabón; a Mila no le gustaba el jabón.', tip: 'La clásica para la ы: мы́ла vs Ми́лу.' },
+  { ru: 'Расскажи́те про поку́пки. — Про каки́е про поку́пки? — Про поку́пки, про поку́пки, про поку́почки мои́.', es: '—Cuéntenme de las compras. —¿Cuáles compras? —De las compras, de las compras, de mis compritas.', tip: 'Ritmo de canción: marca la sílaba acentuada de поку́пки.' },
+  { ru: 'Три соро́ки-тарато́рки тарато́рили на го́рке.', es: 'Tres urracas parlanchinas parloteaban en la colina.', tip: 'Para la р rusa: hazla vibrar sin miedo.' },
+  { ru: 'Се́ня везёт теле́жку се́на.', es: 'Senia lleva una carretilla de heno.', tip: 'Се́ня y се́на suenan casi igual: cuida la última vocal.' },
+  { ru: 'Жужжи́т жужели́ца, жужжи́т, да не кру́жится.', es: 'El escarabajo zumba y zumba, pero no da vueltas.', tip: 'La ж suena como la «j» francesa de «je», con zumbido.' },
+  { ru: 'Сла́вный пода́рок Сла́ве — сла́дкие сли́вы в сла́вной опра́ве.', es: 'Un gran regalo para Slava: dulces ciruelas en un buen estuche.', tip: 'Encadena сл- sin perder el ritmo.' },
+  { ru: 'В Гре́ции всё есть.', es: 'En Grecia hay de todo.', tip: 'Muy corta: perfecta para practicar ц y ш (всё).' },
+  { ru: 'Ёжик в ёлке, ёлка в и́глах.', es: 'El erizo en el abeto, el abeto lleno de agujas.', tip: 'Para la ё: siempre acentuada y suena «yo».' },
 ]
 
 /** Days since 1970 in local time — the same "of the day" item for everyone on a given day. */
@@ -107,17 +175,46 @@ export type Daily =
  * seasonal: about 2 of 3 word days for big holidays (New Year, Maslenitsa, Easter…), every other
  * word day for smaller ones. Everyone sees the same item on a given day.
  */
+/** Day `m` (as from dayNumber) back to a local calendar date at noon. */
+const dateOf = (m: number) => { const u = new Date(m * 86_400_000); return new Date(u.getUTCFullYear(), u.getUTCMonth(), u.getUTCDate(), 12) }
+
+/** Every third day a tongue twister; otherwise a word, with seasonal words on part of the days. */
+function pickFor(m: number, recent: Map<string, number>): Daily {
+  const fresh = (ru: string, days: number) => { const last = recent.get(ru); return last === undefined || m - last > days }
+  if (m % 3 === 2) {
+    const i = Math.floor(m / 3) % TWISTERS.length
+    const t = TWISTERS.map((_, k) => TWISTERS[(i + k) % TWISTERS.length]).find((x) => fresh(x.ru, 60)) ?? TWISTERS[i]
+    return { kind: 'twister', item: t }
+  }
+  const seasons = activeSeasons(dateOf(m))
+  const big = seasons.some((s) => s.big)
+  if (seasons.length && (big ? m % 3 !== 1 : m % 2 === 0)) {
+    const pick = seasons.flatMap((s) => s.words.map((w) => ({ w, s }))).find((p) => fresh(p.w.ru, 90))
+    if (pick) return { kind: 'word', item: pick.w, season: pick.s }
+  }
+  const i = (m - Math.floor(m / 3)) % WORDS.length
+  const w = WORDS.map((_, k) => WORDS[(i + k) % WORDS.length]).find((x) => fresh(x.ru, 90)) ?? WORDS[i]
+  return { kind: 'word', item: w }
+}
+
+const dailyCache = new Map<number, Daily>()
+/**
+ * The day's word or tongue twister. Replays the previous months so nothing repeats within ~3 months:
+ * each seasonal word shows once per season and the general list rotates around what was just shown.
+ */
 export function dailyItem(d = new Date()): Daily {
   const n = dayNumber(d)
-  if (n % 3 === 2) return { kind: 'twister', item: TWISTERS[Math.floor(n / 3) % TWISTERS.length] }
-  const seasons = activeSeasons(d)
-  const big = seasons.some((s) => s.big)
-  if (seasons.length && (big ? n % 3 !== 1 : n % 2 === 0)) {
-    const pool = seasons.flatMap((s) => s.words.map((w) => ({ w, s })))
-    const pick = pool[n % pool.length]
-    return { kind: 'word', item: pick.w, season: pick.s }
+  const hit = dailyCache.get(n)
+  if (hit) return hit
+  const recent = new Map<string, number>()
+  let today!: Daily
+  for (let m = n - 180; m <= n; m++) {
+    const pick = pickFor(m, recent)
+    recent.set(pick.item.ru, m)
+    if (m === n) today = pick
   }
-  return { kind: 'word', item: WORDS[(n - Math.floor(n / 3)) % WORDS.length] }
+  dailyCache.set(n, today)
+  return today
 }
 
 /** A fun fact not shown recently on this device. */
