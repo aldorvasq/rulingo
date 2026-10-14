@@ -33,6 +33,8 @@ export interface Reminder { date?: string; text: string }
 
 /** Short notices (no class on a holiday, bring the workbook…). Dated ones hide after their date. */
 export const REMINDERS: Reminder[] = [
+  { date: '2026-10-27', text: '📝 Examen: martes 27 de octubre.' },
+  { date: '2026-10-31', text: '🎃 Fiesta de Halloween en el restaurante Kolobok (Колобо́к): sábado 31 de octubre.' },
   { text: '¿Te perdiste una clase? Las grabaciones de clases anteriores están disponibles: pídeselas a Aldo.' },
 ]
 
