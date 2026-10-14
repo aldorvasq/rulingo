@@ -1294,6 +1294,116 @@
        "answer": 0
       }
      ]
+    },
+    {
+     "id": "3.4-n-4",
+     "title": "El cumpleaños de la abuela",
+     "kind": "dialogue",
+     "scene": "Two siblings plan their grandmother's birthday, warm and cheerful",
+     "lines": [
+      {
+       "speaker": "Ка́тя",
+       "gender": "f",
+       "ru": "Ди́ма, когда́ у ба́бушки день рожде́ния?",
+       "tone": "curious, friendly"
+      },
+      {
+       "speaker": "Ди́ма",
+       "gender": "m",
+       "ru": "В суббо́ту! Ей бу́дет во́семьдесят оди́н год.",
+       "tone": "cheerful"
+      },
+      {
+       "speaker": "Ка́тя",
+       "gender": "f",
+       "ru": "Во́семьдесят оди́н? Ничего́ себе́! А де́душке?",
+       "tone": "impressed"
+      },
+      {
+       "speaker": "Ди́ма",
+       "gender": "m",
+       "ru": "Де́душке во́семьдесят четы́ре го́да.",
+       "tone": "matter-of-fact"
+      },
+      {
+       "speaker": "Ка́тя",
+       "gender": "f",
+       "ru": "А что мы гото́вим? Торт?",
+       "tone": "eager"
+      },
+      {
+       "speaker": "Ди́ма",
+       "gender": "m",
+       "ru": "Да. В пя́тницу я покупа́ю торт, а в суббо́ту у́тром мы гото́вим сала́т.",
+       "tone": "planning, calm"
+      },
+      {
+       "speaker": "Ка́тя",
+       "gender": "f",
+       "ru": "А ско́лько свече́й? Во́семьдесят одну́?",
+       "tone": "playful"
+      },
+      {
+       "speaker": "Ди́ма",
+       "gender": "m",
+       "ru": "Нет, что ты! Две све́чки: во́семь и оди́н!",
+       "tone": "laughing"
+      }
+     ],
+     "cast": [
+      {
+       "name": "Ка́тя",
+       "gender": "f",
+       "age": "young",
+       "skin": "light",
+       "hair": "blond",
+       "hairStyle": "ponytail",
+       "glasses": false,
+       "beard": false,
+       "top": "teal"
+      },
+      {
+       "name": "Ди́ма",
+       "gender": "m",
+       "age": "young",
+       "skin": "light",
+       "hair": "brown",
+       "hairStyle": "short",
+       "glasses": false,
+       "beard": false,
+       "top": "gray"
+      }
+     ],
+     "es": "Dima, ¿cuándo es el cumpleaños de la abuela?\n¡El sábado! Va a cumplir ochenta y un años.\n¿Ochenta y uno? ¡Vaya! ¿Y el abuelo?\nEl abuelo tiene ochenta y cuatro.\n¿Y qué preparamos? ¿Un pastel?\nSí. El viernes compro el pastel y el sábado en la mañana preparamos ensalada.\n¿Y cuántas velas? ¿Ochenta y una?\n¡No, qué va! Dos velitas: un ocho y un uno.",
+     "questions": [
+      {
+       "q": "¿Cuándo es el cumpleaños de la abuela?",
+       "choices": [
+        "El sábado",
+        "El viernes",
+        "El domingo"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Cuántos años cumple la abuela?",
+       "choices": [
+        "Ochenta y uno",
+        "Ochenta y cuatro",
+        "Dieciocho"
+       ],
+       "answer": 0
+      },
+      {
+       "q": "¿Qué hace Dima el viernes?",
+       "choices": [
+        "Compra el pastel",
+        "Prepara la ensalada",
+        "Visita al abuelo"
+       ],
+       "answer": 0
+      }
+     ]
     }
    ]
   }

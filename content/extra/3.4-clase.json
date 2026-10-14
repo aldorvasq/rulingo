@@ -226,6 +226,176 @@
               "es": "—¿Qué tal entiendes ruso? —¡Ya bien!"
             }
           ]
+        },
+        {
+          "id": "3.4x-g-days",
+          "title": "Los días de la semana: ¿Когда́? — в понеде́льник",
+          "explanationEs": "Los días se escriben con **minúscula**: понеде́льник, вто́рник, среда́, четве́рг, пя́тница, суббо́та, воскресе́нье.\n\n**¿Qué día es hoy?** — Како́й сего́дня день? — Сего́дня **среда́**. (forma de diccionario)\n\n**¿Cuándo?** — Когда́? — **в** + día. Los días femeninos en **-а** cambian a **-у**:\n\n- в понеде́льник, в четве́рг (no cambian)\n- в сре́д**у**, в пя́тниц**у**, в суббо́т**у**\n- в воскресе́нье (no cambia)\n\n**Ojo:** martes lleva **во**: **во** вто́рник (para que sea fácil de pronunciar).\n\nLunes a viernes son **бу́дни** (días laborales); sábado y domingo, **выходны́е** (fin de semana). «El lunes» y «los lunes» se dicen igual: в понеде́льник.",
+          "tables": [
+            {
+              "caption": "Días de la semana",
+              "headers": [
+                "Día",
+                "¿Cuándo?",
+                "Español"
+              ],
+              "rows": [
+                [
+                  "понеде́льник",
+                  "в понеде́льник",
+                  "lunes"
+                ],
+                [
+                  "вто́рник",
+                  "во вто́рник",
+                  "martes"
+                ],
+                [
+                  "среда́",
+                  "в сре́ду",
+                  "miércoles"
+                ],
+                [
+                  "четве́рг",
+                  "в четве́рг",
+                  "jueves"
+                ],
+                [
+                  "пя́тница",
+                  "в пя́тницу",
+                  "viernes"
+                ],
+                [
+                  "суббо́та",
+                  "в суббо́ту",
+                  "sábado"
+                ],
+                [
+                  "воскресе́нье",
+                  "в воскресе́нье",
+                  "domingo"
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "Како́й сего́дня день? — Сего́дня четве́рг.",
+              "es": "¿Qué día es hoy? — Hoy es jueves."
+            },
+            {
+              "ru": "Во вто́рник и в четве́рг у нас уро́к ру́сского.",
+              "es": "Los martes y jueves tenemos clase de ruso."
+            },
+            {
+              "ru": "В пя́тницу мы смо́трим фильм.",
+              "es": "El viernes vemos una película."
+            },
+            {
+              "ru": "В выходны́е мы отдыха́ем.",
+              "es": "El fin de semana descansamos."
+            }
+          ]
+        },
+        {
+          "id": "3.4x-g-age",
+          "title": "La edad: Мне два́дцать оди́н год, два́дцать два го́да, два́дцать пять лет",
+          "explanationEs": "En ruso no «tienes» años: los años **son para ti**. Por eso se usa el pronombre en dativo:\n\n**Ско́лько тебе́ лет?** — ¿Cuántos años tienes? · **Ско́лько вам лет?** — (formal)\n\nя → **мне**, ты → **тебе́**, он → **ему́**, она́ → **ей**, мы → **нам**, вы → **вам**, они́ → **им**\n\nDespués del número, la palabra «año» cambia según **la última cifra**:\n\n- termina en **1** → **год**: 1, 21, 31, 41… (Мне два́дцать оди́н **год**.)\n- termina en **2, 3, 4** → **го́да**: 2, 22, 33, 44… (Ему́ два́дцать два **го́да**.)\n- termina en **5–9 o 0** → **лет**: 5, 20, 25, 30… (Ей два́дцать пять **лет**.)\n\n**Trampa:** del **11 al 14** siempre **лет**, aunque terminen en 1–4: оди́ннадцать **лет**, двена́дцать **лет**, трина́дцать **лет**, четы́рнадцать **лет**. Pero 21 → год y 22 → го́да otra vez.\n\nCon nombres, la persona también va en dativo: Ма́ше два́дцать лет, Ива́ну три́дцать оди́н год.",
+          "tables": [
+            {
+              "caption": "Pronombres (dativo)",
+              "headers": [
+                "",
+                "Dativo",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "я",
+                  "мне",
+                  "Мне два́дцать лет."
+                ],
+                [
+                  "ты",
+                  "тебе́",
+                  "Ско́лько тебе́ лет?"
+                ],
+                [
+                  "он",
+                  "ему́",
+                  "Ему́ три́дцать оди́н год."
+                ],
+                [
+                  "она́",
+                  "ей",
+                  "Ей два́дцать два го́да."
+                ],
+                [
+                  "мы",
+                  "нам",
+                  "Нам два́дцать лет."
+                ],
+                [
+                  "вы",
+                  "вам",
+                  "Ско́лько вам лет?"
+                ],
+                [
+                  "они́",
+                  "им",
+                  "Им со́рок лет."
+                ]
+              ]
+            },
+            {
+              "caption": "год / го́да / лет",
+              "headers": [
+                "Número",
+                "Palabra",
+                "Por qué"
+              ],
+              "rows": [
+                [
+                  "1, 21, 31, 101",
+                  "год",
+                  "termina en 1"
+                ],
+                [
+                  "2, 3, 4, 22, 33, 44",
+                  "го́да",
+                  "termina en 2–4"
+                ],
+                [
+                  "5–20, 25, 30, 40",
+                  "лет",
+                  "5–9, 0"
+                ],
+                [
+                  "11, 12, 13, 14",
+                  "лет",
+                  "¡del 11 al 14 siempre лет!"
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "Ско́лько тебе́ лет? — Мне два́дцать оди́н год.",
+              "es": "¿Cuántos años tienes? — Tengo veintiún años."
+            },
+            {
+              "ru": "Мое́й сестре́ четы́рнадцать лет.",
+              "es": "Mi hermana tiene catorce años."
+            },
+            {
+              "ru": "Де́душке во́семьдесят три го́да.",
+              "es": "El abuelo tiene ochenta y tres años."
+            },
+            {
+              "ru": "Ему́ два́дцать пять лет, а ей два́дцать два го́да.",
+              "es": "Él tiene veinticinco años y ella veintidós."
+            }
+          ]
         }
       ],
       "vocab": [
@@ -665,6 +835,204 @@
             "ru": "Пенсионе́ры живу́т споко́йно.",
             "es": "Los jubilados viven tranquilos."
           }
+        },
+        {
+          "id": "3.4x-v-ponedelnik",
+          "ru": "понеде́льник",
+          "es": "lunes",
+          "pos": "noun",
+          "topic": "días",
+          "example": {
+            "ru": "В понеде́льник у меня́ ру́сский язы́к.",
+            "es": "El lunes tengo ruso."
+          },
+          "gender": "m"
+        },
+        {
+          "id": "3.4x-v-vtornik",
+          "ru": "вто́рник",
+          "es": "martes",
+          "pos": "noun",
+          "topic": "días",
+          "example": {
+            "ru": "Во вто́рник у нас уро́к.",
+            "es": "El martes tenemos clase."
+          },
+          "gender": "m"
+        },
+        {
+          "id": "3.4x-v-sreda",
+          "ru": "среда́",
+          "es": "miércoles",
+          "pos": "noun",
+          "topic": "días",
+          "example": {
+            "ru": "Сего́дня среда́.",
+            "es": "Hoy es miércoles."
+          },
+          "gender": "f"
+        },
+        {
+          "id": "3.4x-v-chetverg",
+          "ru": "четве́рг",
+          "es": "jueves",
+          "pos": "noun",
+          "topic": "días",
+          "example": {
+            "ru": "В четве́рг я рабо́таю до́ма.",
+            "es": "El jueves trabajo en casa."
+          },
+          "gender": "m"
+        },
+        {
+          "id": "3.4x-v-pyatnica",
+          "ru": "пя́тница",
+          "es": "viernes",
+          "pos": "noun",
+          "topic": "días",
+          "example": {
+            "ru": "В пя́тницу мы смо́трим фильм.",
+            "es": "El viernes vemos una película."
+          },
+          "gender": "f"
+        },
+        {
+          "id": "3.4x-v-subbota",
+          "ru": "суббо́та",
+          "es": "sábado",
+          "pos": "noun",
+          "topic": "días",
+          "example": {
+            "ru": "В суббо́ту я гуля́ю в па́рке.",
+            "es": "El sábado paseo en el parque."
+          },
+          "gender": "f"
+        },
+        {
+          "id": "3.4x-v-voskresenye",
+          "ru": "воскресе́нье",
+          "es": "domingo",
+          "pos": "noun",
+          "topic": "días",
+          "example": {
+            "ru": "В воскресе́нье ба́бушка гото́вит пироги́.",
+            "es": "El domingo la abuela hace pays."
+          },
+          "gender": "n"
+        },
+        {
+          "id": "3.4x-v-nedelya",
+          "ru": "неде́ля",
+          "es": "semana",
+          "pos": "noun",
+          "topic": "días",
+          "example": {
+            "ru": "В неде́ле семь дней.",
+            "es": "Una semana tiene siete días."
+          },
+          "gender": "f"
+        },
+        {
+          "id": "3.4x-v-vykhodnye",
+          "ru": "выходны́е",
+          "es": "fin de semana",
+          "pos": "noun",
+          "topic": "días",
+          "example": {
+            "ru": "В выходны́е мы отдыха́ем.",
+            "es": "El fin de semana descansamos."
+          },
+          "gender": "pl"
+        },
+        {
+          "id": "3.4x-v-budni",
+          "ru": "бу́дни",
+          "es": "días laborales (lunes a viernes)",
+          "pos": "noun",
+          "topic": "días",
+          "example": {
+            "ru": "В бу́дни я рабо́таю.",
+            "es": "Entre semana trabajo."
+          },
+          "gender": "pl"
+        },
+        {
+          "id": "3.4x-v-vchera",
+          "ru": "вчера́",
+          "es": "ayer",
+          "pos": "adv",
+          "topic": "días",
+          "example": {
+            "ru": "Вчера́ был понеде́льник.",
+            "es": "Ayer fue lunes."
+          }
+        },
+        {
+          "id": "3.4x-v-zavtra",
+          "ru": "за́втра",
+          "es": "mañana (el día siguiente)",
+          "pos": "adv",
+          "topic": "días",
+          "example": {
+            "ru": "За́втра пя́тница!",
+            "es": "¡Mañana es viernes!"
+          }
+        },
+        {
+          "id": "3.4x-v-god",
+          "ru": "год",
+          "es": "año (1 год · 2 го́да · 5 лет)",
+          "pos": "noun",
+          "topic": "edad",
+          "example": {
+            "ru": "Мне два́дцать оди́н год.",
+            "es": "Tengo veintiún años."
+          },
+          "gender": "m"
+        },
+        {
+          "id": "3.4x-v-skolko-let",
+          "ru": "Ско́лько тебе́ лет?",
+          "es": "¿Cuántos años tienes?",
+          "pos": "phrase",
+          "topic": "edad",
+          "example": {
+            "ru": "Ско́лько тебе́ лет? — Мне девятна́дцать.",
+            "es": "¿Cuántos años tienes? — Diecinueve."
+          }
+        },
+        {
+          "id": "3.4x-v-mne",
+          "ru": "мне",
+          "es": "a mí (Мне … лет = tengo … años)",
+          "pos": "pron",
+          "topic": "edad",
+          "example": {
+            "ru": "Мне два́дцать лет.",
+            "es": "Tengo veinte años."
+          }
+        },
+        {
+          "id": "3.4x-v-emu",
+          "ru": "ему́",
+          "es": "a él (Ему́ … лет = él tiene … años)",
+          "pos": "pron",
+          "topic": "edad",
+          "example": {
+            "ru": "Ему́ три́дцать три го́да.",
+            "es": "Él tiene treinta y tres años."
+          }
+        },
+        {
+          "id": "3.4x-v-ey",
+          "ru": "ей",
+          "es": "a ella (Ей … лет = ella tiene … años)",
+          "pos": "pron",
+          "topic": "edad",
+          "example": {
+            "ru": "Ей два́дцать пять лет.",
+            "es": "Ella tiene veinticinco años."
+          }
         }
       ],
       "sentences": [
@@ -761,6 +1129,48 @@
             "3.4x-v-krasivo",
             "3.4x-v-tikho"
           ]
+        },
+        {
+          "ru": "В суббо́ту мы гуля́ем в па́рке.",
+          "es": "El sábado paseamos en el parque.",
+          "tags": [
+            "3.4x-g-days"
+          ]
+        },
+        {
+          "ru": "Во вто́рник у нас уро́к ру́сского.",
+          "es": "El martes tenemos clase de ruso.",
+          "tags": [
+            "3.4x-g-days"
+          ]
+        },
+        {
+          "ru": "За́втра бу́дет пя́тница.",
+          "es": "Mañana será viernes.",
+          "tags": [
+            "3.4x-g-days"
+          ]
+        },
+        {
+          "ru": "Мне два́дцать оди́н год.",
+          "es": "Tengo veintiún años.",
+          "tags": [
+            "3.4x-g-age"
+          ]
+        },
+        {
+          "ru": "Ей два́дцать два го́да.",
+          "es": "Ella tiene veintidós años.",
+          "tags": [
+            "3.4x-g-age"
+          ]
+        },
+        {
+          "ru": "Мое́й сестре́ четы́рнадцать лет.",
+          "es": "Mi hermana tiene catorce años.",
+          "tags": [
+            "3.4x-g-age"
+          ]
         }
       ],
       "readings": [
@@ -817,6 +1227,44 @@
                 "Шу́мные",
                 "Ти́хие",
                 "Ста́рые"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "3.4x-r-nedelya",
+          "title": "Моя́ неде́ля",
+          "textRu": "Меня́ зову́т Ди́ма. Мне два́дцать два го́да. Я студе́нт. В понеде́льник, в сре́ду и в пя́тницу у меня́ ле́кции. Во вто́рник и в четве́рг я рабо́таю в кафе́. В суббо́ту я игра́ю в футбо́л, а в воскресе́нье отдыха́ю.\n\nМоя́ сестра́ А́ня — шко́льница. Ей пятна́дцать лет. А на́шей ба́бушке во́семьдесят оди́н год!",
+          "textEs": "Me llamo Dima. Tengo veintidós años. Soy estudiante. Los lunes, miércoles y viernes tengo clases. Los martes y jueves trabajo en un café. El sábado juego futbol y el domingo descanso.\n\nMi hermana Ania va a la escuela. Tiene quince años. ¡Y nuestra abuela tiene ochenta y un años!",
+          "questions": [
+            {
+              "q": "Ско́лько лет Ди́ме?",
+              "qEs": "¿Cuántos años tiene Dima?",
+              "choices": [
+                "Два́дцать два го́да",
+                "Два́дцать лет",
+                "Пятна́дцать лет"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Когда́ Ди́ма рабо́тает?",
+              "qEs": "¿Cuándo trabaja Dima?",
+              "choices": [
+                "Во вто́рник и в четве́рг",
+                "В понеде́льник и в сре́ду",
+                "В суббо́ту"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Ско́лько лет ба́бушке?",
+              "qEs": "¿Cuántos años tiene la abuela?",
+              "choices": [
+                "Во́семьдесят оди́н год",
+                "Во́семьдесят лет",
+                "Во́семьдесят два го́да"
               ],
               "answer": 0
             }
@@ -1833,6 +2281,916 @@
           "origin": "original",
           "es": "гро́мкий = ruidoso → гро́мко = fuerte · ти́хий = tranquilo → ти́хо = bajito · хоро́ший = bueno → хорошо́ = bien · плохо́й = malo → пло́хо = mal · бы́стрый = rápido → бы́стро = rápido (adv.)",
           "explanationEs": "El adverbio se forma cambiando la terminación del adjetivo (-ый/-ий/-ой) por -о; ojo con el acento: хорошо́, пло́хо."
+        },
+        {
+          "id": "3.4x-x-101",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Сего́дня ___, а за́втра вто́рник.",
+          "choices": [
+            "понеде́льник",
+            "среда́",
+            "пя́тница",
+            "воскресе́нье"
+          ],
+          "answer": 0,
+          "explanationEs": "Antes del martes va el lunes: понеде́льник.",
+          "es": "Hoy es lunes y mañana martes.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-102",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "___ вто́рник у нас уро́к.",
+          "choices": [
+            "Во",
+            "В",
+            "На"
+          ],
+          "answer": 0,
+          "explanationEs": "Con вто́рник se dice **во**: во вто́рник.",
+          "es": "El martes tenemos clase.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-103",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мы смо́трим фильм в ___.",
+          "choices": [
+            "пя́тницу",
+            "пя́тница",
+            "пя́тнице"
+          ],
+          "answer": 0,
+          "explanationEs": "¿Cuándo? в + día: пя́тница → в пя́тниц**у**.",
+          "es": "Vemos una película el viernes.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-104",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Како́й сего́дня день? — Сего́дня ___.",
+          "choices": [
+            "суббо́та",
+            "в суббо́ту",
+            "суббо́ту"
+          ],
+          "answer": 0,
+          "explanationEs": "Para decir qué día **es**, la forma de diccionario: Сего́дня суббо́та.",
+          "es": "¿Qué día es hoy? — Hoy es sábado.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-105",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Суббо́та и воскресе́нье — э́то ___.",
+          "choices": [
+            "выходны́е",
+            "бу́дни",
+            "неде́ля"
+          ],
+          "answer": 0,
+          "explanationEs": "Sábado y domingo son el fin de semana: выходны́е.",
+          "es": "El sábado y el domingo son el fin de semana.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-106",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Вчера́ был вто́рник, а за́втра ___.",
+          "choices": [
+            "четве́рг",
+            "среда́",
+            "понеде́льник"
+          ],
+          "answer": 0,
+          "explanationEs": "Si ayer fue martes, hoy es miércoles y mañana jueves: четве́рг.",
+          "es": "Ayer fue martes y mañana jueves.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-107",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el día",
+          "sentence": "В ___ я отдыха́ю.",
+          "answers": [
+            "воскресе́нье"
+          ],
+          "hint": "domingo",
+          "explanationEs": "воскресе́нье no cambia: в воскресе́нье.",
+          "es": "El domingo descanso.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-108",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el día",
+          "sentence": "В ___ у меня́ экза́мен.",
+          "answers": [
+            "сре́ду"
+          ],
+          "hint": "miércoles",
+          "explanationEs": "среда́ → в сре́ду (-а → -у, y el acento pasa a la primera sílaba).",
+          "es": "El miércoles tengo examen.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-109",
+          "type": "fill_typed",
+          "instructionEs": "Completa",
+          "sentence": "___ вто́рник мы игра́ем в те́ннис.",
+          "answers": [
+            "Во"
+          ],
+          "hint": "preposición",
+          "explanationEs": "вто́рник lleva во: во вто́рник.",
+          "es": "El martes jugamos tenis.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-110",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el día",
+          "sentence": "В ___ ба́бушка гото́вит пироги́.",
+          "answers": [
+            "суббо́ту"
+          ],
+          "hint": "sábado",
+          "explanationEs": "суббо́та → в суббо́ту.",
+          "es": "El sábado la abuela hace pays.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-111",
+          "type": "match",
+          "instructionEs": "Une cada día con su traducción",
+          "pairs": [
+            [
+              "понеде́льник",
+              "lunes"
+            ],
+            [
+              "вто́рник",
+              "martes"
+            ],
+            [
+              "среда́",
+              "miércoles"
+            ],
+            [
+              "четве́рг",
+              "jueves"
+            ],
+            [
+              "пя́тница",
+              "viernes"
+            ],
+            [
+              "суббо́та",
+              "sábado"
+            ],
+            [
+              "воскресе́нье",
+              "domingo"
+            ]
+          ],
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-112",
+          "type": "sort",
+          "instructionEs": "¿Entre semana o fin de semana?",
+          "categories": [
+            "бу́дни",
+            "выходны́е"
+          ],
+          "items": [
+            {
+              "text": "понеде́льник",
+              "category": "бу́дни"
+            },
+            {
+              "text": "вто́рник",
+              "category": "бу́дни"
+            },
+            {
+              "text": "среда́",
+              "category": "бу́дни"
+            },
+            {
+              "text": "четве́рг",
+              "category": "бу́дни"
+            },
+            {
+              "text": "пя́тница",
+              "category": "бу́дни"
+            },
+            {
+              "text": "суббо́та",
+              "category": "выходны́е"
+            },
+            {
+              "text": "воскресе́нье",
+              "category": "выходны́е"
+            }
+          ],
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-113",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "el martes (¿cuándo?)",
+          "answers": [
+            "во вто́рник"
+          ],
+          "explanationEs": "вто́рник → во вто́рник.",
+          "es": "el martes",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-114",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "el viernes (¿cuándo?)",
+          "answers": [
+            "в пя́тницу"
+          ],
+          "explanationEs": "пя́тница → в пя́тницу.",
+          "es": "el viernes",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-115",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "¿Qué día es hoy?",
+          "answers": [
+            "Како́й сего́дня день?",
+            "Како́й день сего́дня?"
+          ],
+          "es": "¿Qué día es hoy?",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-116",
+          "type": "translate",
+          "direction": "ru-es",
+          "prompt": "За́втра суббо́та!",
+          "answers": [
+            "¡Mañana es sábado!",
+            "Mañana es sábado",
+            "Mañana sábado"
+          ],
+          "es": "¡Mañana es sábado!",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-117",
+          "type": "word_order",
+          "instructionEs": "Ordena las palabras",
+          "words": [
+            "В",
+            "суббо́ту",
+            "мы",
+            "гуля́ем",
+            "в",
+            "па́рке"
+          ],
+          "answer": "В суббо́ту мы гуля́ем в па́рке",
+          "es": "El sábado paseamos en el parque.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-118",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "В вто́рник у нас уро́к.",
+          "wrongWord": 0,
+          "correction": "Во",
+          "explanationEs": "Con вто́рник se dice во: Во вто́рник.",
+          "es": "El martes tenemos clase.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-119",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "В среда́ я рабо́таю до́ма.",
+          "wrongWord": 1,
+          "correction": "сре́ду",
+          "explanationEs": "¿Cuándo? в + сре́ду (no среда́).",
+          "es": "El miércoles trabajo en casa.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-120",
+          "type": "dialogue",
+          "instructionEs": "Completa el diálogo",
+          "lines": [
+            {
+              "speaker": "А́ня",
+              "ru": "Како́й сего́дня день?"
+            },
+            {
+              "speaker": "Ди́ма",
+              "ru": "___"
+            }
+          ],
+          "choices": [
+            "Сего́дня четве́рг.",
+            "В четве́рг.",
+            "Четве́ргу."
+          ],
+          "answer": 0,
+          "explanationEs": "Qué día **es** → Сего́дня четве́рг (forma de diccionario).",
+          "es": "—¿Qué día es hoy? —Hoy es jueves.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-121",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мне два́дцать оди́н ___.",
+          "choices": [
+            "год",
+            "го́да",
+            "лет"
+          ],
+          "answer": 0,
+          "explanationEs": "21 termina en 1 → год.",
+          "es": "Tengo veintiún años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-122",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ему́ два́дцать два ___.",
+          "choices": [
+            "го́да",
+            "год",
+            "лет"
+          ],
+          "answer": 0,
+          "explanationEs": "22 termina en 2 → го́да.",
+          "es": "Él tiene veintidós años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-123",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ей два́дцать пять ___.",
+          "choices": [
+            "лет",
+            "го́да",
+            "год"
+          ],
+          "answer": 0,
+          "explanationEs": "25 termina en 5 → лет.",
+          "es": "Ella tiene veinticinco años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-124",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Моему́ бра́ту оди́ннадцать ___.",
+          "choices": [
+            "лет",
+            "год",
+            "го́да"
+          ],
+          "answer": 0,
+          "explanationEs": "¡Trampa! Del 11 al 14 siempre лет: оди́ннадцать лет.",
+          "es": "Mi hermano tiene once años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-125",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Де́душке во́семьдесят три ___.",
+          "choices": [
+            "го́да",
+            "лет",
+            "год"
+          ],
+          "answer": 0,
+          "explanationEs": "83 termina en 3 → го́да.",
+          "es": "El abuelo tiene ochenta y tres años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-126",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Им со́рок ___.",
+          "choices": [
+            "лет",
+            "го́да",
+            "год"
+          ],
+          "answer": 0,
+          "explanationEs": "40 termina en 0 → лет.",
+          "es": "Ellos tienen cuarenta años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-127",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Сестре́ четы́рнадцать ___.",
+          "choices": [
+            "лет",
+            "го́да",
+            "год"
+          ],
+          "answer": 0,
+          "explanationEs": "14 está entre 11 y 14 → лет.",
+          "es": "Mi hermana tiene catorce años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-128",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ско́лько ___ лет? — Мне девятна́дцать.",
+          "choices": [
+            "тебе́",
+            "ты",
+            "тебя́"
+          ],
+          "answer": 0,
+          "explanationEs": "La edad usa dativo: ты → тебе́.",
+          "es": "¿Cuántos años tienes? — Diecinueve.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-129",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "— Ско́лько ей лет? — ___ два́дцать.",
+          "choices": [
+            "Ей",
+            "Она́",
+            "Её"
+          ],
+          "answer": 0,
+          "explanationEs": "она́ → ей: Ей два́дцать.",
+          "es": "—¿Cuántos años tiene ella? —Veinte.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-130",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "— Ско́лько лет Ива́ну? — ___ три́дцать оди́н год.",
+          "choices": [
+            "Ему́",
+            "Он",
+            "Его́"
+          ],
+          "answer": 0,
+          "explanationEs": "он → ему́.",
+          "es": "—¿Cuántos años tiene Iván? —Treinta y uno.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-131",
+          "type": "fill_typed",
+          "instructionEs": "Escribe год, го́да o лет",
+          "sentence": "Мне 21 ___.",
+          "answers": [
+            "год"
+          ],
+          "hint": "21",
+          "explanationEs": "Termina en 1 → год.",
+          "es": "Tengo 21 años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-132",
+          "type": "fill_typed",
+          "instructionEs": "Escribe год, го́да o лет",
+          "sentence": "Па́пе 52 ___.",
+          "answers": [
+            "го́да"
+          ],
+          "hint": "52",
+          "explanationEs": "Termina en 2 → го́да.",
+          "es": "Papá tiene 52 años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-133",
+          "type": "fill_typed",
+          "instructionEs": "Escribe год, го́да o лет",
+          "sentence": "Сы́ну 12 ___.",
+          "answers": [
+            "лет"
+          ],
+          "hint": "12",
+          "explanationEs": "Del 11 al 14 → лет.",
+          "es": "El hijo tiene 12 años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-134",
+          "type": "fill_typed",
+          "instructionEs": "Escribe год, го́да o лет",
+          "sentence": "Ба́бушке 77 ___.",
+          "answers": [
+            "лет"
+          ],
+          "hint": "77",
+          "explanationEs": "Termina en 7 → лет.",
+          "es": "La abuela tiene 77 años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-135",
+          "type": "fill_typed",
+          "instructionEs": "Escribe год, го́да o лет",
+          "sentence": "Дя́де 44 ___.",
+          "answers": [
+            "го́да"
+          ],
+          "hint": "44",
+          "explanationEs": "Termina en 4 → го́да.",
+          "es": "El tío tiene 44 años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-136",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el pronombre",
+          "sentence": "___ три́дцать лет. (yo)",
+          "answers": [
+            "Мне"
+          ],
+          "hint": "я → ?",
+          "explanationEs": "я → мне: Мне три́дцать лет.",
+          "es": "Tengo treinta años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-137",
+          "type": "sort",
+          "instructionEs": "¿год, го́да o лет?",
+          "categories": [
+            "год",
+            "го́да",
+            "лет"
+          ],
+          "items": [
+            {
+              "text": "21",
+              "category": "год"
+            },
+            {
+              "text": "31",
+              "category": "год"
+            },
+            {
+              "text": "1",
+              "category": "год"
+            },
+            {
+              "text": "2",
+              "category": "го́да"
+            },
+            {
+              "text": "23",
+              "category": "го́да"
+            },
+            {
+              "text": "34",
+              "category": "го́да"
+            },
+            {
+              "text": "5",
+              "category": "лет"
+            },
+            {
+              "text": "11",
+              "category": "лет"
+            },
+            {
+              "text": "12",
+              "category": "лет"
+            },
+            {
+              "text": "20",
+              "category": "лет"
+            }
+          ],
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-138",
+          "type": "match",
+          "instructionEs": "Une el pronombre con su forma para la edad",
+          "pairs": [
+            [
+              "я",
+              "мне"
+            ],
+            [
+              "ты",
+              "тебе́"
+            ],
+            [
+              "он",
+              "ему́"
+            ],
+            [
+              "она́",
+              "ей"
+            ],
+            [
+              "мы",
+              "нам"
+            ],
+            [
+              "вы",
+              "вам"
+            ],
+            [
+              "они́",
+              "им"
+            ]
+          ],
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-139",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "Tengo veinte años.",
+          "answers": [
+            "Мне два́дцать лет.",
+            "Мне 20 лет."
+          ],
+          "es": "Tengo veinte años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-140",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "¿Cuántos años tienes?",
+          "answers": [
+            "Ско́лько тебе́ лет?"
+          ],
+          "es": "¿Cuántos años tienes?",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-141",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "Ella tiene 22 años.",
+          "answers": [
+            "Ей два́дцать два го́да.",
+            "Ей 22 го́да."
+          ],
+          "explanationEs": "она́ → ей; 22 → го́да.",
+          "es": "Ella tiene 22 años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-142",
+          "type": "transform",
+          "instructionEs": "Escribe la edad: он · 24",
+          "prompt": "он · 24 →",
+          "answers": [
+            "Ему́ два́дцать четы́ре го́да",
+            "Ему́ 24 го́да"
+          ],
+          "explanationEs": "он → ему́; 24 → го́да.",
+          "es": "Él tiene 24 años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-143",
+          "type": "transform",
+          "instructionEs": "Escribe la edad: она́ · 31",
+          "prompt": "она́ · 31 →",
+          "answers": [
+            "Ей три́дцать оди́н год",
+            "Ей 31 год"
+          ],
+          "explanationEs": "она́ → ей; 31 → год.",
+          "es": "Ella tiene 31 años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-144",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "Мне два́дцать два лет.",
+          "wrongWord": 3,
+          "correction": "го́да",
+          "explanationEs": "22 termina en 2 → го́да.",
+          "es": "Tengo veintidós años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-145",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "Я два́дцать лет.",
+          "wrongWord": 0,
+          "correction": "Мне",
+          "explanationEs": "La edad se dice con dativo: Мне два́дцать лет.",
+          "es": "Tengo veinte años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-146",
+          "type": "dialogue",
+          "instructionEs": "Completa el diálogo",
+          "lines": [
+            {
+              "speaker": "Ве́ра",
+              "ru": "Ско́лько вам лет?"
+            },
+            {
+              "speaker": "Пётр",
+              "ru": "___"
+            }
+          ],
+          "choices": [
+            "Мне три́дцать лет.",
+            "Я три́дцать лет.",
+            "Мне три́дцать год."
+          ],
+          "answer": 0,
+          "explanationEs": "Мне + 30 (termina en 0) → лет.",
+          "es": "—¿Cuántos años tiene usted? —Tengo treinta años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "3.4x-x-147",
+          "type": "word_order",
+          "instructionEs": "Ordena las palabras",
+          "words": [
+            "Мне",
+            "два́дцать",
+            "оди́н",
+            "год"
+          ],
+          "answer": "Мне два́дцать оди́н год",
+          "es": "Tengo veintiún años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original"
         }
       ]
     }
