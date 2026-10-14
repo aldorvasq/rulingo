@@ -1,5 +1,7 @@
 // Pictures for vocabulary with Gemini Nano Banana 2.1, in a Russian storybook painting style.
-//   npx tsx scripts/images/build-images.ts [--limit N]
+//   npx tsx scripts/images/build-images.ts [--limit N]      → vocabulary pictures
+//   npx tsx scripts/images/build-images.ts --colours         → colour-exercise objects in every colour
+//   npx tsx scripts/images/build-images.ts --resize          → re-export all from the originals (no API)
 // Every word in src/content/pictures.ts EMOJI gets public/img/vocab/<key>.jpg (480 px) and an entry in
 // src/content/photos.json; existing pictures are skipped, so the script resumes where it stopped.
 // Stops at the first billing/quota error. Key: ~/.config/rulingo/gemini-key or ~/Downloads/googleapikey.txt.
@@ -7,13 +9,15 @@ import { execFileSync } from 'node:child_process'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { homedir } from 'node:os'
 import { join } from 'node:path'
-import { EMOJI } from '../../src/content/pictures'
+import { COLOURS, EMOJI, OBJECTS } from '../../src/content/pictures'
 import { audioKey } from '../../src/lib/audioKey'
 
 const ROOT = join(import.meta.dirname, '..', '..')
 const OUT = join(ROOT, 'public', 'img', 'vocab')
 const RAW = join(import.meta.dirname, 'out')
 const INDEX = join(ROOT, 'src', 'content', 'photos.json')
+const COLOUR_OUT = join(ROOT, 'public', 'img', 'colour')
+const COLOUR_INDEX = join(ROOT, 'src', 'content', 'colour-photos.json')
 const MODEL = 'gemini-nano-banana-2.1'
 const LIMIT = process.argv.includes('--limit') ? Number(process.argv[process.argv.indexOf('--limit') + 1]) : Infinity
 for (const d of [OUT, RAW]) mkdirSync(d, { recursive: true })
@@ -58,36 +62,92 @@ const redone: string[] = existsSync(DONE_REDO) ? JSON.parse(readFileSync(DONE_RE
 const REDO = new Set((process.argv.includes('--redo') ? process.argv[process.argv.indexOf('--redo') + 1].split(',') : [])
   .filter((w) => !process.argv.includes('--once') || !redone.includes(w)))
 
-const index: Record<string, string> = existsSync(INDEX) ? JSON.parse(readFileSync(INDEX, 'utf8')) : {}
-let made = 0, stopped = ''
-for (const [word, emoji] of Object.entries(EMOJI)) {
-  if (made >= LIMIT || stopped) break
-  const file = `${audioKey(word)}.jpg`
-  if (index[word] && existsSync(join(OUT, file)) && !REDO.has(word)) continue
-  const es = gloss.get(word) ?? word
-  const subject = HINTS[word] ? `${HINTS[word]} (Russian word «${word}»)` : `«${es}» (Russian word «${word}»; the thing shown by the emoji ${emoji})`
-  const prompt = `${STYLE} Subject: ${subject}. ${RULES}`
-  for (let attempt = 0; attempt < 3; attempt++) {
+const SIZE = '720' // published width: sharp when shown almost full-width on a phone
+
+/** One painting: returns false (and sets `stopped` on billing/quota errors) if it couldn't be made. */
+let stopped = ''
+async function paint(prompt: string, rawBase: string, out: string): Promise<boolean> {
+  for (let attempt = 0; attempt < 3 && !stopped; attempt++) {
     const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`, {
       method: 'POST', headers: { 'x-goog-api-key': KEY, 'Content-Type': 'application/json' },
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseModalities: ['IMAGE'], imageConfig: { aspectRatio: '1:1' } } }),
     }).then((r) => r.json()).catch((e) => ({ error: { message: String(e) } }))
     const part = res.candidates?.[0]?.content?.parts?.find((p: any) => p.inlineData)
     if (part) {
-      const raw = join(RAW, `${audioKey(word)}.${part.inlineData.mimeType.includes('png') ? 'png' : 'jpg'}`)
+      const raw = join(RAW, `${rawBase}.${part.inlineData.mimeType.includes('png') ? 'png' : 'jpg'}`)
       writeFileSync(raw, Buffer.from(part.inlineData.data, 'base64'))
-      execFileSync('sips', ['-s', 'format', 'jpeg', '-s', 'formatOptions', '72', '-Z', '480', raw, '--out', join(OUT, file)], { stdio: 'ignore' })
-      index[word] = `img/vocab/${file}`
-      writeFileSync(INDEX, JSON.stringify(index, null, 1) + '\n')
-      made++
-      if (REDO.has(word)) { redone.push(word); writeFileSync(DONE_REDO, JSON.stringify(redone)) }
-      process.stdout.write(`✓ ${word}\n`)
-      break
+      publish(raw, out)
+      return true
     }
     const msg = JSON.stringify(res)
-    if (/billing|prepay|credit|quota|per day|PERMISSION|API key/i.test(msg)) { stopped = msg.slice(0, 300); break }
-    process.stdout.write(`… ${word}: ${msg.slice(0, 160)}\n`)
+    if (/billing|prepay|credit|quota|per day|PERMISSION|API key/i.test(msg)) { stopped = msg.slice(0, 300); return false }
+    process.stdout.write(`… ${rawBase}: ${msg.slice(0, 160)}\n`)
     await new Promise((r) => setTimeout(r, 15000 * (attempt + 1)))
+  }
+  return false
+}
+const publish = (raw: string, out: string) =>
+  execFileSync('sips', ['-s', 'format', 'jpeg', '-s', 'formatOptions', '55', '-Z', SIZE, raw, '--out', out], { stdio: 'ignore' })
+const rawOf = (base: string) => ['jpg', 'png'].map((e) => join(RAW, `${base}.${e}`)).find(existsSync)
+
+let made = 0
+
+// --resize: re-export every published picture from its original at the current SIZE (no API calls).
+if (process.argv.includes('--resize')) {
+  for (const f of readdirSync(OUT)) { const raw = rawOf(f.replace(/\.jpg$/, '')); if (raw) { publish(raw, join(OUT, f)); made++ } }
+  for (const f of existsSync(COLOUR_OUT) ? readdirSync(COLOUR_OUT) : []) { const raw = rawOf(f.replace(/\.jpg$/, '')); if (raw) { publish(raw, join(COLOUR_OUT, f)); made++ } }
+  console.log(`${made} imágenes re-exportadas a ${SIZE} px`)
+  process.exit(0)
+}
+
+// --colours: every colour-exercise object painted in every colour (colour-photos.json: "object|colour" → path).
+if (process.argv.includes('--colours')) {
+  const OBJECT_EN: Record<string, string> = {
+    'машина': 'a small rounded city car seen from the side', 'дом': 'a small house whose walls are painted that colour (roof and windows neutral)',
+    'яблоко': 'a single apple', 'цветок': 'a single flower with large petals of that colour on a green stem', 'футболка': 'a plain t-shirt laid flat',
+    'зонтик': 'an open umbrella', 'сумка': 'a handbag', 'кресло': 'an upholstered armchair', 'джинсы': 'a pair of trousers laid flat',
+  }
+  const COLOUR_EN: Record<string, string> = {
+    'красный': 'bright red', 'жёлтый': 'bright yellow', 'оранжевый': 'orange', 'синий': 'deep dark blue (navy / royal blue — NOT light blue)',
+    'голубой': 'light sky blue (pale blue — NOT dark blue)', 'зелёный': 'green', 'белый': 'white', 'чёрный': 'black', 'серый': 'grey',
+    'фиолетовый': 'violet purple', 'розовый': 'pink', 'коричневый': 'brown', 'бежевый': 'beige (light sandy cream)',
+  }
+  mkdirSync(COLOUR_OUT, { recursive: true })
+  const cindex: Record<string, string> = existsSync(COLOUR_INDEX) ? JSON.parse(readFileSync(COLOUR_INDEX, 'utf8')) : {}
+  for (const obj of OBJECTS) for (const colour of Object.keys(COLOURS)) {
+    if (made >= LIMIT || stopped) break
+    const plain = obj.ru.normalize('NFD').replace(/́/g, '').normalize('NFC')
+    const key = `${plain}|${colour}`
+    const base = `c-${audioKey(key)}`
+    if (cindex[key] && existsSync(join(COLOUR_OUT, `${base}.jpg`))) continue
+    const c = COLOUR_EN[colour]
+    const prompt = `${STYLE} Subject: ${OBJECT_EN[plain]}, coloured entirely ${c}. The object must be clearly, evenly and unmistakably ${c} ` +
+      `so that a learner names its colour at a glance. The object is large and fills most of the picture; nothing else in the picture is ${c.split(' (')[0]}, no other strongly coloured objects, ` +
+      `plain light neutral paper background. ${RULES}`
+    if (await paint(prompt, base, join(COLOUR_OUT, `${base}.jpg`))) {
+      cindex[key] = `img/colour/${base}.jpg`
+      writeFileSync(COLOUR_INDEX, JSON.stringify(cindex, null, 1) + '\n')
+      made++
+      process.stdout.write(`✓ ${key}\n`)
+    }
+  }
+  console.log(`\n${made} nuevas · ${Object.keys(cindex).length}/${OBJECTS.length * Object.keys(COLOURS).length} en total${stopped ? `\nPARÓ: ${stopped}` : ''}`)
+  process.exit(0)
+}
+
+const index: Record<string, string> = existsSync(INDEX) ? JSON.parse(readFileSync(INDEX, 'utf8')) : {}
+for (const [word, emoji] of Object.entries(EMOJI)) {
+  if (made >= LIMIT || stopped) break
+  const file = `${audioKey(word)}.jpg`
+  if (index[word] && existsSync(join(OUT, file)) && !REDO.has(word)) continue
+  const es = gloss.get(word) ?? word
+  const subject = HINTS[word] ? `${HINTS[word]} (Russian word «${word}»)` : `«${es}» (Russian word «${word}»; the thing shown by the emoji ${emoji})`
+  if (await paint(`${STYLE} Subject: ${subject}. ${RULES}`, audioKey(word), join(OUT, file))) {
+    index[word] = `img/vocab/${file}`
+    writeFileSync(INDEX, JSON.stringify(index, null, 1) + '\n')
+    made++
+    if (REDO.has(word)) { redone.push(word); writeFileSync(DONE_REDO, JSON.stringify(redone)) }
+    process.stdout.write(`✓ ${word}\n`)
   }
 }
 console.log(`\n${made} nuevas · ${Object.keys(index).length}/${Object.keys(EMOJI).length} en total${stopped ? `\nPARÓ: ${stopped}` : ''}`)

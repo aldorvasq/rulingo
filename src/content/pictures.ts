@@ -2,6 +2,7 @@
 // photos.json by scripts/images/build-images.ts), the phone's colour emoji as a fallback, and
 // recolourable drawings of everyday objects for the colour exercises.
 import photos from './photos.json'
+import colourPhotos from './colour-photos.json'
 
 /** Plain word (no stress marks, lower case) → emoji. Every emoji is unique so a picture has one answer. */
 export const EMOJI: Record<string, string> = {
@@ -52,6 +53,8 @@ export const EMOJI: Record<string, string> = {
 
 /** Generated paintings (word → path under public/); a painting wins over the emoji. */
 export const PHOTOS: Record<string, string> = photos
+/** Generated paintings of each colour object in each colour ("object|colour" → path); else the drawing is used. */
+export const COLOUR_PHOTOS: Record<string, string> = colourPhotos
 
 // ---------------------------------------------------------------- colours
 

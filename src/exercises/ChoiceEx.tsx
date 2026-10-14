@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { GapSentence } from '../components/ui'
-import { ContextBlock, HandPrompt, PicturePrompt, ListenBlock, ruPromptSize, tileState, type ExProps } from './common'
+import { ContextBlock, HandPrompt, PicturePrompt, ListenBlock, optionSize, ruPromptSize, tileState, type ExProps } from './common'
 import { Speak } from '../components/Speak'
 
 export function ChoiceEx({ ex, locked, ready }: ExProps<'choice'>) {
@@ -22,7 +22,8 @@ export function ChoiceEx({ ex, locked, ready }: ExProps<'choice'>) {
   })
 
   // Two columns only when every option fits comfortably in half the width.
-  const long = ex.choices.some((c) => c.length > (ex.choiceLang === 'ru' ? 11 : 16))
+  // With a big picture above, keep two columns (long words get a smaller size) so all options stay on screen.
+  const long = !ex.picture && ex.choices.some((c) => c.length > (ex.choiceLang === 'ru' ? 11 : 16))
   const filled = locked ? ex.choices[ex.answer] : sel !== null ? ex.choices[sel] : undefined
 
   return (
@@ -44,7 +45,7 @@ export function ChoiceEx({ ex, locked, ready }: ExProps<'choice'>) {
         {ex.choices.map((c, i) => (
           <button key={i} onClick={() => choose(i)} className={`tile flex items-center gap-3 ${tileState(locked, i === ex.answer, sel === i)}`}>
             <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-sm border border-line text-xs text-muted sm:flex">{i + 1}</span>
-            <span className={`min-w-0 flex-1 ${ex.choiceLang === 'ru' ? 'ru text-xl' : 'text-lg'}`}>{c}</span>
+            <span className={`min-w-0 flex-1 break-words ${ex.choiceLang === 'ru' ? `ru ${ex.picture ? optionSize(c, true) : 'text-xl'}` : 'text-lg'}`}>{c}</span>
           </button>
         ))}
       </div>

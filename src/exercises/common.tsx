@@ -25,8 +25,8 @@ export function PicturePrompt({ ex }: { ex: RunExercise }) {
   const p = ex.picture
   if (!p) return null
   return (
-    <div className="card mx-auto mb-5 grid aspect-[6/5] w-full max-w-[15rem] place-items-center overflow-hidden p-3">
-      {p.img ? <img src={p.img} alt="" className="h-full w-full rounded-sm object-cover" />
+    <div className={`card mx-auto mb-5 grid aspect-square w-full place-items-center overflow-hidden ${p.img ? 'max-w-[min(22rem,46vh)] p-0' : 'max-w-[18rem] p-3'}`}>
+      {p.img ? <img src={p.img} alt="" className="h-full w-full object-cover" />
         : p.svg ? <svg viewBox="0 0 120 100" className="h-full w-full" aria-hidden dangerouslySetInnerHTML={{ __html: p.svg }} />
         : <span className="emoji text-[6.5rem] leading-none" aria-hidden>{p.emoji}</span>}
     </div>

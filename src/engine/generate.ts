@@ -3,7 +3,7 @@ import { lessonById, lessons, type LoadedLesson } from '../content'
 import { normalizeRu, pick, sample, shuffle, stripStress } from '../lib/text'
 import { fakeVariants } from '../lib/fakes'
 import { autoTranslation } from './translate'
-import { COLOURS, EMOJI, OBJECTS, PHOTOS, agree } from '../content/pictures'
+import { COLOURS, COLOUR_PHOTOS, EMOJI, OBJECTS, PHOTOS, agree } from '../content/pictures'
 import type { Candidate, RunExercise, Skill } from './types'
 
 const GENDER_LABEL: Record<string, string> = { m: 'masculino', f: 'femenino', n: 'neutro', pl: 'plural' }
@@ -443,14 +443,7 @@ function picturesFor(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
         instruction: 'Escribe en ruso qué ves', picture: pictureOf(v), promptLang: 'ru', answers: [v.ru], answerLang: 'ru', strict: false,
         hint: describe(v) || undefined, translation: tr }) })
   }
-  if (pictured.length >= 5) {
-    out.push({ id: `${lesson.id}:pic-match`, lessonId: lesson.id, items: [], level: 1, skill: 'visual', kind: 'match',
-      make: () => {
-        const words = sample(pictured, 5)
-        return { key: `${lesson.id}:pic-match-${rnd()}`, items: words.map((w) => w.id), lessonId: lesson.id, skill: 'visual', kind: 'match',
-          instruction: 'Une cada imagen con su palabra', pictureLeft: true, pairs: words.map((w) => { const p = pictureOf(w)!; return [p.img ? `img:${p.img}` : p.emoji ?? '', w.ru] as [string, string] }) }
-      } })
-  }
+  // (No picture matching: small thumbnails can't be told apart reliably.)
 
   // Colours: "What colour is the car?" — the answer must agree with the object (кра́сная маши́на, кра́сный дом).
   const colours = (lesson.vocab ?? []).filter((v) => v.pos === 'adj' && v.forms && COLOURS[plainWord(v.ru)])
@@ -461,7 +454,9 @@ function picturesFor(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
         const obj = pick(OBJECTS)
         const correct = agree(v.forms!, obj.gender)
         const base = { key: `${v.id}:colour-${rnd()}`, items: [v.id], lessonId: lesson.id, skill: 'visual' as const,
-          picture: { svg: obj.draw(paint.hex, paint.stroke ?? 'rgba(0,0,0,.45)') },
+          picture: COLOUR_PHOTOS[`${stripStress(obj.ru)}|${plainWord(v.ru)}`]
+            ? { img: `${import.meta.env.BASE_URL}${COLOUR_PHOTOS[`${stripStress(obj.ru)}|${plainWord(v.ru)}`]}` }
+            : { svg: obj.draw(paint.hex, paint.stroke ?? 'rgba(0,0,0,.45)') },
           prompt: `Како́го цве́та ${obj.ru}?`, promptLang: 'ru' as const, translation: `${correct} ${stripStress(obj.ru)} = ${obj.es} ${v.es}`,
           explanation: `${obj.ru} es ${GENDER_LABEL[obj.gender]} → ${correct}` }
         if (typed) return { ...base, kind: 'typed', instruction: 'Escribe el color (con la terminación correcta)', answers: [correct], answerLang: 'ru', strict: true, hint: GENDER_LABEL[obj.gender] }
