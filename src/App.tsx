@@ -64,6 +64,8 @@ export default function App() {
     const apply = () => {
       const theme = themeMode === 'system' ? (media.matches ? 'dark' : 'light') : themeMode
       document.documentElement.dataset.theme = theme
+      // «only …» tells the browser this page handles its own theme: no forced darkening on top of it.
+      document.querySelector('meta[name="color-scheme"]')?.setAttribute('content', theme === 'dark' ? 'only dark' : 'only light')
       document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#1b1d20' : '#f3f0e9')
     }
     apply()

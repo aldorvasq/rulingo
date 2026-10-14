@@ -23,7 +23,8 @@
   --ok-soft: #e2ebdf;
   --bad: #a33c2f;
   --bad-soft: #f4e2dd;
-  color-scheme: light;
+  /* «only»: the app draws its own themes, so the browser/phone must never force-darken (or lighten) it. */
+  color-scheme: only light;
 }
 
 :root[data-theme="dark"] {
@@ -42,7 +43,7 @@
   --ok-soft: #26332a;
   --bad: #db8676;
   --bad-soft: #3b2825;
-  color-scheme: dark;
+  color-scheme: only dark;
 }
 
 @theme inline {
