@@ -9,7 +9,6 @@ mkdir -p scripts/tts/cache
 {
   echo "=== $(date '+%Y-%m-%d %H:%M') ==="
   npx tsx scripts/tts/build-audio.ts --budget 95
-  npx tsx scripts/images/build-images.ts --colours
   npx tsx scripts/images/build-images.ts --redo школа,почта,отель,магазин,клиника,аэропорт,банк,визитка,студент,кофе,чай,яхта --once
   if [[ -n "$(git status --porcelain public/audio public/img src/content/photos.json)" ]]; then
     git add public/audio public/img src/content/photos.json
