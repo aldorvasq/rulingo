@@ -16,7 +16,10 @@ export interface Settings {
   translit: boolean
   /** On-screen ЙЦУКЕН keyboard (suppresses the phone keyboard). */
   cyrKeyboard: boolean
+  /** Legacy explicit choice; kept so older backups still load. */
   theme: 'light' | 'dark'
+  /** 'system' follows the phone's light/dark setting. */
+  themeMode: 'system' | 'light' | 'dark'
   /** The skill the learner chose to strengthen (suggested from their weakest), and since when. */
   goal: Skill | null
   goalSince: string | null
@@ -91,6 +94,7 @@ export const defaultSettings: Settings = {
   sessionLength: 15,
   translit: false,
   theme: 'light',
+  themeMode: 'system',
   goal: null,
   goalSince: null,
   cyrKeyboard: typeof matchMedia !== 'undefined' && matchMedia('(pointer: coarse)').matches,
@@ -194,7 +198,8 @@ export const useStore = create<PersistedState & Actions>()(
 
       settleStreak: () => set((st) => ({ streak: settle(st.streak, dayKey()) })),
 
-      replaceState: (s) => set({ ...initial(), ...s, settings: { ...defaultSettings, ...s.settings } }),
+      replaceState: (s) => set({ ...initial(), ...s, settings: { ...defaultSettings, ...s.settings,
+        themeMode: s.settings.themeMode ?? (s.settings.theme === 'dark' ? 'dark' : 'system') } }),
 
       markBackup: () => set({ lastBackup: dayKey() }),
 
@@ -214,7 +219,11 @@ export const useStore = create<PersistedState & Actions>()(
       partialize: ({ settings, progress, stats, streak, badges, lastBackup, hints }) => ({ settings, progress, stats, streak, badges, lastBackup, hints }),
       merge: (persisted, current) => {
         const p = (persisted ?? {}) as Partial<PersistedState>
-        return { ...current, ...p, settings: { ...defaultSettings, ...p.settings }, stats: { ...current.stats, ...p.stats } }
+        const settings = { ...defaultSettings, ...p.settings }
+        // Before themeMode existed, light was just the default: only an explicit dark choice is kept.
+        const saved = p.settings as Partial<Settings> | undefined
+        if (saved && saved.themeMode === undefined) settings.themeMode = saved.theme === 'dark' ? 'dark' : 'system'
+        return { ...current, ...p, settings, stats: { ...current.stats, ...p.stats } }
       },
     },
   ),

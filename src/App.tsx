@@ -40,7 +40,7 @@ function BottomNav({ path }: { path: string }) {
 export default function App() {
   const { path, params, raw } = useRoute()
   const onboarded = useStore((s) => s.settings.onboarded)
-  const theme = useStore((s) => s.settings.theme)
+  const themeMode = useStore((s) => s.settings.themeMode)
   const settleStreak = useStore((s) => s.settleStreak)
   const audioReady = useAudioReady()
 
@@ -58,10 +58,18 @@ export default function App() {
     return () => document.removeEventListener('visibilitychange', onHide)
   }, [])
 
+  // Theme: follow the phone ('system') or the learner's explicit choice; switches live when the phone does.
   useEffect(() => {
-    document.documentElement.dataset.theme = theme
-    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#1b1d20' : '#f3f0e9')
-  }, [theme])
+    const media = matchMedia('(prefers-color-scheme: dark)')
+    const apply = () => {
+      const theme = themeMode === 'system' ? (media.matches ? 'dark' : 'light') : themeMode
+      document.documentElement.dataset.theme = theme
+      document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#1b1d20' : '#f3f0e9')
+    }
+    apply()
+    media.addEventListener('change', apply)
+    return () => media.removeEventListener('change', apply)
+  }, [themeMode])
 
   if (!onboarded) return <Onboarding />
 

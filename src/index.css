@@ -227,3 +227,6 @@ button:active .route-block .route-face { transform: translateY(4px); }
 
 /* Colour emoji used as pictures in exercises. */
 .emoji { font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }
+
+/* Murals and paintings: a touch dimmer in dark mode so they don't glare. */
+:root[data-theme="dark"] .mural > div svg, :root[data-theme="dark"] main img { filter: brightness(0.86); }

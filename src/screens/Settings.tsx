@@ -88,7 +88,16 @@ export function Settings() {
               <input value={settings.name} onChange={(e) => update({ name: e.target.value })}
                 className="w-full rounded-md border-[1.5px] border-line bg-card px-3 py-2 outline-none focus:border-brand" />
             </label>
-            <Toggle label="Tema oscuro" value={settings.theme === 'dark'} onChange={(v) => update({ theme: v ? 'dark' : 'light' })} />
+            <div className="py-3">
+              <div className="mb-2 font-bold">Tema</div>
+              <div className="grid grid-cols-3 gap-1.5">
+                {([['system', 'Automático'], ['light', 'Claro'], ['dark', 'Oscuro']] as const).map(([mode, label]) => (
+                  <button key={mode} onClick={() => update({ themeMode: mode, theme: mode === 'dark' ? 'dark' : 'light' })}
+                    className={`chip justify-center ${settings.themeMode === mode ? '!border-brand !bg-brand !text-white' : ''}`}>{label}</button>
+                ))}
+              </div>
+              <p className="mt-1.5 text-xs text-muted">Automático sigue el modo claro u oscuro de tu teléfono.</p>
+            </div>
             <Toggle label="Teclado cirílico en pantalla" desc="Útil si tu teléfono no tiene teclado ruso" value={settings.cyrKeyboard} onChange={(v) => update({ cyrKeyboard: v })} />
             <Toggle label="Transliteración (abc→абв)" desc={TRANSLIT_HELP} value={settings.translit} onChange={(v) => update({ translit: v })} />
           </div>
