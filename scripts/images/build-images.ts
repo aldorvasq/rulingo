@@ -1,12 +1,12 @@
 // Pictures for vocabulary with Gemini Nano Banana 2.1, in a Russian storybook painting style.
 //   npx tsx scripts/images/build-images.ts [--limit N]      → vocabulary pictures
-//   npx tsx scripts/images/build-images.ts --colours         → colour-exercise objects in every colour
+//   npx tsx scripts/images/build-images.ts --colours [--batch] → colour-exercise objects in every colour (--batch: half price, slower)
 //   npx tsx scripts/images/build-images.ts --resize          → re-export all from the originals (no API)
 // Every word in src/content/pictures.ts EMOJI gets public/img/vocab/<key>.jpg (480 px) and an entry in
 // src/content/photos.json; existing pictures are skipped, so the script resumes where it stopped.
 // Stops at the first billing/quota error. Key: ~/.config/rulingo/gemini-key or ~/Downloads/googleapikey.txt.
 import { execFileSync } from 'node:child_process'
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs'
 import { homedir } from 'node:os'
 import { join } from 'node:path'
 import { COLOURS, EMOJI, OBJECTS } from '../../src/content/pictures'
@@ -90,6 +90,50 @@ const publish = (raw: string, out: string) =>
   execFileSync('sips', ['-s', 'format', 'jpeg', '-s', 'formatOptions', '55', '-Z', SIZE, raw, '--out', out], { stdio: 'ignore' })
 const rawOf = (base: string) => ['jpg', 'png'].map((e) => join(RAW, `${base}.${e}`)).find(existsSync)
 
+/**
+ * Batch API: half price, processed in the background (minutes to hours). The job name is kept in
+ * out/pending-batch.json so a stopped run resumes waiting for the same job instead of paying twice.
+ */
+async function viaBatch<J extends { key: string; prompt: string }>(jobs: J[], onImage: (job: J, data: string, mime: string) => void) {
+  const PENDING = join(RAW, 'pending-batch.json')
+  const api = (path: string, init?: RequestInit) => fetch(`https://generativelanguage.googleapis.com/v1beta/${path}`,
+    { ...init, headers: { 'x-goog-api-key': KEY, 'Content-Type': 'application/json' } }).then((r) => r.json())
+  let pending: { name: string; keys: string[] } | null = existsSync(PENDING) ? JSON.parse(readFileSync(PENDING, 'utf8')) : null
+  if (!pending) {
+    if (!jobs.length) return
+    const res = await api(`models/${MODEL}:batchGenerateContent`, { method: 'POST', body: JSON.stringify({ batch: {
+      display_name: `rulingo-${Date.now()}`,
+      input_config: { requests: { requests: jobs.map((j) => ({
+        request: { contents: [{ parts: [{ text: j.prompt }] }], generationConfig: { responseModalities: ['IMAGE'], imageConfig: { aspectRatio: '1:1' } } },
+        metadata: { key: j.key } })) } } } }) })
+    const name = res.name ?? res.metadata?.name
+    if (!name) { stopped = JSON.stringify(res).slice(0, 300); return }
+    pending = { name, keys: jobs.map((j) => j.key) }
+    writeFileSync(PENDING, JSON.stringify(pending))
+    console.log(`Lote enviado: ${name} (${jobs.length} imágenes)`)
+  }
+  for (;;) {
+    const job = await api(pending.name)
+    const state = job.metadata?.state ?? job.state
+    if (state === 'JOB_STATE_SUCCEEDED' || state === 'BATCH_STATE_SUCCEEDED') {
+      writeFileSync(join(RAW, `batch-result-${Date.now()}.json`), JSON.stringify(job)) // keep everything that was paid for
+      const items = job.response?.inlinedResponses?.inlinedResponses ?? job.response?.inlinedResponses ?? job.dest?.inlinedResponses ?? []
+      items.forEach((it: any, i: number) => {
+        const key = it.metadata?.key ?? pending!.keys[i]
+        const target = jobs.find((j) => j.key === key)
+        const part = it.response?.candidates?.[0]?.content?.parts?.find((p: any) => p.inlineData)
+        if (target && part) onImage(target, part.inlineData.data, part.inlineData.mimeType)
+        else process.stdout.write(`… ${key}: ${JSON.stringify(it.error ?? it).slice(0, 160)}\n`)
+      })
+      renameSync(PENDING, join(RAW, `done-${Date.now()}.json`))
+      return
+    }
+    if (/FAILED|CANCELLED|EXPIRED/.test(String(state))) { stopped = `lote ${state}: ${JSON.stringify(job.error ?? '').slice(0, 200)}`; renameSync(PENDING, join(RAW, `failed-${Date.now()}.json`)); return }
+    process.stdout.write(`· ${state ?? JSON.stringify(job).slice(0, 120)} ${new Date().toLocaleTimeString()}\n`)
+    await new Promise((r) => setTimeout(r, 60_000))
+  }
+}
+
 let made = 0
 
 // --resize: re-export every published picture from its original at the current SIZE (no API calls).
@@ -114,22 +158,32 @@ if (process.argv.includes('--colours')) {
   }
   mkdirSync(COLOUR_OUT, { recursive: true })
   const cindex: Record<string, string> = existsSync(COLOUR_INDEX) ? JSON.parse(readFileSync(COLOUR_INDEX, 'utf8')) : {}
+  const jobs: { key: string; base: string; prompt: string }[] = []
   for (const obj of OBJECTS) for (const colour of Object.keys(COLOURS)) {
-    if (made >= LIMIT || stopped) break
-    const plain = obj.ru.normalize('NFD').replace(/́/g, '').normalize('NFC')
+    const plain = obj.ru.normalize('NFD').replace(/\u0301/g, '').normalize('NFC')
     const key = `${plain}|${colour}`
     const base = `c-${audioKey(key)}`
     if (cindex[key] && existsSync(join(COLOUR_OUT, `${base}.jpg`))) continue
     const c = COLOUR_EN[colour]
-    const prompt = `${STYLE} Subject: ${OBJECT_EN[plain]}, coloured entirely ${c}. The object must be clearly, evenly and unmistakably ${c} ` +
+    jobs.push({ key, base, prompt: `${STYLE} Subject: ${OBJECT_EN[plain]}, coloured entirely ${c}. The object must be clearly, evenly and unmistakably ${c} ` +
       `so that a learner names its colour at a glance. The object is large and fills most of the picture; nothing else in the picture is ${c.split(' (')[0]}, no other strongly coloured objects, ` +
-      `plain light neutral paper background. ${RULES}`
-    if (await paint(prompt, base, join(COLOUR_OUT, `${base}.jpg`))) {
-      cindex[key] = `img/colour/${base}.jpg`
-      writeFileSync(COLOUR_INDEX, JSON.stringify(cindex, null, 1) + '\n')
-      made++
-      process.stdout.write(`✓ ${key}\n`)
-    }
+      `plain light neutral paper background. ${RULES}` })
+  }
+  const save = (job: (typeof jobs)[number]) => {
+    cindex[job.key] = `img/colour/${job.base}.jpg`
+    writeFileSync(COLOUR_INDEX, JSON.stringify(cindex, null, 1) + '\n')
+    made++
+    process.stdout.write(`✓ ${job.key}\n`)
+  }
+  if (process.argv.includes('--batch')) await viaBatch(jobs.slice(0, LIMIT), (job, data, mime) => {
+    const raw = join(RAW, `${job.base}.${mime.includes('png') ? 'png' : 'jpg'}`)
+    writeFileSync(raw, Buffer.from(data, 'base64'))
+    publish(raw, join(COLOUR_OUT, `${job.base}.jpg`))
+    save(job)
+  })
+  else for (const job of jobs.slice(0, LIMIT)) {
+    if (stopped) break
+    if (await paint(job.prompt, job.base, join(COLOUR_OUT, `${job.base}.jpg`))) save(job)
   }
   console.log(`\n${made} nuevas · ${Object.keys(cindex).length}/${OBJECTS.length * Object.keys(COLOURS).length} en total${stopped ? `\nPARÓ: ${stopped}` : ''}`)
   process.exit(0)
