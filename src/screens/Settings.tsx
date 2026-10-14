@@ -97,6 +97,13 @@ export function Settings() {
                 ))}
               </div>
               <p className="mt-1.5 text-xs text-muted">Automático sigue el modo claro u oscuro de tu teléfono.</p>
+              {/SamsungBrowser/.test(navigator.userAgent) && (
+                <div className="mt-2 rounded-md border border-gold/40 bg-gold/10 p-2.5 text-xs leading-snug text-ink/85">
+                  <b>Usas Samsung Internet.</b> Su modo oscuro puede oscurecer la app aunque elijas «Claro». Para que use los temas de la app:
+                  en Samsung Internet abre <b>☰ Menú → Ajustes → Labs</b> y activa <b>«Usar tema oscuro del sitio web»</b>
+                  (o, en <b>Ajustes → Temas claro y oscuro</b>, elige el tema claro). Otra opción: instala la app desde Chrome.
+                </div>
+              )}
             </div>
             <Toggle label="Teclado cirílico en pantalla" desc="Útil si tu teléfono no tiene teclado ruso" value={settings.cyrKeyboard} onChange={(v) => update({ cyrKeyboard: v })} />
             <Toggle label="Transliteración (abc→абв)" desc={TRANSLIT_HELP} value={settings.translit} onChange={(v) => update({ translit: v })} />
