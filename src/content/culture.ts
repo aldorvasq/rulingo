@@ -229,3 +229,48 @@ export function nextFunFact(): FunFact {
   } catch { /* ignore */ }
   return FUN_FACTS[i]
 }
+
+/**
+ * First run of the memory: what the original rules (before 14 Oct 2026) showed from the app's launch, so those
+ * items don't come back right away. Old rules: the first 11 twisters every third day, the first 22 words otherwise.
+ */
+function seenUnderOldRules(today: number): Record<string, number> {
+  const out: Record<string, number> = {}
+  const from = dayNumber(new Date(2026, 9, 1)), to = Math.min(today - 1, dayNumber(new Date(2026, 9, 13)))
+  for (let m = from; m <= to; m++) {
+    if (m % 3 === 2) out[TWISTERS[Math.floor(m / 3) % 11].ru] = m
+    else out[WORDS[(m - Math.floor(m / 3)) % 22].ru] = m
+  }
+  return out
+}
+
+/**
+ * Today's item for this device. The schedule above is shared, but each phone also remembers what it has actually
+ * shown (so a change in the schedule, or an item shown under older rules, never repeats too soon): if today's
+ * scheduled item was seen here recently, the next unseen one of the same kind is shown instead. Fixed for the day.
+ */
+export function todaysDaily(d = new Date()): Daily {
+  const n = dayNumber(d)
+  const scheduled = dailyItem(d)
+  let seen: Record<string, number> = {}
+  let pinned: { day: number; ru: string } | null = null
+  try {
+    seen = JSON.parse(localStorage.getItem('rulingo-daily-seen') ?? 'null') ?? seenUnderOldRules(n)
+    pinned = JSON.parse(localStorage.getItem('rulingo-daily-today') ?? 'null')
+  } catch { /* private mode: just use the schedule */ }
+  const list: (DailyWord | TongueTwister)[] = scheduled.kind === 'twister' ? TWISTERS : [...WORDS, ...(scheduled.season ? scheduled.season.words : [])]
+  const find = (ru: string) => list.find((x) => x.ru === ru)
+  if (pinned?.day === n && find(pinned.ru)) {
+    const item = find(pinned.ru)!
+    return scheduled.kind === 'twister' ? { kind: 'twister', item: item as TongueTwister } : { ...scheduled, item: item as DailyWord }
+  }
+  const window = scheduled.kind === 'twister' ? 60 : 90
+  const fresh = (ru: string) => seen[ru] === undefined || n - seen[ru] > window
+  const start = Math.max(0, list.findIndex((x) => x.ru === scheduled.item.ru))
+  const pick = fresh(scheduled.item.ru) ? scheduled.item : list.map((_, k) => list[(start + k) % list.length]).find((x) => fresh(x.ru)) ?? scheduled.item
+  try {
+    localStorage.setItem('rulingo-daily-seen', JSON.stringify({ ...seen, [pick.ru]: n }))
+    localStorage.setItem('rulingo-daily-today', JSON.stringify({ day: n, ru: pick.ru }))
+  } catch { /* ignore */ }
+  return scheduled.kind === 'twister' ? { kind: 'twister', item: pick as TongueTwister } : { ...scheduled, item: pick as DailyWord, season: pick === scheduled.item ? scheduled.season : undefined }
+}

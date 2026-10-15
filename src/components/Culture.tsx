@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { dailyItem, nextFunFact } from '../content/culture'
+import { todaysDaily, nextFunFact } from '../content/culture'
 import { Mixed } from './ui'
 import { Speak } from './Speak'
 
@@ -27,7 +27,7 @@ function Ornament({ className = '' }: { className?: string }) {
  * tongue twisters a Khokhloma one (black, red and gold).
  */
 export function DailyHero() {
-  const daily = useMemo(() => dailyItem(), [])
+  const daily = useMemo(() => todaysDaily(), [])
   const twister = daily.kind === 'twister'
   return (
     <section
