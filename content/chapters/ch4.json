@@ -3255,35 +3255,35 @@
         {
           "id": "4.1-x-75",
           "type": "sort",
-          "instructionEs": "¿Mucho o poco?",
+          "instructionEs": "¿Con qué frecuencia? ¿Muchas o pocas veces?",
           "categories": [
-            "mucho (всегда́…)",
-            "poco (ре́дко…)"
+            "muchas veces (60–100 %)",
+            "pocas veces (0–40 %)"
           ],
           "items": [
             {
               "text": "всегда́",
-              "category": "mucho (всегда́…)"
+              "category": "muchas veces (60–100 %)"
             },
             {
               "text": "ча́сто",
-              "category": "mucho (всегда́…)"
+              "category": "muchas veces (60–100 %)"
             },
             {
               "text": "обы́чно",
-              "category": "mucho (всегда́…)"
+              "category": "muchas veces (60–100 %)"
             },
             {
               "text": "иногда́",
-              "category": "poco (ре́дко…)"
+              "category": "pocas veces (0–40 %)"
             },
             {
               "text": "ре́дко",
-              "category": "poco (ре́дко…)"
+              "category": "pocas veces (0–40 %)"
             },
             {
               "text": "никогда́ не",
-              "category": "poco (ре́дко…)"
+              "category": "pocas veces (0–40 %)"
             }
           ],
           "tags": [
