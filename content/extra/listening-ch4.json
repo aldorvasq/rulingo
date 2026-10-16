@@ -1,0 +1,81 @@
+{
+  "id": "listening-ch4",
+  "lessons": [
+    {
+      "id": "4.1",
+      "listening": [
+        {
+          "id": "4.1-l-1", "title": "En el café: ¿con gas o sin gas?", "kind": "dialogue",
+          "scene": "A small Moscow café, a polite waiter and a customer",
+          "cast": [
+            {"name": "Официа́нт", "gender": "m", "age": "young", "skin": "light", "hair": "brown", "hairStyle": "short", "top": "gray"},
+            {"name": "Ни́на", "gender": "f", "age": "adult", "skin": "medium", "hair": "black", "hairStyle": "bun", "glasses": true, "top": "teal"}
+          ],
+          "lines": [
+            {"speaker": "Официа́нт", "gender": "m", "ru": "До́брый день! Что вы хоти́те?", "tone": "polite, welcoming"},
+            {"speaker": "Ни́на", "gender": "f", "ru": "До́брый день. Я хочу́ сала́т с помидо́рами и ры́бу с карто́фелем.", "tone": "calm, deciding"},
+            {"speaker": "Официа́нт", "gender": "m", "ru": "Сала́т с со́усом и́ли без со́уса?", "tone": "helpful"},
+            {"speaker": "Ни́на", "gender": "f", "ru": "Без со́уса, пожа́луйста. Я сижу́ на дие́те.", "tone": "slightly apologetic"},
+            {"speaker": "Официа́нт", "gender": "m", "ru": "Хорошо́. А что вы бу́дете пить? Во́ду с га́зом и́ли без га́за?", "tone": "polite"},
+            {"speaker": "Ни́на", "gender": "f", "ru": "Без га́за. И ко́фе с молоко́м, но без са́хара.", "tone": "decided"},
+            {"speaker": "Официа́нт", "gender": "m", "ru": "А десе́рт? У нас о́чень вку́сный торт с шокола́дом.", "tone": "tempting, friendly"},
+            {"speaker": "Ни́на", "gender": "f", "ru": "Нет, спаси́бо! Я никогда́ не ем десе́рты.", "tone": "laughing, firm"}
+          ],
+          "es": "—¡Buenas tardes! ¿Qué desea?\n—Buenas tardes. Quiero ensalada con jitomate y pescado con papas.\n—¿La ensalada con aderezo o sin aderezo?\n—Sin aderezo, por favor. Estoy a dieta.\n—Bien. ¿Y qué va a tomar? ¿Agua con gas o sin gas?\n—Sin gas. Y café con leche, pero sin azúcar.\n—¿Y postre? Tenemos un pastel de chocolate muy rico.\n—¡No, gracias! Nunca como postres.",
+          "questions": [
+            {"q": "¿Qué come Nina?", "choices": ["Ensalada con jitomate y pescado con papas", "Carne con arroz", "Pizza con champiñones"], "answer": 0},
+            {"q": "¿Cómo quiere el agua?", "choices": ["Sin gas", "Con gas", "Con hielo"], "answer": 0},
+            {"q": "¿Cómo toma el café?", "choices": ["Con leche y sin azúcar", "Solo, sin nada", "Con leche y con azúcar"], "answer": 0},
+            {"q": "¿Por qué no pide postre?", "choices": ["Nunca come postres", "No hay pastel", "Ya no tiene dinero"], "answer": 0}
+          ]
+        },
+        {
+          "id": "4.1-l-2", "title": "El desayuno de la familia Petrov", "kind": "story",
+          "scene": "A warm narrator telling about her family's breakfast",
+          "cast": [
+            {"name": "Ка́тя", "gender": "f", "age": "young", "skin": "light", "hair": "red", "hairStyle": "ponytail", "top": "ochre"}
+          ],
+          "lines": [
+            {"speaker": "Ка́тя", "gender": "f", "ru": "Меня́ зову́т Ка́тя. У́тром моя́ семья́ всегда́ за́втракает вме́сте.", "tone": "warm, storytelling"},
+            {"speaker": "Ка́тя", "gender": "f", "ru": "Па́па ест бутербро́д с сы́ром и пьёт чёрный ко́фе без молока́.", "tone": "warm, storytelling"},
+            {"speaker": "Ка́тя", "gender": "f", "ru": "Ма́ма пьёт чай с лимо́ном. Она́ ре́дко ест хлеб.", "tone": "warm, storytelling"},
+            {"speaker": "Ка́тя", "gender": "f", "ru": "Мой брат обожа́ет хло́пья с молоко́м. А я обы́чно ем ка́шу с фру́ктами.", "tone": "amused"},
+            {"speaker": "Ка́тя", "gender": "f", "ru": "В воскресе́нье ба́бушка гото́вит блины́. Мы еди́м их с мёдом и́ли с варе́ньем.", "tone": "happy, nostalgic"},
+            {"speaker": "Ка́тя", "gender": "f", "ru": "А пото́м па́па смо́трит на часы́ и бежи́т на рабо́ту!", "tone": "laughing"}
+          ],
+          "es": "Me llamo Katia. En la mañana mi familia siempre desayuna junta.\nPapá come un sándwich de queso y toma café negro, sin leche.\nMamá toma té con limón. Rara vez come pan.\nMi hermano adora el cereal con leche. Y yo normalmente como kasha con fruta.\nEl domingo la abuela hace crepas. Las comemos con miel o con mermelada.\n¡Y luego papá mira el reloj y se va corriendo al trabajo!",
+          "questions": [
+            {"q": "¿Qué toma el papá?", "choices": ["Café negro, sin leche", "Té con limón", "Café con leche"], "answer": 0},
+            {"q": "¿Qué come Katia normalmente?", "choices": ["Kasha con fruta", "Cereal con leche", "Pan con queso"], "answer": 0},
+            {"q": "¿Cuándo hace crepas la abuela?", "choices": ["El domingo", "Todos los días", "El lunes"], "answer": 0},
+            {"q": "¿Con qué frecuencia come pan la mamá?", "choices": ["Rara vez", "Siempre", "Seguido"], "answer": 0}
+          ]
+        },
+        {
+          "id": "4.1-l-3", "title": "Mi hermano y yo: ¿qué comemos?", "kind": "dialogue",
+          "scene": "Two friends chatting about food at lunch break",
+          "cast": [
+            {"name": "Анто́н", "gender": "m", "age": "young", "skin": "light", "hair": "blond", "hairStyle": "short", "top": "blue"},
+            {"name": "Све́та", "gender": "f", "age": "young", "skin": "dark", "hair": "black", "hairStyle": "curly", "top": "red"}
+          ],
+          "lines": [
+            {"speaker": "Анто́н", "gender": "m", "ru": "Све́та, что ты обы́чно ешь на обе́д?", "tone": "curious, casual"},
+            {"speaker": "Све́та", "gender": "f", "ru": "Обы́чно рис с овоща́ми. Я вегетариа́нка, я не ем мя́со.", "tone": "friendly"},
+            {"speaker": "Анто́н", "gender": "m", "ru": "А ры́бу?", "tone": "surprised"},
+            {"speaker": "Све́та", "gender": "f", "ru": "Ры́бу иногда́ ем. А ты?", "tone": "friendly"},
+            {"speaker": "Анто́н", "gender": "m", "ru": "Мы с бра́том ча́сто обе́даем в кафе́. Он ест пи́ццу с гриба́ми, а я — ку́рицу с ри́сом.", "tone": "relaxed"},
+            {"speaker": "Све́та", "gender": "f", "ru": "А что вы пьёте?", "tone": "curious"},
+            {"speaker": "Анто́н", "gender": "m", "ru": "Брат пьёт сок со льдом. А я ле́том всегда́ пью квас!", "tone": "enthusiastic"}
+          ],
+          "es": "—Sveta, ¿qué comes normalmente a mediodía?\n—Normalmente arroz con verduras. Soy vegetariana, no como carne.\n—¿Y pescado?\n—Pescado sí como a veces. ¿Y tú?\n—Mi hermano y yo comemos seguido en un café. Él come pizza con champiñones y yo, pollo con arroz.\n—¿Y qué toman?\n—Mi hermano toma jugo con hielo. ¡Y yo en verano siempre tomo kvas!",
+          "questions": [
+            {"q": "¿Por qué Sveta no come carne?", "choices": ["Es vegetariana", "Está a dieta", "No le gusta el pollo"], "answer": 0},
+            {"q": "¿Con qué frecuencia come pescado Sveta?", "choices": ["A veces", "Nunca", "Siempre"], "answer": 0},
+            {"q": "¿Qué come el hermano de Antón?", "choices": ["Pizza con champiñones", "Pollo con arroz", "Arroz con verduras"], "answer": 0},
+            {"q": "¿Qué toma Antón en verano?", "choices": ["Kvas", "Jugo con hielo", "Café"], "answer": 0}
+          ]
+        }
+      ]
+    }
+  ]
+}

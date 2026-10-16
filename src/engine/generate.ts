@@ -3,7 +3,7 @@ import { lessonById, lessons, type LoadedLesson } from '../content'
 import { normalizeRu, pick, sample, shuffle, stripStress } from '../lib/text'
 import { fakeVariants } from '../lib/fakes'
 import { autoTranslation } from './translate'
-import { COLOURS, COLOUR_PHOTOS, EMOJI, OBJECTS, PHOTOS, agree, colourGenitive } from '../content/pictures'
+import { COLOURS, COLOUR_PHOTOS, EMOJI, LOOKALIKES, OBJECTS, PHOTOS, agree, colourGenitive } from '../content/pictures'
 import type { Candidate, RunExercise, Skill } from './types'
 
 const GENDER_LABEL: Record<string, string> = { m: 'masculino', f: 'femenino', n: 'neutro', pl: 'plural' }
@@ -77,12 +77,21 @@ function fromContent(ex: ContentExercise, lesson: LoadedLesson): Candidate[] {
   const k = () => `${ex.id}-${Math.random().toString(36).slice(2, 7)}`
 
   switch (ex.type) {
-    case 'fill_choice':
-      return [c(1, 'grammar', () => {
-        const correct = ex.choices[ex.answer]
-        return { ...base, key: k(), skill: 'grammar', kind: 'choice', instruction: ex.instructionEs ?? 'Elige la opción correcta',
-          prompt: ex.sentence, promptLang: 'ru', ...withFakes(ex.choices, correct, 1, ex.choices.length + 1), choiceLang: 'ru' }
-      })]
+    case 'fill_choice': {
+      const correct = ex.choices[ex.answer]
+      if (ex.image) {
+        // A painted scene: pick the phrase, and later write it from memory.
+        const picture = { img: `${import.meta.env.BASE_URL}${ex.image}` }
+        return [
+          c(1, 'visual', () => ({ ...base, key: k(), skill: 'visual', kind: 'choice', instruction: ex.instructionEs ?? '¿Qué hay en la imagen?',
+            picture, promptLang: 'ru', ...withFakes(ex.choices, correct, 0, ex.choices.length), choiceLang: 'ru' })),
+          c(3, 'visual', () => ({ ...base, key: k(), skill: 'visual', kind: 'typed', instruction: 'Escribe en ruso qué ves',
+            picture, promptLang: 'ru', answers: [correct], answerLang: 'ru', strict: false, hint: `${correct.split(' ')[0]} …` }), '-typed'),
+        ]
+      }
+      return [c(1, 'grammar', () => ({ ...base, key: k(), skill: 'grammar', kind: 'choice', instruction: ex.instructionEs ?? 'Elige la opción correcta',
+        prompt: ex.sentence, promptLang: 'ru', ...withFakes(ex.choices, correct, 1, ex.choices.length + 1), choiceLang: 'ru' }))]
+    }
     case 'fill_typed':
       return [c(3, 'grammar', () => ({ ...base, key: k(), skill: 'grammar', kind: 'typed', instruction: ex.instructionEs ?? 'Completa la frase',
         prompt: ex.sentence, promptLang: 'ru', answers: ex.answers, answerLang: 'ru', strict: true, hint: ex.hint }))]
@@ -433,10 +442,15 @@ function picturesFor(lesson: LoadedLesson, pool: VocabItem[]): Candidate[] {
     const tr = `${v.ru} = ${v.es}`
     out.push({ id: `${id}:pic`, lessonId: lesson.id, items: [id], level: 1, skill: 'visual', kind: 'choice',
       make: () => {
-        const near = others.filter((o) => o.id !== v.id && o.pos === v.pos)
+        // Same topic first (food among food), so the picture has to be really recognised.
+        const w = plainWord(v.ru)
+        const alike = new Set(LOOKALIKES.filter((g) => g.includes(w)).flat())
+        const fair = others.filter((o) => o.id !== v.id && !alike.has(plainWord(o.ru)))
+        const topic = fair.filter((o) => o.topic && o.topic === v.topic)
+        const near = topic.length >= 3 ? topic : fair.filter((o) => o.pos === v.pos)
         return { key: `${id}:pic-${rnd()}`, items: [id], lessonId: lesson.id, skill: 'visual', kind: 'choice',
           instruction: '¿Qué es esto?', picture: pictureOf(v), promptLang: 'ru',
-          ...choiceSet(v.ru, (near.length >= 3 ? near : others.filter((o) => o.id !== v.id)).map((o) => o.ru)), choiceLang: 'ru', translation: tr }
+          ...choiceSet(v.ru, (near.length >= 3 ? near : fair).map((o) => o.ru)), choiceLang: 'ru', translation: tr }
       } })
     out.push({ id: `${id}:pic-type`, lessonId: lesson.id, items: [id], level: 3, skill: 'visual', kind: 'typed',
       make: () => ({ key: `${id}:pic-type-${rnd()}`, items: [id], lessonId: lesson.id, skill: 'visual', kind: 'typed',

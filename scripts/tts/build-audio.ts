@@ -36,12 +36,16 @@ const hashNum = (s: string) => parseInt(audioKey(s).slice(-6), 36)
 
 // ---------------------------------------------------------------- collect texts, with priority
 const prio = new Map<string, number>() // lower = sooner
-const add = (t: string | undefined, p: number) => {
+const addText = (t: string | undefined, p: number) => {
   if (!t || !/[а-яё]/i.test(t) || /_{2,}/.test(t)) return
   const k = normalizeForAudio(t)
   prio.set(k, Math.min(prio.get(k) ?? 9, p))
 }
+const add = addText
 const READING = 1, SENTENCE = 2, PHRASE = 3, WORD = 4
+/** The lesson the class is on: all its texts (words first, then sentences) jump ahead of everything older. */
+const FOCUS = new Set(['4.1'])
+const FOCUS_BOOST = -10
 const listening: Listening[] = []
 const files = [
   ...readdirSync(join(ROOT, 'content', 'chapters')).map((f) => join(ROOT, 'content', 'chapters', f)),
@@ -49,8 +53,11 @@ const files = [
 ].filter((f) => f.endsWith('.json'))
 for (const f of files) {
   const data = JSON.parse(readFileSync(f, 'utf8')) as Chapter & ExtraPack
-  for (const v of data.sneakIns ?? []) { add(v.ru, WORD); add(v.example?.ru, WORD) }
+  const chapterBoost = [...FOCUS].some((id) => id.startsWith(`${data.chapter}.`)) ? FOCUS_BOOST : 0
+  for (const v of data.sneakIns ?? []) { addText(v.ru, WORD + chapterBoost); addText(v.example?.ru, WORD + chapterBoost) }
   for (const l of data.lessons ?? []) {
+    const boost = FOCUS.has(l.id) ? FOCUS_BOOST : 0
+    const add = (t: string | undefined, p: number) => addText(t, p + boost)
     for (const v of l.vocab ?? []) { add(v.ru, WORD); add(v.example?.ru, WORD); v.antonyms?.forEach((a) => add(a, WORD)) }
     for (const p of l.phrases ?? []) add(p.ru, PHRASE)
     for (const s of l.sentences ?? []) add(s.ru, SENTENCE)
@@ -122,7 +129,7 @@ const pieceFile = (li: Listening) => join(OUT, 'l', `${li.id}-g38-${audioKey(MOD
 const pieceDone = (li: Listening) => existsSync(pieceFile(li)) && qa[pieceFile(li)]?.ok
 const pieceNeeds = (li: Listening) => !existsSync(pieceFile(li)) || (!qa[pieceFile(li)]?.ok && (qa[pieceFile(li)]?.tries ?? 0) < 3)
 
-const leftListening = listening.filter(pieceNeeds)
+const leftListening = listening.filter(pieceNeeds).sort((a, b) => Number(FOCUS.has(b.id.split("-")[0])) - Number(FOCUS.has(a.id.split("-")[0])))
 const leftClips = all.filter(clipNeeds)
 const reqListening = leftListening.reduce((n, li) => n + segments(li).length, 0)
 console.log(`Pendiente: ${leftListening.length} audios de escucha (${reqListening} solicitudes) + ${leftClips.length} clips · presupuesto de hoy: ${BUDGET}`)

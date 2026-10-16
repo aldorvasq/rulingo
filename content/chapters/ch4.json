@@ -1,0 +1,3839 @@
+{
+  "chapter": 4,
+  "title": "Еда́ и мо́да",
+  "titleEs": "Comida y moda",
+  "source": {
+    "textbookPages": "74-80",
+    "workbookPages": "68-71"
+  },
+  "lessons": [
+    {
+      "id": "4.1",
+      "title": "Во́ду с га́зом и́ли без га́за?",
+      "titleEs": "¿Agua con gas o sin gas?",
+      "summaryEs": "Comida y bebidas, el desayuno en Rusia y en el mundo; с + instrumental (ко́фе с молоко́м) y без + genitivo (чай без са́хара); los verbos есть, пить y хоте́ть; desayuno, comida y cena; con qué frecuencia (всегда́… никогда́ не).",
+      "story": {
+        "settingEs": "Un desayuno ruso en familia el fin de semana y los desayunos de distintos países: de los cuernitos franceses a la kasha inglesa.",
+        "characters": []
+      },
+      "grammar": [
+        {
+          "id": "4.1-g-s-instr",
+          "title": "с + instrumental: ко́фе с молоко́м",
+          "explanationEs": "Para decir **con qué** o **con quién** usamos **с** + caso **instrumental** (¿С чем? ¿С кем?).\n\n- masculino: **-ом** (сыр → с сы́ром); si termina en -ь/-й o es suave: **-ем/-ём** (чай → с ча́ем, карто́фель → с карто́фелем)\n- femenino -а → **-ой** (ветчина́ → с ветчино́й), -я → **-ей** (Ка́тя → с Ка́тей), -ь → **-ю** (соль → с со́лью)\n- neutro -о → **-ом** (молоко́ → с молоко́м), -е → **-ем** (мо́ре → с мо́рем)\n- plural: **-ами / -ями** (помидо́ры → с помидо́рами, о́вощи → с овоща́ми)\n\n**«Colectivismo ruso»:** «yo y papá» se dice **мы с па́пой** (nosotros con papá); «yo y mi hermano» = **мы с бра́том**.\n\nAnte dos consonantes difíciles se dice **со**: со свёклой.",
+          "tables": [
+            {
+              "caption": "Instrumental",
+              "headers": [
+                "",
+                "¿Что? / ¿Кто?",
+                "¿С чем? / ¿С кем?",
+                "terminación"
+              ],
+              "rows": [
+                [
+                  "он (m)",
+                  "са́хар, друг, чай, карто́фель",
+                  "с са́харом, с дру́гом, с ча́ем, с карто́фелем",
+                  "-ом / -ем"
+                ],
+                [
+                  "она́ (f)",
+                  "ветчина́, Ка́тя, соль",
+                  "с ветчино́й, с Ка́тей, с со́лью",
+                  "-ой / -ей / -ю"
+                ],
+                [
+                  "оно́ (n)",
+                  "молоко́, мо́ре",
+                  "с молоко́м, с мо́рем",
+                  "-ом / -ем"
+                ],
+                [
+                  "они́ (pl)",
+                  "помидо́ры, о́вощи, друзья́",
+                  "с помидо́рами, с овоща́ми, с друзья́ми",
+                  "-ами / -ями"
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "Я пью ко́фе с молоко́м.",
+              "es": "Tomo café con leche."
+            },
+            {
+              "ru": "Я ем бутербро́д с ветчино́й.",
+              "es": "Como un sándwich con jamón."
+            },
+            {
+              "ru": "Мы с па́пой гуля́ем в па́рке.",
+              "es": "Papá y yo paseamos en el parque."
+            }
+          ]
+        },
+        {
+          "id": "4.1-g-bez-gen",
+          "title": "без + genitivo: чай без са́хара",
+          "explanationEs": "Para decir **sin algo** usamos **без** + caso **genitivo** (¿Чего́? ¿Кого́?).\n\n- masculino: **-а** (са́хар → без са́хара); suave -ь/-й: **-я** (чай → без ча́я)\n- femenino -а → **-ы** (вода́ → без воды́); después de к, г, х, ж, ш, ч, щ y en -я/-ь: **-и** (соси́ска → без соси́ски, морко́вь → без морко́ви)\n- neutro -о → **-а** (молоко́ → без молока́), -е → **-я** (мо́ре → без мо́ря)\n\nPregunta clásica en el restaurante: **Вам во́ду с га́зом и́ли без га́за?**\n\n**Без ничего́** = sin nada: — Ко́фе с са́харом? — Нет, я пью ко́фе без ничего́.",
+          "tables": [
+            {
+              "caption": "Genitivo",
+              "headers": [
+                "",
+                "¿Что?",
+                "без ¿чего́?",
+                "terminación"
+              ],
+              "rows": [
+                [
+                  "он (m)",
+                  "газ, са́хар, чай",
+                  "без га́за, без са́хара, без ча́я",
+                  "-а / -я"
+                ],
+                [
+                  "она́ (f)",
+                  "вода́, соси́ска, морко́вь",
+                  "без воды́, без соси́ски, без морко́ви",
+                  "-ы / -и"
+                ],
+                [
+                  "оно́ (n)",
+                  "молоко́, пи́во, мо́ре",
+                  "без молока́, без пи́ва, без мо́ря",
+                  "-а / -я"
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "Во́ду без га́за, пожа́луйста.",
+              "es": "Agua sin gas, por favor."
+            },
+            {
+              "ru": "Я пью чай без са́хара.",
+              "es": "Tomo el té sin azúcar."
+            },
+            {
+              "ru": "Сала́т без со́уса, пожа́луйста.",
+              "es": "Ensalada sin aderezo, por favor."
+            }
+          ]
+        },
+        {
+          "id": "4.1-g-est-pit",
+          "title": "Los verbos есть (comer), пить (beber) y хоте́ть (querer)",
+          "explanationEs": "Tres verbos irregulares muy importantes en esta lección:\n\n**есть** (comer): я ем, ты ешь, он ест, мы еди́м, вы еди́те, они́ едя́т\n\n**пить** (beber): я пью, ты пьёшь, он пьёт, мы пьём, вы пьёте, они́ пьют\n\n**хоте́ть** (querer): я хочу́, ты хо́чешь, он хо́чет, мы хоти́м, вы хоти́те, они́ хотя́т — cambia a mitad del verbo (хоч- / хот-).\n\nY del texto: **бежа́ть** (correr, ir corriendo): я бегу́, ты бежи́шь, он бежи́т, мы бежи́м, вы бежи́те, они́ бегу́т.\n\nOjo: «есть» también significa «hay / tengo» (У меня́ есть…), ¡pero la conjugación de «comer» es otra!",
+          "tables": [
+            {
+              "caption": "Presente",
+              "headers": [
+                "",
+                "есть",
+                "пить",
+                "хоте́ть",
+                "бежа́ть"
+              ],
+              "rows": [
+                [
+                  "я",
+                  "ем",
+                  "пью",
+                  "хочу́",
+                  "бегу́"
+                ],
+                [
+                  "ты",
+                  "ешь",
+                  "пьёшь",
+                  "хо́чешь",
+                  "бежи́шь"
+                ],
+                [
+                  "он / она́",
+                  "ест",
+                  "пьёт",
+                  "хо́чет",
+                  "бежи́т"
+                ],
+                [
+                  "мы",
+                  "еди́м",
+                  "пьём",
+                  "хоти́м",
+                  "бежи́м"
+                ],
+                [
+                  "вы",
+                  "еди́те",
+                  "пьёте",
+                  "хоти́те",
+                  "бежи́те"
+                ],
+                [
+                  "они́",
+                  "едя́т",
+                  "пьют",
+                  "хотя́т",
+                  "бегу́т"
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "Что ты ешь на за́втрак?",
+              "es": "¿Qué desayunas? (¿Qué comes de desayuno?)"
+            },
+            {
+              "ru": "Мы пьём чай с лимо́ном.",
+              "es": "Tomamos té con limón."
+            },
+            {
+              "ru": "Вы хоти́те ко́фе?",
+              "es": "¿Quiere café?"
+            }
+          ]
+        },
+        {
+          "id": "4.1-g-meals",
+          "title": "Desayuno, comida y cena: за́втрак — за́втракать — на за́втрак",
+          "explanationEs": "Cada comida tiene un sustantivo, un verbo y una expresión con **на**:\n\n- **за́втрак** (desayuno) → **за́втракать** (desayunar) → **на за́втрак** (de desayuno)\n- **обе́д** (comida) → **обе́дать** (comer, a mediodía) → **на обе́д**\n- **у́жин** (cena) → **у́жинать** (cenar) → **на у́жин**\n\nY la hora del día responde a **¿Когда́?**: у́тро → **у́тром** (en la mañana), день → **днём** (a mediodía/en la tarde), ве́чер → **ве́чером** (en la noche, temprano), ночь → **но́чью** (de noche).\n\nУ́тром я за́втракаю. На за́втрак я ем ка́шу.",
+          "tables": [
+            {
+              "caption": "Comidas",
+              "headers": [
+                "¿Что?",
+                "¿Что де́лать?",
+                "на…",
+                "¿Когда́?"
+              ],
+              "rows": [
+                [
+                  "за́втрак",
+                  "за́втракать",
+                  "на за́втрак",
+                  "у́тром"
+                ],
+                [
+                  "обе́д",
+                  "обе́дать",
+                  "на обе́д",
+                  "днём"
+                ],
+                [
+                  "у́жин",
+                  "у́жинать",
+                  "на у́жин",
+                  "ве́чером"
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "У́тром я за́втракаю до́ма.",
+              "es": "En la mañana desayuno en casa."
+            },
+            {
+              "ru": "На обе́д мы еди́м суп.",
+              "es": "De comida comemos sopa."
+            },
+            {
+              "ru": "Ве́чером мы у́жинаем вме́сте.",
+              "es": "En la noche cenamos juntos."
+            }
+          ]
+        },
+        {
+          "id": "4.1-g-frequency",
+          "title": "¿Con qué frecuencia? всегда́, ча́сто, обы́чно, иногда́, ре́дко, никогда́ не",
+          "explanationEs": "Adverbios de frecuencia, de más a menos:\n\n**всегда́** (siempre, 100%) · **ча́сто** (seguido, 80%) · **обы́чно** (normalmente, 60%) · **иногда́** (a veces, 40%) · **ре́дко** (rara vez, 20%) · **никогда́ не** (nunca, 0%)\n\n**Ojo:** con никогда́ el verbo lleva **не**: Я никогда́ **не** ем мя́со. (en ruso la doble negación es obligatoria)",
+          "tables": [
+            {
+              "caption": "Frecuencia",
+              "headers": [
+                "adverbio",
+                "%",
+                "ejemplo"
+              ],
+              "rows": [
+                [
+                  "всегда́",
+                  "100%",
+                  "Я всегда́ за́втракаю."
+                ],
+                [
+                  "ча́сто",
+                  "80%",
+                  "Я ча́сто пью чай."
+                ],
+                [
+                  "обы́чно",
+                  "60%",
+                  "Обы́чно я ем ка́шу."
+                ],
+                [
+                  "иногда́",
+                  "40%",
+                  "Иногда́ я ем блины́."
+                ],
+                [
+                  "ре́дко",
+                  "20%",
+                  "Я ре́дко пью ко́фе."
+                ],
+                [
+                  "никогда́ не",
+                  "0%",
+                  "Я никогда́ не ем мя́со."
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "Я никогда́ не пью пи́во.",
+              "es": "Nunca tomo cerveza."
+            },
+            {
+              "ru": "Иногда́ мы обе́даем в кафе́.",
+              "es": "A veces comemos en un café."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        {
+          "id": "4.1-v-eda",
+          "ru": "еда́",
+          "es": "comida",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "comida",
+          "example": {
+            "ru": "Ру́сская еда́ о́чень вку́сная.",
+            "es": "La comida rusa es muy rica."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-napitki",
+          "ru": "напи́тки",
+          "es": "bebidas",
+          "pos": "noun",
+          "gender": "pl",
+          "topic": "bebidas",
+          "example": {
+            "ru": "Каки́е напи́тки вы лю́бите?",
+            "es": "¿Qué bebidas le gustan?"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-myaso",
+          "ru": "мя́со",
+          "es": "carne",
+          "pos": "noun",
+          "gender": "n",
+          "topic": "comida",
+          "example": {
+            "ru": "Вегетариа́нцы не едя́т мя́со.",
+            "es": "Los vegetarianos no comen carne."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-kurica",
+          "ru": "ку́рица",
+          "es": "pollo",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "comida",
+          "example": {
+            "ru": "На обе́д у нас ку́рица с ри́сом.",
+            "es": "De comida tenemos pollo con arroz."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-ryba",
+          "ru": "ры́ба",
+          "es": "pescado",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "comida",
+          "example": {
+            "ru": "В Шве́ции ча́сто едя́т ры́бу.",
+            "es": "En Suecia comen pescado seguido."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-ris",
+          "ru": "рис",
+          "es": "arroz",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Я люблю́ рис с овоща́ми.",
+            "es": "Me encanta el arroz con verduras."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-pasta",
+          "ru": "па́ста",
+          "es": "pasta",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "comida",
+          "example": {
+            "ru": "Па́ста с со́усом — э́то вку́сно!",
+            "es": "¡La pasta con salsa es deliciosa!"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-yajco",
+          "ru": "яйцо́",
+          "es": "huevo",
+          "pos": "noun",
+          "gender": "n",
+          "plural": "я́йца",
+          "topic": "comida",
+          "example": {
+            "ru": "На за́втрак я ем яйцо́.",
+            "es": "De desayuno como un huevo."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-khleb",
+          "ru": "хлеб",
+          "es": "pan",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Сын всегда́ ест суп с хле́бом.",
+            "es": "Mi hijo siempre come la sopa con pan."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-maslo",
+          "ru": "ма́сло",
+          "es": "mantequilla; aceite",
+          "pos": "noun",
+          "gender": "n",
+          "topic": "comida",
+          "example": {
+            "ru": "Хлеб с ма́слом — просто́й за́втрак.",
+            "es": "Pan con mantequilla: un desayuno sencillo."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-kruassan",
+          "ru": "круасса́н",
+          "es": "cuernito (croissant)",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "круасса́ны",
+          "topic": "comida",
+          "example": {
+            "ru": "Францу́зы едя́т на за́втрак круасса́ны.",
+            "es": "Los franceses desayunan cuernitos."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-syr",
+          "ru": "сыр",
+          "es": "queso",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Бутербро́д с сы́ром, пожа́луйста.",
+            "es": "Un sándwich de queso, por favor."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-myod",
+          "ru": "мёд",
+          "es": "miel",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Ту́рки пьют чай с мёдом.",
+            "es": "Los turcos toman té con miel."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-khlopya",
+          "ru": "хло́пья",
+          "es": "cereal (hojuelas)",
+          "pos": "noun",
+          "gender": "pl",
+          "topic": "comida",
+          "example": {
+            "ru": "Де́ти едя́т хло́пья с молоко́м.",
+            "es": "Los niños comen cereal con leche."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-sakhar",
+          "ru": "са́хар",
+          "es": "azúcar",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Я пью ко́фе без са́хара.",
+            "es": "Tomo el café sin azúcar."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-sol",
+          "ru": "соль",
+          "es": "sal",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "comida",
+          "example": {
+            "ru": "Ма́ма гото́вит суп без со́ли.",
+            "es": "Mamá hace la sopa sin sal."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-buterbrod",
+          "ru": "бутербро́д",
+          "es": "sándwich abierto (pan con algo encima)",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "бутербро́ды",
+          "topic": "comida",
+          "example": {
+            "ru": "Бутербро́д с ветчино́й и сы́ром.",
+            "es": "Un sándwich con jamón y queso."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-vetchina",
+          "ru": "ветчина́",
+          "es": "jamón",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "comida",
+          "example": {
+            "ru": "Я ем бутербро́д с ветчино́й.",
+            "es": "Como un sándwich con jamón."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-jogurt",
+          "ru": "йо́гурт",
+          "es": "yogur",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "йо́гурты",
+          "topic": "comida",
+          "example": {
+            "ru": "Йо́гурт с варе́ньем о́чень вку́сный.",
+            "es": "El yogur con mermelada es muy rico."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-kolbasa",
+          "ru": "колбаса́",
+          "es": "embutido (salchichón)",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "comida",
+          "example": {
+            "ru": "На за́втрак — хлеб с колбасо́й.",
+            "es": "De desayuno: pan con salchichón."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-sosiska",
+          "ru": "соси́ска",
+          "es": "salchicha",
+          "pos": "noun",
+          "gender": "f",
+          "plural": "соси́ски",
+          "topic": "comida",
+          "example": {
+            "ru": "В Герма́нии едя́т соси́ски.",
+            "es": "En Alemania comen salchichas."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-kasha",
+          "ru": "ка́ша",
+          "es": "papilla de cereal (atole espeso, avena)",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "comida",
+          "example": {
+            "ru": "Ка́ша — традицио́нный ру́сский за́втрак.",
+            "es": "La kasha es el desayuno ruso tradicional."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-bliny",
+          "ru": "блины́",
+          "es": "crepas rusas",
+          "pos": "noun",
+          "gender": "pl",
+          "plural": "блины́",
+          "topic": "comida",
+          "example": {
+            "ru": "В выходны́е мы еди́м блины́ с мёдом.",
+            "es": "El fin de semana comemos crepas con miel."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-varenye",
+          "ru": "варе́нье",
+          "es": "mermelada",
+          "pos": "noun",
+          "gender": "n",
+          "topic": "comida",
+          "example": {
+            "ru": "Ба́бушка гото́вит вку́сное варе́нье.",
+            "es": "La abuela hace una mermelada rica."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-moreprodukty",
+          "ru": "морепроду́кты",
+          "es": "mariscos",
+          "pos": "noun",
+          "gender": "pl",
+          "topic": "comida",
+          "example": {
+            "ru": "Я обожа́ю рис с морепроду́ктами.",
+            "es": "Me encanta el arroz con mariscos."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-frukty",
+          "ru": "фру́кты",
+          "es": "frutas",
+          "pos": "noun",
+          "gender": "pl",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Я ча́сто ем фру́кты.",
+            "es": "Como fruta seguido."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-ovoshchi",
+          "ru": "о́вощи",
+          "es": "verduras",
+          "pos": "noun",
+          "gender": "pl",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Ры́ба с овоща́ми — поле́зный обе́д.",
+            "es": "Pescado con verduras: una comida saludable."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-yabloko",
+          "ru": "я́блоко",
+          "es": "manzana",
+          "pos": "noun",
+          "gender": "n",
+          "plural": "я́блоки",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Я ем я́блоко ка́ждый день.",
+            "es": "Como una manzana cada día."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-kartofel",
+          "ru": "карто́фель",
+          "es": "papa(s)",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Мя́со с карто́фелем, пожа́луйста.",
+            "es": "Carne con papas, por favor."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-vinograd",
+          "ru": "виногра́д",
+          "es": "uvas",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Виногра́д сла́дкий и вку́сный.",
+            "es": "Las uvas están dulces y ricas."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-kivi",
+          "ru": "ки́ви",
+          "es": "kiwi",
+          "pos": "noun",
+          "gender": "n",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Ки́ви — зелёный фрукт.",
+            "es": "El kiwi es una fruta verde."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-pomidor",
+          "ru": "помидо́р",
+          "es": "jitomate",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "помидо́ры",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Пи́цца с помидо́рами и сы́ром.",
+            "es": "Pizza con jitomate y queso."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-grib",
+          "ru": "гриб",
+          "es": "hongo, champiñón",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "грибы́",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Я люблю́ пи́ццу с гриба́ми.",
+            "es": "Me encanta la pizza con champiñones."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-apelsin",
+          "ru": "апельси́н",
+          "es": "naranja",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "апельси́ны",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Апельси́ны из Маро́кко о́чень вку́сные.",
+            "es": "Las naranjas de Marruecos son muy ricas."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-ogurec",
+          "ru": "огуре́ц",
+          "es": "pepino",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "огурцы́",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Сала́т с огурцо́м и помидо́ром.",
+            "es": "Ensalada con pepino y jitomate."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-luk",
+          "ru": "лук",
+          "es": "cebolla",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Сала́т без лу́ка, пожа́луйста.",
+            "es": "Ensalada sin cebolla, por favor."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-morkov",
+          "ru": "морко́вь",
+          "es": "zanahoria",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Морко́вь — поле́зный о́вощ.",
+            "es": "La zanahoria es una verdura saludable."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-kapusta",
+          "ru": "капу́ста",
+          "es": "col, repollo",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "В борще́ есть капу́ста.",
+            "es": "El borsch lleva col."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-svyokla",
+          "ru": "свёкла",
+          "es": "betabel",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Борщ — э́то суп со свёклой.",
+            "es": "El borsch es una sopa con betabel."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-redis",
+          "ru": "реди́с",
+          "es": "rábano",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Ле́том мы еди́м реди́с.",
+            "es": "En verano comemos rábanos."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-salat",
+          "ru": "сала́т",
+          "es": "ensalada; lechuga",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "На у́жин я ем то́лько сала́т.",
+            "es": "De cena solo como ensalada."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-orekhi",
+          "ru": "оре́хи",
+          "es": "nueces",
+          "pos": "noun",
+          "gender": "pl",
+          "plural": "оре́хи",
+          "topic": "frutas y verduras",
+          "example": {
+            "ru": "Марокка́нцы едя́т на за́втрак оре́хи и мёд.",
+            "es": "Los marroquíes desayunan nueces y miel."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-deserty",
+          "ru": "десе́рты",
+          "es": "postres",
+          "pos": "noun",
+          "gender": "pl",
+          "topic": "postres",
+          "example": {
+            "ru": "Я ре́дко ем десе́рты.",
+            "es": "Casi nunca como postres."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-shokolad",
+          "ru": "шокола́д",
+          "es": "chocolate",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "postres",
+          "example": {
+            "ru": "Жена́ не ест шокола́д: она́ на дие́те.",
+            "es": "Mi esposa no come chocolate: está a dieta."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-morozhenoe",
+          "ru": "моро́женое",
+          "es": "helado",
+          "pos": "noun",
+          "gender": "n",
+          "topic": "postres",
+          "example": {
+            "ru": "Моро́женое с фру́ктами, пожа́луйста.",
+            "es": "Helado con fruta, por favor."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-pirozhok",
+          "ru": "пирожо́к",
+          "es": "pastelito ruso (relleno)",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "пирожки́",
+          "topic": "postres",
+          "example": {
+            "ru": "Ба́бушка гото́вит пирожки́.",
+            "es": "La abuela hace pirozhkí."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-tort",
+          "ru": "торт",
+          "es": "pastel",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "то́рты",
+          "topic": "postres",
+          "example": {
+            "ru": "Торт с шокола́дом — мой люби́мый десе́рт.",
+            "es": "El pastel de chocolate es mi postre favorito."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-sok",
+          "ru": "сок",
+          "es": "jugo",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "bebidas",
+          "example": {
+            "ru": "Де́ти пьют апельси́новый сок.",
+            "es": "Los niños toman jugo de naranja."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-moloko",
+          "ru": "молоко́",
+          "es": "leche",
+          "pos": "noun",
+          "gender": "n",
+          "topic": "bebidas",
+          "example": {
+            "ru": "Я пью ко́фе с молоко́м.",
+            "es": "Tomo café con leche."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-kefir",
+          "ru": "кефи́р",
+          "es": "kéfir",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "bebidas",
+          "example": {
+            "ru": "Ве́чером я пью кефи́р.",
+            "es": "En la noche tomo kéfir."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-goryachij-shokolad",
+          "ru": "горя́чий шокола́д",
+          "es": "chocolate caliente",
+          "pos": "phrase",
+          "topic": "bebidas",
+          "example": {
+            "ru": "Зимо́й я пью горя́чий шокола́д.",
+            "es": "En invierno tomo chocolate caliente."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-kvas",
+          "ru": "квас",
+          "es": "kvas (bebida de pan fermentado)",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "bebidas",
+          "example": {
+            "ru": "Ле́том мы пьём квас.",
+            "es": "En verano tomamos kvas."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-mors",
+          "ru": "морс",
+          "es": "agua de frutos rojos (mors)",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "bebidas",
+          "example": {
+            "ru": "Ба́бушка де́лает клю́квенный морс.",
+            "es": "La abuela hace agua de arándano."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-voda",
+          "ru": "вода́",
+          "es": "agua",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "bebidas",
+          "example": {
+            "ru": "Во́ду с га́зом и́ли без га́за?",
+            "es": "¿Agua con gas o sin gas?"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-gaz",
+          "ru": "газ",
+          "es": "gas",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "bebidas",
+          "example": {
+            "ru": "Я пью во́ду без га́за.",
+            "es": "Tomo agua sin gas."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-lyod",
+          "ru": "лёд",
+          "es": "hielo",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "bebidas",
+          "example": {
+            "ru": "Сок со льдом, пожа́луйста.",
+            "es": "Jugo con hielo, por favor."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-sous",
+          "ru": "со́ус",
+          "es": "salsa, aderezo",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Сала́т без со́уса, пожа́луйста.",
+            "es": "Ensalada sin aderezo, por favor."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-majonez",
+          "ru": "майоне́з",
+          "es": "mayonesa",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Сестра́ не ест майоне́з.",
+            "es": "Mi hermana no come mayonesa."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-garnir",
+          "ru": "гарни́р",
+          "es": "guarnición",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Мя́со с гарни́ром: рис и́ли карто́фель?",
+            "es": "Carne con guarnición: ¿arroz o papas?"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-zavtrak",
+          "ru": "за́втрак",
+          "es": "desayuno",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comidas del día",
+          "example": {
+            "ru": "На за́втрак я ем ка́шу.",
+            "es": "De desayuno como kasha."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-obed",
+          "ru": "обе́д",
+          "es": "comida (de mediodía)",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comidas del día",
+          "example": {
+            "ru": "Что мы сего́дня еди́м на обе́д?",
+            "es": "¿Qué comemos hoy?"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-uzhin",
+          "ru": "у́жин",
+          "es": "cena",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comidas del día",
+          "example": {
+            "ru": "У́жин в семь.",
+            "es": "La cena es a las siete."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-utrom",
+          "ru": "у́тром",
+          "es": "en la mañana",
+          "pos": "adv",
+          "topic": "comidas del día",
+          "example": {
+            "ru": "У́тром я пью ко́фе.",
+            "es": "En la mañana tomo café."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-dnyom",
+          "ru": "днём",
+          "es": "a mediodía, en la tarde",
+          "pos": "adv",
+          "topic": "comidas del día",
+          "example": {
+            "ru": "Днём я обе́даю в кафе́.",
+            "es": "A mediodía como en un café."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-vecherom",
+          "ru": "ве́чером",
+          "es": "en la noche (temprano)",
+          "pos": "adv",
+          "topic": "comidas del día",
+          "example": {
+            "ru": "Ве́чером мы у́жинаем до́ма.",
+            "es": "En la noche cenamos en casa."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-nochyu",
+          "ru": "но́чью",
+          "es": "de noche, en la madrugada",
+          "pos": "adv",
+          "topic": "comidas del día",
+          "example": {
+            "ru": "Но́чью я сплю.",
+            "es": "De noche duermo."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-est",
+          "ru": "есть",
+          "es": "comer",
+          "pos": "verb",
+          "conj": {
+            "type": "irregular",
+            "present": {
+              "я": "ем",
+              "ты": "ешь",
+              "он": "ест",
+              "мы": "еди́м",
+              "вы": "еди́те",
+              "они́": "едя́т"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Что ты ешь на за́втрак?",
+            "es": "¿Qué desayunas?"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-pit",
+          "ru": "пить",
+          "es": "beber, tomar",
+          "pos": "verb",
+          "conj": {
+            "type": "irregular",
+            "present": {
+              "я": "пью",
+              "ты": "пьёшь",
+              "он": "пьёт",
+              "мы": "пьём",
+              "вы": "пьёте",
+              "они́": "пьют"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Я пью чай с лимо́ном.",
+            "es": "Tomo té con limón."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-khotet",
+          "ru": "хоте́ть",
+          "es": "querer",
+          "pos": "verb",
+          "conj": {
+            "type": "irregular",
+            "present": {
+              "я": "хочу́",
+              "ты": "хо́чешь",
+              "он": "хо́чет",
+              "мы": "хоти́м",
+              "вы": "хоти́те",
+              "они́": "хотя́т"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Вы хоти́те ко́фе с са́харом?",
+            "es": "¿Quiere café con azúcar?"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-bezhat",
+          "ru": "бежа́ть",
+          "es": "correr, ir corriendo",
+          "pos": "verb",
+          "conj": {
+            "type": "irregular",
+            "present": {
+              "я": "бегу́",
+              "ты": "бежи́шь",
+              "он": "бежи́т",
+              "мы": "бежи́м",
+              "вы": "бежи́те",
+              "они́": "бегу́т"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "По́сле за́втрака я бегу́ на рабо́ту.",
+            "es": "Después de desayunar me voy corriendo al trabajo."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-zavtrakat",
+          "ru": "за́втракать",
+          "es": "desayunar",
+          "pos": "verb",
+          "conj": {
+            "type": "e",
+            "present": {
+              "я": "за́втракаю",
+              "ты": "за́втракаешь",
+              "он": "за́втракает",
+              "мы": "за́втракаем",
+              "вы": "за́втракаете",
+              "они́": "за́втракают"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Ру́сские обы́чно за́втракают до́ма.",
+            "es": "Los rusos normalmente desayunan en casa."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-obedat",
+          "ru": "обе́дать",
+          "es": "comer (a mediodía)",
+          "pos": "verb",
+          "conj": {
+            "type": "e",
+            "present": {
+              "я": "обе́даю",
+              "ты": "обе́даешь",
+              "он": "обе́дает",
+              "мы": "обе́даем",
+              "вы": "обе́даете",
+              "они́": "обе́дают"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Мы обе́даем в рестора́не.",
+            "es": "Comemos en un restaurante."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-uzhinat",
+          "ru": "у́жинать",
+          "es": "cenar",
+          "pos": "verb",
+          "conj": {
+            "type": "e",
+            "present": {
+              "я": "у́жинаю",
+              "ты": "у́жинаешь",
+              "он": "у́жинает",
+              "мы": "у́жинаем",
+              "вы": "у́жинаете",
+              "они́": "у́жинают"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Где вы лю́бите у́жинать?",
+            "es": "¿Dónde le gusta cenar?"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-predpochitat",
+          "ru": "предпочита́ть",
+          "es": "preferir",
+          "pos": "verb",
+          "conj": {
+            "type": "e",
+            "present": {
+              "я": "предпочита́ю",
+              "ты": "предпочита́ешь",
+              "он": "предпочита́ет",
+              "мы": "предпочита́ем",
+              "вы": "предпочита́ете",
+              "они́": "предпочита́ют"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Я предпочита́ю чай.",
+            "es": "Prefiero el té."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-speshit",
+          "ru": "спеши́ть",
+          "es": "tener prisa, apurarse",
+          "pos": "verb",
+          "conj": {
+            "type": "i",
+            "present": {
+              "я": "спешу́",
+              "ты": "спеши́шь",
+              "он": "спеши́т",
+              "мы": "спеши́м",
+              "вы": "спеши́те",
+              "они́": "спеша́т"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "У́тром я всегда́ спешу́.",
+            "es": "En la mañana siempre tengo prisa."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-obozhat",
+          "ru": "обожа́ть",
+          "es": "adorar, encantar",
+          "pos": "verb",
+          "conj": {
+            "type": "e",
+            "present": {
+              "я": "обожа́ю",
+              "ты": "обожа́ешь",
+              "он": "обожа́ет",
+              "мы": "обожа́ем",
+              "вы": "обожа́ете",
+              "они́": "обожа́ют"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Я обожа́ю блины́!",
+            "es": "¡Me encantan las crepas!"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-vsegda",
+          "ru": "всегда́",
+          "es": "siempre (100%)",
+          "pos": "adv",
+          "topic": "frecuencia",
+          "example": {
+            "ru": "Я всегда́ за́втракаю.",
+            "es": "Siempre desayuno."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-chasto",
+          "ru": "ча́сто",
+          "es": "seguido, con frecuencia (80%)",
+          "pos": "adv",
+          "topic": "frecuencia",
+          "example": {
+            "ru": "Мы ча́сто пьём чай.",
+            "es": "Tomamos té seguido."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-obychno",
+          "ru": "обы́чно",
+          "es": "normalmente (60%)",
+          "pos": "adv",
+          "topic": "frecuencia",
+          "example": {
+            "ru": "Обы́чно я ем ка́шу.",
+            "es": "Normalmente como kasha."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-inogda",
+          "ru": "иногда́",
+          "es": "a veces (40%)",
+          "pos": "adv",
+          "topic": "frecuencia",
+          "example": {
+            "ru": "Иногда́ я ем блины́.",
+            "es": "A veces como crepas."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-redko",
+          "ru": "ре́дко",
+          "es": "rara vez (20%)",
+          "pos": "adv",
+          "topic": "frecuencia",
+          "example": {
+            "ru": "Я ре́дко пью ко́фе.",
+            "es": "Casi nunca tomo café."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-nikogda",
+          "ru": "никогда́ не",
+          "es": "nunca (0%)",
+          "pos": "phrase",
+          "topic": "frecuencia",
+          "example": {
+            "ru": "Я никогда́ не ем мя́со.",
+            "es": "Nunca como carne."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-svezhij",
+          "ru": "све́жий",
+          "es": "fresco",
+          "pos": "adj",
+          "forms": {
+            "m": "све́жий",
+            "f": "све́жая",
+            "n": "све́жее",
+            "pl": "све́жие"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Све́жий апельси́новый сок — э́то вку́сно.",
+            "es": "El jugo de naranja recién hecho es rico."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-prostoj",
+          "ru": "просто́й",
+          "es": "sencillo, simple",
+          "pos": "adj",
+          "forms": {
+            "m": "просто́й",
+            "f": "проста́я",
+            "n": "просто́е",
+            "pl": "просты́е"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Италья́нский за́втрак о́чень просто́й.",
+            "es": "El desayuno italiano es muy sencillo."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-poleznyj",
+          "ru": "поле́зный",
+          "es": "saludable, útil",
+          "pos": "adj",
+          "forms": {
+            "m": "поле́зный",
+            "f": "поле́зная",
+            "n": "поле́зное",
+            "pl": "поле́зные"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Ка́ша — поле́зный за́втрак.",
+            "es": "La kasha es un desayuno saludable."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-vrednyj",
+          "ru": "вре́дный",
+          "es": "dañino, poco saludable",
+          "pos": "adj",
+          "forms": {
+            "m": "вре́дный",
+            "f": "вре́дная",
+            "n": "вре́дное",
+            "pl": "вре́дные"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Майоне́з — вре́дный проду́кт.",
+            "es": "La mayonesa es un producto poco saludable."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-tradicionnyj",
+          "ru": "традицио́нный",
+          "es": "tradicional",
+          "pos": "adj",
+          "forms": {
+            "m": "традицио́нный",
+            "f": "традицио́нная",
+            "n": "традицио́нное",
+            "pl": "традицио́нные"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Э́то традицио́нный ру́сский за́втрак.",
+            "es": "Es un desayuno ruso tradicional."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-goryachij",
+          "ru": "горя́чий",
+          "es": "caliente (muy)",
+          "pos": "adj",
+          "forms": {
+            "m": "горя́чий",
+            "f": "горя́чая",
+            "n": "горя́чее",
+            "pl": "горя́чие"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Шве́ды пьют горя́чий ко́фе.",
+            "es": "Los suecos toman café caliente."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-vegetarianec",
+          "ru": "вегетариа́нец",
+          "es": "vegetariano",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Мой брат — вегетариа́нец.",
+            "es": "Mi hermano es vegetariano."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.1-v-dieta",
+          "ru": "сиде́ть на дие́те",
+          "es": "estar a dieta",
+          "pos": "phrase",
+          "topic": "comida",
+          "example": {
+            "ru": "Сестра́ сиди́т на дие́те.",
+            "es": "Mi hermana está a dieta."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        }
+      ],
+      "phrases": [
+        {
+          "ru": "Во́ду с га́зом и́ли без га́за?",
+          "es": "¿Agua con gas o sin gas?"
+        },
+        {
+          "ru": "Прия́тного аппети́та!",
+          "es": "¡Buen provecho!"
+        },
+        {
+          "ru": "Без ничего́, пожа́луйста.",
+          "es": "Sin nada, por favor."
+        },
+        {
+          "ru": "Я сижу́ на дие́те.",
+          "es": "Estoy a dieta."
+        },
+        {
+          "ru": "Что ты ешь на за́втрак?",
+          "es": "¿Qué desayunas?"
+        }
+      ],
+      "sentences": [
+        {
+          "ru": "Я пью ко́фе с молоко́м.",
+          "es": "Tomo café con leche.",
+          "tags": [
+            "4.1-g-s-instr"
+          ]
+        },
+        {
+          "ru": "Во́ду без га́за, пожа́луйста.",
+          "es": "Agua sin gas, por favor.",
+          "tags": [
+            "4.1-g-bez-gen"
+          ]
+        },
+        {
+          "ru": "На за́втрак я ем ка́шу с мёдом.",
+          "es": "De desayuno como kasha con miel.",
+          "tags": [
+            "4.1-g-meals",
+            "4.1-g-s-instr"
+          ]
+        },
+        {
+          "ru": "Мы с сестро́й обе́даем в кафе́.",
+          "es": "Mi hermana y yo comemos en un café.",
+          "tags": [
+            "4.1-g-s-instr",
+            "4.1-g-meals"
+          ]
+        },
+        {
+          "ru": "Я никогда́ не ем мя́со.",
+          "es": "Nunca como carne.",
+          "tags": [
+            "4.1-g-frequency"
+          ]
+        },
+        {
+          "ru": "Ве́чером я пью чай без са́хара.",
+          "es": "En la noche tomo té sin azúcar.",
+          "tags": [
+            "4.1-g-bez-gen",
+            "4.1-g-meals"
+          ]
+        },
+        {
+          "ru": "Де́ти едя́т блины́ с варе́ньем.",
+          "es": "Los niños comen crepas con mermelada.",
+          "tags": [
+            "4.1-g-est-pit",
+            "4.1-g-s-instr"
+          ]
+        },
+        {
+          "ru": "Вы хоти́те сала́т с помидо́рами?",
+          "es": "¿Quiere ensalada con jitomate?",
+          "tags": [
+            "4.1-g-est-pit",
+            "4.1-g-s-instr"
+          ]
+        },
+        {
+          "ru": "Обы́чно мы у́жинаем до́ма.",
+          "es": "Normalmente cenamos en casa.",
+          "tags": [
+            "4.1-g-frequency",
+            "4.1-g-meals"
+          ]
+        },
+        {
+          "ru": "Иногда́ я пью сок со льдом.",
+          "es": "A veces tomo jugo con hielo.",
+          "tags": [
+            "4.1-g-frequency",
+            "4.1-g-s-instr"
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "id": "4.1-r-zavtrak",
+          "title": "За́втрак в Росси́и",
+          "textRu": "Ру́сские обы́чно за́втракают до́ма. Традицио́нный ру́сский за́втрак — э́то ка́ша, блины́, сы́рники, бутербро́д с колбасо́й и́ли с сы́ром, яи́чница и, коне́чно, чай. Моя́ семья́ ест тако́й большо́й за́втрак то́лько в выходны́е: у нас есть вре́мя, и мы не спеши́м. Мы до́лго за́втракаем и разгова́риваем. А в рабо́чие дни я то́лько пью ко́фе с молоко́м, но без са́хара, и ем йо́гурт с варе́ньем. А пото́м бегу́ на рабо́ту!",
+          "textEs": "Los rusos normalmente desayunan en casa. El desayuno ruso tradicional es kasha, crepas, sýrniki, un sándwich de salchichón o de queso, huevos estrellados y, claro, té. Mi familia come un desayuno así de grande solo el fin de semana: tenemos tiempo y no tenemos prisa. Desayunamos largo rato y platicamos. Y entre semana solo tomo café con leche, pero sin azúcar, y como yogur con mermelada. ¡Y luego me voy corriendo al trabajo!",
+          "questions": [
+            {
+              "q": "Где обы́чно за́втракают ру́сские?",
+              "qEs": "¿Dónde desayunan normalmente los rusos?",
+              "choices": [
+                "До́ма",
+                "В кафе́",
+                "На рабо́те"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Когда́ семья́ ест большо́й за́втрак?",
+              "qEs": "¿Cuándo come la familia un desayuno grande?",
+              "choices": [
+                "В выходны́е",
+                "Ка́ждый день",
+                "Никогда́"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Что а́втор пьёт в рабо́чие дни?",
+              "qEs": "¿Qué toma el autor entre semana?",
+              "choices": [
+                "Ко́фе с молоко́м без са́хара",
+                "Чай с са́харом",
+                "Сок"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "4.1-r-mir",
+          "title": "За́втраки ми́ра",
+          "textRu": "Во Фра́нции за́втрак ма́ленький: ча́шечка ко́фе и круасса́н с дже́мом.\nВ Япо́нии на за́втрак едя́т ми́со-суп, ры́бу и рис с овоща́ми.\nВ Кита́е за́втракают мно́го: рис и́ли лапша́ с мя́сом и овоща́ми.\nВ Ту́рции пьют чай и едя́т хлеб с мёдом, сыр, помидо́ры и оли́вки.\nВ Маро́кко пьют апельси́новый сок и зелёный чай, едя́т оре́хи и мёд.\nВ Ита́лии за́втрак просто́й: ко́фе с молоко́м и хлеб с сы́ром.\nВ А́нглии едя́т ка́шу (овся́нку), а в Шве́ции — ры́бу с карто́фелем.",
+          "textEs": "En Francia el desayuno es pequeño: una tacita de café y un cuernito con mermelada.\nEn Japón desayunan sopa de miso, pescado y arroz con verduras.\nEn China desayunan mucho: arroz o fideos con carne y verduras.\nEn Turquía toman té y comen pan con miel, queso, jitomates y aceitunas.\nEn Marruecos toman jugo de naranja y té verde, comen nueces y miel.\nEn Italia el desayuno es sencillo: café con leche y pan con queso.\nEn Inglaterra comen avena y en Suecia, pescado con papas.",
+          "questions": [
+            {
+              "q": "Где на за́втрак едя́т ры́бу и рис?",
+              "qEs": "¿Dónde desayunan pescado y arroz?",
+              "choices": [
+                "В Япо́нии",
+                "Во Фра́нции",
+                "В Ита́лии"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "С чем ту́рки едя́т хлеб?",
+              "qEs": "¿Con qué comen pan los turcos?",
+              "choices": [
+                "С мёдом",
+                "С ры́бой",
+                "С ма́слом"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Како́й за́втрак в Ита́лии?",
+              "qEs": "¿Cómo es el desayuno en Italia?",
+              "choices": [
+                "Просто́й",
+                "Большо́й",
+                "Вре́дный"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "4.1-x-01",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Чай с лимо́ном",
+            "Чай без лимо́на",
+            "Чай с молоко́м"
+          ],
+          "answer": 0,
+          "explanationEs": "с + instrumental: лимо́н → с лимо́ном.",
+          "es": "Té con limón.",
+          "image": "img/food/chai-s-limonom.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-02",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Ко́фе с молоко́м",
+            "Ко́фе без молока́",
+            "Ко́фе с са́харом"
+          ],
+          "answer": 0,
+          "explanationEs": "молоко́ → с молоко́м.",
+          "es": "Café con leche.",
+          "image": "img/food/kofe-s-molokom.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-03",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Вода́ с га́зом",
+            "Вода́ без га́за",
+            "Сок со льдом"
+          ],
+          "answer": 0,
+          "explanationEs": "Las burbujas: вода́ с га́зом.",
+          "es": "Agua con gas.",
+          "image": "img/food/voda-s-gazom.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-04",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Вода́ без га́за",
+            "Вода́ с га́зом",
+            "Вода́ со льдом"
+          ],
+          "answer": 0,
+          "explanationEs": "Sin burbujas: вода́ без га́за (без + genitivo: газ → га́за).",
+          "es": "Agua sin gas.",
+          "image": "img/food/voda-bez-gaza.jpg",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-05",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Бутербро́д с сы́ром",
+            "Бутербро́д с ветчино́й",
+            "Бутербро́д с ма́слом"
+          ],
+          "answer": 0,
+          "explanationEs": "сыр → с сы́ром.",
+          "es": "Un sándwich de queso.",
+          "image": "img/food/buterbrod-s-syrom.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-06",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Бутербро́д с ветчино́й",
+            "Бутербро́д с сы́ром",
+            "Бутербро́д с колбасо́й"
+          ],
+          "answer": 0,
+          "explanationEs": "ветчина́ → с ветчино́й (-а → -ой).",
+          "es": "Un sándwich de jamón.",
+          "image": "img/food/buterbrod-s-vetchinoj.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-07",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Пи́цца с гриба́ми",
+            "Пи́цца с помидо́рами",
+            "Пи́цца без сы́ра"
+          ],
+          "answer": 0,
+          "explanationEs": "plural: грибы́ → с гриба́ми.",
+          "es": "Pizza con champiñones.",
+          "image": "img/food/picca-s-gribami.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-08",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Блины́ с мёдом",
+            "Блины́ с варе́ньем",
+            "Блины́ с ры́бой"
+          ],
+          "answer": 0,
+          "explanationEs": "мёд → с мёдом.",
+          "es": "Crepas con miel.",
+          "image": "img/food/bliny-s-myodom.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-09",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Блины́ с варе́ньем",
+            "Блины́ с мёдом",
+            "Блины́ с сы́ром"
+          ],
+          "answer": 0,
+          "explanationEs": "варе́нье → с варе́ньем (-е → -ем).",
+          "es": "Crepas con mermelada.",
+          "image": "img/food/bliny-s-varenyem.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-10",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Ка́ша с фру́ктами",
+            "Ка́ша без молока́",
+            "Ка́ша с мя́сом"
+          ],
+          "answer": 0,
+          "explanationEs": "plural: фру́кты → с фру́ктами.",
+          "es": "Kasha con fruta.",
+          "image": "img/food/kasha-s-fruktami.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-11",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Ры́ба с карто́фелем",
+            "Ры́ба с ри́сом",
+            "Мя́со с карто́фелем"
+          ],
+          "answer": 0,
+          "explanationEs": "карто́фель (-ь) → с карто́фелем.",
+          "es": "Pescado con papas.",
+          "image": "img/food/ryba-s-kartofelem.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-12",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Моро́женое с фру́ктами",
+            "Моро́женое с шокола́дом",
+            "Торт с фру́ктами"
+          ],
+          "answer": 0,
+          "explanationEs": "фру́кты → с фру́ктами.",
+          "es": "Helado con fruta.",
+          "image": "img/food/morozhenoe-s-fruktami.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-13",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Сала́т с помидо́рами",
+            "Сала́т без помидо́ров",
+            "Рис с помидо́рами"
+          ],
+          "answer": 0,
+          "explanationEs": "помидо́ры → с помидо́рами.",
+          "es": "Ensalada con jitomates.",
+          "image": "img/food/salat-s-pomidorami.jpg",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-14",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Ко́фе без молока́",
+            "Ко́фе с молоко́м",
+            "Чай с молоко́м"
+          ],
+          "answer": 0,
+          "explanationEs": "без + genitivo: молоко́ → без молока́.",
+          "es": "Café sin leche (café negro).",
+          "image": "img/food/kofe-bez-moloka.jpg",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-15",
+          "type": "fill_choice",
+          "instructionEs": "Elige с o без",
+          "sentence": "На за́втрак я ем ка́шу ___ мёдом.",
+          "choices": [
+            "с",
+            "без"
+          ],
+          "answer": 0,
+          "explanationEs": "Con miel: с мёдом (instrumental).",
+          "es": "De desayuno como kasha con miel.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-16",
+          "type": "fill_choice",
+          "instructionEs": "Elige с o без",
+          "sentence": "Наш сын всегда́ ест суп ___ хле́ба.",
+          "choices": [
+            "без",
+            "с"
+          ],
+          "answer": 0,
+          "explanationEs": "хле́ба es genitivo → без.",
+          "es": "Nuestro hijo siempre come la sopa sin pan.",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-17",
+          "type": "fill_choice",
+          "instructionEs": "Elige с o без",
+          "sentence": "Я обожа́ю рис ___ морепроду́ктами.",
+          "choices": [
+            "с",
+            "без"
+          ],
+          "answer": 0,
+          "explanationEs": "морепроду́ктами = instrumental → с.",
+          "es": "Me encanta el arroz con mariscos.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-18",
+          "type": "fill_choice",
+          "instructionEs": "Elige с o без",
+          "sentence": "Ма́ма гото́вит суп ___ со́ли.",
+          "choices": [
+            "без",
+            "с"
+          ],
+          "answer": 0,
+          "explanationEs": "со́ли = genitivo → без.",
+          "es": "Mamá hace la sopa sin sal.",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-19",
+          "type": "fill_choice",
+          "instructionEs": "Elige с o без",
+          "sentence": "Студе́нтка обе́дает в кафе́ ___ подру́гой.",
+          "choices": [
+            "с",
+            "без"
+          ],
+          "answer": 0,
+          "explanationEs": "подру́гой = instrumental → с.",
+          "es": "La estudiante come en un café con una amiga.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-20",
+          "type": "fill_choice",
+          "instructionEs": "Elige с o без",
+          "sentence": "Я люблю́ путеше́ствовать ___ бага́жа.",
+          "choices": [
+            "без",
+            "с"
+          ],
+          "answer": 0,
+          "explanationEs": "бага́жа = genitivo → без.",
+          "es": "Me gusta viajar sin equipaje.",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-21",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Вам во́ду с га́зом и́ли без ___?",
+          "choices": [
+            "га́за",
+            "га́зом",
+            "газ"
+          ],
+          "answer": 0,
+          "explanationEs": "без + genitivo: газ → га́за.",
+          "es": "¿Agua con gas o sin gas?",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-22",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "В Росси́и пьют чай с ___.",
+          "choices": [
+            "лимо́ном",
+            "лимо́на",
+            "лимо́н"
+          ],
+          "answer": 0,
+          "explanationEs": "с + instrumental: лимо́н → лимо́ном.",
+          "es": "En Rusia toman el té con limón.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-23",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Сестра́ сиди́т на дие́те: она́ пьёт ко́фе без ___.",
+          "choices": [
+            "молока́",
+            "молоко́м",
+            "молоко́"
+          ],
+          "answer": 0,
+          "explanationEs": "без + genitivo: молоко́ → молока́.",
+          "es": "Mi hermana está a dieta: toma el café sin leche.",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-24",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Борщ — э́то суп со ___ .",
+          "choices": [
+            "свёклой",
+            "свёклы",
+            "свёкла"
+          ],
+          "answer": 0,
+          "explanationEs": "со + instrumental: свёкла → свёклой (со por las consonantes св-).",
+          "es": "El borsch es una sopa con betabel.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-25",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мы ___ па́пой гуля́ем в па́рке.",
+          "choices": [
+            "с",
+            "без",
+            "и"
+          ],
+          "answer": 0,
+          "explanationEs": "«Papá y yo» = мы с па́пой.",
+          "es": "Papá y yo paseamos en el parque.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-26",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la frase",
+          "sentence": "чай + са́хар = чай с ___",
+          "answers": [
+            "са́харом"
+          ],
+          "hint": "с + ?",
+          "explanationEs": "са́хар → с са́харом (-ом).",
+          "es": "Té con azúcar.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-27",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la frase",
+          "sentence": "суп − соль = суп без ___",
+          "answers": [
+            "со́ли"
+          ],
+          "hint": "без + ?",
+          "explanationEs": "соль → без со́ли (-ь → -и).",
+          "es": "Sopa sin sal.",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-28",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la frase",
+          "sentence": "па́ста − со́ус = па́ста без ___",
+          "answers": [
+            "со́уса"
+          ],
+          "hint": "без + ?",
+          "explanationEs": "со́ус → без со́уса.",
+          "es": "Pasta sin salsa.",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-29",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la frase",
+          "sentence": "сала́т − лук = сала́т без ___",
+          "answers": [
+            "лу́ка"
+          ],
+          "hint": "без + ?",
+          "explanationEs": "лук → без лу́ка.",
+          "es": "Ensalada sin cebolla.",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-30",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la frase",
+          "sentence": "торт + шокола́д = торт с ___",
+          "answers": [
+            "шокола́дом"
+          ],
+          "hint": "с + ?",
+          "explanationEs": "шокола́д → с шокола́дом.",
+          "es": "Pastel con chocolate.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-31",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la frase",
+          "sentence": "рис + о́вощи = рис с ___",
+          "answers": [
+            "овоща́ми"
+          ],
+          "hint": "с + ?",
+          "explanationEs": "о́вощи → с овоща́ми (plural -ами).",
+          "es": "Arroz con verduras.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-32",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la frase",
+          "sentence": "карто́фель + грибы́ = карто́фель с ___",
+          "answers": [
+            "гриба́ми"
+          ],
+          "hint": "с + ?",
+          "explanationEs": "грибы́ → с гриба́ми.",
+          "es": "Papas con champiñones.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-33",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la frase",
+          "sentence": "бутербро́д − ма́сло = бутербро́д без ___",
+          "answers": [
+            "ма́сла"
+          ],
+          "hint": "без + ?",
+          "explanationEs": "ма́сло → без ма́сла.",
+          "es": "Sándwich sin mantequilla.",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-34",
+          "type": "fill_typed",
+          "instructionEs": "Escribe las dos palabras completas",
+          "sentence": "Пи́цца с ветчи́н___ и гри́б___.",
+          "answers": [
+            "ветчино́й и гриба́ми"
+          ],
+          "hint": "escribe las dos palabras",
+          "explanationEs": "ветчина́ → ветчино́й, грибы́ → гриба́ми.",
+          "es": "Pizza con jamón y champiñones.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-35",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la palabra completa",
+          "sentence": "Соба́ка игра́ет с ко́шк___.",
+          "answers": [
+            "ко́шкой"
+          ],
+          "hint": "ко́шка",
+          "explanationEs": "ко́шка → с ко́шкой.",
+          "es": "El perro juega con la gata.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-36",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la palabra completa",
+          "sentence": "Тру́дно рабо́тать без интерне́т___.",
+          "answers": [
+            "интерне́та"
+          ],
+          "hint": "интерне́т",
+          "explanationEs": "интерне́т → без интерне́та.",
+          "es": "Es difícil trabajar sin internet.",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-37",
+          "type": "sort",
+          "instructionEs": "¿Va con «с» (instrumental) o con «без» (genitivo)?",
+          "categories": [
+            "с …",
+            "без …"
+          ],
+          "items": [
+            {
+              "text": "молоко́м",
+              "category": "с …"
+            },
+            {
+              "text": "лимо́ном",
+              "category": "с …"
+            },
+            {
+              "text": "ветчино́й",
+              "category": "с …"
+            },
+            {
+              "text": "гриба́ми",
+              "category": "с …"
+            },
+            {
+              "text": "са́хара",
+              "category": "без …"
+            },
+            {
+              "text": "га́за",
+              "category": "без …"
+            },
+            {
+              "text": "со́ли",
+              "category": "без …"
+            },
+            {
+              "text": "хле́ба",
+              "category": "без …"
+            }
+          ],
+          "tags": [
+            "4.1-g-s-instr",
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-38",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "Я пью ко́фе с молоко́.",
+          "wrongWord": 4,
+          "correction": "молоко́м.",
+          "explanationEs": "с + instrumental: молоко́ → молоко́м.",
+          "es": "Tomo café con leche.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-39",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "Чай без са́харом, пожа́луйста.",
+          "wrongWord": 2,
+          "correction": "са́хара,",
+          "explanationEs": "без + genitivo: са́хар → са́хара.",
+          "es": "Té sin azúcar, por favor.",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-40",
+          "type": "conjugate",
+          "instructionEs": "Conjuga «есть» (comer)",
+          "verb": "есть",
+          "pronouns": [
+            "я",
+            "ты",
+            "он",
+            "мы",
+            "вы",
+            "они́"
+          ],
+          "answers": [
+            "ем",
+            "ешь",
+            "ест",
+            "еди́м",
+            "еди́те",
+            "едя́т"
+          ],
+          "explanationEs": "есть es irregular: ем, ешь, ест, еди́м, еди́те, едя́т.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-41",
+          "type": "conjugate",
+          "instructionEs": "Conjuga «пить» (beber)",
+          "verb": "пить",
+          "pronouns": [
+            "я",
+            "ты",
+            "он",
+            "мы",
+            "вы",
+            "они́"
+          ],
+          "answers": [
+            "пью",
+            "пьёшь",
+            "пьёт",
+            "пьём",
+            "пьёте",
+            "пьют"
+          ],
+          "explanationEs": "пить: пью, пьёшь, пьёт, пьём, пьёте, пьют.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-42",
+          "type": "conjugate",
+          "instructionEs": "Conjuga «хоте́ть» (querer)",
+          "verb": "хоте́ть",
+          "pronouns": [
+            "я",
+            "ты",
+            "он",
+            "мы",
+            "вы",
+            "они́"
+          ],
+          "answers": [
+            "хочу́",
+            "хо́чешь",
+            "хо́чет",
+            "хоти́м",
+            "хоти́те",
+            "хотя́т"
+          ],
+          "explanationEs": "хоте́ть: хочу́, хо́чешь, хо́чет (хоч-) / хоти́м, хоти́те, хотя́т (хот-).",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-43",
+          "type": "conjugate",
+          "instructionEs": "Conjuga «бежа́ть» (correr)",
+          "verb": "бежа́ть",
+          "pronouns": [
+            "я",
+            "ты",
+            "он",
+            "мы",
+            "вы",
+            "они́"
+          ],
+          "answers": [
+            "бегу́",
+            "бежи́шь",
+            "бежи́т",
+            "бежи́м",
+            "бежи́те",
+            "бегу́т"
+          ],
+          "explanationEs": "бежа́ть: бегу́ y бегу́т con г; las demás con ж.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-44",
+          "type": "conjugate",
+          "instructionEs": "Conjuga «за́втракать» (desayunar)",
+          "verb": "за́втракать",
+          "pronouns": [
+            "я",
+            "ты",
+            "он",
+            "мы",
+            "вы",
+            "они́"
+          ],
+          "answers": [
+            "за́втракаю",
+            "за́втракаешь",
+            "за́втракает",
+            "за́втракаем",
+            "за́втракаете",
+            "за́втракают"
+          ],
+          "explanationEs": "Conjugación -е- regular, como чита́ть.",
+          "tags": [
+            "4.1-g-meals"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-45",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma de пить",
+          "sentence": "У́тром вы п___ чай и́ли ко́фе?",
+          "answers": [
+            "пьёте"
+          ],
+          "hint": "пить, вы",
+          "explanationEs": "вы пьёте.",
+          "es": "¿En la mañana toman té o café?",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-46",
+          "type": "fill_typed",
+          "instructionEs": "Escribe las dos formas (separadas por coma)",
+          "sentence": "Я п___ ко́фе, а мои́ роди́тели п___ чай.",
+          "answers": [
+            "пью, пьют",
+            "пью пьют"
+          ],
+          "hint": "пить: я / они́",
+          "explanationEs": "я пью, они́ пьют.",
+          "es": "Yo tomo café y mis papás toman té.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-47",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma de есть",
+          "sentence": "Вегетариа́нцы не ед___ мя́со.",
+          "answers": [
+            "едя́т"
+          ],
+          "hint": "есть, они́",
+          "explanationEs": "они́ едя́т.",
+          "es": "Los vegetarianos no comen carne.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-48",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma de есть",
+          "sentence": "Ве́чером я ___ ма́ло.",
+          "answers": [
+            "ем"
+          ],
+          "hint": "есть, я",
+          "explanationEs": "я ем.",
+          "es": "En la noche como poco.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-49",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma de есть",
+          "sentence": "Что мы сего́дня ___ на обе́д?",
+          "answers": [
+            "еди́м"
+          ],
+          "hint": "есть, мы",
+          "explanationEs": "мы еди́м.",
+          "es": "¿Qué comemos hoy?",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-50",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma de есть",
+          "sentence": "Моя́ жена́ не ___ шокола́д.",
+          "answers": [
+            "ест"
+          ],
+          "hint": "есть, она́",
+          "explanationEs": "она́ ест.",
+          "es": "Mi esposa no come chocolate.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-51",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma de пить",
+          "sentence": "Почему́ ты не ___ молоко́?",
+          "answers": [
+            "пьёшь"
+          ],
+          "hint": "пить, ты",
+          "explanationEs": "ты пьёшь.",
+          "es": "¿Por qué no tomas leche?",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-52",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma de пить",
+          "sentence": "Мой тре́нер говори́т, что ве́чером он не ___ ко́фе.",
+          "answers": [
+            "пьёт"
+          ],
+          "hint": "пить, он",
+          "explanationEs": "он пьёт.",
+          "es": "Mi entrenador dice que en la noche no toma café.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-53",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma de хоте́ть",
+          "sentence": "Вы ___ ко́фе с са́харом?",
+          "answers": [
+            "хоти́те"
+          ],
+          "hint": "хоте́ть, вы",
+          "explanationEs": "вы хоти́те.",
+          "es": "¿Quiere café con azúcar?",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-54",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma de хоте́ть",
+          "sentence": "Я ___ во́ду без га́за.",
+          "answers": [
+            "хочу́"
+          ],
+          "hint": "хоте́ть, я",
+          "explanationEs": "я хочу́.",
+          "es": "Quiero agua sin gas.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-55",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma de бежа́ть",
+          "sentence": "По́сле за́втрака я ___ на рабо́ту.",
+          "answers": [
+            "бегу́"
+          ],
+          "hint": "бежа́ть, я",
+          "explanationEs": "я бегу́.",
+          "es": "Después de desayunar me voy corriendo al trabajo.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-56",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Де́ти ___ ка́шу и пьют апельси́новый сок.",
+          "choices": [
+            "едя́т",
+            "ест",
+            "еди́те"
+          ],
+          "answer": 0,
+          "explanationEs": "они́ едя́т.",
+          "es": "Los niños comen kasha y toman jugo de naranja.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-57",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Что ты ___ на за́втрак?",
+          "choices": [
+            "ешь",
+            "ест",
+            "ем"
+          ],
+          "answer": 0,
+          "explanationEs": "ты ешь.",
+          "es": "¿Qué desayunas?",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-58",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мы ___ чай с лимо́ном.",
+          "choices": [
+            "пьём",
+            "пьют",
+            "пью"
+          ],
+          "answer": 0,
+          "explanationEs": "мы пьём.",
+          "es": "Tomamos té con limón.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-59",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Она́ ___ кефи́р ве́чером.",
+          "choices": [
+            "пьёт",
+            "пьёшь",
+            "пьют"
+          ],
+          "answer": 0,
+          "explanationEs": "она́ пьёт.",
+          "es": "Ella toma kéfir en la noche.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-60",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Они́ ___ пи́ццу с гриба́ми.",
+          "choices": [
+            "хотя́т",
+            "хо́чет",
+            "хоти́те"
+          ],
+          "answer": 0,
+          "explanationEs": "они́ хотя́т (хот-).",
+          "es": "Ellos quieren pizza con champiñones.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-61",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ты ___ десе́рт?",
+          "choices": [
+            "хо́чешь",
+            "хо́чет",
+            "хоти́шь"
+          ],
+          "answer": 0,
+          "explanationEs": "ты хо́чешь (хоч-).",
+          "es": "¿Quieres postre?",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-62",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "У́тром я ___ до́ма.",
+          "choices": [
+            "за́втракаю",
+            "у́жинаю",
+            "обе́даю"
+          ],
+          "answer": 0,
+          "explanationEs": "У́тром → за́втракать.",
+          "es": "En la mañana desayuno en casa.",
+          "tags": [
+            "4.1-g-meals"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-63",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ве́чером мы ___ вме́сте.",
+          "choices": [
+            "у́жинаем",
+            "за́втракаем",
+            "обе́даем"
+          ],
+          "answer": 0,
+          "explanationEs": "Ве́чером → у́жинать.",
+          "es": "En la noche cenamos juntos.",
+          "tags": [
+            "4.1-g-meals"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-64",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Днём я ___ в кафе́ с колле́гами.",
+          "choices": [
+            "обе́даю",
+            "у́жинаю",
+            "за́втракаю"
+          ],
+          "answer": 0,
+          "explanationEs": "Днём → обе́дать.",
+          "es": "A mediodía como en un café con mis colegas.",
+          "tags": [
+            "4.1-g-meals"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-65",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "На ___ я ем ка́шу и пью чай.",
+          "choices": [
+            "за́втрак",
+            "за́втракать",
+            "у́тром"
+          ],
+          "answer": 0,
+          "explanationEs": "«de desayuno» = на за́втрак (sustantivo).",
+          "es": "De desayuno como kasha y tomo té.",
+          "tags": [
+            "4.1-g-meals"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-66",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Что вы обы́чно еди́те на ___?",
+          "choices": [
+            "обе́д",
+            "обе́дать",
+            "днём"
+          ],
+          "answer": 0,
+          "explanationEs": "на обе́д = de comida.",
+          "es": "¿Qué come normalmente de comida?",
+          "tags": [
+            "4.1-g-meals"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-67",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el verbo",
+          "sentence": "Где вы лю́бите ___? (cenar)",
+          "answers": [
+            "у́жинать"
+          ],
+          "hint": "cenar",
+          "explanationEs": "у́жин → у́жинать.",
+          "es": "¿Dónde le gusta cenar?",
+          "tags": [
+            "4.1-g-meals"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-68",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la palabra",
+          "sentence": "___ я пью ко́фе. (en la mañana)",
+          "answers": [
+            "У́тром"
+          ],
+          "hint": "¿Когда́?",
+          "explanationEs": "у́тро → у́тром.",
+          "es": "En la mañana tomo café.",
+          "tags": [
+            "4.1-g-meals"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-69",
+          "type": "match",
+          "instructionEs": "Une la comida con su verbo",
+          "pairs": [
+            [
+              "за́втрак",
+              "за́втракать"
+            ],
+            [
+              "обе́д",
+              "обе́дать"
+            ],
+            [
+              "у́жин",
+              "у́жинать"
+            ],
+            [
+              "у́тро",
+              "у́тром"
+            ],
+            [
+              "ве́чер",
+              "ве́чером"
+            ]
+          ],
+          "tags": [
+            "4.1-g-meals"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-70",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Я ___ не ем мя́со. (0%)",
+          "choices": [
+            "никогда́",
+            "всегда́",
+            "ре́дко"
+          ],
+          "answer": 0,
+          "explanationEs": "0% = никогда́ + не.",
+          "es": "Nunca como carne.",
+          "tags": [
+            "4.1-g-frequency"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-71",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Я ___ за́втракаю. (100%)",
+          "choices": [
+            "всегда́",
+            "иногда́",
+            "никогда́"
+          ],
+          "answer": 0,
+          "explanationEs": "100% = всегда́.",
+          "es": "Siempre desayuno.",
+          "tags": [
+            "4.1-g-frequency"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-72",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мы ___ обе́даем в рестора́не. (20%)",
+          "choices": [
+            "ре́дко",
+            "ча́сто",
+            "всегда́"
+          ],
+          "answer": 0,
+          "explanationEs": "20% = ре́дко.",
+          "es": "Rara vez comemos en un restaurante.",
+          "tags": [
+            "4.1-g-frequency"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-73",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "___ я ем блины́. (40%)",
+          "choices": [
+            "Иногда́",
+            "Всегда́",
+            "Никогда́"
+          ],
+          "answer": 0,
+          "explanationEs": "40% = иногда́.",
+          "es": "A veces como crepas.",
+          "tags": [
+            "4.1-g-frequency"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-74",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Марокка́нцы ___ пьют зелёный чай. (80%)",
+          "choices": [
+            "ча́сто",
+            "ре́дко",
+            "никогда́ не"
+          ],
+          "answer": 0,
+          "explanationEs": "80% = ча́сто.",
+          "es": "Los marroquíes toman té verde seguido.",
+          "tags": [
+            "4.1-g-frequency"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-75",
+          "type": "sort",
+          "instructionEs": "¿Mucho o poco?",
+          "categories": [
+            "mucho (всегда́…)",
+            "poco (ре́дко…)"
+          ],
+          "items": [
+            {
+              "text": "всегда́",
+              "category": "mucho (всегда́…)"
+            },
+            {
+              "text": "ча́сто",
+              "category": "mucho (всегда́…)"
+            },
+            {
+              "text": "обы́чно",
+              "category": "mucho (всегда́…)"
+            },
+            {
+              "text": "иногда́",
+              "category": "poco (ре́дко…)"
+            },
+            {
+              "text": "ре́дко",
+              "category": "poco (ре́дко…)"
+            },
+            {
+              "text": "никогда́ не",
+              "category": "poco (ре́дко…)"
+            }
+          ],
+          "tags": [
+            "4.1-g-frequency"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-76",
+          "type": "sort",
+          "instructionEs": "Clasifica: ¿comida, fruta/verdura, postre o bebida?",
+          "categories": [
+            "еда́",
+            "фру́кты и о́вощи",
+            "десе́рты",
+            "напи́тки"
+          ],
+          "items": [
+            {
+              "text": "ры́ба",
+              "category": "еда́"
+            },
+            {
+              "text": "сыр",
+              "category": "еда́"
+            },
+            {
+              "text": "огуре́ц",
+              "category": "фру́кты и о́вощи"
+            },
+            {
+              "text": "виногра́д",
+              "category": "фру́кты и о́вощи"
+            },
+            {
+              "text": "моро́женое",
+              "category": "десе́рты"
+            },
+            {
+              "text": "пирожо́к",
+              "category": "десе́рты"
+            },
+            {
+              "text": "кефи́р",
+              "category": "напи́тки"
+            },
+            {
+              "text": "морс",
+              "category": "напи́тки"
+            }
+          ],
+          "tags": [],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-77",
+          "type": "match",
+          "instructionEs": "Une las parejas",
+          "pairs": [
+            [
+              "хлеб",
+              "pan"
+            ],
+            [
+              "ма́сло",
+              "mantequilla"
+            ],
+            [
+              "мёд",
+              "miel"
+            ],
+            [
+              "ветчина́",
+              "jamón"
+            ],
+            [
+              "колбаса́",
+              "salchichón"
+            ]
+          ],
+          "tags": [],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-78",
+          "type": "match",
+          "instructionEs": "Une las parejas",
+          "pairs": [
+            [
+              "капу́ста",
+              "col"
+            ],
+            [
+              "свёкла",
+              "betabel"
+            ],
+            [
+              "лук",
+              "cebolla"
+            ],
+            [
+              "морко́вь",
+              "zanahoria"
+            ],
+            [
+              "огуре́ц",
+              "pepino"
+            ]
+          ],
+          "tags": [],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-79",
+          "type": "match",
+          "instructionEs": "Une las parejas",
+          "pairs": [
+            [
+              "ка́ша",
+              "kasha (avena…)"
+            ],
+            [
+              "хло́пья",
+              "cereal"
+            ],
+            [
+              "варе́нье",
+              "mermelada"
+            ],
+            [
+              "соси́ска",
+              "salchicha"
+            ],
+            [
+              "морепроду́кты",
+              "mariscos"
+            ]
+          ],
+          "tags": [],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-80",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el plural",
+          "sentence": "помидо́р → ___ (plural)",
+          "answers": [
+            "помидо́ры"
+          ],
+          "hint": "plural",
+          "explanationEs": "помидо́р → помидо́ры.",
+          "es": "jitomate → jitomates",
+          "tags": [],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-81",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el plural",
+          "sentence": "огуре́ц → ___ (plural)",
+          "answers": [
+            "огурцы́"
+          ],
+          "hint": "plural",
+          "explanationEs": "огуре́ц → огурцы́ (se pierde la е).",
+          "es": "pepino → pepinos",
+          "tags": [],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-82",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el plural",
+          "sentence": "яйцо́ → ___ (plural)",
+          "answers": [
+            "я́йца"
+          ],
+          "hint": "plural",
+          "explanationEs": "яйцо́ → я́йца (cambia el acento).",
+          "es": "huevo → huevos",
+          "tags": [],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-83",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el plural",
+          "sentence": "пирожо́к → ___ (plural)",
+          "answers": [
+            "пирожки́"
+          ],
+          "hint": "plural",
+          "explanationEs": "пирожо́к → пирожки́.",
+          "es": "pastelito → pastelitos",
+          "tags": [],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-84",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el singular",
+          "sentence": "блины́ → ___ (singular)",
+          "answers": [
+            "блин"
+          ],
+          "hint": "singular",
+          "explanationEs": "блины́ → блин.",
+          "es": "crepas → crepa",
+          "tags": [],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-85",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el singular",
+          "sentence": "грибы́ → ___ (singular)",
+          "answers": [
+            "гриб"
+          ],
+          "hint": "singular",
+          "explanationEs": "грибы́ → гриб.",
+          "es": "champiñones → champiñón",
+          "tags": [],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-86",
+          "type": "dialogue",
+          "instructionEs": "Completa el diálogo",
+          "lines": [
+            {
+              "speaker": "Официа́нт",
+              "ru": "Вам во́ду с га́зом и́ли без га́за?"
+            },
+            {
+              "speaker": "Ли́за",
+              "ru": "___"
+            }
+          ],
+          "choices": [
+            "Без га́за, пожа́луйста.",
+            "Без газ, пожа́луйста.",
+            "С газ, пожа́луйста."
+          ],
+          "answer": 0,
+          "explanationEs": "без + га́за (genitivo).",
+          "es": "—¿Agua con gas o sin gas? —Sin gas, por favor.",
+          "tags": [
+            "4.1-g-bez-gen",
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-87",
+          "type": "dialogue",
+          "instructionEs": "Completa el diálogo",
+          "lines": [
+            {
+              "speaker": "Ма́ма",
+              "ru": "Что ты хо́чешь на за́втрак?"
+            },
+            {
+              "speaker": "Ко́стя",
+              "ru": "___"
+            }
+          ],
+          "choices": [
+            "Я хочу́ блины́ с мёдом!",
+            "Я хо́чет блины́ с мёдом!",
+            "Я хочу́ блины́ с мёд!"
+          ],
+          "answer": 0,
+          "explanationEs": "я хочу́ + с мёдом (instrumental).",
+          "es": "—¿Qué quieres de desayuno? —¡Quiero crepas con miel!",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-88",
+          "type": "dialogue",
+          "instructionEs": "Completa el diálogo",
+          "lines": [
+            {
+              "speaker": "Ди́ма",
+              "ru": "Вы хоти́те ко́фе с са́харом и молоко́м?"
+            },
+            {
+              "speaker": "А́нна",
+              "ru": "___"
+            }
+          ],
+          "choices": [
+            "Нет, спаси́бо, я пью ко́фе без ничего́.",
+            "Нет, спаси́бо, я пью ко́фе с ничего́.",
+            "Нет, спаси́бо, я ем ко́фе."
+          ],
+          "answer": 0,
+          "explanationEs": "«sin nada» = без ничего́.",
+          "es": "—¿Quiere café con azúcar y leche? —No, gracias, tomo el café sin nada.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-89",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "café con leche",
+          "answers": [
+            "ко́фе с молоко́м"
+          ],
+          "es": "café con leche",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-90",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "té sin azúcar",
+          "answers": [
+            "чай без са́хара"
+          ],
+          "es": "té sin azúcar",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-91",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "agua sin gas",
+          "answers": [
+            "вода́ без га́за",
+            "во́ду без га́за"
+          ],
+          "es": "agua sin gas",
+          "tags": [
+            "4.1-g-bez-gen"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-92",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "Yo como, tú bebes.",
+          "answers": [
+            "Я ем, ты пьёшь.",
+            "Я ем, а ты пьёшь."
+          ],
+          "es": "Yo como, tú bebes.",
+          "tags": [
+            "4.1-g-est-pit"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-93",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "Nunca tomo café.",
+          "answers": [
+            "Я никогда́ не пью ко́фе."
+          ],
+          "explanationEs": "никогда́ + не.",
+          "es": "Nunca tomo café.",
+          "tags": [
+            "4.1-g-frequency"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-94",
+          "type": "translate",
+          "direction": "ru-es",
+          "prompt": "Мы с бра́том у́жинаем до́ма.",
+          "answers": [
+            "Mi hermano y yo cenamos en casa.",
+            "Yo y mi hermano cenamos en casa.",
+            "Mi hermano y yo cenamos en la casa."
+          ],
+          "es": "Mi hermano y yo cenamos en casa.",
+          "tags": [
+            "4.1-g-s-instr"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-95",
+          "type": "word_order",
+          "instructionEs": "Ordena las palabras",
+          "words": [
+            "На",
+            "за́втрак",
+            "я",
+            "ем",
+            "ка́шу",
+            "с",
+            "мёдом"
+          ],
+          "answer": "На за́втрак я ем ка́шу с мёдом",
+          "es": "De desayuno como kasha con miel.",
+          "tags": [
+            "4.1-g-s-instr",
+            "4.1-g-meals"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        },
+        {
+          "id": "4.1-x-96",
+          "type": "word_order",
+          "instructionEs": "Ordena las palabras",
+          "words": [
+            "Я",
+            "никогда́",
+            "не",
+            "пью",
+            "пи́во"
+          ],
+          "answer": "Я никогда́ не пью пи́во",
+          "es": "Nunca tomo cerveza.",
+          "tags": [
+            "4.1-g-frequency"
+          ],
+          "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
+        }
+      ]
+    }
+  ],
+  "sneakIns": [
+    {
+      "id": "4-s-smetana",
+      "ru": "смета́на",
+      "es": "crema agria (smetana)",
+      "pos": "noun",
+      "gender": "f",
+      "topic": "comida",
+      "example": {
+        "ru": "Борщ со смета́ной — э́то вку́сно!",
+        "es": "¡El borsch con smetana es delicioso!"
+      },
+      "fromSlovar": false,
+      "sneak": true
+    },
+    {
+      "id": "4-s-tvorog",
+      "ru": "творо́г",
+      "es": "requesón",
+      "pos": "noun",
+      "gender": "m",
+      "topic": "comida",
+      "example": {
+        "ru": "На за́втрак я ем творо́г с мёдом.",
+        "es": "De desayuno como requesón con miel."
+      },
+      "fromSlovar": false,
+      "sneak": true
+    },
+    {
+      "id": "4-s-grechka",
+      "ru": "гре́чка",
+      "es": "trigo sarraceno (alforfón)",
+      "pos": "noun",
+      "gender": "f",
+      "topic": "comida",
+      "example": {
+        "ru": "Гре́чка — люби́мая ка́ша в Росси́и.",
+        "es": "El alforfón es la kasha favorita en Rusia."
+      },
+      "fromSlovar": false,
+      "sneak": true
+    },
+    {
+      "id": "4-s-syrniki",
+      "ru": "сы́рники",
+      "es": "tortitas de requesón",
+      "pos": "noun",
+      "gender": "pl",
+      "topic": "comida",
+      "example": {
+        "ru": "Ба́бушка гото́вит сы́рники со смета́ной.",
+        "es": "La abuela hace sýrniki con smetana."
+      },
+      "fromSlovar": false,
+      "sneak": true
+    },
+    {
+      "id": "4-s-yaichnica",
+      "ru": "яи́чница",
+      "es": "huevos estrellados",
+      "pos": "noun",
+      "gender": "f",
+      "topic": "comida",
+      "example": {
+        "ru": "У́тром па́па гото́вит яи́чницу.",
+        "es": "En la mañana papá hace huevos estrellados."
+      },
+      "fromSlovar": false,
+      "sneak": true
+    },
+    {
+      "id": "4-s-chashka",
+      "ru": "ча́шка",
+      "es": "taza",
+      "pos": "noun",
+      "gender": "f",
+      "topic": "comida",
+      "example": {
+        "ru": "Ча́шка ча́я, пожа́луйста.",
+        "es": "Una taza de té, por favor."
+      },
+      "fromSlovar": false,
+      "sneak": true
+    },
+    {
+      "id": "4-s-tarelka",
+      "ru": "таре́лка",
+      "es": "plato",
+      "pos": "noun",
+      "gender": "f",
+      "topic": "comida",
+      "example": {
+        "ru": "На таре́лке ры́ба с карто́фелем.",
+        "es": "En el plato hay pescado con papas."
+      },
+      "fromSlovar": false,
+      "sneak": true
+    },
+    {
+      "id": "4-s-vkusno",
+      "ru": "вку́сно",
+      "es": "rico, delicioso (¡qué rico!)",
+      "pos": "adv",
+      "topic": "comida",
+      "example": {
+        "ru": "О́чень вку́сно, спаси́бо!",
+        "es": "¡Muy rico, gracias!"
+      },
+      "fromSlovar": false,
+      "sneak": true
+    }
+  ]
+}

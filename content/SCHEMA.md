@@ -107,6 +107,8 @@ Common fields: `id`, `type`, `instructionEs`, `explanationEs` (shown after answe
 translation of the exercise's Russian text with the correct answer filled in — shown after a correct
 answer; for `match`/`sort` list the meanings, e.g. "шу́мный = ruidoso · ти́хий = tranquilo"), `tags`
 (vocab/grammar ids), `origin`: `"textbook p.62 ex.5"` | `"workbook p.60 ex.3"` | `"original"`.
+Optional `image` (on `fill_choice`): a painting under public/, e.g. `"img/food/chai-s-limonom.jpg"` (made by
+`build-images.ts --food`); the exercise becomes a picture question (pick the phrase, and a typed "write what you see").
 
 | type | specific fields |
 |---|---|

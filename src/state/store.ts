@@ -23,6 +23,8 @@ export interface Settings {
   /** The skill the learner chose to strengthen (suggested from their weakest), and since when. */
   goal: Skill | null
   goalSince: string | null
+  /** The class position (CLASS_AT) last applied to these settings. */
+  classAt?: string
 }
 
 export interface Stats {
@@ -86,11 +88,19 @@ interface Actions {
   resetAll: () => void
 }
 
+/** Where the class is now. When this moves on, everyone who was behind it is moved up once (they can change it back in Ajustes). */
+export const CLASS_AT = '4.1'
+const lessonBefore = (a: string, b: string) => {
+  const [x, y] = [a, b].map((id) => id.split('.').map(Number))
+  return x[0] !== y[0] ? x[0] < y[0] : (x[1] ?? 0) < (y[1] ?? 0)
+}
+
 export const defaultSettings: Settings = {
   name: '',
   onboarded: false,
-  focusLessons: ['3.4'],
-  coveredUpTo: '3.4',
+  focusLessons: [CLASS_AT],
+  coveredUpTo: CLASS_AT,
+  classAt: CLASS_AT,
   sessionLength: 15,
   translit: false,
   theme: 'light',
@@ -223,6 +233,14 @@ export const useStore = create<PersistedState & Actions>()(
         // Before themeMode existed, light was just the default: only an explicit dark choice is kept.
         const saved = p.settings as Partial<Settings> | undefined
         if (saved && saved.themeMode === undefined) settings.themeMode = saved.theme === 'dark' ? 'dark' : 'system'
+        // The class moved on: unlock the new lesson and make it the focus, once per move.
+        if (saved && saved.classAt !== CLASS_AT) {
+          if (lessonBefore(settings.coveredUpTo, CLASS_AT)) {
+            settings.coveredUpTo = CLASS_AT
+            settings.focusLessons = [CLASS_AT]
+          }
+          settings.classAt = CLASS_AT
+        }
         return { ...current, ...p, settings, stats: { ...current.stats, ...p.stats } }
       },
     },

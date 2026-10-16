@@ -58,6 +58,14 @@ export const PAINTED: Record<string, PaintedMural> = {
     ${smoke(283, 1366)}
     ${put('cloud1', 30, 1500, 'm-cloud m-slow', 0.8)}
   `) },
+  ch4: { image: `${B}img/murals/ch4.jpg`, night: `${B}img/murals/ch4-night.jpg`, overlay: () => wrap(1800, `
+    ${put('cloud1', 30, 20, 'm-cloud')}${put('cloud2', 280, 40, 'm-cloud m-slow')}${birds(120, 60)}
+    ${put('rowboat', 262, 140, 'm-ferry m-short', 0.9)}
+    ${smoke(168, 1086)}${smoke(87, 1410)}
+    ${birds(300, 1000)}
+    ${put('rivertram', 206, 1690, 'm-ferry')}
+    ${put('sailboat', 40, 1730, 'm-ferry m-short', 1.1)}
+  `) },
   cap: { image: `${B}img/murals/cap.jpg`, night: `${B}img/murals/cap-night.jpg`, overlay: () => wrap(430, `
     ${put('cloud1', 40, 40, 'm-cloud')}${put('cloud2', 260, 70, 'm-cloud m-slow')}${birds(150, 60)}
   `) },

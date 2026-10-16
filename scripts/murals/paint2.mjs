@@ -60,6 +60,11 @@ const CHAPTERS = {
     [1089, 'A small Russian town: the lake shore at the top; a five-storey Soviet panel apartment block with balconies (on the balconies a guitarist, an actress with flowers, a woman waving), a courtyard with a playground, swings and a bench, several coloured parked cars, an old man fixing his old car; below, an old red-brick factory turned creative office with tall arched windows, a tall brick chimney, a rooftop garden with a hammock, an orange tube slide coming out of the building, a yellow coffee food truck and bicycles.'],
     [2178, 'Russian countryside: a forest lake with a tree-house hotel built in a huge oak (a little wooden cabin with a rope ladder), a wooden bungalow on stilts with a veranda over the water, pines with a hammock; then a village plot with a white picket fence: a wooden izba with carved blue window frames and a porch, a small garage, a little pool with a turtle beside it, vegetable beds, sunflowers and a well-sweep; at the bottom a country road through birch and pine forest with red mushrooms, a fox and haystacks. Leave the lake without boats.'],
   ] },
+  ch4: { h: 3600, sections: [
+    [0, 'Nizhny Novgorod on the Volga. Top: the wide Volga river where the Oka joins it, with green banks and a simple wooden footbridge where the route crosses the water; leave the water without boats. Then the Nizhny Novgorod Fair: a long cream-and-yellow classical main building with rows of windows, a central white tower with a clock and a small golden onion dome topped by a Russian tricolour flag, an arched gateway at the bottom of the tower where the route passes through; in front, a row of little wooden fair stalls with coloured pointed roofs, people strolling, birches at the sides.'],
+    [1089, 'Old Nizhny Novgorod merchant quarter: at the top a cobbled square with the Gostiny Dvor shopping arcade (a long pale-yellow building with a row of tall arches whose shop windows glow warmly, a green roof), shoppers carrying colourful shopping bags, trees and lamps. Below, a 19th-century pink merchant house turned fashion atelier: a green awning over two big shop windows displaying dresses on mannequins (red, blue, yellow dresses and a green suit), a door between them, rolls of colourful fabric leaning by the wall, a seamstress with a measuring tape and a lady trying on a hat.'],
+    [2178, 'The Volga riverside, Russian food: at the top a meadow with a traditional wooden log traktir restaurant with carved red window frames and warmly lit windows, a terrace with round tables where people eat, a chef in a white hat holding a pot of red borscht. Below, a lively cobbled riverside farmers market: stalls with striped awnings piled with red apples, oranges, green cabbages, cucumbers, tomatoes and purple beetroot; a bakery stall with round loaves, bread rolls and a stack of golden blini; a table with a brass samovar and glasses of tea; a cart of apples; shoppers with baskets. At the bottom a sandy bank and a long wooden pier running out into the wide blue Volga; leave the water without boats.'],
+  ] },
   cap: { h: 860, aspect: '1:1', sections: [
     [0, 'The road continues across a meadow of wildflowers with birches toward a warm sunset horizon with distant forested hills and a soft sky (no clouds); a wooden signpost with two blank boards beside the road; the road narrows into the distance.'],
   ] },
@@ -88,7 +93,7 @@ const mk = (...a) => execFileSync('magick', a.map(String), { stdio: 'inherit' })
 /** One pass over a chapter: `source` is the full-height input (layout or sketch), result → `<name>-<pass>.png`. */
 async function runPass(name, ch, pass, source) {
   const canvas = join(WORK, `${name}-${pass}.png`)
-  const F = 160
+  const F = 330 // blend across the whole overlap so a tone change between sections fades out
   mk('-size', `800x${ch.h}`, 'xc:#f4efe2', '-colorspace', 'sRGB', '-type', 'TrueColor', canvas) // not greyscale, or the colour is lost when sections are joined
   let ref = null, doneTo = 0
   for (const [i, [top, desc]] of [...ch.sections.entries()].sort((a, b) => a[1][0] - b[1][0])) {

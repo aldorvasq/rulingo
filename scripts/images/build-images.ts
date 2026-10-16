@@ -55,6 +55,62 @@ const HINTS: Record<string, string> = {
   'банк': 'a bank: an open steel safe full of gold coins and banknote bundles behind a counter',
   'визитка': 'a small business card held between two fingers, a neat stack of business cards on a desk (cards are blank)',
   'студент': 'a university student with a backpack and books walking in front of a grand university building',
+  // 4.1 food: each must be told apart from its neighbours at a glance.
+  'паста': 'Italian short pasta (penne and fusilli) with tomato sauce in a bowl, NOT long spaghetti',
+  'масло': 'a block of yellow butter on a small wooden board with a butter knife and a slice of bread spread with butter',
+  'мёд': 'a clay pot of golden honey with a wooden honey dipper dripping honey, a honeycomb beside it',
+  'хлопья': 'a bowl of breakfast cereal cornflakes with milk, a spoon, cornflakes spilling on the table',
+  'сахар': 'white sugar: a sugar bowl full of white sugar cubes, a few cubes and a sugar spoon beside it',
+  'соль': 'salt: a wooden salt cellar full of coarse white salt, a pinch of salt scattered on the table',
+  'ветчина': 'thin pink slices of cooked ham fanned out on a plate, a piece of whole ham beside them',
+  'колбаса': 'a whole Russian salami sausage (kolbasa) and round sliced pieces of it on a cutting board',
+  'сосиска': 'two boiled pink frankfurter sausages on a plate with a little mustard',
+  'каша': 'a bowl of hot porridge (Russian kasha) with a pat of butter melting on top and a wooden spoon',
+  'блины': 'a stack of thin golden Russian crepes (blini) on a plate, one folded into a triangle',
+  'варенье': 'a glass jar of red strawberry jam (varenye) with a spoon, fresh strawberries beside it',
+  'морепродукты': 'seafood: shrimps, mussels and a squid on crushed ice on a platter',
+  'картофель': 'raw brown potatoes, several of them, one cut in half, on a burlap sack',
+  'виноград': 'a bunch of green grapes on a vine leaf',
+  'киви': 'a kiwi fruit: one whole brown hairy kiwi and one cut in half showing the green flesh with black seeds',
+  'помидор': 'two ripe red tomatoes on the vine with green leaves, one cut showing the inside',
+  'гриб': 'a single forest mushroom (porcini, brown cap, thick white stem) on moss',
+  'апельсин': 'an orange fruit with a leaf, and a cut half showing the juicy segments',
+  'огурец': 'two fresh green cucumbers, one sliced into round pieces',
+  'лук': 'a brown onion bulb and a cut half showing the white rings, NOT garlic',
+  'морковь': 'orange carrots with green leafy tops',
+  'капуста': 'a whole round head of green cabbage with outer leaves',
+  'свёкла': 'dark red-purple beetroots with leaves, one cut showing the deep red rings',
+  'редис': 'a small bunch of red radishes with green leaves, one sliced showing white inside',
+  'орехи': 'walnuts and hazelnuts, some cracked open, in a small wooden bowl',
+  'шоколад': 'a bar of dark chocolate with its paper peeled back and squares broken off (no writing on the wrapper)',
+  'мороженое': 'ice cream: two scoops of vanilla ice cream in a waffle cone',
+  'пирожок': 'Russian pirozhki: small golden oval baked buns with filling, one broken open showing cabbage filling',
+  'молоко': 'milk: a clay jug pouring white milk into a glass',
+  'кефир': 'kefir: a thick white drink in a tall glass next to an old-fashioned glass bottle with a green foil cap (no writing)',
+  'горячий шоколад': 'hot chocolate: a big mug of steaming dark hot cocoa with whipped cream on top',
+  'квас': 'kvass: a mug of dark amber-brown foamy kvass next to a slice of dark rye bread',
+  'морс': 'mors: a glass jug of deep red cranberry drink and a glass, fresh red cranberries scattered around',
+  'лёд': 'ice: a bowl of clear ice cubes, a few cubes on the table',
+  'соус': 'a small gravy boat of brown sauce being poured over a plate of meat',
+  'майонез': 'mayonnaise: a small glass bowl of thick white mayonnaise with a spoon (no jar label)',
+  'йогурт': 'a glass of white yogurt with pieces of fruit and berries on top and a spoon',
+  'курица': 'a roast chicken, golden brown, on a plate with herbs',
+  'мясо': 'a piece of raw red beef steak on a wooden butcher board with a sprig of rosemary',
+  'рис': 'a bowl of white boiled rice with chopsticks',
+  'яйцо': 'a single brown chicken egg and one boiled egg cut in half beside it',
+  'хлеб': 'a loaf of Russian bread (a round rye loaf) with a few slices cut',
+  'круассан': 'a single golden flaky French croissant',
+  'сыр': 'a wedge of yellow cheese with holes and a few slices',
+  'завтрак': 'breakfast: a morning table by a sunny window with porridge, a boiled egg, bread with butter and a cup of tea; morning sunlight',
+  'обед': 'lunch at midday: a table with a bowl of soup, a plate of meat with potatoes, bread and a glass of juice; bright midday light',
+  'ужин': 'dinner in the evening: a family table with a plate of fish and vegetables, a candle and a lamp lit, dark window with a moon',
+  'сметана': 'smetana (sour cream): a small clay bowl of thick white sour cream with a spoon, beside a bowl of red borscht',
+  'творог': 'tvorog (cottage cheese): a bowl of crumbly white farmer cheese with a spoon',
+  'гречка': 'grechka: a bowl of cooked brown buckwheat with butter, a sack of raw buckwheat grains beside it',
+  'сырники': 'syrniki: small round golden fried cottage-cheese pancakes on a plate with sour cream and berries',
+  'яичница': 'fried eggs: two sunny-side-up eggs in a black frying pan',
+  'чашка': 'an empty porcelain teacup with a saucer, painted with a blue folk pattern',
+  'тарелка': 'an empty white plate with a blue folk-pattern rim, a fork and a knife beside it',
 }
 const DONE_REDO = join(RAW, 'redone.json')
 const redone: string[] = existsSync(DONE_REDO) ? JSON.parse(readFileSync(DONE_REDO, 'utf8')) : []
@@ -189,14 +245,69 @@ if (process.argv.includes('--colours')) {
   process.exit(0)
 }
 
+
+// --food [--batch]: dishes "with / without" for the с / без picture exercises (public/img/food/<key>.jpg, the
+// `image` field of content exercises). The painting must make the «с …» / «без …» difference obvious.
+if (process.argv.includes('--food')) {
+  const FOOD: Record<string, string> = {
+    'chai-s-limonom': 'a glass of amber tea in a metal glass-holder with a big bright slice of lemon floating in it, a cut lemon beside it',
+    'kofe-s-molokom': 'a cup of light milky coffee (café au lait, clearly pale brown) with a small jug of milk being poured into it',
+    'kofe-bez-moloka': 'a small cup of pure black coffee, very dark, with no milk anywhere; a few coffee beans beside it',
+    'voda-s-gazom': 'a glass of sparkling water full of many lively bubbles rising, fizzing at the top, a glass bottle beside it (no label)',
+    'voda-bez-gaza': 'a glass of perfectly still clear water with absolutely no bubbles, calm surface, a glass carafe beside it',
+    'buterbrod-s-syrom': 'an open-faced Russian sandwich: a slice of bread topped only with slices of yellow cheese with holes',
+    'buterbrod-s-vetchinoj': 'an open-faced Russian sandwich: a slice of bread topped only with pink slices of ham',
+    'picca-s-gribami': 'a round pizza topped generously with sliced brown mushrooms and cheese (no other toppings)',
+    'bliny-s-myodom': 'a stack of thin Russian crepes with golden honey being drizzled from a honey dipper over them',
+    'bliny-s-varenyem': 'thin Russian crepes with bright red strawberry jam spooned over them, a little bowl of jam',
+    'kasha-s-fruktami': 'a bowl of porridge topped with slices of banana, strawberries and blueberries',
+    'ryba-s-kartofelem': 'a plate with a fried fish fillet and boiled potatoes with dill',
+    'morozhenoe-s-fruktami': 'a glass bowl of white ice cream scoops topped with pieces of fresh fruit: strawberries, kiwi, orange',
+    'salat-s-pomidorami': 'a bowl of green salad leaves with many bright red cherry tomatoes cut in halves',
+  }
+  const FOOD_OUT = join(ROOT, 'public', 'img', 'food')
+  mkdirSync(FOOD_OUT, { recursive: true })
+  const jobs = Object.entries(FOOD).filter(([k]) => !existsSync(join(FOOD_OUT, `${k}.jpg`)))
+    .map(([key, d]) => ({ key, prompt: `${STYLE} Subject: ${d}. Seen at a slight angle from above, on a simple wooden table. ${RULES}` }))
+  const done = (key: string) => { made++; process.stdout.write(`✓ ${key}\n`) }
+  if (process.argv.includes('--batch')) await viaBatch(jobs, (job, data, mime) => {
+    const raw = join(RAW, `food-${job.key}.${mime.includes('png') ? 'png' : 'jpg'}`)
+    writeFileSync(raw, Buffer.from(data, 'base64'))
+    publish(raw, join(FOOD_OUT, `${job.key}.jpg`))
+    done(job.key)
+  })
+  else for (const job of jobs) if (!stopped && await paint(job.prompt, `food-${job.key}`, join(FOOD_OUT, `${job.key}.jpg`))) done(job.key)
+  console.log(`\n${made} nuevas${stopped ? `\nPARÓ: ${stopped}` : ''}`)
+  process.exit(0)
+}
+
 const index: Record<string, string> = existsSync(INDEX) ? JSON.parse(readFileSync(INDEX, 'utf8')) : {}
+const promptFor = (word: string, emoji: string) => {
+  const es = gloss.get(word) ?? word
+  const subject = HINTS[word] ? `${HINTS[word]} (Russian word «${word}»)` : `«${es}» (Russian word «${word}»; the thing shown by the emoji ${emoji})`
+  return `${STYLE} Subject: ${subject}. ${RULES}`
+}
+// --batch: the missing vocabulary pictures in one half-price batch job.
+if (process.argv.includes('--batch')) {
+  const jobs = Object.entries(EMOJI).filter(([w]) => !(index[w] && existsSync(join(OUT, `${audioKey(w)}.jpg`))))
+    .slice(0, LIMIT).map(([key, emoji]) => ({ key, prompt: promptFor(key, emoji) }))
+  await viaBatch(jobs, (job, data, mime) => {
+    const raw = join(RAW, `${audioKey(job.key)}.${mime.includes('png') ? 'png' : 'jpg'}`)
+    writeFileSync(raw, Buffer.from(data, 'base64'))
+    publish(raw, join(OUT, `${audioKey(job.key)}.jpg`))
+    index[job.key] = `img/vocab/${audioKey(job.key)}.jpg`
+    writeFileSync(INDEX, JSON.stringify(index, null, 1) + '\n')
+    made++
+    process.stdout.write(`✓ ${job.key}\n`)
+  })
+  console.log(`\n${made} nuevas · ${Object.keys(index).length}/${Object.keys(EMOJI).length} en total${stopped ? `\nPARÓ: ${stopped}` : ''}`)
+  process.exit(0)
+}
 for (const [word, emoji] of Object.entries(EMOJI)) {
   if (made >= LIMIT || stopped) break
   const file = `${audioKey(word)}.jpg`
   if (index[word] && existsSync(join(OUT, file)) && !REDO.has(word)) continue
-  const es = gloss.get(word) ?? word
-  const subject = HINTS[word] ? `${HINTS[word]} (Russian word «${word}»)` : `«${es}» (Russian word «${word}»; the thing shown by the emoji ${emoji})`
-  if (await paint(`${STYLE} Subject: ${subject}. ${RULES}`, audioKey(word), join(OUT, file))) {
+  if (await paint(promptFor(word, emoji), audioKey(word), join(OUT, file))) {
     index[word] = `img/vocab/${file}`
     writeFileSync(INDEX, JSON.stringify(index, null, 1) + '\n')
     made++

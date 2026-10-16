@@ -51,6 +51,8 @@ interface ExBase {
   es?: string
   tags?: string[]
   origin?: string
+  /** A painting shown above the prompt (path under public/, e.g. img/food/chai-s-limonom.jpg). */
+  image?: string
 }
 
 export type ContentExercise = ExBase & (
