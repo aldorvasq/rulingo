@@ -2469,13 +2469,13 @@
         {
           "id": "4.1-x-34",
           "type": "fill_typed",
-          "instructionEs": "Escribe las dos palabras completas",
-          "sentence": "Пи́цца с ветчи́н___ и гри́б___.",
+          "instructionEs": "Escribe la palabra en instrumental",
+          "sentence": "Пи́цца с ___ и гриба́ми. (ветчина́)",
           "answers": [
-            "ветчино́й и гриба́ми"
+            "ветчино́й"
           ],
-          "hint": "escribe las dos palabras",
-          "explanationEs": "ветчина́ → ветчино́й, грибы́ → гриба́ми.",
+          "hint": "с + ?",
+          "explanationEs": "ветчина́ → с ветчино́й (-а → -ой).",
           "es": "Pizza con jamón y champiñones.",
           "tags": [
             "4.1-g-s-instr"
@@ -2744,13 +2744,12 @@
         {
           "id": "4.1-x-46",
           "type": "fill_typed",
-          "instructionEs": "Escribe las dos formas (separadas por coma)",
-          "sentence": "Я п___ ко́фе, а мои́ роди́тели п___ чай.",
+          "instructionEs": "Escribe la forma de пить",
+          "sentence": "Я пью ко́фе, а мои́ роди́тели ___ чай.",
           "answers": [
-            "пью, пьют",
-            "пью пьют"
+            "пьют"
           ],
-          "hint": "пить: я / они́",
+          "hint": "пить, они́",
           "explanationEs": "я пью, они́ пьют.",
           "es": "Yo tomo café y mis papás toman té.",
           "tags": [
