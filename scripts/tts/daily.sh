@@ -6,6 +6,12 @@ set -u
 cd "$(dirname "$0")/../.." || exit 1
 LOG=scripts/tts/cache/daily.log
 mkdir -p scripts/tts/cache
+# Once a day: the agent also starts at login (to catch up when the Mac slept through 19:45), and a second
+# run the same day only hits the 100-requests/day limit and makes the next scheduled run start short.
+STAMP=scripts/tts/cache/last-run-day
+TODAY=$(date '+%Y-%m-%d')
+if [[ "$(cat $STAMP 2>/dev/null)" == "$TODAY" ]]; then echo "=== $(date '+%Y-%m-%d %H:%M') === ya corrió hoy" >> "$LOG"; exit 0; fi
+echo "$TODAY" > $STAMP
 {
   echo "=== $(date '+%Y-%m-%d %H:%M') ==="
   npx tsx scripts/tts/build-audio.ts --budget 95
