@@ -34,5 +34,7 @@ const MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 
 export function examDateEs(e: Exam): string {
   const [y, m, d] = e.date.split('-').map(Number)
   const wd = new Date(Date.UTC(y, m - 1, d)).getUTCDay()
-  return `${WEEKDAYS[wd]} ${d} de ${MONTHS[m - 1]}`
+  const day = WEEKDAYS[wd]
+  // Capitalised: it always starts a line («Martes 27 de octubre · …»).
+  return `${day[0].toUpperCase()}${day.slice(1)} ${d} de ${MONTHS[m - 1]}`
 }

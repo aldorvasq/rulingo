@@ -1891,7 +1891,7 @@
             "Чай с молоко́м"
           ],
           "answer": 0,
-          "explanationEs": "с + instrumental: лимо́н → с лимо́ном.",
+          "explanationEs": "С + instrumental: лимо́н → с лимо́ном.",
           "es": "Té con limón.",
           "image": "img/food/chai-s-limonom.jpg",
           "tags": [
@@ -1910,7 +1910,7 @@
             "Ко́фе с са́харом"
           ],
           "answer": 0,
-          "explanationEs": "молоко́ → с молоко́м.",
+          "explanationEs": "Молоко́ → с молоко́м.",
           "es": "Café con leche.",
           "image": "img/food/kofe-s-molokom.jpg",
           "tags": [
@@ -1967,7 +1967,7 @@
             "Бутербро́д с ма́слом"
           ],
           "answer": 0,
-          "explanationEs": "сыр → с сы́ром.",
+          "explanationEs": "Сыр → с сы́ром.",
           "es": "Un sándwich de queso.",
           "image": "img/food/buterbrod-s-syrom.jpg",
           "tags": [
@@ -1986,7 +1986,7 @@
             "Бутербро́д с колбасо́й"
           ],
           "answer": 0,
-          "explanationEs": "ветчина́ → с ветчино́й (-а → -ой).",
+          "explanationEs": "Ветчина́ → с ветчино́й (-а → -ой).",
           "es": "Un sándwich de jamón.",
           "image": "img/food/buterbrod-s-vetchinoj.jpg",
           "tags": [
@@ -2005,7 +2005,7 @@
             "Пи́цца без сы́ра"
           ],
           "answer": 0,
-          "explanationEs": "plural: грибы́ → с гриба́ми.",
+          "explanationEs": "Plural: грибы́ → с гриба́ми.",
           "es": "Pizza con champiñones.",
           "image": "img/food/picca-s-gribami.jpg",
           "tags": [
@@ -2024,7 +2024,7 @@
             "Блины́ с ры́бой"
           ],
           "answer": 0,
-          "explanationEs": "мёд → с мёдом.",
+          "explanationEs": "Мёд → с мёдом.",
           "es": "Crepas con miel.",
           "image": "img/food/bliny-s-myodom.jpg",
           "tags": [
@@ -2043,7 +2043,7 @@
             "Блины́ с сы́ром"
           ],
           "answer": 0,
-          "explanationEs": "варе́нье → с варе́ньем (-е → -ем).",
+          "explanationEs": "Варе́нье → с варе́ньем (-е → -ем).",
           "es": "Crepas con mermelada.",
           "image": "img/food/bliny-s-varenyem.jpg",
           "tags": [
@@ -2062,7 +2062,7 @@
             "Ка́ша с мя́сом"
           ],
           "answer": 0,
-          "explanationEs": "plural: фру́кты → с фру́ктами.",
+          "explanationEs": "Plural: фру́кты → с фру́ктами.",
           "es": "Kasha con fruta.",
           "image": "img/food/kasha-s-fruktami.jpg",
           "tags": [
@@ -2081,7 +2081,7 @@
             "Мя́со с карто́фелем"
           ],
           "answer": 0,
-          "explanationEs": "карто́фель (-ь) → с карто́фелем.",
+          "explanationEs": "Карто́фель (-ь) → с карто́фелем.",
           "es": "Pescado con papas.",
           "image": "img/food/ryba-s-kartofelem.jpg",
           "tags": [
@@ -2100,7 +2100,7 @@
             "Торт с фру́ктами"
           ],
           "answer": 0,
-          "explanationEs": "фру́кты → с фру́ктами.",
+          "explanationEs": "Фру́кты → с фру́ктами.",
           "es": "Helado con fruta.",
           "image": "img/food/morozhenoe-s-fruktami.jpg",
           "tags": [
@@ -2119,7 +2119,7 @@
             "Рис с помидо́рами"
           ],
           "answer": 0,
-          "explanationEs": "помидо́ры → с помидо́рами.",
+          "explanationEs": "Помидо́ры → с помидо́рами.",
           "es": "Ensalada con jitomates.",
           "image": "img/food/salat-s-pomidorami.jpg",
           "tags": [
@@ -2138,7 +2138,7 @@
             "Чай с молоко́м"
           ],
           "answer": 0,
-          "explanationEs": "без + genitivo: молоко́ → без молока́.",
+          "explanationEs": "Без + genitivo: молоко́ → без молока́.",
           "es": "Café sin leche (café negro).",
           "image": "img/food/kofe-bez-moloka.jpg",
           "tags": [
@@ -2173,7 +2173,7 @@
             "с"
           ],
           "answer": 0,
-          "explanationEs": "хле́ба es genitivo → без.",
+          "explanationEs": "Хле́ба es genitivo → без.",
           "es": "Nuestro hijo siempre come la sopa sin pan.",
           "tags": [
             "4.1-g-bez-gen"
@@ -2190,7 +2190,7 @@
             "без"
           ],
           "answer": 0,
-          "explanationEs": "морепроду́ктами = instrumental → с.",
+          "explanationEs": "Морепроду́ктами = instrumental → с.",
           "es": "Me encanta el arroz con mariscos.",
           "tags": [
             "4.1-g-s-instr"
@@ -2207,7 +2207,7 @@
             "с"
           ],
           "answer": 0,
-          "explanationEs": "со́ли = genitivo → без.",
+          "explanationEs": "Со́ли = genitivo → без.",
           "es": "Mamá hace la sopa sin sal.",
           "tags": [
             "4.1-g-bez-gen"
@@ -2224,7 +2224,7 @@
             "без"
           ],
           "answer": 0,
-          "explanationEs": "подру́гой = instrumental → с.",
+          "explanationEs": "Подру́гой = instrumental → с.",
           "es": "La estudiante come en un café con una amiga.",
           "tags": [
             "4.1-g-s-instr"
@@ -2241,7 +2241,7 @@
             "с"
           ],
           "answer": 0,
-          "explanationEs": "бага́жа = genitivo → без.",
+          "explanationEs": "Бага́жа = genitivo → без.",
           "es": "Me gusta viajar sin equipaje.",
           "tags": [
             "4.1-g-bez-gen"
@@ -2259,7 +2259,7 @@
             "газ"
           ],
           "answer": 0,
-          "explanationEs": "без + genitivo: газ → га́за.",
+          "explanationEs": "Без + genitivo: газ → га́за.",
           "es": "¿Agua con gas o sin gas?",
           "tags": [
             "4.1-g-bez-gen"
@@ -2277,7 +2277,7 @@
             "лимо́н"
           ],
           "answer": 0,
-          "explanationEs": "с + instrumental: лимо́н → лимо́ном.",
+          "explanationEs": "С + instrumental: лимо́н → лимо́ном.",
           "es": "En Rusia toman el té con limón.",
           "tags": [
             "4.1-g-s-instr"
@@ -2295,7 +2295,7 @@
             "молоко́"
           ],
           "answer": 0,
-          "explanationEs": "без + genitivo: молоко́ → молока́.",
+          "explanationEs": "Без + genitivo: молоко́ → молока́.",
           "es": "Mi hermana está a dieta: toma el café sin leche.",
           "tags": [
             "4.1-g-bez-gen"
@@ -2313,7 +2313,7 @@
             "свёкла"
           ],
           "answer": 0,
-          "explanationEs": "со + instrumental: свёкла → свёклой (со por las consonantes св-).",
+          "explanationEs": "Со + instrumental: свёкла → свёклой (со por las consonantes св-).",
           "es": "El borsch es una sopa con betabel.",
           "tags": [
             "4.1-g-s-instr"
@@ -2347,7 +2347,7 @@
             "са́харом"
           ],
           "hint": "с + ?",
-          "explanationEs": "са́хар → с са́харом (-ом).",
+          "explanationEs": "Са́хар → с са́харом (-ом).",
           "es": "Té con azúcar.",
           "tags": [
             "4.1-g-s-instr"
@@ -2363,7 +2363,7 @@
             "со́ли"
           ],
           "hint": "без + ?",
-          "explanationEs": "соль → без со́ли (-ь → -и).",
+          "explanationEs": "Соль → без со́ли (-ь → -и).",
           "es": "Sopa sin sal.",
           "tags": [
             "4.1-g-bez-gen"
@@ -2379,7 +2379,7 @@
             "со́уса"
           ],
           "hint": "без + ?",
-          "explanationEs": "со́ус → без со́уса.",
+          "explanationEs": "Со́ус → без со́уса.",
           "es": "Pasta sin salsa.",
           "tags": [
             "4.1-g-bez-gen"
@@ -2395,7 +2395,7 @@
             "лу́ка"
           ],
           "hint": "без + ?",
-          "explanationEs": "лук → без лу́ка.",
+          "explanationEs": "Лук → без лу́ка.",
           "es": "Ensalada sin cebolla.",
           "tags": [
             "4.1-g-bez-gen"
@@ -2411,7 +2411,7 @@
             "шокола́дом"
           ],
           "hint": "с + ?",
-          "explanationEs": "шокола́д → с шокола́дом.",
+          "explanationEs": "Шокола́д → с шокола́дом.",
           "es": "Pastel con chocolate.",
           "tags": [
             "4.1-g-s-instr"
@@ -2427,7 +2427,7 @@
             "овоща́ми"
           ],
           "hint": "с + ?",
-          "explanationEs": "о́вощи → с овоща́ми (plural -ами).",
+          "explanationEs": "О́вощи → с овоща́ми (plural -ами).",
           "es": "Arroz con verduras.",
           "tags": [
             "4.1-g-s-instr"
@@ -2443,7 +2443,7 @@
             "гриба́ми"
           ],
           "hint": "с + ?",
-          "explanationEs": "грибы́ → с гриба́ми.",
+          "explanationEs": "Грибы́ → с гриба́ми.",
           "es": "Papas con champiñones.",
           "tags": [
             "4.1-g-s-instr"
@@ -2459,7 +2459,7 @@
             "ма́сла"
           ],
           "hint": "без + ?",
-          "explanationEs": "ма́сло → без ма́сла.",
+          "explanationEs": "Ма́сло → без ма́сла.",
           "es": "Sándwich sin mantequilla.",
           "tags": [
             "4.1-g-bez-gen"
@@ -2475,7 +2475,7 @@
             "ветчино́й"
           ],
           "hint": "с + ?",
-          "explanationEs": "ветчина́ → с ветчино́й (-а → -ой).",
+          "explanationEs": "Ветчина́ → с ветчино́й (-а → -ой).",
           "es": "Pizza con jamón y champiñones.",
           "tags": [
             "4.1-g-s-instr"
@@ -2491,7 +2491,7 @@
             "ко́шкой"
           ],
           "hint": "ко́шка",
-          "explanationEs": "ко́шка → с ко́шкой.",
+          "explanationEs": "Ко́шка → с ко́шкой.",
           "es": "El perro juega con la gata.",
           "tags": [
             "4.1-g-s-instr"
@@ -2507,7 +2507,7 @@
             "интерне́та"
           ],
           "hint": "интерне́т",
-          "explanationEs": "интерне́т → без интерне́та.",
+          "explanationEs": "Интерне́т → без интерне́та.",
           "es": "Es difícil trabajar sin internet.",
           "tags": [
             "4.1-g-bez-gen"
@@ -2569,7 +2569,7 @@
           "sentence": "Я пью ко́фе с молоко́.",
           "wrongWord": 4,
           "correction": "молоко́м.",
-          "explanationEs": "с + instrumental: молоко́ → молоко́м.",
+          "explanationEs": "С + instrumental: молоко́ → молоко́м.",
           "es": "Tomo café con leche.",
           "tags": [
             "4.1-g-s-instr"
@@ -2583,7 +2583,7 @@
           "sentence": "Чай без са́харом, пожа́луйста.",
           "wrongWord": 2,
           "correction": "са́хара,",
-          "explanationEs": "без + genitivo: са́хар → са́хара.",
+          "explanationEs": "Без + genitivo: са́хар → са́хара.",
           "es": "Té sin azúcar, por favor.",
           "tags": [
             "4.1-g-bez-gen"
@@ -2611,7 +2611,7 @@
             "еди́те",
             "едя́т"
           ],
-          "explanationEs": "есть es irregular: ем, ешь, ест, еди́м, еди́те, едя́т.",
+          "explanationEs": "Есть es irregular: ем, ешь, ест, еди́м, еди́те, едя́т.",
           "tags": [
             "4.1-g-est-pit"
           ],
@@ -2638,7 +2638,7 @@
             "пьёте",
             "пьют"
           ],
-          "explanationEs": "пить: пью, пьёшь, пьёт, пьём, пьёте, пьют.",
+          "explanationEs": "Пить: пью, пьёшь, пьёт, пьём, пьёте, пьют.",
           "tags": [
             "4.1-g-est-pit"
           ],
@@ -2665,7 +2665,7 @@
             "хоти́те",
             "хотя́т"
           ],
-          "explanationEs": "хоте́ть: хочу́, хо́чешь, хо́чет (хоч-) / хоти́м, хоти́те, хотя́т (хот-).",
+          "explanationEs": "Хоте́ть: хочу́, хо́чешь, хо́чет (хоч-) / хоти́м, хоти́те, хотя́т (хот-).",
           "tags": [
             "4.1-g-est-pit"
           ],
@@ -2692,7 +2692,7 @@
             "бежи́те",
             "бегу́т"
           ],
-          "explanationEs": "бежа́ть: бегу́ y бегу́т con г; las demás con ж.",
+          "explanationEs": "Бежа́ть: бегу́ y бегу́т con г; las demás con ж.",
           "tags": [
             "4.1-g-est-pit"
           ],
@@ -2734,7 +2734,7 @@
             "пьёте"
           ],
           "hint": "пить, вы",
-          "explanationEs": "вы пьёте.",
+          "explanationEs": "Вы пьёте.",
           "es": "¿En la mañana toman té o café?",
           "tags": [
             "4.1-g-est-pit"
@@ -2750,7 +2750,7 @@
             "пьют"
           ],
           "hint": "пить, они́",
-          "explanationEs": "я пью, они́ пьют.",
+          "explanationEs": "Я пью, они́ пьют.",
           "es": "Yo tomo café y mis papás toman té.",
           "tags": [
             "4.1-g-est-pit"
@@ -2766,7 +2766,7 @@
             "едя́т"
           ],
           "hint": "есть, они́",
-          "explanationEs": "они́ едя́т.",
+          "explanationEs": "Они́ едя́т.",
           "es": "Los vegetarianos no comen carne.",
           "tags": [
             "4.1-g-est-pit"
@@ -2782,7 +2782,7 @@
             "ем"
           ],
           "hint": "есть, я",
-          "explanationEs": "я ем.",
+          "explanationEs": "Я ем.",
           "es": "En la noche como poco.",
           "tags": [
             "4.1-g-est-pit"
@@ -2798,7 +2798,7 @@
             "еди́м"
           ],
           "hint": "есть, мы",
-          "explanationEs": "мы еди́м.",
+          "explanationEs": "Мы еди́м.",
           "es": "¿Qué comemos hoy?",
           "tags": [
             "4.1-g-est-pit"
@@ -2814,7 +2814,7 @@
             "ест"
           ],
           "hint": "есть, она́",
-          "explanationEs": "она́ ест.",
+          "explanationEs": "Она́ ест.",
           "es": "Mi esposa no come chocolate.",
           "tags": [
             "4.1-g-est-pit"
@@ -2830,7 +2830,7 @@
             "пьёшь"
           ],
           "hint": "пить, ты",
-          "explanationEs": "ты пьёшь.",
+          "explanationEs": "Ты пьёшь.",
           "es": "¿Por qué no tomas leche?",
           "tags": [
             "4.1-g-est-pit"
@@ -2846,7 +2846,7 @@
             "пьёт"
           ],
           "hint": "пить, он",
-          "explanationEs": "он пьёт.",
+          "explanationEs": "Он пьёт.",
           "es": "Mi entrenador dice que en la noche no toma café.",
           "tags": [
             "4.1-g-est-pit"
@@ -2862,7 +2862,7 @@
             "хоти́те"
           ],
           "hint": "хоте́ть, вы",
-          "explanationEs": "вы хоти́те.",
+          "explanationEs": "Вы хоти́те.",
           "es": "¿Quiere café con azúcar?",
           "tags": [
             "4.1-g-est-pit"
@@ -2878,7 +2878,7 @@
             "хочу́"
           ],
           "hint": "хоте́ть, я",
-          "explanationEs": "я хочу́.",
+          "explanationEs": "Я хочу́.",
           "es": "Quiero agua sin gas.",
           "tags": [
             "4.1-g-est-pit"
@@ -2894,7 +2894,7 @@
             "бегу́"
           ],
           "hint": "бежа́ть, я",
-          "explanationEs": "я бегу́.",
+          "explanationEs": "Я бегу́.",
           "es": "Después de desayunar me voy corriendo al trabajo.",
           "tags": [
             "4.1-g-est-pit"
@@ -2912,7 +2912,7 @@
             "еди́те"
           ],
           "answer": 0,
-          "explanationEs": "они́ едя́т.",
+          "explanationEs": "Они́ едя́т.",
           "es": "Los niños comen kasha y toman jugo de naranja.",
           "tags": [
             "4.1-g-est-pit"
@@ -2930,7 +2930,7 @@
             "ем"
           ],
           "answer": 0,
-          "explanationEs": "ты ешь.",
+          "explanationEs": "Ты ешь.",
           "es": "¿Qué desayunas?",
           "tags": [
             "4.1-g-est-pit"
@@ -2948,7 +2948,7 @@
             "пью"
           ],
           "answer": 0,
-          "explanationEs": "мы пьём.",
+          "explanationEs": "Мы пьём.",
           "es": "Tomamos té con limón.",
           "tags": [
             "4.1-g-est-pit"
@@ -2966,7 +2966,7 @@
             "пьют"
           ],
           "answer": 0,
-          "explanationEs": "она́ пьёт.",
+          "explanationEs": "Она́ пьёт.",
           "es": "Ella toma kéfir en la noche.",
           "tags": [
             "4.1-g-est-pit"
@@ -2984,7 +2984,7 @@
             "хоти́те"
           ],
           "answer": 0,
-          "explanationEs": "они́ хотя́т (хот-).",
+          "explanationEs": "Они́ хотя́т (хот-).",
           "es": "Ellos quieren pizza con champiñones.",
           "tags": [
             "4.1-g-est-pit"
@@ -3002,7 +3002,7 @@
             "хоти́шь"
           ],
           "answer": 0,
-          "explanationEs": "ты хо́чешь (хоч-).",
+          "explanationEs": "Ты хо́чешь (хоч-).",
           "es": "¿Quieres postre?",
           "tags": [
             "4.1-g-est-pit"
@@ -3074,7 +3074,7 @@
             "у́тром"
           ],
           "answer": 0,
-          "explanationEs": "«de desayuno» = на за́втрак (sustantivo).",
+          "explanationEs": "«De desayuno» = на за́втрак (sustantivo).",
           "es": "De desayuno como kasha y tomo té.",
           "tags": [
             "4.1-g-meals"
@@ -3092,7 +3092,7 @@
             "днём"
           ],
           "answer": 0,
-          "explanationEs": "на обе́д = de comida.",
+          "explanationEs": "На обе́д = de comida.",
           "es": "¿Qué come normalmente de comida?",
           "tags": [
             "4.1-g-meals"
@@ -3108,7 +3108,7 @@
             "у́жинать"
           ],
           "hint": "cenar",
-          "explanationEs": "у́жин → у́жинать.",
+          "explanationEs": "У́жин → у́жинать.",
           "es": "¿Dónde le gusta cenar?",
           "tags": [
             "4.1-g-meals"
@@ -3124,7 +3124,7 @@
             "У́тром"
           ],
           "hint": "¿Когда́?",
-          "explanationEs": "у́тро → у́тром.",
+          "explanationEs": "У́тро → у́тром.",
           "es": "En la mañana tomo café.",
           "tags": [
             "4.1-g-meals"
@@ -3173,7 +3173,7 @@
             "ре́дко"
           ],
           "answer": 0,
-          "explanationEs": "0% = никогда́ + не.",
+          "explanationEs": "0% = Никогда́ + не.",
           "es": "Nunca como carne.",
           "tags": [
             "4.1-g-frequency"
@@ -3191,7 +3191,7 @@
             "никогда́"
           ],
           "answer": 0,
-          "explanationEs": "100% = всегда́.",
+          "explanationEs": "100% = Всегда́.",
           "es": "Siempre desayuno.",
           "tags": [
             "4.1-g-frequency"
@@ -3209,7 +3209,7 @@
             "всегда́"
           ],
           "answer": 0,
-          "explanationEs": "20% = ре́дко.",
+          "explanationEs": "20% = Ре́дко.",
           "es": "Rara vez comemos en un restaurante.",
           "tags": [
             "4.1-g-frequency"
@@ -3227,7 +3227,7 @@
             "Никогда́"
           ],
           "answer": 0,
-          "explanationEs": "40% = иногда́.",
+          "explanationEs": "40% = Иногда́.",
           "es": "A veces como crepas.",
           "tags": [
             "4.1-g-frequency"
@@ -3245,7 +3245,7 @@
             "никогда́ не"
           ],
           "answer": 0,
-          "explanationEs": "80% = ча́сто.",
+          "explanationEs": "80% = Ча́сто.",
           "es": "Los marroquíes toman té verde seguido.",
           "tags": [
             "4.1-g-frequency"
@@ -3434,8 +3434,8 @@
             "помидо́ры"
           ],
           "hint": "plural",
-          "explanationEs": "помидо́р → помидо́ры.",
-          "es": "jitomate → jitomates",
+          "explanationEs": "Помидо́р → помидо́ры.",
+          "es": "Jitomate → jitomates",
           "tags": [],
           "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
         },
@@ -3448,8 +3448,8 @@
             "огурцы́"
           ],
           "hint": "plural",
-          "explanationEs": "огуре́ц → огурцы́ (se pierde la е).",
-          "es": "pepino → pepinos",
+          "explanationEs": "Огуре́ц → огурцы́ (se pierde la е).",
+          "es": "Pepino → pepinos",
           "tags": [],
           "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
         },
@@ -3462,8 +3462,8 @@
             "я́йца"
           ],
           "hint": "plural",
-          "explanationEs": "яйцо́ → я́йца (cambia el acento).",
-          "es": "huevo → huevos",
+          "explanationEs": "Яйцо́ → я́йца (cambia el acento).",
+          "es": "Huevo → huevos",
           "tags": [],
           "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
         },
@@ -3476,8 +3476,8 @@
             "пирожки́"
           ],
           "hint": "plural",
-          "explanationEs": "пирожо́к → пирожки́.",
-          "es": "pastelito → pastelitos",
+          "explanationEs": "Пирожо́к → пирожки́.",
+          "es": "Pastelito → pastelitos",
           "tags": [],
           "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
         },
@@ -3490,8 +3490,8 @@
             "блин"
           ],
           "hint": "singular",
-          "explanationEs": "блины́ → блин.",
-          "es": "crepas → crepa",
+          "explanationEs": "Блины́ → блин.",
+          "es": "Crepas → crepa",
           "tags": [],
           "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
         },
@@ -3504,8 +3504,8 @@
             "гриб"
           ],
           "hint": "singular",
-          "explanationEs": "грибы́ → гриб.",
-          "es": "champiñones → champiñón",
+          "explanationEs": "Грибы́ → гриб.",
+          "es": "Champiñones → champiñón",
           "tags": [],
           "origin": "textbook p.74–80 / workbook p.68–71 (adapted)"
         },
@@ -3529,7 +3529,7 @@
             "С газ, пожа́луйста."
           ],
           "answer": 0,
-          "explanationEs": "без + га́за (genitivo).",
+          "explanationEs": "Без + га́за (genitivo).",
           "es": "—¿Agua con gas o sin gas? —Sin gas, por favor.",
           "tags": [
             "4.1-g-bez-gen",
@@ -3557,7 +3557,7 @@
             "Я хочу́ блины́ с мёд!"
           ],
           "answer": 0,
-          "explanationEs": "я хочу́ + с мёдом (instrumental).",
+          "explanationEs": "Я хочу́ + с мёдом (instrumental).",
           "es": "—¿Qué quieres de desayuno? —¡Quiero crepas con miel!",
           "tags": [
             "4.1-g-est-pit"
@@ -3584,7 +3584,7 @@
             "Нет, спаси́бо, я ем ко́фе."
           ],
           "answer": 0,
-          "explanationEs": "«sin nada» = без ничего́.",
+          "explanationEs": "«Sin nada» = без ничего́.",
           "es": "—¿Quiere café con azúcar y leche? —No, gracias, tomo el café sin nada.",
           "tags": [
             "4.1-g-s-instr"
@@ -3599,7 +3599,7 @@
           "answers": [
             "ко́фе с молоко́м"
           ],
-          "es": "café con leche",
+          "es": "Café con leche",
           "tags": [
             "4.1-g-s-instr"
           ],
@@ -3613,7 +3613,7 @@
           "answers": [
             "чай без са́хара"
           ],
-          "es": "té sin azúcar",
+          "es": "Té sin azúcar",
           "tags": [
             "4.1-g-bez-gen"
           ],
@@ -3628,7 +3628,7 @@
             "вода́ без га́за",
             "во́ду без га́за"
           ],
-          "es": "agua sin gas",
+          "es": "Agua sin gas",
           "tags": [
             "4.1-g-bez-gen"
           ],
@@ -3657,7 +3657,7 @@
           "answers": [
             "Я никогда́ не пью ко́фе."
           ],
-          "explanationEs": "никогда́ + не.",
+          "explanationEs": "Никогда́ + не.",
           "es": "Nunca tomo café.",
           "tags": [
             "4.1-g-frequency"

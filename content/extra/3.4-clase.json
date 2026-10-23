@@ -1305,7 +1305,7 @@
             "Кака́я"
           ],
           "answer": 0,
-          "explanationEs": "сосе́ди → они́ → каки́е (la respuesta es un adjetivo en plural).",
+          "explanationEs": "Сосе́ди → они́ → каки́е (la respuesta es un adjetivo en plural).",
           "tags": [
             "3.4x-g-kakoj-kak",
             "3.4x-v-kakoj"
@@ -1345,7 +1345,7 @@
             "Как"
           ],
           "answer": 0,
-          "explanationEs": "кварти́ра → она́ → кака́я.",
+          "explanationEs": "Кварти́ра → она́ → кака́я.",
           "tags": [
             "3.4x-g-kakoj-kak",
             "3.4x-v-kakoj"
@@ -1365,7 +1365,7 @@
             "Каки́е"
           ],
           "answer": 0,
-          "explanationEs": "окно́ → оно́ → како́е.",
+          "explanationEs": "Окно́ → оно́ → како́е.",
           "tags": [
             "3.4x-g-kakoj-kak",
             "3.4x-v-kakoj"
@@ -1385,7 +1385,7 @@
             "Как"
           ],
           "answer": 0,
-          "explanationEs": "дом → он → како́й.",
+          "explanationEs": "Дом → он → како́й.",
           "tags": [
             "3.4x-g-kakoj-kak",
             "3.4x-v-kakoj"
@@ -1425,7 +1425,7 @@
             "Как"
           ],
           "answer": 0,
-          "explanationEs": "сосе́д → он → како́й.",
+          "explanationEs": "Сосе́д → он → како́й.",
           "tags": [
             "3.4x-g-kakoj-kak",
             "3.4x-v-kakoj"
@@ -1572,7 +1572,7 @@
             "ти́хо"
           ],
           "hint": "ти́хий → ¿Как?",
-          "explanationEs": "ти́хий → ти́хо",
+          "explanationEs": "Ти́хий → ти́хо",
           "tags": [
             "3.4x-g-adverbs-o",
             "3.4x-v-tikho"
@@ -1589,7 +1589,7 @@
             "гро́мко"
           ],
           "hint": "гро́мкий → ¿Как?",
-          "explanationEs": "гро́мкий → гро́мко",
+          "explanationEs": "Гро́мкий → гро́мко",
           "tags": [
             "3.4x-g-adverbs-o",
             "3.4x-v-gromko"
@@ -1606,7 +1606,7 @@
             "ме́дленно"
           ],
           "hint": "ме́дленный → ¿Как?",
-          "explanationEs": "ме́дленный → ме́дленно",
+          "explanationEs": "Ме́дленный → ме́дленно",
           "tags": [
             "3.4x-g-adverbs-o",
             "3.4x-v-medlenno"
@@ -1623,7 +1623,7 @@
             "хорошо́"
           ],
           "hint": "хоро́ший → ¿Как?",
-          "explanationEs": "хоро́ший → хорошо́ (¡el acento pasa al final!)",
+          "explanationEs": "Хоро́ший → хорошо́ (¡el acento pasa al final!)",
           "tags": [
             "3.4x-g-adverbs-o"
           ],
@@ -1639,7 +1639,7 @@
             "краси́во"
           ],
           "hint": "краси́вый → adverbio",
-          "explanationEs": "краси́вый → краси́во",
+          "explanationEs": "Краси́вый → краси́во",
           "tags": [
             "3.4x-g-adverbs-o",
             "3.4x-v-krasivo"
@@ -1657,7 +1657,7 @@
             "споко́йно"
           ],
           "hint": "весёлый → ¿Как?",
-          "explanationEs": "весёлый → ве́село (la ё se vuelve е sin acento)",
+          "explanationEs": "Весёлый → ве́село (la ё se vuelve е sin acento)",
           "tags": [
             "3.4x-g-adverbs-o",
             "3.4x-v-veselo"
@@ -1674,7 +1674,7 @@
             "пло́хо"
           ],
           "hint": "плохо́й → ¿Как?",
-          "explanationEs": "плохо́й → пло́хо",
+          "explanationEs": "Плохо́й → пло́хо",
           "tags": [
             "3.4x-g-adverbs-o"
           ],
@@ -1690,7 +1690,7 @@
             "Каки́е"
           ],
           "hint": "сосе́ди = они́",
-          "explanationEs": "они́ → каки́е",
+          "explanationEs": "Они́ → каки́е",
           "tags": [
             "3.4x-g-kakoj-kak",
             "3.4x-v-kakoj"
@@ -1724,7 +1724,7 @@
             "Кака́я"
           ],
           "hint": "ко́мната = она́",
-          "explanationEs": "она́ → кака́я",
+          "explanationEs": "Она́ → кака́я",
           "tags": [
             "3.4x-g-kakoj-kak",
             "3.4x-v-kakoj"
@@ -1750,8 +1750,8 @@
             "3.4x-v-gromko"
           ],
           "origin": "original",
-          "es": "гро́мко = fuerte (en voz alta) ↔ ти́хо = bajito, en silencio",
-          "explanationEs": "гро́мко (fuerte) y ти́хо (bajito) son adverbios opuestos de volumen."
+          "es": "Гро́мко = fuerte (en voz alta) ↔ ти́хо = bajito, en silencio",
+          "explanationEs": "Гро́мко (fuerte) y ти́хо (bajito) son adverbios opuestos de volumen."
         },
         {
           "id": "3.4x-x-26",
@@ -1771,8 +1771,8 @@
             "3.4x-v-bystro"
           ],
           "origin": "original",
-          "es": "бы́стро = rápido ↔ ме́дленно = despacio",
-          "explanationEs": "бы́стро (rápido) es lo contrario de ме́дленно (despacio)."
+          "es": "Бы́стро = rápido ↔ ме́дленно = despacio",
+          "explanationEs": "Бы́стро (rápido) es lo contrario de ме́дленно (despacio)."
         },
         {
           "id": "3.4x-x-27",
@@ -1792,8 +1792,8 @@
             "3.4x-v-rano"
           ],
           "origin": "original",
-          "es": "ра́но = temprano ↔ по́здно = tarde",
-          "explanationEs": "ра́но (temprano) es lo contrario de по́здно (tarde)."
+          "es": "Ра́но = temprano ↔ по́здно = tarde",
+          "explanationEs": "Ра́но (temprano) es lo contrario de по́здно (tarde)."
         },
         {
           "id": "3.4x-x-28",
@@ -1813,8 +1813,8 @@
             "3.4x-v-daleko"
           ],
           "origin": "original",
-          "es": "далеко́ = lejos ↔ бли́зко = cerca",
-          "explanationEs": "далеко́ (lejos) es lo contrario de бли́зко (cerca)."
+          "es": "Далеко́ = lejos ↔ бли́зко = cerca",
+          "explanationEs": "Далеко́ (lejos) es lo contrario de бли́зко (cerca)."
         },
         {
           "id": "3.4x-x-29",
@@ -1828,8 +1828,8 @@
             "3.4x-v-chasto"
           ],
           "origin": "original",
-          "es": "ча́сто = seguido, a menudo ↔ ре́дко = rara vez",
-          "explanationEs": "ча́сто (seguido) es lo contrario de ре́дко (rara vez)."
+          "es": "Ча́сто = seguido, a menudo ↔ ре́дко = rara vez",
+          "explanationEs": "Ча́сто (seguido) es lo contrario de ре́дко (rara vez)."
         },
         {
           "id": "3.4x-x-30",
@@ -1843,8 +1843,8 @@
             "3.4x-v-mnogo"
           ],
           "origin": "original",
-          "es": "мно́го = mucho ↔ ма́ло = poco",
-          "explanationEs": "мно́го (mucho) es lo contrario de ма́ло (poco)."
+          "es": "Мно́го = mucho ↔ ма́ло = poco",
+          "explanationEs": "Мно́го (mucho) es lo contrario de ма́ло (poco)."
         },
         {
           "id": "3.4x-x-31",
@@ -1864,8 +1864,8 @@
             "3.4x-v-vezhlivo"
           ],
           "origin": "original",
-          "es": "ве́жливо = con cortesía ↔ гру́бо = groseramente",
-          "explanationEs": "ве́жливо (con cortesía) es lo contrario de гру́бо (groseramente)."
+          "es": "Ве́жливо = con cortesía ↔ гру́бо = groseramente",
+          "explanationEs": "Ве́жливо (con cortesía) es lo contrario de гру́бо (groseramente)."
         },
         {
           "id": "3.4x-x-32",
@@ -1879,8 +1879,8 @@
             "3.4x-v-dorogo"
           ],
           "origin": "original",
-          "es": "до́рого = caro ↔ дёшево = barato",
-          "explanationEs": "до́рого (caro) es lo contrario de дёшево (barato)."
+          "es": "До́рого = caro ↔ дёшево = barato",
+          "explanationEs": "До́рого (caro) es lo contrario de дёшево (barato)."
         },
         {
           "id": "3.4x-x-33",
@@ -1895,8 +1895,8 @@
             "3.4x-v-veselo"
           ],
           "origin": "original",
-          "es": "ве́село = alegre, divertido ↔ гру́стно = triste / ску́чно = aburrido",
-          "explanationEs": "ве́село (alegre) se opone a гру́стно (triste) o a ску́чно (aburrido)."
+          "es": "Ве́село = alegre, divertido ↔ гру́стно = triste / ску́чно = aburrido",
+          "explanationEs": "Ве́село (alegre) se opone a гру́стно (triste) o a ску́чно (aburrido)."
         },
         {
           "id": "3.4x-x-34",
@@ -1910,8 +1910,8 @@
             "3.4x-v-legko"
           ],
           "origin": "original",
-          "es": "легко́ = fácil ↔ тру́дно = difícil",
-          "explanationEs": "легко́ (fácil) es lo contrario de тру́дно (difícil)."
+          "es": "Легко́ = fácil ↔ тру́дно = difícil",
+          "explanationEs": "Легко́ (fácil) es lo contrario de тру́дно (difícil)."
         },
         {
           "id": "3.4x-x-35",
@@ -1960,7 +1960,7 @@
             "3.4x-g-adverbs-o"
           ],
           "origin": "original",
-          "es": "гро́мкий = ruidoso, fuerte · гро́мко = fuerte (adv.) · ти́хая = tranquila · бы́стро = rápido · хоро́шее = bueno · хорошо́ = bien · ме́дленные = lentos · пло́хо = mal",
+          "es": "Гро́мкий = ruidoso, fuerte · гро́мко = fuerte (adv.) · ти́хая = tranquila · бы́стро = rápido · хоро́шее = bueno · хорошо́ = bien · ме́дленные = lentos · пло́хо = mal",
           "explanationEs": "Los adjetivos (како́й?) terminan en -ый/-ий, -ая, -ое, -ые; los adverbios (как?) terminan en -о."
         },
         {
@@ -2012,7 +2012,7 @@
             "3.4x-v-kakoj"
           ],
           "origin": "original",
-          "es": "дом = casa · кварти́ра = departamento · окно́ = ventana · сосе́ди = vecinos · ку́хня = cocina · кре́сло = sillón · балко́н = balcón · де́ти = niños, hijos",
+          "es": "Дом = casa · кварти́ра = departamento · окно́ = ventana · сосе́ди = vecinos · ку́хня = cocina · кре́сло = sillón · балко́н = balcón · де́ти = niños, hijos",
           "explanationEs": "La pregunta concuerda con el género y número: он → како́й, она́ → кака́я, оно́ → како́е, они́ → каки́е."
         },
         {
@@ -2037,7 +2037,7 @@
           "sentence": "Како́й у тебя́ кварти́ра?",
           "wrongWord": 0,
           "correction": "Кака́я",
-          "explanationEs": "кварти́ра es femenino → кака́я.",
+          "explanationEs": "Кварти́ра es femenino → кака́я.",
           "tags": [
             "3.4x-g-kakoj-kak",
             "3.4x-v-kakoj"
@@ -2067,7 +2067,7 @@
           "sentence": "Каки́е у вас окно́?",
           "wrongWord": 0,
           "correction": "Како́е",
-          "explanationEs": "окно́ es neutro → како́е.",
+          "explanationEs": "Окно́ es neutro → како́е.",
           "tags": [
             "3.4x-g-kakoj-kak",
             "3.4x-v-kakoj"
@@ -2205,7 +2205,7 @@
           ],
           "origin": "original",
           "es": "Они́ живу́т ве́село. = Viven alegremente.",
-          "explanationEs": "ве́село es adverbio: describe cómo viven (живу́т)."
+          "explanationEs": "Ве́село es adverbio: describe cómo viven (живу́т)."
         },
         {
           "id": "3.4x-x-48",
@@ -2300,7 +2300,7 @@
             "3.4x-g-adverbs-o"
           ],
           "origin": "original",
-          "es": "гро́мкий = ruidoso → гро́мко = fuerte · ти́хий = tranquilo → ти́хо = bajito · хоро́ший = bueno → хорошо́ = bien · плохо́й = malo → пло́хо = mal · бы́стрый = rápido → бы́стро = rápido (adv.)",
+          "es": "Гро́мкий = ruidoso → гро́мко = fuerte · ти́хий = tranquilo → ти́хо = bajito · хоро́ший = bueno → хорошо́ = bien · плохо́й = malo → пло́хо = mal · бы́стрый = rápido → бы́стро = rápido (adv.)",
           "explanationEs": "El adverbio se forma cambiando la terminación del adjetivo (-ый/-ий/-ой) por -о; ojo con el acento: хорошо́, пло́хо."
         },
         {
@@ -2421,7 +2421,7 @@
             "воскресе́нье"
           ],
           "hint": "domingo",
-          "explanationEs": "воскресе́нье no cambia: в воскресе́нье.",
+          "explanationEs": "Воскресе́нье no cambia: в воскресе́нье.",
           "es": "El domingo descanso.",
           "tags": [
             "3.4x-g-days"
@@ -2437,7 +2437,7 @@
             "сре́ду"
           ],
           "hint": "miércoles",
-          "explanationEs": "среда́ → в сре́ду (-а → -у, y el acento pasa a la primera sílaba).",
+          "explanationEs": "Среда́ → в сре́ду (-а → -у, y el acento pasa a la primera sílaba).",
           "es": "El miércoles tengo examen.",
           "tags": [
             "3.4x-g-days"
@@ -2453,7 +2453,7 @@
             "Во"
           ],
           "hint": "preposición",
-          "explanationEs": "вто́рник lleva во: во вто́рник.",
+          "explanationEs": "Вто́рник lleva во: во вто́рник.",
           "es": "El martes jugamos tenis.",
           "tags": [
             "3.4x-g-days"
@@ -2469,7 +2469,7 @@
             "суббо́ту"
           ],
           "hint": "sábado",
-          "explanationEs": "суббо́та → в суббо́ту.",
+          "explanationEs": "Суббо́та → в суббо́ту.",
           "es": "El sábado la abuela hace pays.",
           "tags": [
             "3.4x-g-days"
@@ -2566,8 +2566,8 @@
           "answers": [
             "во вто́рник"
           ],
-          "explanationEs": "вто́рник → во вто́рник.",
-          "es": "el martes",
+          "explanationEs": "Вто́рник → во вто́рник.",
+          "es": "El martes",
           "tags": [
             "3.4x-g-days"
           ],
@@ -2581,8 +2581,8 @@
           "answers": [
             "в пя́тницу"
           ],
-          "explanationEs": "пя́тница → в пя́тницу.",
-          "es": "el viernes",
+          "explanationEs": "Пя́тница → в пя́тницу.",
+          "es": "El viernes",
           "tags": [
             "3.4x-g-days"
           ],
@@ -2704,7 +2704,7 @@
             "лет"
           ],
           "answer": 0,
-          "explanationEs": "21 termina en 1 → год.",
+          "explanationEs": "21 Termina en 1 → год.",
           "es": "Tengo veintiún años.",
           "tags": [
             "3.4x-g-age"
@@ -2722,7 +2722,7 @@
             "лет"
           ],
           "answer": 0,
-          "explanationEs": "22 termina en 2 → го́да.",
+          "explanationEs": "22 Termina en 2 → го́да.",
           "es": "Él tiene veintidós años.",
           "tags": [
             "3.4x-g-age"
@@ -2740,7 +2740,7 @@
             "год"
           ],
           "answer": 0,
-          "explanationEs": "25 termina en 5 → лет.",
+          "explanationEs": "25 Termina en 5 → лет.",
           "es": "Ella tiene veinticinco años.",
           "tags": [
             "3.4x-g-age"
@@ -2776,7 +2776,7 @@
             "год"
           ],
           "answer": 0,
-          "explanationEs": "83 termina en 3 → го́да.",
+          "explanationEs": "83 Termina en 3 → го́да.",
           "es": "El abuelo tiene ochenta y tres años.",
           "tags": [
             "3.4x-g-age"
@@ -2794,7 +2794,7 @@
             "год"
           ],
           "answer": 0,
-          "explanationEs": "40 termina en 0 → лет.",
+          "explanationEs": "40 Termina en 0 → лет.",
           "es": "Ellos tienen cuarenta años.",
           "tags": [
             "3.4x-g-age"
@@ -2812,7 +2812,7 @@
             "год"
           ],
           "answer": 0,
-          "explanationEs": "14 está entre 11 y 14 → лет.",
+          "explanationEs": "14 Está entre 11 y 14 → лет.",
           "es": "Mi hermana tiene catorce años.",
           "tags": [
             "3.4x-g-age"
@@ -2848,7 +2848,7 @@
             "Её"
           ],
           "answer": 0,
-          "explanationEs": "она́ → ей: Ей два́дцать.",
+          "explanationEs": "Она́ → ей: Ей два́дцать.",
           "es": "—¿Cuántos años tiene ella? —Veinte.",
           "tags": [
             "3.4x-g-age"
@@ -2866,7 +2866,7 @@
             "Его́"
           ],
           "answer": 0,
-          "explanationEs": "он → ему́.",
+          "explanationEs": "Он → ему́.",
           "es": "—¿Cuántos años tiene Iván? —Treinta y uno.",
           "tags": [
             "3.4x-g-age"
@@ -2962,7 +2962,7 @@
             "Мне"
           ],
           "hint": "я → ?",
-          "explanationEs": "я → мне: Мне три́дцать лет.",
+          "explanationEs": "Я → мне: Мне три́дцать лет.",
           "es": "Tengo treinta años.",
           "tags": [
             "3.4x-g-age"
@@ -2972,7 +2972,7 @@
         {
           "id": "3.4x-x-137",
           "type": "sort",
-          "instructionEs": "¿год, го́да o лет?",
+          "instructionEs": "¿Год, го́да o лет?",
           "categories": [
             "год",
             "го́да",
@@ -3102,7 +3102,7 @@
             "Ей два́дцать два го́да.",
             "Ей 22 го́да."
           ],
-          "explanationEs": "она́ → ей; 22 → го́да.",
+          "explanationEs": "Она́ → ей; 22 → го́да.",
           "es": "Ella tiene 22 años.",
           "tags": [
             "3.4x-g-age"
@@ -3118,7 +3118,7 @@
             "Ему́ два́дцать четы́ре го́да",
             "Ему́ 24 го́да"
           ],
-          "explanationEs": "он → ему́; 24 → го́да.",
+          "explanationEs": "Он → ему́; 24 → го́да.",
           "es": "Él tiene 24 años.",
           "tags": [
             "3.4x-g-age"
@@ -3134,7 +3134,7 @@
             "Ей три́дцать оди́н год",
             "Ей 31 год"
           ],
-          "explanationEs": "она́ → ей; 31 → год.",
+          "explanationEs": "Она́ → ей; 31 → год.",
           "es": "Ella tiene 31 años.",
           "tags": [
             "3.4x-g-age"
@@ -3148,7 +3148,7 @@
           "sentence": "Мне два́дцать два лет.",
           "wrongWord": 3,
           "correction": "го́да",
-          "explanationEs": "22 termina en 2 → го́да.",
+          "explanationEs": "22 Termina en 2 → го́да.",
           "es": "Tengo veintidós años.",
           "tags": [
             "3.4x-g-age"
@@ -3278,7 +3278,7 @@
             "Бе́лая"
           ],
           "answer": 0,
-          "explanationEs": "бе́лый → бе́лого цве́та.",
+          "explanationEs": "Бе́лый → бе́лого цве́та.",
           "es": "¿De qué color es la nieve? — Blanca.",
           "tags": [
             "3.4-g-colors"
@@ -3296,7 +3296,7 @@
             "Голубо́й"
           ],
           "answer": 0,
-          "explanationEs": "голубо́й → голубо́го цве́та (acento en la terminación).",
+          "explanationEs": "Голубо́й → голубо́го цве́та (acento en la terminación).",
           "es": "¿De qué color es el mar en Cancún? — Celeste.",
           "tags": [
             "3.4-g-colors"
@@ -3312,7 +3312,7 @@
             "Зелёного"
           ],
           "hint": "verde",
-          "explanationEs": "зелёный → зелёного цве́та.",
+          "explanationEs": "Зелёный → зелёного цве́та.",
           "es": "¿De qué color es el pasto? — Verde.",
           "tags": [
             "3.4-g-colors"
@@ -3328,7 +3328,7 @@
             "Ора́нжевого"
           ],
           "hint": "naranja",
-          "explanationEs": "ора́нжевый → ора́нжевого цве́та.",
+          "explanationEs": "Ора́нжевый → ора́нжевого цве́та.",
           "es": "¿De qué color es la naranja? — Naranja.",
           "tags": [
             "3.4-g-colors"
@@ -3344,7 +3344,7 @@
             "Се́рого"
           ],
           "hint": "gris",
-          "explanationEs": "се́рый → се́рого цве́та.",
+          "explanationEs": "Се́рый → се́рого цве́та.",
           "es": "¿De qué color es tu teléfono? — Gris.",
           "tags": [
             "3.4-g-colors"
@@ -3360,7 +3360,7 @@
             "Кори́чневого"
           ],
           "hint": "café",
-          "explanationEs": "кори́чневый → кори́чневого цве́та.",
+          "explanationEs": "Кори́чневый → кори́чневого цве́та.",
           "es": "¿De qué color es tu bolsa? — Café.",
           "tags": [
             "3.4-g-colors"
@@ -3376,7 +3376,7 @@
             "Ро́зового"
           ],
           "hint": "rosa",
-          "explanationEs": "ро́зовый → ро́зового цве́та.",
+          "explanationEs": "Ро́зовый → ро́зового цве́та.",
           "es": "¿De qué color es el flamenco? — Rosa.",
           "tags": [
             "3.4-g-colors"
@@ -3451,7 +3451,7 @@
             "си́него цве́та"
           ],
           "explanationEs": "-ий → -его: си́него цве́та.",
-          "es": "azul",
+          "es": "Azul",
           "tags": [
             "3.4-g-colors"
           ],
@@ -3466,7 +3466,7 @@
             "голубо́го цве́та"
           ],
           "explanationEs": "-о́й → -о́го: голубо́го цве́та.",
-          "es": "celeste",
+          "es": "Celeste",
           "tags": [
             "3.4-g-colors"
           ],
@@ -3481,7 +3481,7 @@
             "чёрного цве́та"
           ],
           "explanationEs": "-ый → -ого: чёрного цве́та.",
-          "es": "negro",
+          "es": "Negro",
           "tags": [
             "3.4-g-colors"
           ],
@@ -3524,7 +3524,7 @@
             "Моя́ маши́на кра́сного цве́та.",
             "Моя машина красного цвета."
           ],
-          "explanationEs": "кра́сного цве́та",
+          "explanationEs": "Кра́сного цве́та",
           "es": "Mi carro es rojo.",
           "tags": [
             "3.4-g-colors"

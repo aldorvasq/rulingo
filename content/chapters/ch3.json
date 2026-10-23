@@ -374,7 +374,7 @@
         {
           "id": "3.1-g-v-na",
           "title": "¿в o на?",
-          "explanationEs": "**в** = dentro de un espacio cerrado (в ко́мнате, в шкафу́, в холоди́льнике, в саду́, в го́роде).\n**на** = sobre una superficie (на столе́, на по́лке, на стене́, на полу́, на дива́не, на крова́ти, на окне́).\nAlgunas palabras usan **на** por costumbre y hay que memorizarlas: на ку́хне, на балко́не, на мо́ре, на по́чте.",
+          "explanationEs": "**В** = dentro de un espacio cerrado (в ко́мнате, в шкафу́, в холоди́льнике, в саду́, в го́роде).\n**на** = sobre una superficie (на столе́, на по́лке, на стене́, на полу́, на дива́не, на крова́ти, на окне́).\nAlgunas palabras usan **на** por costumbre y hay que memorizarlas: на ку́хне, на балко́не, на мо́ре, на по́чте.",
           "tables": [
             {
               "caption": "в vs на",
@@ -1544,7 +1544,7 @@
         },
         {
           "ru": "говори́ть по телефо́ну / по ска́йпу",
-          "es": "hablar por teléfono / por Skype"
+          "es": "Hablar por teléfono / por Skype"
         },
         {
           "ru": "У вас есть дом и́ли кварти́ра?",
@@ -1921,7 +1921,7 @@
             "3.1-v-stolovaya"
           ],
           "origin": "textbook p.48 ex.1Б",
-          "es": "спа́льня = recámara · гости́ная = sala · ку́хня = cocina · столо́вая = comedor · де́тская = cuarto de los niños · кабине́т = estudio"
+          "es": "Спа́льня = recámara · гости́ная = sala · ку́хня = cocina · столо́вая = comedor · де́тская = cuarto de los niños · кабине́т = estudio"
         },
         {
           "id": "3.1-x-02",
@@ -1961,7 +1961,7 @@
             "3.1-v-basseyn"
           ],
           "origin": "textbook p.48 ex.1Б",
-          "es": "ва́нная = baño · коридо́р = pasillo · балко́н = balcón · гара́ж = cochera · бассе́йн = alberca · сад = jardín"
+          "es": "Ва́нная = baño · коридо́р = pasillo · балко́н = balcón · гара́ж = cochera · бассе́йн = alberca · сад = jardín"
         },
         {
           "id": "3.1-x-03",
@@ -2001,7 +2001,7 @@
             "3.1-v-zerkalo"
           ],
           "origin": "textbook p.49 ex.1В",
-          "es": "кре́сло = sillón · крова́ть = cama · шкаф = clóset · зе́ркало = espejo · лю́стра = candil · ковёр = alfombra"
+          "es": "Кре́сло = sillón · крова́ть = cama · шкаф = clóset · зе́ркало = espejo · лю́стра = candil · ковёр = alfombra"
         },
         {
           "id": "3.1-x-04",
@@ -2041,7 +2041,7 @@
             "3.1-v-komod"
           ],
           "origin": "textbook p.49 ex.1В",
-          "es": "плита́ = estufa · холоди́льник = refrigerador · батаре́я = radiador · комо́д = cómoda · по́лка = repisa · ками́н = chimenea"
+          "es": "Плита́ = estufa · холоди́льник = refrigerador · батаре́я = radiador · комо́д = cómoda · по́лка = repisa · ками́н = chimenea"
         },
         {
           "id": "3.1-x-05",
@@ -2052,7 +2052,7 @@
             "дива́не"
           ],
           "hint": "дива́н",
-          "explanationEs": "дива́н → на дива́не: los masculinos toman -е.",
+          "explanationEs": "Дива́н → на дива́не: los masculinos toman -е.",
           "tags": [
             "3.1-g-prep-e"
           ],
@@ -2068,7 +2068,7 @@
             "холоди́льнике"
           ],
           "hint": "холоди́льник",
-          "explanationEs": "холоди́льник → в холоди́льнике.",
+          "explanationEs": "Холоди́льник → в холоди́льнике.",
           "tags": [
             "3.1-g-prep-e"
           ],
@@ -2084,7 +2084,7 @@
             "столе́"
           ],
           "hint": "стол",
-          "explanationEs": "стол → на столе́. El acento pasa a la terminación.",
+          "explanationEs": "Стол → на столе́. El acento pasa a la terminación.",
           "tags": [
             "3.1-g-prep-e"
           ],
@@ -2100,7 +2100,7 @@
             "батаре́е"
           ],
           "hint": "батаре́я",
-          "explanationEs": "батаре́я → на батаре́е: -я se cambia por -е.",
+          "explanationEs": "Батаре́я → на батаре́е: -я se cambia por -е.",
           "tags": [
             "3.1-g-prep-e"
           ],
@@ -2116,7 +2116,7 @@
             "комо́де"
           ],
           "hint": "комо́д",
-          "explanationEs": "комо́д → на комо́де.",
+          "explanationEs": "Комо́д → на комо́де.",
           "tags": [
             "3.1-g-prep-e"
           ],
@@ -2132,7 +2132,7 @@
             "спа́льне"
           ],
           "hint": "спа́льня",
-          "explanationEs": "спа́льня → в спа́льне (sustantivo normal, no adjetivo).",
+          "explanationEs": "Спа́льня → в спа́льне (sustantivo normal, no adjetivo).",
           "tags": [
             "3.1-g-prep-e"
           ],
@@ -2165,7 +2165,7 @@
             "ковре́"
           ],
           "hint": "ковёр",
-          "explanationEs": "ковёр → на ковре́: desaparece la ё.",
+          "explanationEs": "Ковёр → на ковре́: desaparece la ё.",
           "tags": [
             "3.1-g-prep-e",
             "3.1-v-kovyor"
@@ -2182,7 +2182,7 @@
             "пиани́но"
           ],
           "hint": "пиани́но",
-          "explanationEs": "пиани́но es indeclinable: на пиани́но.",
+          "explanationEs": "Пиани́но es indeclinable: на пиани́но.",
           "tags": [
             "3.1-g-prep-e"
           ],
@@ -2200,7 +2200,7 @@
             "шка́фа"
           ],
           "answer": 1,
-          "explanationEs": "шкаф es de los masculinos con -у́: в шкафу́.",
+          "explanationEs": "Шкаф es de los masculinos con -у́: в шкафу́.",
           "tags": [
             "3.1-g-prep-u"
           ],
@@ -2218,7 +2218,7 @@
             "аэропо́рта"
           ],
           "answer": 1,
-          "explanationEs": "аэропо́рт → в аэропорту́.",
+          "explanationEs": "Аэропо́рт → в аэропорту́.",
           "tags": [
             "3.1-g-prep-u"
           ],
@@ -2236,7 +2236,7 @@
             "сад"
           ],
           "answer": 0,
-          "explanationEs": "сад → в саду́.",
+          "explanationEs": "Сад → в саду́.",
           "tags": [
             "3.1-g-prep-u"
           ],
@@ -2252,7 +2252,7 @@
             "полу́"
           ],
           "hint": "пол",
-          "explanationEs": "пол → на полу́.",
+          "explanationEs": "Пол → на полу́.",
           "tags": [
             "3.1-g-prep-u"
           ],
@@ -2268,7 +2268,7 @@
             "углу́"
           ],
           "hint": "у́гол",
-          "explanationEs": "у́гол → в углу́: se pierde la о y se acentúa la -у́.",
+          "explanationEs": "У́гол → в углу́: se pierde la о y se acentúa la -у́.",
           "tags": [
             "3.1-g-prep-u"
           ],
@@ -2284,7 +2284,7 @@
             "ва́нной"
           ],
           "hint": "ва́нная",
-          "explanationEs": "ва́нная → в ва́нной (-ая → -ой).",
+          "explanationEs": "Ва́нная → в ва́нной (-ая → -ой).",
           "tags": [
             "3.1-g-prep-oj"
           ],
@@ -2300,7 +2300,7 @@
             "гости́ной"
           ],
           "hint": "гости́ная",
-          "explanationEs": "гости́ная → в гости́ной.",
+          "explanationEs": "Гости́ная → в гости́ной.",
           "tags": [
             "3.1-g-prep-oj"
           ],
@@ -2316,7 +2316,7 @@
             "де́тской"
           ],
           "hint": "де́тская",
-          "explanationEs": "де́тская → в де́тской.",
+          "explanationEs": "Де́тская → в де́тской.",
           "tags": [
             "3.1-g-prep-oj"
           ],
@@ -2334,7 +2334,7 @@
             "столо́вую"
           ],
           "answer": 1,
-          "explanationEs": "столо́вая se declina como adjetivo: в столо́вой.",
+          "explanationEs": "Столо́вая se declina como adjetivo: в столо́вой.",
           "tags": [
             "3.1-g-prep-oj"
           ],
@@ -2399,12 +2399,12 @@
             "3.1-g-prep-oj"
           ],
           "origin": "original",
-          "es": "дива́н = sofá · шкаф = clóset · гости́ная = sala · по́лка = repisa · сад = jardín · де́тская = cuarto de los niños · окно́ = ventana · пол = piso · ва́нная = baño · спа́льня = recámara"
+          "es": "Дива́н = sofá · шкаф = clóset · гости́ная = sala · по́лка = repisa · сад = jardín · де́тская = cuarto de los niños · окно́ = ventana · пол = piso · ва́нная = baño · спа́льня = recámara"
         },
         {
           "id": "3.1-x-24",
           "type": "sort",
-          "instructionEs": "¿в o на?",
+          "instructionEs": "¿В o на?",
           "categories": [
             "в",
             "на"
@@ -2451,12 +2451,12 @@
               "category": "в"
             }
           ],
-          "explanationEs": "в = dentro; на = sobre una superficie. на ку́хне y на балко́не se memorizan.",
+          "explanationEs": "В = dentro; на = sobre una superficie. на ку́хне y на балко́не se memorizan.",
           "tags": [
             "3.1-g-v-na"
           ],
           "origin": "original",
-          "es": "в шкафу́ = en el clóset · на столе́ = en la mesa · на ку́хне = en la cocina · в ко́мнате = en el cuarto · на стене́ = en la pared · в холоди́льнике = en el refrigerador · на полу́ = en el piso · в спа́льне = en la recámara · на балко́не = en el balcón · в саду́ = en el jardín"
+          "es": "В шкафу́ = en el clóset · на столе́ = en la mesa · на ку́хне = en la cocina · в ко́мнате = en el cuarto · на стене́ = en la pared · в холоди́льнике = en el refrigerador · на полу́ = en el piso · в спа́льне = en la recámara · на балко́не = en el balcón · в саду́ = en el jardín"
         },
         {
           "id": "3.1-x-25",
@@ -2513,7 +2513,7 @@
           "sentence": "Его́ костю́м в шка́фе.",
           "wrongWord": 3,
           "correction": "шкафу́.",
-          "explanationEs": "шкаф → в шкафу́.",
+          "explanationEs": "Шкаф → в шкафу́.",
           "tags": [
             "3.1-g-prep-u"
           ],
@@ -2541,7 +2541,7 @@
           "sentence": "Мой сестра́ – гимна́стка.",
           "wrongWord": 0,
           "correction": "Моя́",
-          "explanationEs": "сестра́ es femenino: моя́ сестра́.",
+          "explanationEs": "Сестра́ es femenino: моя́ сестра́.",
           "tags": [
             "3.1-g-lyubimyj"
           ],
@@ -2556,7 +2556,7 @@
           "answers": [
             "мый"
           ],
-          "explanationEs": "спортсме́н es masculino: люби́мый.",
+          "explanationEs": "Спортсме́н es masculino: люби́мый.",
           "tags": [
             "3.1-g-lyubimyj"
           ],
@@ -2571,7 +2571,7 @@
           "answers": [
             "мая"
           ],
-          "explanationEs": "кни́га es femenino: люби́мая.",
+          "explanationEs": "Кни́га es femenino: люби́мая.",
           "tags": [
             "3.1-g-lyubimyj"
           ],
@@ -2586,7 +2586,7 @@
           "answers": [
             "мое"
           ],
-          "explanationEs": "кафе́ es neutro: люби́мое.",
+          "explanationEs": "Кафе́ es neutro: люби́мое.",
           "tags": [
             "3.1-g-lyubimyj"
           ],
@@ -2605,7 +2605,7 @@
             "Каки́е"
           ],
           "answer": 1,
-          "explanationEs": "страна́ es femenino → кака́я.",
+          "explanationEs": "Страна́ es femenino → кака́я.",
           "tags": [
             "3.1-g-lyubimyj",
             "3.1-v-kakoj"
@@ -2625,7 +2625,7 @@
             "Каки́е"
           ],
           "answer": 2,
-          "explanationEs": "кафе́ es neutro → како́е.",
+          "explanationEs": "Кафе́ es neutro → како́е.",
           "tags": [
             "3.1-g-lyubimyj",
             "3.1-v-kakoj"
@@ -2645,7 +2645,7 @@
             "Каки́е"
           ],
           "answer": 0,
-          "explanationEs": "журна́л es masculino → како́й.",
+          "explanationEs": "Журна́л es masculino → како́й.",
           "tags": [
             "3.1-g-lyubimyj",
             "3.1-v-kakoj"
@@ -2689,7 +2689,7 @@
             "3.1-g-v-na"
           ],
           "origin": "workbook p.47 ex.2Д",
-          "es": "банки́р – в ба́нке = el banquero, en el banco · по́вар – в рестора́не = el cocinero, en el restaurante · почтальо́н – на по́чте = el cartero, en el correo · библиоте́карь – в библиоте́ке = el bibliotecario, en la biblioteca · актёр – в теа́тре = el actor, en el teatro · преподава́тель – в шко́ле = el profesor, en la escuela"
+          "es": "Банки́р – в ба́нке = el banquero, en el banco · по́вар – в рестора́не = el cocinero, en el restaurante · почтальо́н – на по́чте = el cartero, en el correo · библиоте́карь – в библиоте́ке = el bibliotecario, en la biblioteca · актёр – в теа́тре = el actor, en el teatro · преподава́тель – в шко́ле = el profesor, en la escuela"
         },
         {
           "id": "3.1-x-38",
@@ -2726,7 +2726,7 @@
           ],
           "answer": "Моя́ черепа́ха спит на дива́не.",
           "es": "Mi tortuga duerme en el sofá.",
-          "explanationEs": "на дива́не = en el sofá.",
+          "explanationEs": "На дива́не = en el sofá.",
           "tags": [
             "3.1-g-prep-e"
           ],
@@ -2760,7 +2760,7 @@
             "Где ты спишь? – В спа́льне.",
             "Где ты спишь? В спа́льне."
           ],
-          "explanationEs": "спать: я сплю, ты спишь. спа́льня → в спа́льне.",
+          "explanationEs": "Спать: я сплю, ты спишь. спа́льня → в спа́льне.",
           "tags": [
             "3.1-g-prep-e",
             "3.1-v-spat"
@@ -2778,7 +2778,7 @@
             "Соба́ка на полу́, а кот на дива́не.",
             "Соба́ка на полу́, а ко́шка на дива́не."
           ],
-          "explanationEs": "на полу́ (-у́), на дива́не (-е).",
+          "explanationEs": "На полу́ (-у́), на дива́не (-е).",
           "tags": [
             "3.1-g-prep-u",
             "3.1-g-prep-e"
@@ -2796,7 +2796,7 @@
             "Мой люби́мый го́род – Москва́.",
             "Мой люби́мый го́род Москва́."
           ],
-          "explanationEs": "го́род es masculino → мой люби́мый.",
+          "explanationEs": "Го́род es masculino → мой люби́мый.",
           "tags": [
             "3.1-g-lyubimyj"
           ],
@@ -2813,7 +2813,7 @@
             "Его́ маши́на в гараже́.",
             "Его́ маши́на стои́т в гараже́."
           ],
-          "explanationEs": "гара́ж → в гараже́.",
+          "explanationEs": "Гара́ж → в гараже́.",
           "tags": [
             "3.1-g-prep-e"
           ],
@@ -2830,7 +2830,7 @@
             "En el baño hay tina, regadera y espejo.",
             "En el baño hay una tina, una regadera y un espejo."
           ],
-          "explanationEs": "ва́нная = cuarto de baño; ва́нна = tina.",
+          "explanationEs": "Ва́нная = cuarto de baño; ва́нна = tina.",
           "tags": [
             "3.1-v-vanna",
             "3.1-v-vannaya"
@@ -3068,7 +3068,7 @@
         {
           "id": "3.2-g-zhit",
           "title": "El verbo жить (vivir)",
-          "explanationEs": "**жить** es de la conjugación -е con raíz **жив-**: живу́, живёшь, живёт, живём, живёте, живу́т. Se usa con в/на + prepositivo: Я живу́ в Ме́ксике.",
+          "explanationEs": "**Жить** es de la conjugación -е con raíz **жив-**: живу́, живёшь, живёт, живём, живёте, живу́т. Se usa con в/на + prepositivo: Я живу́ в Ме́ксике.",
           "tables": [
             {
               "caption": "жить",
@@ -3295,7 +3295,7 @@
         {
           "id": "3.2-g-etot",
           "title": "Demostrativos э́тот, э́та, э́то, э́ти",
-          "explanationEs": "**э́то** invariable significa «esto es / estos son»: Э́то мой дом. Э́то на́ши де́ти.\n**э́тот / э́та / э́то / э́ти** concuerdan con el sustantivo y significan «este / esta / este (n) / estos»: Э́тот дом мой. Э́ти де́ти на́ши.",
+          "explanationEs": "**Э́то** invariable significa «esto es / estos son»: Э́то мой дом. Э́то на́ши де́ти.\n**э́тот / э́та / э́то / э́ти** concuerdan con el sustantivo y significan «este / esta / este (n) / estos»: Э́тот дом мой. Э́ти де́ти на́ши.",
           "tables": [
             {
               "caption": "Concordancia",
@@ -3673,7 +3673,7 @@
         {
           "id": "3.2-v-provodit",
           "ru": "проводи́ть вре́мя",
-          "es": "pasar el tiempo",
+          "es": "Pasar el tiempo",
           "pos": "verb",
           "conj": {
             "type": "i",
@@ -4356,7 +4356,7 @@
         },
         {
           "ru": "проводи́ть вре́мя",
-          "es": "pasar el tiempo"
+          "es": "Pasar el tiempo"
         },
         {
           "ru": "Э́то недалеко́.",
@@ -4753,7 +4753,7 @@
             "3.2-v-sidet"
           ],
           "origin": "textbook p.55 ex.3А",
-          "es": "сиде́ть = estar sentado: yo estoy sentado, tú estás sentado, él está sentado, nosotros estamos sentados, ustedes están sentados, ellos están sentados"
+          "es": "Сиде́ть = estar sentado: yo estoy sentado, tú estás sentado, él está sentado, nosotros estamos sentados, ustedes están sentados, ellos están sentados"
         },
         {
           "id": "3.2-x-02",
@@ -4782,7 +4782,7 @@
             "3.2-v-stoyat"
           ],
           "origin": "textbook p.55 ex.3А",
-          "es": "стоя́ть = estar parado (de pie): yo estoy parado, tú estás parado, él está parado, nosotros estamos parados, ustedes están parados, ellos están parados"
+          "es": "Стоя́ть = estar parado (de pie): yo estoy parado, tú estás parado, él está parado, nosotros estamos parados, ustedes están parados, ellos están parados"
         },
         {
           "id": "3.2-x-03",
@@ -4811,7 +4811,7 @@
             "3.2-v-lezhat"
           ],
           "origin": "textbook p.55 ex.3А",
-          "es": "лежа́ть = estar acostado: yo estoy acostado, tú estás acostado, él está acostado, nosotros estamos acostados, ustedes están acostados, ellos están acostados"
+          "es": "Лежа́ть = estar acostado: yo estoy acostado, tú estás acostado, él está acostado, nosotros estamos acostados, ustedes están acostados, ellos están acostados"
         },
         {
           "id": "3.2-x-04",
@@ -4840,7 +4840,7 @@
             "3.2-v-viset"
           ],
           "origin": "textbook p.55 ex.3А",
-          "es": "висе́ть = estar colgado: yo cuelgo, tú cuelgas, él cuelga, nosotros colgamos, ustedes cuelgan, ellos cuelgan"
+          "es": "Висе́ть = estar colgado: yo cuelgo, tú cuelgas, él cuelga, nosotros colgamos, ustedes cuelgan, ellos cuelgan"
         },
         {
           "id": "3.2-x-05",
@@ -4869,7 +4869,7 @@
             "3.2-v-zhit"
           ],
           "origin": "workbook p.50 ex.2А",
-          "es": "жить = vivir: yo vivo, tú vives, él vive, nosotros vivimos, ustedes viven, ellos viven"
+          "es": "Жить = vivir: yo vivo, tú vives, él vive, nosotros vivimos, ustedes viven, ellos viven"
         },
         {
           "id": "3.2-x-06",
@@ -5054,7 +5054,7 @@
             "сижу́"
           ],
           "hint": "сиде́ть",
-          "explanationEs": "я сижу́: д→ж.",
+          "explanationEs": "Я сижу́: д→ж.",
           "tags": [
             "3.2-g-position-verbs"
           ],
@@ -5070,7 +5070,7 @@
             "живёшь"
           ],
           "hint": "жить",
-          "explanationEs": "ты живёшь.",
+          "explanationEs": "Ты живёшь.",
           "tags": [
             "3.2-g-zhit"
           ],
@@ -5086,7 +5086,7 @@
             "живу́т"
           ],
           "hint": "жить",
-          "explanationEs": "они́ живу́т.",
+          "explanationEs": "Они́ живу́т.",
           "tags": [
             "3.2-g-zhit"
           ],
@@ -5297,7 +5297,7 @@
             "Э́ти"
           ],
           "answer": 1,
-          "explanationEs": "ла́мпа es femenino → э́та.",
+          "explanationEs": "Ла́мпа es femenino → э́та.",
           "tags": [
             "3.2-g-etot"
           ],
@@ -5316,7 +5316,7 @@
             "Э́ти"
           ],
           "answer": 3,
-          "explanationEs": "джи́нсы es plural → э́ти.",
+          "explanationEs": "Джи́нсы es plural → э́ти.",
           "tags": [
             "3.2-g-etot"
           ],
@@ -5335,7 +5335,7 @@
             "Э́ти"
           ],
           "answer": 2,
-          "explanationEs": "окно́ es neutro → э́то.",
+          "explanationEs": "Окно́ es neutro → э́то.",
           "tags": [
             "3.2-g-etot"
           ],
@@ -5354,7 +5354,7 @@
             "Э́ти"
           ],
           "answer": 0,
-          "explanationEs": "ковёр es masculino → э́тот.",
+          "explanationEs": "Ковёр es masculino → э́тот.",
           "tags": [
             "3.2-g-etot"
           ],
@@ -5373,7 +5373,7 @@
             "Э́ти"
           ],
           "answer": 2,
-          "explanationEs": "такси́ es neutro (indeclinable) → э́то.",
+          "explanationEs": "Такси́ es neutro (indeclinable) → э́то.",
           "tags": [
             "3.2-g-etot"
           ],
@@ -5392,7 +5392,7 @@
             "Э́ти"
           ],
           "answer": 3,
-          "explanationEs": "сту́лья es plural → э́ти.",
+          "explanationEs": "Сту́лья es plural → э́ти.",
           "tags": [
             "3.2-g-etot"
           ],
@@ -5456,7 +5456,7 @@
             "3.2-g-etot"
           ],
           "origin": "original",
-          "es": "дива́н = sofá · по́лка = repisa · кафе́ = café · де́ти = niños · го́род = ciudad · фотогра́фия = foto · окно́ = ventana · ключи́ = llaves · мужчи́на = hombre · поду́шка = almohada"
+          "es": "Дива́н = sofá · по́лка = repisa · кафе́ = café · де́ти = niños · го́род = ciudad · фотогра́фия = foto · окно́ = ventana · ключи́ = llaves · мужчи́на = hombre · поду́шка = almohada"
         },
         {
           "id": "3.2-x-34",
@@ -5484,7 +5484,7 @@
             "Кот сиди́т на дива́не.",
             "Кот лежи́т на дива́не."
           ],
-          "explanationEs": "лю́стра → дива́н; на дива́не.",
+          "explanationEs": "Лю́стра → дива́н; на дива́не.",
           "tags": [
             "3.2-g-position-verbs",
             "3.2-v-besporyadok"
@@ -5517,7 +5517,7 @@
             "гамаке́"
           ],
           "hint": "гама́к",
-          "explanationEs": "гама́к → в гамаке́.",
+          "explanationEs": "Гама́к → в гамаке́.",
           "tags": [
             "3.2-v-gamak_32",
             "3.1-g-prep-e"
@@ -5533,7 +5533,7 @@
           "answers": [
             "проводи́ть"
           ],
-          "explanationEs": "проводи́ть вре́мя = pasar el tiempo.",
+          "explanationEs": "Проводи́ть вре́мя = pasar el tiempo.",
           "tags": [
             "3.2-v-provodit"
           ],
@@ -5548,7 +5548,7 @@
           "answers": [
             "далеко́"
           ],
-          "explanationEs": "далеко́ ↔ недалеко́.",
+          "explanationEs": "Далеко́ ↔ недалеко́.",
           "tags": [
             "3.2-v-daleko"
           ],
@@ -5568,12 +5568,12 @@
           "answers": [
             "необы́чный"
           ],
-          "explanationEs": "не- + adjetivo = lo contrario.",
+          "explanationEs": "Не- + adjetivo = lo contrario.",
           "tags": [
             "3.2-v-obychnyj"
           ],
           "origin": "original",
-          "es": "обы́чный = común ↔ необы́чный = poco común"
+          "es": "Обы́чный = común ↔ необы́чный = poco común"
         },
         {
           "id": "3.2-x-41",
@@ -5583,12 +5583,12 @@
           "answers": [
             "беспоря́док"
           ],
-          "explanationEs": "беспоря́док = desorden.",
+          "explanationEs": "Беспоря́док = desorden.",
           "tags": [
             "3.2-v-poryadok"
           ],
           "origin": "original",
-          "es": "поря́док = orden ↔ беспоря́док = desorden"
+          "es": "Поря́док = orden ↔ беспоря́док = desorden"
         },
         {
           "id": "3.2-x-42",
@@ -5603,12 +5603,12 @@
           "answers": [
             "недалеко́"
           ],
-          "explanationEs": "недалеко́ = cerca.",
+          "explanationEs": "Недалеко́ = cerca.",
           "tags": [
             "3.2-v-daleko"
           ],
           "origin": "original",
-          "es": "далеко́ = lejos ↔ недалеко́ = cerca"
+          "es": "Далеко́ = lejos ↔ недалеко́ = cerca"
         },
         {
           "id": "3.2-x-43",
@@ -5636,7 +5636,7 @@
           "answers": [
             "Лю́стра виси́т в гости́ной."
           ],
-          "explanationEs": "висе́ть + в гости́ной.",
+          "explanationEs": "Висе́ть + в гости́ной.",
           "tags": [
             "3.2-g-position-verbs"
           ],
@@ -5652,7 +5652,7 @@
           "answers": [
             "Я сижу́ на ковре́ и медити́рую."
           ],
-          "explanationEs": "сижу́, на ковре́, медити́рую.",
+          "explanationEs": "Сижу́, на ковре́, медити́рую.",
           "tags": [
             "3.2-g-position-verbs",
             "3.2-v-meditirovat"
@@ -5670,7 +5670,7 @@
             "Моя́ тётя живёт в Испа́нии, а мой дя́дя живёт во Фра́нции.",
             "Моя́ тётя живёт в Испа́нии, а мой дя́дя во Фра́нции."
           ],
-          "explanationEs": "во Фра́нции.",
+          "explanationEs": "Во Фра́нции.",
           "tags": [
             "3.2-g-zhit",
             "3.2-g-prep-ii"
@@ -5688,7 +5688,7 @@
             "Me encanta acostarme en el camastro y tomar cocteles.",
             "Me encanta estar acostado en el camastro y tomar cocteles."
           ],
-          "explanationEs": "шезло́нг = camastro.",
+          "explanationEs": "Шезло́нг = camastro.",
           "tags": [
             "3.2-v-shezlong",
             "3.2-v-koktejl"
@@ -5729,7 +5729,7 @@
           ],
           "answer": "Фрэнк живёт в Аме́рике, в Лос-А́нджелесе.",
           "es": "Frank vive en Estados Unidos, en Los Ángeles.",
-          "explanationEs": "жить + в + prepositivo.",
+          "explanationEs": "Жить + в + prepositivo.",
           "tags": [
             "3.2-g-zhit"
           ],
@@ -6165,7 +6165,7 @@
         {
           "id": "3.3-g-kotoryj",
           "title": "Кото́рый, кото́рая, кото́рое, кото́рые",
-          "explanationEs": "**кото́рый** une dos ideas, como «que» en español. Concuerda en género y número con el sustantivo al que se refiere: челове́к, **кото́рый**…; маши́на, **кото́рая**…; ме́сто, **кото́рое**…; лю́ди, **кото́рые**…",
+          "explanationEs": "**Кото́рый** une dos ideas, como «que» en español. Concuerda en género y número con el sustantivo al que se refiere: челове́к, **кото́рый**…; маши́на, **кото́рая**…; ме́сто, **кото́рое**…; лю́ди, **кото́рые**…",
           "tables": [
             {
               "caption": "Concordancia",
@@ -7817,7 +7817,7 @@
             "3.3-g-plural"
           ],
           "origin": "textbook p.61 ex.2Б",
-          "es": "teléfonos"
+          "es": "Teléfonos"
         },
         {
           "id": "3.3-x-02",
@@ -7832,7 +7832,7 @@
             "3.3-g-plural"
           ],
           "origin": "textbook p.61 ex.2Б",
-          "es": "bolsas"
+          "es": "Bolsas"
         },
         {
           "id": "3.3-x-03",
@@ -7847,7 +7847,7 @@
             "3.3-g-plural"
           ],
           "origin": "textbook p.61 ex.2Б",
-          "es": "ventanas"
+          "es": "Ventanas"
         },
         {
           "id": "3.3-x-04",
@@ -7862,7 +7862,7 @@
             "3.3-g-plural"
           ],
           "origin": "textbook p.61 ex.2Б",
-          "es": "pizarrones"
+          "es": "Pizarrones"
         },
         {
           "id": "3.3-x-05",
@@ -7877,7 +7877,7 @@
             "3.3-g-plural"
           ],
           "origin": "textbook p.61 ex.2Б",
-          "es": "cartas"
+          "es": "Cartas"
         },
         {
           "id": "3.3-x-06",
@@ -7892,7 +7892,7 @@
             "3.3-g-plural"
           ],
           "origin": "textbook p.61 ex.2Б",
-          "es": "sillas"
+          "es": "Sillas"
         },
         {
           "id": "3.3-x-07",
@@ -7907,7 +7907,7 @@
             "3.3-g-plural"
           ],
           "origin": "textbook p.61 ex.2Б",
-          "es": "casas"
+          "es": "Casas"
         },
         {
           "id": "3.3-x-08",
@@ -7922,7 +7922,7 @@
             "3.3-g-plural"
           ],
           "origin": "textbook p.61 ex.2Б",
-          "es": "manzanas"
+          "es": "Manzanas"
         },
         {
           "id": "3.3-x-09",
@@ -7937,7 +7937,7 @@
             "3.3-g-plural"
           ],
           "origin": "original",
-          "es": "niños"
+          "es": "Niños"
         },
         {
           "id": "3.3-x-10",
@@ -7947,7 +7947,7 @@
           "answers": [
             "Кре́сла стоя́т сле́ва."
           ],
-          "explanationEs": "кре́сло → кре́сла; стои́т → стоя́т.",
+          "explanationEs": "Кре́сло → кре́сла; стои́т → стоя́т.",
           "tags": [
             "3.3-g-plural",
             "3.2-g-position-verbs"
@@ -7963,7 +7963,7 @@
           "answers": [
             "Де́ти игра́ют в де́тской."
           ],
-          "explanationEs": "ребёнок → де́ти.",
+          "explanationEs": "Ребёнок → де́ти.",
           "tags": [
             "3.3-g-plural"
           ],
@@ -7978,7 +7978,7 @@
           "answers": [
             "Лю́ди лю́бят путеше́ствовать."
           ],
-          "explanationEs": "челове́к → лю́ди; лю́бит → лю́бят.",
+          "explanationEs": "Челове́к → лю́ди; лю́бит → лю́бят.",
           "tags": [
             "3.3-g-plural"
           ],
@@ -8049,7 +8049,7 @@
             "3.3-g-plural"
           ],
           "origin": "original",
-          "es": "план = plan · конфе́та = dulce · каранда́ш = lápiz · ру́чка = pluma · вещь = cosa · гама́к = hamaca · окно́ = ventana · мо́ре = mar · прое́кт = proyecto · колле́га = colega · письмо́ = carta · контра́кт = contrato"
+          "es": "План = plan · конфе́та = dulce · каранда́ш = lápiz · ру́чка = pluma · вещь = cosa · гама́к = hamaca · окно́ = ventana · мо́ре = mar · прое́кт = proyecto · колле́га = colega · письмо́ = carta · контра́кт = contrato"
         },
         {
           "id": "3.3-x-14",
@@ -8062,7 +8062,7 @@
             "гама́кы"
           ],
           "answer": 1,
-          "explanationEs": "гама́к → гамаки́ (к + и; acento al final).",
+          "explanationEs": "Гама́к → гамаки́ (к + и; acento al final).",
           "tags": [
             "3.3-g-plural"
           ],
@@ -8100,13 +8100,13 @@
           "answers": [
             "ма́ло"
           ],
-          "explanationEs": "мно́го ↔ ма́ло.",
+          "explanationEs": "Мно́го ↔ ма́ло.",
           "tags": [
             "3.3-g-adverbs",
             "3.3-v-mnogo"
           ],
           "origin": "workbook p.56 ex.2А",
-          "es": "мно́го = mucho ↔ ма́ло = poco"
+          "es": "Мно́го = mucho ↔ ма́ло = poco"
         },
         {
           "id": "3.3-x-17",
@@ -8117,13 +8117,13 @@
             "гро́мко",
             "шу́мно"
           ],
-          "explanationEs": "ти́хо ↔ гро́мко / шу́мно.",
+          "explanationEs": "Ти́хо ↔ гро́мко / шу́мно.",
           "tags": [
             "3.3-g-adverbs",
             "3.3-v-tikho"
           ],
           "origin": "workbook p.56 ex.2А",
-          "es": "ти́хо = bajito, en silencio ↔ гро́мко = fuerte, en voz alta (o шу́мно = con mucho ruido)"
+          "es": "Ти́хо = bajito, en silencio ↔ гро́мко = fuerte, en voz alta (o шу́мно = con mucho ruido)"
         },
         {
           "id": "3.3-x-18",
@@ -8138,13 +8138,13 @@
           "answers": [
             "у́жасно"
           ],
-          "explanationEs": "прекра́сно ↔ у́жасно.",
+          "explanationEs": "Прекра́сно ↔ у́жасно.",
           "tags": [
             "3.3-g-adverbs",
             "3.3-v-prekrasno"
           ],
           "origin": "workbook p.56 ex.2А",
-          "es": "прекра́сно = de maravilla ↔ у́жасно = fatal, horrible"
+          "es": "Прекра́сно = de maravilla ↔ у́жасно = fatal, horrible"
         },
         {
           "id": "3.3-x-19",
@@ -8154,13 +8154,13 @@
           "answers": [
             "ме́дленно"
           ],
-          "explanationEs": "бы́стро ↔ ме́дленно.",
+          "explanationEs": "Бы́стро ↔ ме́дленно.",
           "tags": [
             "3.3-g-adverbs",
             "3.3-v-bystro"
           ],
           "origin": "workbook p.56 ex.2А",
-          "es": "бы́стро = rápido ↔ ме́дленно = despacio"
+          "es": "Бы́стро = rápido ↔ ме́дленно = despacio"
         },
         {
           "id": "3.3-x-20",
@@ -8175,13 +8175,13 @@
           "answers": [
             "по́здно"
           ],
-          "explanationEs": "ра́но ↔ по́здно.",
+          "explanationEs": "Ра́но ↔ по́здно.",
           "tags": [
             "3.3-g-adverbs",
             "3.3-v-rano"
           ],
           "origin": "original",
-          "es": "ра́но = temprano ↔ по́здно = tarde"
+          "es": "Ра́но = temprano ↔ по́здно = tarde"
         },
         {
           "id": "3.3-x-21",
@@ -8191,13 +8191,13 @@
           "answers": [
             "ску́чно"
           ],
-          "explanationEs": "интере́сно ↔ ску́чно.",
+          "explanationEs": "Интере́сно ↔ ску́чно.",
           "tags": [
             "3.3-g-adverbs",
             "3.3-v-skuchno"
           ],
           "origin": "workbook p.56 ex.2А",
-          "es": "интере́сно = interesante ↔ ску́чно = aburrido"
+          "es": "Интере́сно = interesante ↔ ску́чно = aburrido"
         },
         {
           "id": "3.3-x-22",
@@ -8207,12 +8207,12 @@
           "answers": [
             "непра́вильно"
           ],
-          "explanationEs": "не- + adverbio = lo contrario.",
+          "explanationEs": "Не- + adverbio = lo contrario.",
           "tags": [
             "3.3-g-adverbs"
           ],
           "origin": "textbook p.62 ex.3А",
-          "es": "пра́вильно = correcto, bien ↔ непра́вильно = incorrecto, mal"
+          "es": "Пра́вильно = correcto, bien ↔ непра́вильно = incorrecto, mal"
         },
         {
           "id": "3.3-x-23",
@@ -8249,7 +8249,7 @@
             "3.3-g-adverbs"
           ],
           "origin": "textbook p.62 ex.3А",
-          "es": "пра́вильно = bien ↔ непра́вильно = mal · бы́стро = rápido ↔ ме́дленно = despacio · мно́го = mucho ↔ ма́ло = poco · ти́хо = bajito ↔ гро́мко = fuerte · ра́но = temprano ↔ по́здно = tarde · прекра́сно = de maravilla ↔ у́жасно = fatal"
+          "es": "Пра́вильно = bien ↔ непра́вильно = mal · бы́стро = rápido ↔ ме́дленно = despacio · мно́го = mucho ↔ ма́ло = poco · ти́хо = bajito ↔ гро́мко = fuerte · ра́но = temprano ↔ по́здно = tarde · прекра́сно = de maravilla ↔ у́жасно = fatal"
         },
         {
           "id": "3.3-x-24",
@@ -8259,7 +8259,7 @@
           "answers": [
             "ро́мко"
           ],
-          "explanationEs": "гро́мко = fuerte.",
+          "explanationEs": "Гро́мко = fuerte.",
           "tags": [
             "3.3-g-adverbs",
             "3.3-v-gromko"
@@ -8275,7 +8275,7 @@
           "answers": [
             "дленно"
           ],
-          "explanationEs": "ме́дленно = despacio.",
+          "explanationEs": "Ме́дленно = despacio.",
           "tags": [
             "3.3-g-adverbs",
             "3.3-v-medlenno"
@@ -8291,7 +8291,7 @@
           "answers": [
             "но́го"
           ],
-          "explanationEs": "мно́го = mucho.",
+          "explanationEs": "Мно́го = mucho.",
           "tags": [
             "3.3-g-adverbs",
             "3.3-v-mnogo"
@@ -8307,7 +8307,7 @@
           "answers": [
             "и́хо"
           ],
-          "explanationEs": "ти́хо = bajito.",
+          "explanationEs": "Ти́хо = bajito.",
           "tags": [
             "3.3-g-adverbs",
             "3.3-v-tikho"
@@ -8363,7 +8363,7 @@
             "кото́рые"
           ],
           "answer": 0,
-          "explanationEs": "челове́к es masculino → кото́рый.",
+          "explanationEs": "Челове́к es masculino → кото́рый.",
           "tags": [
             "3.3-g-kotoryj"
           ],
@@ -8382,7 +8382,7 @@
             "кото́рые"
           ],
           "answer": 1,
-          "explanationEs": "ме́бель es femenino → кото́рая.",
+          "explanationEs": "Ме́бель es femenino → кото́рая.",
           "tags": [
             "3.3-g-kotoryj"
           ],
@@ -8401,7 +8401,7 @@
             "кото́рые"
           ],
           "answer": 0,
-          "explanationEs": "кокте́йль es masculino → кото́рый.",
+          "explanationEs": "Кокте́йль es masculino → кото́рый.",
           "tags": [
             "3.3-g-kotoryj"
           ],
@@ -8420,7 +8420,7 @@
             "кото́рые"
           ],
           "answer": 3,
-          "explanationEs": "журна́лы es plural → кото́рые.",
+          "explanationEs": "Журна́лы es plural → кото́рые.",
           "tags": [
             "3.3-g-kotoryj"
           ],
@@ -8481,7 +8481,7 @@
             "3.3-g-office-verbs"
           ],
           "origin": "workbook p.57 ex.3А",
-          "es": "говори́ть по телефо́ну = hablar por teléfono · пить ко́фе = tomar café · отвеча́ть на пи́сьма = contestar cartas · сиде́ть в интерне́те = estar en internet · изуча́ть контра́кты = revisar contratos · обсужда́ть прое́кты = discutir proyectos"
+          "es": "Говори́ть по телефо́ну = hablar por teléfono · пить ко́фе = tomar café · отвеча́ть на пи́сьма = contestar cartas · сиде́ть в интерне́те = estar en internet · изуча́ть контра́кты = revisar contratos · обсужда́ть прое́кты = discutir proyectos"
         },
         {
           "id": "3.3-x-36",
@@ -8548,7 +8548,7 @@
             "3.3-v-obsuzhdat"
           ],
           "origin": "original",
-          "es": "обсужда́ть = discutir, comentar: yo discuto, tú discutes, él discute, nosotros discutimos, ustedes discuten, ellos discuten"
+          "es": "Обсужда́ть = discutir, comentar: yo discuto, tú discutes, él discute, nosotros discutimos, ustedes discuten, ellos discuten"
         },
         {
           "id": "3.3-x-38",
@@ -8577,7 +8577,7 @@
             "3.3-v-zavtrakat"
           ],
           "origin": "original",
-          "es": "за́втракать = desayunar: yo desayuno, tú desayunas, él desayuna, nosotros desayunamos, ustedes desayunan, ellos desayunan"
+          "es": "За́втракать = desayunar: yo desayuno, tú desayunas, él desayuna, nosotros desayunamos, ustedes desayunan, ellos desayunan"
         },
         {
           "id": "3.3-x-39",
@@ -8588,7 +8588,7 @@
             "сотру́дники"
           ],
           "hint": "сотру́дник",
-          "explanationEs": "сотру́дник → сотру́дники.",
+          "explanationEs": "Сотру́дник → сотру́дники.",
           "tags": [
             "3.3-v-sotrudnik",
             "3.3-g-plural"
@@ -8604,7 +8604,7 @@
           "answers": [
             "мечта́"
           ],
-          "explanationEs": "мечта́ = sueño.",
+          "explanationEs": "Мечта́ = sueño.",
           "tags": [
             "3.3-v-mechta"
           ],
@@ -8650,7 +8650,7 @@
             "па́пку"
           ],
           "answer": 0,
-          "explanationEs": "па́пка → в па́пке (prepositivo).",
+          "explanationEs": "Па́пка → в па́пке (prepositivo).",
           "tags": [
             "3.3-v-papka",
             "3.1-g-prep-e"
@@ -8682,7 +8682,7 @@
             "во"
           ],
           "answer": 0,
-          "explanationEs": "в столе́ = dentro del escritorio (en los cajones); на столе́ = encima.",
+          "explanationEs": "В столе́ = dentro del escritorio (en los cajones); на столе́ = encima.",
           "tags": [
             "3.1-g-v-na"
           ],
@@ -8699,7 +8699,7 @@
             "Моя́ мечта́ – рабо́тать в Google.",
             "Моя́ мечта́ рабо́тать в Google."
           ],
-          "explanationEs": "мечта́ es femenino → моя́.",
+          "explanationEs": "Мечта́ es femenino → моя́.",
           "tags": [
             "3.3-v-mechta"
           ],
@@ -8734,7 +8734,7 @@
             "¡No es una oficina, es un sueño!",
             "¡Esto no es una oficina, es un sueño!"
           ],
-          "explanationEs": "не…, а… = no…, sino…",
+          "explanationEs": "Не…, а… = no…, sino…",
           "tags": [
             "3.3-v-mechta"
           ],
@@ -8773,7 +8773,7 @@
           ],
           "answer": "Мы вме́сте обсужда́ем прое́кты и пла́ны.",
           "es": "Juntos comentamos proyectos y planes.",
-          "explanationEs": "обсужда́ть + plural.",
+          "explanationEs": "Обсужда́ть + plural.",
           "tags": [
             "3.3-g-office-verbs",
             "3.3-g-plural"
@@ -12799,12 +12799,12 @@
             "тяжёлый",
             "тру́дный"
           ],
-          "explanationEs": "лёгкий ↔ тяжёлый (peso) / тру́дный (dificultad).",
+          "explanationEs": "Лёгкий ↔ тяжёлый (peso) / тру́дный (dificultad).",
           "tags": [
             "3.4-g-adj-endings"
           ],
           "origin": "workbook p.60 ex.1В",
-          "es": "лёгкий = ligero, fácil ↔ тяжёлый = pesado (o тру́дный = difícil)"
+          "es": "Лёгкий = ligero, fácil ↔ тяжёлый = pesado (o тру́дный = difícil)"
         },
         {
           "id": "3.4-x-02",
@@ -12819,12 +12819,12 @@
           "answers": [
             "дешёвый"
           ],
-          "explanationEs": "дорого́й ↔ дешёвый.",
+          "explanationEs": "Дорого́й ↔ дешёвый.",
           "tags": [
             "3.4-g-adj-endings"
           ],
           "origin": "workbook p.60 ex.1В",
-          "es": "дорого́й = caro ↔ дешёвый = barato"
+          "es": "Дорого́й = caro ↔ дешёвый = barato"
         },
         {
           "id": "3.4-x-03",
@@ -12839,12 +12839,12 @@
           "answers": [
             "коро́ткий"
           ],
-          "explanationEs": "дли́нный ↔ коро́ткий.",
+          "explanationEs": "Дли́нный ↔ коро́ткий.",
           "tags": [
             "3.4-g-adj-endings"
           ],
           "origin": "workbook p.60 ex.1В",
-          "es": "дли́нный = largo ↔ коро́ткий = corto"
+          "es": "Дли́нный = largo ↔ коро́ткий = corto"
         },
         {
           "id": "3.4-x-04",
@@ -12859,12 +12859,12 @@
           "answers": [
             "ни́зкий"
           ],
-          "explanationEs": "высо́кий ↔ ни́зкий.",
+          "explanationEs": "Высо́кий ↔ ни́зкий.",
           "tags": [
             "3.4-g-adj-endings"
           ],
           "origin": "workbook p.60 ex.1В",
-          "es": "высо́кий = alto ↔ ни́зкий = bajo"
+          "es": "Высо́кий = alto ↔ ни́зкий = bajo"
         },
         {
           "id": "3.4-x-05",
@@ -12879,12 +12879,12 @@
           "answers": [
             "прекра́сный"
           ],
-          "explanationEs": "ужа́сный ↔ прекра́сный.",
+          "explanationEs": "Ужа́сный ↔ прекра́сный.",
           "tags": [
             "3.4-g-adj-endings"
           ],
           "origin": "workbook p.60 ex.1В",
-          "es": "ужа́сный = horrible ↔ прекра́сный = maravilloso"
+          "es": "Ужа́сный = horrible ↔ прекра́сный = maravilloso"
         },
         {
           "id": "3.4-x-06",
@@ -12900,12 +12900,12 @@
             "но́вый",
             "молодо́й"
           ],
-          "explanationEs": "ста́рый ↔ но́вый (cosas) / молодо́й (personas).",
+          "explanationEs": "Ста́рый ↔ но́вый (cosas) / молодо́й (personas).",
           "tags": [
             "3.4-g-adj-endings"
           ],
           "origin": "workbook p.60 ex.1В",
-          "es": "ста́рый = viejo ↔ но́вый = nuevo (o молодо́й = joven)"
+          "es": "Ста́рый = viejo ↔ но́вый = nuevo (o молодо́й = joven)"
         },
         {
           "id": "3.4-x-07",
@@ -12921,12 +12921,12 @@
             "интере́сный",
             "весёлый"
           ],
-          "explanationEs": "ску́чный ↔ интере́сный.",
+          "explanationEs": "Ску́чный ↔ интере́сный.",
           "tags": [
             "3.4-g-adj-endings"
           ],
           "origin": "workbook p.60 ex.1В",
-          "es": "ску́чный = aburrido ↔ интере́сный = interesante (o весёлый = divertido)"
+          "es": "Ску́чный = aburrido ↔ интере́сный = interesante (o весёлый = divertido)"
         },
         {
           "id": "3.4-x-08",
@@ -12936,12 +12936,12 @@
           "answers": [
             "ти́хий"
           ],
-          "explanationEs": "шу́мный ↔ ти́хий: ¡como los vecinos de arriba y los de abajo!",
+          "explanationEs": "Шу́мный ↔ ти́хий: ¡como los vecinos de arriba y los de abajo!",
           "tags": [
             "3.4-g-adj-endings"
           ],
           "origin": "textbook p.67 ex.2А",
-          "es": "шу́мный = ruidoso ↔ ти́хий = tranquilo"
+          "es": "Шу́мный = ruidoso ↔ ти́хий = tranquilo"
         },
         {
           "id": "3.4-x-09",
@@ -12951,12 +12951,12 @@
           "answers": [
             "ма́ленький"
           ],
-          "explanationEs": "большо́й ↔ ма́ленький.",
+          "explanationEs": "Большо́й ↔ ма́ленький.",
           "tags": [
             "3.4-g-adj-endings"
           ],
           "origin": "textbook p.67 ex.2А",
-          "es": "большо́й = grande ↔ ма́ленький = pequeño"
+          "es": "Большо́й = grande ↔ ма́ленький = pequeño"
         },
         {
           "id": "3.4-x-10",
@@ -12966,12 +12966,12 @@
           "answers": [
             "злой"
           ],
-          "explanationEs": "до́брый ↔ злой.",
+          "explanationEs": "До́брый ↔ злой.",
           "tags": [
             "3.4-g-adj-endings"
           ],
           "origin": "textbook p.67 ex.2А",
-          "es": "до́брый = bueno, amable ↔ злой = malo, malvado"
+          "es": "До́брый = bueno, amable ↔ злой = malo, malvado"
         },
         {
           "id": "3.4-x-11",
@@ -13008,7 +13008,7 @@
             "3.4-g-adj-endings"
           ],
           "origin": "textbook p.67 ex.2А",
-          "es": "но́вый = nuevo ↔ ста́рый = viejo · тёплый = cálido ↔ холо́дный = frío · до́брый = amable ↔ злой = malo · дли́нный = largo ↔ коро́ткий = corto · дешёвый = barato ↔ дорого́й = caro · тяжёлый = pesado ↔ лёгкий = ligero"
+          "es": "Но́вый = nuevo ↔ ста́рый = viejo · тёплый = cálido ↔ холо́дный = frío · до́брый = amable ↔ злой = malo · дли́нный = largo ↔ коро́ткий = corto · дешёвый = barato ↔ дорого́й = caro · тяжёлый = pesado ↔ лёгкий = ligero"
         },
         {
           "id": "3.4-x-12",
@@ -13045,7 +13045,7 @@
             "3.4-g-adj-endings"
           ],
           "origin": "textbook p.67 ex.2А",
-          "es": "интере́сный = interesante ↔ ску́чный = aburrido · высо́кий = alto ↔ ни́зкий = bajo · бы́стрый = rápido ↔ ме́дленный = lento · гро́мкий = fuerte, ruidoso ↔ ти́хий = silencioso · большо́й = grande ↔ ма́ленький = pequeño · тру́дный = difícil ↔ лёгкий = fácil"
+          "es": "Интере́сный = interesante ↔ ску́чный = aburrido · высо́кий = alto ↔ ни́зкий = bajo · бы́стрый = rápido ↔ ме́дленный = lento · гро́мкий = fuerte, ruidoso ↔ ти́хий = silencioso · большо́й = grande ↔ ма́ленький = pequeño · тру́дный = difícil ↔ лёгкий = fácil"
         },
         {
           "id": "3.4-x-13",
@@ -13056,7 +13056,7 @@
             "дорого́й"
           ],
           "hint": "дорого́й",
-          "explanationEs": "телефо́н (m) → дорого́й.",
+          "explanationEs": "Телефо́н (m) → дорого́й.",
           "tags": [
             "3.4-g-adj-endings"
           ],
@@ -13072,7 +13072,7 @@
             "дороги́е"
           ],
           "hint": "дорого́й",
-          "explanationEs": "часы́ es plural → дороги́е (г + и).",
+          "explanationEs": "Часы́ es plural → дороги́е (г + и).",
           "tags": [
             "3.4-g-adj-endings"
           ],
@@ -13088,7 +13088,7 @@
             "ста́рый"
           ],
           "hint": "ста́рый",
-          "explanationEs": "де́душка termina en -а pero es masculino → ста́рый.",
+          "explanationEs": "Де́душка termina en -а pero es masculino → ста́рый.",
           "tags": [
             "3.4-g-adj-endings"
           ],
@@ -13120,7 +13120,7 @@
             "си́няя"
           ],
           "hint": "си́ний",
-          "explanationEs": "си́ний es «suave»: f си́няя.",
+          "explanationEs": "Си́ний es «suave»: f си́няя.",
           "tags": [
             "3.4-g-adj-endings"
           ],
@@ -13136,7 +13136,7 @@
             "си́нее"
           ],
           "hint": "си́ний",
-          "explanationEs": "си́ний es «suave»: n си́нее.",
+          "explanationEs": "Си́ний es «suave»: n си́нее.",
           "tags": [
             "3.4-g-adj-endings"
           ],
@@ -13155,7 +13155,7 @@
             "Ти́хие"
           ],
           "answer": 0,
-          "explanationEs": "ребёнок es masculino → ти́хий.",
+          "explanationEs": "Ребёнок es masculino → ти́хий.",
           "tags": [
             "3.4-g-adj-endings"
           ],
@@ -13174,7 +13174,7 @@
             "но́вые"
           ],
           "answer": 1,
-          "explanationEs": "иде́я es femenino.",
+          "explanationEs": "Иде́я es femenino.",
           "tags": [
             "3.4-g-adj-endings"
           ],
@@ -13238,7 +13238,7 @@
             "3.4-g-adj-endings"
           ],
           "origin": "original",
-          "es": "больша́я = grande (f.) · молодо́й = joven (m.) · ти́хие = tranquilos (pl.) · хоро́шее = bueno (n.) · си́няя = azul (f.) · дешёвый = barato (m.) · ста́рое = viejo (n.) · дороги́е = caros (pl.) · элега́нтная = elegante (f.) · ру́сский = ruso (m.)"
+          "es": "Больша́я = grande (f.) · молодо́й = joven (m.) · ти́хие = tranquilos (pl.) · хоро́шее = bueno (n.) · си́няя = azul (f.) · дешёвый = barato (m.) · ста́рое = viejo (n.) · дороги́е = caros (pl.) · элега́нтная = elegante (f.) · ру́сский = ruso (m.)"
         },
         {
           "id": "3.4-x-22",
@@ -13248,7 +13248,7 @@
           "answers": [
             "Како́й э́то фильм?"
           ],
-          "explanationEs": "фильм (m) → како́й.",
+          "explanationEs": "Фильм (m) → како́й.",
           "tags": [
             "3.4-g-adj-endings",
             "3.1-v-kakoj"
@@ -13300,7 +13300,7 @@
             "гро́мко"
           ],
           "answer": 0,
-          "explanationEs": "му́зыка es un sustantivo femenino → гро́мкая.",
+          "explanationEs": "Му́зыка es un sustantivo femenino → гро́мкая.",
           "tags": [
             "3.4-g-adj-vs-adv",
             "3.4-g-nravitsya"
@@ -13352,7 +13352,7 @@
             "нра́вятся"
           ],
           "answer": 1,
-          "explanationEs": "десе́рты (plural) → нра́вятся.",
+          "explanationEs": "Десе́рты (plural) → нра́вятся.",
           "tags": [
             "3.4-g-nravitsya"
           ],
@@ -13386,7 +13386,7 @@
             "нра́вятся"
           ],
           "answer": 0,
-          "explanationEs": "му́зыка es singular → нра́вится.",
+          "explanationEs": "Му́зыка es singular → нра́вится.",
           "tags": [
             "3.4-g-nravitsya"
           ],
@@ -13419,7 +13419,7 @@
             "Голубо́го"
           ],
           "hint": "azul",
-          "explanationEs": "си́ний → си́него цве́та (o голубо́й → голубо́го цве́та). ¡Nunca «си́нее цве́та»!",
+          "explanationEs": "Си́ний → си́него цве́та (o голубо́й → голубо́го цве́та). ¡Nunca «си́нее цве́та»!",
           "tags": [
             "3.4-g-colors"
           ],
@@ -13435,7 +13435,7 @@
             "Жёлтого"
           ],
           "hint": "amarillo",
-          "explanationEs": "жёлтый → жёлтого цве́та.",
+          "explanationEs": "Жёлтый → жёлтого цве́та.",
           "tags": [
             "3.4-g-colors"
           ],
@@ -13477,7 +13477,7 @@
             "3.4-g-colors"
           ],
           "origin": "workbook p.62 ex.3А",
-          "es": "бана́ны – жёлтые = los plátanos son amarillos · тома́ты – кра́сные = los jitomates son rojos · мо́ре – си́нее = el mar es azul · ро́зы – ро́зовые = las rosas son rosas · крокоди́л – зелёный = el cocodrilo es verde · апельси́н – ора́нжевый = la naranja es anaranjada"
+          "es": "Бана́ны – жёлтые = los plátanos son amarillos · тома́ты – кра́сные = los jitomates son rojos · мо́ре – си́нее = el mar es azul · ро́зы – ро́зовые = las rosas son rosas · крокоди́л – зелёный = el cocodrilo es verde · апельси́н – ора́нжевый = la naranja es anaranjada"
         },
         {
           "id": "3.4-x-35",
@@ -13514,7 +13514,7 @@
             "3.4-g-color-idioms"
           ],
           "origin": "textbook p.73 ex.10",
-          "es": "голуба́я кровь = aristocracia · жёлтая пре́сса = prensa amarillista · ро́зовые очки́ = ver todo color de rosa · се́рая мышь = persona que no llama la atención · чёрный ю́мор = humor negro · чёрный день = tiempos difíciles"
+          "es": "Голуба́я кровь = aristocracia · жёлтая пре́сса = prensa amarillista · ро́зовые очки́ = ver todo color de rosa · се́рая мышь = persona que no llama la atención · чёрный ю́мор = humor negro · чёрный день = tiempos difíciles"
         },
         {
           "id": "3.4-x-36",
@@ -13527,7 +13527,7 @@
             "се́рые"
           ],
           "answer": 0,
-          "explanationEs": "смотре́ть на мир че́рез ро́зовые очки́ = ver todo color de rosa.",
+          "explanationEs": "Смотре́ть на мир че́рез ро́зовые очки́ = ver todo color de rosa.",
           "tags": [
             "3.4-g-color-idioms",
             "3.4-v-rozovye_ochki"
@@ -13571,7 +13571,7 @@
             "3.4-v-kharakter"
           ],
           "origin": "textbook p.72 ex.9А",
-          "es": "кра́сный = rojo: activo, impulsivo · зелёный = verde: realista tranquilo · си́ний = azul: racional, inteligente · чёрный = negro: símbolo de estatus · кори́чневый = café: familiar, conservador · ро́зовый = rosa: sentimental, romántico"
+          "es": "Кра́сный = rojo: activo, impulsivo · зелёный = verde: realista tranquilo · си́ний = azul: racional, inteligente · чёрный = negro: símbolo de estatus · кори́чневый = café: familiar, conservador · ро́зовый = rosa: sentimental, romántico"
         },
         {
           "id": "3.4-x-38",
@@ -13733,7 +13733,7 @@
             "нра́виться"
           ],
           "answer": 0,
-          "explanationEs": "маши́на (singular) → нра́вится.",
+          "explanationEs": "Маши́на (singular) → нра́вится.",
           "tags": [
             "3.4-g-nravitsya"
           ],
@@ -13747,7 +13747,7 @@
           "sentence": "Их ма́ма о́чень элега́нтный, но импульси́вная.",
           "wrongWord": 3,
           "correction": "элега́нтная,",
-          "explanationEs": "ма́ма es femenino → элега́нтная.",
+          "explanationEs": "Ма́ма es femenino → элега́нтная.",
           "tags": [
             "3.4-g-adj-endings"
           ],
@@ -13782,7 +13782,7 @@
           ],
           "answer": "Муж всегда́ ремонти́рует маши́ну во дворе́.",
           "es": "El esposo siempre repara el coche en el patio.",
-          "explanationEs": "двор → во дворе́.",
+          "explanationEs": "Двор → во дворе́.",
           "tags": [
             "3.4-v-remontirovat",
             "3.4-v-dvor"
@@ -13837,7 +13837,7 @@
             "Наш сосе́д парку́ет у́жасно.",
             "Наш сосе́д у́жасно парку́ет маши́ну."
           ],
-          "explanationEs": "паркова́ть: он парку́ет; у́жасно = adverbio.",
+          "explanationEs": "Паркова́ть: он парку́ет; у́жасно = adverbio.",
           "tags": [
             "3.4-g-adj-vs-adv",
             "3.4-v-parkovat"
@@ -13855,7 +13855,7 @@
             "Arriba viven unos vecinos ruidosos y abajo, unos jubilados tranquilos.",
             "Arriba viven vecinos ruidosos y abajo jubilados tranquilos."
           ],
-          "explanationEs": "наверху́ = arriba, внизу́ = abajo.",
+          "explanationEs": "Наверху́ = arriba, внизу́ = abajo.",
           "tags": [
             "3.4-v-naverkhu",
             "3.4-v-vnizu"

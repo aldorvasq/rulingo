@@ -12,7 +12,7 @@ import { Settings } from './screens/Settings'
 import { Onboarding } from './screens/Onboarding'
 import { Exam } from './screens/Exam'
 import { MockExam } from './screens/MockExam'
-import { upcomingExam } from './content/exams'
+import { daysUntil, upcomingExam } from './content/exams'
 
 const NAV = [
   { path: '/', icon: 'home', label: 'Inicio' },
@@ -23,6 +23,23 @@ const NAV = [
 /** While an exam is coming up it gets its own tab (after Ruta). */
 const EXAM_TAB = { path: '/exam', icon: 'exam', label: 'Examen' }
 
+/** The exam tab stands out: brick-red pill, a pulsing ring and the days left as a badge. */
+function ExamTab({ active }: { active: boolean }) {
+  const exam = upcomingExam()
+  const d = exam ? daysUntil(exam) : 0
+  return (
+    <button onClick={() => navigate('/exam')} className="flex flex-1 flex-col items-center gap-0.5 pt-1.5 pb-1 text-[11px] font-bold text-brick">
+      <span className={`exam-tab relative flex h-8 w-12 items-center justify-center rounded-full ${active ? 'bg-brick text-white' : 'bg-brick/12'}`}>
+        <Icon name="exam" size={21} />
+        <span className="absolute -top-1.5 -right-2 min-w-5 rounded-full border-2 border-bg bg-brick px-1 text-center text-[10px] leading-4 text-white tabular-nums">
+          {d <= 0 ? '¡Hoy!' : `${d}d`}
+        </span>
+      </span>
+      Examen
+    </button>
+  )
+}
+
 function BottomNav({ path }: { path: string }) {
   const nav = upcomingExam() ? [...NAV.slice(0, 2), EXAM_TAB, ...NAV.slice(2)] : NAV
   return (
@@ -30,6 +47,7 @@ function BottomNav({ path }: { path: string }) {
       <div className="mx-auto flex max-w-xl">
         {nav.map((n) => {
           const active = n.path === '/' ? path === '/' : path.startsWith(n.path) || (n.path === '/path' && path.startsWith('/lesson'))
+          if (n === EXAM_TAB) return <ExamTab key={n.path} active={active} />
           return (
             <button key={n.path} onClick={() => navigate(n.path)}
               className={`flex flex-1 flex-col items-center gap-0.5 pt-2 pb-1 text-[11px] font-bold ${active ? 'text-brand' : 'text-muted'}`}>

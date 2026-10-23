@@ -81,19 +81,19 @@
           "examples": [
             {
               "ru": "кот, ма́ма, тома́т",
-              "es": "gato, mamá, jitomate (grupo 1)"
+              "es": "Gato, mamá, jitomate (grupo 1)"
             },
             {
               "ru": "рестора́н, суп, Москва́",
-              "es": "restaurante, sopa, Moscú (grupo 2)"
+              "es": "Restaurante, sopa, Moscú (grupo 2)"
             },
             {
               "ru": "бана́н, гита́ра, лимо́н",
-              "es": "plátano, guitarra, limón (grupo 3)"
+              "es": "Plátano, guitarra, limón (grupo 3)"
             },
             {
               "ru": "журна́л, чай, я́хта, шеф",
-              "es": "revista, té, yate, chef (grupo 4)"
+              "es": "Revista, té, yate, chef (grupo 4)"
             }
           ]
         },
@@ -1609,7 +1609,7 @@
             "1.1-g-zovut"
           ],
           "origin": "original",
-          "explanationEs": "меня́ (a mí) + зову́т (llaman) + nombre: literalmente «me llaman Elena»."
+          "explanationEs": "Меня́ (a mí) + зову́т (llaman) + nombre: literalmente «me llaman Elena»."
         },
         {
           "id": "1.1-x-08",
@@ -1708,7 +1708,7 @@
             "1.1-g-eto"
           ],
           "origin": "original",
-          "es": "ма́ма = mamá · актёр = actor · шеф = jefe · кот = gato · торт = pastel · гита́ра = guitarra · ра́дио = radio · суп = sopa",
+          "es": "Ма́ма = mamá · актёр = actor · шеф = jefe · кот = gato · торт = pastel · гита́ра = guitarra · ра́дио = radio · суп = sopa",
           "explanationEs": "Personas y animales van con «кто»; las cosas, con «что». Por eso кот va con «Кто э́то?»."
         },
         {
@@ -1798,7 +1798,7 @@
             "1.1-v-ploho"
           ],
           "origin": "textbook p.7 ex.5Б",
-          "es": "отли́чно = excelente · о́чень хорошо́ = muy bien · хорошо́ = bien · норма́льно = más o menos · пло́хо = mal",
+          "es": "Отли́чно = excelente · о́чень хорошо́ = muy bien · хорошо́ = bien · норма́льно = más o menos · пло́хо = mal",
           "explanationEs": "Escala de cómo estás, de mejor a peor: отли́чно > о́чень хорошо́ > хорошо́ > норма́льно > пло́хо."
         },
         {
@@ -1961,7 +1961,7 @@
             "1.1-v-pivo"
           ],
           "origin": "textbook p.8 ex.7Б",
-          "es": "ко́фе = café · чай = té · сок = jugo · вода́ = agua · вино́ = vino · пи́во = cerveza",
+          "es": "Ко́фе = café · чай = té · сок = jugo · вода́ = agua · вино́ = vino · пи́во = cerveza",
           "explanationEs": "Vocabulario de bebidas: algunas se parecen al español (ко́фе, вино́) y otras hay que memorizarlas (вода́, пи́во)."
         },
         {
@@ -2001,7 +2001,7 @@
             "1.1-v-tyulpan"
           ],
           "origin": "workbook p.4 ex.1А",
-          "es": "тома́т = jitomate · лимо́н = limón · ро́за = rosa · тюльпа́н = tulipán · гита́ра = guitarra · цирк = circo",
+          "es": "Тома́т = jitomate · лимо́н = limón · ро́за = rosa · тюльпа́н = tulipán · гита́ра = guitarra · цирк = circo",
           "explanationEs": "Son palabras internacionales que se leen casi igual que en español (тома́т ≈ tomate, гита́ра ≈ guitarra)."
         },
         {
@@ -2043,7 +2043,7 @@
             "1.1-v-zhurnal"
           ],
           "origin": "textbook p.6 ex.4Б",
-          "es": "раке́та = cohete · но́та = nota musical · ка́рта = mapa · торт = pastel · я́хта = yate · журна́л = revista",
+          "es": "Раке́та = cohete · но́та = nota musical · ка́рта = mapa · торт = pastel · я́хта = yate · журна́л = revista",
           "explanationEs": "Ojo con los falsos amigos: ка́рта es «mapa» (no carta) y торт es «pastel» (no torta)."
         },
         {
@@ -2114,7 +2114,7 @@
           ],
           "origin": "original",
           "es": "Спаси́бо, хорошо́.",
-          "explanationEs": "хорошо́ = bien, спаси́бо = gracias; el orden de las dos palabras puede cambiar."
+          "explanationEs": "Хорошо́ = bien, спаси́бо = gracias; el orden de las dos palabras puede cambiar."
         },
         {
           "id": "1.1-x-28",
@@ -2132,7 +2132,7 @@
           ],
           "origin": "original",
           "es": "¿Es sopa o pastel?",
-          "explanationEs": "«и́ли» = o; en presente el ruso omite el verbo «ser»: э́то суп = es sopa."
+          "explanationEs": "«И́ли» = o; en presente el ruso omite el verbo «ser»: э́то суп = es sopa."
         },
         {
           "id": "1.1-x-29",
@@ -2346,7 +2346,7 @@
             "1.1-v-banan"
           ],
           "origin": "workbook p.4 ex.1А",
-          "es": "бана́н",
+          "es": "Бана́н",
           "explanationEs": "«Plátano» en ruso es бана́н, una palabra internacional con el acento al final."
         }
       ]
@@ -2871,7 +2871,7 @@
         {
           "id": "1.2-g-govorit",
           "title": "El verbo говори́ть (hablar)",
-          "explanationEs": "**говори́ть** se conjuga así en presente. Las terminaciones **-ю, -ишь, -ит, -им, -ите, -ят** son las de la **2.ª conjugación (в -и)**; en la lección 1.4 verás la otra conjugación.",
+          "explanationEs": "**Говори́ть** se conjuga así en presente. Las terminaciones **-ю, -ишь, -ит, -им, -ите, -ят** son las de la **2.ª conjugación (в -и)**; en la lección 1.4 verás la otra conjugación.",
           "tables": [
             {
               "caption": "говори́ть — presente",
@@ -4363,7 +4363,7 @@
             "1.2-v-govorit"
           ],
           "origin": "workbook p.11 ex.6А",
-          "es": "говори́ть = hablar: yo hablo, tú hablas, él habla, nosotros hablamos, ustedes hablan, ellos hablan",
+          "es": "Говори́ть = hablar: yo hablo, tú hablas, él habla, nosotros hablamos, ustedes hablan, ellos hablan",
           "explanationEs": "Grupo II (-и): se quita -ить y se añade -ю, -ишь, -ит, -им, -ите, -ят."
         },
         {
@@ -4494,7 +4494,7 @@
           ],
           "origin": "workbook p.11 ex.6Б",
           "es": "No, ellos no hablan alemán.",
-          "explanationEs": "«не» va antes del verbo; con «они́» se mantiene говоря́т."
+          "explanationEs": "«Не» va antes del verbo; con «они́» se mantiene говоря́т."
         },
         {
           "id": "1.2-x-15",
@@ -4591,7 +4591,7 @@
           ],
           "origin": "workbook p.10 ex.5Б",
           "es": "Ellos son de Inglaterra. Son ingleses.",
-          "explanationEs": "англича́нин tiene un plural irregular: англича́не."
+          "explanationEs": "Англича́нин tiene un plural irregular: англича́не."
         },
         {
           "id": "1.2-x-21",
@@ -4747,7 +4747,7 @@
             "1.2-g-nationalities"
           ],
           "origin": "workbook p.9 ex.5А",
-          "es": "не́мец = alemán · кана́дец = canadiense · францу́з = francés · не́мка = alemana · америка́нка = estadounidense · италья́нка = italiana · кита́йцы = chinos · ру́сские = rusos · англича́не = ingleses",
+          "es": "Не́мец = alemán · кана́дец = canadiense · францу́з = francés · не́мка = alemana · америка́нка = estadounidense · италья́нка = italiana · кита́йцы = chinos · ру́сские = rusos · англича́не = ingleses",
           "explanationEs": "Los masculinos terminan en -ец o consonante, los femeninos en -ка y los plurales en -цы, -ие o -е."
         },
         {
@@ -4785,7 +4785,7 @@
           "sentence": "Я из Кита́й и говорю́ по-кита́йски.",
           "wrongWord": 2,
           "correction": "Кита́я",
-          "explanationEs": "из Кита́я (genitivo).",
+          "explanationEs": "Из Кита́я (genitivo).",
           "tags": [
             "1.2-g-otkuda"
           ],
@@ -4825,7 +4825,7 @@
             "1.2-g-how-well"
           ],
           "origin": "original",
-          "explanationEs": "«не» va justo antes del verbo que se niega: не говори́т."
+          "explanationEs": "«Не» va justo antes del verbo que se niega: не говори́т."
         },
         {
           "id": "1.2-x-31",
@@ -4859,7 +4859,7 @@
           ],
           "origin": "original",
           "es": "Я из Ме́ксики. Я мексика́нец.",
-          "explanationEs": "из + genitivo (Ме́ксики) y nacionalidad masculina мексика́нец; en presente no hay verbo «ser»."
+          "explanationEs": "Из + genitivo (Ме́ксики) y nacionalidad masculina мексика́нец; en presente no hay verbo «ser»."
         },
         {
           "id": "1.2-x-33",
@@ -4894,7 +4894,7 @@
           ],
           "origin": "original",
           "es": "Hablo un poquito de ruso.",
-          "explanationEs": "«чуть-чуть» = un poquito; «по-ру́сски» = en ruso."
+          "explanationEs": "«Чуть-чуть» = un poquito; «по-ру́сски» = en ruso."
         },
         {
           "id": "1.2-x-35",
@@ -4911,7 +4911,7 @@
           ],
           "origin": "original",
           "es": "Они́ говоря́т по-испа́нски.",
-          "explanationEs": "они́ + -ят: говоря́т; el idioma que se habla se dice con «по-…»: по-испа́нски."
+          "explanationEs": "Они́ + -ят: говоря́т; el idioma que se habla se dice con «по-…»: по-испа́нски."
         },
         {
           "id": "1.2-x-36",
@@ -6657,7 +6657,7 @@
             "1.3-g-gender"
           ],
           "origin": "textbook p.16 ex.2 / workbook p.13 ex.2",
-          "es": "банк = banco · музе́й = museo · вокза́л = estación de tren · оте́ль = hotel · апте́ка = farmacia · шко́ла = escuela · галере́я = galería · библиоте́ка = biblioteca · кафе́ = café · метро́ = metro · кино́ = cine",
+          "es": "Банк = banco · музе́й = museo · вокза́л = estación de tren · оте́ль = hotel · апте́ка = farmacia · шко́ла = escuela · галере́я = galería · библиоте́ка = biblioteca · кафе́ = café · метро́ = metro · кино́ = cine",
           "explanationEs": "Consonante o -й → он (y оте́ль, aunque termina en -ь); -а/-я → она́; -о/-е → оно́."
         },
         {
@@ -6680,7 +6680,7 @@
             "Вот она́, сле́ва."
           ],
           "answer": 0,
-          "explanationEs": "метро́ es neutro → оно́.",
+          "explanationEs": "Метро́ es neutro → оно́.",
           "tags": [
             "1.3-g-vot-on-ona-ono"
           ],
@@ -6703,7 +6703,7 @@
           ],
           "origin": "textbook p.18 ex.4А",
           "es": "¿Dónde está la farmacia? — Ahí está, a la derecha.",
-          "explanationEs": "апте́ка termina en -а → femenino → она́."
+          "explanationEs": "Апте́ка termina en -а → femenino → она́."
         },
         {
           "id": "1.3-x-04",
@@ -6721,7 +6721,7 @@
           ],
           "origin": "workbook p.14 ex.3",
           "es": "¿Dónde está el banco? — Ahí está, a la izquierda.",
-          "explanationEs": "банк termina en consonante → masculino → он."
+          "explanationEs": "Банк termina en consonante → masculino → он."
         },
         {
           "id": "1.3-x-05",
@@ -6739,7 +6739,7 @@
           ],
           "origin": "textbook p.18 ex.4А",
           "es": "¿Dónde está el café? — Ahí está, en el centro.",
-          "explanationEs": "кафе́ termina en -е → neutro → оно́."
+          "explanationEs": "Кафе́ termina en -е → neutro → оно́."
         },
         {
           "id": "1.3-x-06",
@@ -6754,7 +6754,7 @@
           ],
           "origin": "original",
           "es": "¿Dónde está el museo? — Ahí está, a la derecha.",
-          "explanationEs": "музе́й termina en -й → masculino → он."
+          "explanationEs": "Музе́й termina en -й → masculino → он."
         },
         {
           "id": "1.3-x-07",
@@ -6769,7 +6769,7 @@
           ],
           "origin": "original",
           "es": "¿Dónde está la galería? — Ahí está, a la izquierda.",
-          "explanationEs": "галере́я termina en -я → femenino → она́."
+          "explanationEs": "Галере́я termina en -я → femenino → она́."
         },
         {
           "id": "1.3-x-08",
@@ -6779,7 +6779,7 @@
           "answers": [
             "он"
           ],
-          "explanationEs": "оте́ль termina en -ь pero es masculino.",
+          "explanationEs": "Оте́ль termina en -ь pero es masculino.",
           "tags": [
             "1.3-g-vot-on-ona-ono",
             "1.3-g-gender"
@@ -6856,7 +6856,7 @@
             "1.3-g-gender"
           ],
           "origin": "textbook p.17",
-          "es": "ко́фе = café · па́па = papá · де́душка = abuelo · це́рковь = iglesia · ма́ма = mamá · и́мя = nombre · вре́мя = tiempo · такси́ = taxi · рагу́ = guisado",
+          "es": "Ко́фе = café · па́па = papá · де́душка = abuelo · це́рковь = iglesia · ма́ма = mamá · и́мя = nombre · вре́мя = tiempo · такси́ = taxi · рагу́ = guisado",
           "explanationEs": "Hombres en -а (па́па, де́душка) y ко́фе son masculinos; це́рковь es femenino; las palabras en -мя y las extranjeras en -и/-у son neutras."
         },
         {
@@ -6918,7 +6918,7 @@
           ],
           "origin": "textbook p.19 ex.5Б",
           "es": "Esta es Liza. Se llama Liza.",
-          "explanationEs": "она́ → её: «её зову́т»."
+          "explanationEs": "Она́ → её: «её зову́т»."
         },
         {
           "id": "1.3-x-14",
@@ -6934,7 +6934,7 @@
           ],
           "origin": "textbook p.19 ex.5Б",
           "es": "Ellos son Jean y Li. Se llaman Jean y Li.",
-          "explanationEs": "они́ → их: «их зову́т»."
+          "explanationEs": "Они́ → их: «их зову́т»."
         },
         {
           "id": "1.3-x-15",
@@ -6950,7 +6950,7 @@
           ],
           "origin": "original",
           "es": "¿Cómo te llamas? — Me llamo Masha.",
-          "explanationEs": "я → меня́: «меня́ зову́т»."
+          "explanationEs": "Я → меня́: «меня́ зову́т»."
         },
         {
           "id": "1.3-x-16",
@@ -6966,7 +6966,7 @@
           ],
           "origin": "workbook p.15 ex.4Б",
           "es": "¿Cómo se llaman ustedes? — Nos llamamos Frank y Giovanni.",
-          "explanationEs": "мы → нас: «нас зову́т»."
+          "explanationEs": "Мы → нас: «нас зову́т»."
         },
         {
           "id": "1.3-x-17",
@@ -7002,7 +7002,7 @@
             "1.3-g-acc-pronouns"
           ],
           "origin": "workbook p.14 ex.4А",
-          "es": "я → меня́ (a mí) · ты → тебя́ (a ti) · он → его́ (a él) · она́ → её (a ella) · мы → нас (a nosotros) · они́ → их (a ellos)",
+          "es": "Я → меня́ (a mí) · ты → тебя́ (a ti) · он → его́ (a él) · она́ → её (a ella) · мы → нас (a nosotros) · они́ → их (a ellos)",
           "explanationEs": "Con «зову́т» el pronombre cambia de forma: меня́, тебя́, его́, её, нас, их."
         },
         {
@@ -7081,7 +7081,7 @@
           "sentence": "Где метро́? Вот она́, сле́ва.",
           "wrongWord": 3,
           "correction": "оно́,",
-          "explanationEs": "метро́ es neutro: Вот оно́.",
+          "explanationEs": "Метро́ es neutro: Вот оно́.",
           "tags": [
             "1.3-g-vot-on-ona-ono"
           ],
@@ -7122,7 +7122,7 @@
             "1.3-g-numbers"
           ],
           "origin": "textbook p.21 ex.7Б",
-          "es": "3 = три · 7 = семь · 11 = оди́ннадцать · 12 = двена́дцать · 15 = пятна́дцать · 20 = два́дцать",
+          "es": "3 = Три · 7 = семь · 11 = оди́ннадцать · 12 = двена́дцать · 15 = пятна́дцать · 20 = два́дцать",
           "explanationEs": "Del 11 al 19 se forman con -на́дцать (оди́ннадцать, пятна́дцать); 20 es два́дцать."
         },
         {
@@ -7138,7 +7138,7 @@
           ],
           "origin": "textbook p.21 ex.7В",
           "es": "Dos más dos es igual a cuatro.",
-          "explanationEs": "2 + 2 = 4: четы́ре."
+          "explanationEs": "2 + 2 = 4: Четы́ре."
         },
         {
           "id": "1.3-x-24",
@@ -7153,7 +7153,7 @@
           ],
           "origin": "textbook p.21 ex.7В",
           "es": "Seis más cuatro es igual a diez.",
-          "explanationEs": "6 + 4 = 10: де́сять."
+          "explanationEs": "6 + 4 = 10: Де́сять."
         },
         {
           "id": "1.3-x-25",
@@ -7168,7 +7168,7 @@
           ],
           "origin": "textbook p.21 ex.7В",
           "es": "Dieciocho más dos es igual a veinte.",
-          "explanationEs": "18 + 2 = 20: два́дцать."
+          "explanationEs": "18 + 2 = 20: Два́дцать."
         },
         {
           "id": "1.3-x-26",
@@ -7183,7 +7183,7 @@
           ],
           "origin": "textbook p.21 ex.7В",
           "es": "Diecisiete menos nueve es igual a ocho.",
-          "explanationEs": "17 − 9 = 8: во́семь."
+          "explanationEs": "17 − 9 = 8: Во́семь."
         },
         {
           "id": "1.3-x-27",
@@ -7201,7 +7201,7 @@
           ],
           "origin": "original",
           "es": "Trece más seis es igual a diecinueve.",
-          "explanationEs": "13 + 6 = 19: девятна́дцать (де́вять + -на́дцать)."
+          "explanationEs": "13 + 6 = 19: Девятна́дцать (де́вять + -на́дцать)."
         },
         {
           "id": "1.3-x-28",
@@ -7219,7 +7219,7 @@
           ],
           "origin": "textbook p.21 ex.7В",
           "es": "Catorce menos cinco es igual a nueve.",
-          "explanationEs": "14 − 5 = 9: де́вять."
+          "explanationEs": "14 − 5 = 9: Де́вять."
         },
         {
           "id": "1.3-x-29",
@@ -7276,7 +7276,7 @@
           ],
           "origin": "original",
           "es": "A: ¿Cuánto es cinco más cinco?\nB: Diez.",
-          "explanationEs": "5 + 5 = 10: де́сять."
+          "explanationEs": "5 + 5 = 10: Де́сять."
         },
         {
           "id": "1.3-x-32",
@@ -7345,7 +7345,7 @@
           ],
           "origin": "original",
           "es": "Библиоте́ка сле́ва.",
-          "explanationEs": "сле́ва = a la izquierda; en presente no se dice «está»."
+          "explanationEs": "Сле́ва = a la izquierda; en presente no se dice «está»."
         },
         {
           "id": "1.3-x-36",
@@ -7363,7 +7363,7 @@
           ],
           "origin": "original",
           "es": "¿Cómo se llaman?",
-          "explanationEs": "их = a ellos/ellas: «Как их зову́т?» = ¿cómo se llaman?"
+          "explanationEs": "Их = a ellos/ellas: «Как их зову́т?» = ¿cómo se llaman?"
         },
         {
           "id": "1.3-x-37",
@@ -7420,7 +7420,7 @@
             "1.3-v-zoopark"
           ],
           "origin": "textbook p.16 ex.2",
-          "es": "апте́ка = farmacia · вокза́л = estación de tren · по́чта = correo · бу́лочная = panadería · магази́н = tienda · зоопа́рк = zoológico",
+          "es": "Апте́ка = farmacia · вокза́л = estación de tren · по́чта = correo · бу́лочная = panadería · магази́н = tienda · зоопа́рк = zoológico",
           "explanationEs": "Lugares de la ciudad; ojo: вокза́л es la estación de trenes y бу́лочная la panadería."
         },
         {
@@ -7441,7 +7441,7 @@
             "1.3-v-sprava"
           ],
           "origin": "original",
-          "es": "сле́ва = a la izquierda ↔ спра́ва = a la derecha",
+          "es": "Сле́ва = a la izquierda ↔ спра́ва = a la derecha",
           "explanationEs": "Lo contrario de «a la izquierda» es «a la derecha»: спра́ва."
         },
         {
@@ -7457,7 +7457,7 @@
             "1.3-v-minus"
           ],
           "origin": "original",
-          "es": "плюс = más ↔ ми́нус = menos",
+          "es": "Плюс = más ↔ ми́нус = menos",
           "explanationEs": "Son operaciones opuestas: suma (плюс) y resta (ми́нус)."
         }
       ]
@@ -8779,7 +8779,7 @@
             "1.4-v-rabotat"
           ],
           "origin": "textbook p.23 ex.2А",
-          "es": "рабо́тать = trabajar: yo trabajo, tú trabajas, él trabaja, nosotros trabajamos, ustedes trabajan, ellos trabajan",
+          "es": "Рабо́тать = trabajar: yo trabajo, tú trabajas, él trabaja, nosotros trabajamos, ustedes trabajan, ellos trabajan",
           "explanationEs": "Grupo I (-е): se quita -ть y se añade -ю, -ешь, -ет, -ем, -ете, -ют."
         },
         {
@@ -8816,7 +8816,7 @@
             "1.4-g-e-i-conjugation"
           ],
           "origin": "textbook p.23 ex.2А",
-          "es": "я рабо́таю = yo trabajo · ты рабо́таешь = tú trabajas · она́ рабо́тает = ella trabaja · мы рабо́таем = nosotros trabajamos · вы рабо́таете = ustedes trabajan · они́ рабо́тают = ellos trabajan",
+          "es": "Я рабо́таю = yo trabajo · ты рабо́таешь = tú trabajas · она́ рабо́тает = ella trabaja · мы рабо́таем = nosotros trabajamos · вы рабо́таете = ustedes trabajan · они́ рабо́тают = ellos trabajan",
           "explanationEs": "Cada pronombre tiene su terminación del grupo I: -ю, -ешь, -ет, -ем, -ете, -ют."
         },
         {
@@ -8853,7 +8853,7 @@
             "1.4-g-e-i-conjugation"
           ],
           "origin": "workbook p.18 ex.3Б",
-          "es": "они́ говоря́т = ellos hablan · я говорю́ = yo hablo · он говори́т = él habla · вы говори́те = ustedes hablan · ты говори́шь = tú hablas · мы говори́м = nosotros hablamos",
+          "es": "Они́ говоря́т = ellos hablan · я говорю́ = yo hablo · он говори́т = él habla · вы говори́те = ustedes hablan · ты говори́шь = tú hablas · мы говори́м = nosotros hablamos",
           "explanationEs": "Terminaciones del grupo II: -ю, -ишь, -ит, -им, -ите, -ят."
         },
         {
@@ -8870,7 +8870,7 @@
           ],
           "origin": "original",
           "es": "¿Trabajas? — Sí, claro, trabajo.",
-          "explanationEs": "ты + -ешь: рабо́таешь."
+          "explanationEs": "Ты + -ешь: рабо́таешь."
         },
         {
           "id": "1.4-x-05",
@@ -8887,7 +8887,7 @@
           ],
           "origin": "textbook p.23 ex.2Г",
           "es": "Él no trabaja. Es jubilado.",
-          "explanationEs": "он + -ет: рабо́тает."
+          "explanationEs": "Он + -ет: рабо́тает."
         },
         {
           "id": "1.4-x-06",
@@ -8903,7 +8903,7 @@
           ],
           "origin": "original",
           "es": "Trabajamos y hablamos ruso.",
-          "explanationEs": "мы + -ем: рабо́таем."
+          "explanationEs": "Мы + -ем: рабо́таем."
         },
         {
           "id": "1.4-x-07",
@@ -8919,7 +8919,7 @@
           ],
           "origin": "textbook p.23 ex.2Г",
           "es": "¿Usted trabaja? — No, soy estudiante.",
-          "explanationEs": "вы + -ете: рабо́таете (aquí «вы» es el «usted» formal)."
+          "explanationEs": "Вы + -ете: рабо́таете (aquí «вы» es el «usted» formal)."
         },
         {
           "id": "1.4-x-08",
@@ -8935,7 +8935,7 @@
           ],
           "origin": "original",
           "es": "Ellos trabajan y hablan bien inglés.",
-          "explanationEs": "они́ + -ют: рабо́тают."
+          "explanationEs": "Они́ + -ют: рабо́тают."
         },
         {
           "id": "1.4-x-09",
@@ -8951,7 +8951,7 @@
           ],
           "origin": "textbook p.23 ex.2Г",
           "es": "¿Ellos hablan mal francés?",
-          "explanationEs": "говори́ть es del grupo -и: они́ говоря́т."
+          "explanationEs": "Говори́ть es del grupo -и: они́ говоря́т."
         },
         {
           "id": "1.4-x-10",
@@ -8969,7 +8969,7 @@
           ],
           "origin": "textbook p.23 ex.2Г",
           "es": "¿Habla usted bien ruso?",
-          "explanationEs": "вы + -ите: говори́те; рабо́таете no tiene sentido con «по-ру́сски»."
+          "explanationEs": "Вы + -ите: говори́те; рабо́таете no tiene sentido con «по-ру́сски»."
         },
         {
           "id": "1.4-x-11",
@@ -9017,8 +9017,8 @@
             "1.4-g-e-i-conjugation"
           ],
           "origin": "original",
-          "es": "рабо́таю = trabajo · рабо́тают = trabajan · рабо́таем = trabajamos · рабо́таешь = trabajas · говорю́ = hablo · говоря́т = hablan · говори́м = hablamos · говори́шь = hablas",
-          "explanationEs": "рабо́тать lleva -е (-ешь, -ем) y -ют; говори́ть lleva -и (-ишь, -им) y -ят."
+          "es": "Рабо́таю = trabajo · рабо́тают = trabajan · рабо́таем = trabajamos · рабо́таешь = trabajas · говорю́ = hablo · говоря́т = hablan · говори́м = hablamos · говори́шь = hablas",
+          "explanationEs": "Рабо́тать lleva -е (-ешь, -ем) y -ют; говори́ть lleva -и (-ишь, -им) y -ят."
         },
         {
           "id": "1.4-x-12",
@@ -9037,13 +9037,13 @@
             "зна́ем",
             "зна́ют"
           ],
-          "explanationEs": "знать se conjuga como рабо́тать (grupo I, -е).",
+          "explanationEs": "Знать se conjuga como рабо́тать (grupo I, -е).",
           "tags": [
             "1.4-g-e-i-conjugation",
             "1.4-v-znat"
           ],
           "origin": "original",
-          "es": "знать = saber: yo sé, tú sabes, nosotros sabemos, ellos saben"
+          "es": "Знать = saber: yo sé, tú sabes, nosotros sabemos, ellos saben"
         },
         {
           "id": "1.4-x-13",
@@ -9067,7 +9067,7 @@
             "1.4-v-ponimat"
           ],
           "origin": "original",
-          "es": "понима́ть = entender: yo entiendo, él entiende, ustedes entienden, ellos entienden",
+          "es": "Понима́ть = entender: yo entiendo, él entiende, ustedes entienden, ellos entienden",
           "explanationEs": "Se conjuga como рабо́тать (grupo I): понима́ю, понима́ет, понима́ете, понима́ют."
         },
         {
@@ -9109,7 +9109,7 @@
             "1.4-v-policeyskiy"
           ],
           "origin": "textbook p.24 ex.3Б",
-          "es": "врач = médico · официа́нт = mesero · такси́ст = taxista · преподава́тель = profesor · домохозя́йка = ama de casa · полице́йский = policía",
+          "es": "Врач = médico · официа́нт = mesero · такси́ст = taxista · преподава́тель = profesor · домохозя́йка = ama de casa · полице́йский = policía",
           "explanationEs": "Profesiones comunes; en México официа́нт es «mesero»."
         },
         {
@@ -9151,7 +9151,7 @@
             "1.4-v-styuardessa"
           ],
           "origin": "textbook p.24 ex.3Б",
-          "es": "журнали́ст = periodista · барме́н = bartender · гид = guía · пенсионе́р = jubilado · юри́ст = abogado · стюарде́сса = sobrecargo",
+          "es": "Журнали́ст = periodista · барме́н = bartender · гид = guía · пенсионе́р = jubilado · юри́ст = abogado · стюарде́сса = sobrecargo",
           "explanationEs": "Muchas profesiones son palabras internacionales (журнали́ст, гид); пенсионе́р = jubilado."
         },
         {
@@ -9185,7 +9185,7 @@
           ],
           "origin": "original",
           "es": "Él es mesero y ella es mesera.",
-          "explanationEs": "официа́нт + -ка = официа́нтка."
+          "explanationEs": "Официа́нт + -ка = официа́нтка."
         },
         {
           "id": "1.4-x-18",
@@ -9215,7 +9215,7 @@
           ],
           "origin": "original",
           "es": "Él es deportista y ella es deportista (mujer).",
-          "explanationEs": "спортсме́н + -ка = спортсме́нка."
+          "explanationEs": "Спортсме́н + -ка = спортсме́нка."
         },
         {
           "id": "1.4-x-20",
@@ -9230,7 +9230,7 @@
           ],
           "origin": "original",
           "es": "Él es jubilado y ella es jubilada.",
-          "explanationEs": "пенсионе́р + -ка = пенсионе́рка."
+          "explanationEs": "Пенсионе́р + -ка = пенсионе́рка."
         },
         {
           "id": "1.4-x-21",
@@ -9333,7 +9333,7 @@
           ],
           "origin": "original",
           "es": "— Trabajo. — ¡Yo también trabajo!",
-          "explanationEs": "то́же = también; se usa al repetir lo que dijo la otra persona."
+          "explanationEs": "То́же = también; se usa al repetir lo que dijo la otra persona."
         },
         {
           "id": "1.4-x-25",
@@ -9348,7 +9348,7 @@
           ],
           "origin": "original",
           "es": "Ella no trabaja.",
-          "explanationEs": "«не» va antes del verbo: не рабо́тает."
+          "explanationEs": "«Не» va antes del verbo: не рабо́тает."
         },
         {
           "id": "1.4-x-26",
@@ -9521,7 +9521,7 @@
           ],
           "origin": "original",
           "es": "Trabajamos y hablamos inglés.",
-          "explanationEs": "мы + -ем: рабо́таем (рабо́тают es para они́)."
+          "explanationEs": "Мы + -ем: рабо́таем (рабо́тают es para они́)."
         },
         {
           "id": "1.4-x-33",
@@ -9530,7 +9530,7 @@
           "sentence": "Ты говори́ешь по-испа́нски?",
           "wrongWord": 1,
           "correction": "говори́шь",
-          "explanationEs": "говори́ть es del grupo -и: ты говори́шь.",
+          "explanationEs": "Говори́ть es del grupo -и: ты говори́шь.",
           "tags": [
             "1.4-g-e-i-conjugation"
           ],
@@ -9586,7 +9586,7 @@
             "1.4-g-negation-tozhe"
           ],
           "origin": "original",
-          "explanationEs": "«не» va antes del verbo; después de la coma se dice lo que sí eres."
+          "explanationEs": "«Не» va antes del verbo; después de la coma se dice lo que sí eres."
         },
         {
           "id": "1.4-x-37",
@@ -9618,7 +9618,7 @@
           ],
           "origin": "original",
           "es": "Ты рабо́таешь?",
-          "explanationEs": "ты + -ешь: рабо́таешь; la pregunta se marca solo con la entonación."
+          "explanationEs": "Ты + -ешь: рабо́таешь; la pregunta se marca solo con la entonación."
         },
         {
           "id": "1.4-x-39",
@@ -9637,7 +9637,7 @@
           ],
           "origin": "original",
           "es": "No trabajo, soy jubilado.",
-          "explanationEs": "«не» + verbo = no trabajo; пенсионе́р = jubilado."
+          "explanationEs": "«Не» + verbo = no trabajo; пенсионе́р = jubilado."
         },
         {
           "id": "1.4-x-40",
@@ -9653,7 +9653,7 @@
           ],
           "origin": "original",
           "es": "Я не понима́ю.",
-          "explanationEs": "понима́ть (grupo I): я понима́ю; «не» va antes del verbo."
+          "explanationEs": "Понима́ть (grupo I): я понима́ю; «не» va antes del verbo."
         },
         {
           "id": "1.4-x-41",

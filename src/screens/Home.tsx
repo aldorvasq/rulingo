@@ -47,9 +47,9 @@ export function Home() {
         <Logo className="text-[1.7rem] leading-none" />
         <StreakBadge />
       </div>
+      <ExamBanner />
       <DailyHero />
       <ScheduleCard />
-      <ExamBanner />
 
       {lesson ? (
         <>
@@ -175,19 +175,23 @@ function Row({ icon, title, desc, onClick }: { icon: string; title: string; desc
   )
 }
 
-/** While an exam is coming up: a direct way into the exam practice. */
+/** While an exam is coming up: a bold way into the exam practice, with the countdown. */
 function ExamBanner() {
   const exam = upcomingExam()
   if (!exam) return null
   const d = daysUntil(exam)
   return (
-    <button onClick={() => navigate('/exam')} className="rise mt-4 flex w-full items-center gap-3 rounded-xl border border-brick/30 bg-card px-4 py-3.5 text-left shadow-sm">
-      <Icon name="exam" size={26} className="shrink-0 text-brick" />
-      <div className="min-w-0 flex-1">
-        <div className="font-bold">{exam.title} · {d > 1 ? `en ${d} días` : d === 1 ? 'mañana' : 'hoy'}</div>
-        <div className="text-sm text-muted">{examDateEs(exam)} · repaso intensivo y simulacro de examen</div>
+    <button onClick={() => navigate('/exam')} className="rise exam-banner mb-4 flex w-full items-stretch overflow-hidden rounded-xl bg-brick text-left text-white shadow-md">
+      <div className="flex w-20 shrink-0 flex-col items-center justify-center bg-black/15 py-3">
+        <span className="text-4xl font-bold leading-none tabular-nums">{Math.max(d, 0)}</span>
+        <span className="mt-1 text-[11px] font-bold uppercase tracking-wider opacity-90">{d === 1 ? 'día' : 'días'}</span>
       </div>
-      <Icon name="chevron" size={18} className="shrink-0 text-muted" />
+      <div className="min-w-0 flex-1 px-4 py-3">
+        <div className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.12em] opacity-85"><Icon name="exam" size={14} /> {d <= 0 ? '¡Es hoy!' : d === 1 ? 'Es mañana' : 'Se acerca el examen'}</div>
+        <div className="text-lg font-bold leading-tight">{exam.title}</div>
+        <div className="text-sm opacity-90">{examDateEs(exam)}. Haz el simulacro y el repaso intensivo.</div>
+      </div>
+      <div className="flex items-center pr-3"><Icon name="chevron" size={20} /></div>
     </button>
   )
 }

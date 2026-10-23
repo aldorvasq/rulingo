@@ -1829,7 +1829,7 @@
           ],
           "tags": [],
           "origin": "textbook p.29 ex.2А",
-          "es": "ру́чка = pluma · каранда́ш = lápiz · тетра́дь = cuaderno · слова́рь = diccionario · доска́ = pizarrón · су́мка = bolsa",
+          "es": "Ру́чка = pluma · каранда́ш = lápiz · тетра́дь = cuaderno · слова́рь = diccionario · доска́ = pizarrón · су́мка = bolsa",
           "explanationEs": "Objetos del salón de clases. Ojo: тетра́дь es femenino y слова́рь es masculino, aunque los dos terminan en -ь."
         },
         {
@@ -1864,7 +1864,7 @@
           ],
           "tags": [],
           "origin": "textbook p.29 ex.2А",
-          "es": "очки́ = lentes · часы́ = reloj · де́ньги = dinero · ключ = llave · зо́нтик = paraguas · кошелёк = monedero",
+          "es": "Очки́ = lentes · часы́ = reloj · де́ньги = dinero · ключ = llave · зо́нтик = paraguas · кошелёк = monedero",
           "explanationEs": "Очки́, часы́ y де́ньги solo existen en plural en ruso, aunque en español «reloj» sea singular."
         },
         {
@@ -1899,7 +1899,7 @@
           ],
           "tags": [],
           "origin": "textbook p.29 ex.2А",
-          "es": "биле́т = boleto · газе́та = periódico · журна́л = revista · маши́на = carro · письмо́ = carta · ма́ркер = plumón",
+          "es": "Биле́т = boleto · газе́та = periódico · журна́л = revista · маши́на = carro · письмо́ = carta · ма́ркер = plumón",
           "explanationEs": "Fíjate en el género por la terminación: consonante → masculino (биле́т, журна́л), -а → femenino (газе́та, маши́на), -о → neutro (письмо́)."
         },
         {
@@ -1975,7 +1975,7 @@
             "2.1-g-gender"
           ],
           "origin": "textbook p.29 ex.2Б",
-          "es": "стол = mesa · ру́чка = pluma · фо́то = foto · часы́ = reloj · слова́рь = diccionario · тетра́дь = cuaderno · окно́ = ventana · очки́ = lentes · дверь = puerta · письмо́ = carta · де́ньги = dinero · каранда́ш = lápiz · маши́на = carro · ключи́ = llaves"
+          "es": "Стол = mesa · ру́чка = pluma · фо́то = foto · часы́ = reloj · слова́рь = diccionario · тетра́дь = cuaderno · окно́ = ventana · очки́ = lentes · дверь = puerta · письмо́ = carta · де́ньги = dinero · каранда́ш = lápiz · маши́на = carro · ключи́ = llaves"
         },
         {
           "id": "2.1-x-05",
@@ -2373,8 +2373,8 @@
             "2.1-g-numbers"
           ],
           "origin": "textbook p.33 ex.6Б",
-          "es": "20 = два́дцать (veinte) · 30 = три́дцать (treinta) · 40 = со́рок (cuarenta) · 50 = пятьдеся́т (cincuenta) · 90 = девяно́сто (noventa) · 100 = сто (cien)",
-          "explanationEs": "20 y 30 terminan en -дцать; 50–80 en -десят; 40 (со́рок) y 90 (девяно́сто) son irregulares."
+          "es": "20 = Два́дцать (veinte) · 30 = три́дцать (treinta) · 40 = со́рок (cuarenta) · 50 = пятьдеся́т (cincuenta) · 90 = девяно́сто (noventa) · 100 = сто (cien)",
+          "explanationEs": "20 Y 30 terminan en -дцать; 50–80 en -десят; 40 (со́рок) y 90 (девяно́сто) son irregulares."
         },
         {
           "id": "2.1-x-26",
@@ -2410,7 +2410,7 @@
             "2.1-g-numbers"
           ],
           "origin": "textbook p.33 ex.6А",
-          "es": "60 = шестьдеся́т (sesenta) · 70 = се́мьдесят (setenta) · 80 = во́семьдесят (ochenta) · 23 = два́дцать три (veintitrés) · 47 = со́рок семь (cuarenta y siete) · 92 = девяно́сто два (noventa y dos)",
+          "es": "60 = Шестьдеся́т (sesenta) · 70 = се́мьдесят (setenta) · 80 = во́семьдесят (ochenta) · 23 = два́дцать три (veintitrés) · 47 = со́рок семь (cuarenta y siete) · 92 = девяно́сто два (noventa y dos)",
           "explanationEs": "Los números compuestos se forman como en español pero sin «y»: decena + unidad (со́рок семь = 40 + 7)."
         },
         {
@@ -2425,8 +2425,8 @@
             "2.1-g-numbers"
           ],
           "origin": "workbook p.27 ex.5",
-          "es": "37 = три́дцать семь (treinta y siete)",
-          "explanationEs": "30 = три́дцать; se le suma la unidad sin «y»: три́дцать семь."
+          "es": "37 = Три́дцать семь (treinta y siete)",
+          "explanationEs": "30 = Три́дцать; se le suma la unidad sin «y»: три́дцать семь."
         },
         {
           "id": "2.1-x-28",
@@ -2441,7 +2441,7 @@
             "2.1-g-numbers"
           ],
           "origin": "workbook p.27 ex.5",
-          "es": "56 = пятьдеся́т шесть (cincuenta y seis)"
+          "es": "56 = Пятьдеся́т шесть (cincuenta y seis)"
         },
         {
           "id": "2.1-x-29",
@@ -2455,8 +2455,8 @@
             "2.1-g-numbers"
           ],
           "origin": "workbook p.27 ex.5",
-          "es": "84 = во́семьдесят четы́ре (ochenta y cuatro)",
-          "explanationEs": "4 = четы́ре; va después de la decena во́семьдесят."
+          "es": "84 = Во́семьдесят четы́ре (ochenta y cuatro)",
+          "explanationEs": "4 = Четы́ре; va después de la decena во́семьдесят."
         },
         {
           "id": "2.1-x-30",
@@ -2471,8 +2471,8 @@
             "2.1-g-numbers"
           ],
           "origin": "original",
-          "es": "девяно́сто оди́н = noventa y uno (91)",
-          "explanationEs": "90 = девяно́сто (irregular) + 1 = оди́н."
+          "es": "Девяно́сто оди́н = noventa y uno (91)",
+          "explanationEs": "90 = Девяно́сто (irregular) + 1 = оди́н."
         },
         {
           "id": "2.1-x-31",
@@ -2820,7 +2820,7 @@
             "2.1-g-eto-ili"
           ],
           "origin": "original",
-          "es": "здесь = aquí ↔ там = allá",
+          "es": "Здесь = aquí ↔ там = allá",
           "explanationEs": "Здесь (aquí) es lo contrario de там (allá)."
         },
         {
@@ -2840,7 +2840,7 @@
             "2.1-g-eto-ili"
           ],
           "origin": "original",
-          "es": "пра́вильно = correcto ↔ непра́вильно = incorrecto",
+          "es": "Пра́вильно = correcto ↔ непра́вильно = incorrecto",
           "explanationEs": "El prefijo не- forma el antónimo: пра́вильно → непра́вильно."
         }
       ]
@@ -3954,7 +3954,7 @@
         },
         {
           "ru": "«@» — соба́ка, «.» — то́чка",
-          "es": "«@» se dice «perro», «.» se dice «punto»."
+          "es": "«@» Se dice «perro», «.» se dice «punto»."
         },
         {
           "ru": "Чья э́то ру́чка? — Э́то моя́ ру́чка.",
@@ -4261,7 +4261,7 @@
           ],
           "tags": [],
           "origin": "textbook p.35 ex.2А",
-          "es": "па́па = papá · сын = hijo · дочь = hija · брат = hermano · сестра́ = hermana · внук = nieto",
+          "es": "Па́па = papá · сын = hijo · дочь = hija · брат = hermano · сестра́ = hermana · внук = nieto",
           "explanationEs": "Familia básica. Дочь es femenino aunque termine en -ь."
         },
         {
@@ -4296,7 +4296,7 @@
           ],
           "tags": [],
           "origin": "textbook p.35 ex.2А",
-          "es": "ба́бушка = abuela · де́душка = abuelo · муж = esposo · жена́ = esposa · дя́дя = tío · тётя = tía",
+          "es": "Ба́бушка = abuela · де́душка = abuelo · муж = esposo · жена́ = esposa · дя́дя = tío · тётя = tía",
           "explanationEs": "Де́душка y дя́дя terminan en -а/-я pero son hombres, así que son masculinos."
         },
         {
@@ -4331,7 +4331,7 @@
           ],
           "tags": [],
           "origin": "original",
-          "es": "роди́тели = papás · де́ти = hijos · вну́ки = nietos · друзья́ = amigos · лю́ди = gente · семья́ = familia",
+          "es": "Роди́тели = papás · де́ти = hijos · вну́ки = nietos · друзья́ = amigos · лю́ди = gente · семья́ = familia",
           "explanationEs": "Casi todas son plurales; семья́ (familia) es singular femenino."
         },
         {
@@ -4344,7 +4344,7 @@
           ],
           "tags": [],
           "origin": "textbook p.35 ex.2Б",
-          "es": "па́па = papá ↔ ма́ма = mamá",
+          "es": "Па́па = papá ↔ ма́ма = mamá",
           "explanationEs": "Па́па (papá) forma pareja con ма́ма (mamá)."
         },
         {
@@ -4362,7 +4362,7 @@
           ],
           "tags": [],
           "origin": "textbook p.35 ex.2Б",
-          "es": "брат = hermano ↔ сестра́ = hermana",
+          "es": "Брат = hermano ↔ сестра́ = hermana",
           "explanationEs": "La pareja femenina de брат es сестра́."
         },
         {
@@ -4380,7 +4380,7 @@
           ],
           "tags": [],
           "origin": "textbook p.35 ex.2Б",
-          "es": "сын = hijo ↔ дочь = hija",
+          "es": "Сын = hijo ↔ дочь = hija",
           "explanationEs": "La pareja femenina de сын es дочь."
         },
         {
@@ -4398,7 +4398,7 @@
           ],
           "tags": [],
           "origin": "textbook p.35 ex.2Б",
-          "es": "дя́дя = tío ↔ тётя = tía",
+          "es": "Дя́дя = tío ↔ тётя = tía",
           "explanationEs": "La pareja femenina de дя́дя es тётя."
         },
         {
@@ -4416,7 +4416,7 @@
           ],
           "tags": [],
           "origin": "textbook p.35 ex.2Б",
-          "es": "па́рень = muchacho ↔ де́вушка = muchacha",
+          "es": "Па́рень = muchacho ↔ де́вушка = muchacha",
           "explanationEs": "Па́рень es un hombre joven; su pareja es де́вушка (no де́вочка, que es una niña)."
         },
         {
@@ -4434,7 +4434,7 @@
           ],
           "tags": [],
           "origin": "textbook p.35 ex.2Б",
-          "es": "ма́льчик = niño ↔ де́вочка = niña",
+          "es": "Ма́льчик = niño ↔ де́вочка = niña",
           "explanationEs": "Ма́льчик es un niño; su pareja es де́вочка (niña). Де́вушка es una muchacha joven."
         },
         {
@@ -4451,7 +4451,7 @@
           "answer": 0,
           "tags": [],
           "origin": "workbook p.28 ex.1Б",
-          "es": "papá + mamá = papás (padres)",
+          "es": "Papá + mamá = papás (padres)",
           "explanationEs": "Роди́тели = los papás (padre y madre juntos)."
         },
         {
@@ -4468,7 +4468,7 @@
           "answer": 0,
           "tags": [],
           "origin": "workbook p.28 ex.1Б",
-          "es": "hijo + hija = hijos",
+          "es": "Hijo + hija = hijos",
           "explanationEs": "Де́ти = los hijos (o niños) en plural."
         },
         {
@@ -4485,7 +4485,7 @@
           "answer": 0,
           "tags": [],
           "origin": "workbook p.28 ex.1Б",
-          "es": "nieto + nieta = nietos",
+          "es": "Nieto + nieta = nietos",
           "explanationEs": "Вну́ки es el plural de внук e incluye a nietos y nietas."
         },
         {
@@ -4502,13 +4502,13 @@
           "answer": 0,
           "tags": [],
           "origin": "workbook p.28 ex.1Б",
-          "es": "amigo + amiga = amigos",
+          "es": "Amigo + amiga = amigos",
           "explanationEs": "Друзья́ es el plural irregular de друг."
         },
         {
           "id": "2.2-x-14",
           "type": "sort",
-          "instructionEs": "¿мой, моя́, моё o мои́? Clasifica.",
+          "instructionEs": "¿Мой, моя́, моё o мои́? Clasifica.",
           "categories": [
             "мой",
             "моя́",
@@ -4578,7 +4578,7 @@
             "2.2-g-possessive"
           ],
           "origin": "workbook p.28 ex.2В",
-          "es": "стол = mesa · су́мка = bolsa · де́ло = asunto · ключи́ = llaves · дом = casa · маши́на = carro · окно́ = ventana · де́ти = hijos · па́па = papá · дя́дя = tío · тётя = tía · пальто́ = abrigo · роди́тели = papás · ко́фе = café"
+          "es": "Стол = mesa · су́мка = bolsa · де́ло = asunto · ключи́ = llaves · дом = casa · маши́на = carro · окно́ = ventana · де́ти = hijos · па́па = papá · дя́дя = tío · тётя = tía · пальто́ = abrigo · роди́тели = papás · ко́фе = café"
         },
         {
           "id": "2.2-x-15",
@@ -5545,7 +5545,7 @@
         {
           "id": "2.3-g-verbs-acc",
           "title": "Verbos + acusativo: де́лать, смотре́ть, чита́ть, слу́шать",
-          "explanationEs": "**де́лать, чита́ть, слу́шать, обожа́ть, разга́дывать** son de la **conjugación en -е** (como рабо́тать): -ю, -ешь, -ет, -ем, -ете, -ют.\n\n**смотре́ть** es de la **conjugación en -и**: смотрю́, смо́тришь, смо́трит, смо́трим, смо́трите, смо́трят (acento en la raíz desde ты).\n\nTodos llevan objeto en acusativo: **Я де́лаю дома́шнее зада́ние. Я смотрю́ сериа́л. Я чита́ю детекти́вы. Я слу́шаю му́зыку.**\n\nPregunta clave: **Что ты де́лаешь?** = ¿Qué haces?",
+          "explanationEs": "**Де́лать, чита́ть, слу́шать, обожа́ть, разга́дывать** son de la **conjugación en -е** (como рабо́тать): -ю, -ешь, -ет, -ем, -ете, -ют.\n\n**смотре́ть** es de la **conjugación en -и**: смотрю́, смо́тришь, смо́трит, смо́трим, смо́трите, смо́трят (acento en la raíz desde ты).\n\nTodos llevan objeto en acusativo: **Я де́лаю дома́шнее зада́ние. Я смотрю́ сериа́л. Я чита́ю детекти́вы. Я слу́шаю му́зыку.**\n\nPregunta clave: **Что ты де́лаешь?** = ¿Qué haces?",
           "tables": [
             {
               "caption": "Presente",
@@ -7494,7 +7494,7 @@
           ],
           "tags": [],
           "origin": "textbook p.41 ex.2А",
-          "es": "спорт = deporte: гольф (golf), баскетбо́л (basquetbol), йо́га (yoga), хокке́й (hockey) · культу́ра = cultura: поэ́зия (poesía), бале́т (ballet), литерату́ра (literatura), кино́ (cine) · еда́ / напи́тки = comida / bebidas: су́ши (sushi), борщ (borsch), ко́фе (café), пи́цца (pizza) · му́зыка = música: джаз (jazz), рок (rock), блюз (blues), поп (pop)",
+          "es": "Спорт = deporte: гольф (golf), баскетбо́л (basquetbol), йо́га (yoga), хокке́й (hockey) · культу́ра = cultura: поэ́зия (poesía), бале́т (ballet), литерату́ра (literatura), кино́ (cine) · еда́ / напи́тки = comida / bebidas: су́ши (sushi), борщ (borsch), ко́фе (café), пи́цца (pizza) · му́зыка = música: джаз (jazz), рок (rock), блюз (blues), поп (pop)",
           "explanationEs": "Son palabras internacionales, casi iguales que en español; solo hay que clasificarlas por tema."
         },
         {
@@ -7523,7 +7523,7 @@
             "2.3-g-lyubit-nenavidet"
           ],
           "origin": "workbook p.33 ex.2А",
-          "es": "люби́ть = amar, gustar: yo amo (люблю́), tú amas (лю́бишь), él ama (лю́бит), nosotros amamos (лю́бим), ustedes aman (лю́бите), ellos aman (лю́бят)"
+          "es": "Люби́ть = amar, gustar: yo amo (люблю́), tú amas (лю́бишь), él ama (лю́бит), nosotros amamos (лю́бим), ustedes aman (лю́бите), ellos aman (лю́бят)"
         },
         {
           "id": "2.3-x-03",
@@ -7551,7 +7551,7 @@
             "2.3-g-lyubit-nenavidet"
           ],
           "origin": "workbook p.33 ex.2Б",
-          "es": "ненави́деть = odiar: yo odio, tú odias, él odia, nosotros odiamos, ustedes odian, ellos odian"
+          "es": "Ненави́деть = odiar: yo odio, tú odias, él odia, nosotros odiamos, ustedes odian, ellos odian"
         },
         {
           "id": "2.3-x-04",
@@ -7578,7 +7578,7 @@
             "2.3-g-verbs-acc"
           ],
           "origin": "textbook p.43",
-          "es": "смотре́ть = ver: yo veo, tú ves, él ve, nosotros vemos, ustedes ven, ellos ven",
+          "es": "Смотре́ть = ver: yo veo, tú ves, él ve, nosotros vemos, ustedes ven, ellos ven",
           "explanationEs": "Verbo de la conjugación en -и: смотр- + -ю, -ишь, -ит, -им, -ите, -ят; el acento pasa a la raíz después de «я»."
         },
         {
@@ -7600,7 +7600,7 @@
             "2.3-g-verbs-acc"
           ],
           "origin": "original",
-          "es": "де́лать = hacer: yo hago, tú haces, ellos hacen",
+          "es": "Де́лать = hacer: yo hago, tú haces, ellos hacen",
           "explanationEs": "Verbo de la conjugación en -е: se quita -ть y se añade -ю, -ешь, -ют."
         },
         {
@@ -8019,7 +8019,7 @@
             "2.3-g-verbs-acc"
           ],
           "origin": "original",
-          "es": "слу́шать му́зыку = escuchar música · смотре́ть телеви́зор = ver la tele · чита́ть газе́ту = leer el periódico · де́лать дома́шнее зада́ние = hacer la tarea · разга́дывать кроссво́рды = resolver crucigramas",
+          "es": "Слу́шать му́зыку = escuchar música · смотре́ть телеви́зор = ver la tele · чита́ть газе́ту = leer el periódico · де́лать дома́шнее зада́ние = hacer la tarea · разга́дывать кроссво́рды = resolver crucigramas",
           "explanationEs": "Combinaciones fijas verbo + objeto; los femeninos van en acusativo (му́зыку, газе́ту)."
         },
         {
@@ -8054,7 +8054,7 @@
           ],
           "tags": [],
           "origin": "workbook p.35 ex.3Б",
-          "es": "болту́н = parlanchín · кошма́р = pesadilla · сладкое́жка = goloso · мелома́н = melómano · краса́вица = mujer guapísima · попуга́й = perico",
+          "es": "Болту́н = parlanchín · кошма́р = pesadilla · сладкое́жка = goloso · мелома́н = melómano · краса́вица = mujer guapísima · попуга́й = perico",
           "explanationEs": "Vocabulario de la lección para describir personas y situaciones."
         },
         {
@@ -8089,7 +8089,7 @@
           ],
           "tags": [],
           "origin": "original",
-          "es": "всегда́ = siempre · то́чно = seguro · скоре́е = más bien · о́ба = ambos · день = día · ночь = noche",
+          "es": "Всегда́ = siempre · то́чно = seguro · скоре́е = más bien · о́ба = ambos · день = día · ночь = noche",
           "explanationEs": "Palabras útiles de la lección; ночь es femenino aunque termine en -ь."
         },
         {
@@ -8109,7 +8109,7 @@
             "2.3-g-scale"
           ],
           "origin": "original",
-          "es": "о́чень люблю́ = me gusta mucho = обожа́ю = adoro",
+          "es": "О́чень люблю́ = me gusta mucho = обожа́ю = adoro",
           "explanationEs": "Обожа́ть significa amar mucho algo, igual que «о́чень люби́ть»."
         },
         {
@@ -8129,7 +8129,7 @@
             "2.3-g-scale"
           ],
           "origin": "original",
-          "es": "о́чень не люблю́ = no me gusta nada = ненави́жу = odio",
+          "es": "О́чень не люблю́ = no me gusta nada = ненави́жу = odio",
           "explanationEs": "Ненави́деть (odiar) es lo mismo que «о́чень не люби́ть»."
         },
         {
@@ -8149,7 +8149,7 @@
             "2.3-g-lyubit-nenavidet"
           ],
           "origin": "original",
-          "es": "люби́ть = amar ↔ ненави́деть = odiar",
+          "es": "Люби́ть = amar ↔ ненави́деть = odiar",
           "explanationEs": "Lo contrario de amar es odiar: ненави́деть."
         },
         {
@@ -8167,7 +8167,7 @@
           ],
           "tags": [],
           "origin": "original",
-          "es": "день = día ↔ ночь = noche",
+          "es": "День = día ↔ ночь = noche",
           "explanationEs": "Lo contrario de день (día) es ночь (noche)."
         },
         {
@@ -8820,7 +8820,7 @@
         {
           "id": "2.4-g-pisat-pet",
           "title": "писа́ть (с → ш) y петь",
-          "explanationEs": "**писа́ть**: la **с** cambia a **ш** en todas las personas del presente y el acento se mueve: пишу́, пи́шешь, пи́шет, пи́шем, пи́шете, пи́шут.\n\n**петь**: la raíz cambia a **по-**: пою́, поёшь, поёт, поём, поёте, пою́т.",
+          "explanationEs": "**Писа́ть**: la **с** cambia a **ш** en todas las personas del presente y el acento se mueve: пишу́, пи́шешь, пи́шет, пи́шем, пи́шете, пи́шут.\n\n**петь**: la raíz cambia a **по-**: пою́, поёшь, поёт, поём, поёте, пою́т.",
           "tables": [
             {
               "caption": "Presente",
@@ -10303,7 +10303,7 @@
             "2.4-g-ova-eva"
           ],
           "origin": "textbook p.46",
-          "es": "фотографи́ровать = fotografiar: yo fotografío, tú fotografías, él fotografía, nosotros fotografiamos, ustedes fotografían, ellos fotografían"
+          "es": "Фотографи́ровать = fotografiar: yo fotografío, tú fotografías, él fotografía, nosotros fotografiamos, ustedes fotografían, ellos fotografían"
         },
         {
           "id": "2.4-x-02",
@@ -10331,7 +10331,7 @@
             "2.4-g-ova-eva"
           ],
           "origin": "textbook p.46",
-          "es": "танцева́ть = bailar: yo bailo, tú bailas, él baila, nosotros bailamos, ustedes bailan, ellos bailan"
+          "es": "Танцева́ть = bailar: yo bailo, tú bailas, él baila, nosotros bailamos, ustedes bailan, ellos bailan"
         },
         {
           "id": "2.4-x-03",
@@ -10358,7 +10358,7 @@
             "2.4-g-ova-eva"
           ],
           "origin": "original",
-          "es": "рисова́ть = dibujar: yo dibujo, tú dibujas, él dibuja, nosotros dibujamos, ustedes dibujan, ellos dibujan",
+          "es": "Рисова́ть = dibujar: yo dibujo, tú dibujas, él dibuja, nosotros dibujamos, ustedes dibujan, ellos dibujan",
           "explanationEs": "Los verbos en -ова́ть cambian -ова- por -у-: рису́ю, рису́ешь…"
         },
         {
@@ -10380,7 +10380,7 @@
             "2.4-g-ova-eva"
           ],
           "origin": "original",
-          "es": "путеше́ствовать = viajar: yo viajo, tú viajas, nosotros viajamos",
+          "es": "Путеше́ствовать = viajar: yo viajo, tú viajas, nosotros viajamos",
           "explanationEs": "-ова- → -у-: путеше́ствую, путеше́ствуешь, путеше́ствуем."
         },
         {
@@ -10409,7 +10409,7 @@
             "2.4-g-l-insert"
           ],
           "origin": "textbook p.46",
-          "es": "гото́вить = cocinar: yo cocino, tú cocinas, él cocina, nosotros cocinamos, ustedes cocinan, ellos cocinan"
+          "es": "Гото́вить = cocinar: yo cocino, tú cocinas, él cocina, nosotros cocinamos, ustedes cocinan, ellos cocinan"
         },
         {
           "id": "2.4-x-06",
@@ -10436,7 +10436,7 @@
             "2.4-g-l-insert"
           ],
           "origin": "textbook p.46",
-          "es": "спать = dormir: yo duermo, tú duermes, él duerme, nosotros dormimos, ustedes duermen, ellos duermen",
+          "es": "Спать = dormir: yo duermo, tú duermes, él duerme, nosotros dormimos, ustedes duermen, ellos duermen",
           "explanationEs": "Спать es de la conjugación en -и, con -л- en «я»: сплю, спишь, спят."
         },
         {
@@ -10460,12 +10460,12 @@
             "пи́шете",
             "пи́шут"
           ],
-          "explanationEs": "с → ш en todo el presente.",
+          "explanationEs": "С → ш en todo el presente.",
           "tags": [
             "2.4-g-pisat-pet"
           ],
           "origin": "textbook p.47",
-          "es": "писа́ть = escribir: yo escribo, tú escribes, él escribe, nosotros escribimos, ustedes escriben, ellos escriben"
+          "es": "Писа́ть = escribir: yo escribo, tú escribes, él escribe, nosotros escribimos, ustedes escriben, ellos escriben"
         },
         {
           "id": "2.4-x-08",
@@ -10492,7 +10492,7 @@
             "2.4-g-pisat-pet"
           ],
           "origin": "textbook p.47",
-          "es": "петь = cantar: yo canto, tú cantas, él canta, nosotros cantamos, ustedes cantan, ellos cantan",
+          "es": "Петь = cantar: yo canto, tú cantas, él canta, nosotros cantamos, ustedes cantan, ellos cantan",
           "explanationEs": "Петь es irregular: raíз по- + ю/ёшь: пою́, поёшь, пою́т."
         },
         {
@@ -10557,7 +10557,7 @@
             "2.4-g-e-i-conj"
           ],
           "origin": "textbook p.45",
-          "es": "е-спряже́ние: гуля́ть = pasear · игра́ть = jugar · изуча́ть = estudiar · отдыха́ть = descansar · слу́шать = escuchar · чита́ть = leer · и-спряже́ние: говори́ть = hablar · ходи́ть = ir, andar · гото́вить = cocinar · смотре́ть = ver · люби́ть = amar · кури́ть = fumar",
+          "es": "Е-спряже́ние: гуля́ть = pasear · игра́ть = jugar · изуча́ть = estudiar · отдыха́ть = descansar · слу́шать = escuchar · чита́ть = leer · и-спряже́ние: говори́ть = hablar · ходи́ть = ir, andar · гото́вить = cocinar · смотре́ть = ver · люби́ть = amar · кури́ть = fumar",
           "explanationEs": "Los verbos en -ать/-ять suelen ser de la conjugación en -е (-ешь, -ют); los en -ить y algunos en -еть, de la conjugación en -и (-ишь, -ят)."
         },
         {
@@ -10622,7 +10622,7 @@
             "2.4-g-igrat-v-na"
           ],
           "origin": "textbook p.45",
-          "es": "игра́ть в = jugar: футбо́л (futbol), те́ннис (tenis), хокке́й (hockey), ша́хматы (ajedrez), ка́рты (cartas), гольф (golf) · игра́ть на = tocar: гита́ре (guitarra), саксофо́не (saxofón), скри́пке (violín), трубе́ (trompeta), пиани́но (piano), фле́йте (flauta)",
+          "es": "Игра́ть в = jugar: футбо́л (futbol), те́ннис (tenis), хокке́й (hockey), ша́хматы (ajedrez), ка́рты (cartas), гольф (golf) · игра́ть на = tocar: гита́ре (guitarra), саксофо́не (saxofón), скри́пке (violín), трубе́ (trompeta), пиани́но (piano), фле́йте (flauta)",
           "explanationEs": "Juegos y deportes van con в + acusativo; instrumentos con на + prepositivo (terminación -е)."
         },
         {
@@ -10988,7 +10988,7 @@
           ],
           "tags": [],
           "origin": "workbook p.37 ex.1А",
-          "es": "изуча́ть литерату́ру = estudiar literatura · смотре́ть телеви́зор = ver la tele · ходи́ть в кино́ = ir al cine · танцева́ть та́нго = bailar tango · писа́ть письмо́ = escribir una carta · игра́ть на гита́ре = tocar la guitarra",
+          "es": "Изуча́ть литерату́ру = estudiar literatura · смотре́ть телеви́зор = ver la tele · ходи́ть в кино́ = ir al cine · танцева́ть та́нго = bailar tango · писа́ть письмо́ = escribir una carta · игра́ть на гита́ре = tocar la guitarra",
           "explanationEs": "Combinaciones lógicas verbo + complemento; los instrumentos van con на (на гита́ре)."
         },
         {
@@ -11023,7 +11023,7 @@
           ],
           "tags": [],
           "origin": "workbook p.39 ex.2Б",
-          "es": "жена́т = casado (hombre) · за́мужем = casada (mujer) · трудого́лик = adicto al trabajo · вме́сте = juntos · кури́ть = fumar · пельме́ни = pelmeni",
+          "es": "Жена́т = casado (hombre) · за́мужем = casada (mujer) · трудого́лик = adicto al trabajo · вме́сте = juntos · кури́ть = fumar · пельме́ни = pelmeni",
           "explanationEs": "Ojo: «casado» se dice distinto según el sexo: él жена́т, ella за́мужем."
         },
         {
@@ -11058,7 +11058,7 @@
           ],
           "tags": [],
           "origin": "original",
-          "es": "скри́пка = violín · труба́ = trompeta · фле́йта = flauta · пиани́но = piano · саксофо́н = saxofón · виолонче́ль = violonchelo",
+          "es": "Скри́пка = violín · труба́ = trompeta · фле́йта = flauta · пиани́но = piano · саксофо́н = saxofón · виолонче́ль = violonchelo",
           "explanationEs": "Instrumentos musicales; con ellos se usa игра́ть на + prepositivo (на скри́пке)."
         },
         {
@@ -11110,7 +11110,7 @@
           "sentence": "Что вы писа́ете?",
           "wrongWord": 2,
           "correction": "пи́шете",
-          "explanationEs": "писа́ть: с → ш → пи́шете.",
+          "explanationEs": "Писа́ть: с → ш → пи́шете.",
           "tags": [
             "2.4-g-pisat-pet"
           ],
@@ -11124,7 +11124,7 @@
           "sentence": "Я спа́ю о́чень ма́ло.",
           "wrongWord": 1,
           "correction": "сплю",
-          "explanationEs": "спать → я сплю.",
+          "explanationEs": "Спать → я сплю.",
           "tags": [
             "2.4-g-l-insert"
           ],
@@ -11298,7 +11298,7 @@
           ],
           "tags": [],
           "origin": "original",
-          "es": "мно́го = mucho ↔ ма́ло = poco",
+          "es": "Мно́го = mucho ↔ ма́ло = poco",
           "explanationEs": "Lo contrario de мно́го (mucho) es ма́ло (poco)."
         },
         {
@@ -11316,7 +11316,7 @@
           ],
           "tags": [],
           "origin": "original",
-          "es": "рабо́тать = trabajar ↔ отдыха́ть = descansar",
+          "es": "Рабо́тать = trabajar ↔ отдыха́ть = descansar",
           "explanationEs": "Lo contrario de trabajar es descansar: отдыха́ть."
         },
         {

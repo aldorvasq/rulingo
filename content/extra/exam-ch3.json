@@ -15,7 +15,7 @@
             "ку́хню"
           ],
           "answer": 0,
-          "explanationEs": "на ку́хне: ку́хня → ку́хне (-я → -е). La cocina va con на.",
+          "explanationEs": "На ку́хне: ку́хня → ку́хне (-я → -е). La cocina va con на.",
           "es": "Mamá prepara la cena en la cocina.",
           "tags": [
             "3.1-g-prep-e",
@@ -52,7 +52,7 @@
             "пол"
           ],
           "answer": 0,
-          "explanationEs": "пол → на полу́ (-у́ acentuada).",
+          "explanationEs": "Пол → на полу́ (-у́ acentuada).",
           "es": "La gata duerme en el piso.",
           "tags": [
             "3.1-g-prep-u"
@@ -70,7 +70,7 @@
             "шкаф"
           ],
           "answer": 0,
-          "explanationEs": "шкаф → в шкафу́.",
+          "explanationEs": "Шкаф → в шкафу́.",
           "es": "Tu chamarra está en el clóset.",
           "tags": [
             "3.1-g-prep-u"
@@ -88,7 +88,7 @@
             "у́гле"
           ],
           "answer": 0,
-          "explanationEs": "у́гол → в углу́ (se pierde la о y la terminación es -у́).",
+          "explanationEs": "У́гол → в углу́ (se pierde la о y la terminación es -у́).",
           "es": "La planta está en la esquina.",
           "tags": [
             "3.1-g-prep-u"
@@ -105,7 +105,7 @@
             "в"
           ],
           "answer": 0,
-          "explanationEs": "по́чта, ку́хня, у́лица, рабо́та, стадио́н… van con на.",
+          "explanationEs": "По́чта, ку́хня, у́лица, рабо́та, стадио́н… van con на.",
           "es": "El abuelo trabaja en el correo.",
           "tags": [
             "3.1-g-v-na"
@@ -138,7 +138,7 @@
             "стене́"
           ],
           "hint": "стена́ → ?",
-          "explanationEs": "стена́ → на стене́ (-а → -е).",
+          "explanationEs": "Стена́ → на стене́ (-а → -е).",
           "es": "El cuadro está colgado en la pared.",
           "tags": [
             "3.1-g-prep-e"
@@ -154,7 +154,7 @@
             "де́тской"
           ],
           "hint": "де́тская → ?",
-          "explanationEs": "де́тская → в де́тской (-ая → -ой).",
+          "explanationEs": "Де́тская → в де́тской (-ая → -ой).",
           "es": "Los niños juegan en el cuarto de los niños.",
           "tags": [
             "3.1-g-prep-oj"
@@ -170,7 +170,7 @@
             "столе́"
           ],
           "hint": "стол → ?",
-          "explanationEs": "стол → на столе́.",
+          "explanationEs": "Стол → на столе́.",
           "es": "Las llaves están en la mesa.",
           "tags": [
             "3.1-g-prep-e"
@@ -186,7 +186,7 @@
             "люби́мая"
           ],
           "hint": "femenino",
-          "explanationEs": "ко́мната es femenino: люби́мая.",
+          "explanationEs": "Ко́мната es femenino: люби́мая.",
           "es": "Este es mi cuarto favorito.",
           "tags": [
             "3.1-g-lyubimyj"
@@ -204,7 +204,7 @@
             "Кака́я"
           ],
           "answer": 0,
-          "explanationEs": "ме́сто es neutro: како́е, люби́мое.",
+          "explanationEs": "Ме́сто es neutro: како́е, люби́мое.",
           "es": "¿Cuál es tu lugar favorito de la casa?",
           "tags": [
             "3.1-g-lyubimyj"
@@ -218,7 +218,7 @@
           "sentence": "Ле́том мы обе́даем в са́де.",
           "wrongWord": 4,
           "correction": "саду́.",
-          "explanationEs": "сад → в саду́ (-у́).",
+          "explanationEs": "Сад → в саду́ (-у́).",
           "es": "En verano comemos en el jardín.",
           "tags": [
             "3.1-g-prep-u"
@@ -341,7 +341,7 @@
             "сижу́"
           ],
           "hint": "сиде́ть, я",
-          "explanationEs": "сиде́ть → я сижу́ (д → ж).",
+          "explanationEs": "Сиде́ть → я сижу́ (д → ж).",
           "es": "Estoy sentado en el sofá leyendo.",
           "tags": [
             "3.2-g-position-verbs"
@@ -357,7 +357,7 @@
             "вися́т"
           ],
           "hint": "висе́ть, они́",
-          "explanationEs": "они́ вися́т.",
+          "explanationEs": "Они́ вися́т.",
           "es": "Tus jeans están colgados en el clóset.",
           "tags": [
             "3.2-g-position-verbs"
@@ -385,7 +385,7 @@
             "живёте",
             "живу́т"
           ],
-          "explanationEs": "жить: живу́, живёшь, живёт, живём, живёте, живу́т (aparece una в).",
+          "explanationEs": "Жить: живу́, живёшь, живёт, живём, живёте, живу́т (aparece una в).",
           "tags": [
             "3.2-g-zhit"
           ],
@@ -427,7 +427,7 @@
             "живу́т"
           ],
           "hint": "жить, они́",
-          "explanationEs": "они́ живу́т.",
+          "explanationEs": "Они́ живу́т.",
           "es": "Mis papás viven en México.",
           "tags": [
             "3.2-g-zhit",
@@ -480,7 +480,7 @@
             "Э́та"
           ],
           "answer": 0,
-          "explanationEs": "кре́сло es neutro → э́то.",
+          "explanationEs": "Кре́сло es neutro → э́то.",
           "es": "Este sillón es muy cómodo.",
           "tags": [
             "3.2-g-etot"
@@ -498,7 +498,7 @@
             "Э́ти"
           ],
           "answer": 0,
-          "explanationEs": "ла́мпа es femenino → э́та.",
+          "explanationEs": "Ла́мпа es femenino → э́та.",
           "es": "Esta lámpara es nueva y aquella es vieja.",
           "tags": [
             "3.2-g-etot"
@@ -516,7 +516,7 @@
             "э́то"
           ],
           "answer": 0,
-          "explanationEs": "ключи́ es plural → э́ти.",
+          "explanationEs": "Ключи́ es plural → э́ти.",
           "es": "¿De quién son estas llaves?",
           "tags": [
             "3.2-g-etot",
@@ -539,7 +539,7 @@
           ],
           "hint": "excepción",
           "explanationEs": "Excepción: стул → сту́лья.",
-          "es": "silla → sillas",
+          "es": "Silla → sillas",
           "tags": [
             "3.3-g-plural"
           ],
@@ -555,7 +555,7 @@
           ],
           "hint": "ш + ?",
           "explanationEs": "Después de ш se escribe и: карандаши́.",
-          "es": "lápiz → lápices",
+          "es": "Lápiz → lápices",
           "tags": [
             "3.3-g-plural"
           ],
@@ -571,7 +571,7 @@
           ],
           "hint": "-о → ?",
           "explanationEs": "Neutro -о → -а (el acento se mueve): о́кна.",
-          "es": "ventana → ventanas",
+          "es": "Ventana → ventanas",
           "tags": [
             "3.3-g-plural"
           ],
@@ -587,7 +587,7 @@
           ],
           "hint": "excepción",
           "explanationEs": "Excepción: го́род → города́.",
-          "es": "ciudad → ciudades",
+          "es": "Ciudad → ciudades",
           "tags": [
             "3.3-g-plural"
           ],
@@ -640,7 +640,7 @@
             "кото́рое"
           ],
           "answer": 0,
-          "explanationEs": "колле́га (aquí una mujer) → кото́рая.",
+          "explanationEs": "Колле́га (aquí una mujer) → кото́рая.",
           "es": "Esta es la colega que está en internet todo el día.",
           "tags": [
             "3.3-g-kotoryj"
@@ -658,7 +658,7 @@
             "кото́рые"
           ],
           "answer": 0,
-          "explanationEs": "о́фис es masculino → кото́рый.",
+          "explanationEs": "О́фис es masculino → кото́рый.",
           "es": "Me encanta la oficina que está en el centro.",
           "tags": [
             "3.3-g-kotoryj"
@@ -676,7 +676,7 @@
             "кото́рое"
           ],
           "answer": 0,
-          "explanationEs": "докуме́нты es plural → кото́рые.",
+          "explanationEs": "Докуме́нты es plural → кото́рые.",
           "es": "¿Dónde están los documentos que estaban en la mesa?",
           "tags": [
             "3.3-g-kotoryj",
@@ -693,7 +693,7 @@
             "обсужда́ем"
           ],
           "hint": "обсужда́ть, мы",
-          "explanationEs": "мы обсужда́ем (conjugación -е).",
+          "explanationEs": "Мы обсужда́ем (conjugación -е).",
           "es": "Discutimos el proyecto nuevo.",
           "tags": [
             "3.3-g-office-verbs"
@@ -709,7 +709,7 @@
             "отвеча́ет"
           ],
           "hint": "отвеча́ть, он",
-          "explanationEs": "он отвеча́ет.",
+          "explanationEs": "Он отвеча́ет.",
           "es": "La secretaria contesta las cartas.",
           "tags": [
             "3.3-g-office-verbs"
@@ -750,7 +750,7 @@
             "весёлая"
           ],
           "answer": 0,
-          "explanationEs": "сосе́ди es plural → весёлые.",
+          "explanationEs": "Сосе́ди es plural → весёлые.",
           "es": "Tenemos vecinos muy alegres.",
           "tags": [
             "3.4-g-adj-endings"
@@ -766,7 +766,7 @@
             "споко́йное"
           ],
           "hint": "neutro",
-          "explanationEs": "ме́сто es neutro → споко́йное.",
+          "explanationEs": "Ме́сто es neutro → споко́йное.",
           "es": "Es un lugar tranquilo.",
           "tags": [
             "3.4-g-adj-endings"
@@ -782,7 +782,7 @@
             "интере́сная"
           ],
           "hint": "femenino",
-          "explanationEs": "же́нщина es femenino → интере́сная.",
+          "explanationEs": "Же́нщина es femenino → интере́сная.",
           "es": "Mi vecina es una mujer interesante.",
           "tags": [
             "3.4-g-adj-endings"
@@ -835,7 +835,7 @@
             "нра́вится"
           ],
           "answer": 0,
-          "explanationEs": "сосе́ди es plural → нра́вятся.",
+          "explanationEs": "Сосе́ди es plural → нра́вятся.",
           "es": "Me caen bien nuestros vecinos nuevos.",
           "tags": [
             "3.4-g-nravitsya"
@@ -852,7 +852,7 @@
             "нра́вятся"
           ],
           "answer": 0,
-          "explanationEs": "двор es singular → нра́вится.",
+          "explanationEs": "Двор es singular → нра́вится.",
           "es": "¿Te gusta nuestro patio?",
           "tags": [
             "3.4-g-nravitsya"
@@ -886,7 +886,7 @@
             "Бе́лого"
           ],
           "hint": "-ого",
-          "explanationEs": "бе́лый → бе́лого цве́та.",
+          "explanationEs": "Бе́лый → бе́лого цве́та.",
           "es": "¿De qué color es tu casa? —Blanca.",
           "tags": [
             "3.4-g-colors"
@@ -904,7 +904,7 @@
             "се́рые"
           ],
           "answer": 0,
-          "explanationEs": "смотре́ть на мир че́рез ро́зовые очки́ = verlo todo color de rosa.",
+          "explanationEs": "Смотре́ть на мир че́рез ро́зовые очки́ = verlo todo color de rosa.",
           "es": "Ve el mundo color de rosa.",
           "tags": [
             "3.4-g-color-idioms"
@@ -922,7 +922,7 @@
             "чёрный день"
           ],
           "answer": 0,
-          "explanationEs": "се́рая мышь = persona que pasa desapercibida.",
+          "explanationEs": "Се́рая мышь = persona que pasa desapercibida.",
           "es": "Es callada, nadie la nota: un verdadero «ratón gris».",
           "tags": [
             "3.4-g-color-idioms"
@@ -976,7 +976,7 @@
             "На"
           ],
           "answer": 0,
-          "explanationEs": "в + día de la semana; ante вт- se dice во: во вто́рник.",
+          "explanationEs": "В + día de la semana; ante вт- se dice во: во вто́рник.",
           "es": "¿Cuándo es nuestro examen? —El martes.",
           "tags": [
             "3.4x-g-days"
@@ -992,7 +992,7 @@
             "суббо́ту"
           ],
           "hint": "суббо́та → ?",
-          "explanationEs": "в суббо́ту (-а → -у).",
+          "explanationEs": "В суббо́ту (-а → -у).",
           "es": "El sábado descansamos.",
           "tags": [
             "3.4x-g-days"
@@ -1010,7 +1010,7 @@
             "лет"
           ],
           "answer": 0,
-          "explanationEs": "2, 3, 4 (y 22, 72…) → го́да.",
+          "explanationEs": "2, 3, 4 (Y 22, 72…) → го́да.",
           "es": "Mi abuela tiene setenta y dos años.",
           "tags": [
             "3.4x-g-age"
@@ -1028,7 +1028,7 @@
             "год"
           ],
           "answer": 0,
-          "explanationEs": "5–20 (y 25…) → лет.",
+          "explanationEs": "5–20 (Y 25…) → лет.",
           "es": "Tengo veinticinco años.",
           "tags": [
             "3.4x-g-age"
@@ -1046,7 +1046,7 @@
             "лет"
           ],
           "answer": 0,
-          "explanationEs": "1 (y 21, 31…) → год.",
+          "explanationEs": "1 (Y 21, 31…) → год.",
           "es": "Mi hermana tiene veintiún años.",
           "tags": [
             "3.4x-g-age"
@@ -1082,7 +1082,7 @@
             "Како́й"
           ],
           "answer": 0,
-          "explanationEs": "кварти́ра es femenino y la respuesta es un adjetivo → Кака́я?",
+          "explanationEs": "Кварти́ра es femenino y la respuesta es un adjetivo → Кака́я?",
           "es": "¿Cómo es su departamento? —Grande y luminoso.",
           "tags": [
             "3.4x-g-kakoj-kak"
@@ -1109,7 +1109,7 @@
             "Да, о́чень! Она́ ую́тно и светло́."
           ],
           "answer": 0,
-          "explanationEs": "кварти́ра → она́, ую́тная, све́тлая.",
+          "explanationEs": "Кварти́ра → она́, ую́тная, све́тлая.",
           "es": "—¿Te gusta tu departamento nuevo? —¡Sí, mucho! Es acogedor y luminoso.",
           "tags": [
             "3.4-g-nravitsya",

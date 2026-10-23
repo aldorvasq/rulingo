@@ -263,3 +263,8 @@ button:active .route-block .route-face { transform: translateY(4px); }
   box-shadow: 0 2px 6px rgba(40, 25, 10, .25), 0 -2px 6px rgba(40, 25, 10, .25);
 }
 :root[data-theme="dark"] .mural-band { filter: brightness(.82); }
+
+/* Exam tab: a soft brick-red ring pulses around it while an exam is coming up. */
+.exam-tab::after { content: ''; position: absolute; inset: 0; border-radius: 9999px; animation: exam-ring 2.2s ease-out infinite; pointer-events: none; }
+@keyframes exam-ring { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--brick) 55%, transparent) } 70%, 100% { box-shadow: 0 0 0 10px transparent } }
+@media (prefers-reduced-motion: reduce) { .exam-tab::after { animation: none; } }
