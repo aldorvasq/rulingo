@@ -12,6 +12,7 @@ import { ScheduleCard } from '../components/ScheduleCard'
 import { exportProgress } from '../state/backup'
 import { TopicList } from '../components/TopicList'
 import { GoalStrip } from '../components/Goal'
+import { daysUntil, examDateEs, upcomingExam } from '../content/exams'
 
 export function StreakBadge() {
   const streak = useStore((s) => s.streak)
@@ -48,6 +49,7 @@ export function Home() {
       </div>
       <DailyHero />
       <ScheduleCard />
+      <ExamBanner />
 
       {lesson ? (
         <>
@@ -167,6 +169,23 @@ function Row({ icon, title, desc, onClick }: { icon: string; title: string; desc
       <div className="min-w-0 flex-1">
         <div className="font-bold">{title}</div>
         <div className="text-sm text-muted">{desc}</div>
+      </div>
+      <Icon name="chevron" size={18} className="shrink-0 text-muted" />
+    </button>
+  )
+}
+
+/** While an exam is coming up: a direct way into the exam practice. */
+function ExamBanner() {
+  const exam = upcomingExam()
+  if (!exam) return null
+  const d = daysUntil(exam)
+  return (
+    <button onClick={() => navigate('/exam')} className="rise mt-4 flex w-full items-center gap-3 rounded-xl border border-brick/30 bg-card px-4 py-3.5 text-left shadow-sm">
+      <Icon name="exam" size={26} className="shrink-0 text-brick" />
+      <div className="min-w-0 flex-1">
+        <div className="font-bold">{exam.title} · {d > 1 ? `en ${d} días` : d === 1 ? 'mañana' : 'hoy'}</div>
+        <div className="text-sm text-muted">{examDateEs(exam)} · repaso intensivo y simulacro de examen</div>
       </div>
       <Icon name="chevron" size={18} className="shrink-0 text-muted" />
     </button>

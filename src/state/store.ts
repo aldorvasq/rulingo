@@ -62,6 +62,18 @@ export interface PersistedState {
   lastBackup: string | null
   /** Hints spent today (the count resets each day). */
   hints: { day: string; used: number }
+  /** Mock exam results per chapter, oldest first. */
+  mocks: Record<string, MockRecord[]>
+}
+
+export interface MockRecord {
+  day: string
+  correct: number
+  total: number
+  /** Section id → [correct, total]. */
+  sections: Record<string, [number, number]>
+  /** Seconds taken. */
+  seconds: number
 }
 
 export const HINTS_PER_DAY = 3
@@ -85,6 +97,7 @@ interface Actions {
   markBackup: () => void
   /** Spend one of today's hints; false when none are left. */
   spendHint: () => boolean
+  saveMock: (chapter: number, r: MockRecord) => void
   resetAll: () => void
 }
 
@@ -121,6 +134,7 @@ const initial = (): PersistedState => ({
   badges: {},
   lastBackup: null,
   hints: { day: '', used: 0 },
+  mocks: {},
 })
 
 /** Apply missed days: spend streak freezes if there are enough, otherwise the streak resets. */
@@ -221,12 +235,14 @@ export const useStore = create<PersistedState & Actions>()(
         return true
       },
 
+      saveMock: (chapter, r) => set((st) => ({ mocks: { ...st.mocks, [chapter]: [...(st.mocks[chapter] ?? []), r].slice(-20) } })),
+
       resetAll: () => set(initial()),
     }),
     {
       name: 'rulingo',
       version: 1,
-      partialize: ({ settings, progress, stats, streak, badges, lastBackup, hints }) => ({ settings, progress, stats, streak, badges, lastBackup, hints }),
+      partialize: ({ settings, progress, stats, streak, badges, lastBackup, hints, mocks }) => ({ settings, progress, stats, streak, badges, lastBackup, hints, mocks }),
       merge: (persisted, current) => {
         const p = (persisted ?? {}) as Partial<PersistedState>
         const settings = { ...defaultSettings, ...p.settings }
@@ -248,8 +264,8 @@ export const useStore = create<PersistedState & Actions>()(
 )
 
 export const snapshot = (): PersistedState => {
-  const { settings, progress, stats, streak, badges, lastBackup, hints } = useStore.getState()
-  return { settings, progress, stats, streak, badges, lastBackup, hints }
+  const { settings, progress, stats, streak, badges, lastBackup, hints, mocks } = useStore.getState()
+  return { settings, progress, stats, streak, badges, lastBackup, hints, mocks }
 }
 
 /** Hints still available today. */

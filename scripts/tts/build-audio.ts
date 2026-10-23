@@ -45,6 +45,8 @@ const add = addText
 const READING = 1, SENTENCE = 2, PHRASE = 3, WORD = 4
 /** The lesson the class is on: all its texts (words first, then sentences) jump ahead of everything older. */
 const FOCUS = new Set(['4.1'])
+/** Extra packs whose texts also jump the queue (e.g. exam practice before a test). */
+const FOCUS_PACKS = new Set(['exam-ch3'])
 const FOCUS_BOOST = -10
 const listening: Listening[] = []
 const files = [
@@ -56,7 +58,7 @@ for (const f of files) {
   const chapterBoost = [...FOCUS].some((id) => id.startsWith(`${data.chapter}.`)) ? FOCUS_BOOST : 0
   for (const v of data.sneakIns ?? []) { addText(v.ru, WORD + chapterBoost); addText(v.example?.ru, WORD + chapterBoost) }
   for (const l of data.lessons ?? []) {
-    const boost = FOCUS.has(l.id) ? FOCUS_BOOST : 0
+    const boost = FOCUS.has(l.id) || FOCUS_PACKS.has((data as ExtraPack & { id?: string }).id ?? '') ? FOCUS_BOOST : 0
     const add = (t: string | undefined, p: number) => addText(t, p + boost)
     for (const v of l.vocab ?? []) { add(v.ru, WORD); add(v.example?.ru, WORD); v.antonyms?.forEach((a) => add(a, WORD)) }
     for (const p of l.phrases ?? []) add(p.ru, PHRASE)

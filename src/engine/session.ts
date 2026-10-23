@@ -1,4 +1,4 @@
-import { grammarById, lessonsUpTo, lessonById } from '../content'
+import { chapters, grammarById, lessonsUpTo, lessonById } from '../content'
 import { shuffle } from '../lib/text'
 import { candidatesFor } from './generate'
 import type { ItemState } from './srs'
@@ -15,6 +15,7 @@ export type SessionMode =
   | { mode: 'listening' }
   | { mode: 'cursive' }
   | { mode: 'skill'; skill: Skill }
+  | { mode: 'exam'; chapter: number }
 
 export interface SessionContext {
   progress: Record<string, ItemState>
@@ -229,6 +230,10 @@ export function buildSession(mode: SessionMode, ctx: SessionContext): RunExercis
     // Strengthen one skill across everything covered, shaky and due items first.
     p.limits = { kind: {}, skill: {}, other: n }
     chosen = spreadOut(p, pool(covered).filter((c) => c.skill === mode.skill && !c.sneak), n, { weak: 5, due: 3, fresh: 0.5 })
+  } else if (mode.mode === 'exam') {
+    // Exam prep: the whole chapter, every lesson and grammar point in turn, shaky items first.
+    const ids = chapters.find((c) => c.chapter === mode.chapter)?.lessons.map((l) => l.id) ?? []
+    chosen = spreadOut(p, pool(ids).filter((c) => !c.sneak && c.skill !== 'cursive'), n, { weak: 5, due: 3, fresh: 1 })
   } else if (mode.mode === 'weak') {
     const weak = pool(covered).filter((c) => !c.sneak && c.items.some((i) => {
       const st = ctx.progress[i]
@@ -272,4 +277,58 @@ export function buildSession(mode: SessionMode, ctx: SessionContext): RunExercis
     return ex
   })
   return order(exercises, levels)
+}
+
+// ---------------------------------------------------------------- mock exam
+
+export interface MockSection { id: string; title: string; exercises: RunExercise[] }
+
+/**
+ * A mock exam over one chapter, in the order of a written test: vocabulary, grammar (every grammar point
+ * of the chapter gets a question while there's room), verbs, building sentences, reading and listening.
+ * Not adaptive: questions are drawn evenly, so the score says how ready the learner is for the whole chapter.
+ */
+export function buildMockExam(chapter: number, ctx: SessionContext): MockSection[] {
+  const ch = chapters.find((c) => c.chapter === chapter)
+  if (!ch) return []
+  const ids = ch.lessons.map((l) => l.id)
+  const all = ids.flatMap(candidatesFor).filter((c) => !c.sneak && c.skill !== 'cursive' && (c.skill !== 'listening' || hasListening(c.items[1])))
+  const p = new Picker(ctx, 60)
+  p.limits = { kind: { match: 1, sort: 1 }, skill: {}, other: 60 }
+  const even = { due: 0, weak: 0, fresh: 0 }
+  const of = (skills: Skill[]) => all.filter((c) => skills.includes(c.skill))
+
+  // Grammar: one question per grammar point (shuffled, so a long chapter rotates which ones come up).
+  const nGrammar = 14
+  const points = shuffle(ch.lessons.flatMap((l) => (l.grammar ?? []).map((g) => g.id)))
+  const gram: Candidate[] = []
+  for (const g of points) {
+    if (gram.length >= nGrammar) break
+    gram.push(...p.pick(all.filter((c) => c.items.includes(g) && (c.skill === 'grammar' || c.skill === 'writing') && c.kind !== 'match' && c.kind !== 'sort'), 1, even))
+  }
+  gram.push(...spreadOut(p, of(['grammar']).filter((c) => c.kind !== 'match' && c.kind !== 'sort'), nGrammar - gram.length, even))
+
+  // At most one matching exercise (slow, and it says little per minute); reading = questions on a text + a dialogue.
+  const readingIds = new Set(ch.lessons.flatMap((l) => (l.readings ?? []).map((r) => r.id)))
+  const onText = of(['reading']).filter((c) => readingIds.has(c.items[1]))
+  const single = (c: Candidate) => c.kind !== 'match' && c.kind !== 'sort'
+  const vocab = [...p.pick(of(['vocab']).filter((c) => c.kind === 'match'), 1, even), ...spreadOut(p, of(['antonym']).filter(single), 2, even)]
+  vocab.push(...spreadOut(p, of(['vocab', 'visual']).filter(single), 8 - vocab.length, even))
+  const reading = [...spreadOut(p, onText, 3, even)]
+  reading.push(...spreadOut(p, of(['reading']).filter((c) => !onText.includes(c)), 4 - reading.length, even))
+
+  const plan: [string, string, Candidate[]][] = [
+    ['vocab', 'Vocabulario', vocab],
+    ['grammar', 'Gramática', gram],
+    ['verbs', 'Verbos', spreadOut(p, of(['conjugation']), 4, even)],
+    ['syntax', 'Frases: orden y traducción', spreadOut(p, of(['syntax', 'writing']).filter((c) => c.kind !== 'match' && c.kind !== 'sort'), 4, even)],
+    ['reading', 'Lectura', reading],
+    ['listening', 'Comprensión auditiva', spreadOut(p, of(['listening']), 3, even)],
+  ]
+  remember(plan.flatMap(([, , cs]) => cs.map((c) => c.id)))
+  return plan.filter(([, , cs]) => cs.length).map(([id, title, cs]) => {
+    const levels = new Map<string, number>()
+    const exercises = shuffle(cs).map((c) => { const ex = c.make(); levels.set(ex.key, c.level); return ex })
+    return { id, title, exercises: order(exercises, levels) }
+  })
 }

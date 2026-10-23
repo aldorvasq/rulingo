@@ -1,0 +1,1209 @@
+{
+  "id": "exam-ch3",
+  "lessons": [
+    {
+      "id": "3.1",
+      "exercises": [
+        {
+          "id": "3.1-exam-01",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ма́ма гото́вит у́жин на ___.",
+          "choices": [
+            "ку́хне",
+            "ку́хня",
+            "ку́хню"
+          ],
+          "answer": 0,
+          "explanationEs": "на ку́хне: ку́хня → ку́хне (-я → -е). La cocina va con на.",
+          "es": "Mamá prepara la cena en la cocina.",
+          "tags": [
+            "3.1-g-prep-e",
+            "3.1-g-v-na"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-02",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мы смо́трим телеви́зор в ___.",
+          "choices": [
+            "гости́ной",
+            "гости́не",
+            "гости́ная"
+          ],
+          "answer": 0,
+          "explanationEs": "Los cuartos en -ая son adjetivos: гости́ная → в гости́ной.",
+          "es": "Vemos la tele en la sala.",
+          "tags": [
+            "3.1-g-prep-oj"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-03",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ко́шка спит на ___.",
+          "choices": [
+            "полу́",
+            "по́ле",
+            "пол"
+          ],
+          "answer": 0,
+          "explanationEs": "пол → на полу́ (-у́ acentuada).",
+          "es": "La gata duerme en el piso.",
+          "tags": [
+            "3.1-g-prep-u"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-04",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Твоя́ ку́ртка в ___.",
+          "choices": [
+            "шкафу́",
+            "шка́фе",
+            "шкаф"
+          ],
+          "answer": 0,
+          "explanationEs": "шкаф → в шкафу́.",
+          "es": "Tu chamarra está en el clóset.",
+          "tags": [
+            "3.1-g-prep-u"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-05",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Расте́ние стои́т в ___.",
+          "choices": [
+            "углу́",
+            "у́голе",
+            "у́гле"
+          ],
+          "answer": 0,
+          "explanationEs": "у́гол → в углу́ (se pierde la о y la terminación es -у́).",
+          "es": "La planta está en la esquina.",
+          "tags": [
+            "3.1-g-prep-u"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-06",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Де́душка рабо́тает ___ по́чте.",
+          "choices": [
+            "на",
+            "в"
+          ],
+          "answer": 0,
+          "explanationEs": "по́чта, ку́хня, у́лица, рабо́та, стадио́н… van con на.",
+          "es": "El abuelo trabaja en el correo.",
+          "tags": [
+            "3.1-g-v-na"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-07",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Студе́нты сейча́с ___ университе́те.",
+          "choices": [
+            "в",
+            "на"
+          ],
+          "answer": 0,
+          "explanationEs": "Un edificio cerrado: в университе́те.",
+          "es": "Los estudiantes ahora están en la universidad.",
+          "tags": [
+            "3.1-g-v-na"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-08",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la palabra en prepositivo",
+          "sentence": "Карти́на виси́т на ___. (стена́)",
+          "answers": [
+            "стене́"
+          ],
+          "hint": "стена́ → ?",
+          "explanationEs": "стена́ → на стене́ (-а → -е).",
+          "es": "El cuadro está colgado en la pared.",
+          "tags": [
+            "3.1-g-prep-e"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-09",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la palabra en prepositivo",
+          "sentence": "Де́ти игра́ют в ___. (де́тская)",
+          "answers": [
+            "де́тской"
+          ],
+          "hint": "де́тская → ?",
+          "explanationEs": "де́тская → в де́тской (-ая → -ой).",
+          "es": "Los niños juegan en el cuarto de los niños.",
+          "tags": [
+            "3.1-g-prep-oj"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-10",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la palabra en prepositivo",
+          "sentence": "Ключи́ лежа́т на ___. (стол)",
+          "answers": [
+            "столе́"
+          ],
+          "hint": "стол → ?",
+          "explanationEs": "стол → на столе́.",
+          "es": "Las llaves están en la mesa.",
+          "tags": [
+            "3.1-g-prep-e"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-11",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Э́то моя́ ___ ко́мната. (люби́мый)",
+          "answers": [
+            "люби́мая"
+          ],
+          "hint": "femenino",
+          "explanationEs": "ко́мната es femenino: люби́мая.",
+          "es": "Este es mi cuarto favorito.",
+          "tags": [
+            "3.1-g-lyubimyj"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-12",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "___ твоё люби́мое ме́сто в до́ме?",
+          "choices": [
+            "Како́е",
+            "Како́й",
+            "Кака́я"
+          ],
+          "answer": 0,
+          "explanationEs": "ме́сто es neutro: како́е, люби́мое.",
+          "es": "¿Cuál es tu lugar favorito de la casa?",
+          "tags": [
+            "3.1-g-lyubimyj"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-13",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "Ле́том мы обе́даем в са́де.",
+          "wrongWord": 4,
+          "correction": "саду́.",
+          "explanationEs": "сад → в саду́ (-у́).",
+          "es": "En verano comemos en el jardín.",
+          "tags": [
+            "3.1-g-prep-u"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-14",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "Па́па сейча́с в ку́хне.",
+          "wrongWord": 2,
+          "correction": "на",
+          "explanationEs": "Se dice на ку́хне.",
+          "es": "Papá ahora está en la cocina.",
+          "tags": [
+            "3.1-g-v-na"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.1-exam-15",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "El sofá está en la sala.",
+          "answers": [
+            "Дива́н стои́т в гости́ной.",
+            "Дива́н в гости́ной."
+          ],
+          "es": "El sofá está en la sala.",
+          "tags": [
+            "3.1-g-prep-e",
+            "3.1-g-v-na"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        }
+      ]
+    },
+    {
+      "id": "3.2",
+      "exercises": [
+        {
+          "id": "3.2-exam-01",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ковёр ___ на полу́.",
+          "choices": [
+            "лежи́т",
+            "стои́т",
+            "виси́т"
+          ],
+          "answer": 0,
+          "explanationEs": "Horizontal → лежа́ть.",
+          "es": "La alfombra está en el piso.",
+          "tags": [
+            "3.2-g-position-verbs"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-02",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Холоди́льник ___ на ку́хне.",
+          "choices": [
+            "стои́т",
+            "лежи́т",
+            "виси́т"
+          ],
+          "answer": 0,
+          "explanationEs": "Vertical, sobre su base → стоя́ть.",
+          "es": "El refrigerador está en la cocina.",
+          "tags": [
+            "3.2-g-position-verbs"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-03",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Лю́стра ___ в гости́ной.",
+          "choices": [
+            "виси́т",
+            "стои́т",
+            "лежи́т"
+          ],
+          "answer": 0,
+          "explanationEs": "Colgado → висе́ть.",
+          "es": "El candil cuelga en la sala.",
+          "tags": [
+            "3.2-g-position-verbs"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-04",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ко́шка ___ на окне́.",
+          "choices": [
+            "сиди́т",
+            "стои́т",
+            "лежи́т"
+          ],
+          "answer": 0,
+          "explanationEs": "Personas y animales sentados → сиде́ть.",
+          "es": "La gata está (sentada) en la ventana.",
+          "tags": [
+            "3.2-g-position-verbs"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-05",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma del verbo",
+          "sentence": "Я ___ на дива́не и чита́ю. (сиде́ть)",
+          "answers": [
+            "сижу́"
+          ],
+          "hint": "сиде́ть, я",
+          "explanationEs": "сиде́ть → я сижу́ (д → ж).",
+          "es": "Estoy sentado en el sofá leyendo.",
+          "tags": [
+            "3.2-g-position-verbs"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-06",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma del verbo",
+          "sentence": "Твои́ джи́нсы ___ в шкафу́. (висе́ть)",
+          "answers": [
+            "вися́т"
+          ],
+          "hint": "висе́ть, они́",
+          "explanationEs": "они́ вися́т.",
+          "es": "Tus jeans están colgados en el clóset.",
+          "tags": [
+            "3.2-g-position-verbs"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-07",
+          "type": "conjugate",
+          "instructionEs": "Conjuga «жить» (vivir)",
+          "verb": "жить",
+          "pronouns": [
+            "я",
+            "ты",
+            "он",
+            "мы",
+            "вы",
+            "они́"
+          ],
+          "answers": [
+            "живу́",
+            "живёшь",
+            "живёт",
+            "живём",
+            "живёте",
+            "живу́т"
+          ],
+          "explanationEs": "жить: живу́, живёшь, живёт, живём, живёте, живу́т (aparece una в).",
+          "tags": [
+            "3.2-g-zhit"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-08",
+          "type": "conjugate",
+          "instructionEs": "Conjuga «лежа́ть» (estar acostado / tendido)",
+          "verb": "лежа́ть",
+          "pronouns": [
+            "я",
+            "ты",
+            "он",
+            "мы",
+            "вы",
+            "они́"
+          ],
+          "answers": [
+            "лежу́",
+            "лежи́шь",
+            "лежи́т",
+            "лежи́м",
+            "лежи́те",
+            "лежа́т"
+          ],
+          "explanationEs": "Conjugación -и: лежу́, лежи́шь… лежа́т.",
+          "tags": [
+            "3.2-g-position-verbs"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-09",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma del verbo",
+          "sentence": "Мои́ роди́тели ___ в Ме́ксике. (жить)",
+          "answers": [
+            "живу́т"
+          ],
+          "hint": "жить, они́",
+          "explanationEs": "они́ живу́т.",
+          "es": "Mis papás viven en México.",
+          "tags": [
+            "3.2-g-zhit",
+            "3.2-g-prep-ii"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-10",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Моя́ сестра́ сейча́с живёт в ___.",
+          "choices": [
+            "Испа́нии",
+            "Испа́не",
+            "Испа́ния"
+          ],
+          "answer": 0,
+          "explanationEs": "Países en -ия → в -ии: Испа́ния → в Испа́нии.",
+          "es": "Mi hermana ahora vive en España.",
+          "tags": [
+            "3.2-g-prep-ii"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-11",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la palabra en prepositivo",
+          "sentence": "Ле́том мы отдыха́ем в ___. (Ита́лия)",
+          "answers": [
+            "Ита́лии"
+          ],
+          "hint": "Ита́лия → ?",
+          "explanationEs": "Ита́лия → в Ита́лии.",
+          "es": "En verano descansamos en Italia.",
+          "tags": [
+            "3.2-g-prep-ii"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-12",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "___ кре́сло о́чень удо́бное.",
+          "choices": [
+            "Э́то",
+            "Э́тот",
+            "Э́та"
+          ],
+          "answer": 0,
+          "explanationEs": "кре́сло es neutro → э́то.",
+          "es": "Este sillón es muy cómodo.",
+          "tags": [
+            "3.2-g-etot"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-13",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "___ ла́мпа но́вая, а та ста́рая.",
+          "choices": [
+            "Э́та",
+            "Э́то",
+            "Э́ти"
+          ],
+          "answer": 0,
+          "explanationEs": "ла́мпа es femenino → э́та.",
+          "es": "Esta lámpara es nueva y aquella es vieja.",
+          "tags": [
+            "3.2-g-etot"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.2-exam-14",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Чьи ___ ключи́?",
+          "choices": [
+            "э́ти",
+            "э́тот",
+            "э́то"
+          ],
+          "answer": 0,
+          "explanationEs": "ключи́ es plural → э́ти.",
+          "es": "¿De quién son estas llaves?",
+          "tags": [
+            "3.2-g-etot",
+            "3.3-g-plural"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        }
+      ]
+    },
+    {
+      "id": "3.3",
+      "exercises": [
+        {
+          "id": "3.3-exam-01",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el plural",
+          "sentence": "стул → ___ (plural)",
+          "answers": [
+            "сту́лья"
+          ],
+          "hint": "excepción",
+          "explanationEs": "Excepción: стул → сту́лья.",
+          "es": "silla → sillas",
+          "tags": [
+            "3.3-g-plural"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.3-exam-02",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el plural",
+          "sentence": "каранда́ш → ___ (plural)",
+          "answers": [
+            "карандаши́"
+          ],
+          "hint": "ш + ?",
+          "explanationEs": "Después de ш se escribe и: карандаши́.",
+          "es": "lápiz → lápices",
+          "tags": [
+            "3.3-g-plural"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.3-exam-03",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el plural",
+          "sentence": "окно́ → ___ (plural)",
+          "answers": [
+            "о́кна"
+          ],
+          "hint": "-о → ?",
+          "explanationEs": "Neutro -о → -а (el acento se mueve): о́кна.",
+          "es": "ventana → ventanas",
+          "tags": [
+            "3.3-g-plural"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.3-exam-04",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el plural",
+          "sentence": "го́род → ___ (plural)",
+          "answers": [
+            "города́"
+          ],
+          "hint": "excepción",
+          "explanationEs": "Excepción: го́род → города́.",
+          "es": "ciudad → ciudades",
+          "tags": [
+            "3.3-g-plural"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.3-exam-05",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "В на́шем о́фисе рабо́тают молоды́е ___.",
+          "choices": [
+            "колле́ги",
+            "колле́гы",
+            "колле́га"
+          ],
+          "answer": 0,
+          "explanationEs": "Después de г se escribe и: колле́ги.",
+          "es": "En nuestra oficina trabajan colegas jóvenes.",
+          "tags": [
+            "3.3-g-plural"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.3-exam-06",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "В о́фисе всегда́ ___: все говоря́т по телефо́ну.",
+          "choices": [
+            "шу́мно",
+            "шу́мный",
+            "шу́мная"
+          ],
+          "answer": 0,
+          "explanationEs": "¿Как? → adverbio en -о: шу́мно.",
+          "es": "En la oficina siempre hay ruido: todos hablan por teléfono.",
+          "tags": [
+            "3.3-g-adverbs"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.3-exam-07",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Э́то колле́га, ___ сиди́т в интерне́те весь день.",
+          "choices": [
+            "кото́рая",
+            "кото́рый",
+            "кото́рое"
+          ],
+          "answer": 0,
+          "explanationEs": "колле́га (aquí una mujer) → кото́рая.",
+          "es": "Esta es la colega que está en internet todo el día.",
+          "tags": [
+            "3.3-g-kotoryj"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.3-exam-08",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Я люблю́ о́фис, ___ нахо́дится в це́нтре.",
+          "choices": [
+            "кото́рый",
+            "кото́рая",
+            "кото́рые"
+          ],
+          "answer": 0,
+          "explanationEs": "о́фис es masculino → кото́рый.",
+          "es": "Me encanta la oficina que está en el centro.",
+          "tags": [
+            "3.3-g-kotoryj"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.3-exam-09",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Где докуме́нты, ___ лежа́ли на столе́?",
+          "choices": [
+            "кото́рые",
+            "кото́рый",
+            "кото́рое"
+          ],
+          "answer": 0,
+          "explanationEs": "докуме́нты es plural → кото́рые.",
+          "es": "¿Dónde están los documentos que estaban en la mesa?",
+          "tags": [
+            "3.3-g-kotoryj",
+            "3.3-g-plural"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.3-exam-10",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma del verbo",
+          "sentence": "Мы ___ но́вый прое́кт. (обсужда́ть)",
+          "answers": [
+            "обсужда́ем"
+          ],
+          "hint": "обсужда́ть, мы",
+          "explanationEs": "мы обсужда́ем (conjugación -е).",
+          "es": "Discutimos el proyecto nuevo.",
+          "tags": [
+            "3.3-g-office-verbs"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.3-exam-11",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma del verbo",
+          "sentence": "Секрета́рь ___ на пи́сьма. (отвеча́ть)",
+          "answers": [
+            "отвеча́ет"
+          ],
+          "hint": "отвеча́ть, он",
+          "explanationEs": "он отвеча́ет.",
+          "es": "La secretaria contesta las cartas.",
+          "tags": [
+            "3.3-g-office-verbs"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.3-exam-12",
+          "type": "word_order",
+          "instructionEs": "Ordena las palabras",
+          "words": [
+            "Сотру́дники",
+            "ча́сто",
+            "говоря́т",
+            "по",
+            "телефо́ну"
+          ],
+          "answer": "Сотру́дники ча́сто говоря́т по телефо́ну",
+          "es": "Los empleados hablan seguido por teléfono.",
+          "tags": [
+            "3.3-g-office-verbs"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        }
+      ]
+    },
+    {
+      "id": "3.4",
+      "exercises": [
+        {
+          "id": "3.4-exam-01",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "У нас о́чень ___ сосе́ди.",
+          "choices": [
+            "весёлые",
+            "весёлый",
+            "весёлая"
+          ],
+          "answer": 0,
+          "explanationEs": "сосе́ди es plural → весёлые.",
+          "es": "Tenemos vecinos muy alegres.",
+          "tags": [
+            "3.4-g-adj-endings"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-02",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Э́то ___ ме́сто. (споко́йный)",
+          "answers": [
+            "споко́йное"
+          ],
+          "hint": "neutro",
+          "explanationEs": "ме́сто es neutro → споко́йное.",
+          "es": "Es un lugar tranquilo.",
+          "tags": [
+            "3.4-g-adj-endings"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-03",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Моя́ сосе́дка — ___ же́нщина. (интере́сный)",
+          "answers": [
+            "интере́сная"
+          ],
+          "hint": "femenino",
+          "explanationEs": "же́нщина es femenino → интере́сная.",
+          "es": "Mi vecina es una mujer interesante.",
+          "tags": [
+            "3.4-g-adj-endings"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-04",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Он говори́т о́чень ___.",
+          "choices": [
+            "гро́мко",
+            "гро́мкий",
+            "гро́мкая"
+          ],
+          "answer": 0,
+          "explanationEs": "Describe cómo habla (verbo) → adverbio: гро́мко.",
+          "es": "Habla muy fuerte.",
+          "tags": [
+            "3.4-g-adj-vs-adv"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-05",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Э́то о́чень ___ у́лица.",
+          "choices": [
+            "ти́хая",
+            "ти́хо",
+            "ти́хий"
+          ],
+          "answer": 0,
+          "explanationEs": "Describe un sustantivo (у́лица, f) → adjetivo: ти́хая.",
+          "es": "Es una calle muy tranquila.",
+          "tags": [
+            "3.4-g-adj-vs-adv"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-06",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мне ___ на́ши но́вые сосе́ди.",
+          "choices": [
+            "нра́вятся",
+            "нра́вится"
+          ],
+          "answer": 0,
+          "explanationEs": "сосе́ди es plural → нра́вятся.",
+          "es": "Me caen bien nuestros vecinos nuevos.",
+          "tags": [
+            "3.4-g-nravitsya"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-07",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Тебе́ ___ наш двор?",
+          "choices": [
+            "нра́вится",
+            "нра́вятся"
+          ],
+          "answer": 0,
+          "explanationEs": "двор es singular → нра́вится.",
+          "es": "¿Te gusta nuestro patio?",
+          "tags": [
+            "3.4-g-nravitsya"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-08",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Како́го цве́та ва́ша маши́на? — ___",
+          "choices": [
+            "Кра́сного цве́та.",
+            "Кра́сная цве́та.",
+            "Кра́сный цвет."
+          ],
+          "answer": 0,
+          "explanationEs": "Se responde con -ого цве́та: кра́сного цве́та.",
+          "es": "¿De qué color es su coche? —Roja (de color rojo).",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-09",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el color",
+          "sentence": "Како́го цве́та твой дом? — ___ цве́та. (бе́лый)",
+          "answers": [
+            "Бе́лого"
+          ],
+          "hint": "-ого",
+          "explanationEs": "бе́лый → бе́лого цве́та.",
+          "es": "¿De qué color es tu casa? —Blanca.",
+          "tags": [
+            "3.4-g-colors"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-10",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Он смо́трит на мир че́рез ___ очки́.",
+          "choices": [
+            "ро́зовые",
+            "чёрные",
+            "се́рые"
+          ],
+          "answer": 0,
+          "explanationEs": "смотре́ть на мир че́рез ро́зовые очки́ = verlo todo color de rosa.",
+          "es": "Ve el mundo color de rosa.",
+          "tags": [
+            "3.4-g-color-idioms"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-11",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Она́ ти́хая, её никто́ не замеча́ет: настоя́щая ___.",
+          "choices": [
+            "се́рая мышь",
+            "жёлтая пре́сса",
+            "чёрный день"
+          ],
+          "answer": 0,
+          "explanationEs": "се́рая мышь = persona que pasa desapercibida.",
+          "es": "Es callada, nadie la nota: un verdadero «ratón gris».",
+          "tags": [
+            "3.4-g-color-idioms"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-12",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мой сосе́д ___. Он из То́кио.",
+          "choices": [
+            "япо́нец",
+            "япо́нский",
+            "Япо́ния"
+          ],
+          "answer": 0,
+          "explanationEs": "La persona → sustantivo: япо́нец.",
+          "es": "Mi vecino es japonés. Es de Tokio.",
+          "tags": [
+            "3.4-g-nationality"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-13",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Я о́чень люблю́ ___ ку́хню.",
+          "choices": [
+            "италья́нскую",
+            "италья́нку",
+            "италья́нец"
+          ],
+          "answer": 0,
+          "explanationEs": "Una cosa → adjetivo: италья́нская ку́хня (aquí en acusativo: италья́нскую).",
+          "es": "Me encanta la cocina italiana.",
+          "tags": [
+            "3.4-g-nationality"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-14",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Когда́ у нас экза́мен? — ___ вто́рник.",
+          "choices": [
+            "Во",
+            "В",
+            "На"
+          ],
+          "answer": 0,
+          "explanationEs": "в + día de la semana; ante вт- se dice во: во вто́рник.",
+          "es": "¿Cuándo es nuestro examen? —El martes.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-15",
+          "type": "fill_typed",
+          "instructionEs": "Escribe el día",
+          "sentence": "В ___ мы отдыха́ем. (sábado)",
+          "answers": [
+            "суббо́ту"
+          ],
+          "hint": "суббо́та → ?",
+          "explanationEs": "в суббо́ту (-а → -у).",
+          "es": "El sábado descansamos.",
+          "tags": [
+            "3.4x-g-days"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-16",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мое́й ба́бушке се́мьдесят два ___.",
+          "choices": [
+            "го́да",
+            "го́д",
+            "лет"
+          ],
+          "answer": 0,
+          "explanationEs": "2, 3, 4 (y 22, 72…) → го́да.",
+          "es": "Mi abuela tiene setenta y dos años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-17",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мне два́дцать пять ___.",
+          "choices": [
+            "лет",
+            "го́да",
+            "год"
+          ],
+          "answer": 0,
+          "explanationEs": "5–20 (y 25…) → лет.",
+          "es": "Tengo veinticinco años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-18",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мое́й сестре́ два́дцать оди́н ___.",
+          "choices": [
+            "год",
+            "го́да",
+            "лет"
+          ],
+          "answer": 0,
+          "explanationEs": "1 (y 21, 31…) → год.",
+          "es": "Mi hermana tiene veintiún años.",
+          "tags": [
+            "3.4x-g-age"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-19",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "___ ты живёшь? — Хорошо́, спаси́бо!",
+          "choices": [
+            "Как",
+            "Како́й",
+            "Кака́я"
+          ],
+          "answer": 0,
+          "explanationEs": "Respuesta con adverbio (хорошо́) → pregunta Как?",
+          "es": "¿Cómo vives? (¿Cómo estás?) —¡Bien, gracias!",
+          "tags": [
+            "3.4x-g-kakoj-kak"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-20",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "___ у вас кварти́ра? — Больша́я и све́тлая.",
+          "choices": [
+            "Кака́я",
+            "Как",
+            "Како́й"
+          ],
+          "answer": 0,
+          "explanationEs": "кварти́ра es femenino y la respuesta es un adjetivo → Кака́я?",
+          "es": "¿Cómo es su departamento? —Grande y luminoso.",
+          "tags": [
+            "3.4x-g-kakoj-kak"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-21",
+          "type": "dialogue",
+          "instructionEs": "Completa el diálogo",
+          "lines": [
+            {
+              "speaker": "Ма́ша",
+              "ru": "Тебе́ нра́вится твоя́ но́вая кварти́ра?"
+            },
+            {
+              "speaker": "Оле́г",
+              "ru": "___"
+            }
+          ],
+          "choices": [
+            "Да, о́чень! Она́ ую́тная и све́тлая.",
+            "Да, о́чень! Он ую́тный и све́тлый.",
+            "Да, о́чень! Она́ ую́тно и светло́."
+          ],
+          "answer": 0,
+          "explanationEs": "кварти́ра → она́, ую́тная, све́тлая.",
+          "es": "—¿Te gusta tu departamento nuevo? —¡Sí, mucho! Es acogedor y luminoso.",
+          "tags": [
+            "3.4-g-nravitsya",
+            "3.4-g-adj-endings"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        },
+        {
+          "id": "3.4-exam-22",
+          "type": "translate",
+          "direction": "es-ru",
+          "prompt": "Mi vecino es francés. Tiene treinta años.",
+          "answers": [
+            "Мой сосе́д францу́з. Ему́ три́дцать лет.",
+            "Мой сосе́д — францу́з. Ему́ три́дцать лет."
+          ],
+          "es": "Mi vecino es francés. Tiene treinta años.",
+          "tags": [
+            "3.4x-g-age",
+            "3.4-g-nationality"
+          ],
+          "origin": "original (repaso para el examen del capítulo 3)"
+        }
+      ],
+      "readings": [
+        {
+          "id": "3.4-r-exam",
+          "title": "Мой дом и мои́ сосе́ди",
+          "textRu": "Меня́ зову́т А́нна. Мне два́дцать де́вять лет. Я живу́ в Москве́, в но́вом до́ме на ти́хой у́лице. Моя́ кварти́ра небольша́я, но о́чень ую́тная. В гости́ной стои́т дива́н, на стене́ виси́т карти́на, а на полу́ лежи́т ковёр. Моя́ люби́мая ко́мната — ку́хня: там я пью ко́фе и чита́ю у́тром. Я рабо́таю в о́фисе, кото́рый нахо́дится в це́нтре. Там всегда́ шу́мно, но интере́сно. Мои́ сосе́ди о́чень ра́зные. Наверху́ живу́т музыка́нты: они́ игра́ют гро́мко, иногда́ но́чью. Внизу́ живёт Бори́с Ива́нович, он пенсионе́р. Ка́ждую суббо́ту он ремонти́рует во дворе́ свою́ ста́рую маши́ну. Она́ зелёного цве́та. Мне нра́вятся мои́ сосе́ди, хотя́ иногда́ они́ шу́мные!",
+          "textEs": "Me llamo Anna. Tengo veintinueve años. Vivo en Moscú, en un edificio nuevo en una calle tranquila. Mi departamento es pequeño, pero muy acogedor. En la sala hay un sofá, en la pared cuelga un cuadro y en el piso hay una alfombra. Mi cuarto favorito es la cocina: ahí tomo café y leo en la mañana. Trabajo en una oficina que está en el centro. Ahí siempre hay ruido, pero es interesante. Mis vecinos son muy distintos. Arriba viven unos músicos: tocan fuerte, a veces de noche. Abajo vive Borís Ivánovich, es jubilado. Cada sábado arregla su coche viejo en el patio. Es de color verde. Me caen bien mis vecinos, ¡aunque a veces son ruidosos!",
+          "questions": [
+            {
+              "q": "Ско́лько лет А́нне?",
+              "qEs": "¿Cuántos años tiene Anna?",
+              "choices": [
+                "Два́дцать де́вять",
+                "Два́дцать оди́н",
+                "Три́дцать два"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Что лежи́т на полу́ в гости́ной?",
+              "qEs": "¿Qué hay en el piso de la sala?",
+              "choices": [
+                "Ковёр",
+                "Карти́на",
+                "Дива́н"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Кака́я её люби́мая ко́мната?",
+              "qEs": "¿Cuál es su cuarto favorito?",
+              "choices": [
+                "Ку́хня",
+                "Спа́льня",
+                "Гости́ная"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Как в о́фисе?",
+              "qEs": "¿Cómo es la oficina?",
+              "choices": [
+                "Шу́мно, но интере́сно",
+                "Ти́хо и ску́чно",
+                "Споко́йно"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Когда́ Бори́с Ива́нович ремонти́рует маши́ну?",
+              "qEs": "¿Cuándo arregla su coche Borís Ivánovich?",
+              "choices": [
+                "В суббо́ту",
+                "В понеде́льник",
+                "Ка́ждый день"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Како́го цве́та его́ маши́на?",
+              "qEs": "¿De qué color es su coche?",
+              "choices": [
+                "Зелёного цве́та",
+                "Кра́сного цве́та",
+                "Се́рого цве́та"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

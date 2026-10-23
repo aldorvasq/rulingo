@@ -10,6 +10,9 @@ import { LessonDetail } from './screens/LessonDetail'
 import { Profile } from './screens/Profile'
 import { Settings } from './screens/Settings'
 import { Onboarding } from './screens/Onboarding'
+import { Exam } from './screens/Exam'
+import { MockExam } from './screens/MockExam'
+import { upcomingExam } from './content/exams'
 
 const NAV = [
   { path: '/', icon: 'home', label: 'Inicio' },
@@ -17,12 +20,15 @@ const NAV = [
   { path: '/profile', icon: 'profile', label: 'Progreso' },
   { path: '/settings', icon: 'settings', label: 'Ajustes' },
 ]
+/** While an exam is coming up it gets its own tab (after Ruta). */
+const EXAM_TAB = { path: '/exam', icon: 'exam', label: 'Examen' }
 
 function BottomNav({ path }: { path: string }) {
+  const nav = upcomingExam() ? [...NAV.slice(0, 2), EXAM_TAB, ...NAV.slice(2)] : NAV
   return (
     <nav className="pb-safe fixed inset-x-0 bottom-0 z-30 border-t border-line bg-bg/95 backdrop-blur">
       <div className="mx-auto flex max-w-xl">
-        {NAV.map((n) => {
+        {nav.map((n) => {
           const active = n.path === '/' ? path === '/' : path.startsWith(n.path) || (n.path === '/path' && path.startsWith('/lesson'))
           return (
             <button key={n.path} onClick={() => navigate(n.path)}
@@ -77,12 +83,14 @@ export default function App() {
 
   // Sessions filter listening questions by the audio manifest, so build them only once it's loaded.
   if (path === '/play') return audioReady ? <Player key={raw} params={params} /> : <div className="p-6 text-center text-muted">Cargando…</div>
+  if (path === '/exam/mock') return audioReady ? <MockExam key={raw} params={params} /> : <div className="p-6 text-center text-muted">Cargando…</div>
 
   let screen
   if (path === '/path') screen = <Path />
   else if (path.startsWith('/lesson/')) screen = <LessonDetail id={decodeURIComponent(path.slice(8))} />
   else if (path === '/profile') screen = <Profile />
   else if (path === '/settings') screen = <Settings />
+  else if (path === '/exam') screen = <Exam />
   else screen = <Home />
 
   return (

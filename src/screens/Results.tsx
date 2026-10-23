@@ -11,7 +11,7 @@ export function Results({ summary, mode, bestCombo }: { summary: SessionSummary;
   const title = summary.perfect ? 'Repaso perfecto' : accuracy >= 80 ? 'Repaso terminado' : 'Buen trabajo, sigue practicando'
   const again = 'lessonId' in mode
     ? `/play?mode=${mode.mode}&id=${mode.lessonId}${mode.mode === 'topic' ? `&topic=${encodeURIComponent(mode.topic)}` : ''}`
-    : mode.mode === 'skill' ? `/play?mode=skill&skill=${mode.skill}` : `/play?mode=${mode.mode}`
+    : mode.mode === 'skill' ? `/play?mode=skill&skill=${mode.skill}` : mode.mode === 'exam' ? `/play?mode=exam&chapter=${mode.chapter}` : `/play?mode=${mode.mode}`
 
   return (
     <div className="mx-auto flex min-h-full max-w-xl flex-col px-6 py-10">
@@ -54,7 +54,7 @@ export function Results({ summary, mode, bestCombo }: { summary: SessionSummary;
       })}
 
       <div className="mt-auto space-y-2.5 pt-6">
-        <button className="btn btn-primary w-full" onClick={() => navigate('/', true)}>Volver al inicio</button>
+        <button className="btn btn-primary w-full" onClick={() => navigate(mode.mode === 'exam' ? '/exam' : '/', true)}>{mode.mode === 'exam' ? 'Volver al examen' : 'Volver al inicio'}</button>
         <button className="btn btn-ghost w-full" onClick={() => navigate(again, true)}>Repasar otra vez</button>
         {!summary.perfect && (
           <button className="btn btn-ghost w-full" onClick={() => navigate('/play?mode=weak', true)}>Practicar mis errores</button>

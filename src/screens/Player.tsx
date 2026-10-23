@@ -30,6 +30,7 @@ export function parseMode(params: URLSearchParams): SessionMode {
   if (m === 'weak') return { mode: 'weak' }
   if (m === 'listening') return { mode: 'listening' }
   if (m === 'cursive') return { mode: 'cursive' }
+  if (m === 'exam' && Number(params.get('chapter'))) return { mode: 'exam', chapter: Number(params.get('chapter')) }
   if (m === 'skill' && params.get('skill') && SKILL_TOPICS[params.get('skill') as Skill]) return { mode: 'skill', skill: params.get('skill') as Skill }
   return { mode: 'daily' }
 }
@@ -44,10 +45,11 @@ export function sessionTitle(mode: SessionMode): string {
     case 'listening': return 'Comprensión auditiva'
     case 'cursive': return 'Leer cursiva'
     case 'skill': return `Reforzar · ${SKILL_TOPICS[mode.skill].title}`
+    case 'exam': return `Repaso para el examen · capítulo ${mode.chapter}`
   }
 }
 
-function Exercise(props: { ex: RunExercise; locked: boolean; ready: (f: (() => AnswerResult) | null) => void; autoSubmit: (r: AnswerResult) => void }) {
+export function Exercise(props: { ex: RunExercise; locked: boolean; ready: (f: (() => AnswerResult) | null) => void; autoSubmit: (r: AnswerResult) => void }) {
   const { ex, ...rest } = props
   switch (ex.kind) {
     case 'choice': return <ChoiceEx ex={ex} {...rest} />
@@ -145,7 +147,7 @@ export function Player({ params }: { params: URLSearchParams }) {
       progress: st.progress,
       focusLessons: st.settings.focusLessons,
       coveredUpTo: st.settings.coveredUpTo,
-      length: st.settings.sessionLength,
+      length: mode.mode === 'exam' ? Math.max(20, st.settings.sessionLength) : st.settings.sessionLength,
       today: dayKey(),
       goal: st.settings.goal,
     })
