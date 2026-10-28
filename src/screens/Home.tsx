@@ -110,6 +110,8 @@ export function Home() {
         <Row icon="repeat" title={`Lecciones vistas (${covered[0]?.id ?? ''}–${settings.coveredUpTo})`}
           desc={dueCount ? `${dueCount} elementos para repasar hoy` : 'Mezcla de todo lo visto, según lo que más necesitas'}
           onClick={() => navigate('/play?mode=review')} />
+        <Row icon="exam" title="Repaso por capítulo y simulacros" desc="Simulacro de examen de cada capítulo y mini simulacro de cada lección"
+          onClick={() => navigate('/exams')} />
         <Row icon="listen" title="Escuchar historias" desc="Diálogos y relatos grabados, con preguntas" onClick={() => navigate('/play?mode=listening')} />
         <Row icon="pen" title="Leer cursiva" desc="Palabras y notas escritas a mano" onClick={() => navigate('/play?mode=cursive')} />
         <Row icon="target" title="Mis errores" desc={weakCount ? `${weakCount} elementos con errores recientes` : 'Aún no hay errores registrados'}

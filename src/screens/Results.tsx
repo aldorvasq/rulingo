@@ -54,7 +54,7 @@ export function Results({ summary, mode, bestCombo }: { summary: SessionSummary;
       })}
 
       <div className="mt-auto space-y-2.5 pt-6">
-        <button className="btn btn-primary w-full" onClick={() => navigate(mode.mode === 'exam' ? '/exam' : '/', true)}>{mode.mode === 'exam' ? 'Volver al examen' : 'Volver al inicio'}</button>
+        <button className="btn btn-primary w-full" onClick={() => navigate(mode.mode === 'exam' ? `/exam?chapter=${mode.chapter}` : '/', true)}>{mode.mode === 'exam' ? 'Volver al repaso del capítulo' : 'Volver al inicio'}</button>
         <button className="btn btn-ghost w-full" onClick={() => navigate(again, true)}>Repasar otra vez</button>
         {!summary.perfect && (
           <button className="btn btn-ghost w-full" onClick={() => navigate('/play?mode=weak', true)}>Practicar mis errores</button>

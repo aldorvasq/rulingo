@@ -34,12 +34,16 @@ const fmt = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '
 
 export function MockExam({ params }: { params: URLSearchParams }) {
   const chapter = Number(params.get('chapter')) || 3
+  const lesson = params.get('lesson') ?? undefined
+  /** Where results are kept and the way back. */
+  const key = lesson ?? String(chapter)
+  const back = `/exam?chapter=${chapter}`
   const recordAnswer = useStore((s) => s.recordAnswer)
   const saveMock = useStore((s) => s.saveMock)
   const sections = useMemo<MockSection[]>(() => {
     const st = useStore.getState()
-    return buildMockExam(chapter, { progress: st.progress, focusLessons: st.settings.focusLessons, coveredUpTo: st.settings.coveredUpTo, length: 40, today: dayKey() })
-  }, [chapter])
+    return buildMockExam({ chapter, lesson }, { progress: st.progress, focusLessons: st.settings.focusLessons, coveredUpTo: st.settings.coveredUpTo, length: 40, today: dayKey() })
+  }, [chapter, lesson])
   const flat = useMemo(() => sections.flatMap((s) => s.exercises.map((ex) => ({ ex, section: s.id }))), [sections])
 
   const [started, setStarted] = useState(false)
@@ -75,11 +79,11 @@ export function MockExam({ params }: { params: URLSearchParams }) {
         const [c, t] = bySection[a.section] ?? [0, 0]
         bySection[a.section] = [c + (a.r.correct ? 1 : 0), t + 1]
       }
-      saveMock(chapter, { day: dayKey(), correct: all.filter((a) => a.r.correct).length, total: all.length, sections: bySection, seconds: Math.round((Date.now() - t0.current) / 1000) })
+      saveMock(key, { day: dayKey(), correct: all.filter((a) => a.r.correct).length, total: all.length, sections: bySection, seconds: Math.round((Date.now() - t0.current) / 1000) })
       setDone(true)
     } else setPos(pos + 1)
     window.scrollTo(0, 0)
-  }, [cur, answers, pos, flat.length, recordAnswer, saveMock, chapter])
+  }, [cur, answers, pos, flat.length, recordAnswer, saveMock, key])
 
   // Match and sort finish themselves: give the last tap a moment before moving on.
   const auto = useCallback((r: AnswerResult) => setTimeout(() => commit(r), 600), [commit])
@@ -89,9 +93,9 @@ export function MockExam({ params }: { params: URLSearchParams }) {
   if (!started) {
     return (
       <div className="mx-auto flex min-h-full max-w-xl flex-col px-6 py-8">
-        <button className="mb-4 self-start text-muted" aria-label="Volver" onClick={() => navigate('/exam')}><Icon name="back" size={24} /></button>
-        <div className="label">Capítulo {chapter}</div>
-        <h1 className="mt-1 text-3xl font-bold">Simulacro de examen</h1>
+        <button className="mb-4 self-start text-muted" aria-label="Volver" onClick={() => navigate(back)}><Icon name="back" size={24} /></button>
+        <div className="label">{lesson ? `Lección ${lesson}` : `Capítulo ${chapter}`}</div>
+        <h1 className="mt-1 text-3xl font-bold">{lesson ? 'Mini simulacro' : 'Simulacro de examen'}</h1>
         <p className="mt-3 text-[15px] text-muted">{flat.length} preguntas. Contesta como en el examen: aquí no hay pistas ni verás si acertaste hasta el final. Si no sabes una, elige «No sé».</p>
         <div className="card mt-5 divide-y divide-line">
           {sections.map((s, i) => (
@@ -102,13 +106,13 @@ export function MockExam({ params }: { params: URLSearchParams }) {
             </div>
           ))}
         </div>
-        <p className="mt-3 text-sm text-muted">Toma unos 25–30 minutos. Ten audífonos a la mano para la comprensión auditiva.</p>
+        <p className="mt-3 text-sm text-muted">{lesson ? 'Toma unos 15 minutos.' : 'Toma unos 25–30 minutos.'} Ten audífonos a la mano para la comprensión auditiva.</p>
         <button className="btn btn-primary mt-auto w-full" onClick={() => { t0.current = Date.now(); setStarted(true) }}>Empezar</button>
       </div>
     )
   }
 
-  if (done) return <MockResults chapter={chapter} sections={sections} answers={answers} seconds={now} />
+  if (done) return <MockResults title={lesson ? `lección ${lesson}` : `capítulo ${chapter}`} back={back} sections={sections} answers={answers} seconds={now} />
 
   const sec = sections.find((s) => s.id === cur.section)!
   const selfCompleting = cur.ex.kind === 'match' || cur.ex.kind === 'sort'
@@ -145,7 +149,7 @@ export function MockExam({ params }: { params: URLSearchParams }) {
             <p className="mb-1 text-lg font-bold">¿Dejar el simulacro?</p>
             <p className="mb-4 text-sm text-muted">Las respuestas que ya diste cuentan para tu progreso, pero el simulacro no se calificará.</p>
             <button className="btn btn-primary mb-2 w-full" onClick={() => setConfirmQuit(false)}>Seguir</button>
-            <button className="btn btn-ghost w-full !text-bad" onClick={() => navigate('/exam')}>Salir</button>
+            <button className="btn btn-ghost w-full !text-bad" onClick={() => navigate(back)}>Salir</button>
           </div>
         </div>
       )}
@@ -153,7 +157,7 @@ export function MockExam({ params }: { params: URLSearchParams }) {
   )
 }
 
-function MockResults({ chapter, sections, answers, seconds }: { chapter: number; sections: MockSection[]; answers: Answered[]; seconds: number }) {
+function MockResults({ title, back, sections, answers, seconds }: { title: string; back: string; sections: MockSection[]; answers: Answered[]; seconds: number }) {
   const correct = answers.filter((a) => a.r.correct).length
   const g = grade10(correct, answers.length)
   const verdict = g >= 9 ? '¡Listo para el examen!' : g >= 8 ? 'Muy bien preparado' : g >= 6 ? 'Vas bien, pero repasa los temas de abajo' : 'Necesitas repasar más antes del examen'
@@ -165,7 +169,7 @@ function MockResults({ chapter, sections, answers, seconds }: { chapter: number;
 
   return (
     <div className="mx-auto max-w-xl px-5 pb-16 pt-8">
-      <div className="label">Simulacro · capítulo {chapter}</div>
+      <div className="label">Simulacro · {title}</div>
       <h1 className="mt-1 text-3xl font-bold">{verdict}</h1>
       <div className="mt-5 grid grid-cols-3 gap-2.5">
         <Stat label="Nota" value={`${g}`} sub="/ 10" />
@@ -225,7 +229,7 @@ function MockResults({ chapter, sections, answers, seconds }: { chapter: number;
       )}
 
       <div className="mt-8 space-y-2.5">
-        <button className="btn btn-primary w-full" onClick={() => navigate('/exam', true)}>Volver al examen</button>
+        <button className="btn btn-primary w-full" onClick={() => navigate(back, true)}>Volver al repaso</button>
         {wrong.length > 0 && <button className="btn btn-ghost w-full" onClick={() => navigate('/play?mode=weak', true)}>Practicar mis errores</button>}
         <button className="btn btn-ghost w-full" onClick={() => location.reload()}>Hacer otro simulacro</button>
       </div>

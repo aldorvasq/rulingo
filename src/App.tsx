@@ -10,7 +10,7 @@ import { LessonDetail } from './screens/LessonDetail'
 import { Profile } from './screens/Profile'
 import { Settings } from './screens/Settings'
 import { Onboarding } from './screens/Onboarding'
-import { Exam } from './screens/Exam'
+import { ChapterReviews, Exam } from './screens/Exam'
 import { MockExam } from './screens/MockExam'
 import { daysUntil, upcomingExam } from './content/exams'
 
@@ -108,7 +108,8 @@ export default function App() {
   else if (path.startsWith('/lesson/')) screen = <LessonDetail id={decodeURIComponent(path.slice(8))} />
   else if (path === '/profile') screen = <Profile />
   else if (path === '/settings') screen = <Settings />
-  else if (path === '/exam') screen = <Exam />
+  else if (path === '/exam') screen = <Exam key={raw} params={params} />
+  else if (path === '/exams') screen = <ChapterReviews />
   else screen = <Home />
 
   return (

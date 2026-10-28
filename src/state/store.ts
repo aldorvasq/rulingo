@@ -62,7 +62,7 @@ export interface PersistedState {
   lastBackup: string | null
   /** Hints spent today (the count resets each day). */
   hints: { day: string; used: number }
-  /** Mock exam results per chapter, oldest first. */
+  /** Mock exam results per chapter ('3') or lesson ('3.2'), oldest first. */
   mocks: Record<string, MockRecord[]>
 }
 
@@ -97,7 +97,8 @@ interface Actions {
   markBackup: () => void
   /** Spend one of today's hints; false when none are left. */
   spendHint: () => boolean
-  saveMock: (chapter: number, r: MockRecord) => void
+  /** Keyed by chapter number ('3') or lesson id ('3.2'). */
+  saveMock: (key: string, r: MockRecord) => void
   resetAll: () => void
 }
 
@@ -235,7 +236,7 @@ export const useStore = create<PersistedState & Actions>()(
         return true
       },
 
-      saveMock: (chapter, r) => set((st) => ({ mocks: { ...st.mocks, [chapter]: [...(st.mocks[chapter] ?? []), r].slice(-20) } })),
+      saveMock: (key, r) => set((st) => ({ mocks: { ...st.mocks, [key]: [...(st.mocks[key] ?? []), r].slice(-20) } })),
 
       resetAll: () => set(initial()),
     }),

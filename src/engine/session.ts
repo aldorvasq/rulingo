@@ -288,9 +288,13 @@ export interface MockSection { id: string; title: string; exercises: RunExercise
  * of the chapter gets a question while there's room), verbs, building sentences, reading and listening.
  * Not adaptive: questions are drawn evenly, so the score says how ready the learner is for the whole chapter.
  */
-export function buildMockExam(chapter: number, ctx: SessionContext): MockSection[] {
-  const ch = chapters.find((c) => c.chapter === chapter)
-  if (!ch) return []
+export function buildMockExam(scope: { chapter: number; lesson?: string }, ctx: SessionContext): MockSection[] {
+  const chapterData = chapters.find((c) => c.chapter === scope.chapter)
+  if (!chapterData) return []
+  // A single lesson gets a shorter mock (about 24 questions) built the same way.
+  const ch = scope.lesson ? { ...chapterData, lessons: chapterData.lessons.filter((l) => l.id === scope.lesson) } : chapterData
+  if (!ch.lessons.length) return []
+  const size = scope.lesson ? { vocab: 6, grammar: 8, verbs: 2, syntax: 3, reading: 3, listening: 2 } : { vocab: 8, grammar: 14, verbs: 4, syntax: 4, reading: 4, listening: 3 }
   const ids = ch.lessons.map((l) => l.id)
   const all = ids.flatMap(candidatesFor).filter((c) => !c.sneak && c.skill !== 'cursive' && (c.skill !== 'listening' || hasListening(c.items[1])))
   const p = new Picker(ctx, 60)
@@ -299,7 +303,7 @@ export function buildMockExam(chapter: number, ctx: SessionContext): MockSection
   const of = (skills: Skill[]) => all.filter((c) => skills.includes(c.skill))
 
   // Grammar: one question per grammar point (shuffled, so a long chapter rotates which ones come up).
-  const nGrammar = 14
+  const nGrammar = size.grammar
   const points = shuffle(ch.lessons.flatMap((l) => (l.grammar ?? []).map((g) => g.id)))
   const gram: Candidate[] = []
   for (const g of points) {
@@ -312,18 +316,18 @@ export function buildMockExam(chapter: number, ctx: SessionContext): MockSection
   const readingIds = new Set(ch.lessons.flatMap((l) => (l.readings ?? []).map((r) => r.id)))
   const onText = of(['reading']).filter((c) => readingIds.has(c.items[1]))
   const single = (c: Candidate) => c.kind !== 'match' && c.kind !== 'sort'
-  const vocab = [...p.pick(of(['vocab']).filter((c) => c.kind === 'match'), 1, even), ...spreadOut(p, of(['antonym']).filter(single), 2, even)]
-  vocab.push(...spreadOut(p, of(['vocab', 'visual']).filter(single), 8 - vocab.length, even))
-  const reading = [...spreadOut(p, onText, 3, even)]
-  reading.push(...spreadOut(p, of(['reading']).filter((c) => !onText.includes(c)), 4 - reading.length, even))
+  const vocab = [...p.pick(of(['vocab']).filter((c) => c.kind === 'match'), 1, even), ...spreadOut(p, of(['antonym']).filter(single), scope.lesson ? 1 : 2, even)]
+  vocab.push(...spreadOut(p, of(['vocab', 'visual']).filter(single), size.vocab - vocab.length, even))
+  const reading = [...spreadOut(p, onText, size.reading - 1, even)]
+  reading.push(...spreadOut(p, of(['reading']).filter((c) => !onText.includes(c)), size.reading - reading.length, even))
 
   const plan: [string, string, Candidate[]][] = [
     ['vocab', 'Vocabulario', vocab],
     ['grammar', 'Gramática', gram],
-    ['verbs', 'Verbos', spreadOut(p, of(['conjugation']), 4, even)],
-    ['syntax', 'Frases: orden y traducción', spreadOut(p, of(['syntax', 'writing']).filter((c) => c.kind !== 'match' && c.kind !== 'sort'), 4, even)],
+    ['verbs', 'Verbos', spreadOut(p, of(['conjugation']), size.verbs, even)],
+    ['syntax', 'Frases: orden y traducción', spreadOut(p, of(['syntax', 'writing']).filter((c) => c.kind !== 'match' && c.kind !== 'sort'), size.syntax, even)],
     ['reading', 'Lectura', reading],
-    ['listening', 'Comprensión auditiva', spreadOut(p, of(['listening']), 3, even)],
+    ['listening', 'Comprensión auditiva', spreadOut(p, of(['listening']), size.listening, even)],
   ]
   remember(plan.flatMap(([, , cs]) => cs.map((c) => c.id)))
   return plan.filter(([, , cs]) => cs.length).map(([id, title, cs]) => {

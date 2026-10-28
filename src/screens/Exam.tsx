@@ -1,53 +1,59 @@
 import { useMemo } from 'react'
 import { colorFor } from '../content'
-import { EXAMS, daysUntil, examChapter, examDateEs, examTopics, upcomingExam } from '../content/exams'
+import { chapters } from '../content'
+import { EXAMS, chapterTopics, daysUntil, examDateEs, upcomingExam, upcomingExamFor } from '../content/exams'
 import { useStore } from '../state/store'
 import { lessonMastery } from '../state/mastery'
 import { navigate } from '../lib/router'
-import { Icon, ProgressBar, Section, TopicTitle } from '../components/ui'
+import { Header, Icon, ProgressBar, Section, TopicTitle } from '../components/ui'
 import { topicMastery } from '../components/TopicList'
 import { StreakBadge } from './Home'
 
-// Exam prep for one chapter: what's in it and how ready the learner is (honest: unseen counts as 0),
-// an intensive mixed review, practice per grammar point and a mock exam.
+// Review for one chapter, before an exam or any time after: what's in it and how ready the learner is
+// (honest: unseen counts as 0), an intensive mixed review, practice per grammar point, a mock exam for the
+// whole chapter and a mini mock per lesson. While a class exam on the chapter is coming up it has a countdown.
 
 export const pct = (x: number) => `${Math.round(x * 100)}%`
 export const grade10 = (correct: number, total: number) => (total ? Math.round((correct / total) * 100) / 10 : 0)
 
-export function Exam() {
+export function Exam({ params }: { params: URLSearchParams }) {
   const progress = useStore((s) => s.progress)
   const mocks = useStore((s) => s.mocks)
-  const exam = upcomingExam() ?? EXAMS[EXAMS.length - 1]
-  const ch = exam && examChapter(exam)
-  const topics = useMemo(() => (exam ? examTopics(exam) : []), [exam])
-  if (!exam || !ch) return <div className="p-6 text-center text-muted">No hay ningún examen programado.</div>
+  const chapterNo = Number(params.get('chapter')) || (upcomingExam() ?? EXAMS[EXAMS.length - 1])?.chapter
+  const ch = chapters.find((c) => c.chapter === chapterNo)
+  const exam = ch ? upcomingExamFor(ch.chapter) : null
+  const topics = useMemo(() => (ch ? chapterTopics(ch.chapter) : []), [ch])
+  if (!ch) return <Header title="Capítulo no encontrado" back={() => navigate('/exams')} />
 
   const color = colorFor(ch.chapter)
-  const days = daysUntil(exam)
+  const days = exam ? daysUntil(exam) : null
   const ready = topics.map((g) => ({ g, m: topicMastery(g.lessonId, g.id, progress) }))
   const overall = ready.length ? ready.reduce((a, r) => a + r.m, 0) / ready.length : 0
   // Only once there's something to compare: with nothing practised every topic is equally at 0.
   const weakest = ready.some((r) => r.m > 0) ? [...ready].sort((a, b) => a.m - b.m).slice(0, 3).filter((r) => r.m < 0.75) : []
   const history = mocks[ch.chapter] ?? []
+  const lessonGrade = (id: string) => { const r = mocks[id]?.at(-1); return r ? grade10(r.correct, r.total) : null }
   const last = history.at(-1)
   const best = history.reduce((b, r) => Math.max(b, r.total ? r.correct / r.total : 0), 0)
 
   return (
     <div className="mx-auto max-w-xl px-4 pb-28">
-      <div className="pt-safe flex items-center justify-between py-3">
-        <h1 className="text-lg font-bold">Examen</h1>
-        <StreakBadge />
-      </div>
+      {exam ? (
+        <div className="pt-safe flex items-center justify-between py-3">
+          <h1 className="text-lg font-bold">Examen</h1>
+          <StreakBadge />
+        </div>
+      ) : <div className="-mx-4"><Header title={`Repaso del capítulo ${ch.chapter}`} back={() => navigate('/exams')} /></div>}
 
-      {/* The exam */}
-      <section className="rise overflow-hidden rounded-xl" style={{ background: color.bg, color: color.fg }}>
+      {/* The chapter (and the exam on it, while one is coming up) */}
+      <section className={`rise overflow-hidden rounded-xl ${exam ? '' : 'mt-4'}`} style={{ background: color.bg, color: color.fg }}>
         <div className="p-5">
           <div className="text-xs font-bold uppercase tracking-[0.12em] opacity-80">
-            {days > 1 ? `Faltan ${days} días` : days === 1 ? 'Es mañana' : days === 0 ? '¡Es hoy!' : 'Ya pasó'}
+            {days === null ? `Capítulo ${ch.chapter}` : days > 1 ? `Faltan ${days} días` : days === 1 ? 'Es mañana' : '¡Es hoy!'}
           </div>
-          <div className="mt-1 text-2xl font-bold leading-tight">{exam.title}</div>
+          <div className="mt-1 text-2xl font-bold leading-tight">{exam ? exam.title : 'Repaso y simulacro'}</div>
           <div className="ru text-lg opacity-95">«{ch.title}»</div>
-          <div className="mt-1 text-sm opacity-85">{examDateEs(exam)} · lecciones {ch.lessons[0]?.id}–{ch.lessons.at(-1)?.id}</div>
+          <div className="mt-1 text-sm opacity-85">{exam ? `${examDateEs(exam)} · l` : 'L'}ecciones {ch.lessons[0]?.id}–{ch.lessons.at(-1)?.id}</div>
           <div className="mt-4 flex items-center gap-3 text-sm">
             <span className="opacity-85">Preparación</span>
             <div className="h-2 flex-1 overflow-hidden rounded-sm bg-white/25"><div className="h-full bg-white" style={{ width: pct(overall) }} /></div>
@@ -93,7 +99,7 @@ export function Exam() {
       </section>
 
       {/* Syllabus with readiness per grammar point */}
-      <Section id="exam-topics" title="Qué entra en el examen" hint="Toca un tema para practicarlo solo" accent={color.bg}>
+      <Section id="exam-topics" title={exam ? 'Qué entra en el examen' : 'Temas del capítulo'} hint="Toca un tema para practicarlo; cada lección tiene su mini simulacro" accent={color.bg}>
         <div className="space-y-3">
           {ch.lessons.map((l) => {
             const rows = ready.filter((r) => r.g.lessonId === l.id)
@@ -119,7 +125,10 @@ export function Exam() {
                       <Icon name="play" size={16} className="shrink-0 text-brand" />
                     </button>
                   ))}
-                  <div className="flex gap-2 px-4 py-2.5">
+                  <div className="flex flex-wrap gap-2 px-4 py-2.5">
+                    <button className="chip !border-brand/40 font-bold text-brand" onClick={() => navigate(`/exam/mock?chapter=${ch.chapter}&lesson=${l.id}`)}>
+                      <Icon name="exam" size={15} /> Mini simulacro{lessonGrade(l.id) !== null && <span className="font-normal text-muted"> · {lessonGrade(l.id)}/10</span>}
+                    </button>
                     <button className="chip" onClick={() => navigate(`/play?mode=lesson&id=${l.id}`)}>Lección completa</button>
                     <button className="chip" onClick={() => navigate(`/play?mode=topic&id=${l.id}&topic=skill%3Avocab`)}>Vocabulario</button>
                     <button className="chip" onClick={() => navigate(`/play?mode=topic&id=${l.id}&topic=skill%3Alistening`)}>Escucha</button>
@@ -132,6 +141,46 @@ export function Exam() {
       </Section>
 
       <p className="mt-6 text-center text-xs text-muted">Consejo: haz un simulacro, repasa los temas en rojo y vuelve a intentarlo otro día.</p>
+    </div>
+  )
+}
+
+/** Every chapter covered so far: its review page with the mock exams (under «Repaso general»). */
+export function ChapterReviews() {
+  const progress = useStore((s) => s.progress)
+  const mocks = useStore((s) => s.mocks)
+  const coveredUpTo = useStore((s) => s.settings.coveredUpTo)
+  const upTo = Number(coveredUpTo.split('.')[0])
+  const list = chapters.filter((c) => c.chapter <= upTo).reverse()
+  return (
+    <div className="mx-auto max-w-xl pb-28">
+      <Header title="Repaso por capítulo" back={() => navigate('/')} />
+      <div className="px-4 pt-4">
+        <p className="mb-4 text-[15px] text-muted">Cada capítulo tiene su simulacro de examen, un repaso intensivo y un mini simulacro por lección, para volver a ellos cuando quieras.</p>
+        <div className="space-y-3">
+          {list.map((c) => {
+            const color = colorFor(c.chapter)
+            const topics = chapterTopics(c.chapter)
+            const ready = topics.length ? topics.reduce((a, g) => a + topicMastery(g.lessonId, g.id, progress), 0) / topics.length : 0
+            const last = mocks[c.chapter]?.at(-1)
+            return (
+              <button key={c.chapter} onClick={() => navigate(`/exam?chapter=${c.chapter}`)} className="card flex w-full overflow-hidden text-left hover:bg-soft">
+                <div className="w-1.5 shrink-0" style={{ background: color.bg }} />
+                <div className="min-w-0 flex-1 px-4 py-3">
+                  <div className="text-xs font-bold uppercase tracking-[0.12em] text-muted">Capítulo {c.chapter} · lecciones {c.lessons[0]?.id}–{c.lessons.at(-1)?.id}</div>
+                  <div className="ru text-lg font-bold leading-tight">{c.title}</div>
+                  <div className="mt-1.5 flex items-center gap-2 text-xs text-muted">
+                    <ProgressBar value={ready} color="var(--gold)" className="!h-1.5 max-w-24" />
+                    <span className="tabular-nums">Preparación {pct(ready)}</span>
+                    {last && <span>· Último simulacro: <b className="text-ink">{grade10(last.correct, last.total)}</b>/10</span>}
+                  </div>
+                </div>
+                <div className="flex items-center pr-3"><Icon name="chevron" size={18} className="text-muted" /></div>
+              </button>
+            )
+          })}
+        </div>
+      </div>
     </div>
   )
 }

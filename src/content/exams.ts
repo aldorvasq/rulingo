@@ -23,11 +23,14 @@ export const daysUntil = (e: Exam, today = dayKey()) => daysBetween(today, e.dat
 
 export const examChapter = (e: Exam): LoadedChapter | undefined => chapters.find((c) => c.chapter === e.chapter)
 
-/** The chapter's grammar points in book order: what the exam covers. */
-export function examTopics(e: Exam) {
-  const ch = examChapter(e)
+/** The chapter's grammar points in book order: what an exam on it covers. */
+export function chapterTopics(chapter: number) {
+  const ch = chapters.find((c) => c.chapter === chapter)
   return (ch?.lessons ?? []).flatMap((l) => (l.grammar ?? []).map((g) => grammarById.get(g.id)!).filter(Boolean))
 }
+
+/** An exam on this chapter that hasn't happened yet, if any. */
+export const upcomingExamFor = (chapter: number, today = dayKey()) => EXAMS.find((e) => e.chapter === chapter && e.date >= today) ?? null
 
 const WEEKDAYS = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado']
 const MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
