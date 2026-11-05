@@ -52,6 +52,20 @@ def stray_latin(heard: str, script: str) -> bool:
     return False
 
 
+DIGRAPHS = (("sh", "ш"), ("ch", "ч"), ("zh", "ж"), ("oo", "у"), ("ya", "я"))
+
+
+def as_cyrillic(s: str) -> str:
+    """Whisper writes some spoken Russian the Latin way ("собака, майл, точка, ру" → "anna@mail.ru"); read it back."""
+    s = re.sub(r"(\w+)@(\w+)\.(\w+)", r"\1 собака \2 точка \3", s)
+    def word(m: re.Match) -> str:
+        w = m.group()
+        for a, b in DIGRAPHS:
+            w = w.replace(a, b)
+        return "".join(LAT.get(c, c) for c in w)
+    return re.sub(r"[a-z]+", word, s)
+
+
 def align_lines(lines: list[str], words) -> list[float]:
     """Start time of each script line inside one recording, by aligning script words to Whisper's words."""
     script = [(li, w) for li, line in enumerate(lines) for w in norm(spell_numbers(line)).split()]
@@ -83,8 +97,9 @@ def main() -> None:
         segs = list(segs)
         heard = " ".join(s.text.strip() for s in segs).strip()
         starts = align_lines(lines, [w for s in segs for w in (s.words or [])]) if lines else None
-        a, b = norm(job["text"]), norm(spell_numbers(heard))
-        score = difflib.SequenceMatcher(None, a, b, autojunk=False).ratio()
+        a = norm(spell_numbers(job["text"]))
+        b = norm(spell_numbers(re.sub(r"(\w+)@(\w+)\.(\w+)", r"\1 собака \2 точка \3", heard)))
+        score = difflib.SequenceMatcher(None, a, norm(as_cyrillic(b)), autojunk=False).ratio()
         latin = stray_latin(b, a)
         too_long = len(b) > len(a) * 1.35 + 8
         ok = score >= 0.78 and not latin and not too_long

@@ -84,6 +84,17 @@ for (const f of files) {
 for (const w of WORDS) add(w.ru, PHRASE)
 for (const t of TWISTERS) add(t.ru, PHRASE)
 for (const m of readFileSync(join(ROOT, 'src', 'content', 'seasons.ts'), 'utf8').matchAll(/\{ ru: '([^']+)', es:/g)) add(m[1], PHRASE)
+/** What a clip actually says (it stays keyed by its text): Spanish notes in brackets, arrows and symbols, and
+ *  Latin names read the way a Russian speaker would. Whisper checks the recording against this too. */
+const SAY: [RegExp, string][] = [
+  [/\s*\([^)]*[a-z%][^)]*\)/gi, ''], // (plural), (¡Nos vemos!), (100%)
+  [/^En «(.+?)» la о suena \[o\]\. En «(.+?)».*$/, '$1… $2.'],
+  [/masha@mail\.ru/g, 'Ма́ша, соба́ка, ма́йл, то́чка, ру'],
+  [/в Google/g, 'в Гу́гле'], [/Сотру́дники Google/g, 'Сотру́дники Гу́гла'], [/Google/g, 'Гу́гл'],
+  [/«gato»/g, '«га́то»'], [/«gracias»/g, '«гра́сиас»'], [/«bien»/g, '«бье́н»'],
+  [/\s*→\s*$/, ''], [/\s*[→=]\s*/g, ' — '], [/\s*\+\s*/g, ' и '], [/\s*·\s*/g, ', '],
+]
+const say = (t: string) => SAY.reduce((s, [re, r]) => s.replace(re, r), t)
 const all = [...prio.keys()].sort((a, b) => prio.get(a)! - prio.get(b)! || a.localeCompare(b))
 
 // ---------------------------------------------------------------- QA bookkeeping
@@ -299,7 +310,7 @@ for (const voice of ['Kore', 'Puck']) {
     const group = words.slice(i, i + BATCH)
     const whole = join(CACHE, 'segments', `list-${audioKey(voice + group.join('|'))}.mp3`)
     // A list already recorded (e.g. by a run that stopped early) is reused without a new request.
-    if (!existsSync(whole) && (stopped || !(await tts([{ text: group.map(asLine).join('\n'), style: LIST_STYLE }], [{ voice }], whole)))) continue
+    if (!existsSync(whole) && (stopped || !(await tts([{ text: group.map((t) => asLine(say(t))).join('\n'), style: LIST_STYLE }], [{ voice }], whole)))) continue
     audioSeconds -= 0.4 * group.length // pauses between words aren't speech
     if (splitList(whole, group.map(clipFile))) { listClips.push(...group); process.stdout.write('▤') }
     else { for (const t of group) qa[clipFile(t)] = { ...qa[clipFile(t)], ok: false, tries: qa[clipFile(t)]?.tries ?? 0, listFail: true }; process.stdout.write('×') }
@@ -312,13 +323,13 @@ const listed = new Set(listClips)
 for (const t of leftClips) {
   if (stopped) break
   if (listed.has(t) || batchable(t)) continue
-  if (await tts([{ text: t, style: clipStyle(t) }], [{ voice: hashNum(t) % 2 ? 'Puck' : 'Kore' }], clipFile(t))) madeClips.push(t)
+  if (await tts([{ text: say(t), style: clipStyle(t) }], [{ voice: hashNum(t) % 2 ? 'Puck' : 'Kore' }], clipFile(t))) madeClips.push(t)
 }
 if (madeClips.length || listClips.length) {
   console.log(`\nRevisando ${madeClips.length + listClips.length} clips con Whisper…`)
   runQa([
-    ...listClips.map((t) => ({ file: clipFile(t), text: t, fromList: true })),
-    ...madeClips.map((t) => ({ file: clipFile(t), text: t, single: isSingle(t) })),
+    ...listClips.map((t) => ({ file: clipFile(t), text: say(t), fromList: true })),
+    ...madeClips.map((t) => ({ file: clipFile(t), text: say(t), single: isSingle(t) })),
   ])
 }
 
