@@ -242,6 +242,9 @@ async function buildPiece(li: Listening): Promise<boolean> {
   return true
 }
 
+/** Speakers for the voice-drift check; a line where the character imitates something (a cat, another person)
+ *  changes pitch on purpose, so it counts as its own speaker and isn't compared with their usual voice. */
+const pitchSpeakers = (li: Listening) => li.lines.map((l, i) => (/imitat/i.test(l.tone ?? '') ? `${speakerOf(li, i)}#${i}` : speakerOf(li, i)))
 const madePieces: Listening[] = []
 for (const li of leftListening) {
   if (stopped) break
@@ -249,7 +252,7 @@ for (const li of leftListening) {
 }
 if (madePieces.length) {
   console.log(`\nRevisando ${madePieces.length} audios de escucha con Whisper…`)
-  runQa(madePieces.map((li) => ({ file: pieceFile(li), text: li.lines.map((l) => l.ru).join(' '), lines: li.lines.map((l) => l.ru), speakers: li.lines.map((_, i) => speakerOf(li, i)) })))
+  runQa(madePieces.map((li) => ({ file: pieceFile(li), text: li.lines.map((l) => l.ru).join(' '), lines: li.lines.map((l) => l.ru), speakers: pitchSpeakers(li) })))
 }
 
 // ---------------------------------------------------------------- 2. clips (by priority)
