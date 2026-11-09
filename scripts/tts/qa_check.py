@@ -101,6 +101,15 @@ def main() -> None:
         b = norm(spell_numbers(re.sub(r"(\w+)@(\w+)\.(\w+)", r"\1 собака \2 точка \3", heard)))
         score = difflib.SequenceMatcher(None, a, norm(as_cyrillic(b)), autojunk=False).ratio()
         latin = stray_latin(b, a)
+        if score < 0.78 and "собака" in a and "точка" in a:
+            # A dictated email ("Маша, собака, майл, точка, ру") comes out glued ("annasobakamail.ru") or dropped;
+            # listen again expecting one. Only an address is hinted, never the script (Whisper would echo it back).
+            segs, _ = model.transcribe(audio, language="ru", beam_size=5, condition_on_previous_text=False,
+                                       vad_filter=False, initial_prompt="Маша, собака, майл, точка, ру.")
+            heard = " ".join(s.text.strip() for s in segs).strip()
+            b = norm(spell_numbers(re.sub(r"(\w+)@(\w+)\.(\w+)", r"\1 собака \2 точка \3", heard)))
+            score = difflib.SequenceMatcher(None, a, norm(as_cyrillic(b)), autojunk=False).ratio()
+            latin = stray_latin(b, a)
         too_long = len(b) > len(a) * 1.35 + 8
         ok = score >= 0.78 and not latin and not too_long
         if job.get("fromList"):  # cut from a list recording: make sure the clip holds *this* word, not its neighbour
