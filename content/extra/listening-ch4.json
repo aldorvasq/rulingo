@@ -5,74 +5,1013 @@
       "id": "4.1",
       "listening": [
         {
-          "id": "4.1-l-1", "title": "En el café: ¿con gas o sin gas?", "kind": "dialogue",
+          "id": "4.1-l-1",
+          "title": "En el café: ¿con gas o sin gas?",
+          "kind": "dialogue",
           "scene": "A small Moscow café, a polite waiter and a customer",
           "cast": [
-            {"name": "Официа́нт", "gender": "m", "age": "young", "skin": "light", "hair": "brown", "hairStyle": "short", "top": "gray"},
-            {"name": "Ни́на", "gender": "f", "age": "adult", "skin": "medium", "hair": "black", "hairStyle": "bun", "glasses": true, "top": "teal"}
+            {
+              "name": "Официа́нт",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "top": "gray"
+            },
+            {
+              "name": "Ни́на",
+              "gender": "f",
+              "age": "adult",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "bun",
+              "glasses": true,
+              "top": "teal"
+            }
           ],
           "lines": [
-            {"speaker": "Официа́нт", "gender": "m", "ru": "До́брый день! Что вы хоти́те?", "tone": "polite, welcoming"},
-            {"speaker": "Ни́на", "gender": "f", "ru": "До́брый день. Я хочу́ сала́т с помидо́рами и ры́бу с карто́фелем.", "tone": "calm, deciding"},
-            {"speaker": "Официа́нт", "gender": "m", "ru": "Сала́т с со́усом и́ли без со́уса?", "tone": "helpful"},
-            {"speaker": "Ни́на", "gender": "f", "ru": "Без со́уса, пожа́луйста. Я сижу́ на дие́те.", "tone": "slightly apologetic"},
-            {"speaker": "Официа́нт", "gender": "m", "ru": "Хорошо́. А что вы бу́дете пить? Во́ду с га́зом и́ли без га́за?", "tone": "polite"},
-            {"speaker": "Ни́на", "gender": "f", "ru": "Без га́за. И ко́фе с молоко́м, но без са́хара.", "tone": "decided"},
-            {"speaker": "Официа́нт", "gender": "m", "ru": "А десе́рт? У нас о́чень вку́сный торт с шокола́дом.", "tone": "tempting, friendly"},
-            {"speaker": "Ни́на", "gender": "f", "ru": "Нет, спаси́бо! Я никогда́ не ем десе́рты.", "tone": "laughing, firm"}
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "До́брый день! Что вы хоти́те?",
+              "tone": "polite, welcoming"
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "До́брый день. Я хочу́ сала́т с помидо́рами и ры́бу с карто́фелем.",
+              "tone": "calm, deciding"
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Сала́т с со́усом и́ли без со́уса?",
+              "tone": "helpful"
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Без со́уса, пожа́луйста. Я сижу́ на дие́те.",
+              "tone": "slightly apologetic"
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Хорошо́. А что вы бу́дете пить? Во́ду с га́зом и́ли без га́за?",
+              "tone": "polite"
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Без га́за. И ко́фе с молоко́м, но без са́хара.",
+              "tone": "decided"
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "А десе́рт? У нас о́чень вку́сный торт с шокола́дом.",
+              "tone": "tempting, friendly"
+            },
+            {
+              "speaker": "Ни́на",
+              "gender": "f",
+              "ru": "Нет, спаси́бо! Я никогда́ не ем десе́рты.",
+              "tone": "laughing, firm"
+            }
           ],
           "es": "—¡Buenas tardes! ¿Qué desea?\n—Buenas tardes. Quiero ensalada con jitomate y pescado con papas.\n—¿La ensalada con aderezo o sin aderezo?\n—Sin aderezo, por favor. Estoy a dieta.\n—Bien. ¿Y qué va a tomar? ¿Agua con gas o sin gas?\n—Sin gas. Y café con leche, pero sin azúcar.\n—¿Y postre? Tenemos un pastel de chocolate muy rico.\n—¡No, gracias! Nunca como postres.",
           "questions": [
-            {"q": "¿Qué come Nina?", "choices": ["Ensalada con jitomate y pescado con papas", "Carne con arroz", "Pizza con champiñones"], "answer": 0},
-            {"q": "¿Cómo quiere el agua?", "choices": ["Sin gas", "Con gas", "Con hielo"], "answer": 0},
-            {"q": "¿Cómo toma el café?", "choices": ["Con leche y sin azúcar", "Solo, sin nada", "Con leche y con azúcar"], "answer": 0},
-            {"q": "¿Por qué no pide postre?", "choices": ["Nunca come postres", "No hay pastel", "Ya no tiene dinero"], "answer": 0}
+            {
+              "q": "¿Qué come Nina?",
+              "choices": [
+                "Ensalada con jitomate y pescado con papas",
+                "Carne con arroz",
+                "Pizza con champiñones"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cómo quiere el agua?",
+              "choices": [
+                "Sin gas",
+                "Con gas",
+                "Con hielo"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cómo toma el café?",
+              "choices": [
+                "Con leche y sin azúcar",
+                "Solo, sin nada",
+                "Con leche y con azúcar"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Por qué no pide postre?",
+              "choices": [
+                "Nunca come postres",
+                "No hay pastel",
+                "Ya no tiene dinero"
+              ],
+              "answer": 0
+            }
           ]
         },
         {
-          "id": "4.1-l-2", "title": "El desayuno de la familia Petrov", "kind": "story",
+          "id": "4.1-l-2",
+          "title": "El desayuno de la familia Petrov",
+          "kind": "story",
           "scene": "A warm narrator telling about her family's breakfast",
           "cast": [
-            {"name": "Ка́тя", "gender": "f", "age": "young", "skin": "light", "hair": "red", "hairStyle": "ponytail", "top": "ochre"}
+            {
+              "name": "Ка́тя",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "ponytail",
+              "top": "ochre"
+            }
           ],
           "lines": [
-            {"speaker": "Ка́тя", "gender": "f", "ru": "Меня́ зову́т Ка́тя. У́тром моя́ семья́ всегда́ за́втракает вме́сте.", "tone": "warm, storytelling"},
-            {"speaker": "Ка́тя", "gender": "f", "ru": "Па́па ест бутербро́д с сы́ром и пьёт чёрный ко́фе без молока́.", "tone": "warm, storytelling"},
-            {"speaker": "Ка́тя", "gender": "f", "ru": "Ма́ма пьёт чай с лимо́ном. Она́ ре́дко ест хлеб.", "tone": "warm, storytelling"},
-            {"speaker": "Ка́тя", "gender": "f", "ru": "Мой брат обожа́ет хло́пья с молоко́м. А я обы́чно ем ка́шу с фру́ктами.", "tone": "amused"},
-            {"speaker": "Ка́тя", "gender": "f", "ru": "В воскресе́нье ба́бушка гото́вит блины́. Мы еди́м их с мёдом и́ли с варе́ньем.", "tone": "happy, nostalgic"},
-            {"speaker": "Ка́тя", "gender": "f", "ru": "А пото́м па́па смо́трит на часы́ и бежи́т на рабо́ту!", "tone": "laughing"}
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Меня́ зову́т Ка́тя. У́тром моя́ семья́ всегда́ за́втракает вме́сте.",
+              "tone": "warm, storytelling"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Па́па ест бутербро́д с сы́ром и пьёт чёрный ко́фе без молока́.",
+              "tone": "warm, storytelling"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Ма́ма пьёт чай с лимо́ном. Она́ ре́дко ест хлеб.",
+              "tone": "warm, storytelling"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "Мой брат обожа́ет хло́пья с молоко́м. А я обы́чно ем ка́шу с фру́ктами.",
+              "tone": "amused"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "В воскресе́нье ба́бушка гото́вит блины́. Мы еди́м их с мёдом и́ли с варе́ньем.",
+              "tone": "happy, nostalgic"
+            },
+            {
+              "speaker": "Ка́тя",
+              "gender": "f",
+              "ru": "А пото́м па́па смо́трит на часы́ и бежи́т на рабо́ту!",
+              "tone": "laughing"
+            }
           ],
           "es": "Me llamo Katia. En la mañana mi familia siempre desayuna junta.\nPapá come un sándwich de queso y toma café negro, sin leche.\nMamá toma té con limón. Rara vez come pan.\nMi hermano adora el cereal con leche. Y yo normalmente como kasha con fruta.\nEl domingo la abuela hace crepas. Las comemos con miel o con mermelada.\n¡Y luego papá mira el reloj y se va corriendo al trabajo!",
           "questions": [
-            {"q": "¿Qué toma el papá?", "choices": ["Café negro, sin leche", "Té con limón", "Café con leche"], "answer": 0},
-            {"q": "¿Qué come Katia normalmente?", "choices": ["Kasha con fruta", "Cereal con leche", "Pan con queso"], "answer": 0},
-            {"q": "¿Cuándo hace crepas la abuela?", "choices": ["El domingo", "Todos los días", "El lunes"], "answer": 0},
-            {"q": "¿Con qué frecuencia come pan la mamá?", "choices": ["Rara vez", "Siempre", "Seguido"], "answer": 0}
+            {
+              "q": "¿Qué toma el papá?",
+              "choices": [
+                "Café negro, sin leche",
+                "Té con limón",
+                "Café con leche"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué come Katia normalmente?",
+              "choices": [
+                "Kasha con fruta",
+                "Cereal con leche",
+                "Pan con queso"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cuándo hace crepas la abuela?",
+              "choices": [
+                "El domingo",
+                "Todos los días",
+                "El lunes"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Con qué frecuencia come pan la mamá?",
+              "choices": [
+                "Rara vez",
+                "Siempre",
+                "Seguido"
+              ],
+              "answer": 0
+            }
           ]
         },
         {
-          "id": "4.1-l-3", "title": "Mi hermano y yo: ¿qué comemos?", "kind": "dialogue",
+          "id": "4.1-l-3",
+          "title": "Mi hermano y yo: ¿qué comemos?",
+          "kind": "dialogue",
           "scene": "Two friends chatting about food at lunch break",
           "cast": [
-            {"name": "Анто́н", "gender": "m", "age": "young", "skin": "light", "hair": "blond", "hairStyle": "short", "top": "blue"},
-            {"name": "Све́та", "gender": "f", "age": "young", "skin": "dark", "hair": "black", "hairStyle": "curly", "top": "red"}
+            {
+              "name": "Анто́н",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "top": "blue"
+            },
+            {
+              "name": "Све́та",
+              "gender": "f",
+              "age": "young",
+              "skin": "dark",
+              "hair": "black",
+              "hairStyle": "curly",
+              "top": "red"
+            }
           ],
           "lines": [
-            {"speaker": "Анто́н", "gender": "m", "ru": "Све́та, что ты обы́чно ешь на обе́д?", "tone": "curious, casual"},
-            {"speaker": "Све́та", "gender": "f", "ru": "Обы́чно рис с овоща́ми. Я вегетариа́нка, я не ем мя́со.", "tone": "friendly"},
-            {"speaker": "Анто́н", "gender": "m", "ru": "А ры́бу?", "tone": "surprised"},
-            {"speaker": "Све́та", "gender": "f", "ru": "Ры́бу иногда́ ем. А ты?", "tone": "friendly"},
-            {"speaker": "Анто́н", "gender": "m", "ru": "Мы с бра́том ча́сто обе́даем в кафе́. Он ест пи́ццу с гриба́ми, а я — ку́рицу с ри́сом.", "tone": "relaxed"},
-            {"speaker": "Све́та", "gender": "f", "ru": "А что вы пьёте?", "tone": "curious"},
-            {"speaker": "Анто́н", "gender": "m", "ru": "Брат пьёт сок со льдом. А я ле́том всегда́ пью квас!", "tone": "enthusiastic"}
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Све́та, что ты обы́чно ешь на обе́д?",
+              "tone": "curious, casual"
+            },
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "Обы́чно рис с овоща́ми. Я вегетариа́нка, я не ем мя́со.",
+              "tone": "friendly"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "А ры́бу?",
+              "tone": "surprised"
+            },
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "Ры́бу иногда́ ем. А ты?",
+              "tone": "friendly"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Мы с бра́том ча́сто обе́даем в кафе́. Он ест пи́ццу с гриба́ми, а я — ку́рицу с ри́сом.",
+              "tone": "relaxed"
+            },
+            {
+              "speaker": "Све́та",
+              "gender": "f",
+              "ru": "А что вы пьёте?",
+              "tone": "curious"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Брат пьёт сок со льдом. А я ле́том всегда́ пью квас!",
+              "tone": "enthusiastic"
+            }
           ],
           "es": "—Sveta, ¿qué comes normalmente a mediodía?\n—Normalmente arroz con verduras. Soy vegetariana, no como carne.\n—¿Y pescado?\n—Pescado sí como a veces. ¿Y tú?\n—Mi hermano y yo comemos seguido en un café. Él come pizza con champiñones y yo, pollo con arroz.\n—¿Y qué toman?\n—Mi hermano toma jugo con hielo. ¡Y yo en verano siempre tomo kvas!",
           "questions": [
-            {"q": "¿Por qué Sveta no come carne?", "choices": ["Es vegetariana", "Está a dieta", "No le gusta el pollo"], "answer": 0},
-            {"q": "¿Con qué frecuencia come pescado Sveta?", "choices": ["A veces", "Nunca", "Siempre"], "answer": 0},
-            {"q": "¿Qué come el hermano de Antón?", "choices": ["Pizza con champiñones", "Pollo con arroz", "Arroz con verduras"], "answer": 0},
-            {"q": "¿Qué toma Antón en verano?", "choices": ["Kvas", "Jugo con hielo", "Café"], "answer": 0}
+            {
+              "q": "¿Por qué Sveta no come carne?",
+              "choices": [
+                "Es vegetariana",
+                "Está a dieta",
+                "No le gusta el pollo"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Con qué frecuencia come pescado Sveta?",
+              "choices": [
+                "A veces",
+                "Nunca",
+                "Siempre"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué come el hermano de Antón?",
+              "choices": [
+                "Pizza con champiñones",
+                "Pollo con arroz",
+                "Arroz con verduras"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué toma Antón en verano?",
+              "choices": [
+                "Kvas",
+                "Jugo con hielo",
+                "Café"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.3",
+      "listening": [
+        {
+          "id": "4.3-l-1",
+          "title": "¿Qué te pones para el teatro?",
+          "kind": "dialogue",
+          "scene": "Couple getting dressed for the theatre, evening",
+          "cast": [
+            {
+              "name": "Ната́ша",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "long",
+              "glasses": false,
+              "top": "red"
+            },
+            {
+              "name": "Ко́стя",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "beard": true,
+              "top": "blue"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Ко́стя, ты гото́в? Что ты надева́ешь в теа́тр?",
+              "tone": "hurried, checking"
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Мои́ люби́мые джи́нсы и си́ний сви́тер.",
+              "tone": "relaxed, pleased"
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Джи́нсы? В теа́тр? Нет, в теа́тр мужчи́ны надева́ют костю́м.",
+              "tone": "shocked, firm"
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Но я ношу́ костю́м на рабо́те ка́ждый день!",
+              "tone": "whining, protesting"
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Вот и хорошо́. Твой се́рый костю́м о́чень элега́нтный.",
+              "tone": "sweet, persuasive"
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Ну хорошо́. Костю́м, бе́лая руба́шка… и га́лстук то́же?",
+              "tone": "resigned, sighing"
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Коне́чно, га́лстук! И чёрные ту́фли, а не кроссо́вки.",
+              "tone": "decisive, no arguments"
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Ту́фли? Я надева́л их то́лько оди́н раз, и они́ о́чень ма́ленькие!",
+              "tone": "complaining, embarrassed"
+            },
+            {
+              "speaker": "Ната́ша",
+              "gender": "f",
+              "ru": "Ну хорошо́, хорошо́. Чёрные кроссо́вки — э́то то́же элега́нтно.",
+              "tone": "laughing, giving up"
+            },
+            {
+              "speaker": "Ко́стя",
+              "gender": "m",
+              "ru": "Вот! Я о́чень сти́льный мужчи́на!",
+              "tone": "proud, joking"
+            }
+          ],
+          "es": "—Kostia, ¿estás listo? ¿Qué te pones para el teatro?\n—Mis jeans favoritos y un suéter azul.\n—¿Jeans? ¿Al teatro? No, al teatro los hombres se ponen traje.\n—¡Pero si uso traje en el trabajo todos los días!\n—Pues qué bien. Tu traje gris es muy elegante.\n—Bueno. Traje, camisa blanca… ¿y corbata también?\n—¡Claro, corbata! Y zapatos negros, no tenis.\n—¿Zapatos? Me los puse solo una vez, ¡y me quedan muy chicos!\n—Bueno, bueno. Unos tenis negros también son elegantes.\n—¡Ya ves! ¡Soy un hombre con mucho estilo!",
+          "questions": [
+            {
+              "q": "¿Qué quería ponerse Kostia para ir al teatro?",
+              "choices": [
+                "Sus jeans favoritos y un suéter azul",
+                "Un traje gris y una corbata",
+                "Shorts y una playera"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cuándo usa traje Kostia?",
+              "choices": [
+                "En el trabajo, todos los días",
+                "Solo los fines de semana",
+                "Nunca"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué calzado se pone al final?",
+              "choices": [
+                "Tenis negros",
+                "Zapatos negros",
+                "Botas"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "4.3-l-2",
+          "title": "Una llamada de mamá",
+          "kind": "dialogue",
+          "scene": "Video call from Moscow to Monterrey, cold autumn",
+          "cast": [
+            {
+              "name": "Дие́го",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Ма́ма",
+              "gender": "f",
+              "age": "adult",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "bun",
+              "glasses": true,
+              "top": "ochre"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "Дие́го, приве́т! Как ты? В Москве́ уже́ зима́?",
+              "tone": "worried, loving"
+            },
+            {
+              "speaker": "Дие́го",
+              "gender": "m",
+              "ru": "Приве́т, ма́ма! Нет, сейча́с о́сень, но уже́ о́чень хо́лодно.",
+              "tone": "cheerful, a bit cold"
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "Хо́лодно? А что ты но́сишь?",
+              "tone": "alarmed, worried"
+            },
+            {
+              "speaker": "Дие́го",
+              "gender": "m",
+              "ru": "Ку́ртку, джи́нсы и кроссо́вки. Всё хорошо́!",
+              "tone": "casual, reassuring"
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "Кроссо́вки? А где твои́ тёплые боти́нки? И твоя́ зи́мняя ша́пка?",
+              "tone": "scolding, motherly"
+            },
+            {
+              "speaker": "Дие́го",
+              "gender": "m",
+              "ru": "Ша́пку я надева́л то́лько оди́н раз. Она́ ро́зовая, ма́ма!",
+              "tone": "embarrassed, quick"
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "И что? Ро́зовый — э́то мо́дно!",
+              "tone": "offended, insisting"
+            },
+            {
+              "speaker": "Дие́го",
+              "gender": "m",
+              "ru": "Хорошо́, хорошо́. Сего́дня я покупа́ю чёрную ша́пку и тёплый шарф.",
+              "tone": "giving in"
+            },
+            {
+              "speaker": "Ма́ма",
+              "gender": "f",
+              "ru": "И перча́тки! А ле́том мы ждём тебя́ до́ма, в Монтерре́е.",
+              "tone": "warm, tender"
+            },
+            {
+              "speaker": "Дие́го",
+              "gender": "m",
+              "ru": "О, ле́то! Там я ношу́ то́лько шо́рты и санда́лии!",
+              "tone": "happy, dreamy"
+            }
+          ],
+          "es": "—¡Hola, Diego! ¿Cómo estás? ¿Ya es invierno en Moscú?\n—¡Hola, mamá! No, ahorita es otoño, pero ya hace mucho frío.\n—¿Frío? ¿Y qué ropa traes?\n—Chamarra, jeans y tenis. ¡Todo bien!\n—¿Tenis? ¿Y dónde están tus botines calientitos? ¿Y tu gorro de invierno?\n—El gorro me lo puse solo una vez. ¡Es rosa, mamá!\n—¿Y qué? ¡El rosa está de moda!\n—Está bien, está bien. Hoy me compro un gorro negro y una bufanda calientita.\n—¡Y guantes! Y en verano te esperamos en casa, en Monterrey.\n—¡Ay, el verano! ¡Allá solo uso shorts y sandalias!",
+          "questions": [
+            {
+              "q": "¿Qué estación es ahora en Moscú?",
+              "choices": [
+                "Otoño",
+                "Invierno",
+                "Primavera"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Por qué Diego casi no usa su gorro de invierno?",
+              "choices": [
+                "Porque es rosa",
+                "Porque es muy viejo",
+                "Porque no tiene gorro"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué dice Diego que va a comprar hoy?",
+              "choices": [
+                "Un gorro negro y una bufanda",
+                "Unas botas y unos guantes",
+                "Un abrigo de piel"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "4.3-l-3",
+          "title": "De compras con mi esposo",
+          "kind": "story",
+          "scene": "Wife tells about shopping with her husband",
+          "cast": [
+            {
+              "name": "Ли́за",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "red",
+              "hairStyle": "curly",
+              "glasses": false,
+              "top": "green"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Мой муж Анто́н ненави́дит ходи́ть по магази́нам.",
+              "tone": "amused, storytelling"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Вчера́ мы бы́ли в магази́не оде́жды. Я ме́рила пла́тья, ю́бки и блу́зки.",
+              "tone": "lively, quick"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "А Анто́н ждал. Снача́ла он чита́л статью́ в телефо́не, а пото́м спал на сту́ле.",
+              "tone": "laughing softly"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Ча́сто он говори́л: «Ли́за, пойдём домо́й!»",
+              "tone": "playful, exasperated"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Пла́тья бы́ли краси́вые, но о́чень дороги́е. Я ничего́ не покупа́ла.",
+              "tone": "a bit disappointed"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "А Анто́н ме́рил то́лько оди́н сви́тер — си́ний и недорого́й.",
+              "tone": "amused, smiling"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "И кто покупа́л оде́жду? Мой муж! А я ждала́ в о́череди.",
+              "tone": "ironic, laughing"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Сего́дня Анто́н но́сит но́вый сви́тер и говори́т, что магази́ны — э́то не так пло́хо.",
+              "tone": "cheerful punchline"
+            }
+          ],
+          "es": "Mi esposo Antón odia ir de compras.\nAyer fuimos a una tienda de ropa. Yo me probé vestidos, faldas y blusas.\nY Antón esperaba. Primero leyó un artículo en el teléfono y luego se durmió en una silla.\nSeguido decía: «Liza, ¡vámonos a casa!»\nLos vestidos eran bonitos, pero muy caros. No compré nada.\nY Antón se probó solo un suéter: azul y barato.\n¿Y quién compró ropa? ¡Mi esposo! Y yo esperé en la fila.\nHoy Antón trae puesto su suéter nuevo y dice que las tiendas no están tan mal.",
+          "questions": [
+            {
+              "q": "¿Qué se probó Liza?",
+              "choices": [
+                "Vestidos, faldas y blusas",
+                "Suéteres y jeans",
+                "Zapatos y botas"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué hizo Antón mientras esperaba?",
+              "choices": [
+                "Leyó un artículo en el teléfono y se durmió en una silla",
+                "Se probó varios trajes",
+                "Tomó café en la cafetería"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Quién compró ropa al final?",
+              "choices": [
+                "Antón: un suéter azul",
+                "Liza: un vestido caro",
+                "Nadie compró nada"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.4",
+      "listening": [
+        {
+          "id": "4.4-l-1",
+          "title": "En la tienda: un traje para el banco",
+          "kind": "dialogue",
+          "scene": "Clothing store in a mall, afternoon",
+          "cast": [
+            {
+              "name": "Консульта́нт",
+              "gender": "m",
+              "age": "adult",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "gray"
+            },
+            {
+              "name": "Ли́за",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Консульта́нт",
+              "gender": "m",
+              "ru": "До́брый день! Что вы хоти́те?",
+              "tone": "polite, welcoming"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Здра́вствуйте. Я рабо́таю стажёром в ба́нке, и я хочу́ делово́й костю́м.",
+              "tone": "a bit shy"
+            },
+            {
+              "speaker": "Консульта́нт",
+              "gender": "m",
+              "ru": "Хорошо́. Како́й у вас разме́р?",
+              "tone": "helpful"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Со́рок четы́ре. Но я хочу́ не се́рый костю́м, а кра́сный!",
+              "tone": "excited, hopeful"
+            },
+            {
+              "speaker": "Консульта́нт",
+              "gender": "m",
+              "ru": "Кра́сный? В ба́нке? Там нельзя́ носи́ть кра́сный костю́м.",
+              "tone": "surprised, gently amused"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Почему́ нельзя́? Э́то о́чень краси́вый цвет!",
+              "tone": "disappointed"
+            },
+            {
+              "speaker": "Консульта́нт",
+              "gender": "m",
+              "ru": "В ба́нке вы должны́ носи́ть се́рый, чёрный и́ли си́ний костю́м. Вот се́рый, со́рок четы́ре.",
+              "tone": "patient, explaining"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Ну, хорошо́, се́рый. Мо́жно плати́ть креди́ткой?",
+              "tone": "resigned sigh"
+            },
+            {
+              "speaker": "Консульта́нт",
+              "gender": "m",
+              "ru": "Коне́чно. А вот э́то кра́сное пла́тье мо́жно носи́ть в выходны́е!",
+              "tone": "tempting, sly"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Ой… Хорошо́, и пла́тье то́же. Я ста́ну шопого́ликом!",
+              "tone": "laughing"
+            }
+          ],
+          "es": "—¡Buenas tardes! ¿Qué desea?\n—Buenas tardes. Trabajo de practicante en un banco y quiero un traje formal.\n—Muy bien. ¿Qué talla usa?\n—Cuarenta y cuatro. ¡Pero no quiero un traje gris, sino uno rojo!\n—¿Rojo? ¿En un banco? Ahí no se puede usar un traje rojo.\n—¿Por qué no? ¡Es un color muy bonito!\n—En el banco tiene que usar un traje gris, negro o azul. Aquí hay uno gris, talla cuarenta y cuatro.\n—Bueno, está bien, gris. ¿Se puede pagar con tarjeta?\n—Claro. ¡Y este vestido rojo lo puede usar el fin de semana!\n—Ay… Está bien, el vestido también. ¡Me voy a volver compradora compulsiva!",
+          "questions": [
+            {
+              "q": "¿Dónde trabaja Liza?",
+              "choices": [
+                "En un banco, de practicante",
+                "En una tienda de ropa",
+                "En un restaurante"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Por qué no compra el traje rojo?",
+              "choices": [
+                "En el banco no se puede usar rojo",
+                "No hay su talla",
+                "Es muy caro"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué compra al final?",
+              "choices": [
+                "Un traje gris y un vestido rojo",
+                "Solo un traje negro",
+                "Una falda roja y una camisa blanca"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "4.4-l-2",
+          "title": "Una llamada a la jefa",
+          "kind": "dialogue",
+          "scene": "Phone call, sick employee and strict boss",
+          "cast": [
+            {
+              "name": "Анто́н",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Ири́на Петро́вна",
+              "gender": "f",
+              "age": "adult",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "red"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "До́брое у́тро, Ири́на Петро́вна! Э́то Анто́н. Извини́те, я не могу́ сего́дня рабо́тать.",
+              "tone": "hoarse, apologetic"
+            },
+            {
+              "speaker": "Ири́на Петро́вна",
+              "gender": "f",
+              "ru": "Почему́ вы не мо́жете?",
+              "tone": "strict, surprised"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "У меня́ высо́кая температу́ра. Я сейча́с в крова́ти.",
+              "tone": "weak, pitiful"
+            },
+            {
+              "speaker": "Ири́на Петро́вна",
+              "gender": "f",
+              "ru": "Ох… Но сего́дня у нас встре́ча с клие́нтами. Вы мо́жете рабо́тать до́ма?",
+              "tone": "worried, businesslike"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "До́ма? Да, могу́. У меня́ есть компью́тер.",
+              "tone": "hesitant"
+            },
+            {
+              "speaker": "Ири́на Петро́вна",
+              "gender": "f",
+              "ru": "Отли́чно! Но вы должны́ быть онла́йн у́тром. И вы должны́ носи́ть костю́м и га́лстук.",
+              "tone": "firm, decisive"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Костю́м и га́лстук? До́ма? Но у меня́ температу́ра!",
+              "tone": "shocked"
+            },
+            {
+              "speaker": "Ири́на Петро́вна",
+              "gender": "f",
+              "ru": "Клие́нты мо́гут ви́деть вас на экра́не. Дресс-ко́д — э́то дресс-ко́д!",
+              "tone": "strict, no nonsense"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Хорошо́, Ири́на Петро́вна. Руба́шка, костю́м и га́лстук… А внизу́ — пижа́ма!",
+              "tone": "whispering, sly"
+            }
+          ],
+          "es": "—¡Buenos días, Irina Petrovna! Habla Antón. Disculpe, hoy no puedo trabajar.\n—¿Por qué no puede?\n—Tengo fiebre alta. Ahorita estoy en cama.\n—Ay… Pero hoy tenemos reunión con clientes. ¿Puede trabajar desde casa?\n—¿En casa? Sí, puedo. Tengo computadora.\n—¡Excelente! Pero tiene que estar en línea en la mañana. Y tiene que usar traje y corbata.\n—¿Traje y corbata? ¿En casa? ¡Pero tengo fiebre!\n—Los clientes lo pueden ver en la pantalla. ¡El código de vestimenta es el código de vestimenta!\n—Está bien, Irina Petrovna. Camisa, traje y corbata… ¡Y abajo, la piyama!",
+          "questions": [
+            {
+              "q": "¿Por qué no puede ir Antón a trabajar?",
+              "choices": [
+                "Tiene fiebre",
+                "Tiene alergia",
+                "Está de vacaciones"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué hay hoy en el trabajo?",
+              "choices": [
+                "Una reunión con clientes",
+                "Una fiesta",
+                "Un examen"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué se va a poner Antón?",
+              "choices": [
+                "Camisa, traje y corbata arriba, y piyama abajo",
+                "Solo la piyama",
+                "Un traje gris completo y zapatos"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "4.4-l-3",
+          "title": "¿Qué quería ser de niño?",
+          "kind": "story",
+          "scene": "A cook remembers his childhood dreams, warmly",
+          "cast": [
+            {
+              "name": "Па́вел",
+              "gender": "m",
+              "age": "adult",
+              "skin": "medium",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "ochre"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Меня́ зову́т Па́вел. Когда́ я был ребёнком, я мечта́л стать космона́втом.",
+              "tone": "warm, nostalgic"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Пото́м я хоте́л быть футболи́стом. Но я о́чень пло́хо игра́л в футбо́л.",
+              "tone": "self-mocking"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Когда́ я был студе́нтом, я рабо́тал официа́нтом в кафе́.",
+              "tone": "storytelling"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "В кафе́ я ча́сто сиде́л на ку́хне и смотре́л, как гото́вит по́вар.",
+              "tone": "fond, remembering"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "И я ду́мал: «Я хочу́ стать по́варом!»",
+              "tone": "bright realization"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Сейча́с я по́вар в рестора́не. Я рабо́таю с проду́ктами и с людьми́.",
+              "tone": "proud, content"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Я до́лжен носи́ть бе́лую фо́рму, и на ку́хне всегда́ должно́ быть чи́сто.",
+              "tone": "matter-of-fact"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Моя́ дочь Ма́ша мечта́ет стать звездо́й. Она́ поёт и танцу́ет весь день.",
+              "tone": "amused, loving"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "А я ду́маю, что она́ ста́нет юри́стом. Она́ всегда́ говори́т: «Па́па, ты до́лжен…»",
+              "tone": "chuckling"
+            }
+          ],
+          "es": "Me llamo Pável. Cuando era niño, soñaba con ser astronauta.\nLuego quería ser futbolista. Pero jugaba muy mal futbol.\nCuando era estudiante, trabajaba de mesero en un café.\nEn el café seguido me sentaba en la cocina y veía cómo cocinaba el cocinero.\nY pensaba: «¡Quiero ser cocinero!»\nAhora soy cocinero en un restaurante. Trabajo con alimentos y con gente.\nTengo que usar uniforme blanco, y en la cocina siempre debe estar limpio.\nMi hija Masha sueña con ser una estrella. Canta y baila todo el día.\nPero yo creo que va a ser abogada. Siempre me dice: «Papá, tienes que…»",
+          "questions": [
+            {
+              "q": "¿Qué soñaba ser Pável de niño?",
+              "choices": [
+                "Astronauta",
+                "Cocinero",
+                "Abogado"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué hacía cuando era estudiante?",
+              "choices": [
+                "Trabajaba de mesero en un café",
+                "Jugaba futbol profesional",
+                "Trabajaba de cajero"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Por qué cree Pável que su hija será abogada?",
+              "choices": [
+                "Siempre le dice «Papá, tienes que…»",
+                "Le gusta leer libros de leyes",
+                "Estudia mucho en la escuela"
+              ],
+              "answer": 0
+            }
           ]
         }
       ]

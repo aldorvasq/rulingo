@@ -112,6 +112,9 @@ const HINTS: Record<string, string> = {
   'чашка': 'an empty porcelain teacup with a saucer, painted with a blue folk pattern',
   'тарелка': 'an empty white plate with a blue folk-pattern rim, a fork and a knife beside it',
 }
+// Hints for the lessons drafted ahead (merged from drafts/<id>/pictures.json by drafts/merge.py).
+const HINTS_AHEAD = join(import.meta.dirname, 'hints-ahead.json')
+if (existsSync(HINTS_AHEAD)) Object.assign(HINTS, JSON.parse(readFileSync(HINTS_AHEAD, 'utf8')))
 const DONE_REDO = join(RAW, 'redone.json')
 const redone: string[] = existsSync(DONE_REDO) ? JSON.parse(readFileSync(DONE_REDO, 'utf8')) : []
 // --once: each word in --redo is repainted a single time (remembered in out/redone.json).

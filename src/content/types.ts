@@ -14,8 +14,8 @@ export interface VocabItem {
   gender?: Gender
   plural?: string
   forms?: Partial<Record<Gender, string>>
-  /** present: я…они́; past (from 4.2 on): m, f, n, pl. */
-  conj?: { type?: string; present?: Record<string, string>; past?: Record<string, string> }
+  /** present: я…они́ (`tense: 'future'` when those forms are a future: бу́ду, ста́ну); past (from 4.2 on): m, f, n, pl. */
+  conj?: { type?: string; tense?: 'future'; present?: Record<string, string>; past?: Record<string, string> }
   antonyms?: string[]
   synonyms?: string[]
   topic?: string

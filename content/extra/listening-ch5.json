@@ -1,0 +1,743 @@
+{
+  "id": "listening-ch5",
+  "lessons": [
+    {
+      "id": "5.1",
+      "listening": [
+        {
+          "id": "5.1-l-1",
+          "title": "¿A qué hora nos vemos?",
+          "kind": "dialogue",
+          "scene": "Early morning phone call, cheerful and sleepy",
+          "cast": [
+            {
+              "name": "Ле́на",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Ди́ма",
+              "gender": "m",
+              "age": "young",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "gray"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Алло́, Ди́ма! До́брое у́тро! Ты не спишь?",
+              "tone": "bright and energetic"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Ле́на?.. Кото́рый час?",
+              "tone": "sleepy, confused"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Уже́ шесть часо́в! Я иду́ в спортза́л на трениро́вку, а пото́м в кафе́ на за́втрак. Ты идёшь?",
+              "tone": "cheerful, inviting"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Шесть часо́в утра́?! Ле́на, я сова́. Я иду́ спать в три часа́ но́чи!",
+              "tone": "groaning, horrified"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Хорошо́, хорошо́. А во ско́лько ты встаёшь?",
+              "tone": "patient, amused"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Обы́чно в двена́дцать. Пото́м я принима́ю душ, бре́юсь, одева́юсь…",
+              "tone": "lazy, thinking aloud"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Ско́лько вре́мени ты одева́ешься? Час?",
+              "tone": "teasing"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Два́дцать мину́т! А обе́д в два часа́ дня?",
+              "tone": "offended, then hopeful"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "В два часа́ у меня́ уро́к. А в шесть часо́в ве́чера?",
+              "tone": "thinking"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Отли́чно! Шесть часо́в ве́чера — э́то моё у́тро!",
+              "tone": "relieved, joking"
+            }
+          ],
+          "es": "—¡Bueno, Dima! ¡Buenos días! ¿No estás dormido?\n—¿Lena?.. ¿Qué hora es?\n—¡Ya son las seis! Voy al gimnasio a entrenar y luego a un café a desayunar. ¿Vienes?\n—¡¿Las seis de la mañana?! Lena, soy búho. ¡Me voy a dormir a las tres de la madrugada!\n—Bueno, bueno. ¿Y a qué hora te levantas?\n—Normalmente a las doce. Luego me baño, me rasuro, me visto…\n—¿Cuánto tiempo te tardas en vestirte? ¿Una hora?\n—¡Veinte minutos! ¿Y si comemos a las dos de la tarde?\n—A las dos tengo clase. ¿Y a las seis de la tarde?\n—¡Perfecto! ¡Las seis de la tarde son mi mañana!",
+          "questions": [
+            {
+              "q": "¿Qué hora es cuando Lena llama a Dima?",
+              "choices": [
+                "Las seis de la mañana",
+                "Las doce del día",
+                "Las seis de la tarde"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿A qué hora se levanta Dima normalmente?",
+              "choices": [
+                "A las seis",
+                "A las doce",
+                "A las tres"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Por qué no comen juntos a las dos?",
+              "choices": [
+                "Dima está dormido",
+                "El café está cerrado",
+                "Lena tiene clase a esa hora"
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "5.1-l-2",
+          "title": "El búho que llegó temprano",
+          "kind": "story",
+          "scene": "Student rushing to class, comic monologue",
+          "cast": [
+            {
+              "name": "Макс",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "curly",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Меня́ зову́т Макс, и я сова́.",
+              "tone": "friendly, self-ironic"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Обы́чно я встаю́ по́здно, но сего́дня в де́вять часо́в у меня́ уро́к.",
+              "tone": "explaining"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Я встаю́ в во́семь три́дцать. Нет вре́мени!",
+              "tone": "panicked"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Я не принима́ю душ, не бре́юсь и не за́втракаю. Я то́лько бы́стро одева́юсь и бегу́ на уро́к.",
+              "tone": "breathless, hurried"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "В во́семь пятьдеся́т пять я в шко́ле. Ура́! Но где студе́нты? Где преподава́тель?",
+              "tone": "proud, then puzzled"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Ой! Уро́к начина́ется не в де́вять, а в оди́ннадцать!",
+              "tone": "realizing, embarrassed"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Ещё два часа́! Что де́лать?",
+              "tone": "deflated"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "Я иду́ в кафе́, за́втракаю и пью ко́фе.",
+              "tone": "resigned, then cheerful"
+            },
+            {
+              "speaker": "Макс",
+              "gender": "m",
+              "ru": "А на уро́ке я, коне́чно, сплю.",
+              "tone": "comic, sleepy"
+            }
+          ],
+          "es": "Me llamo Max y soy búho.\nNormalmente me levanto tarde, pero hoy a las nueve tengo clase.\nMe levanto a las ocho y media. ¡No hay tiempo!\nNo me baño, no me rasuro y no desayuno. Solo me visto rápido y me voy corriendo a clase.\nA las nueve menos cinco estoy en la escuela. ¡Hurra! Pero ¿dónde están los estudiantes? ¿Dónde está el maestro?\n¡Ay! ¡La clase no empieza a las nueve, sino a las once!\n¡Todavía faltan dos horas! ¿Qué hago?\nMe voy a un café, desayuno y tomo café.\nY en la clase, claro, me duermo.",
+          "questions": [
+            {
+              "q": "¿A qué hora se levanta Max hoy?",
+              "choices": [
+                "A las nueve",
+                "A las ocho y media",
+                "A las once"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "¿Qué hace Max antes de salir de casa?",
+              "choices": [
+                "Se baña y desayuna",
+                "Se rasura y lee el periódico",
+                "Solo se viste rápido"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿A qué hora empieza la clase en realidad?",
+              "choices": [
+                "A las once",
+                "A las nueve",
+                "A las ocho y media"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "5.1-l-3",
+          "title": "Con la doctora: ¿cuántas horas duerme?",
+          "kind": "dialogue",
+          "scene": "Doctor's office, tired but cheerful patient",
+          "cast": [
+            {
+              "name": "Врач",
+              "gender": "f",
+              "age": "adult",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "bun",
+              "glasses": true,
+              "beard": false,
+              "top": "teal"
+            },
+            {
+              "name": "Па́вел",
+              "gender": "m",
+              "age": "adult",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "ochre"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Врач",
+              "gender": "f",
+              "ru": "Здра́вствуйте, Па́вел. Како́й у вас распоря́док дня? Во ско́лько вы встаёте?",
+              "tone": "calm, professional"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "В пять часо́в утра́. Я жа́воронок!",
+              "tone": "proud"
+            },
+            {
+              "speaker": "Врач",
+              "gender": "f",
+              "ru": "Хорошо́. А во ско́лько вы идёте спать?",
+              "tone": "writing notes"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "В два часа́ но́чи. Ве́чером я сова́!",
+              "tone": "cheerful, proud"
+            },
+            {
+              "speaker": "Врач",
+              "gender": "f",
+              "ru": "Ско́лько часо́в вы спи́те? Три?",
+              "tone": "alarmed"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Да, три часа́. Но я пью ко́фе: у́тром, днём и ве́чером.",
+              "tone": "casual"
+            },
+            {
+              "speaker": "Врач",
+              "gender": "f",
+              "ru": "А что вы де́лаете ве́чером?",
+              "tone": "suspicious"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "По́сле рабо́ты я занима́юсь спо́ртом, пото́м гото́влю у́жин, убира́ю кварти́ру, стира́ю…",
+              "tone": "listing, energetic"
+            },
+            {
+              "speaker": "Врач",
+              "gender": "f",
+              "ru": "А по́сле у́жина?",
+              "tone": "curious"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "По́сле у́жина я смотрю́ сериа́лы. Вре́мя лети́т!",
+              "tone": "sheepish"
+            },
+            {
+              "speaker": "Врач",
+              "gender": "f",
+              "ru": "Па́вел, вы должны́ спать во́семь часо́в. Сериа́лы — то́лько в выходны́е!",
+              "tone": "firm but kind"
+            },
+            {
+              "speaker": "Па́вел",
+              "gender": "m",
+              "ru": "Во́семь часо́в?! А когда́ я бу́ду жить?",
+              "tone": "shocked, comic"
+            }
+          ],
+          "es": "—Buenos días, Pável. ¿Cómo es su rutina diaria? ¿A qué hora se levanta?\n—A las cinco de la mañana. ¡Soy alondra!\n—Bien. ¿Y a qué hora se va a dormir?\n—A las dos de la madrugada. ¡En la noche soy búho!\n—¿Cuántas horas duerme? ¿Tres?\n—Sí, tres horas. Pero tomo café: en la mañana, en la tarde y en la noche.\n—¿Y qué hace en la noche?\n—Después del trabajo hago deporte, luego preparo la cena, limpio el departamento, lavo la ropa…\n—¿Y después de cenar?\n—Después de cenar veo series. ¡El tiempo vuela!\n—Pável, usted debe dormir ocho horas. ¡Las series, solo el fin de semana!\n—¡¿Ocho horas?! ¿Y cuándo voy a vivir?",
+          "questions": [
+            {
+              "q": "¿A qué hora se levanta Pável?",
+              "choices": [
+                "A las dos",
+                "A las ocho",
+                "A las cinco de la mañana"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "¿Cuántas horas duerme?",
+              "choices": [
+                "Tres",
+                "Ocho",
+                "Cinco"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué hace Pável después de cenar?",
+              "choices": [
+                "Lava la ropa",
+                "Ve series",
+                "Hace deporte"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5.2",
+      "listening": [
+        {
+          "id": "5.2-l-1",
+          "title": "¿A dónde vas tan guapa?",
+          "kind": "dialogue",
+          "scene": "Two friends meet on a Moscow street",
+          "cast": [
+            {
+              "name": "Ди́ма",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": false,
+              "top": "blue"
+            },
+            {
+              "name": "Ма́ша",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "long",
+              "glasses": false,
+              "beard": false,
+              "top": "red"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Приве́т, Ма́ша! Кака́я ты сего́дня краси́вая! Куда́ ты идёшь?",
+              "tone": "surprised, cheerful"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Приве́т, Ди́ма! Я иду́ в теа́тр, на бале́т.",
+              "tone": "pleased, a bit proud"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "На бале́т? Ты ча́сто хо́дишь в теа́тр?",
+              "tone": "curious"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Да, раз в ме́сяц. Я обожа́ю бале́т. А ты куда́ идёшь?",
+              "tone": "warm, friendly"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "А я иду́ в спортза́л. Я хожу́ туда́ ка́ждый день!",
+              "tone": "proud, confident"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Ка́ждый день? Да ты что!",
+              "tone": "surprised, teasing"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "Ну… вчера́ я не ходи́л. И позавчера́ то́же.",
+              "tone": "embarrassed, hesitant"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "А когда́ ты ходи́л в спортза́л?",
+              "tone": "teasing, smiling"
+            },
+            {
+              "speaker": "Ди́ма",
+              "gender": "m",
+              "ru": "В понеде́льник! Но сего́дня я то́чно иду́!",
+              "tone": "defensive, laughing"
+            },
+            {
+              "speaker": "Ма́ша",
+              "gender": "f",
+              "ru": "Ну ла́дно, мне пора́. Пока́, спортсме́н!",
+              "tone": "laughing, friendly"
+            }
+          ],
+          "es": "—¡Hola, Masha! ¡Qué guapa estás hoy! ¿A dónde vas?\n—¡Hola, Dima! Voy al teatro, al ballet.\n—¿Al ballet? ¿Vas seguido al teatro?\n—Sí, una vez al mes. Me encanta el ballet. ¿Y tú a dónde vas?\n—Yo voy al gimnasio. ¡Voy todos los días!\n—¿Todos los días? ¡No me digas!\n—Bueno… ayer no fui. Y antier tampoco.\n—¿Y cuándo fuiste al gimnasio?\n—¡El lunes! Pero hoy sí voy, seguro.\n—Bueno, ya me voy. ¡Adiós, deportista!",
+          "questions": [
+            {
+              "q": "¿A dónde va Masha?",
+              "choices": [
+                "Al ballet",
+                "Al gimnasio",
+                "A la pista de hielo"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué tan seguido va Masha al teatro?",
+              "choices": [
+                "Una vez al mes",
+                "Todos los días",
+                "Dos veces por semana"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cuándo fue Dima al gimnasio por última vez?",
+              "choices": [
+                "El lunes",
+                "Ayer",
+                "Antier"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "5.2-l-2",
+          "title": "La semana de Antón (y de su gato)",
+          "kind": "story",
+          "scene": "Relaxed man telling about his busy week",
+          "cast": [
+            {
+              "name": "Анто́н",
+              "gender": "m",
+              "age": "adult",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "short",
+              "glasses": false,
+              "beard": true,
+              "top": "green"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Меня́ зову́т Анто́н. Моя́ неде́ля о́чень акти́вная.",
+              "tone": "friendly, storytelling"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "В понеде́льник и в сре́ду я хожу́ в бассе́йн.",
+              "tone": "calm, storytelling"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Во вто́рник и в четве́рг я хожу́ на трениро́вку.",
+              "tone": "calm, storytelling"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "В пя́тницу мы с колле́гами всегда́ хо́дим в рестора́н.",
+              "tone": "cheerful"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "В суббо́ту у́тром я хожу́ на ры́нок, а ве́чером — на дискоте́ку.",
+              "tone": "proud, energetic"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "А в воскресе́нье я никуда́ не хожу́. Я сплю.",
+              "tone": "lazy, amused"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Мой кот Ба́рсик то́же о́чень акти́вный.",
+              "tone": "ironic"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Он ка́ждый день хо́дит на ку́хню: у́тром, днём, ве́чером и но́чью!",
+              "tone": "laughing"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Сего́дня суббо́та, но я никуда́ не иду́: идёт дождь.",
+              "tone": "calm, a little sad"
+            },
+            {
+              "speaker": "Анто́н",
+              "gender": "m",
+              "ru": "Мы с Ба́рсиком весь день до́ма. И э́то то́же хорошо́!",
+              "tone": "content, warm"
+            }
+          ],
+          "es": "Me llamo Antón. Mi semana es muy activa.\nLos lunes y los miércoles voy a la alberca.\nLos martes y los jueves voy a entrenar.\nLos viernes mis compañeros de trabajo y yo siempre vamos a un restaurante.\nLos sábados en la mañana voy al mercado y en la noche, al antro.\nY los domingos no voy a ningún lado. Duermo.\nMi gato Bársik también es muy activo.\n¡Todos los días va a la cocina: en la mañana, en la tarde, en la noche y de madrugada!\nHoy es sábado, pero no voy a ningún lado: está lloviendo.\nBársik y yo estamos en casa todo el día. ¡Y eso también está bien!",
+          "questions": [
+            {
+              "q": "¿Qué hace Antón los martes y los jueves?",
+              "choices": [
+                "Va a entrenar",
+                "Va a la alberca",
+                "Va al mercado"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿A dónde va el gato Bársik todos los días?",
+              "choices": [
+                "A la cocina",
+                "Al mercado",
+                "Al parque"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Por qué Antón no sale hoy?",
+              "choices": [
+                "Porque está lloviendo",
+                "Porque está nevando",
+                "Porque tiene que trabajar"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "5.2-l-3",
+          "title": "¿Cuándo vamos al cine?",
+          "kind": "dialogue",
+          "scene": "Phone call, guy invites his very busy friend",
+          "cast": [
+            {
+              "name": "Макси́м",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "short",
+              "glasses": true,
+              "beard": false,
+              "top": "gray"
+            },
+            {
+              "name": "Ли́за",
+              "gender": "f",
+              "age": "young",
+              "skin": "medium",
+              "hair": "brown",
+              "hairStyle": "ponytail",
+              "glasses": false,
+              "beard": false,
+              "top": "teal"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Макси́м",
+              "gender": "m",
+              "ru": "Ли́за, приве́т! Я хочу́ в кино́ на но́вый фильм. Ты мо́жешь в сре́ду?",
+              "tone": "hopeful, cheerful"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "В сре́ду не могу́. В сре́ду я хожу́ на йо́гу.",
+              "tone": "apologetic"
+            },
+            {
+              "speaker": "Макси́м",
+              "gender": "m",
+              "ru": "А в четве́рг?",
+              "tone": "still hopeful"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "В четве́рг я иду́ в бассе́йн с сестро́й.",
+              "tone": "thinking aloud"
+            },
+            {
+              "speaker": "Макси́м",
+              "gender": "m",
+              "ru": "А в пя́тницу и́ли в суббо́ту?",
+              "tone": "insistent"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "В пя́тницу у меня́ вечери́нка, а в суббо́ту я иду́ на конце́рт.",
+              "tone": "busy, cheerful"
+            },
+            {
+              "speaker": "Макси́м",
+              "gender": "m",
+              "ru": "А в воскресе́нье?",
+              "tone": "a bit desperate"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "В воскресе́нье я весь день сплю! А како́й сего́дня день?",
+              "tone": "laughing, then curious"
+            },
+            {
+              "speaker": "Макси́м",
+              "gender": "m",
+              "ru": "Сего́дня? Вто́рник.",
+              "tone": "surprised"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Вто́рник! Сего́дня ве́чером я никуда́ не иду́. Идём в кино́ сего́дня!",
+              "tone": "excited"
+            },
+            {
+              "speaker": "Макси́м",
+              "gender": "m",
+              "ru": "Ура́! В семь часо́в?",
+              "tone": "happy, relieved"
+            },
+            {
+              "speaker": "Ли́за",
+              "gender": "f",
+              "ru": "Хорошо́, в семь. До встре́чи!",
+              "tone": "cheerful"
+            }
+          ],
+          "es": "—¡Hola, Liza! Quiero ir al cine a ver la película nueva. ¿Puedes el miércoles?\n—El miércoles no puedo. Los miércoles voy a yoga.\n—¿Y el jueves?\n—El jueves voy a la alberca con mi hermana.\n—¿Y el viernes o el sábado?\n—El viernes tengo fiesta y el sábado voy a un concierto.\n—¿Y el domingo?\n—¡El domingo duermo todo el día! Oye, ¿y qué día es hoy?\n—¿Hoy? Martes.\n—¡Martes! Hoy en la noche no voy a ningún lado. ¡Vamos al cine hoy!\n—¡Hurra! ¿A las siete?\n—Va, a las siete. ¡Nos vemos!",
+          "questions": [
+            {
+              "q": "¿Qué hace Liza los miércoles?",
+              "choices": [
+                "Va a yoga",
+                "Va a la alberca",
+                "Va a un concierto"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué día es hoy?",
+              "choices": [
+                "Martes",
+                "Miércoles",
+                "Domingo"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cuándo van a ir al cine?",
+              "choices": [
+                "Hoy a las siete",
+                "El sábado",
+                "El domingo"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

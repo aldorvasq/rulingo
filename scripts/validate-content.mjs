@@ -88,7 +88,7 @@ function checkLesson(l, where) {
     claim(v.id, at)
     if (!v.ru || !v.es) errors.push(`${at} ${v.id}: vocab needs ru and es`)
     checkStress(v.ru, `${at} ${v.id}`)
-    if (v.pos === 'verb' && !v.conj?.present) warnings.push(`${at} ${v.id}: verb without conjugation`)
+    if (v.pos === 'verb' && !v.conj?.present && !v.conj?.past) warnings.push(`${at} ${v.id}: verb without conjugation`)
   }
   for (const r of l.readings ?? []) {
     claim(r.id, at)

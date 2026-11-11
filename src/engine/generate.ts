@@ -53,8 +53,11 @@ function vocabPool(lesson: LoadedLesson): VocabItem[] {
 }
 
 function samePos(pool: VocabItem[], v: VocabItem) {
-  const same = pool.filter((p) => p.id !== v.id && p.pos === v.pos)
-  return same.length >= 3 ? same : pool.filter((p) => p.id !== v.id)
+  // A synonym would be a second right answer (Кото́рый час? / Ско́лько вре́мени?).
+  const syn = (a: VocabItem, b: VocabItem) => (a.synonyms ?? []).some((s) => stripStress(s) === stripStress(b.ru))
+  const usable = pool.filter((p) => p.id !== v.id && !syn(v, p) && !syn(p, v))
+  const same = usable.filter((p) => p.pos === v.pos)
+  return same.length >= 3 ? same : usable
 }
 
 const describe = (v: VocabItem) => {
@@ -183,13 +186,14 @@ function fromVocab(v: VocabItem, lesson: LoadedLesson, pool: VocabItem[]): Candi
   if (v.pos === 'verb' && present && Object.keys(present).length >= 3) {
     const entries = Object.entries(present)
     const type = v.conj?.type ? ` — conjugación ${v.conj.type === 'irregular' ? 'irregular' : `-${v.conj.type}-`}` : ''
+    const tense = v.conj?.tense === 'future' ? ' en futuro' : ''
     add('conj', 2, 'conjugation', () => {
       const chosen = sample(entries, 3)
-      return { ...base, key: k('conj'), skill: 'conjugation', kind: 'conjugate', instruction: `Conjuga «${v.ru}» (${v.es})`,
+      return { ...base, key: k('conj'), skill: 'conjugation', kind: 'conjugate', instruction: `Conjuga «${v.ru}» (${v.es})${tense}`,
         verb: v.ru, pronouns: chosen.map((e) => e[0]), answers: chosen.map((e) => e[1]), explanation: `${v.ru}${type}` }
     })
     add('conj-all', 3, 'conjugation', () => ({ ...base, key: k('conj-all'), skill: 'conjugation', kind: 'conjugate',
-      instruction: `Conjuga «${v.ru}» (${v.es})`, verb: v.ru, pronouns: entries.map((e) => e[0]), answers: entries.map((e) => e[1]),
+      instruction: `Conjuga «${v.ru}» (${v.es})${tense}`, verb: v.ru, pronouns: entries.map((e) => e[0]), answers: entries.map((e) => e[1]),
       explanation: `${v.ru}${type}` }))
   }
 
