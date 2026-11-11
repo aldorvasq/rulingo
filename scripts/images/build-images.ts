@@ -153,6 +153,7 @@ const rawOf = (base: string) => ['jpg', 'png'].map((e) => join(RAW, `${base}.${e
 const pendingFile = (kind: string) => join(RAW, `pending-batch${kind ? `-${kind}` : ''}.json`)
 
 /**
+ * With --no-wait it submits (or checks on) the job once and returns; a later run collects the pictures.
  * Batch API: half price, processed in the background (minutes to hours). The job name is kept in
  * out/pending-batch.json so a stopped run resumes waiting for the same job instead of paying twice.
  */
@@ -192,6 +193,7 @@ async function viaBatch<J extends { key: string; prompt: string }>(jobs: J[], on
     }
     if (/FAILED|CANCELLED|EXPIRED/.test(String(state))) { stopped = `lote ${state}: ${JSON.stringify(job.error ?? '').slice(0, 200)}`; renameSync(PENDING, join(RAW, `failed-${Date.now()}.json`)); return }
     process.stdout.write(`· ${state ?? JSON.stringify(job).slice(0, 120)} ${new Date().toLocaleTimeString()}\n`)
+    if (process.argv.includes('--no-wait')) return // the daily job: collect the results on a later run
     await new Promise((r) => setTimeout(r, 60_000))
   }
 }

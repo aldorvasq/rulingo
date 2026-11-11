@@ -3722,6 +3722,4749 @@
       ]
     },
     {
+      "id": "4.2",
+      "title": "Каку́ю ку́хню вы предпочита́ете?",
+      "titleEs": "¿Qué cocina prefiere?",
+      "summaryEs": "Pedir en un restaurante y la comida rusa: borscht, shchi, okroshka, ensalada Olivier y caviar. El acusativo de adjetivos, posesivos y «uno» (минера́льную во́ду, мою́ подру́гу, одну́ ко́лу); хоте́ть y cómo pedir (Я бу́ду…, Мне, пожа́луйста…); el pasado (гуля́л, гуля́ла, гуля́ли) y быть en pasado (был, была́, бы́ло, бы́ли).",
+      "story": {
+        "settingEs": "Tres amigos extranjeros piden de cenar en un restaurante de Moscú; Li le escribe a su amigo Zhao todo lo que hizo ayer; y un recorrido por la cocina rusa, del borscht al caviar.",
+        "characters": [
+          {
+            "name": "Фрэнк",
+            "descriptionEs": "Pide hamburguesa con papas y otra cola."
+          },
+          {
+            "name": "Кла́ус",
+            "descriptionEs": "Le encanta la cerveza (clara, nunca oscura); pide pescado con chucrut."
+          },
+          {
+            "name": "Джова́нни",
+            "descriptionEs": "Italiano; pide pasta con mariscos y vino blanco."
+          },
+          {
+            "name": "Ли",
+            "descriptionEs": "Vive en Moscú y le cuenta a su amigo Zhao su día libre: blinis con caviar, museo y ballet."
+          },
+          {
+            "name": "А́нна",
+            "descriptionEs": "Novia de Jean, bailarina en el teatro."
+          }
+        ]
+      },
+      "grammar": [
+        {
+          "id": "4.2-g-acc-adj",
+          "title": "Acusativo de los adjetivos: минера́льную во́ду, бе́лое вино́",
+          "explanationEs": "En 2.3 aprendiste el acusativo de los sustantivos (el objeto directo: Я люблю́ пи́ццу). Ahora el **adjetivo** que acompaña al sustantivo también cambia, pero **solo en femenino**:\n\n- **Femenino -ая → -ую**: минера́льная вода́ → Я пью **минера́льную во́ду**.\n- **Femenino -яя → -юю**: си́няя маши́на → Я хочу́ **си́нюю маши́ну**.\n- **Masculino, neutro y plural: no cambian** (con cosas): чёрный чай, бе́лое вино́, поле́зные о́вощи.\n\nLa pregunta sigue la misma regla: **Кака́я** ку́хня? → **Каку́ю** ку́хню вы предпочита́ете?\n\nOjo con el acento del sustantivo: вода́ → **во́ду**, икра́ → **икру́**.\n\nIgual que en 2.3, por ahora úsalo con cosas (y con mujeres: мою́ сестру́). Las personas y animales masculinos llevan otra terminación que verás más adelante.",
+          "tables": [
+            {
+              "caption": "Adjetivo + sustantivo: nominativo → acusativo",
+              "headers": [
+                "",
+                "¿Что? (nominativo)",
+                "¿Что? (acusativo)",
+                "terminación"
+              ],
+              "rows": [
+                [
+                  "он (m)",
+                  "чёрный чай, гре́ческий сала́т",
+                  "чёрный чай, гре́ческий сала́т",
+                  "no cambia"
+                ],
+                [
+                  "она́ (f)",
+                  "минера́льная вода́, си́няя маши́на",
+                  "минера́льную во́ду, си́нюю маши́ну",
+                  "-ую / -юю"
+                ],
+                [
+                  "оно́ (n)",
+                  "бе́лое вино́, горя́чее молоко́",
+                  "бе́лое вино́, горя́чее молоко́",
+                  "no cambia"
+                ],
+                [
+                  "они́ (pl)",
+                  "поле́зные о́вощи, солёные огурцы́",
+                  "поле́зные о́вощи, солёные огурцы́",
+                  "no cambia"
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "Я бу́ду минера́льную во́ду без га́за.",
+              "es": "Para mí, agua mineral sin gas."
+            },
+            {
+              "ru": "Кла́ус ест бе́лую ры́бу и ки́слую капу́сту.",
+              "es": "Klaus come pescado blanco y chucrut."
+            },
+            {
+              "ru": "Каку́ю ку́хню вы предпочита́ете? — Италья́нскую.",
+              "es": "¿Qué cocina prefiere? — La italiana."
+            },
+            {
+              "ru": "Ру́сские лю́бят гре́чневую ка́шу.",
+              "es": "A los rusos les gusta la kasha de alforfón."
+            },
+            {
+              "ru": "Мой па́па пьёт то́лько тёмное пи́во.",
+              "es": "Mi papá solo toma cerveza oscura."
+            },
+            {
+              "ru": "Ма́ма гото́вит я́блочный пиро́г.",
+              "es": "Mamá prepara un pay de manzana."
+            },
+            {
+              "ru": "Я не люблю́ солёные огурцы́.",
+              "es": "No me gustan los pepinillos en salmuera."
+            }
+          ],
+          "drill": {
+            "kind": "case",
+            "items": [
+              {
+                "base": "минера́льная вода́",
+                "forms": {
+                  "nominativo": "минера́льная вода́",
+                  "acusativo": "минера́льную во́ду"
+                }
+              },
+              {
+                "base": "ки́слая капу́ста",
+                "forms": {
+                  "nominativo": "ки́слая капу́ста",
+                  "acusativo": "ки́слую капу́сту"
+                }
+              },
+              {
+                "base": "бе́лая ры́ба",
+                "forms": {
+                  "nominativo": "бе́лая ры́ба",
+                  "acusativo": "бе́лую ры́бу"
+                }
+              },
+              {
+                "base": "кра́сная икра́",
+                "forms": {
+                  "nominativo": "кра́сная икра́",
+                  "acusativo": "кра́сную икру́"
+                }
+              },
+              {
+                "base": "ру́сская ку́хня",
+                "forms": {
+                  "nominativo": "ру́сская ку́хня",
+                  "acusativo": "ру́сскую ку́хню"
+                }
+              },
+              {
+                "base": "гре́чневая ка́ша",
+                "forms": {
+                  "nominativo": "гре́чневая ка́ша",
+                  "acusativo": "гре́чневую ка́шу"
+                }
+              },
+              {
+                "base": "си́няя маши́на",
+                "forms": {
+                  "nominativo": "си́няя маши́на",
+                  "acusativo": "си́нюю маши́ну"
+                }
+              },
+              {
+                "base": "италья́нская па́ста",
+                "forms": {
+                  "nominativo": "италья́нская па́ста",
+                  "acusativo": "италья́нскую па́сту"
+                }
+              },
+              {
+                "base": "класси́ческая му́зыка",
+                "forms": {
+                  "nominativo": "класси́ческая му́зыка",
+                  "acusativo": "класси́ческую му́зыку"
+                }
+              },
+              {
+                "base": "кака́я",
+                "forms": {
+                  "nominativo": "кака́я",
+                  "acusativo": "каку́ю"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "4.2-g-acc-poss",
+          "title": "Posesivos y «uno» en acusativo: мою́ подру́гу, одну́ ко́лу",
+          "explanationEs": "Los posesivos y el número **оди́н** siguen la misma idea: **solo cambia el femenino**.\n\n- моя́ → **мою́**, твоя́ → **твою́**\n- на́ша → **на́шу**, ва́ша → **ва́шу**\n- одна́ → **одну́**\n- **его́, её, их no cambian nunca**: Ты зна́ешь его́ сестру́?\n- Masculino, neutro y plural no cambian (con cosas): мой дом, твоё письмо́, на́ши биле́ты.\n\nEn el restaurante se oye todo el tiempo: **Мне, пожа́луйста, одну́ ко́лу.** — **Ещё одну́ ко́лу!** (otra cola más).\n\nPero cuando el mesero **repite la orden como lista**, sin verbo, usa nominativo: «Ита́к, **одна́** па́ста и **одна́** ко́ла».",
+          "tables": [
+            {
+              "caption": "Posesivos y оди́н en acusativo",
+              "headers": [
+                "",
+                "nominativo",
+                "acusativo"
+              ],
+              "rows": [
+                [
+                  "моя́ / твоя́ (f)",
+                  "моя́ пи́цца, твоя́ подру́га",
+                  "мою́ пи́ццу, твою́ подру́гу"
+                ],
+                [
+                  "на́ша / ва́ша (f)",
+                  "на́ша ку́хня, ва́ша ко́шка",
+                  "на́шу ку́хню, ва́шу ко́шку"
+                ],
+                [
+                  "одна́ (f)",
+                  "одна́ ко́ла",
+                  "одну́ ко́лу"
+                ],
+                [
+                  "мой / моё / мои́",
+                  "мой дом, моё пи́во, мои́ газе́ты",
+                  "мой дом, моё пи́во, мои́ газе́ты"
+                ],
+                [
+                  "оди́н / одно́",
+                  "оди́н бана́н, одно́ молоко́",
+                  "оди́н бана́н, одно́ молоко́"
+                ],
+                [
+                  "его́ / её / их",
+                  "его́ сестра́, её дочь",
+                  "его́ сестру́, её дочь"
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "Ты зна́ешь мою́ но́вую подру́гу?",
+              "es": "¿Conoces a mi nueva amiga?"
+            },
+            {
+              "ru": "Мне, пожа́луйста, одну́ ко́ка-ко́лу.",
+              "es": "Para mí una coca-cola, por favor."
+            },
+            {
+              "ru": "Ещё одну́ ко́лу, пожа́луйста!",
+              "es": "¡Otra cola, por favor!"
+            },
+            {
+              "ru": "Ма́ма, я о́чень люблю́ твою́ ку́хню!",
+              "es": "¡Mamá, me encanta tu comida!"
+            },
+            {
+              "ru": "Вы зна́ете на́шу ба́бушку?",
+              "es": "¿Conoce a nuestra abuela?"
+            },
+            {
+              "ru": "Па́па чита́ет мою́ газе́ту, а я — его́ журна́л.",
+              "es": "Papá lee mi periódico y yo, su revista."
+            }
+          ],
+          "drill": {
+            "kind": "possessive",
+            "items": [
+              {
+                "base": "моя́",
+                "forms": {
+                  "nominativo": "моя́",
+                  "acusativo": "мою́"
+                }
+              },
+              {
+                "base": "твоя́",
+                "forms": {
+                  "nominativo": "твоя́",
+                  "acusativo": "твою́"
+                }
+              },
+              {
+                "base": "на́ша",
+                "forms": {
+                  "nominativo": "на́ша",
+                  "acusativo": "на́шу"
+                }
+              },
+              {
+                "base": "ва́ша",
+                "forms": {
+                  "nominativo": "ва́ша",
+                  "acusativo": "ва́шу"
+                }
+              },
+              {
+                "base": "одна́",
+                "forms": {
+                  "nominativo": "одна́",
+                  "acusativo": "одну́"
+                }
+              },
+              {
+                "base": "моя́ сестра́",
+                "forms": {
+                  "nominativo": "моя́ сестра́",
+                  "acusativo": "мою́ сестру́"
+                }
+              },
+              {
+                "base": "твоя́ тётя",
+                "forms": {
+                  "nominativo": "твоя́ тётя",
+                  "acusativo": "твою́ тётю"
+                }
+              },
+              {
+                "base": "на́ша ко́шка",
+                "forms": {
+                  "nominativo": "на́ша ко́шка",
+                  "acusativo": "на́шу ко́шку"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "4.2-g-khotet",
+          "title": "хоте́ть y cómo pedir en el restaurante: Я бу́ду…, Мне, пожа́луйста…",
+          "explanationEs": "**хоте́ть** (querer) ya lo viste en 4.1. Es irregular: el singular va con **ч** y acento que se mueve (хочу́, хо́чешь, хо́чет) y el plural es como un verbo en -и con **т** (хоти́м, хоти́те, хотя́т).\n\nCon хоте́ть va:\n- un **sustantivo en acusativo**: Я хочу́ **ко́ка-ко́лу**. Мы хоти́м **большу́ю пи́ццу**.\n- un **infinitivo**: Я не хочу́ **рабо́тать**, я хочу́ **отдыха́ть**.\n\n**Para pedir en el restaurante** (todo con acusativo):\n- **Я бу́ду** + acusativo = para mí… (lo más común): Я бу́ду па́сту.\n- **Мне, пожа́луйста,** + acusativo: Мне, пожа́луйста, чёрный чай.\n- **Я хочу́** + acusativo: Я хочу́ ко́ка-ко́лу.\n- **Я хоте́л бы** (hombre) / **Я хоте́ла бы** (mujer) = quisiera, más cortés: Я хоте́ла бы эспре́ссо.\n\nEl mesero pregunta: **Вы гото́вы заказа́ть?** (¿Están listos para ordenar?) y **Что вы бу́дете пить?** (¿Qué van a tomar?). **гото́в** cambia como un adjetivo corto: гото́в, гото́ва, гото́во, гото́вы (con **вы** siempre гото́вы).\n\nAl final: **Спаси́бо за зака́з!** — спаси́бо за + acusativo: спаси́бо за вку́сную ры́бу.",
+          "tables": [
+            {
+              "caption": "хоте́ть (presente)",
+              "headers": [
+                "",
+                "хоте́ть",
+                "",
+                "хоте́ть"
+              ],
+              "rows": [
+                [
+                  "я",
+                  "хочу́",
+                  "мы",
+                  "хоти́м"
+                ],
+                [
+                  "ты",
+                  "хо́чешь",
+                  "вы",
+                  "хоти́те"
+                ],
+                [
+                  "он / она́",
+                  "хо́чет",
+                  "они́",
+                  "хотя́т"
+                ]
+              ]
+            },
+            {
+              "caption": "Pedir en el restaurante",
+              "headers": [
+                "frase",
+                "+ acusativo",
+                "significa"
+              ],
+              "rows": [
+                [
+                  "Я бу́ду…",
+                  "па́сту с морепроду́ктами",
+                  "Para mí, la pasta con mariscos"
+                ],
+                [
+                  "Мне, пожа́луйста, …",
+                  "чёрный чай",
+                  "Para mí un té negro, por favor"
+                ],
+                [
+                  "Я хочу́…",
+                  "ко́ка-ко́лу со льдом",
+                  "Quiero una coca-cola con hielo"
+                ],
+                [
+                  "Я хоте́л бы / Я хоте́ла бы…",
+                  "бе́лое вино́",
+                  "Quisiera vino blanco"
+                ],
+                [
+                  "Спаси́бо за…",
+                  "зака́з",
+                  "Gracias por su pedido"
+                ]
+              ]
+            },
+            {
+              "caption": "гото́в (listo)",
+              "headers": [
+                "он",
+                "она́",
+                "оно́",
+                "они́ / вы"
+              ],
+              "rows": [
+                [
+                  "У́жин гото́в.",
+                  "Ры́ба гото́ва.",
+                  "Мя́со гото́во.",
+                  "Вы гото́вы?"
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "Что вы хоти́те?",
+              "es": "¿Qué desea?"
+            },
+            {
+              "ru": "Я хочу́ ко́ка-ко́лу со льдом.",
+              "es": "Quiero una coca-cola con hielo."
+            },
+            {
+              "ru": "Де́ти не хотя́т пить молоко́.",
+              "es": "Los niños no quieren tomar leche."
+            },
+            {
+              "ru": "Ты хо́чешь сок и́ли во́ду?",
+              "es": "¿Quieres jugo o agua?"
+            },
+            {
+              "ru": "Вы гото́вы заказа́ть? — Да, я бу́ду гре́ческий сала́т.",
+              "es": "¿Están listos para ordenar? — Sí, para mí la ensalada griega."
+            },
+            {
+              "ru": "Я хоте́ла бы бе́лое вино́.",
+              "es": "Quisiera vino blanco."
+            },
+            {
+              "ru": "Де́ти, у́жин гото́в!",
+              "es": "¡Niños, la cena está lista!"
+            },
+            {
+              "ru": "Спаси́бо за зака́з!",
+              "es": "¡Gracias por su pedido!"
+            }
+          ],
+          "drill": {
+            "kind": "verb-conj",
+            "items": [
+              {
+                "base": "хоте́ть",
+                "forms": {
+                  "я": "хочу́",
+                  "ты": "хо́чешь",
+                  "он": "хо́чет",
+                  "мы": "хоти́м",
+                  "вы": "хоти́те",
+                  "они́": "хотя́т"
+                }
+              },
+              {
+                "base": "жела́ть",
+                "forms": {
+                  "я": "жела́ю",
+                  "ты": "жела́ешь",
+                  "он": "жела́ет",
+                  "мы": "жела́ем",
+                  "вы": "жела́ете",
+                  "они́": "жела́ют"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "4.2-g-past",
+          "title": "El pasado: гуля́л, гуля́ла, гуля́ло, гуля́ли",
+          "explanationEs": "El pasado en ruso es muy fácil: **no cambia según la persona (я, ты, мы…), sino según el género y el número** del sujeto, como un adjetivo.\n\nQuita **-ть** del infinitivo y agrega:\n- **-л** (masculino): гуля́ть → он гуля́**л**\n- **-ла** (femenino): она́ гуля́**ла**\n- **-ло** (neutro): метро́ рабо́та**ло**\n- **-ли** (plural, y también **мы** y **вы**): они́ гуля́**ли**, мы гуля́**ли**, вы гуля́**ли**\n\n**я** y **ты** toman el género de la persona: Ли пи́шет «я гуля́л», А́нна пи́шет «я гуля́ла». Con **вы** siempre -ли, aunque sea una sola persona: Где вы бы́ли вчера́?\n\nFormas que hay que aprender: **есть → ел, е́ла, е́ли**; **пить → пил, пила́, пи́ли**; **жить → жил, жила́, жи́ли**; **спать → спал, спала́, спа́ли** (el femenino lleva el acento al final). **хоте́ть → хоте́л, хоте́ла, хоте́ли** es regular en pasado.\n\nPalabras de tiempo: **вчера́** (ayer), **позавчера́** (antier), **ра́ньше** (antes), **неде́лю наза́д** (hace una semana), **ме́сяц наза́д** (hace un mes), **год наза́д** (hace un año).\n\nPara comparar: **Ра́ньше… а сейча́с…** — Ра́ньше я жил в Москве́, а сейча́с живу́ в Ме́хико.",
+          "tables": [
+            {
+              "caption": "Pasado",
+              "headers": [
+                "infinitivo",
+                "он (m)",
+                "она́ (f)",
+                "оно́ (n)",
+                "они́ / мы / вы (pl)"
+              ],
+              "rows": [
+                [
+                  "гуля́ть",
+                  "гуля́л",
+                  "гуля́ла",
+                  "гуля́ло",
+                  "гуля́ли"
+                ],
+                [
+                  "за́втракать",
+                  "за́втракал",
+                  "за́втракала",
+                  "за́втракало",
+                  "за́втракали"
+                ],
+                [
+                  "ду́мать",
+                  "ду́мал",
+                  "ду́мала",
+                  "ду́мало",
+                  "ду́мали"
+                ],
+                [
+                  "слу́шать",
+                  "слу́шал",
+                  "слу́шала",
+                  "слу́шало",
+                  "слу́шали"
+                ],
+                [
+                  "хоте́ть",
+                  "хоте́л",
+                  "хоте́ла",
+                  "хоте́ло",
+                  "хоте́ли"
+                ],
+                [
+                  "есть",
+                  "ел",
+                  "е́ла",
+                  "е́ло",
+                  "е́ли"
+                ],
+                [
+                  "пить",
+                  "пил",
+                  "пила́",
+                  "пи́ло",
+                  "пи́ли"
+                ],
+                [
+                  "жить",
+                  "жил",
+                  "жила́",
+                  "жи́ло",
+                  "жи́ли"
+                ]
+              ]
+            },
+            {
+              "caption": "¿Cuándo?",
+              "headers": [
+                "ruso",
+                "español"
+              ],
+              "rows": [
+                [
+                  "вчера́",
+                  "ayer"
+                ],
+                [
+                  "позавчера́",
+                  "antier"
+                ],
+                [
+                  "ра́ньше",
+                  "antes"
+                ],
+                [
+                  "неде́лю наза́д",
+                  "hace una semana"
+                ],
+                [
+                  "ме́сяц наза́д",
+                  "hace un mes"
+                ],
+                [
+                  "год наза́д",
+                  "hace un año"
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "Вчера́ я весь день гуля́л.",
+              "es": "Ayer paseé todo el día. (habla un hombre)"
+            },
+            {
+              "ru": "У́тром Ни́на пила́ зелёный чай.",
+              "es": "En la mañana Nina tomó té verde."
+            },
+            {
+              "ru": "Мы у́жинали в рестора́не.",
+              "es": "Cenamos en un restaurante."
+            },
+            {
+              "ru": "Что вы е́ли на за́втрак?",
+              "es": "¿Qué desayunaron? (¿Qué comieron de desayuno?)"
+            },
+            {
+              "ru": "Ра́ньше я жила́ в Испа́нии, а сейча́с живу́ в Москве́.",
+              "es": "Antes vivía en España y ahora vivo en Moscú. (habla una mujer)"
+            },
+            {
+              "ru": "Вчера́ метро́ не рабо́тало.",
+              "es": "Ayer no funcionó el metro."
+            },
+            {
+              "ru": "Позавчера́ па́па гото́вил борщ.",
+              "es": "Antier papá preparó borscht."
+            },
+            {
+              "ru": "Год наза́д мы жи́ли в Ме́хико.",
+              "es": "Hace un año vivíamos en la Ciudad de México."
+            }
+          ],
+          "drill": {
+            "kind": "verb-conj",
+            "items": [
+              {
+                "base": "гуля́ть",
+                "forms": {
+                  "он": "гуля́л",
+                  "она́": "гуля́ла",
+                  "мы": "гуля́ли",
+                  "они́": "гуля́ли"
+                }
+              },
+              {
+                "base": "за́втракать",
+                "forms": {
+                  "он": "за́втракал",
+                  "она́": "за́втракала",
+                  "мы": "за́втракали",
+                  "они́": "за́втракали"
+                }
+              },
+              {
+                "base": "есть",
+                "forms": {
+                  "он": "ел",
+                  "она́": "е́ла",
+                  "мы": "е́ли",
+                  "они́": "е́ли"
+                }
+              },
+              {
+                "base": "пить",
+                "forms": {
+                  "он": "пил",
+                  "она́": "пила́",
+                  "мы": "пи́ли",
+                  "они́": "пи́ли"
+                }
+              },
+              {
+                "base": "жить",
+                "forms": {
+                  "он": "жил",
+                  "она́": "жила́",
+                  "мы": "жи́ли",
+                  "они́": "жи́ли"
+                }
+              },
+              {
+                "base": "ду́мать",
+                "forms": {
+                  "он": "ду́мал",
+                  "она́": "ду́мала",
+                  "мы": "ду́мали",
+                  "они́": "ду́мали"
+                }
+              },
+              {
+                "base": "слу́шать",
+                "forms": {
+                  "он": "слу́шал",
+                  "она́": "слу́шала",
+                  "мы": "слу́шали",
+                  "они́": "слу́шали"
+                }
+              },
+              {
+                "base": "хоте́ть",
+                "forms": {
+                  "он": "хоте́л",
+                  "она́": "хоте́ла",
+                  "мы": "хоте́ли",
+                  "они́": "хоте́ли"
+                }
+              },
+              {
+                "base": "смотре́ть",
+                "forms": {
+                  "он": "смотре́л",
+                  "она́": "смотре́ла",
+                  "мы": "смотре́ли",
+                  "они́": "смотре́ли"
+                }
+              },
+              {
+                "base": "гото́вить",
+                "forms": {
+                  "он": "гото́вил",
+                  "она́": "гото́вила",
+                  "мы": "гото́вили",
+                  "они́": "гото́вили"
+                }
+              },
+              {
+                "base": "люби́ть",
+                "forms": {
+                  "он": "люби́л",
+                  "она́": "люби́ла",
+                  "мы": "люби́ли",
+                  "они́": "люби́ли"
+                }
+              },
+              {
+                "base": "спать",
+                "forms": {
+                  "он": "спал",
+                  "она́": "спала́",
+                  "мы": "спа́ли",
+                  "они́": "спа́ли"
+                }
+              },
+              {
+                "base": "у́жинать",
+                "forms": {
+                  "я (Ли)": "у́жинал",
+                  "я (А́нна)": "у́жинала",
+                  "ты (Макс)": "у́жинал",
+                  "вы": "у́жинали"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "4.2-g-byt-past",
+          "title": "быть en pasado: был, была́, бы́ло, бы́ли — У меня́ был / была́…",
+          "explanationEs": "En presente, «estar» casi nunca se dice: **Я в Москве́.** En pasado sí aparece **быть**: **Я был в Москве́** (hombre) / **Я была́ в Москве́** (mujer).\n\n- **был** (m) · **была́** (f) · **бы́ло** (n) · **бы́ли** (pl, мы, вы)\n- Ojo con el acento: **была́** (al final), pero **бы́ло, бы́ли**.\n\n**Tener en pasado:** «У меня́ есть…» → **У меня́ был / была́ / бы́ло / бы́ли…**. Aquí el verbo concuerda con **la cosa que se tiene**, no con la persona:\n- У меня́ **был** кот. (кот — m)\n- У меня́ **была́** соба́ка. (соба́ка — f)\n- У меня́ **бы́ло** зе́ркало. (зе́ркало — n)\n- У меня́ **бы́ли** очки́. (очки́ — pl)\n\nPor eso: **У него́ была́ я́хта** (aunque «él» es masculino, я́хта es femenino).\n\nEn el restaurante: **Бы́ло вку́сно?** — ¿Estuvo rico? **Всё бы́ло о́чень вку́сно!** — ¡Todo estuvo muy rico!",
+          "tables": [
+            {
+              "caption": "быть: presente y pasado",
+              "headers": [
+                "presente",
+                "pasado"
+              ],
+              "rows": [
+                [
+                  "Я в Москве́.",
+                  "Я был (была́) в Москве́."
+                ],
+                [
+                  "У меня́ есть маши́на.",
+                  "У меня́ была́ маши́на."
+                ]
+              ]
+            },
+            {
+              "caption": "У меня́ был… (concuerda con la cosa)",
+              "headers": [
+                "género",
+                "pasado",
+                "ejemplo"
+              ],
+              "rows": [
+                [
+                  "m",
+                  "был",
+                  "У меня́ был кот."
+                ],
+                [
+                  "f",
+                  "была́",
+                  "У меня́ была́ соба́ка."
+                ],
+                [
+                  "n",
+                  "бы́ло",
+                  "У меня́ бы́ло зе́ркало."
+                ],
+                [
+                  "pl",
+                  "бы́ли",
+                  "У меня́ бы́ли очки́."
+                ]
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "ru": "Вчера́ мы бы́ли в теа́тре.",
+              "es": "Ayer estuvimos en el teatro."
+            },
+            {
+              "ru": "Где ты был вчера́, Макс?",
+              "es": "¿Dónde estuviste ayer, Max?"
+            },
+            {
+              "ru": "Моя́ ма́ма была́ до́ма.",
+              "es": "Mi mamá estaba en casa."
+            },
+            {
+              "ru": "Ра́ньше у него́ была́ я́хта.",
+              "es": "Antes él tenía un yate."
+            },
+            {
+              "ru": "У нас бы́ли биле́ты в теа́тр.",
+              "es": "Teníamos boletos para el teatro."
+            },
+            {
+              "ru": "Вчера́ у меня́ бы́ло свобо́дное вре́мя.",
+              "es": "Ayer tuve tiempo libre."
+            },
+            {
+              "ru": "Вчера́ у меня́ была́ температу́ра.",
+              "es": "Ayer tenía fiebre."
+            },
+            {
+              "ru": "Бы́ло вку́сно? — Да, всё бы́ло о́чень вку́сно!",
+              "es": "¿Estuvo rico? — ¡Sí, todo estuvo muy rico!"
+            }
+          ],
+          "drill": {
+            "kind": "verb-conj",
+            "items": [
+              {
+                "base": "быть",
+                "forms": {
+                  "он": "был",
+                  "она́": "была́",
+                  "мы": "бы́ли",
+                  "они́": "бы́ли"
+                }
+              },
+              {
+                "base": "быть",
+                "forms": {
+                  "я (Ли)": "был",
+                  "я (А́нна)": "была́",
+                  "ты (Макс)": "был",
+                  "ты (Ма́ша)": "была́",
+                  "вы": "бы́ли"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "vocab": [
+        {
+          "id": "4.2-v-blyudo",
+          "ru": "блю́до",
+          "es": "plato, platillo",
+          "pos": "noun",
+          "gender": "n",
+          "plural": "блю́да",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Како́е твоё люби́мое блю́до?",
+            "es": "¿Cuál es tu platillo favorito?"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-koronnoe-blyudo",
+          "ru": "коро́нное блю́до",
+          "es": "platillo estrella, especialidad",
+          "pos": "phrase",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Моё коро́нное блю́до — пельме́ни.",
+            "es": "Mi platillo estrella son los pelmeni."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-kukhnya",
+          "ru": "ку́хня",
+          "es": "cocina (comida de un país)",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Я о́чень люблю́ мексика́нскую ку́хню.",
+            "es": "Me encanta la cocina mexicana."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-zakaz",
+          "ru": "зака́з",
+          "es": "pedido, orden",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Спаси́бо за зака́з!",
+            "es": "¡Gracias por su pedido!"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-zakazat",
+          "ru": "заказа́ть",
+          "es": "pedir, ordenar (en un restaurante)",
+          "pos": "verb",
+          "conj": {
+            "type": "e",
+            "present": {
+              "я": "закажу́",
+              "ты": "зака́жешь",
+              "он": "зака́жет",
+              "мы": "зака́жем",
+              "вы": "зака́жете",
+              "они́": "зака́жут"
+            },
+            "past": {
+              "m": "заказа́л",
+              "f": "заказа́ла",
+              "n": "заказа́ло",
+              "pl": "заказа́ли"
+            },
+            "tense": "future"
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Вчера́ мы заказа́ли пи́ццу.",
+            "es": "Ayer pedimos pizza."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-zhelat",
+          "ru": "жела́ть",
+          "es": "desear",
+          "pos": "verb",
+          "conj": {
+            "type": "e",
+            "present": {
+              "я": "жела́ю",
+              "ты": "жела́ешь",
+              "он": "жела́ет",
+              "мы": "жела́ем",
+              "вы": "жела́ете",
+              "они́": "жела́ют"
+            },
+            "past": {
+              "m": "жела́л",
+              "f": "жела́ла",
+              "n": "жела́ло",
+              "pl": "жела́ли"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Каки́е напи́тки вы жела́ете?",
+            "es": "¿Qué bebidas desea?"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-schyot",
+          "ru": "счёт",
+          "es": "la cuenta",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Извини́те, счёт, пожа́луйста!",
+            "es": "Disculpe, ¡la cuenta, por favor!"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-gotov",
+          "ru": "гото́в",
+          "es": "listo",
+          "pos": "adj",
+          "forms": {
+            "m": "гото́в",
+            "f": "гото́ва",
+            "n": "гото́во",
+            "pl": "гото́вы"
+          },
+          "topic": "restaurante",
+          "example": {
+            "ru": "Вы гото́вы заказа́ть?",
+            "es": "¿Están listos para ordenar?"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-ya-budu",
+          "ru": "Я бу́ду…",
+          "es": "para mí… (al pedir)",
+          "pos": "phrase",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Я бу́ду ры́бу с карто́фелем.",
+            "es": "Para mí, el pescado con papas."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-mne-pozhalujsta",
+          "ru": "Мне, пожа́луйста, …",
+          "es": "para mí, por favor…",
+          "pos": "phrase",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Мне, пожа́луйста, чёрный чай с лимо́ном.",
+            "es": "Para mí un té negro con limón, por favor."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-khotel-by",
+          "ru": "хоте́л бы / хоте́ла бы",
+          "es": "quisiera (hombre / mujer)",
+          "pos": "phrase",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Я хоте́ла бы бе́лое вино́.",
+            "es": "Quisiera vino blanco."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-spasibo-za",
+          "ru": "спаси́бо за…",
+          "es": "gracias por… (+ acusativo)",
+          "pos": "phrase",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Спаси́бо за вку́сный у́жин!",
+            "es": "¡Gracias por la cena tan rica!"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-khotet",
+          "ru": "хоте́ть",
+          "es": "querer",
+          "pos": "verb",
+          "conj": {
+            "type": "irregular",
+            "present": {
+              "я": "хочу́",
+              "ты": "хо́чешь",
+              "он": "хо́чет",
+              "мы": "хоти́м",
+              "вы": "хоти́те",
+              "они́": "хотя́т"
+            },
+            "past": {
+              "m": "хоте́л",
+              "f": "хоте́ла",
+              "n": "хоте́ло",
+              "pl": "хоте́ли"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Мы хоти́м большу́ю пи́ццу.",
+            "es": "Queremos una pizza grande."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-itak",
+          "ru": "ита́к",
+          "es": "entonces, bueno (para resumir)",
+          "pos": "adv",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Ита́к, одна́ па́ста и одна́ ко́ла.",
+            "es": "Entonces: una pasta y una cola."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-eshchyo",
+          "ru": "ещё",
+          "es": "más, otro más; todavía",
+          "pos": "adv",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Ещё одну́ ко́лу, пожа́луйста!",
+            "es": "¡Otra cola, por favor!"
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-oficiantka",
+          "ru": "официа́нтка",
+          "es": "mesera",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Официа́нтка рабо́тает в кафе́ «Пу́шкин».",
+            "es": "La mesera trabaja en el café «Pushkin»."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-mineralnaya-voda",
+          "ru": "минера́льная вода́",
+          "es": "agua mineral",
+          "pos": "phrase",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Я бу́ду минера́льную во́ду без га́за.",
+            "es": "Para mí, agua mineral sin gas."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-so-ldom",
+          "ru": "со льдом",
+          "es": "con hielo",
+          "pos": "phrase",
+          "topic": "restaurante",
+          "example": {
+            "ru": "Ко́ла со льдом, пожа́луйста.",
+            "es": "Una cola con hielo, por favor."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-tyomnyj",
+          "ru": "тёмный",
+          "es": "oscuro",
+          "pos": "adj",
+          "forms": {
+            "m": "тёмный",
+            "f": "тёмная",
+            "n": "тёмное",
+            "pl": "тёмные"
+          },
+          "antonyms": [
+            "све́тлый"
+          ],
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Мой па́па не лю́бит тёмное пи́во.",
+            "es": "A mi papá no le gusta la cerveza oscura."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-svetlyj",
+          "ru": "све́тлый",
+          "es": "claro",
+          "pos": "adj",
+          "forms": {
+            "m": "све́тлый",
+            "f": "све́тлая",
+            "n": "све́тлое",
+            "pl": "све́тлые"
+          },
+          "antonyms": [
+            "тёмный"
+          ],
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Мне, пожа́луйста, све́тлое пи́во.",
+            "es": "Para mí una cerveza clara, por favor."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-rizotto",
+          "ru": "ризо́тто",
+          "es": "risotto",
+          "pos": "noun",
+          "gender": "n",
+          "topic": "comida",
+          "example": {
+            "ru": "Я бу́ду ризо́тто с гриба́ми.",
+            "es": "Para mí, el risotto con champiñones."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-gamburger",
+          "ru": "га́мбургер",
+          "es": "hamburguesa",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Фрэнк заказа́л га́мбургер.",
+            "es": "Frank pidió una hamburguesa."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-chizburger",
+          "ru": "чи́збургер",
+          "es": "hamburguesa con queso",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Ма́льчик хо́чет чи́збургер и ко́лу.",
+            "es": "El niño quiere una hamburguesa con queso y una cola."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-kartofel-fri",
+          "ru": "карто́фель фри",
+          "es": "papas a la francesa",
+          "pos": "phrase",
+          "topic": "comida",
+          "example": {
+            "ru": "Карто́фель фри с ке́тчупом, пожа́луйста.",
+            "es": "Papas a la francesa con cátsup, por favor."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-ketchup",
+          "ru": "ке́тчуп",
+          "es": "cátsup",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Де́ти всё едя́т с ке́тчупом.",
+            "es": "Los niños comen todo con cátsup."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-stejk",
+          "ru": "стейк",
+          "es": "bistec, filete",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Мы заказа́ли стейк без гарни́ра.",
+            "es": "Pedimos un bistec sin guarnición."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-tekila",
+          "ru": "теки́ла",
+          "es": "tequila",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "comida",
+          "example": {
+            "ru": "Теки́лу пьют с лимо́ном и со́лью.",
+            "es": "El tequila se toma con limón y sal."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-kislaya-kapusta",
+          "ru": "ки́слая капу́ста",
+          "es": "col agria, chucrut",
+          "pos": "phrase",
+          "topic": "comida",
+          "example": {
+            "ru": "Кла́ус заказа́л ры́бу и ки́слую капу́сту.",
+            "es": "Klaus pidió pescado y chucrut."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-grecheskij-salat",
+          "ru": "гре́ческий сала́т",
+          "es": "ensalada griega",
+          "pos": "phrase",
+          "topic": "comida",
+          "example": {
+            "ru": "Я бу́ду гре́ческий сала́т.",
+            "es": "Para mí, la ensalada griega."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-mocarella",
+          "ru": "моцаре́лла",
+          "es": "mozzarella",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "comida",
+          "example": {
+            "ru": "Я люблю́ сала́т с моцаре́ллой.",
+            "es": "Me gusta la ensalada con mozzarella."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-dzhem",
+          "ru": "джем",
+          "es": "mermelada",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "Блины́ с дже́мом, пожа́луйста.",
+            "es": "Crepas con mermelada, por favor."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-ragu",
+          "ru": "рагу́",
+          "es": "guisado (de verduras o carne)",
+          "pos": "noun",
+          "gender": "n",
+          "topic": "comida",
+          "example": {
+            "ru": "На обе́д у нас овощно́е рагу́.",
+            "es": "De comida tenemos guisado de verduras."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-pirog",
+          "ru": "пиро́г",
+          "es": "pay, pastel horneado (dulce o salado)",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "пироги́",
+          "topic": "comida",
+          "example": {
+            "ru": "Ба́бушка де́лает пироги́ с мя́сом.",
+            "es": "La abuela hace pays de carne."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-chizkejk",
+          "ru": "чизке́йк",
+          "es": "pay de queso (cheesecake)",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "comida",
+          "example": {
+            "ru": "На десе́рт я бу́ду чизке́йк.",
+            "es": "De postre, para mí el pay de queso."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-gribnoj",
+          "ru": "грибно́й",
+          "es": "de hongos, de champiñones",
+          "pos": "adj",
+          "forms": {
+            "m": "грибно́й",
+            "f": "грибна́я",
+            "n": "грибно́е",
+            "pl": "грибны́е"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Ба́бушка гото́вит грибно́й суп.",
+            "es": "La abuela prepara sopa de hongos."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-ovoshchnoj",
+          "ru": "овощно́й",
+          "es": "de verduras",
+          "pos": "adj",
+          "forms": {
+            "m": "овощно́й",
+            "f": "овощна́я",
+            "n": "овощно́е",
+            "pl": "овощны́е"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Мне, пожа́луйста, овощно́й сала́т.",
+            "es": "Para mí una ensalada de verduras, por favor."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-kurinyj",
+          "ru": "кури́ный",
+          "es": "de pollo",
+          "pos": "adj",
+          "forms": {
+            "m": "кури́ный",
+            "f": "кури́ная",
+            "n": "кури́ное",
+            "pl": "кури́ные"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Кури́ный суп о́чень поле́зный.",
+            "es": "La sopa de pollo es muy sana."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-fruktovyj",
+          "ru": "фрукто́вый",
+          "es": "de frutas",
+          "pos": "adj",
+          "forms": {
+            "m": "фрукто́вый",
+            "f": "фрукто́вая",
+            "n": "фрукто́вое",
+            "pl": "фрукто́вые"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "На десе́рт я бу́ду фрукто́вый сала́т.",
+            "es": "De postre, para mí la ensalada de frutas."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-yablochnyj",
+          "ru": "я́блочный",
+          "es": "de manzana",
+          "pos": "adj",
+          "forms": {
+            "m": "я́блочный",
+            "f": "я́блочная",
+            "n": "я́блочное",
+            "pl": "я́блочные"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Ма́ма гото́вит я́блочный пиро́г.",
+            "es": "Mamá prepara un pay de manzana."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-orekhovyj",
+          "ru": "оре́ховый",
+          "es": "de nuez",
+          "pos": "adj",
+          "forms": {
+            "m": "оре́ховый",
+            "f": "оре́ховая",
+            "n": "оре́ховое",
+            "pl": "оре́ховые"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Мы заказа́ли оре́ховый торт.",
+            "es": "Pedimos un pastel de nuez."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-shokoladnyj",
+          "ru": "шокола́дный",
+          "es": "de chocolate",
+          "pos": "adj",
+          "forms": {
+            "m": "шокола́дный",
+            "f": "шокола́дная",
+            "n": "шокола́дное",
+            "pl": "шокола́дные"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Я хочу́ шокола́дное моро́женое!",
+            "es": "¡Quiero helado de chocolate!"
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-vanilnyj",
+          "ru": "вани́льный",
+          "es": "de vainilla",
+          "pos": "adj",
+          "forms": {
+            "m": "вани́льный",
+            "f": "вани́льная",
+            "n": "вани́льное",
+            "pl": "вани́льные"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Вани́льное моро́женое, пожа́луйста.",
+            "es": "Helado de vainilla, por favor."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-shchi",
+          "ru": "щи",
+          "es": "shchi (sopa de col)",
+          "pos": "noun",
+          "gender": "pl",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Щи как борщ, то́лько без свёклы.",
+            "es": "El shchi es como el borscht, pero sin betabel."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-okroshka",
+          "ru": "окро́шка",
+          "es": "okroshka (sopa fría)",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Окро́шку де́лают на ква́се и́ли на кефи́ре.",
+            "es": "La okroshka se hace con kvas o con kéfir."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-salat-olive",
+          "ru": "сала́т «Оливье́»",
+          "es": "ensalada Olivier (ensalada rusa)",
+          "pos": "phrase",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "На Но́вый год все едя́т «Оливье́».",
+            "es": "En Año Nuevo todos comen ensalada Olivier."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-selyodka-pod-shuboj",
+          "ru": "селёдка под шу́бой",
+          "es": "arenque «bajo abrigo» (ensalada de capas)",
+          "pos": "phrase",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Моё коро́нное блю́до — селёдка под шу́бой.",
+            "es": "Mi platillo estrella es el arenque «bajo abrigo»."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-vinegret",
+          "ru": "винегре́т",
+          "es": "vinegret (ensalada de betabel)",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Винегре́т — э́то сала́т со свёклой.",
+            "es": "El vinegret es una ensalada con betabel."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-vareniki",
+          "ru": "варе́ники",
+          "es": "varéniki (empanaditas hervidas)",
+          "pos": "noun",
+          "gender": "pl",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Я бу́ду варе́ники с карто́фелем.",
+            "es": "Para mí, los varéniki de papa."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-grechnevaya-kasha",
+          "ru": "гре́чневая ка́ша",
+          "es": "kasha de alforfón",
+          "pos": "phrase",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Ру́сские ча́сто едя́т гре́чневую ка́шу.",
+            "es": "Los rusos comen seguido kasha de alforfón."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-tort-napoleon",
+          "ru": "торт «Наполео́н»",
+          "es": "pastel Napoleón (de hojaldre y crema)",
+          "pos": "phrase",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Ба́бушка гото́вит торт «Наполео́н».",
+            "es": "La abuela prepara un pastel Napoleón."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-smetana",
+          "ru": "смета́на",
+          "es": "crema agria (smetana)",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Ру́сские всё едя́т со смета́ной!",
+            "es": "¡Los rusos comen todo con crema agria!"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-ikra",
+          "ru": "икра́",
+          "es": "caviar, hueva de pescado",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Мы еди́м блины́ с икро́й.",
+            "es": "Comemos blinis con caviar."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-zelyonyj-goroshek",
+          "ru": "зелёный горо́шек",
+          "es": "chícharos",
+          "pos": "phrase",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "В «Оливье́» есть зелёный горо́шек.",
+            "es": "La ensalada Olivier lleva chícharos."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-solyonye-ogurcy",
+          "ru": "солёные огурцы́",
+          "es": "pepinillos en salmuera",
+          "pos": "phrase",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Де́душка лю́бит солёные огурцы́.",
+            "es": "Al abuelo le gustan los pepinillos en salmuera."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-petrushka",
+          "ru": "петру́шка",
+          "es": "perejil",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Я не люблю́ петру́шку.",
+            "es": "No me gusta el perejil."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-inostranec",
+          "ru": "иностра́нец",
+          "es": "extranjero",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "иностра́нцы",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Не все иностра́нцы лю́бят икру́.",
+            "es": "No a todos los extranjeros les gusta el caviar."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-nacionalnyj",
+          "ru": "национа́льный",
+          "es": "nacional",
+          "pos": "adj",
+          "forms": {
+            "m": "национа́льный",
+            "f": "национа́льная",
+            "n": "национа́льное",
+            "pl": "национа́льные"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Квас — национа́льный ру́сский напи́ток.",
+            "es": "El kvas es una bebida nacional rusa."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-izvestnyj",
+          "ru": "изве́стный",
+          "es": "famoso, conocido",
+          "pos": "adj",
+          "forms": {
+            "m": "изве́стный",
+            "f": "изве́стная",
+            "n": "изве́стное",
+            "pl": "изве́стные"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Пельме́ни — изве́стное ру́сское блю́до.",
+            "es": "Los pelmeni son un platillo ruso famoso."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-delikates",
+          "ru": "деликате́с",
+          "es": "manjar, platillo exquisito",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Икра́ — э́то ру́сский деликате́с.",
+            "es": "El caviar es un manjar ruso."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-produkt",
+          "ru": "проду́кт",
+          "es": "producto, alimento",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "проду́кты",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Икра́ — э́то дорого́й проду́кт.",
+            "es": "El caviar es un producto caro."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-ingredient",
+          "ru": "ингредие́нт",
+          "es": "ingrediente",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "ингредие́нты",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Ингредие́нты о́чень просты́е.",
+            "es": "Los ingredientes son muy sencillos."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-novyj-god",
+          "ru": "Но́вый год",
+          "es": "Año Nuevo",
+          "pos": "phrase",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Что вы еди́те на Но́вый год?",
+            "es": "¿Qué comen en Año Nuevo?"
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-strana",
+          "ru": "страна́",
+          "es": "país",
+          "pos": "noun",
+          "gender": "f",
+          "plural": "стра́ны",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Что едя́т у вас в стране́?",
+            "es": "¿Qué se come en su país?"
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-sporit",
+          "ru": "спо́рить",
+          "es": "discutir",
+          "pos": "verb",
+          "conj": {
+            "type": "i",
+            "present": {
+              "я": "спо́рю",
+              "ты": "спо́ришь",
+              "он": "спо́рит",
+              "мы": "спо́рим",
+              "вы": "спо́рите",
+              "они́": "спо́рят"
+            },
+            "past": {
+              "m": "спо́рил",
+              "f": "спо́рила",
+              "n": "спо́рило",
+              "pl": "спо́рили"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Мы с бра́том всегда́ спо́рим.",
+            "es": "Mi hermano y yo siempre discutimos."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-probovat",
+          "ru": "про́бовать",
+          "es": "probar",
+          "pos": "verb",
+          "conj": {
+            "type": "e",
+            "present": {
+              "я": "про́бую",
+              "ты": "про́буешь",
+              "он": "про́бует",
+              "мы": "про́буем",
+              "вы": "про́буете",
+              "они́": "про́буют"
+            },
+            "past": {
+              "m": "про́бовал",
+              "f": "про́бовала",
+              "n": "про́бовало",
+              "pl": "про́бовали"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Вы уже́ про́бовали борщ?",
+            "es": "¿Ya probó el borscht?"
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-tolko",
+          "ru": "то́лько",
+          "es": "solo, solamente",
+          "pos": "adv",
+          "topic": "cocina rusa",
+          "example": {
+            "ru": "Пельме́ни де́лают то́лько с мя́сом.",
+            "es": "Los pelmeni se hacen solo con carne."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-vchera",
+          "ru": "вчера́",
+          "es": "ayer",
+          "pos": "adv",
+          "topic": "tiempo",
+          "example": {
+            "ru": "Что ты де́лал вчера́?",
+            "es": "¿Qué hiciste ayer?"
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-pozavchera",
+          "ru": "позавчера́",
+          "es": "antier",
+          "pos": "adv",
+          "topic": "tiempo",
+          "example": {
+            "ru": "Позавчера́ я была́ в Ло́ндоне.",
+            "es": "Antier estuve en Londres."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-ranshe",
+          "ru": "ра́ньше",
+          "es": "antes",
+          "pos": "adv",
+          "antonyms": [
+            "сейча́с"
+          ],
+          "topic": "tiempo",
+          "example": {
+            "ru": "Ра́ньше я жил в Ме́ксике.",
+            "es": "Antes vivía en México."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-sejchas",
+          "ru": "сейча́с",
+          "es": "ahora",
+          "pos": "adv",
+          "antonyms": [
+            "ра́ньше"
+          ],
+          "topic": "tiempo",
+          "example": {
+            "ru": "А сейча́с я живу́ в Москве́.",
+            "es": "Y ahora vivo en Moscú."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-nazad",
+          "ru": "наза́д",
+          "es": "hace (tiempo): год наза́д",
+          "pos": "adv",
+          "topic": "tiempo",
+          "example": {
+            "ru": "Год наза́д мы бы́ли в Росси́и.",
+            "es": "Hace un año estuvimos en Rusia."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-mesyac",
+          "ru": "ме́сяц",
+          "es": "mes",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "tiempo",
+          "example": {
+            "ru": "Ме́сяц наза́д я был в Пари́же.",
+            "es": "Hace un mes estuve en París."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-svobodnoe-vremya",
+          "ru": "свобо́дное вре́мя",
+          "es": "tiempo libre",
+          "pos": "phrase",
+          "topic": "tiempo",
+          "example": {
+            "ru": "Вчера́ у меня́ бы́ло свобо́дное вре́мя.",
+            "es": "Ayer tuve tiempo libre."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-ves",
+          "ru": "весь",
+          "es": "todo (весь, вся, всё, все)",
+          "pos": "pron",
+          "forms": {
+            "m": "весь",
+            "f": "вся",
+            "n": "всё",
+            "pl": "все"
+          },
+          "topic": "tiempo",
+          "example": {
+            "ru": "Вчера́ я весь день гуля́л.",
+            "es": "Ayer paseé todo el día."
+          },
+          "fromSlovar": true,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-spektakl",
+          "ru": "спекта́кль",
+          "es": "función, obra de teatro",
+          "pos": "noun",
+          "gender": "m",
+          "topic": "tiempo",
+          "example": {
+            "ru": "Ве́чером мы бы́ли на спекта́кле.",
+            "es": "En la noche fuimos a la función."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-klassicheskij",
+          "ru": "класси́ческий",
+          "es": "clásico",
+          "pos": "adj",
+          "forms": {
+            "m": "класси́ческий",
+            "f": "класси́ческая",
+            "n": "класси́ческое",
+            "pl": "класси́ческие"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Я слу́шал ру́сскую класси́ческую му́зыку.",
+            "es": "Escuché música clásica rusa."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-vazhnyj",
+          "ru": "ва́жный",
+          "es": "importante",
+          "pos": "adj",
+          "forms": {
+            "m": "ва́жный",
+            "f": "ва́жная",
+            "n": "ва́жное",
+            "pl": "ва́жные"
+          },
+          "topic": "adjetivos",
+          "example": {
+            "ru": "Я пишу́ ва́жное письмо́.",
+            "es": "Escribo una carta importante."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-bolet",
+          "ru": "боле́ть",
+          "es": "estar enfermo",
+          "pos": "verb",
+          "conj": {
+            "type": "e",
+            "present": {
+              "я": "боле́ю",
+              "ты": "боле́ешь",
+              "он": "боле́ет",
+              "мы": "боле́ем",
+              "вы": "боле́ете",
+              "они́": "боле́ют"
+            },
+            "past": {
+              "m": "боле́л",
+              "f": "боле́ла",
+              "n": "боле́ло",
+              "pl": "боле́ли"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Вчера́ я боле́ла и была́ до́ма.",
+            "es": "Ayer estuve enferma y me quedé en casa."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-pomogat",
+          "ru": "помога́ть",
+          "es": "ayudar",
+          "pos": "verb",
+          "conj": {
+            "type": "e",
+            "present": {
+              "я": "помога́ю",
+              "ты": "помога́ешь",
+              "он": "помога́ет",
+              "мы": "помога́ем",
+              "вы": "помога́ете",
+              "они́": "помога́ют"
+            },
+            "past": {
+              "m": "помога́л",
+              "f": "помога́ла",
+              "n": "помога́ло",
+              "pl": "помога́ли"
+            }
+          },
+          "topic": "verbos",
+          "example": {
+            "ru": "Ра́ньше па́па помога́л мне гото́вить.",
+            "es": "Antes papá me ayudaba a cocinar."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-temperatura",
+          "ru": "температу́ра",
+          "es": "temperatura, fiebre",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "tiempo",
+          "example": {
+            "ru": "Вчера́ у меня́ была́ температу́ра.",
+            "es": "Ayer tenía fiebre."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-problema",
+          "ru": "пробле́ма",
+          "es": "problema",
+          "pos": "noun",
+          "gender": "f",
+          "plural": "пробле́мы",
+          "topic": "tiempo",
+          "example": {
+            "ru": "Вчера́ у нас бы́ли пробле́мы.",
+            "es": "Ayer tuvimos problemas."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-vopros",
+          "ru": "вопро́с",
+          "es": "pregunta",
+          "pos": "noun",
+          "gender": "m",
+          "plural": "вопро́сы",
+          "topic": "tiempo",
+          "example": {
+            "ru": "У тебя́ есть вопро́сы?",
+            "es": "¿Tienes preguntas?"
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-vegetarianka",
+          "ru": "вегетариа́нка",
+          "es": "vegetariana",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "comida",
+          "example": {
+            "ru": "Сейча́с она́ вегетариа́нка.",
+            "es": "Ahora es vegetariana."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        },
+        {
+          "id": "4.2-v-koshka",
+          "ru": "ко́шка",
+          "es": "gata, gato",
+          "pos": "noun",
+          "gender": "f",
+          "topic": "tiempo",
+          "example": {
+            "ru": "Ра́ньше у него́ была́ чёрная ко́шка.",
+            "es": "Antes tenía una gata negra."
+          },
+          "fromSlovar": false,
+          "sneak": false
+        }
+      ],
+      "phrases": [
+        {
+          "ru": "Вы гото́вы заказа́ть?",
+          "es": "¿Están listos para ordenar?",
+          "noteEs": "Lo pregunta el mesero. гото́в / гото́ва / гото́вы."
+        },
+        {
+          "ru": "Каки́е напи́тки жела́ете?",
+          "es": "¿Qué desean tomar?",
+          "noteEs": "Literalmente: «¿Qué bebidas desean?»"
+        },
+        {
+          "ru": "Что вы бу́дете пить?",
+          "es": "¿Qué van a tomar?"
+        },
+        {
+          "ru": "Я бу́ду па́сту с морепроду́ктами.",
+          "es": "Para mí, la pasta con mariscos.",
+          "noteEs": "Я бу́ду + acusativo: la forma más común de pedir."
+        },
+        {
+          "ru": "Мне, пожа́луйста, чёрный чай.",
+          "es": "Para mí un té negro, por favor."
+        },
+        {
+          "ru": "Я хоте́л бы эспре́ссо.",
+          "es": "Quisiera un espresso.",
+          "noteEs": "Una mujer dice: Я хоте́ла бы…"
+        },
+        {
+          "ru": "Э́то всё?",
+          "es": "¿Es todo?"
+        },
+        {
+          "ru": "Да, всё пра́вильно.",
+          "es": "Sí, todo está bien."
+        },
+        {
+          "ru": "Спаси́бо за зака́з!",
+          "es": "¡Gracias por su pedido!"
+        },
+        {
+          "ru": "Бы́ло вку́сно?",
+          "es": "¿Estuvo rico?"
+        },
+        {
+          "ru": "Всё бы́ло о́чень вку́сно!",
+          "es": "¡Todo estuvo muy rico!"
+        },
+        {
+          "ru": "Счёт, пожа́луйста!",
+          "es": "¡La cuenta, por favor!"
+        }
+      ],
+      "sentences": [
+        {
+          "ru": "Я бу́ду минера́льную во́ду без га́за.",
+          "es": "Para mí, agua mineral sin gas.",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-g-khotet"
+          ]
+        },
+        {
+          "ru": "Мне, пожа́луйста, чёрный чай с лимо́ном.",
+          "es": "Para mí un té negro con limón, por favor.",
+          "tags": [
+            "4.2-g-khotet"
+          ]
+        },
+        {
+          "ru": "Кла́ус ест бе́лую ры́бу и ки́слую капу́сту.",
+          "es": "Klaus come pescado blanco y chucrut.",
+          "tags": [
+            "4.2-g-acc-adj"
+          ]
+        },
+        {
+          "ru": "Каку́ю ку́хню вы предпочита́ете?",
+          "es": "¿Qué cocina prefiere?",
+          "tags": [
+            "4.2-g-acc-adj"
+          ]
+        },
+        {
+          "ru": "Я о́чень люблю́ мексика́нскую ку́хню.",
+          "es": "Me encanta la cocina mexicana.",
+          "tags": [
+            "4.2-g-acc-adj"
+          ]
+        },
+        {
+          "ru": "Ты зна́ешь мою́ но́вую подру́гу?",
+          "es": "¿Conoces a mi nueva amiga?",
+          "tags": [
+            "4.2-g-acc-poss",
+            "4.2-g-acc-adj"
+          ]
+        },
+        {
+          "ru": "Ещё одну́ ко́лу, пожа́луйста!",
+          "es": "¡Otra cola, por favor!",
+          "tags": [
+            "4.2-g-acc-poss"
+          ]
+        },
+        {
+          "ru": "Мы хоти́м большу́ю кварти́ру.",
+          "es": "Queremos un departamento grande.",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-g-acc-adj"
+          ]
+        },
+        {
+          "ru": "Де́ти не хотя́т пить молоко́.",
+          "es": "Los niños no quieren tomar leche.",
+          "tags": [
+            "4.2-g-khotet"
+          ]
+        },
+        {
+          "ru": "Я хоте́ла бы бе́лое вино́.",
+          "es": "Quisiera vino blanco.",
+          "tags": [
+            "4.2-g-khotet"
+          ]
+        },
+        {
+          "ru": "Вы гото́вы заказа́ть?",
+          "es": "¿Están listos para ordenar?",
+          "tags": [
+            "4.2-g-khotet"
+          ]
+        },
+        {
+          "ru": "Вчера́ я весь день гуля́л.",
+          "es": "Ayer paseé todo el día.",
+          "tags": [
+            "4.2-g-past"
+          ]
+        },
+        {
+          "ru": "У́тром Ли за́втракал в кафе́ в це́нтре.",
+          "es": "En la mañana Li desayunó en un café del centro.",
+          "tags": [
+            "4.2-g-past"
+          ]
+        },
+        {
+          "ru": "Он ел блины́ с икро́й.",
+          "es": "Comió blinis con caviar.",
+          "tags": [
+            "4.2-g-past"
+          ]
+        },
+        {
+          "ru": "Ве́чером мы бы́ли на спекта́кле.",
+          "es": "En la noche fuimos a la función.",
+          "tags": [
+            "4.2-g-byt-past"
+          ]
+        },
+        {
+          "ru": "Ра́ньше я жила́ в Испа́нии, а сейча́с живу́ в Москве́.",
+          "es": "Antes vivía en España y ahora vivo en Moscú.",
+          "tags": [
+            "4.2-g-past"
+          ]
+        },
+        {
+          "ru": "Ра́ньше у него́ была́ я́хта.",
+          "es": "Antes él tenía un yate.",
+          "tags": [
+            "4.2-g-byt-past"
+          ]
+        },
+        {
+          "ru": "Вчера́ у меня́ была́ температу́ра.",
+          "es": "Ayer tenía fiebre.",
+          "tags": [
+            "4.2-g-byt-past"
+          ]
+        },
+        {
+          "ru": "Вчера́ метро́ не рабо́тало.",
+          "es": "Ayer no funcionó el metro.",
+          "tags": [
+            "4.2-g-past"
+          ]
+        },
+        {
+          "ru": "Что вы е́ли на за́втрак?",
+          "es": "¿Qué desayunaron?",
+          "tags": [
+            "4.2-g-past"
+          ]
+        },
+        {
+          "ru": "Год наза́д мы жи́ли в Ме́хико.",
+          "es": "Hace un año vivíamos en la Ciudad de México.",
+          "tags": [
+            "4.2-g-past"
+          ]
+        },
+        {
+          "ru": "Ру́сские всё едя́т со смета́ной.",
+          "es": "Los rusos comen todo con crema agria.",
+          "tags": [
+            "4.2-v-smetana"
+          ]
+        },
+        {
+          "ru": "Щи как борщ, то́лько без свёклы.",
+          "es": "El shchi es como el borscht, pero sin betabel.",
+          "tags": [
+            "4.2-v-shchi"
+          ]
+        },
+        {
+          "ru": "Окро́шку де́лают на ква́се и́ли на кефи́ре.",
+          "es": "La okroshka se hace con kvas o con kéfir.",
+          "tags": [
+            "4.2-v-okroshka"
+          ]
+        },
+        {
+          "ru": "Ра́ньше па́па помога́л мне гото́вить.",
+          "es": "Antes papá me ayudaba a cocinar.",
+          "tags": [
+            "4.2-g-past",
+            "4.2-v-pomogat"
+          ]
+        },
+        {
+          "ru": "Вы уже́ про́бовали гре́чневую ка́шу?",
+          "es": "¿Ya probó la kasha de alforfón?",
+          "tags": [
+            "4.2-g-past",
+            "4.2-g-acc-adj"
+          ]
+        },
+        {
+          "ru": "Что едя́т у вас в стране́?",
+          "es": "¿Qué se come en su país?",
+          "tags": [
+            "4.2-v-strana"
+          ]
+        },
+        {
+          "ru": "Э́то изве́стное ру́сское блю́до.",
+          "es": "Es un platillo ruso famoso.",
+          "tags": [
+            "4.2-v-izvestnyj",
+            "4.2-v-blyudo"
+          ]
+        },
+        {
+          "ru": "Мы с бра́том всегда́ спо́рим.",
+          "es": "Mi hermano y yo siempre discutimos.",
+          "tags": [
+            "4.2-v-sporit"
+          ]
+        },
+        {
+          "ru": "Спаси́бо за вку́сный у́жин!",
+          "es": "¡Gracias por la cena tan rica!",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-v-spasibo-za"
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "id": "4.2-r-1",
+          "title": "В рестора́не",
+          "textRu": "Вчера́ ве́чером Фрэнк, Кла́ус и Джова́нни у́жинали в рестора́не. Они́ чита́ли меню́ и до́лго ду́мали. Джова́нни заказа́л минера́льную во́ду без га́за, Кла́ус — чёрный чай с лимо́ном, а Фрэнк — ко́ка-ко́лу со льдом. Пото́м они́ заказа́ли еду́. Джова́нни ел па́сту с морепроду́ктами и пил бе́лое вино́. Кла́ус ел бе́лую ры́бу с карто́фелем и ки́слую капу́сту. Он пил пи́во — коне́чно, све́тлое, не тёмное. А Фрэнк ел га́мбургер и карто́фель фри с ке́тчупом и заказа́л ещё одну́ ко́лу. Всё бы́ло о́чень вку́сно!",
+          "textEs": "Ayer en la noche Frank, Klaus y Giovanni cenaron en un restaurante. Leyeron el menú y lo pensaron mucho. Giovanni pidió agua mineral sin gas; Klaus, té negro con limón, y Frank, coca-cola con hielo. Luego pidieron la comida. Giovanni comió pasta con mariscos y tomó vino blanco. Klaus comió pescado blanco con papas y chucrut. Tomó cerveza: clara, por supuesto, no oscura. Y Frank comió una hamburguesa y papas a la francesa con cátsup, y pidió otra cola. ¡Todo estuvo muy rico!",
+          "questions": [
+            {
+              "q": "Где у́жинали друзья́?",
+              "qEs": "¿Dónde cenaron los amigos?",
+              "choices": [
+                "В рестора́не",
+                "До́ма",
+                "В теа́тре"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Что пил Джова́нни?",
+              "qEs": "¿Qué tomó Giovanni?",
+              "choices": [
+                "Минера́льную во́ду и бе́лое вино́",
+                "Чёрный чай с лимо́ном",
+                "Ко́ка-ко́лу со льдом"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Что ел Кла́ус?",
+              "qEs": "¿Qué comió Klaus?",
+              "choices": [
+                "Бе́лую ры́бу и ки́слую капу́сту",
+                "Па́сту с морепроду́ктами",
+                "Га́мбургер и карто́фель фри"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Како́е пи́во пил Кла́ус?",
+              "qEs": "¿Qué cerveza tomó Klaus?",
+              "choices": [
+                "Све́тлое",
+                "Тёмное",
+                "Он не пил пи́во"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Что ещё заказа́л Фрэнк?",
+              "qEs": "¿Qué más pidió Frank?",
+              "choices": [
+                "Ещё одну́ ко́лу",
+                "Бе́лое вино́",
+                "Чёрный чай"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "4.2-r-2",
+          "title": "Письмо́ Ли",
+          "textRu": "Приве́т, Джа́о!\nКак ты? Как дела́ до́ма? У меня́ всё отли́чно. Вчера́ я не рабо́тал: у меня́ бы́ло свобо́дное вре́мя, и я весь день гуля́л. У́тром я за́втракал в кафе́ в це́нтре. Я ел ка́шу и блины́ с икро́й и пил зелёный чай с лимо́ном. Я не знал, что блины́ — э́то так вку́сно! Пото́м я был в Третьяко́вской галере́е. Э́то большо́й и о́чень интере́сный музе́й, и я был там до́лго. Днём я обе́дал в рестора́не «Пу́шкин» с Жа́ном и его́ де́вушкой А́нной. А́нна — балери́на, она́ танцу́ет в теа́тре. Ве́чером мы все бы́ли на её спекта́кле. Я слу́шал ру́сскую класси́ческую му́зыку и ду́мал: как э́то краси́во!\nВот и все но́вости. Пиши́!\nТвой друг Ли",
+          "textEs": "¡Hola, Zhao!\n¿Cómo estás? ¿Cómo van las cosas en casa? Yo estoy muy bien. Ayer no trabajé: tuve tiempo libre y paseé todo el día. En la mañana desayuné en un café del centro. Comí kasha y blinis con caviar y tomé té verde con limón. ¡No sabía que los blinis eran tan ricos! Luego fui a la Galería Tretiakov. Es un museo grande y muy interesante, y estuve ahí mucho tiempo. A mediodía comí en el restaurante «Pushkin» con Jean y su novia Anna. Anna es bailarina, baila en el teatro. En la noche fuimos todos a su función. Escuché música clásica rusa y pensé: ¡qué bonito es esto!\nEsas son todas las noticias. ¡Escríbeme!\nTu amigo Li",
+          "questions": [
+            {
+              "q": "Где Ли за́втракал?",
+              "qEs": "¿Dónde desayunó Li?",
+              "choices": [
+                "В кафе́ в це́нтре",
+                "До́ма",
+                "В рестора́не «Пу́шкин»"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Что он пил на за́втрак?",
+              "qEs": "¿Qué tomó de desayuno?",
+              "choices": [
+                "Зелёный чай с лимо́ном",
+                "Чёрный ко́фе",
+                "Апельси́новый сок"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "С кем Ли обе́дал?",
+              "qEs": "¿Con quién comió Li?",
+              "choices": [
+                "С Жа́ном и А́нной",
+                "С Джа́о",
+                "С ма́мой"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Кто А́нна по профе́ссии?",
+              "qEs": "¿Qué profesión tiene Anna?",
+              "choices": [
+                "Балери́на",
+                "Официа́нтка",
+                "Гид"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Где они́ бы́ли ве́чером?",
+              "qEs": "¿Dónde estuvieron en la noche?",
+              "choices": [
+                "На спекта́кле",
+                "В музе́е",
+                "В кафе́"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Что Ли слу́шал?",
+              "qEs": "¿Qué escuchó Li?",
+              "choices": [
+                "Ру́сскую класси́ческую му́зыку",
+                "Джаз",
+                "Рок"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "4.2-r-3",
+          "title": "Что едя́т ру́сские?",
+          "textRu": "Иностра́нцы обы́чно зна́ют, что тако́е борщ. Э́то горя́чий кра́сный суп со свёклой, карто́фелем, морко́вью и мя́сом. Ру́сские и украи́нцы ча́сто спо́рят, чей э́то национа́льный суп. Борщ едя́т со смета́ной — и не то́лько борщ: ру́сские всё едя́т со смета́ной и́ли с майоне́зом!\nЕщё оди́н люби́мый суп — щи. Щи как борщ, то́лько без свёклы: борщ кра́сный, а щи зелёные.\nНа Но́вый год ка́ждая ру́сская семья́ ест сала́т «Оливье́». Вы то́же его́ зна́ете: э́то «ру́сский сала́т». Ингредие́нты о́чень просты́е: карто́фель, морко́вь, зелёный горо́шек, я́йца, солёные огурцы́ и мя́со. Со́ус то́же просто́й — майоне́з с петру́шкой.\nОкро́шка — э́то холо́дный суп с карто́фелем, огурца́ми, я́йцами и реди́сом. Её де́лают на ква́се и́ли на кефи́ре.\nПельме́ни — э́то ру́сские равио́ли с мя́сом. Их то́же едя́т со смета́ной.\nА ру́сский деликате́с — э́то, коне́чно, икра́: кра́сная и чёрная. С икро́й ру́сские едя́т блины́ и́ли бутербро́ды. Икра́ — дорого́й проду́кт, и её едя́т ре́дко.",
+          "textEs": "Los extranjeros normalmente saben qué es el borscht. Es una sopa roja y caliente con betabel, papa, zanahoria y carne. Los rusos y los ucranianos discuten seguido de quién es esta sopa nacional. El borscht se come con crema agria, y no solo el borscht: ¡los rusos comen todo con crema agria o con mayonesa!\nOtra sopa favorita es el shchi. El shchi es como el borscht, pero sin betabel: el borscht es rojo y el shchi, verde.\nEn Año Nuevo cada familia rusa come ensalada Olivier. Ustedes también la conocen: es la «ensalada rusa». Los ingredientes son muy sencillos: papa, zanahoria, chícharos, huevos, pepinillos en salmuera y carne. El aderezo también es sencillo: mayonesa con perejil.\nLa okroshka es una sopa fría con papa, pepino, huevo y rábano. Se hace con kvas o con kéfir.\nLos pelmeni son los raviolis rusos de carne. También se comen con crema agria.\nY el manjar ruso es, claro, el caviar: rojo y negro. Con caviar los rusos comen blinis o sándwiches. El caviar es un producto caro y se come poco.",
+          "questions": [
+            {
+              "q": "Что тако́е борщ?",
+              "qEs": "¿Qué es el borscht?",
+              "choices": [
+                "Горя́чий суп со свёклой",
+                "Холо́дный суп на ква́се",
+                "Сала́т с майоне́зом"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "С чем едя́т борщ?",
+              "qEs": "¿Con qué se come el borscht?",
+              "choices": [
+                "Со смета́ной",
+                "С ке́тчупом",
+                "С икро́й"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Како́го цве́та щи?",
+              "qEs": "¿De qué color es el shchi?",
+              "choices": [
+                "Зелёные",
+                "Кра́сные",
+                "Бе́лые"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Что едя́т на Но́вый год?",
+              "qEs": "¿Qué se come en Año Nuevo?",
+              "choices": [
+                "Сала́т «Оливье́»",
+                "Гре́ческий сала́т",
+                "Га́мбургеры"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Окро́шка — э́то како́й суп?",
+              "qEs": "¿Qué tipo de sopa es la okroshka?",
+              "choices": [
+                "Холо́дный",
+                "Горя́чий",
+                "Кра́сный"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Почему́ икру́ едя́т ре́дко?",
+              "qEs": "¿Por qué se come poco caviar?",
+              "choices": [
+                "Э́то дорого́й проду́кт",
+                "Ру́сские не лю́бят икру́",
+                "Икра́ — э́то суп"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "4.2-x-01",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Ко́ла со льдом",
+            "Ко́ла с лимо́ном",
+            "Апельси́новый сок"
+          ],
+          "answer": 0,
+          "explanationEs": "Hay mucho hielo en el vaso y nada de limón: ко́ла **со льдом** (с + instrumental: лёд → со льдом).",
+          "es": "Cola con hielo.",
+          "image": "img/scenes/4-2-kola-so-ldom.jpg",
+          "tags": [
+            "4.2-v-so-ldom"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-02",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué pide Klaus? «Я бу́ду…»",
+          "sentence": "Я бу́ду ___.",
+          "choices": [
+            "Тёмное пи́во",
+            "Све́тлое пи́во",
+            "Бе́лое вино́"
+          ],
+          "answer": 0,
+          "explanationEs": "La cerveza es casi negra: **тёмное пи́во** (cerveza oscura); la clara es **све́тлое пи́во**. Пи́во es neutro: en acusativo no cambia.",
+          "es": "Para mí, una cerveza oscura.",
+          "image": "img/scenes/4-2-tyomnoe-pivo.jpg",
+          "tags": [
+            "4.2-v-tyomnyj",
+            "4.2-v-svetlyj",
+            "4.2-g-acc-adj"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-03",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué pide ella? «Я бу́ду…»",
+          "sentence": "Я бу́ду ___.",
+          "choices": [
+            "Минера́льную во́ду",
+            "Горя́чий шокола́д",
+            "Кра́сное вино́"
+          ],
+          "answer": 0,
+          "explanationEs": "Agua mineral con burbujas. Con «Я бу́ду» va acusativo: минера́льная вода́ → **минера́льную во́ду**.",
+          "es": "Para mí, agua mineral.",
+          "image": "img/scenes/4-2-mineralnaya-voda.jpg",
+          "tags": [
+            "4.2-v-mineralnaya-voda",
+            "4.2-g-acc-adj",
+            "4.2-g-khotet"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-04",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Па́ста с морепроду́ктами",
+            "Ризо́тто с гриба́ми",
+            "Пельме́ни со смета́ной"
+          ],
+          "answer": 0,
+          "explanationEs": "Camarones y mejillones: **па́ста с морепроду́ктами** (con mariscos). El ризо́тто es de arroz.",
+          "es": "Pasta con mariscos.",
+          "image": "img/scenes/4-2-pasta-s-moreproduktami.jpg",
+          "tags": [
+            "4.2-v-rizotto"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-05",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Ры́ба с карто́фелем",
+            "Ры́ба с сала́том",
+            "Ку́рица с ри́сом"
+          ],
+          "answer": 0,
+          "explanationEs": "Pescado con papas: **ры́ба с карто́фелем** (карто́фель → с карто́фелем).",
+          "es": "Pescado con papas.",
+          "image": "img/scenes/4-2-ryba-s-kartofelem.jpg",
+          "tags": [],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-06",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué come el niño?",
+          "sentence": "Ма́льчик ест ___.",
+          "choices": [
+            "Га́мбургер и карто́фель фри",
+            "Блины́ с мёдом",
+            "Гре́ческий сала́т"
+          ],
+          "answer": 0,
+          "explanationEs": "Hamburguesa con papas y cátsup (ке́тчуп): **га́мбургер и карто́фель фри**. Son masculinos: en acusativo no cambian.",
+          "es": "El niño come una hamburguesa y papas a la francesa.",
+          "image": "img/scenes/4-2-gamburger-i-fri.jpg",
+          "tags": [
+            "4.2-v-gamburger",
+            "4.2-v-kartofel-fri",
+            "4.2-v-ketchup"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-07",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué come la niña?",
+          "sentence": "Де́вочка ест ___.",
+          "choices": [
+            "Шокола́дное моро́женое",
+            "Вани́льное моро́женое",
+            "Фрукто́вый сала́т"
+          ],
+          "answer": 0,
+          "explanationEs": "El helado es café oscuro: **шокола́дное** (de chocolate). Моро́женое es neutro: шокола́дное моро́женое.",
+          "es": "La niña come helado de chocolate.",
+          "image": "img/scenes/4-2-shokoladnoe-morozhenoe.jpg",
+          "tags": [
+            "4.2-v-shokoladnyj",
+            "4.2-v-vanilnyj"
+          ],
+          "origin": "textbook p.84 ex.3 (adapted)"
+        },
+        {
+          "id": "4.2-x-08",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué prepara la abuela?",
+          "sentence": "Ба́бушка гото́вит ___.",
+          "choices": [
+            "Я́блочный пиро́г",
+            "Грибно́й суп",
+            "Овощно́е рагу́"
+          ],
+          "answer": 0,
+          "explanationEs": "Un pay con manzanas: **я́блочный пиро́г** (я́блоко → я́блочный).",
+          "es": "La abuela prepara un pay de manzana.",
+          "image": "img/scenes/4-2-yablochnyj-pirog.jpg",
+          "tags": [
+            "4.2-v-yablochnyj",
+            "4.2-v-pirog"
+          ],
+          "origin": "workbook p.75 ex.1А (adapted)"
+        },
+        {
+          "id": "4.2-x-09",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Пельме́ни со смета́ной",
+            "Блины́ с икро́й",
+            "Борщ со смета́ной"
+          ],
+          "answer": 0,
+          "explanationEs": "Empanaditas rusas con crema agria: **пельме́ни со смета́ной**.",
+          "es": "Pelmeni con crema agria.",
+          "image": "img/scenes/4-2-pelmeni-so-smetanoj.jpg",
+          "tags": [
+            "4.2-v-smetana"
+          ],
+          "origin": "textbook p.87 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-10",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Блины́ с икро́й",
+            "Блины́ с мёдом",
+            "Бутербро́д с сы́ром"
+          ],
+          "answer": 0,
+          "explanationEs": "Las bolitas anaranjadas son caviar rojo: **блины́ с икро́й** (икра́ → с икро́й).",
+          "es": "Blinis con caviar.",
+          "image": "img/scenes/4-2-bliny-s-ikroj.jpg",
+          "tags": [
+            "4.2-v-ikra"
+          ],
+          "origin": "textbook p.87 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-11",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hay en la imagen?",
+          "sentence": "Что э́то? ___",
+          "choices": [
+            "Борщ со смета́ной",
+            "Окро́шка",
+            "Гре́ческий сала́т"
+          ],
+          "answer": 0,
+          "explanationEs": "Sopa roja de betabel: **борщ**, y los rusos la comen **со смета́ной**.",
+          "es": "Borscht con crema agria.",
+          "image": "img/scenes/4-2-borshch-so-smetanoj.jpg",
+          "tags": [
+            "4.2-v-smetana"
+          ],
+          "origin": "textbook p.87 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-12",
+          "type": "fill_choice",
+          "instructionEs": "Antes, el millonario tenía… (Ра́ньше у него́ была́…)",
+          "sentence": "Ра́ньше у него́ была́ ___.",
+          "choices": [
+            "Чёрная ко́шка",
+            "Бе́лая соба́ка",
+            "Кра́сная маши́на"
+          ],
+          "answer": 0,
+          "explanationEs": "Una gata negra: **Ра́ньше у него́ была́ чёрная ко́шка.** El verbo concuerda con ко́шка (femenino): была́.",
+          "es": "Antes tenía una gata negra.",
+          "image": "img/scenes/4-2-millioner-koshka.jpg",
+          "tags": [
+            "4.2-v-koshka",
+            "4.2-g-byt-past"
+          ],
+          "origin": "textbook p.86 ex.6 (adapted)"
+        },
+        {
+          "id": "4.2-x-13",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hizo Li ayer? (Вчера́ Ли…)",
+          "sentence": "Вчера́ Ли ___.",
+          "choices": [
+            "Гуля́л в па́рке",
+            "Спал до́ма",
+            "Рабо́тал в о́фисе"
+          ],
+          "answer": 0,
+          "explanationEs": "Li camina por el parque: **гуля́л** (гуля́ть → гуля́л, masculino).",
+          "es": "Ayer Li paseó por el parque.",
+          "image": "img/scenes/4-2-gulyal-v-parke.jpg",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "textbook p.85 ex.4 (adapted)"
+        },
+        {
+          "id": "4.2-x-14",
+          "type": "fill_choice",
+          "instructionEs": "¿Qué hicieron ayer en la noche? (Вчера́ ве́чером они́…)",
+          "sentence": "Вчера́ ве́чером они́ ___.",
+          "choices": [
+            "У́жинали в рестора́не",
+            "Игра́ли в футбо́л",
+            "Смотре́ли телеви́зор"
+          ],
+          "answer": 0,
+          "explanationEs": "Una cena con velas: **у́жинали** (plural: -ли).",
+          "es": "Ayer en la noche cenaron en un restaurante.",
+          "image": "img/scenes/4-2-uzhinali-v-restorane.jpg",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "workbook p.77 ex.3Б (adapted)"
+        },
+        {
+          "id": "4.2-x-15",
+          "type": "fill_choice",
+          "instructionEs": "¿Por qué Max no fue a trabajar? (Макс не был на рабо́те, потому́ что…)",
+          "sentence": "Макс не был на рабо́те, потому́ что ___.",
+          "choices": [
+            "Он боле́л",
+            "Он был в теа́тре",
+            "Он игра́л в те́ннис"
+          ],
+          "answer": 0,
+          "explanationEs": "Está en cama con termómetro: **он боле́л** (боле́ть = estar enfermo).",
+          "es": "Max no fue a trabajar porque estaba enfermo.",
+          "image": "img/scenes/4-2-bolel.jpg",
+          "tags": [
+            "4.2-v-bolet",
+            "4.2-g-past"
+          ],
+          "origin": "workbook p.78 ex.3В (adapted)"
+        },
+        {
+          "id": "4.2-x-16",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Я бу́ду ___ во́ду без га́за.",
+          "choices": [
+            "минера́льную",
+            "минера́льная",
+            "минера́льной"
+          ],
+          "answer": 0,
+          "explanationEs": "Я бу́ду + acusativo; femenino -ая → **-ую**: минера́льную во́ду.",
+          "es": "Para mí, agua mineral sin gas.",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-v-ya-budu"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-17",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "___ ку́хню вы предпочита́ете?",
+          "choices": [
+            "Каку́ю",
+            "Кака́я",
+            "Како́й"
+          ],
+          "answer": 0,
+          "explanationEs": "Ку́хня es femenino y aquí es objeto directo: кака́я → **каку́ю**.",
+          "es": "¿Qué cocina prefiere?",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-v-kukhnya"
+          ],
+          "origin": "workbook p.78 ex.5 (adapted)"
+        },
+        {
+          "id": "4.2-x-18",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ма́ртин ест бе́лую ры́бу и ___ капу́сту.",
+          "choices": [
+            "ки́слую",
+            "ки́слая",
+            "ки́слый"
+          ],
+          "answer": 0,
+          "explanationEs": "Ки́слая капу́ста → **ки́слую капу́сту** (acusativo femenino).",
+          "es": "Martin come pescado blanco y chucrut.",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-v-kislaya-kapusta"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-19",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мой муж не лю́бит ___ пи́во.",
+          "choices": [
+            "тёмное",
+            "тёмную",
+            "тёмный"
+          ],
+          "answer": 0,
+          "explanationEs": "Пи́во es neutro: el adjetivo neutro no cambia en acusativo → **тёмное** пи́во.",
+          "es": "A mi esposo no le gusta la cerveza oscura.",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-v-tyomnyj"
+          ],
+          "origin": "workbook p.79 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-20",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Квас — э́то ___ ру́сский напи́ток.",
+          "choices": [
+            "национа́льный",
+            "национа́льная",
+            "национа́льное"
+          ],
+          "answer": 0,
+          "explanationEs": "Напи́ток es masculino → **национа́льный** напи́ток.",
+          "es": "El kvas es una bebida nacional rusa.",
+          "tags": [
+            "4.2-v-nacionalnyj"
+          ],
+          "origin": "textbook p.87 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-21",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ты зна́ешь ___ но́вую подру́гу?",
+          "choices": [
+            "мою́",
+            "моя́",
+            "мой"
+          ],
+          "answer": 0,
+          "explanationEs": "Подру́га (f) en acusativo: моя́ но́вая → **мою́ но́вую** подру́гу.",
+          "es": "¿Conoces a mi nueva amiga?",
+          "tags": [
+            "4.2-g-acc-poss",
+            "4.2-g-acc-adj"
+          ],
+          "origin": "textbook p.83 ex.2 (adapted)"
+        },
+        {
+          "id": "4.2-x-22",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Мне, пожа́луйста, ___ ко́ка-ко́лу.",
+          "choices": [
+            "одну́",
+            "одна́",
+            "оди́н"
+          ],
+          "answer": 0,
+          "explanationEs": "Одна́ ко́ла → **одну́** ко́ка-ко́лу (acusativo después de «Мне, пожа́луйста»).",
+          "es": "Para mí una coca-cola, por favor.",
+          "tags": [
+            "4.2-g-acc-poss",
+            "4.2-v-mne-pozhalujsta"
+          ],
+          "origin": "workbook p.76 ex.2А (adapted)"
+        },
+        {
+          "id": "4.2-x-23",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Э́то Жан. Ты зна́ешь ___ де́вушку А́нну?",
+          "choices": [
+            "его́",
+            "её",
+            "их"
+          ],
+          "answer": 0,
+          "explanationEs": "La novia de Jean (él) → **его́** де́вушку. Его́, её, их nunca cambian.",
+          "es": "Este es Jean. ¿Conoces a su novia Anna?",
+          "tags": [
+            "4.2-g-acc-poss"
+          ],
+          "origin": "textbook p.85 ex.4 (adapted)"
+        },
+        {
+          "id": "4.2-x-24",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ита́к: одна́ па́ста с морепроду́ктами и ___ ко́ла.",
+          "choices": [
+            "одна́",
+            "одну́",
+            "оди́н"
+          ],
+          "answer": 0,
+          "explanationEs": "El mesero repite la orden como una lista, sin verbo: va en **nominativo** → одна́ ко́ла. Con «Я бу́ду…» sería одну́.",
+          "es": "Entonces: una pasta con mariscos y una cola.",
+          "tags": [
+            "4.2-g-acc-poss",
+            "4.2-v-itak"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-25",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Что вы ___?",
+          "choices": [
+            "хоти́те",
+            "хо́чете",
+            "хоте́те"
+          ],
+          "answer": 0,
+          "explanationEs": "Вы → **хоти́те**. El plural de хоте́ть es como un verbo en -и: хоти́м, хоти́те, хотя́т.",
+          "es": "¿Qué desea?",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-v-khotet"
+          ],
+          "origin": "workbook p.76 ex.2Б (adapted)"
+        },
+        {
+          "id": "4.2-x-26",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Де́ти не ___ пить молоко́.",
+          "choices": [
+            "хотя́т",
+            "хо́чут",
+            "хо́чет"
+          ],
+          "answer": 0,
+          "explanationEs": "Они́ → **хотя́т**.",
+          "es": "Los niños no quieren tomar leche.",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-v-khotet"
+          ],
+          "origin": "workbook p.76 ex.2Б (adapted)"
+        },
+        {
+          "id": "4.2-x-27",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Вы ___ заказа́ть?",
+          "choices": [
+            "гото́вы",
+            "гото́в",
+            "гото́ва"
+          ],
+          "answer": 0,
+          "explanationEs": "Con **вы** siempre plural: Вы **гото́вы**? (aunque sea una sola persona).",
+          "es": "¿Están listos para ordenar?",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-v-gotov"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-28",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Де́ти, у́жин уже́ ___!",
+          "choices": [
+            "гото́в",
+            "гото́ва",
+            "гото́во"
+          ],
+          "answer": 0,
+          "explanationEs": "У́жин es masculino → **гото́в**.",
+          "es": "¡Niños, la cena ya está lista!",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-v-gotov"
+          ],
+          "origin": "workbook p.79 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-29",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Вчера́ А́нна весь день ___.",
+          "choices": [
+            "гуля́ла",
+            "гуля́л",
+            "гуля́ли"
+          ],
+          "answer": 0,
+          "explanationEs": "А́нна es mujer → **-ла**: гуля́ла.",
+          "es": "Ayer Anna paseó todo el día.",
+          "tags": [
+            "4.2-g-past",
+            "4.2-v-ves"
+          ],
+          "origin": "textbook p.85 ex.4 (adapted)"
+        },
+        {
+          "id": "4.2-x-30",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Вы уже́ ___ борщ?",
+          "choices": [
+            "про́бовали",
+            "про́бовал",
+            "про́бовала"
+          ],
+          "answer": 0,
+          "explanationEs": "Con **вы** el pasado siempre termina en **-ли**, aunque sea una sola persona: Вы про́бовали?",
+          "es": "¿Ya probó el borscht?",
+          "tags": [
+            "4.2-g-past",
+            "4.2-v-probovat"
+          ],
+          "origin": "textbook p.87 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-31",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Вчера́ метро́ не ___.",
+          "choices": [
+            "рабо́тало",
+            "рабо́тал",
+            "рабо́тала"
+          ],
+          "answer": 0,
+          "explanationEs": "Метро́ es neutro → **-ло**: рабо́тало.",
+          "es": "Ayer no funcionó el metro.",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "workbook p.78 ex.3В (adapted)"
+        },
+        {
+          "id": "4.2-x-32",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ра́ньше Ната́ша ___ мя́со, а сейча́с она́ вегетариа́нка.",
+          "choices": [
+            "е́ла",
+            "ест",
+            "е́ли"
+          ],
+          "answer": 0,
+          "explanationEs": "Ра́ньше → pasado; Ната́ша → femenino: **е́ла** (есть → ел, е́ла, е́ли).",
+          "es": "Antes Natasha comía carne, y ahora es vegetariana.",
+          "tags": [
+            "4.2-g-past",
+            "4.2-v-ranshe",
+            "4.2-v-vegetarianka"
+          ],
+          "origin": "textbook p.86 ex.5Б (adapted)"
+        },
+        {
+          "id": "4.2-x-33",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Вчера́ у меня́ ___ температу́ра.",
+          "choices": [
+            "была́",
+            "был",
+            "бы́ло"
+          ],
+          "answer": 0,
+          "explanationEs": "El verbo concuerda con lo que se tiene: температу́ра (f) → **была́**.",
+          "es": "Ayer tenía fiebre.",
+          "tags": [
+            "4.2-g-byt-past",
+            "4.2-v-temperatura"
+          ],
+          "origin": "workbook p.78 ex.3В (adapted)"
+        },
+        {
+          "id": "4.2-x-34",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ра́ньше у неё ___ большо́й дом.",
+          "choices": [
+            "был",
+            "была́",
+            "бы́ло"
+          ],
+          "answer": 0,
+          "explanationEs": "No importa que sea «ella»: дом es masculino → **был**.",
+          "es": "Antes ella tenía una casa grande.",
+          "tags": [
+            "4.2-g-byt-past"
+          ],
+          "origin": "textbook p.86 ex.6 (adapted)"
+        },
+        {
+          "id": "4.2-x-35",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Извини́те, ___, пожа́луйста!",
+          "choices": [
+            "счёт",
+            "блю́до",
+            "иностра́нец"
+          ],
+          "answer": 0,
+          "explanationEs": "Para pedir la cuenta: **Счёт, пожа́луйста!**",
+          "es": "Disculpe, ¡la cuenta, por favor!",
+          "tags": [
+            "4.2-v-schyot"
+          ],
+          "origin": "workbook p.79 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-36",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Моё ___ — селёдка под шу́бой.",
+          "choices": [
+            "коро́нное блю́до",
+            "свобо́дное вре́мя",
+            "ки́слая капу́ста"
+          ],
+          "answer": 0,
+          "explanationEs": "**Коро́нное блю́до** = el platillo que mejor te sale, tu especialidad.",
+          "es": "Mi platillo estrella es el arenque «bajo abrigo».",
+          "tags": [
+            "4.2-v-koronnoe-blyudo",
+            "4.2-v-selyodka-pod-shuboj"
+          ],
+          "origin": "workbook p.79 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-37",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Не все ___ лю́бят икру́.",
+          "choices": [
+            "иностра́нцы",
+            "блю́да",
+            "проду́кты"
+          ],
+          "answer": 0,
+          "explanationEs": "**Иностра́нцы** = los extranjeros (personas que pueden «amar» algo).",
+          "es": "No a todos los extranjeros les gusta el caviar.",
+          "tags": [
+            "4.2-v-inostranec",
+            "4.2-v-ikra"
+          ],
+          "origin": "workbook p.79 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-38",
+          "type": "fill_choice",
+          "instructionEs": "Elige la opción correcta",
+          "sentence": "Ра́ньше я не люби́л ру́сскую ку́хню, а ___ люблю́.",
+          "choices": [
+            "сейча́с",
+            "вчера́",
+            "позавчера́"
+          ],
+          "answer": 0,
+          "explanationEs": "**Ра́ньше…, а сейча́с…** = antes…, y ahora… (люблю́ está en presente).",
+          "es": "Antes no me gustaba la cocina rusa, y ahora me gusta.",
+          "tags": [
+            "4.2-v-sejchas",
+            "4.2-v-ranshe"
+          ],
+          "origin": "textbook p.87 «Что я зна́ю?» (adapted)"
+        },
+        {
+          "id": "4.2-x-39",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Я пью ___ во́ду.",
+          "answers": [
+            "минера́льную"
+          ],
+          "hint": "минера́льная",
+          "explanationEs": "Femenino -ая → **-ую**: минера́льную во́ду.",
+          "es": "Tomo agua mineral.",
+          "tags": [
+            "4.2-g-acc-adj"
+          ],
+          "origin": "workbook p.76 ex.2А (adapted)"
+        },
+        {
+          "id": "4.2-x-40",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Ру́сские ча́сто едя́т ___ ка́шу.",
+          "answers": [
+            "гре́чневую"
+          ],
+          "hint": "гре́чневая",
+          "explanationEs": "Гре́чневая ка́ша → **гре́чневую** ка́шу.",
+          "es": "Los rusos comen seguido kasha de alforfón.",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-v-grechnevaya-kasha"
+          ],
+          "origin": "textbook p.87 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-41",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Я ненави́жу ___ икру́.",
+          "answers": [
+            "кра́сную"
+          ],
+          "hint": "кра́сная",
+          "explanationEs": "Кра́сная икра́ → **кра́сную** икру́ (ojo: икра́ → икру́).",
+          "es": "Odio el caviar rojo.",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-v-ikra"
+          ],
+          "origin": "workbook p.76 ex.2В (adapted)"
+        },
+        {
+          "id": "4.2-x-42",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Ма́ма хорошо́ гото́вит италья́нскую ___.",
+          "answers": [
+            "па́сту"
+          ],
+          "hint": "па́ста",
+          "explanationEs": "Sustantivo femenino en -а → **-у**: па́сту.",
+          "es": "Mamá cocina muy bien la pasta italiana.",
+          "tags": [
+            "4.2-g-acc-adj"
+          ],
+          "origin": "workbook p.76 ex.2В (adapted)"
+        },
+        {
+          "id": "4.2-x-43",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Мне, пожа́луйста, ___ ры́бу с карто́фелем.",
+          "answers": [
+            "бе́лую"
+          ],
+          "hint": "бе́лая",
+          "explanationEs": "Бе́лая ры́ба → **бе́лую** ры́бу.",
+          "es": "Para mí pescado blanco con papas, por favor.",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-v-mne-pozhalujsta"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-44",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Мы хоти́м ___ маши́ну.",
+          "answers": [
+            "си́нюю"
+          ],
+          "hint": "си́няя",
+          "explanationEs": "Femenino -яя → **-юю**: си́няя → си́нюю.",
+          "es": "Queremos un carro azul.",
+          "tags": [
+            "4.2-g-acc-adj"
+          ],
+          "origin": "textbook p.83 ex.2 (adapted)"
+        },
+        {
+          "id": "4.2-x-45",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Я слу́шал ру́сскую ___ му́зыку.",
+          "answers": [
+            "класси́ческую"
+          ],
+          "hint": "класси́ческая",
+          "explanationEs": "Му́зыка (f) → класси́ческую.",
+          "es": "Escuché música clásica rusa.",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-v-klassicheskij"
+          ],
+          "origin": "textbook p.85 ex.4 (adapted)"
+        },
+        {
+          "id": "4.2-x-46",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Я бу́ду ___ сала́т.",
+          "answers": [
+            "гре́ческий"
+          ],
+          "hint": "гре́ческий",
+          "explanationEs": "Сала́т es masculino: el adjetivo no cambia → **гре́ческий** сала́т.",
+          "es": "Para mí, la ensalada griega.",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-v-grecheskij-salat"
+          ],
+          "origin": "textbook p.84 ex.3 (adapted)"
+        },
+        {
+          "id": "4.2-x-47",
+          "type": "fill_typed",
+          "instructionEs": "Forma el adjetivo",
+          "sentence": "суп с гриба́ми = ___ суп",
+          "answers": [
+            "грибно́й"
+          ],
+          "hint": "гриб → ?",
+          "explanationEs": "Суп с гриба́ми = **грибно́й** суп (con acento al final: -о́й).",
+          "es": "Sopa de hongos.",
+          "tags": [
+            "4.2-v-gribnoj"
+          ],
+          "origin": "workbook p.75 ex.1А (adapted)"
+        },
+        {
+          "id": "4.2-x-48",
+          "type": "fill_typed",
+          "instructionEs": "Forma el adjetivo",
+          "sentence": "моро́женое с шокола́дом = ___ моро́женое",
+          "answers": [
+            "шокола́дное"
+          ],
+          "hint": "шокола́д → ?",
+          "explanationEs": "Моро́женое es neutro: **шокола́дное** моро́женое.",
+          "es": "Helado de chocolate.",
+          "tags": [
+            "4.2-v-shokoladnyj"
+          ],
+          "origin": "workbook p.75 ex.1А (adapted)"
+        },
+        {
+          "id": "4.2-x-49",
+          "type": "fill_typed",
+          "instructionEs": "Forma el adjetivo",
+          "sentence": "рагу́ с овоща́ми = ___ рагу́",
+          "answers": [
+            "овощно́е"
+          ],
+          "hint": "о́вощи → ?",
+          "explanationEs": "Рагу́ es neutro: **овощно́е** рагу́.",
+          "es": "Guisado de verduras.",
+          "tags": [
+            "4.2-v-ovoshchnoj",
+            "4.2-v-ragu"
+          ],
+          "origin": "workbook p.75 ex.1А (adapted)"
+        },
+        {
+          "id": "4.2-x-50",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Ты зна́ешь ___ тётю?",
+          "answers": [
+            "мою́"
+          ],
+          "hint": "моя́",
+          "explanationEs": "Тётя (f) → **мою́** тётю.",
+          "es": "¿Conoces a mi tía?",
+          "tags": [
+            "4.2-g-acc-poss"
+          ],
+          "origin": "textbook p.83 ex.2 (adapted)"
+        },
+        {
+          "id": "4.2-x-51",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Ещё ___ ко́лу, пожа́луйста!",
+          "answers": [
+            "одну́"
+          ],
+          "hint": "одна́",
+          "explanationEs": "Одна́ ко́ла → ещё **одну́** ко́лу.",
+          "es": "¡Otra cola, por favor!",
+          "tags": [
+            "4.2-g-acc-poss",
+            "4.2-v-eshchyo"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-52",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Вы зна́ете ___ ба́бушку?",
+          "answers": [
+            "на́шу"
+          ],
+          "hint": "на́ша",
+          "explanationEs": "На́ша → **на́шу**.",
+          "es": "¿Conoce a nuestra abuela?",
+          "tags": [
+            "4.2-g-acc-poss"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "4.2-x-53",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Ма́ма, я о́чень люблю́ ___ ку́хню!",
+          "answers": [
+            "твою́"
+          ],
+          "hint": "твоя́",
+          "explanationEs": "Твоя́ → **твою́** ку́хню.",
+          "es": "¡Mamá, me encanta tu comida!",
+          "tags": [
+            "4.2-g-acc-poss",
+            "4.2-v-kukhnya"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "4.2-x-54",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Сего́дня я не ___ рабо́тать.",
+          "answers": [
+            "хочу́"
+          ],
+          "hint": "хоте́ть",
+          "explanationEs": "Я → **хочу́** (хоте́ть + infinitivo).",
+          "es": "Hoy no quiero trabajar.",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-v-khotet"
+          ],
+          "origin": "workbook p.76 ex.2Б (adapted)"
+        },
+        {
+          "id": "4.2-x-55",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Мы ___ большу́ю пи́ццу.",
+          "answers": [
+            "хоти́м"
+          ],
+          "hint": "хоте́ть",
+          "explanationEs": "Мы → **хоти́м**.",
+          "es": "Queremos una pizza grande.",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-v-khotet"
+          ],
+          "origin": "workbook p.76 ex.2Б (adapted)"
+        },
+        {
+          "id": "4.2-x-56",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Кла́ус: «Сейча́с я живу́ в Швейца́рии, а ра́ньше я ___ в Москве́»",
+          "answers": [
+            "жил"
+          ],
+          "hint": "жить",
+          "explanationEs": "Klaus es hombre → **жил**.",
+          "es": "Klaus: «Ahora vivo en Suiza, pero antes vivía en Moscú».",
+          "tags": [
+            "4.2-g-past",
+            "4.2-v-ranshe"
+          ],
+          "origin": "textbook p.86 ex.5Б (adapted)"
+        },
+        {
+          "id": "4.2-x-57",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Ра́ньше де́ти не ___ ка́шу, а сейча́с лю́бят.",
+          "answers": [
+            "люби́ли"
+          ],
+          "hint": "люби́ть",
+          "explanationEs": "Де́ти (plural) → **люби́ли**.",
+          "es": "Antes a los niños no les gustaba la kasha, y ahora sí.",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "textbook p.86 ex.5Б (adapted)"
+        },
+        {
+          "id": "4.2-x-58",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Ра́ньше мой муж не ___ су́ши, а сейча́с ест.",
+          "answers": [
+            "ел"
+          ],
+          "hint": "есть",
+          "explanationEs": "Есть → **ел** (m), е́ла, е́ли.",
+          "es": "Antes mi esposo no comía sushi, y ahora sí.",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "textbook p.86 ex.5Б (adapted)"
+        },
+        {
+          "id": "4.2-x-59",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Ра́ньше мы всегда́ ___ до́ма, а сейча́с ча́сто обе́даем в рестора́не.",
+          "answers": [
+            "обе́дали"
+          ],
+          "hint": "обе́дать",
+          "explanationEs": "Мы → **-ли**: обе́дали.",
+          "es": "Antes siempre comíamos en casa, y ahora comemos seguido en restaurantes.",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "textbook p.86 ex.5Б (adapted)"
+        },
+        {
+          "id": "4.2-x-60",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "У́тром Ни́на ___ зелёный чай с лимо́ном.",
+          "answers": [
+            "пила́"
+          ],
+          "hint": "пить",
+          "explanationEs": "Пить → пил, **пила́** (acento al final), пи́ли.",
+          "es": "En la mañana Nina tomó té verde con limón.",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "textbook p.85 ex.4 (adapted)"
+        },
+        {
+          "id": "4.2-x-61",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Позавчера́ на у́жин мы ___ стейк без гарни́ра.",
+          "answers": [
+            "заказа́ли"
+          ],
+          "hint": "заказа́ть",
+          "explanationEs": "Мы → **заказа́ли**.",
+          "es": "Antier de cena pedimos un bistec sin guarnición.",
+          "tags": [
+            "4.2-g-past",
+            "4.2-v-zakazat",
+            "4.2-v-pozavchera",
+            "4.2-v-stejk"
+          ],
+          "origin": "workbook p.77 ex.2Д (adapted)"
+        },
+        {
+          "id": "4.2-x-62",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Вчера́ он весь день ___ на дива́не.",
+          "answers": [
+            "лежа́л"
+          ],
+          "hint": "лежа́ть",
+          "explanationEs": "Он → **лежа́л**.",
+          "es": "Ayer estuvo acostado en el sofá todo el día.",
+          "tags": [
+            "4.2-g-past",
+            "4.2-v-ves"
+          ],
+          "origin": "workbook p.78 ex.3В (adapted)"
+        },
+        {
+          "id": "4.2-x-63",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Вчера́ у него́ ___ свобо́дное вре́мя.",
+          "answers": [
+            "бы́ло"
+          ],
+          "hint": "быть",
+          "explanationEs": "Вре́мя es neutro → **бы́ло**.",
+          "es": "Ayer tuvo tiempo libre.",
+          "tags": [
+            "4.2-g-byt-past",
+            "4.2-v-svobodnoe-vremya"
+          ],
+          "origin": "workbook p.77 ex.3А (adapted)"
+        },
+        {
+          "id": "4.2-x-64",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Вчера́ мы ___ в теа́тре.",
+          "answers": [
+            "бы́ли"
+          ],
+          "hint": "быть",
+          "explanationEs": "Мы → **бы́ли**.",
+          "es": "Ayer estuvimos en el teatro.",
+          "tags": [
+            "4.2-g-byt-past"
+          ],
+          "origin": "workbook p.77 ex.3А (adapted)"
+        },
+        {
+          "id": "4.2-x-65",
+          "type": "fill_typed",
+          "instructionEs": "Completa la frase",
+          "sentence": "Ме́сяц ___ я был в Пари́же.",
+          "answers": [
+            "наза́д"
+          ],
+          "hint": "hace",
+          "explanationEs": "**Ме́сяц наза́д** = hace un mes.",
+          "es": "Hace un mes estuve en París.",
+          "tags": [
+            "4.2-v-nazad",
+            "4.2-v-mesyac"
+          ],
+          "origin": "textbook p.85 ex.5А (adapted)"
+        },
+        {
+          "id": "4.2-x-66",
+          "type": "fill_typed",
+          "instructionEs": "Escribe la forma correcta",
+          "sentence": "Теки́лу пьют с лимо́ном и ___.",
+          "answers": [
+            "со́лью"
+          ],
+          "hint": "соль",
+          "explanationEs": "Repaso de с + instrumental: соль → с **со́лью**.",
+          "es": "El tequila se toma con limón y sal.",
+          "tags": [
+            "4.2-v-tekila"
+          ],
+          "origin": "workbook p.76 ex.2Г (adapted)"
+        },
+        {
+          "id": "4.2-x-67",
+          "type": "conjugate",
+          "instructionEs": "Conjuga «хоте́ть» (querer)",
+          "verb": "хоте́ть",
+          "pronouns": [
+            "я",
+            "ты",
+            "он",
+            "мы",
+            "вы",
+            "они́"
+          ],
+          "answers": [
+            "хочу́",
+            "хо́чешь",
+            "хо́чет",
+            "хоти́м",
+            "хоти́те",
+            "хотя́т"
+          ],
+          "explanationEs": "Хочу́, хо́чешь, хо́чет (con ч) — хоти́м, хоти́те, хотя́т (con т).",
+          "es": "Querer: quiero, quieres, quiere, queremos, quieren, quieren",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-v-khotet"
+          ],
+          "origin": "textbook p.83"
+        },
+        {
+          "id": "4.2-x-68",
+          "type": "conjugate",
+          "instructionEs": "Pasado de «пить» (beber)",
+          "verb": "пить",
+          "pronouns": [
+            "я (Ли)",
+            "я (А́нна)",
+            "мы",
+            "вы"
+          ],
+          "answers": [
+            "пил",
+            "пила́",
+            "пи́ли",
+            "пи́ли"
+          ],
+          "explanationEs": "Я y ты toman el género de quien habla: Li → пил, Anna → **пила́**. Мы y вы → пи́ли.",
+          "es": "Li: tomé · Anna: tomé · tomamos · tomaron",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "textbook p.85 ex.5А (adapted)"
+        },
+        {
+          "id": "4.2-x-69",
+          "type": "conjugate",
+          "instructionEs": "Pasado de «есть» (comer)",
+          "verb": "есть",
+          "pronouns": [
+            "он",
+            "она́",
+            "мы",
+            "они́"
+          ],
+          "answers": [
+            "ел",
+            "е́ла",
+            "е́ли",
+            "е́ли"
+          ],
+          "explanationEs": "Есть → ел, е́ла, е́ли.",
+          "es": "Comió (él) · comió (ella) · comimos · comieron",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "textbook p.85 ex.5А (adapted)"
+        },
+        {
+          "id": "4.2-x-70",
+          "type": "conjugate",
+          "instructionEs": "Pasado de «быть»",
+          "verb": "быть",
+          "pronouns": [
+            "он",
+            "она́",
+            "оно́",
+            "они́"
+          ],
+          "answers": [
+            "был",
+            "была́",
+            "бы́ло",
+            "бы́ли"
+          ],
+          "explanationEs": "Был, **была́** (acento al final), бы́ло, бы́ли.",
+          "es": "Estuvo (él) · estuvo (ella) · estuvo (neutro) · estuvieron",
+          "tags": [
+            "4.2-g-byt-past"
+          ],
+          "origin": "textbook p.85 ex.5А (adapted)"
+        },
+        {
+          "id": "4.2-x-71",
+          "type": "match",
+          "instructionEs": "Une cada platillo con su traducción",
+          "pairs": [
+            [
+              "грибно́й суп",
+              "sopa de hongos"
+            ],
+            [
+              "овощно́й сала́т",
+              "ensalada de verduras"
+            ],
+            [
+              "кури́ный суп",
+              "sopa de pollo"
+            ],
+            [
+              "я́блочный пиро́г",
+              "pay de manzana"
+            ],
+            [
+              "оре́ховый торт",
+              "pastel de nuez"
+            ]
+          ],
+          "explanationEs": "Adjetivos de comida: гриб → грибно́й, о́вощи → овощно́й, ку́рица → кури́ный, я́блоко → я́блочный, оре́хи → оре́ховый.",
+          "es": "Грибно́й суп = sopa de hongos · овощно́й сала́т = ensalada de verduras · кури́ный суп = sopa de pollo · я́блочный пиро́г = pay de manzana · оре́ховый торт = pastel de nuez",
+          "tags": [
+            "4.2-v-gribnoj",
+            "4.2-v-ovoshchnoj",
+            "4.2-v-kurinyj",
+            "4.2-v-yablochnyj",
+            "4.2-v-orekhovyj"
+          ],
+          "origin": "workbook p.75 ex.1А (adapted)"
+        },
+        {
+          "id": "4.2-x-72",
+          "type": "match",
+          "instructionEs": "Une cada pregunta con su respuesta",
+          "pairs": [
+            [
+              "Что бу́дете пить?",
+              "Апельси́новый сок со льдом."
+            ],
+            [
+              "Э́то всё?",
+              "Нет, ещё я хочу́ чёрный ко́фе."
+            ],
+            [
+              "Где ты жил ра́ньше?",
+              "В Пари́же."
+            ],
+            [
+              "Каку́ю ку́хню вы предпочита́ете?",
+              "Кита́йскую."
+            ],
+            [
+              "Како́е твоё люби́мое блю́до?",
+              "Пельме́ни."
+            ],
+            [
+              "Ты сего́дня за́втракал?",
+              "Я никогда́ не за́втракаю."
+            ]
+          ],
+          "explanationEs": "Каку́ю ку́хню? → Кита́йскую (acusativo femenino). Где ты жил? → В Пари́же.",
+          "es": "¿Qué va a tomar? — Jugo de naranja con hielo. · ¿Es todo? — No, también quiero un café negro. · ¿Dónde vivías antes? — En París. · ¿Qué cocina prefiere? — La china. · ¿Cuál es tu platillo favorito? — Los pelmeni. · ¿Desayunaste hoy? — Nunca desayuno.",
+          "tags": [
+            "4.2-g-past",
+            "4.2-g-acc-adj"
+          ],
+          "origin": "workbook p.78 ex.5 (adapted)"
+        },
+        {
+          "id": "4.2-x-73",
+          "type": "match",
+          "instructionEs": "Une cada palabra de la cocina rusa con su descripción",
+          "pairs": [
+            [
+              "щи",
+              "sopa de col, sin betabel"
+            ],
+            [
+              "окро́шка",
+              "sopa fría con kvas o kéfir"
+            ],
+            [
+              "пельме́ни",
+              "«raviolis» rusos de carne"
+            ],
+            [
+              "икра́",
+              "caviar"
+            ],
+            [
+              "смета́на",
+              "crema agria"
+            ],
+            [
+              "селёдка под шу́бой",
+              "arenque con capas de verduras"
+            ]
+          ],
+          "explanationEs": "Todo esto aparece en el texto «Что едя́т ру́сские?».",
+          "es": "Щи = sopa de col · окро́шка = sopa fría · пельме́ни = raviolis rusos · икра́ = caviar · смета́на = crema agria · селёдка под шу́бой = arenque «bajo abrigo»",
+          "tags": [
+            "4.2-v-shchi",
+            "4.2-v-okroshka",
+            "4.2-v-ikra",
+            "4.2-v-smetana",
+            "4.2-v-selyodka-pod-shuboj"
+          ],
+          "origin": "textbook p.87 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-74",
+          "type": "match",
+          "instructionEs": "Une el infinitivo con su pasado (él)",
+          "pairs": [
+            [
+              "есть",
+              "ел"
+            ],
+            [
+              "пить",
+              "пил"
+            ],
+            [
+              "жить",
+              "жил"
+            ],
+            [
+              "быть",
+              "был"
+            ],
+            [
+              "хоте́ть",
+              "хоте́л"
+            ]
+          ],
+          "explanationEs": "Pasado masculino: quita -ть y agrega -л. Есть → ел es especial.",
+          "es": "Есть = comer · пить = beber · жить = vivir · быть = estar · хоте́ть = querer",
+          "tags": [
+            "4.2-g-past",
+            "4.2-g-byt-past"
+          ],
+          "origin": "textbook p.85 ex.5А (adapted)"
+        },
+        {
+          "id": "4.2-x-75",
+          "type": "match",
+          "instructionEs": "Une cada ingrediente con su traducción",
+          "pairs": [
+            [
+              "зелёный горо́шек",
+              "chícharos"
+            ],
+            [
+              "солёные огурцы́",
+              "pepinillos en salmuera"
+            ],
+            [
+              "петру́шка",
+              "perejil"
+            ],
+            [
+              "моцаре́лла",
+              "mozzarella"
+            ],
+            [
+              "джем",
+              "mermelada"
+            ]
+          ],
+          "explanationEs": "Los chícharos, los pepinillos y el perejil van en la ensalada «Оливье́».",
+          "es": "Зелёный горо́шек = chícharos · солёные огурцы́ = pepinillos en salmuera · петру́шка = perejil · моцаре́лла = mozzarella · джем = mermelada",
+          "tags": [
+            "4.2-v-zelyonyj-goroshek",
+            "4.2-v-solyonye-ogurcy",
+            "4.2-v-petrushka",
+            "4.2-v-mocarella",
+            "4.2-v-dzhem"
+          ],
+          "origin": "textbook p.87 ex.7 (adapted)"
+        },
+        {
+          "id": "4.2-x-76",
+          "type": "sort",
+          "instructionEs": "¿Quién lo dice: el mesero o el cliente?",
+          "categories": [
+            "el mesero",
+            "el cliente"
+          ],
+          "items": [
+            {
+              "text": "Вы гото́вы заказа́ть?",
+              "category": "el mesero"
+            },
+            {
+              "text": "Каки́е напи́тки жела́ете?",
+              "category": "el mesero"
+            },
+            {
+              "text": "Что вы бу́дете пить?",
+              "category": "el mesero"
+            },
+            {
+              "text": "Спаси́бо за зака́з!",
+              "category": "el mesero"
+            },
+            {
+              "text": "Счёт, пожа́луйста.",
+              "category": "el cliente"
+            },
+            {
+              "text": "Я бу́ду минера́льную во́ду.",
+              "category": "el cliente"
+            },
+            {
+              "text": "Я хоте́л бы эспре́ссо.",
+              "category": "el cliente"
+            },
+            {
+              "text": "Мне, пожа́луйста, чёрный чай.",
+              "category": "el cliente"
+            }
+          ],
+          "explanationEs": "El mesero pregunta y agradece el pedido; el cliente pide (Я бу́ду…, Мне, пожа́луйста…, Я хоте́л бы…) y pide la cuenta.",
+          "es": "Mesero: ¿Están listos para ordenar? · ¿Qué desean tomar? · ¿Qué van a tomar? · ¡Gracias por su pedido! — Cliente: La cuenta, por favor. · Para mí, agua mineral. · Quisiera un espresso. · Para mí un té negro, por favor.",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-v-zakaz",
+            "4.2-v-zhelat"
+          ],
+          "origin": "textbook p.84 ex.3Б (adapted)"
+        },
+        {
+          "id": "4.2-x-77",
+          "type": "sort",
+          "instructionEs": "En acusativo (Я бу́ду… / Я люблю́…), ¿cambia o no cambia?",
+          "categories": [
+            "cambia",
+            "no cambia"
+          ],
+          "items": [
+            {
+              "text": "минера́льная вода́",
+              "category": "cambia"
+            },
+            {
+              "text": "ки́слая капу́ста",
+              "category": "cambia"
+            },
+            {
+              "text": "моя́ соба́ка",
+              "category": "cambia"
+            },
+            {
+              "text": "одна́ ко́ла",
+              "category": "cambia"
+            },
+            {
+              "text": "чёрный чай",
+              "category": "no cambia"
+            },
+            {
+              "text": "бе́лое вино́",
+              "category": "no cambia"
+            },
+            {
+              "text": "поле́зные о́вощи",
+              "category": "no cambia"
+            },
+            {
+              "text": "твоё письмо́",
+              "category": "no cambia"
+            }
+          ],
+          "explanationEs": "Solo cambia el femenino: минера́льную во́ду, ки́слую капу́сту, мою́ соба́ку, одну́ ко́лу. Masculino, neutro y plural se quedan igual.",
+          "es": "Agua mineral · chucrut · mi perro · una cola — té negro · vino blanco · verduras sanas · tu carta",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-g-acc-poss"
+          ],
+          "origin": "workbook p.76 ex.2А (adapted)"
+        },
+        {
+          "id": "4.2-x-78",
+          "type": "sort",
+          "instructionEs": "Ordena el menú ruso",
+          "categories": [
+            "sopas",
+            "ensaladas",
+            "postres",
+            "bebidas"
+          ],
+          "items": [
+            {
+              "text": "борщ",
+              "category": "sopas"
+            },
+            {
+              "text": "щи",
+              "category": "sopas"
+            },
+            {
+              "text": "окро́шка",
+              "category": "sopas"
+            },
+            {
+              "text": "винегре́т",
+              "category": "ensaladas"
+            },
+            {
+              "text": "«Оливье́»",
+              "category": "ensaladas"
+            },
+            {
+              "text": "селёдка под шу́бой",
+              "category": "ensaladas"
+            },
+            {
+              "text": "чизке́йк",
+              "category": "postres"
+            },
+            {
+              "text": "«Наполео́н»",
+              "category": "postres"
+            },
+            {
+              "text": "моро́женое",
+              "category": "postres"
+            },
+            {
+              "text": "квас",
+              "category": "bebidas"
+            },
+            {
+              "text": "морс",
+              "category": "bebidas"
+            },
+            {
+              "text": "кефи́р",
+              "category": "bebidas"
+            }
+          ],
+          "explanationEs": "Sopas: borscht, shchi, okroshka. Ensaladas: vinegret, Olivier, arenque «bajo abrigo». Postres: pay de queso, pastel Napoleón, helado. Bebidas: kvas, mors, kéfir.",
+          "es": "Sopas: борщ, щи, окро́шка · ensaladas: винегре́т, «Оливье́», селёдка под шу́бой · postres: чизке́йк, «Наполео́н», моро́женое · bebidas: квас, морс, кефи́р",
+          "tags": [
+            "4.2-v-vinegret",
+            "4.2-v-chizkejk",
+            "4.2-v-tort-napoleon",
+            "4.2-v-salat-olive"
+          ],
+          "origin": "textbook p.84 ex.3А, p.86 ex.7А (adapted)"
+        },
+        {
+          "id": "4.2-x-79",
+          "type": "dialogue",
+          "instructionEs": "Completa el diálogo",
+          "lines": [
+            {
+              "speaker": "Официа́нтка",
+              "ru": "Каки́е напи́тки жела́ете?"
+            },
+            {
+              "speaker": "Ма́рко",
+              "ru": "___"
+            }
+          ],
+          "choices": [
+            "Мне, пожа́луйста, минера́льную во́ду.",
+            "Мне, пожа́луйста, минера́льная вода́.",
+            "Мне, пожа́луйста, минера́льной воде́."
+          ],
+          "answer": 0,
+          "explanationEs": "Después de «Мне, пожа́луйста» va acusativo: **минера́льную во́ду**.",
+          "es": "—¿Qué desea tomar? —Para mí agua mineral, por favor.",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-v-mne-pozhalujsta",
+            "4.2-v-zhelat"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-80",
+          "type": "dialogue",
+          "instructionEs": "Completa el diálogo",
+          "lines": [
+            {
+              "speaker": "Официа́нт",
+              "ru": "Ита́к, овощно́й сала́т и минера́льная вода́. Э́то всё?"
+            },
+            {
+              "speaker": "И́ра",
+              "ru": "___"
+            }
+          ],
+          "choices": [
+            "Нет, ещё я хочу́ варе́ники с карто́фелем.",
+            "Нет, ещё я хочу́ варе́ники с карто́фель.",
+            "Нет, ещё я хоте́ть варе́ники с карто́фелем."
+          ],
+          "answer": 0,
+          "explanationEs": "Я **хочу́** + варе́ники **с карто́фелем** (с + instrumental).",
+          "es": "—Entonces, ensalada de verduras y agua mineral. ¿Es todo? —No, también quiero varéniki de papa.",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-v-vareniki",
+            "4.2-v-eshchyo"
+          ],
+          "origin": "workbook p.75 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-81",
+          "type": "dialogue",
+          "instructionEs": "Completa el diálogo",
+          "lines": [
+            {
+              "speaker": "Официа́нт",
+              "ru": "Бы́ло вку́сно?"
+            },
+            {
+              "speaker": "Ди́ма",
+              "ru": "___"
+            }
+          ],
+          "choices": [
+            "Да, спаси́бо, всё бы́ло о́чень вку́сно.",
+            "Да, спаси́бо, всё был о́чень вку́сно.",
+            "Да, спаси́бо, всё бу́ду о́чень вку́сно."
+          ],
+          "answer": 0,
+          "explanationEs": "**Всё бы́ло** — всё es neutro, así que va бы́ло.",
+          "es": "—¿Estuvo rico? —Sí, gracias, todo estuvo muy rico.",
+          "tags": [
+            "4.2-g-byt-past"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-82",
+          "type": "dialogue",
+          "instructionEs": "Completa el diálogo",
+          "lines": [
+            {
+              "speaker": "Ле́на",
+              "ru": "Андре́й, что ты де́лал вчера́?"
+            },
+            {
+              "speaker": "Андре́й",
+              "ru": "___"
+            }
+          ],
+          "choices": [
+            "Я был в музе́е.",
+            "Я была́ в музе́е.",
+            "Я бы́ли в музе́е."
+          ],
+          "answer": 0,
+          "explanationEs": "Andréi es hombre: **я был**.",
+          "es": "—Andréi, ¿qué hiciste ayer? —Fui al museo.",
+          "tags": [
+            "4.2-g-byt-past",
+            "4.2-v-vchera"
+          ],
+          "origin": "textbook p.85 ex.4 (adapted)"
+        },
+        {
+          "id": "4.2-x-83",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "Я бу́ду минера́льная во́ду без га́за.",
+          "wrongWord": 2,
+          "correction": "минера́льную",
+          "explanationEs": "Я бу́ду + acusativo: минера́льная → **минера́льную**.",
+          "es": "Para mí, agua mineral sin gas.",
+          "tags": [
+            "4.2-g-acc-adj"
+          ],
+          "origin": "textbook p.82 ex.1Б (adapted)"
+        },
+        {
+          "id": "4.2-x-84",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "Ра́ньше у него́ был я́хта.",
+          "wrongWord": 3,
+          "correction": "была́",
+          "explanationEs": "El verbo concuerda con я́хта (f): **была́**.",
+          "es": "Antes él tenía un yate.",
+          "tags": [
+            "4.2-g-byt-past"
+          ],
+          "origin": "textbook p.86 ex.6 (adapted)"
+        },
+        {
+          "id": "4.2-x-85",
+          "type": "error_spot",
+          "instructionEs": "Toca la palabra incorrecta",
+          "sentence": "Вчера́ Ни́на пил зелёный чай.",
+          "wrongWord": 2,
+          "correction": "пила́",
+          "explanationEs": "Ни́на es mujer: **пила́**.",
+          "es": "Ayer Nina tomó té verde.",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "textbook p.85 ex.4 (adapted)"
+        },
+        {
+          "id": "4.2-x-86",
+          "type": "word_order",
+          "instructionEs": "Ordena las palabras",
+          "words": [
+            "Вчера́",
+            "мы",
+            "у́жинали",
+            "в",
+            "рестора́не"
+          ],
+          "answer": "Вчера́ мы у́жинали в рестора́не",
+          "explanationEs": "Pasado plural: у́жинали.",
+          "es": "Ayer cenamos en un restaurante.",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "workbook p.77 ex.3Б (adapted)"
+        },
+        {
+          "id": "4.2-x-87",
+          "type": "word_order",
+          "instructionEs": "Ordena las palabras",
+          "words": [
+            "Ра́ньше",
+            "я",
+            "жил",
+            "в",
+            "Ло́ндоне"
+          ],
+          "answer": "Ра́ньше я жил в Ло́ндоне",
+          "explanationEs": "Ра́ньше + pasado: жил.",
+          "es": "Antes vivía en Londres.",
+          "tags": [
+            "4.2-g-past",
+            "4.2-v-ranshe"
+          ],
+          "origin": "workbook p.77 ex.3Б (adapted)"
+        },
+        {
+          "id": "4.2-x-88",
+          "type": "word_order",
+          "instructionEs": "Ordena las palabras",
+          "words": [
+            "Она́",
+            "никогда́",
+            "не",
+            "смотре́ла",
+            "детекти́вы"
+          ],
+          "answer": "Она́ никогда́ не смотре́ла детекти́вы",
+          "explanationEs": "Никогда́ не + verbo: никогда́ не смотре́ла.",
+          "es": "Ella nunca veía películas de detectives.",
+          "tags": [
+            "4.2-g-past"
+          ],
+          "origin": "workbook p.77 ex.3Б (adapted)"
+        },
+        {
+          "id": "4.2-x-89",
+          "type": "translate",
+          "instructionEs": "Traduce al ruso",
+          "direction": "es-ru",
+          "prompt": "¿Están listos para ordenar?",
+          "answers": [
+            "Вы гото́вы заказа́ть?"
+          ],
+          "explanationEs": "Вы гото́вы + заказа́ть.",
+          "es": "¿Están listos para ordenar?",
+          "tags": [
+            "4.2-g-khotet",
+            "4.2-v-gotov",
+            "4.2-v-zakazat"
+          ],
+          "origin": "workbook p.79 ex.8 (adapted)"
+        },
+        {
+          "id": "4.2-x-90",
+          "type": "translate",
+          "instructionEs": "Traduce al ruso",
+          "direction": "es-ru",
+          "prompt": "Para mí, agua mineral sin gas, por favor.",
+          "answers": [
+            "Мне, пожа́луйста, минера́льную во́ду без га́за",
+            "Мне минера́льную во́ду без га́за, пожа́луйста",
+            "Я бу́ду минера́льную во́ду без га́за, пожа́луйста",
+            "Пожа́луйста, минера́льную во́ду без га́за",
+            "Минера́льную во́ду без га́за, пожа́луйста",
+            "Мне, пожа́луйста, во́ду минера́льную без га́за",
+            "Я бу́ду минера́льную во́ду без га́за"
+          ],
+          "explanationEs": "Мне, пожа́луйста / Я бу́ду + acusativo: минера́льную во́ду.",
+          "es": "Para mí, agua mineral sin gas, por favor.",
+          "tags": [
+            "4.2-g-acc-adj",
+            "4.2-g-khotet"
+          ],
+          "origin": "workbook p.79 ex.8 (adapted)"
+        },
+        {
+          "id": "4.2-x-91",
+          "type": "translate",
+          "instructionEs": "Traduce al ruso",
+          "direction": "es-ru",
+          "prompt": "No quiero hacer la tarea.",
+          "answers": [
+            "Я не хочу́ де́лать дома́шнее зада́ние",
+            "Не хочу́ де́лать дома́шнее зада́ние"
+          ],
+          "explanationEs": "Хоте́ть + infinitivo: Я не хочу́ де́лать…",
+          "es": "No quiero hacer la tarea.",
+          "tags": [
+            "4.2-g-khotet"
+          ],
+          "origin": "workbook p.79 ex.8 (adapted)"
+        },
+        {
+          "id": "4.2-x-92",
+          "type": "translate",
+          "instructionEs": "Traduce al ruso",
+          "direction": "es-ru",
+          "prompt": "¿Cuál es tu platillo favorito?",
+          "answers": [
+            "Како́е твоё люби́мое блю́до?",
+            "Како́е у тебя́ люби́мое блю́до?"
+          ],
+          "explanationEs": "Блю́до es neutro: како́е, твоё, люби́мое.",
+          "es": "¿Cuál es tu platillo favorito?",
+          "tags": [
+            "4.2-v-blyudo"
+          ],
+          "origin": "workbook p.79 ex.8 (adapted)"
+        },
+        {
+          "id": "4.2-x-93",
+          "type": "translate",
+          "instructionEs": "Traduce al ruso",
+          "direction": "es-ru",
+          "prompt": "Ayer estuvimos en el teatro.",
+          "answers": [
+            "Вчера́ мы бы́ли в теа́тре",
+            "Мы вчера́ бы́ли в теа́тре",
+            "Мы бы́ли в теа́тре вчера́"
+          ],
+          "explanationEs": "Мы → бы́ли; в теа́тре (prepositivo).",
+          "es": "Ayer estuvimos en el teatro.",
+          "tags": [
+            "4.2-g-byt-past",
+            "4.2-v-vchera"
+          ],
+          "origin": "original"
+        },
+        {
+          "id": "4.2-x-94",
+          "type": "translate",
+          "instructionEs": "Traduce al ruso",
+          "direction": "es-ru",
+          "prompt": "Amo a mi novia.",
+          "answers": [
+            "Я люблю́ мою́ де́вушку",
+            "Я люблю́ свою́ де́вушку",
+            "Люблю́ мою́ де́вушку",
+            "Люблю́ свою́ де́вушку"
+          ],
+          "explanationEs": "Де́вушка (f) → **мою́** де́вушку (también se dice свою́ де́вушку).",
+          "es": "Amo a mi novia.",
+          "tags": [
+            "4.2-g-acc-poss"
+          ],
+          "origin": "workbook p.79 ex.8 (adapted)"
+        },
+        {
+          "id": "4.2-x-95",
+          "type": "transform",
+          "instructionEs": "Pon la frase en pasado",
+          "prompt": "У меня́ есть соба́ка.",
+          "answers": [
+            "У меня́ была́ соба́ка"
+          ],
+          "explanationEs": "Соба́ка (f) → **была́**.",
+          "es": "Tenía un perro.",
+          "tags": [
+            "4.2-g-byt-past"
+          ],
+          "origin": "textbook p.86 ex.5В (adapted)"
+        },
+        {
+          "id": "4.2-x-96",
+          "type": "transform",
+          "instructionEs": "Pon la frase en pasado",
+          "prompt": "У него́ есть гара́ж.",
+          "answers": [
+            "У него́ был гара́ж"
+          ],
+          "explanationEs": "Гара́ж (m) → **был**.",
+          "es": "Él tenía una cochera.",
+          "tags": [
+            "4.2-g-byt-past"
+          ],
+          "origin": "textbook p.86 ex.5В (adapted)"
+        },
+        {
+          "id": "4.2-x-97",
+          "type": "transform",
+          "instructionEs": "Pon la frase en pasado",
+          "prompt": "У нас есть пробле́мы.",
+          "answers": [
+            "У нас бы́ли пробле́мы"
+          ],
+          "explanationEs": "Пробле́мы (pl) → **бы́ли**.",
+          "es": "Teníamos problemas.",
+          "tags": [
+            "4.2-g-byt-past",
+            "4.2-v-problema"
+          ],
+          "origin": "workbook p.77 ex.3А (adapted)"
+        },
+        {
+          "id": "4.2-x-98",
+          "type": "transform",
+          "instructionEs": "Pon la frase en pasado",
+          "prompt": "У тебя́ есть вопро́сы?",
+          "answers": [
+            "У тебя́ бы́ли вопро́сы?"
+          ],
+          "explanationEs": "Вопро́сы (pl) → **бы́ли**.",
+          "es": "¿Tenías preguntas?",
+          "tags": [
+            "4.2-g-byt-past",
+            "4.2-v-vopros"
+          ],
+          "origin": "textbook p.86 ex.5В (adapted)"
+        },
+        {
+          "id": "4.2-x-99",
+          "type": "transform",
+          "instructionEs": "Pon la frase en pasado",
+          "prompt": "Моя́ ма́ма до́ма.",
+          "answers": [
+            "Моя́ ма́ма была́ до́ма"
+          ],
+          "explanationEs": "En pasado aparece быть: ма́ма → **была́**.",
+          "es": "Mi mamá estaba en casa.",
+          "tags": [
+            "4.2-g-byt-past"
+          ],
+          "origin": "workbook p.77 ex.3А (adapted)"
+        },
+        {
+          "id": "4.2-x-100",
+          "type": "transform",
+          "instructionEs": "Cambia a «Я люблю́…» (acusativo)",
+          "prompt": "Мне нра́вится италья́нская еда́.",
+          "answers": [
+            "Я люблю́ италья́нскую еду́"
+          ],
+          "explanationEs": "Con люблю́ la comida es objeto directo: италья́нскую еду́.",
+          "es": "Me encanta la comida italiana.",
+          "tags": [
+            "4.2-g-acc-adj"
+          ],
+          "origin": "workbook p.79 ex.6 (adapted)"
+        }
+      ]
+    },
+    {
       "id": "4.3",
       "title": "Стиль и мо́да",
       "titleEs": "Estilo y moda",

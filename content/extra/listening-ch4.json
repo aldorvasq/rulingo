@@ -326,6 +326,364 @@
       ]
     },
     {
+      "id": "4.2",
+      "listening": [
+        {
+          "id": "4.2-l-1",
+          "title": "Un mesero distraído",
+          "kind": "dialogue",
+          "scene": "Busy restaurant evening, distracted young waiter",
+          "cast": [
+            {
+              "name": "Официа́нт",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "short",
+              "top": "gray"
+            },
+            {
+              "name": "Со́фья",
+              "gender": "f",
+              "age": "adult",
+              "skin": "medium",
+              "hair": "black",
+              "hairStyle": "long",
+              "top": "red"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "До́брый ве́чер! Вот меню́. Каки́е напи́тки жела́ете?",
+              "tone": "polite, a bit hurried"
+            },
+            {
+              "speaker": "Со́фья",
+              "gender": "f",
+              "ru": "Мне, пожа́луйста, минера́льную во́ду без га́за и бе́лое вино́.",
+              "tone": "calm, friendly"
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Хорошо́. Вы гото́вы заказа́ть?",
+              "tone": "polite, attentive"
+            },
+            {
+              "speaker": "Со́фья",
+              "gender": "f",
+              "ru": "Да. Я бу́ду гре́ческий сала́т и па́сту с морепроду́ктами.",
+              "tone": "calm, deciding"
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Ита́к: вода́ с га́зом, кра́сное вино́, гре́ческий сала́т и ры́ба.",
+              "tone": "confident, distracted"
+            },
+            {
+              "speaker": "Со́фья",
+              "gender": "f",
+              "ru": "Нет-нет! Во́ду без га́за, бе́лое вино́ и па́сту, не ры́бу!",
+              "tone": "laughing, correcting"
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Ой, извини́те! Без га́за, бе́лое вино́ и па́ста с морепроду́ктами. Э́то всё?",
+              "tone": "embarrassed, apologetic"
+            },
+            {
+              "speaker": "Со́фья",
+              "gender": "f",
+              "ru": "Да, всё пра́вильно. Спаси́бо!",
+              "tone": "relieved, smiling"
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Ну как, бы́ло вку́сно?",
+              "tone": "hopeful, eager"
+            },
+            {
+              "speaker": "Со́фья",
+              "gender": "f",
+              "ru": "Па́ста была́ о́чень вку́сная. А вино́ бы́ло кра́сное!",
+              "tone": "amused, teasing"
+            },
+            {
+              "speaker": "Официа́нт",
+              "gender": "m",
+              "ru": "Ой, извини́те! Хоти́те бе́лое вино́?",
+              "tone": "very embarrassed"
+            },
+            {
+              "speaker": "Со́фья",
+              "gender": "f",
+              "ru": "Нет, спаси́бо. Счёт, пожа́луйста!",
+              "tone": "smiling, done"
+            }
+          ],
+          "es": "—¡Buenas noches! Aquí tiene el menú. ¿Qué desea tomar?\n—Para mí agua mineral sin gas y vino blanco, por favor.\n—Muy bien. ¿Está lista para ordenar?\n—Sí. Para mí la ensalada griega y la pasta con mariscos.\n—Entonces: agua con gas, vino tinto, ensalada griega y pescado.\n—¡No, no! Agua sin gas, vino blanco y la pasta, ¡no el pescado!\n—¡Ay, disculpe! Sin gas, vino blanco y pasta con mariscos. ¿Es todo?\n—Sí, todo está bien. ¡Gracias!\n—¿Y qué tal, estuvo rico?\n—La pasta estuvo muy rica. ¡Pero el vino era tinto!\n—¡Ay, disculpe! ¿Quiere vino blanco?\n—No, gracias. ¡La cuenta, por favor!",
+          "questions": [
+            {
+              "q": "¿Qué agua pidió Sofía?",
+              "choices": [
+                "Sin gas",
+                "Con gas",
+                "Con hielo"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué platillo pidió?",
+              "choices": [
+                "Pasta con mariscos",
+                "Pescado",
+                "Pelmeni"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué salió mal al final?",
+              "choices": [
+                "El vino era tinto, no blanco",
+                "La pasta estaba fría",
+                "No había ensalada griega"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "4.2-l-2",
+          "title": "El exmillonario",
+          "kind": "story",
+          "scene": "Old man telling his story, wry humour",
+          "cast": [
+            {
+              "name": "Арка́дий",
+              "gender": "m",
+              "age": "old",
+              "skin": "light",
+              "hair": "gray",
+              "hairStyle": "bald",
+              "glasses": true,
+              "beard": true,
+              "top": "ochre"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Арка́дий",
+              "gender": "m",
+              "ru": "Ра́ньше у меня́ бы́ло всё: большо́й дом, я́хта и кра́сная маши́на.",
+              "tone": "nostalgic, proud"
+            },
+            {
+              "speaker": "Арка́дий",
+              "gender": "m",
+              "ru": "У меня́ была́ чёрная ко́шка. Её зва́ли Принце́сса.",
+              "tone": "fond, gentle"
+            },
+            {
+              "speaker": "Арка́дий",
+              "gender": "m",
+              "ru": "Я за́втракал в рестора́не и всегда́ ел кра́сную икру́.",
+              "tone": "nostalgic, slow"
+            },
+            {
+              "speaker": "Арка́дий",
+              "gender": "m",
+              "ru": "Я всегда́ спеши́л и никогда́ не гуля́л.",
+              "tone": "thoughtful, a bit sad"
+            },
+            {
+              "speaker": "Арка́дий",
+              "gender": "m",
+              "ru": "А сейча́с у меня́ ма́ленькая кварти́ра и ста́рый телеви́зор.",
+              "tone": "plain, matter-of-fact"
+            },
+            {
+              "speaker": "Арка́дий",
+              "gender": "m",
+              "ru": "Ко́шка Принце́сса то́же здесь. Она́ не лю́бит мою́ кварти́ру.",
+              "tone": "wry, amused"
+            },
+            {
+              "speaker": "Арка́дий",
+              "gender": "m",
+              "ru": "На за́втрак я ем гре́чневую ка́шу и пью чай.",
+              "tone": "calm, simple"
+            },
+            {
+              "speaker": "Арка́дий",
+              "gender": "m",
+              "ru": "Но сейча́с у меня́ есть свобо́дное вре́мя. Я гуля́ю в па́рке и чита́ю кни́ги.",
+              "tone": "content, warm"
+            },
+            {
+              "speaker": "Арка́дий",
+              "gender": "m",
+              "ru": "И зна́ете, гре́чневая ка́ша — э́то то́же о́чень вку́сно!",
+              "tone": "smiling, wry"
+            }
+          ],
+          "es": "Antes lo tenía todo: una casa grande, un yate y un carro rojo.\nTenía una gata negra. Se llamaba Princesa.\nDesayunaba en un restaurante y siempre comía caviar rojo.\nSiempre tenía prisa y nunca salía a pasear.\nY ahora tengo un departamento pequeño y una tele vieja.\nLa gata Princesa también está aquí. No le gusta mi departamento.\nDe desayuno como kasha de alforfón y tomo té.\nPero ahora tengo tiempo libre. Paseo por el parque y leo libros.\nY ¿saben qué? ¡La kasha de alforfón también es muy rica!",
+          "questions": [
+            {
+              "q": "¿Qué tenía antes Arkadi?",
+              "choices": [
+                "Una casa grande, un yate y un carro rojo",
+                "Un departamento pequeño y una tele",
+                "Un restaurante y una tienda"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Cómo se llama su gata?",
+              "choices": [
+                "Princesa",
+                "Masha",
+                "Reina"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué desayuna ahora?",
+              "choices": [
+                "Kasha de alforfón y té",
+                "Caviar rojo",
+                "Pan con queso y café"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "4.2-l-3",
+          "title": "¿Borscht o shchi?",
+          "kind": "dialogue",
+          "scene": "Two friends chatting on the phone, teasing",
+          "cast": [
+            {
+              "name": "Ле́на",
+              "gender": "f",
+              "age": "young",
+              "skin": "light",
+              "hair": "blond",
+              "hairStyle": "long",
+              "top": "teal"
+            },
+            {
+              "name": "Ми́ша",
+              "gender": "m",
+              "age": "young",
+              "skin": "light",
+              "hair": "brown",
+              "hairStyle": "curly",
+              "top": "green"
+            }
+          ],
+          "lines": [
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Приве́т, Ми́ша! Что ты де́лал вчера́?",
+              "tone": "cheerful, curious"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Приве́т! Вчера́ у меня́ бы́ло свобо́дное вре́мя, и я гото́вил борщ.",
+              "tone": "proud, pleased"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Ты гото́вил борщ? И как, бы́ло вку́сно?",
+              "tone": "surprised, curious"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "О́чень вку́сно! Но борщ был не кра́сный, а зелёный.",
+              "tone": "puzzled, honest"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Зелёный? А где была́ свёкла?",
+              "tone": "suspicious, amused"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Свёкла? Я ду́мал, борщ мо́жно де́лать без свёклы.",
+              "tone": "innocent, surprised"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "Ми́ша! Борщ без свёклы — э́то не борщ, э́то щи!",
+              "tone": "laughing, scolding"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Ну, хорошо́. Зна́чит, вчера́ я гото́вил щи.",
+              "tone": "good-humoured, giving in"
+            },
+            {
+              "speaker": "Ле́на",
+              "gender": "f",
+              "ru": "А смета́на была́?",
+              "tone": "teasing, playful"
+            },
+            {
+              "speaker": "Ми́ша",
+              "gender": "m",
+              "ru": "Коне́чно! Ру́сские всё едя́т со смета́ной!",
+              "tone": "confident, laughing"
+            }
+          ],
+          "es": "—¡Hola, Misha! ¿Qué hiciste ayer?\n—¡Hola! Ayer tuve tiempo libre y preparé borscht.\n—¿Tú preparaste borscht? ¿Y qué tal, quedó rico?\n—¡Muy rico! Pero el borscht no salió rojo, sino verde.\n—¿Verde? ¿Y el betabel?\n—¿El betabel? Pensé que el borscht se podía hacer sin betabel.\n—¡Misha! El borscht sin betabel no es borscht, ¡es shchi!\n—Bueno, está bien. Entonces ayer preparé shchi.\n—¿Y había crema agria?\n—¡Claro! ¡Los rusos comen todo con crema agria!",
+          "questions": [
+            {
+              "q": "¿Qué quería preparar Misha ayer?",
+              "choices": [
+                "Borscht",
+                "Pelmeni",
+                "Okroshka"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿De qué color le salió la sopa?",
+              "choices": [
+                "Verde",
+                "Roja",
+                "Blanca"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "¿Qué ingrediente no usó Misha?",
+              "choices": [
+                "El betabel",
+                "La carne",
+                "La crema agria"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "4.3",
       "listening": [
         {

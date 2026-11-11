@@ -36,6 +36,11 @@ const hashNum = (s: string) => parseInt(audioKey(s).slice(-6), 36)
 
 // ---------------------------------------------------------------- collect texts, with priority
 const prio = new Map<string, number>() // lower = sooner
+/** Words that give away the speaker's gender in a first-person sentence (я была́ / я был, я должна́ / я до́лжен);
+ *  the course's past-tense forms are added from the vocabulary below. */
+const bare = (w: string) => w.normalize('NFD').replace(/\u0301/g, '').normalize('NFC').toLowerCase()
+const SAID_BY_MAN = new Set(['был', 'рад', 'готов', 'должен', 'занят', 'болен'])
+const SAID_BY_WOMAN = new Set(['была', 'рада', 'готова', 'должна', 'занята', 'больна'])
 const addText = (t: string | undefined, p: number) => {
   if (!t || !/[а-яё]/i.test(t) || /_{2,}/.test(t)) return
   const k = normalizeForAudio(t)
@@ -63,7 +68,11 @@ for (const f of files) {
   for (const l of data.lessons ?? []) {
     const boost = FOCUS_PACKS.has((data as ExtraPack & { id?: string }).id ?? '') ? FOCUS_BOOST * (AHEAD.length + 1) : boostOf(l.id)
     const add = (t: string | undefined, p: number) => addText(t, p + boost)
-    for (const v of l.vocab ?? []) { add(v.ru, WORD); add(v.example?.ru, WORD); v.antonyms?.forEach((a) => add(a, WORD)) }
+    for (const v of l.vocab ?? []) {
+      add(v.ru, WORD); add(v.example?.ru, WORD); v.antonyms?.forEach((a) => add(a, WORD))
+      if (v.conj?.past?.m) SAID_BY_MAN.add(bare(v.conj.past.m))
+      if (v.conj?.past?.f) SAID_BY_WOMAN.add(bare(v.conj.past.f))
+    }
     for (const p of l.phrases ?? []) add(p.ru, PHRASE)
     for (const s of l.sentences ?? []) add(s.ru, SENTENCE)
     for (const g of l.grammar ?? []) g.examples?.forEach((e) => add(e.ru, SENTENCE))
@@ -265,6 +274,15 @@ const clipStyle = (t: string) => isSingle(t)
   : 'Natural, friendly conversational Russian, clear for a learner; follow the stress marks exactly.'
 const madeClips: string[] = []
 const listClips: string[] = []
+/** Kore (female) or Puck (male): a sentence where «я» is clearly a woman or a man gets that voice, others alternate. */
+function voiceFor(t: string): string {
+  const words = bare(t).split(/[^а-яё]+/)
+  if (words.includes('я')) {
+    if (words.some((w) => SAID_BY_WOMAN.has(w))) return 'Kore'
+    if (words.some((w) => SAID_BY_MAN.has(w))) return 'Puck'
+  }
+  return hashNum(t) % 2 ? 'Puck' : 'Kore'
+}
 
 // 2a. Single words in batches: one request reads ~20 words as a list, cut at the pauses into one clip per word.
 // (Tested on 2026-10-12 with stress minimal pairs read back to back: every word clean and correctly stressed.)
@@ -311,7 +329,7 @@ function splitList(file: string, outs: string[]): boolean {
 }
 
 for (const voice of ['Kore', 'Puck']) {
-  const words = leftClips.filter((t) => batchable(t) && (hashNum(t) % 2 ? 'Puck' : 'Kore') === voice)
+  const words = leftClips.filter((t) => batchable(t) && voiceFor(t) === voice)
   for (let i = 0; i < words.length; i += BATCH) {
     const group = words.slice(i, i + BATCH)
     const whole = join(CACHE, 'segments', `list-${audioKey(voice + group.join('|'))}.mp3`)
@@ -329,7 +347,7 @@ const listed = new Set(listClips)
 for (const t of leftClips) {
   if (stopped) break
   if (listed.has(t) || batchable(t)) continue
-  if (await tts([{ text: say(t), style: clipStyle(t) }], [{ voice: hashNum(t) % 2 ? 'Puck' : 'Kore' }], clipFile(t))) madeClips.push(t)
+  if (await tts([{ text: say(t), style: clipStyle(t) }], [{ voice: voiceFor(t) }], clipFile(t))) madeClips.push(t)
 }
 if (madeClips.length || listClips.length) {
   console.log(`\nRevisando ${madeClips.length + listClips.length} clips con Whisper…`)
