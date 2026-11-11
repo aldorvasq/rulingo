@@ -22,3 +22,6 @@ public/audio/**/*.wav
 
 # Image generation originals (only the resized copies are published)
 scripts/images/out/
+
+# Lesson drafts before review (merged into content/ once checked)
+drafts/

@@ -119,6 +119,20 @@ for (const dir of ['chapters', 'extra']) {
   }
 }
 
+// Drafts not in content/ yet: `npm run validate -- drafts/4.2/lesson.json drafts/4.2/listening.json` checks them
+// with the same rules and against every id already in use. A file holds a Lesson, a pack ({ lessons }) or
+// a list of listening pieces.
+for (const f of process.argv.slice(2)) {
+  let data
+  try { data = JSON.parse(readFileSync(f, 'utf8')) } catch (e) { errors.push(`${f}: invalid JSON — ${e.message}`); continue }
+  const lessons = Array.isArray(data) ? [{ id: f, listening: data }] : data.lessons ?? [data]
+  for (const l of lessons) {
+    checkLesson(l, f)
+    summary.push(`${f} ${l.id}: ${l.vocab?.length ?? 0} vocab, ${l.grammar?.length ?? 0} grammar, ${l.exercises?.length ?? 0} exercises, ${l.listening?.length ?? 0} listening`)
+  }
+  for (const v of data.sneakIns ?? []) claim(v.id, `${f} sneakIns`)
+}
+
 console.log(summary.join('\n'))
 if (warnings.length) console.log(`\n${warnings.length} warning(s):\n  ` + warnings.slice(0, 40).join('\n  ') + (warnings.length > 40 ? '\n  …' : ''))
 if (errors.length) {

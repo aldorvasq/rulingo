@@ -146,12 +146,15 @@ const publish = (raw: string, out: string) =>
   execFileSync('sips', ['-s', 'format', 'jpeg', '-s', 'formatOptions', '55', '-Z', SIZE, raw, '--out', out], { stdio: 'ignore' })
 const rawOf = (base: string) => ['jpg', 'png'].map((e) => join(RAW, `${base}.${e}`)).find(existsSync)
 
+/** One pending job per kind of picture (vocab, scenes…), so waiting for one never swallows another's results. */
+const pendingFile = (kind: string) => join(RAW, `pending-batch${kind ? `-${kind}` : ''}.json`)
+
 /**
  * Batch API: half price, processed in the background (minutes to hours). The job name is kept in
  * out/pending-batch.json so a stopped run resumes waiting for the same job instead of paying twice.
  */
-async function viaBatch<J extends { key: string; prompt: string }>(jobs: J[], onImage: (job: J, data: string, mime: string) => void) {
-  const PENDING = join(RAW, 'pending-batch.json')
+async function viaBatch<J extends { key: string; prompt: string }>(jobs: J[], onImage: (job: J, data: string, mime: string) => void, kind = '') {
+  const PENDING = pendingFile(kind)
   const api = (path: string, init?: RequestInit) => fetch(`https://generativelanguage.googleapis.com/v1beta/${path}`,
     { ...init, headers: { 'x-goog-api-key': KEY, 'Content-Type': 'application/json' } }).then((r) => r.json())
   let pending: { name: string; keys: string[] } | null = existsSync(PENDING) ? JSON.parse(readFileSync(PENDING, 'utf8')) : null
@@ -281,6 +284,27 @@ if (process.argv.includes('--food')) {
   process.exit(0)
 }
 
+// --scenes [--batch]: scene paintings for picture exercises (public/img/scenes/<key>.jpg, the `image` field of
+// content exercises), described in scenes.json. The painting must make the exercise's right answer obvious.
+if (process.argv.includes('--scenes')) {
+  const SCENES: Record<string, string> = JSON.parse(readFileSync(join(import.meta.dirname, 'scenes.json'), 'utf8'))
+  const SCENE_OUT = join(ROOT, 'public', 'img', 'scenes')
+  mkdirSync(SCENE_OUT, { recursive: true })
+  const jobs = Object.entries(SCENES).filter(([k]) => !existsSync(join(SCENE_OUT, `${k}.jpg`))).slice(0, LIMIT)
+    .map(([key, d]) => ({ key, prompt: `${STYLE} Scene: ${d}. Square composition, simple soft background, everything the scene is about clearly visible and easy to name. ` +
+      'Absolutely no text, letters, numbers, labels, signs, logos or watermarks anywhere.' }))
+  const done = (key: string) => { made++; process.stdout.write(`✓ ${key}\n`) }
+  if (process.argv.includes('--batch')) await viaBatch(jobs, (job, data, mime) => {
+    const raw = join(RAW, `scene-${job.key}.${mime.includes('png') ? 'png' : 'jpg'}`)
+    writeFileSync(raw, Buffer.from(data, 'base64'))
+    publish(raw, join(SCENE_OUT, `${job.key}.jpg`))
+    done(job.key)
+  }, 'scenes')
+  else for (const job of jobs) if (!stopped && await paint(job.prompt, `scene-${job.key}`, join(SCENE_OUT, `${job.key}.jpg`))) done(job.key)
+  console.log(`\n${made} nuevas · ${Object.keys(SCENES).length - jobs.length + made}/${Object.keys(SCENES).length}${stopped ? `\nPARÓ: ${stopped}` : ''}`)
+  process.exit(0)
+}
+
 const index: Record<string, string> = existsSync(INDEX) ? JSON.parse(readFileSync(INDEX, 'utf8')) : {}
 const promptFor = (word: string, emoji: string) => {
   const es = gloss.get(word) ?? word
@@ -303,8 +327,11 @@ if (process.argv.includes('--batch')) {
   console.log(`\n${made} nuevas · ${Object.keys(index).length}/${Object.keys(EMOJI).length} en total${stopped ? `\nPARÓ: ${stopped}` : ''}`)
   process.exit(0)
 }
+// Words already waiting in a half-price batch aren't painted again at full price.
+const inBatch = new Set<string>(existsSync(pendingFile('')) ? JSON.parse(readFileSync(pendingFile(''), 'utf8')).keys : [])
 for (const [word, emoji] of Object.entries(EMOJI)) {
   if (made >= LIMIT || stopped) break
+  if (inBatch.has(word)) continue
   const file = `${audioKey(word)}.jpg`
   if (index[word] && existsSync(join(OUT, file)) && !REDO.has(word)) continue
   if (await paint(promptFor(word, emoji), audioKey(word), join(OUT, file))) {

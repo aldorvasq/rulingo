@@ -193,6 +193,16 @@ function fromVocab(v: VocabItem, lesson: LoadedLesson, pool: VocabItem[]): Candi
       explanation: `${v.ru}${type}` }))
   }
 
+  const past = v.conj?.past
+  if (v.pos === 'verb' && past && Object.keys(past).length >= 3) {
+    // The past tense agrees with the subject: он/она́/оно́/они́ (m/f/n/pl), not with the person.
+    const who: Record<string, string> = { m: 'он', f: 'она́', n: 'оно́', pl: 'они́' }
+    const entries = Object.entries(past).filter(([g]) => who[g]).map(([g, f]) => [who[g], f])
+    add('past', 2, 'conjugation', () => ({ ...base, key: k('past'), skill: 'conjugation', kind: 'conjugate',
+      instruction: `Pasado de «${v.ru}» (${v.es})`, verb: v.ru, pronouns: entries.map((e) => e[0]), answers: entries.map((e) => e[1]),
+      explanation: `${v.ru} — pasado: ${entries.map((e) => e[1]).join(', ')}` }))
+  }
+
   const forms = v.forms
   // Invariable words (его, её, их) list identical forms — nothing to agree.
   if ((v.pos === 'adj' || v.pos === 'pron') && forms && new Set(Object.values(forms)).size >= 2) {

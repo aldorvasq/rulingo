@@ -13,6 +13,11 @@ export function compareLessonIds(a: string, b: string): number {
   return 0
 }
 
+/** The last lesson open in the app. Later lessons are drafted ahead (so their audio and pictures are ready
+ *  when the class gets there) but stay out of the app entirely until this is moved forward. */
+export const RELEASED_UP_TO = '4.1'
+const released = (id: string) => compareLessonIds(id, RELEASED_UP_TO) <= 0
+
 export interface LoadedLesson extends Lesson {
   chapter: number
   /** Thematic extra words for this lesson (✨ sneak-ins). */
@@ -44,8 +49,10 @@ function load(): LoadedChapter[] {
   const chapters = new Map<number, LoadedChapter>()
   for (const raw of Object.values(chapterFiles)) {
     if (!raw?.lessons) continue
+    const open = raw.lessons.filter((l) => released(l.id))
+    if (!open.length) continue
     const sneak = (raw.sneakIns ?? []).map((v) => ({ ...v, sneak: true }))
-    const lessons = raw.lessons.map<LoadedLesson>((l) => ({ ...l, chapter: raw.chapter, sneakIns: [] }))
+    const lessons = open.map<LoadedLesson>((l) => ({ ...l, chapter: raw.chapter, sneakIns: [] }))
     // Chapter-level sneak-ins are spread across that chapter's lessons.
     sneak.forEach((v, i) => lessons[i % lessons.length]?.sneakIns.push(v))
     chapters.set(raw.chapter, { ...raw, lessons })
@@ -55,6 +62,7 @@ function load(): LoadedChapter[] {
 
   for (const pack of Object.values(extraFiles)) {
     for (const extra of pack.lessons ?? []) {
+      if (!released(extra.id)) continue
       let target = allLessons().find((l) => l.id === extra.id)
       if (!target) {
         const chapterNum = Number(extra.id.split('.')[0]) || 0
@@ -71,6 +79,7 @@ function load(): LoadedChapter[] {
       mergeLesson(target, extra)
     }
     for (const s of pack.sneakIns ?? []) {
+      if (s.lessonId && !released(s.lessonId)) continue
       const target = allLessons().find((l) => l.id === s.lessonId) ?? allLessons().at(-1)
       target?.sneakIns.push({ ...s, sneak: true })
     }
