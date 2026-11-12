@@ -6,9 +6,11 @@
 // src/content/photos.json; existing pictures are skipped, so the script resumes where it stopped.
 // Stops at the first billing/quota error. Key: ~/.config/rulingo/gemini-key or ~/Downloads/googleapikey.txt.
 import { execFileSync } from 'node:child_process'
-import { existsSync, mkdirSync, readdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs'
+import { createWriteStream, existsSync, mkdirSync, readdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs'
 import { homedir } from 'node:os'
 import { join } from 'node:path'
+import { Readable } from 'node:stream'
+import { pipeline } from 'node:stream/promises'
 import { COLOURS, EMOJI, OBJECTS } from '../../src/content/pictures'
 import { audioKey } from '../../src/lib/audioKey'
 
@@ -150,6 +152,7 @@ const publish = (raw: string, out: string) =>
 const rawOf = (base: string) => ['jpg', 'png'].map((e) => join(RAW, `${base}.${e}`)).find(existsSync)
 
 /** One pending job per kind of picture (vocab, scenes…), so waiting for one never swallows another's results. */
+const BATCH_MAX = 60
 const pendingFile = (kind: string) => join(RAW, `pending-batch${kind ? `-${kind}` : ''}.json`)
 
 /**
@@ -163,6 +166,9 @@ async function viaBatch<J extends { key: string; prompt: string }>(jobs: J[], on
     { ...init, headers: { 'x-goog-api-key': KEY, 'Content-Type': 'application/json' } }).then((r) => r.json())
   let pending: { name: string; keys: string[] } | null = existsSync(PENDING) ? JSON.parse(readFileSync(PENDING, 'utf8')) : null
   if (!pending) {
+    // A finished batch returns every image inline (~4.5 MB each): past ~110 images the result no longer fits
+    // in one string. The rest go in the next batch.
+    jobs = jobs.slice(0, BATCH_MAX)
     if (!jobs.length) return
     const res = await api(`models/${MODEL}:batchGenerateContent`, { method: 'POST', body: JSON.stringify({ batch: {
       display_name: `rulingo-${Date.now()}`,
@@ -176,11 +182,15 @@ async function viaBatch<J extends { key: string; prompt: string }>(jobs: J[], on
     console.log(`Lote enviado: ${name} (${jobs.length} imágenes)`)
   }
   for (;;) {
-    const job = await api(pending.name)
-    const state = job.metadata?.state ?? job.state
-    if (state === 'JOB_STATE_SUCCEEDED' || state === 'BATCH_STATE_SUCCEEDED') {
-      writeFileSync(join(RAW, `batch-result-${Date.now()}.json`), JSON.stringify(job)) // keep everything that was paid for
-      const items = job.response?.inlinedResponses?.inlinedResponses ?? job.response?.inlinedResponses ?? job.dest?.inlinedResponses ?? []
+    // Ask only whether it's done: the full batch object repeats every image (hundreds of MB).
+    const op = await api(`${pending.name}?fields=name,done,error`)
+    if (op.done && !op.error) {
+      // Only the response, streamed to disk (overwritten each time; the pictures themselves are kept in RAW).
+      const file = join(RAW, `batch-result-latest${kind ? `-${kind}` : ''}.json`)
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/${pending.name}?fields=response`, { headers: { 'x-goog-api-key': KEY } })
+      await pipeline(Readable.fromWeb(res.body as import('node:stream/web').ReadableStream), createWriteStream(file))
+      const job = JSON.parse(readFileSync(file, 'utf8'))
+      const items = job.response?.inlinedResponses?.inlinedResponses ?? job.response?.inlinedResponses ?? []
       items.forEach((it: any, i: number) => {
         const key = it.metadata?.key ?? pending!.keys[i]
         const target = jobs.find((j) => j.key === key)
@@ -191,8 +201,9 @@ async function viaBatch<J extends { key: string; prompt: string }>(jobs: J[], on
       renameSync(PENDING, join(RAW, `done-${Date.now()}.json`))
       return
     }
-    if (/FAILED|CANCELLED|EXPIRED/.test(String(state))) { stopped = `lote ${state}: ${JSON.stringify(job.error ?? '').slice(0, 200)}`; renameSync(PENDING, join(RAW, `failed-${Date.now()}.json`)); return }
-    process.stdout.write(`· ${state ?? JSON.stringify(job).slice(0, 120)} ${new Date().toLocaleTimeString()}\n`)
+    if (op.done) { stopped = `lote falló: ${JSON.stringify(op.error).slice(0, 200)}`; renameSync(PENDING, join(RAW, `failed-${Date.now()}.json`)); return }
+    if (op.error) { stopped = `lote: ${JSON.stringify(op.error).slice(0, 200)}`; return } // e.g. billing: try again another day
+    process.stdout.write(`· en proceso ${new Date().toLocaleTimeString()}\n`)
     if (process.argv.includes('--no-wait')) return // the daily job: collect the results on a later run
     await new Promise((r) => setTimeout(r, 60_000))
   }
