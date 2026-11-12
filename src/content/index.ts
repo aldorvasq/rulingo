@@ -1,22 +1,12 @@
 import type { Chapter, ExtraPack, Lesson, VocabItem, GrammarPoint } from './types'
+import { compareLessonIds, released } from './release'
 
+export { compareLessonIds, RELEASED_UP_TO } from './release'
+
+// The build already leaves unreleased lessons out of these files (vite.config.ts); the filters below keep
+// the rule in one place for anything that bypasses it.
 const chapterFiles = import.meta.glob<Chapter>('/content/chapters/*.json', { eager: true, import: 'default' })
 const extraFiles = import.meta.glob<ExtraPack>('/content/extra/*.json', { eager: true, import: 'default' })
-
-export function compareLessonIds(a: string, b: string): number {
-  const pa = a.split('.').map(Number)
-  const pb = b.split('.').map(Number)
-  for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
-    const d = (pa[i] ?? 0) - (pb[i] ?? 0)
-    if (d !== 0) return d
-  }
-  return 0
-}
-
-/** The last lesson open in the app. Later lessons are drafted ahead (so their audio and pictures are ready
- *  when the class gets there) but stay out of the app entirely until this is moved forward. */
-export const RELEASED_UP_TO = '4.1'
-const released = (id: string) => compareLessonIds(id, RELEASED_UP_TO) <= 0
 
 export interface LoadedLesson extends Lesson {
   chapter: number
