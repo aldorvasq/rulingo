@@ -167,6 +167,7 @@ const KEY = readFileSync(keyFile, 'utf8').trim()
 let requests = 0
 let stopped = ''
 let audioSeconds = 0
+let lastError = '' // a failure that was retried rather than stopping the run, shown in the summary
 const duration = (f: string) => Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]).toString().trim())
 
 type Turn = { text: string; style: string; speaker?: string }
@@ -194,6 +195,7 @@ async function tts(turns: Turn[], speech: unknown, mp3: string): Promise<boolean
       return true
     }
     const msg = JSON.stringify(res)
+    lastError = msg.slice(0, 200)
     if (/per day|prepayment|billing|PERMISSION|API key/i.test(msg)) { stopped = msg.slice(0, 200); return false }
     await new Promise((r) => setTimeout(r, 8000 * (attempt + 1)))
   }
@@ -371,5 +373,6 @@ const gemClips = all.filter(clipDone).map(audioKey)
 writeFileSync(join(OUT, 'manifest.json'), JSON.stringify({ v: 3, sets: { [CLIP_DIR]: gemClips, c: wavenet.clips }, listening: listeningIndex }))
 
 const gemListening = listening.filter(pieceDone).length
+if (lastError && !stopped) console.log(`\nÚltimo error (reintentado): ${lastError}`)
 console.log(`\nHoy: ${requests} solicitudes${stopped ? ` (paró: ${stopped})` : ''} · ${(audioSeconds / 60).toFixed(1)} min de audio ≈ $${((audioSeconds / 10) * 0.00225).toFixed(2)}`)
 console.log(`Total con Gemini 3.8: ${gemListening}/${listening.length} audios de escucha · ${gemClips.length}/${all.length} clips`)
