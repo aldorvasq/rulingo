@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useStore } from '../state/store'
+import { CLASS_AT, useStore } from '../state/store'
 import { lessons } from '../content'
 import { LessonSelect } from './Settings'
 import { Logo } from '../components/ui'
@@ -8,7 +8,7 @@ export function Onboarding() {
   const update = useStore((s) => s.updateSettings)
   const [step, setStep] = useState(0)
   const [name, setName] = useState('')
-  const [lesson, setLesson] = useState(lessons.find((l) => l.id === '3.4')?.id ?? lessons[0]?.id ?? '1.1')
+  const [lesson, setLesson] = useState(lessons.find((l) => l.id === CLASS_AT)?.id ?? lessons[0]?.id ?? '1.1')
 
   const finish = () => update({ name: name.trim(), focusLessons: [lesson], coveredUpTo: lesson, onboarded: true })
 

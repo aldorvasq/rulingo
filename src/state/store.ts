@@ -103,7 +103,7 @@ interface Actions {
 }
 
 /** Where the class is now. When this moves on, everyone who was behind it is moved up once (they can change it back in Ajustes). */
-export const CLASS_AT = '4.1'
+export const CLASS_AT = '4.2'
 const lessonBefore = (a: string, b: string) => {
   const [x, y] = [a, b].map((id) => id.split('.').map(Number))
   return x[0] !== y[0] ? x[0] < y[0] : (x[1] ?? 0) < (y[1] ?? 0)
